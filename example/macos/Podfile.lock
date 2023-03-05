@@ -1,0 +1,22 @@
+PODS:
+  - deposits_ui_kit (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+
+DEPENDENCIES:
+  - deposits_ui_kit (from `Flutter/ephemeral/.symlinks/plugins/deposits_ui_kit/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+
+EXTERNAL SOURCES:
+  deposits_ui_kit:
+    :path: Flutter/ephemeral/.symlinks/plugins/deposits_ui_kit/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  deposits_ui_kit: f7f11f2285f5232a45cb83413182762751e91212
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+
+PODFILE CHECKSUM: 353c8bcc5d5b0994e508d035b5431cfe18c1dea7
+
+COCOAPODS: 1.11.3
