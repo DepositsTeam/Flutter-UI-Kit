@@ -4,7 +4,7 @@ import 'package:deposits_ui_kit/src/values/dep_spacing.dart';
 import 'package:flutter/material.dart';
 
 class DepButton extends StatelessWidget {
-  final String? title;
+  final String title;
   final VoidCallback onPressed;
   final TextStyle? textStyle;
   final double height, minWidth;
@@ -22,7 +22,7 @@ class DepButton extends StatelessWidget {
 
   const DepButton(
       {Key? key,
-      this.title,
+      required this.title,
       required this.onPressed,
       this.textStyle,
       this.height = 55,
@@ -117,7 +117,7 @@ class DepButton extends StatelessWidget {
                         verticalSpaceSmall,
                       ],
                       Text(
-                        title!,
+                        title,
                         style: textStyle ??
                             TextStyle(
                               fontWeight: FontWeight.bold,

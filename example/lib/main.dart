@@ -1,7 +1,7 @@
 import 'package:deposits_ui_kit_example/badge/badge_examples.dart';
 import 'package:deposits_ui_kit_example/button/botton._examples.dart';
+import 'package:deposits_ui_kit_example/toast/toast_example.dart';
 import 'package:flutter/material.dart';
-import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:storybook_flutter/storybook_flutter.dart';
 
 void main() => runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Storybook(
-        initialStory: 'Badge/Solid Badge',
+        initialStory: 'Button/Default Button',
         plugins: _plugins,
         stories: [
           //-------------default button----------------------//
@@ -38,6 +38,12 @@ class MyApp extends StatelessWidget {
           SubtleBadge(context),
           //-------------Solid Badge----------------------//
           SolidBadge(context),
+          //-------------title toast----------------------//
+          TitleToast(context),
+          TitleIndicatorToast(context),
+          //-------------title and message toast----------------------//
+          TitleMgsToast(context),
+          IndicatorToast(context),
         ],
       );
 }
