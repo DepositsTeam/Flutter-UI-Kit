@@ -1,3 +1,4 @@
+import 'package:deposits_ui_kit_example/avatar/avatar_example.dart';
 import 'package:deposits_ui_kit_example/badge/badge_examples.dart';
 import 'package:deposits_ui_kit_example/button/botton_examples.dart';
 import 'package:deposits_ui_kit_example/colors/colors_example.dart';
@@ -54,6 +55,11 @@ class MyApp extends StatelessWidget {
           OrangeColorShades(context),
           RedColorShades(context),
           BlueColorShades(context),
+           //-------------Avatrs----------------------//
+          BasicAvatar(context),
+          BasicSubtileAvatar(context),
+          BadgeAvatar(context),
+          BadgeSubtleAvatar(context)
         ],
       );
 }

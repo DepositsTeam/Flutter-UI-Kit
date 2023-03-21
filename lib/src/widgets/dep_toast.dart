@@ -1,7 +1,6 @@
 import 'package:another_flushbar/flushbar.dart';
-import 'package:deposits_ui_kit/src/utils/enum.dart';
-import 'package:deposits_ui_kit/src/values/dep_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 
 void depToast({
   BuildContext? context,
@@ -38,7 +37,7 @@ void depToast({
       messageColor = black;
       break;
     case ToastType.Error:
-      icon =Icons.error;
+      icon = Icons.error;
       backgroundColor = red500;
       leftBarIndicatorColor = red500;
       titleColor = white;
@@ -55,13 +54,16 @@ void depToast({
   duration ?? const Duration(milliseconds: 4000);
   Flushbar(
     padding: const EdgeInsets.all(15),
-    margin: isToastFloat ? const EdgeInsets.only(top: 15, left: 10, right: 10) : EdgeInsets.zero,
+    margin: isToastFloat
+        ? const EdgeInsets.only(top: 15, left: 10, right: 10)
+        : EdgeInsets.zero,
     borderRadius: BorderRadius.circular(8),
     barBlur: 50.0,
-    flushbarStyle: isToastFloat? FlushbarStyle.FLOATING : FlushbarStyle.GROUNDED,
+    flushbarStyle:
+        isToastFloat ? FlushbarStyle.FLOATING : FlushbarStyle.GROUNDED,
     icon: Icon(
       icon,
-      color:isLeftIndicatorPresent ? leftBarIndicatorColor : white,
+      color: isLeftIndicatorPresent ? leftBarIndicatorColor : white,
       size: 16,
     ),
     duration: const Duration(milliseconds: 4000),

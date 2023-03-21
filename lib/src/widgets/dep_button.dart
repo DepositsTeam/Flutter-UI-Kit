@@ -1,6 +1,4 @@
-import 'package:deposits_ui_kit/src/values/dep_colors.dart';
-import 'package:deposits_ui_kit/src/values/dep_dimens.dart';
-import 'package:deposits_ui_kit/src/values/dep_spacing.dart';
+import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 
 class DepButton extends StatelessWidget {

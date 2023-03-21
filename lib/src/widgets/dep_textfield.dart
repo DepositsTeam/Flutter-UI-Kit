@@ -1,9 +1,7 @@
-import 'package:deposits_ui_kit/src/values/dep_colors.dart';
-import 'package:deposits_ui_kit/src/values/dep_dimens.dart';
-import 'package:deposits_ui_kit/src/values/dep_validators.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
+import 'package:flutter/services.dart';
+import 'package:flutter/material.dart';
+import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepTextFieldWidget extends StatelessWidget {
   final String? labelText, hintText;
   final String? initialValue, prefixText, suffixText;

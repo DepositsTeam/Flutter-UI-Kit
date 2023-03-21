@@ -1,7 +1,6 @@
-import 'package:deposits_ui_kit/src/values/dep_colors.dart';
-import 'package:deposits_ui_kit/src/values/dep_dimens.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 
 class DepRichTextWidget extends StatelessWidget {
   final String? title, title2, subtitle, subtitle2, subtitle3;

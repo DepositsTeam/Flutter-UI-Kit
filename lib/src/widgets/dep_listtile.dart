@@ -1,10 +1,8 @@
 
 
 import 'dart:io';
-
-import 'package:deposits_ui_kit/src/values/dep_colors.dart';
-import 'package:deposits_ui_kit/src/widgets/dep_text.dart';
 import 'package:flutter/material.dart';
+import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 
 class DepListTileWidget extends StatelessWidget {
   final String? title;

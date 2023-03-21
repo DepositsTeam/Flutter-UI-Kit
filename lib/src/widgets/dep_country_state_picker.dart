@@ -3,14 +3,10 @@
 // ignore: must_be_immutable
 import 'dart:convert';
 
-import 'package:deposits_ui_kit/src/model/city_model.dart';
-import 'package:deposits_ui_kit/src/model/country_model.dart';
-import 'package:deposits_ui_kit/src/model/state_model.dart';
-import 'package:deposits_ui_kit/src/values/dep_spacing.dart';
-import 'package:deposits_ui_kit/src/values/dep_strings.dart';
-import 'package:deposits_ui_kit/src/widgets/dep_textfield.dart';
-import 'package:flutter/material.dart';
+
 import 'package:flutter/services.dart';
+import 'package:flutter/material.dart';
+import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 
 class DepCountryStateCityPicker extends StatefulWidget {
   TextEditingController country;
