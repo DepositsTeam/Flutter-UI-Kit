@@ -29,7 +29,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   auto_route: ^5.0.2
-  storybook_flutter: ^0.12.0
+  widgetbook: ^2.4.1
 
 dev_dependencies:
   flutter_test:

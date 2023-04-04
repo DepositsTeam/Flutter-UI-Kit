@@ -1,12 +1,12 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:storybook_flutter/storybook_flutter.dart';
+import 'package:widgetbook/widgetbook.dart';
 
 String imageUrl =
     "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250";
 
-Story BasicAvatar(BuildContext context) {
-  return Story(
+WidgetbookUseCase BasicAvatar(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Avatar/Basic',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -31,7 +31,6 @@ Story BasicAvatar(BuildContext context) {
                       backgroundImage: NetworkImage(imageUrl),
                       shape: context.knobs.options(
                           label: 'Circle Shaoe',
-                          initial: AvatarShape.circle,
                           description: 'Select Shape.',
                           options: const [
                             Option(
@@ -49,8 +48,8 @@ Story BasicAvatar(BuildContext context) {
                           ]),
                       size: DepSize.LARGE,
                       maxRadius: context.knobs
-                          .sliderInt(
-                              label: 'Radius', initial: 50, max: 70, min: 50)
+                          .slider(
+                              label: 'Radius', initialValue: 50, max: 70, min: 50)
                           .toDouble(),
                     )
                   ],
@@ -58,8 +57,8 @@ Story BasicAvatar(BuildContext context) {
           ));
 }
 
-Story BasicSubtileAvatar(BuildContext context) {
-  return Story(
+WidgetbookUseCase BasicSubtileAvatar(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Avatar/Subtle',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -83,10 +82,9 @@ Story BasicSubtileAvatar(BuildContext context) {
                     DepAvatar(
                       backgroundColor: context.knobs.options(
                           label: 'Color Shade',
-                          initial: cyan200,
                           description: 'Select Color Shade.',
                           options: const [
-                           Option(
+                            Option(
                               label: 'cyan200',
                               value: cyan200,
                             ),
@@ -137,7 +135,6 @@ Story BasicSubtileAvatar(BuildContext context) {
                           ]),
                       shape: context.knobs.options(
                           label: 'Circle Shaoe',
-                          initial: AvatarShape.circle,
                           description: 'Select Shape.',
                           options: const [
                             Option(
@@ -154,10 +151,13 @@ Story BasicSubtileAvatar(BuildContext context) {
                             ),
                           ]),
                       size: DepSize.LARGE,
-                      maxRadius: context.knobs.sliderInt(label: 'Radius', initial: 50, max: 70, min: 50).toDouble(),
+                      maxRadius: context.knobs
+                          .slider(
+                              label: 'Radius', initialValue: 50, max: 70, min: 50)
+                          .toDouble(),
                       child: DepText(
                         text: context.knobs
-                            .text(label: '2 Letter Initials', initial: 'TB'),
+                            .text(label: '2 Letter Initials', initialValue: 'TB'),
                       ),
                     )
                   ],
@@ -165,8 +165,8 @@ Story BasicSubtileAvatar(BuildContext context) {
           ));
 }
 
-Story BadgeAvatar(BuildContext context) {
-  return Story(
+WidgetbookUseCase BadgeAvatar(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Avatar/Badge',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -193,9 +193,9 @@ Story BadgeAvatar(BuildContext context) {
                           backgroundImage: NetworkImage(imageUrl),
                           size: DepSize.LARGE,
                           maxRadius: context.knobs
-                              .sliderInt(
+                              .slider(
                                   label: 'Radius',
-                                  initial: 50,
+                                  initialValue: 50,
                                   max: 70,
                                   min: 50)
                               .toDouble(),
@@ -217,8 +217,8 @@ Story BadgeAvatar(BuildContext context) {
           ));
 }
 
-Story BadgeSubtleAvatar(BuildContext context) {
-  return Story(
+WidgetbookUseCase BadgeSubtleAvatar(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Avatar/Subtile Badge',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -243,71 +243,70 @@ Story BadgeSubtleAvatar(BuildContext context) {
                       children: [
                         DepAvatar(
                           backgroundColor: context.knobs.options(
-                          label: 'Color Shade',
-                          initial: cyan200,
-                          description: 'Select Color Shade.',
-                          options: const [
-                            Option(
-                              label: 'cyan200',
-                              value: cyan200,
-                            ),
-                            Option(
+                              label: 'Color Shade',
+                              description: 'Select Color Shade.',
+                              options: const [
+                                Option(
+                                  label: 'cyan200',
+                                  value: cyan200,
+                                ),
+                                Option(
                                   label: 'cyan600',
                                   value: cyan600,
                                 ),
-                            Option(
-                              label: 'green200',
-                              value: green200,
-                            ),
-                             Option(
+                                Option(
+                                  label: 'green200',
+                                  value: green200,
+                                ),
+                                Option(
                                   label: 'green600',
                                   value: green600,
                                 ),
-                            Option(
-                              label: 'orange200',
-                              value: orange200,
-                            ),
-                            Option(
+                                Option(
+                                  label: 'orange200',
+                                  value: orange200,
+                                ),
+                                Option(
                                   label: 'orange600',
                                   value: orange600,
                                 ),
-                            Option(
-                              label: 'danger200',
-                              value: red200,
-                            ),
-                            Option(
+                                Option(
+                                  label: 'danger200',
+                                  value: red200,
+                                ),
+                                Option(
                                   label: 'danger600',
                                   value: red600,
                                 ),
-                            Option(
-                              label: 'neutral200',
-                              value: gray200,
-                            ),
-                             Option(
+                                Option(
+                                  label: 'neutral200',
+                                  value: gray200,
+                                ),
+                                Option(
                                   label: 'neutral600',
                                   value: gray600,
                                 ),
-                            Option(
-                              label: 'blue200',
-                              value: blue200,
-                            ),
-                            Option(
+                                Option(
+                                  label: 'blue200',
+                                  value: blue200,
+                                ),
+                                Option(
                                   label: 'blue600',
                                   value: blue600,
                                 ),
-                          ]),
+                              ]),
                           size: DepSize.LARGE,
                           maxRadius: context.knobs
-                              .sliderInt(
+                              .slider(
                                   label: 'Radius',
-                                  initial: 50,
+                                  initialValue: 50,
                                   max: 70,
                                   min: 50)
                               .toDouble(),
                           shape: AvatarShape.circle,
                           child: DepText(
                             text: context.knobs.text(
-                                label: '2 Letter Initials', initial: 'TB'),
+                                label: '2 Letter Initials', initialValue: 'TB'),
                           ),
                         ),
                         const Positioned(

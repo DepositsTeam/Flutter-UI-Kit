@@ -1,9 +1,9 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:storybook_flutter/storybook_flutter.dart';
+import 'package:widgetbook/widgetbook.dart';
 
-Story TitleToast(BuildContext context) {
-  return Story(
+WidgetbookUseCase TitleToast(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Toast/Title Toast',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -36,7 +36,7 @@ Story TitleToast(BuildContext context) {
                         buttonColor: gray200,
                         title: "Info Toast",
                         textColor: white),
-                   //info toast
+                    //info toast
                     DepButton(
                         onPressed: () {
                           depToast(
@@ -47,7 +47,7 @@ Story TitleToast(BuildContext context) {
                         buttonColor: blue500,
                         title: "Info Toast",
                         textColor: white),
-                  //Woarning toast
+                    //Woarning toast
                     DepButton(
                         onPressed: () {
                           depToast(
@@ -85,9 +85,8 @@ Story TitleToast(BuildContext context) {
           ));
 }
 
-
-Story TitleIndicatorToast(BuildContext context) {
-  return Story(
+WidgetbookUseCase TitleIndicatorToast(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Toast/Title Indicator Toast',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -116,7 +115,7 @@ Story TitleIndicatorToast(BuildContext context) {
                               isLeftIndicatorPresent: true,
                               context: context,
                               msg: "A simple general message",
-                             toastType: ToastType.General);
+                              toastType: ToastType.General);
                         },
                         buttonColor: gray200,
                         title: "Info Toast",
@@ -128,7 +127,7 @@ Story TitleIndicatorToast(BuildContext context) {
                               isLeftIndicatorPresent: true,
                               context: context,
                               msg: "This is an info alert ",
-                             toastType: ToastType.Info);
+                              toastType: ToastType.Info);
                         },
                         buttonColor: blue500,
                         title: "Info Toast",
@@ -174,9 +173,8 @@ Story TitleIndicatorToast(BuildContext context) {
           ));
 }
 
-
-Story TitleMgsToast(BuildContext context) {
-  return Story(
+WidgetbookUseCase TitleMgsToast(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Toast/Title & Message Toast',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -204,7 +202,8 @@ Story TitleMgsToast(BuildContext context) {
                           depToast(
                               context: context,
                               title: "A simple general message",
-                              msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                              msg:
+                                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                               toastType: ToastType.General);
                         },
                         buttonColor: gray200,
@@ -216,7 +215,8 @@ Story TitleMgsToast(BuildContext context) {
                           depToast(
                               context: context,
                               title: "This is an info alert ",
-                              msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                              msg:
+                                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                               toastType: ToastType.Info);
                         },
                         buttonColor: blue500,
@@ -228,7 +228,8 @@ Story TitleMgsToast(BuildContext context) {
                           depToast(
                               context: context,
                               title: "This is an warning alert ",
-                              msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                              msg:
+                                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                               toastType: ToastType.Warning);
                         },
                         buttonColor: orange600,
@@ -240,7 +241,8 @@ Story TitleMgsToast(BuildContext context) {
                           depToast(
                               context: context,
                               title: "This is an error alert ",
-                              msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                              msg:
+                                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                               toastType: ToastType.Error);
                         },
                         buttonColor: red500,
@@ -252,7 +254,8 @@ Story TitleMgsToast(BuildContext context) {
                           depToast(
                               context: context,
                               title: "This is an success alert ",
-                              msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                              msg:
+                                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                               toastType: ToastType.Success);
                         },
                         buttonColor: green600,
@@ -263,8 +266,8 @@ Story TitleMgsToast(BuildContext context) {
           ));
 }
 
-Story IndicatorToast(BuildContext context) {
-  return Story(
+WidgetbookUseCase IndicatorToast(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Toast/Left Indicator Toast',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -290,7 +293,7 @@ Story IndicatorToast(BuildContext context) {
                     DepButton(
                         onPressed: () {
                           depToast(
-                            isLeftIndicatorPresent: true,
+                              isLeftIndicatorPresent: true,
                               context: context,
                               title: "A simple general message",
                               msg:
@@ -304,7 +307,7 @@ Story IndicatorToast(BuildContext context) {
                     DepButton(
                         onPressed: () {
                           depToast(
-                            isLeftIndicatorPresent: true,
+                              isLeftIndicatorPresent: true,
                               context: context,
                               title: "This is an info alert ",
                               msg:
@@ -318,7 +321,7 @@ Story IndicatorToast(BuildContext context) {
                     DepButton(
                         onPressed: () {
                           depToast(
-                            isLeftIndicatorPresent: true,
+                              isLeftIndicatorPresent: true,
                               context: context,
                               title: "This is an warning alert ",
                               msg:
@@ -332,7 +335,7 @@ Story IndicatorToast(BuildContext context) {
                     DepButton(
                         onPressed: () {
                           depToast(
-                            isLeftIndicatorPresent: true,
+                              isLeftIndicatorPresent: true,
                               context: context,
                               title: "This is an error alert ",
                               msg:
@@ -346,7 +349,7 @@ Story IndicatorToast(BuildContext context) {
                     DepButton(
                         onPressed: () {
                           depToast(
-                            isLeftIndicatorPresent: true,
+                              isLeftIndicatorPresent: true,
                               context: context,
                               title: "This is an success alert ",
                               msg:

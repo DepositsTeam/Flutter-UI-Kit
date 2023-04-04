@@ -1,13 +1,13 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:storybook_flutter/storybook_flutter.dart';
+import 'package:widgetbook/widgetbook.dart';
 
- int groupValue = 0;
+int groupValue = 0;
 String imageUrl =
     "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250";
 
-Story RadioLabel(BuildContext context) {
-  return Story(
+WidgetbookUseCase RadioLabel(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Radio/Basic',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -21,8 +21,7 @@ Story RadioLabel(BuildContext context) {
               backgroundColor: primaryColor,
             ),
             body: StatefulBuilder(builder: (context, setState) {
-             
-             return Container(
+              return Container(
                   alignment: Alignment.center,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 16,
@@ -32,14 +31,13 @@ Story RadioLabel(BuildContext context) {
                     value: 2,
                     toggleable: true,
                     type: context.knobs.options(
-                          label: 'Circle Shaoe',
-                          initial: DepRadioType.basic,
-                          description: 'Radio Type',
-                          options: const [
-                            Option(
-                              label: 'Basic',
-                              value: DepRadioType.basic,
-                            ),
+                        label: 'Circle Shaoe',
+                        description: 'Radio Type',
+                        options: const [
+                          Option(
+                            label: 'Basic',
+                            value: DepRadioType.basic,
+                          ),
                           Option(
                             label: 'Square',
                             value: DepRadioType.square,
@@ -48,10 +46,10 @@ Story RadioLabel(BuildContext context) {
                             label: 'Blunt',
                             value: DepRadioType.blunt,
                           ),
-                          ]),
+                        ]),
                     groupValue: groupValue,
                     onChanged: (value) {
-                     setState(() {
+                      setState(() {
                         groupValue = value;
                       });
                     },
@@ -60,8 +58,8 @@ Story RadioLabel(BuildContext context) {
           ));
 }
 
-Story RadioListTileLabel(BuildContext context) {
-  return Story(
+WidgetbookUseCase RadioListTileLabel(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Radio/ListTile',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -77,16 +75,16 @@ Story RadioListTileLabel(BuildContext context) {
             body: Center(
               child: StatefulBuilder(builder: (context, setState) {
                 return Container(
-                   height: 80,
-                    alignment: Alignment.center,
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 16,
-                    ),
-                    child: DepRadioListTile(
+                  height: 80,
+                  alignment: Alignment.center,
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                  ),
+                  child: DepRadioListTile(
                     titleText: 'Arthur Shelby',
                     subTitleText: 'By order of the peaky blinders',
                     avatar: DepAvatar(
-                       backgroundImage: NetworkImage(imageUrl),
+                      backgroundImage: NetworkImage(imageUrl),
                     ),
                     size: 25,
                     value: 0,
@@ -97,14 +95,14 @@ Story RadioListTileLabel(BuildContext context) {
                       });
                     },
                   ),
-                    );
+                );
               }),
             ),
           ));
 }
 
-Story CheckLabel(BuildContext context) {
-  return Story(
+WidgetbookUseCase CheckLabel(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Checkbox/Basic',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(

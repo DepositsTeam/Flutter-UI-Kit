@@ -1,9 +1,9 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:storybook_flutter/storybook_flutter.dart';
+import 'package:widgetbook/widgetbook.dart';
 
-Story ChromaticColors(BuildContext context) {
-  return Story(
+WidgetbookUseCase ChromaticColors(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Colors/Chromatic Colors',
       builder: (context) => Scaffold(
           appBar: DepAppbarWidget(
@@ -29,7 +29,9 @@ Story ChromaticColors(BuildContext context) {
                     colorItem(color: secondaryColor, hex: "#0D7FE9")
                   ],
                 ),
-                const SizedBox(height: 25,),
+                const SizedBox(
+                  height: 25,
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
@@ -61,9 +63,8 @@ Story ChromaticColors(BuildContext context) {
           )));
 }
 
-
-Story CyanColorShades(BuildContext context) {
-  return Story(
+WidgetbookUseCase CyanColorShades(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Colors/Cyan Color Shades',
       builder: (context) => Scaffold(
           appBar: DepAppbarWidget(
@@ -78,14 +79,13 @@ Story CyanColorShades(BuildContext context) {
           ),
           body: Center(
             child: Container(
-                alignment: Alignment.center,
-                margin: const EdgeInsets.symmetric(
-                  horizontal: 16,
-                ),
-                height: 50,
-                color: context.knobs.options(
+              alignment: Alignment.center,
+              margin: const EdgeInsets.symmetric(
+                horizontal: 16,
+              ),
+              height: 50,
+              color: context.knobs.options(
                 label: 'Color Shade',
-                initial: cyan100,
                 description: 'Select Color Shade.',
                 options: const [
                   Option(
@@ -127,12 +127,11 @@ Story CyanColorShades(BuildContext context) {
                 ],
               ),
             ),
-          )
-          ));
+          )));
 }
 
-Story GreenColorShades(BuildContext context) {
-  return Story(
+WidgetbookUseCase GreenColorShades(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Colors/Green Color Shades',
       builder: (context) => Scaffold(
           appBar: DepAppbarWidget(
@@ -154,7 +153,6 @@ Story GreenColorShades(BuildContext context) {
               height: 50,
               color: context.knobs.options(
                 label: 'Color Shade',
-                initial: green100,
                 description: 'Select Color Shade.',
                 options: const [
                   Option(
@@ -199,8 +197,8 @@ Story GreenColorShades(BuildContext context) {
           )));
 }
 
-Story OrangeColorShades(BuildContext context) {
-  return Story(
+WidgetbookUseCase OrangeColorShades(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Colors/Orange Color Shades',
       builder: (context) => Scaffold(
           appBar: DepAppbarWidget(
@@ -222,7 +220,6 @@ Story OrangeColorShades(BuildContext context) {
               height: 50,
               color: context.knobs.options(
                 label: 'Color Shade',
-                initial: orange100,
                 description: 'Select Color Shade.',
                 options: const [
                   Option(
@@ -267,8 +264,8 @@ Story OrangeColorShades(BuildContext context) {
           )));
 }
 
-Story RedColorShades(BuildContext context) {
-  return Story(
+WidgetbookUseCase RedColorShades(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Colors/Red Color Shades',
       builder: (context) => Scaffold(
           appBar: DepAppbarWidget(
@@ -290,7 +287,6 @@ Story RedColorShades(BuildContext context) {
               height: 50,
               color: context.knobs.options(
                 label: 'Color Shade',
-                initial: red100,
                 description: 'Select Color Shade.',
                 options: const [
                   Option(
@@ -335,8 +331,8 @@ Story RedColorShades(BuildContext context) {
           )));
 }
 
-Story BlueColorShades(BuildContext context) {
-  return Story(
+WidgetbookUseCase BlueColorShades(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Colors/Blue Color Shades',
       builder: (context) => Scaffold(
           appBar: DepAppbarWidget(
@@ -358,7 +354,6 @@ Story BlueColorShades(BuildContext context) {
               height: 50,
               color: context.knobs.options(
                 label: 'Color Shade',
-                initial: blue100,
                 description: 'Select Color Shade.',
                 options: const [
                   Option(
@@ -403,7 +398,7 @@ Story BlueColorShades(BuildContext context) {
           )));
 }
 
-Widget colorItem({required Color color,required String hex}) {
+Widget colorItem({required Color color, required String hex}) {
   return SizedBox(
     height: 120,
     width: 100,

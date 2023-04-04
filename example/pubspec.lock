@@ -258,6 +258,11 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   freezed_annotation:
     dependency: transitive
     description:
@@ -282,6 +287,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  go_router:
+    dependency: transitive
+    description:
+      name: go_router
+      sha256: "25ae21384b758eb80daff113fe8bfb785c2dd17b69fe4885008fe764b26fd1ca"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.1"
   graphs:
     dependency: transitive
     description:
@@ -418,14 +431,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
-  pointer_interceptor:
-    dependency: transitive
-    description:
-      name: pointer_interceptor
-      sha256: "6aa680b30d96dccef496933d00208ad25f07e047f644dc98ce03ec6141633a9a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.9.3+4"
   pool:
     dependency: transitive
     description:
@@ -458,14 +463,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.2"
-  recase:
-    dependency: transitive
-    description:
-      name: recase
-      sha256: e4eb4ec2dcdee52dcf99cb4ceabaffc631d7424ee55e56f280bc039737f89213
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.1.0"
   shelf:
     dependency: transitive
     description:
@@ -511,14 +508,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
-  storybook_flutter:
-    dependency: "direct main"
-    description:
-      name: storybook_flutter
-      sha256: "0ef97a82741e12734af3c104ef6c913af1ed808756214d23bff2bd115e547887"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.12.0"
   stream_channel:
     dependency: transitive
     description:
@@ -599,6 +588,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.0"
+  widgetbook:
+    dependency: "direct main"
+    description:
+      name: widgetbook
+      sha256: c42a3d414d19c008d90f0b6df669c18bb151c5f3012ed073498d96cf133e9caf
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.1"
+  widgetbook_models:
+    dependency: transitive
+    description:
+      name: widgetbook_models
+      sha256: "40899314ab0cce1a52b189ee12b79138ba59f445229f850fb326f579c8f63045"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.7"
   xml:
     dependency: transitive
     description:

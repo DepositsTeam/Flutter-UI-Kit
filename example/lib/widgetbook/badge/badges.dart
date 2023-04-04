@@ -1,9 +1,9 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:storybook_flutter/storybook_flutter.dart';
+import 'package:widgetbook/widgetbook.dart';
 
-Story SubtleBadge(BuildContext context) {
-  return Story(
+WidgetbookUseCase SubtleBadge(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Badge/Subtle Badge',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -23,11 +23,13 @@ Story SubtleBadge(BuildContext context) {
               ),
               child: DepTextTagTag(
                 text: context.knobs
-                    .text(label: 'Subtle Badge', initial: 'Subtle Badge'),
-                tagFontSize: context.knobs.sliderInt(label: 'Set font-size', initial: 18, max: 25, min: 16 ).toDouble(),
+                    .text(label: 'Subtle Badge', initialValue: 'Subtle Badge'),
+                tagFontSize: context.knobs
+                    .slider(
+                        label: 'Set font-size', initialValue: 18, max: 25, min: 16)
+                    .toDouble(),
                 backgroundColor: context.knobs.options(
                   label: 'Button Color',
-                  initial: primaryColor,
                   description: 'Background color of the badge.',
                   options: const [
                     Option(
@@ -61,8 +63,8 @@ Story SubtleBadge(BuildContext context) {
           ));
 }
 
-Story SolidBadge(BuildContext context) {
-  return Story(
+WidgetbookUseCase SolidBadge(BuildContext context) {
+  return WidgetbookUseCase(
       name: 'Badge/Solid Badge',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
@@ -82,15 +84,14 @@ Story SolidBadge(BuildContext context) {
               ),
               child: DepTextTagTag(
                 text: context.knobs
-                    .text(label: 'Solid Badge', initial: 'Solid Badge'),
+                    .text(label: 'Solid Badge', initialValue: 'Solid Badge'),
                 tagFontSize: context.knobs
-                    .sliderInt(
-                        label: 'Set font-size', initial: 18, max: 25, min: 16)
+                    .slider(
+                        label: 'Set font-size', initialValue: 18, max: 25, min: 16)
                     .toDouble(),
                 isSolid: true,
                 backgroundColor: context.knobs.options(
                   label: 'Button Color',
-                  initial: primaryColor,
                   description: 'Background color of the badge.',
                   options: const [
                     Option(
