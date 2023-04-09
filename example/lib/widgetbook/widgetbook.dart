@@ -1,6 +1,9 @@
+import 'package:deposits_ui_kit_example/widgetbook/accordion/accordion.dart';
 import 'package:deposits_ui_kit_example/widgetbook/avatar/avatar.dart';
 import 'package:deposits_ui_kit_example/widgetbook/badge/badges.dart';
+import 'package:deposits_ui_kit_example/widgetbook/bottom_sheet/bottom_sheet.dart';
 import 'package:deposits_ui_kit_example/widgetbook/bottons/bottons.dart';
+import 'package:deposits_ui_kit_example/widgetbook/card/card.dart';
 import 'package:deposits_ui_kit_example/widgetbook/colors/colors.dart';
 import 'package:deposits_ui_kit_example/widgetbook/radio/radio.dart';
 import 'package:deposits_ui_kit_example/widgetbook/toast/toast.dart';
@@ -14,7 +17,34 @@ class HotreloadWidgetbook extends StatelessWidget {
   Widget build(BuildContext context) {
     return Widgetbook.material(
         categories: [
-          //button
+          //accordion
+         WidgetbookCategory(
+            name: 'Accordion',
+            widgets: [
+              WidgetbookComponent(
+                name: 'Accordion/Basic',
+                useCases: [
+                  //-------------default button----------------------//
+                  BasicAccordion(context),
+                ],
+              ),
+              WidgetbookComponent(
+                name: 'Accordion/Icon',
+                useCases: [
+                  //-------------default button----------------------//
+                  IconAccordion(context),
+                ],
+              ),
+              WidgetbookComponent(
+                name: 'Accordion/Text',
+                useCases: [
+                  //-------------default button----------------------//
+                  TextAccordion(context),
+                ],
+              )
+            ],
+          ),
+           //button
           WidgetbookCategory(
             name: 'Buttons',
             widgets: [
@@ -58,6 +88,14 @@ class HotreloadWidgetbook extends StatelessWidget {
                 useCases: [
                   //-------------Outline button----------------------//
                   OutlineButton(context),
+                ],
+              ),
+              WidgetbookComponent(
+                name: 'Social Button',
+                useCases: [
+                  //-------------Social button----------------------//
+                  FilledSocialButton(context),
+                  OutlinedSocialButton(context),
                 ],
               ),
             ],
@@ -225,7 +263,67 @@ class HotreloadWidgetbook extends StatelessWidget {
               ),
             ],
           ),
-          
+           //card
+          WidgetbookCategory(
+            name: 'Card',
+            widgets: [
+              WidgetbookComponent(
+                name: 'Card/Basic',
+                useCases: [
+                  //-------------Basic button----------------------//
+                  BasicCard(context),
+                ],
+              ),
+              WidgetbookComponent(
+                name: 'Card/Gradient',
+                useCases: [
+                  //-------------Gradient button----------------------//
+                  GradientCard(context),
+                ],
+              ),
+              WidgetbookComponent(
+                name: 'Card/Clip',
+                useCases: [
+                  //-------------clip button----------------------//
+                  ClipCard(context),
+                ],
+              ),
+               WidgetbookComponent(
+                name: 'Card/ImageBackground & Image Overlay',
+                useCases: [
+                  //-------------clip button----------------------//
+                  BackImageCard(context),
+                ],
+              )
+            ],
+          ),
+           //Bottom sheet
+          WidgetbookCategory(
+            name: 'Bottom Sheet',
+            widgets: [
+              WidgetbookComponent(
+                name: 'BottomSheet/Basic',
+                useCases: [
+                  //-------------Basic button----------------------//
+                  BasicBottomSheet(context),
+                ],
+              ),
+              WidgetbookComponent(
+              name: 'BottomSheet/Footer',
+              useCases: [
+                //-------------Footer bottom sheet----------------------//
+                FooterBottomSheet(context),
+              ],
+            ),
+            WidgetbookComponent(
+              name: 'BottomSheet/Expandable Content',
+              useCases: [
+                //-------------Footer bottom sheet----------------------//
+                ExpandableBottomSheet(context),
+              ],
+            ),
+            ]
+            )
         ],
         themes: [
           WidgetbookTheme(

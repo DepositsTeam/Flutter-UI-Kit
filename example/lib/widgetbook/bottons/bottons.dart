@@ -1,5 +1,3 @@
-
-
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
@@ -25,8 +23,8 @@ WidgetbookUseCase PrimaryButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs
-                    .text(label: 'Primary Button', initialValue: 'Primary Button'),
+                title: context.knobs.text(
+                    label: 'Primary Button', initialValue: 'Primary Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
                 showSearchIcon: context.knobs
@@ -35,10 +33,10 @@ WidgetbookUseCase PrimaryButton(BuildContext context) {
                     .boolean(label: 'Show Dropdown Icon', initialValue: false),
                 isDisabled: context.knobs
                     .boolean(label: 'Disable Button', initialValue: false),
-                isButtonCurved: context.knobs
-                    .boolean(label: 'Curve Button Borders', initialValue: false),
-                isResponsive: context.knobs
-                    .boolean(label: 'Enable Responsiveness', initialValue: false),
+                isButtonCurved: context.knobs.boolean(
+                    label: 'Curve Button Borders', initialValue: false),
+                isResponsive: context.knobs.boolean(
+                    label: 'Enable Responsiveness', initialValue: false),
                 height: 65,
                 textColor: gray700,
                 textFontSize: 18,
@@ -110,8 +108,8 @@ WidgetbookUseCase DefaultButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs
-                    .text(label: 'Default Button', initialValue: 'Default Button'),
+                title: context.knobs.text(
+                    label: 'Default Button', initialValue: 'Default Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
                 showSearchIcon: context.knobs
@@ -120,15 +118,15 @@ WidgetbookUseCase DefaultButton(BuildContext context) {
                     .boolean(label: 'Show Dropdown Icon', initialValue: false),
                 isDisabled: context.knobs
                     .boolean(label: 'Disable Button', initialValue: false),
-                isButtonCurved: context.knobs
-                    .boolean(label: 'Curve Button Borders', initialValue: false),
-                isResponsive: context.knobs
-                    .boolean(label: 'Enable Responsiveness', initialValue: false),
+                isButtonCurved: context.knobs.boolean(
+                    label: 'Curve Button Borders', initialValue: false),
+                isResponsive: context.knobs.boolean(
+                    label: 'Enable Responsiveness', initialValue: false),
                 height: 65,
                 textFontSize: 18,
                 textColor: gray700,
-                addBorder:
-                    context.knobs.boolean(label: 'Add Border', initialValue: false),
+                addBorder: context.knobs
+                    .boolean(label: 'Add Border', initialValue: false),
                 buttonBorderColor: gray300,
                 buttonColor: context.knobs.options(
                   label: 'Button Color',
@@ -178,8 +176,8 @@ WidgetbookUseCase DangerButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs
-                    .text(label: 'Danger Button', initialValue: 'Danger Button'),
+                title: context.knobs.text(
+                    label: 'Danger Button', initialValue: 'Danger Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
                 showSearchIcon: context.knobs
@@ -188,10 +186,10 @@ WidgetbookUseCase DangerButton(BuildContext context) {
                     .boolean(label: 'Show Dropdown Icon', initialValue: false),
                 isDisabled: context.knobs
                     .boolean(label: 'Disable Button', initialValue: false),
-                isButtonCurved: context.knobs
-                    .boolean(label: 'Curve Button Borders', initialValue: false),
-                isResponsive: context.knobs
-                    .boolean(label: 'Enable Responsiveness', initialValue: false),
+                isButtonCurved: context.knobs.boolean(
+                    label: 'Curve Button Borders', initialValue: false),
+                isResponsive: context.knobs.boolean(
+                    label: 'Enable Responsiveness', initialValue: false),
                 height: 65,
                 textFontSize: 18,
                 textColor: white,
@@ -260,8 +258,8 @@ WidgetbookUseCase SuccessButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs
-                    .text(label: 'Success Button', initialValue: 'Success Button'),
+                title: context.knobs.text(
+                    label: 'Success Button', initialValue: 'Success Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
                 showSearchIcon: context.knobs
@@ -270,10 +268,10 @@ WidgetbookUseCase SuccessButton(BuildContext context) {
                     .boolean(label: 'Show Dropdown Icon', initialValue: false),
                 isDisabled: context.knobs
                     .boolean(label: 'Disable Button', initialValue: false),
-                isButtonCurved: context.knobs
-                    .boolean(label: 'Curve Button Borders', initialValue: false),
-                isResponsive: context.knobs
-                    .boolean(label: 'Enable Responsiveness', initialValue: false),
+                isButtonCurved: context.knobs.boolean(
+                    label: 'Curve Button Borders', initialValue: false),
+                isResponsive: context.knobs.boolean(
+                    label: 'Enable Responsiveness', initialValue: false),
                 height: 65,
                 textFontSize: 18,
                 textColor: white,
@@ -343,7 +341,8 @@ WidgetbookUseCase InvincibleButton(BuildContext context) {
               child: DepButton(
                 onPressed: () {},
                 title: context.knobs.text(
-                    label: 'Invincible Button', initialValue: 'Invincible Button'),
+                    label: 'Invincible Button',
+                    initialValue: 'Invincible Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
                 showSearchIcon: context.knobs
@@ -352,15 +351,15 @@ WidgetbookUseCase InvincibleButton(BuildContext context) {
                     .boolean(label: 'Show Dropdown Icon', initialValue: false),
                 isDisabled: context.knobs
                     .boolean(label: 'Disable Button', initialValue: false),
-                isButtonCurved: context.knobs
-                    .boolean(label: 'Curve Button Borders', initialValue: false),
-                isResponsive: context.knobs
-                    .boolean(label: 'Enable Responsiveness', initialValue: false),
+                isButtonCurved: context.knobs.boolean(
+                    label: 'Curve Button Borders', initialValue: false),
+                isResponsive: context.knobs.boolean(
+                    label: 'Enable Responsiveness', initialValue: false),
                 height: 65,
                 textFontSize: 18,
                 textColor: secondaryColor,
-                addBorder:
-                    context.knobs.boolean(label: 'Add Border', initialValue: false),
+                addBorder: context.knobs
+                    .boolean(label: 'Add Border', initialValue: false),
                 buttonBorderColor: secondaryColor,
                 buttonColor: context.knobs.options(
                   label: 'Button Color',
@@ -402,8 +401,8 @@ WidgetbookUseCase OutlineButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs
-                    .text(label: 'Outline Button', initialValue: 'Outline Button'),
+                title: context.knobs.text(
+                    label: 'Outline Button', initialValue: 'Outline Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
                 showSearchIcon: context.knobs
@@ -412,15 +411,15 @@ WidgetbookUseCase OutlineButton(BuildContext context) {
                     .boolean(label: 'Show Dropdown Icon', initialValue: false),
                 isDisabled: context.knobs
                     .boolean(label: 'Disable Button', initialValue: false),
-                isButtonCurved: context.knobs
-                    .boolean(label: 'Curve Button Borders', initialValue: false),
-                isResponsive: context.knobs
-                    .boolean(label: 'Enable Responsiveness', initialValue: false),
+                isButtonCurved: context.knobs.boolean(
+                    label: 'Curve Button Borders', initialValue: false),
+                isResponsive: context.knobs.boolean(
+                    label: 'Enable Responsiveness', initialValue: false),
                 height: 65,
                 textFontSize: 18,
                 textColor: secondaryColor,
-                addBorder:
-                    context.knobs.boolean(label: 'Add Border', initialValue: false),
+                addBorder: context.knobs
+                    .boolean(label: 'Add Border', initialValue: false),
                 buttonBorderColor: secondaryColor,
                 buttonColor: context.knobs.options(
                   label: 'Button Color',
@@ -440,6 +439,146 @@ WidgetbookUseCase OutlineButton(BuildContext context) {
                     ),
                   ],
                 ),
+              ),
+            ),
+          ));
+}
+
+WidgetbookUseCase FilledSocialButton(BuildContext context) {
+  return WidgetbookUseCase(
+      name: 'Filled Social Button',
+      builder: (context) => Scaffold(
+            appBar: DepAppbarWidget(
+              titleWidget: DepText(
+                text: "Filled Social Button",
+                txtColor: white,
+                font: 18,
+              ),
+              addBackButton: false,
+              addCloseButton: false,
+              backgroundColor: secondaryColor,
+            ),
+            body: Container(
+              alignment: Alignment.center,
+              padding: const EdgeInsets.symmetric(
+                horizontal: 16,
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  DepNormalButton(
+                      onPressed: () {},
+                      text: context.knobs.text(
+                          label: 'Filled Button',
+                          initialValue: 'Filled Button'),
+                      icon: Icon(Icons.facebook),
+                      type: context.knobs.options(
+                          label: 'Button Type',
+                          description: 'Select Button Type',
+                          options: const [
+                            Option(
+                              label: 'Solid',
+                              value: DepButtonType.solid,
+                            ),
+                            Option(
+                              label: 'Outline',
+                              value: DepButtonType.outline,
+                            ),
+                            Option(
+                              label: 'Outline2x',
+                              value: DepButtonType.outline2x,
+                            ),
+                            Option(
+                              label: 'Transparent',
+                              value: DepButtonType.transparent,
+                            ),
+                          ]),
+                      shape: context.knobs.options(
+                          label: 'Button Shape',
+                          description: 'Select Button Shape',
+                          options: const [
+                            Option(
+                              label: 'Pills',
+                              value: DepButtonShape.pills,
+                            ),
+                            Option(
+                              label: 'Standard',
+                              value: DepButtonShape.standard,
+                            ),
+                            Option(
+                              label: 'Square',
+                              value: DepButtonShape.square,
+                            ),
+                          ])),
+                ],
+              ),
+            ),
+          ));
+}
+
+WidgetbookUseCase OutlinedSocialButton(BuildContext context) {
+  return WidgetbookUseCase(
+      name: 'Outlined Social Button',
+      builder: (context) => Scaffold(
+            appBar: DepAppbarWidget(
+              titleWidget: DepText(
+                text: "Outlined Social Button",
+                txtColor: white,
+                font: 18,
+              ),
+              addBackButton: false,
+              addCloseButton: false,
+              backgroundColor: secondaryColor,
+            ),
+            body: Container(
+              alignment: Alignment.center,
+              padding: const EdgeInsets.symmetric(
+                horizontal: 16,
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  DepIconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.facebook),
+                    size: context.knobs.options(
+                          label: 'Icon Size',
+                          description: 'Select icon size',
+                          options: const [
+                            Option(
+                              label: 'Small',
+                              value: DepSize.SMALL,
+                            ),
+                            Option(
+                              label: 'Medium',
+                              value: DepSize.MEDIUM
+                            ),
+                            Option(
+                              label: 'Large',
+                              value: DepSize.LARGE,
+                            ),
+                          ]),//DepSize.SMALL,
+                    type: context.knobs.options(
+                        label: 'Button Type',
+                        description: 'Select button type',
+                        options: const [
+                          Option(
+                            label: 'Solid',
+                            value: DepButtonType.solid,
+                          ),
+                          Option(label: 'Outline', value: DepButtonType.outline),
+                          Option(
+                            label: 'Outline2x',
+                            value: DepButtonType.outline2x
+                          ),
+                          Option(
+                            label: 'Transparent',
+                            value: DepButtonType.transparent
+                          ),
+                        ]), //DepButtonType.outline,
+                    shape: DepIconButtonShape.pills,
+                  ),
+                ],
               ),
             ),
           ));
