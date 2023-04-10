@@ -5,11 +5,11 @@ import 'package:widgetbook/widgetbook.dart';
 WidgetbookUseCase BasicLoader(BuildContext context) {
   bool isChecked = false;
   return WidgetbookUseCase(
-      name: 'Loader/IOS',
+      name: 'Loader/Basic',
       builder: (context) => Scaffold(
           appBar: DepAppbarWidget(
             titleWidget: const DepText(
-              text: "IOS Loader",
+              text: "Basic Loader",
               txtColor: Colors.white,
               font: 18,
             ),
@@ -71,7 +71,7 @@ WidgetbookUseCase CustomLoader(BuildContext context) {
                 padding: const EdgeInsets.symmetric(
                   horizontal: 16,
                 ),
-                child: DepLoader(
+                child: const DepLoader(
                   type: DepLoaderType.custom,
                   child: Image(image: AssetImage("assets/images/launcher_dark.png")
                 ))
@@ -100,7 +100,7 @@ WidgetbookUseCase CustomIconsLoader(BuildContext context) {
                 padding: const EdgeInsets.symmetric(
                   horizontal: 16,
                 ),
-                child: DepLoader(
+                child: const DepLoader(
                     type: DepLoaderType.custom,
                     loaderIconOne: Icon(Icons.insert_emoticon),
                   loaderIconTwo: Icon(Icons.insert_emoticon),
@@ -131,7 +131,7 @@ WidgetbookUseCase CustomTextLoader(BuildContext context) {
                 padding: const EdgeInsets.symmetric(
                   horizontal: 16,
                 ),
-                child: DepLoader(
+                child: const DepLoader(
                   type: DepLoaderType.custom,
                   loaderIconOne: Text('Please'),
                   loaderIconTwo: Text('Wait'),

@@ -87,3 +87,10 @@ enum DepLoaderType {
   circle,
   custom,
 }
+
+enum DepToggleType {
+  android,
+  custom,
+  ios,
+  square,
+}

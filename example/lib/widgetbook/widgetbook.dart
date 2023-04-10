@@ -10,6 +10,7 @@ import 'package:deposits_ui_kit_example/widgetbook/loaders/loaders.dart';
 import 'package:deposits_ui_kit_example/widgetbook/radio/radio.dart';
 import 'package:deposits_ui_kit_example/widgetbook/rating/rating.dart';
 import 'package:deposits_ui_kit_example/widgetbook/toast/toast.dart';
+import 'package:deposits_ui_kit_example/widgetbook/toggle/toggle.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
@@ -406,6 +407,16 @@ class HotreloadWidgetbook extends StatelessWidget {
               useCases: [
                 //-------------half rating----------------------//
                 CustomTextLoader(context),
+              ],
+            ),
+          ]),
+          //toggle
+          WidgetbookCategory(name: 'Toggle', widgets: [
+            WidgetbookComponent(
+              name: 'Basic Toggle',
+              useCases: [
+                //-------------IOS loader----------------------//
+                BasicToggle(context),
               ],
             ),
           ])
