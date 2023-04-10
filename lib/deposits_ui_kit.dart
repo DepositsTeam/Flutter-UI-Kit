@@ -34,3 +34,6 @@ export 'package:deposits_ui_kit/src/widgets/dep_bottom_sheet.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_normal_button.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_social_button.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_icon_button.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_rating.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_checkbox.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_loader.dart';

@@ -102,24 +102,86 @@ WidgetbookUseCase RadioListTileLabel(BuildContext context) {
 }
 
 WidgetbookUseCase CheckLabel(BuildContext context) {
+  bool isChecked = false;
   return WidgetbookUseCase(
       name: 'Checkbox/Basic',
       builder: (context) => Scaffold(
-            appBar: DepAppbarWidget(
-              titleWidget: const DepText(
-                text: "Checkbox",
-                txtColor: Colors.white,
-                font: 18,
-              ),
-              addBackButton: false,
-              addCloseButton: false,
-              backgroundColor: primaryColor,
+          appBar: DepAppbarWidget(
+            titleWidget: const DepText(
+              text: "Checkbox",
+              txtColor: Colors.white,
+              font: 18,
             ),
-            body: Container(
+            addBackButton: false,
+            addCloseButton: false,
+            backgroundColor: primaryColor,
+          ),
+          body: StatefulBuilder(builder: (context, setState) {
+            
+            return Container(
               alignment: Alignment.center,
               padding: const EdgeInsets.symmetric(
                 horizontal: 16,
               ),
-            ),
-          ));
+              child: DepCheckbox(
+                size: context.knobs.options(
+                    label: 'Checkbox Size',
+                    description: 'Select Checkbox Size',
+                    options: const [
+                      Option(
+                        label: 'Small',
+                        value: DepSize.SMALL,
+                      ),
+                      Option(
+                        label: 'Medium',
+                        value: DepSize.MEDIUM,
+                      ),
+                      Option(
+                        label: 'Large',
+                        value: DepSize.LARGE,
+                      ),
+                    ]),
+                activeBgColor: context.knobs.options(
+                    label: 'Active Background Color',
+                    description: 'Select Active Background Color',
+                    options: const [
+                      Option(
+                        label: 'Red',
+                        value: redColor,
+                      ),
+                      Option(
+                        label: 'Secondary',
+                        value: secondaryColor,
+                      ),
+                      Option(
+                        label: 'Green',
+                        value: greenColor,
+                      ),
+                    ]),
+                    type:  context.knobs.options(
+                    label: 'Check Type',
+                    description: 'Select Check Type',
+                    options: const [
+                      Option(
+                        label: 'Basic',
+                        value: DepCheckboxType.basic,
+                      ),
+                      Option(
+                        label: 'Circle',
+                        value: DepCheckboxType.circle,
+                      ),
+                      Option(
+                        label: 'Square',
+                        value: DepCheckboxType.square,
+                      ),
+                    ]),
+                onChanged: (value) {
+                  setState(() {
+                    isChecked = value;
+                  });
+                },
+                value: isChecked,
+              ),
+            );
+          })));
 }

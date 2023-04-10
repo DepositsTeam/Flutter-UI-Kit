@@ -53,9 +53,9 @@ WidgetbookUseCase BasicCard (BuildContext context) {
                       ),
                       content: childWidget,
                       image: Image.network(
-                          'https://cdn.pixabay.com/photo/2021/02/01/16/22/flamingo-5971206__340.jpg'),
+                          'https://images.unsplash.com/photo-1547721064-da6cfb341d50'),
                       imageOverlay: const NetworkImage(
-                          'https://cdn.pixabay.com/photo/2021/02/01/16/22/flamingo-5971206__340.jpg'),
+                          'https://images.unsplash.com/photo-1547721064-da6cfb341d50'),
                     )
                   ],
                 )),
@@ -95,9 +95,9 @@ WidgetbookUseCase GradientCard(BuildContext context) {
                         icon: Icon(Icons.favorite_border),
                       ),
                       image: Image.network(
-                          'https://cdn.pixabay.com/photo/2021/02/01/16/22/flamingo-5971206__340.jpg'),
+                          'https://images.unsplash.com/photo-1547721064-da6cfb341d50'),
                       imageOverlay: const NetworkImage(
-                          'https://cdn.pixabay.com/photo/2021/02/01/16/22/flamingo-5971206__340.jpg'),
+                          'https://images.unsplash.com/photo-1547721064-da6cfb341d50'),
                     )
                   ],
                 )),
@@ -136,7 +136,7 @@ WidgetbookUseCase ClipCard(BuildContext context) {
                       ),
                       clipBehavior: Clip.none,
                       imageOverlay: const NetworkImage(
-                          'https://cdn.pixabay.com/photo/2021/02/01/16/22/flamingo-5971206__340.jpg'),
+                          'https://images.unsplash.com/photo-1547721064-da6cfb341d50'),
                     )
                   ],
                 )),

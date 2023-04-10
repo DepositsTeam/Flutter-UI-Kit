@@ -72,3 +72,18 @@ enum DepSocialButtonType {
   transparent,
   icon,
 }
+
+enum DepCheckboxType {
+  basic,
+  circle,
+  square,
+  custom,
+}
+
+enum DepLoaderType {
+  android,
+  ios,
+  square,
+  circle,
+  custom,
+}
