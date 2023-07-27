@@ -94,3 +94,11 @@ enum DepToggleType {
   ios,
   square,
 }
+
+enum DepFontName {
+  HeroNew,
+  SFProDisplay,
+  SFProRounded,
+  SFProText,
+  CircularStd
+}

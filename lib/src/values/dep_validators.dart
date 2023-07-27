@@ -1,3 +1,4 @@
+import 'package:deposits_ui_kit/src/utils/enum.dart';
 import 'package:deposits_ui_kit/src/values/dep_strings.dart';
 
 String? validateEmpty(String? v) {
@@ -37,3 +38,19 @@ String? validateTEmpty<T>(T? v) {
   }
 
 
+String preferedFont(DepFontName fontName) {
+  switch (fontName) {
+    case DepFontName.HeroNew:
+      return "HeroNew";
+    case DepFontName.SFProDisplay:
+      return "SFProDisplay";
+    case DepFontName.SFProRounded:
+      return "SFProRounded";
+    case DepFontName.SFProText:
+      return "SFProText";
+    case DepFontName.CircularStd:
+      return "CircularStd";
+    default:
+      return "SFProText";
+  }
+}

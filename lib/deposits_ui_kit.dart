@@ -11,6 +11,7 @@ export 'package:deposits_ui_kit/src/values/dep_dimens.dart';
 export 'package:deposits_ui_kit/src/values/dep_spacing.dart';
 export 'package:deposits_ui_kit/src/values/dep_strings.dart';
 export 'package:deposits_ui_kit/src/values/dep_validators.dart';
+export 'package:deposits_ui_kit/src/values/dep_formatters.dart';
 
 export 'package:deposits_ui_kit/src/widgets/dep_button.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_text.dart';
@@ -38,3 +39,6 @@ export 'package:deposits_ui_kit/src/widgets/dep_rating.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_checkbox.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_loader.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_toggle.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_input_text.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_payment_card.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_alert.dart';

@@ -1,14 +1,18 @@
 import 'package:deposits_ui_kit_example/widgetbook/accordion/accordion.dart';
+import 'package:deposits_ui_kit_example/widgetbook/alerts/alert.dart';
 import 'package:deposits_ui_kit_example/widgetbook/avatar/avatar.dart';
 import 'package:deposits_ui_kit_example/widgetbook/badge/badges.dart';
 import 'package:deposits_ui_kit_example/widgetbook/bottom_sheet/bottom_sheet.dart';
 import 'package:deposits_ui_kit_example/widgetbook/bottons/bottons.dart';
 import 'package:deposits_ui_kit_example/widgetbook/card/card.dart';
 import 'package:deposits_ui_kit_example/widgetbook/colors/colors.dart';
+import 'package:deposits_ui_kit_example/widgetbook/country_state_city/country_state_city.dart';
 import 'package:deposits_ui_kit_example/widgetbook/images/images.dart';
 import 'package:deposits_ui_kit_example/widgetbook/loaders/loaders.dart';
+import 'package:deposits_ui_kit_example/widgetbook/payment_card/payment_card.dart';
+import 'package:deposits_ui_kit_example/widgetbook/progress_bar/progress_bar.dart';
 import 'package:deposits_ui_kit_example/widgetbook/radio/radio.dart';
-import 'package:deposits_ui_kit_example/widgetbook/rating/rating.dart';
+import 'package:deposits_ui_kit_example/widgetbook/text_input/text_input.dart';
 import 'package:deposits_ui_kit_example/widgetbook/toast/toast.dart';
 import 'package:deposits_ui_kit_example/widgetbook/toggle/toggle.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +26,7 @@ class HotreloadWidgetbook extends StatelessWidget {
     return Widgetbook.material(
         categories: [
           //accordion
-         WidgetbookCategory(
+          WidgetbookCategory(
             name: 'Accordion',
             widgets: [
               WidgetbookComponent(
@@ -48,7 +52,7 @@ class HotreloadWidgetbook extends StatelessWidget {
               )
             ],
           ),
-           //button
+          //button
           WidgetbookCategory(
             name: 'Buttons',
             widgets: [
@@ -267,7 +271,7 @@ class HotreloadWidgetbook extends StatelessWidget {
               ),
             ],
           ),
-           //card
+          //card
           WidgetbookCategory(
             name: 'Card',
             widgets: [
@@ -292,7 +296,7 @@ class HotreloadWidgetbook extends StatelessWidget {
                   ClipCard(context),
                 ],
               ),
-               WidgetbookComponent(
+              WidgetbookComponent(
                 name: 'Card/ImageBackground & Image Overlay',
                 useCases: [
                   //-------------clip button----------------------//
@@ -301,18 +305,16 @@ class HotreloadWidgetbook extends StatelessWidget {
               )
             ],
           ),
-           //Bottom sheet
-          WidgetbookCategory(
-            name: 'Bottom Sheet',
-            widgets: [
-              WidgetbookComponent(
-                name: 'BottomSheet/Basic',
-                useCases: [
-                  //-------------Basic button----------------------//
-                  BasicBottomSheet(context),
-                ],
-              ),
-              WidgetbookComponent(
+          //Bottom sheet
+          WidgetbookCategory(name: 'Bottom Sheet', widgets: [
+            WidgetbookComponent(
+              name: 'BottomSheet/Basic',
+              useCases: [
+                //-------------Basic button----------------------//
+                BasicBottomSheet(context),
+              ],
+            ),
+            WidgetbookComponent(
               name: 'BottomSheet/Footer',
               useCases: [
                 //-------------Footer bottom sheet----------------------//
@@ -326,20 +328,17 @@ class HotreloadWidgetbook extends StatelessWidget {
                 ExpandableBottomSheet(context),
               ],
             ),
-            ]
+          ]),
+          //Images
+          WidgetbookCategory(name: 'Images', widgets: [
+            WidgetbookComponent(
+              name: 'Basic Image',
+              useCases: [
+                //-------------basic image----------------------//
+                BasicImage(context),
+              ],
             ),
-           //Images
-          WidgetbookCategory(
-            name: 'Images',
-            widgets: [
-              WidgetbookComponent(
-                name: 'Basic Image',
-                useCases: [
-                  //-------------basic image----------------------//
-                  BasicImage(context),
-                ],
-              ),
-              WidgetbookComponent(
+            WidgetbookComponent(
               name: 'Image with Child widget & alignment',
               useCases: [
                 //-------------basic image----------------------//
@@ -353,32 +352,31 @@ class HotreloadWidgetbook extends StatelessWidget {
                 OverlayImage(context),
               ],
             ),
-            ]
-          ),
-          //Rating
-          WidgetbookCategory(name: 'Rating', widgets: [
-            WidgetbookComponent(
-              name: 'Basic Rating',
-              useCases: [
-                //-------------basic rating----------------------//
-                BasicRating(context),
-              ],
-            ),
-            WidgetbookComponent(
-              name: 'Rating with Icon',
-              useCases: [
-                //-------------icon rating----------------------//
-                IconRating(context),
-              ],
-            ),
-            WidgetbookComponent(
-              name: 'Edittext Rating',
-              useCases: [
-                //-------------half rating----------------------//
-                EditTextRating(context),
-              ],
-            ),
           ]),
+          //Rating
+          // WidgetbookCategory(name: 'Rating', widgets: [
+          //   WidgetbookComponent(
+          //     name: 'Basic Rating',
+          //     useCases: [
+          //       //-------------basic rating----------------------//
+          //       BasicRating(context),
+          //     ],
+          //   ),
+          //   WidgetbookComponent(
+          //     name: 'Rating with Icon',
+          //     useCases: [
+          //       //-------------icon rating----------------------//
+          //       IconRating(context),
+          //     ],
+          //   ),
+          //   WidgetbookComponent(
+          //     name: 'Edittext Rating',
+          //     useCases: [
+          //       //-------------half rating----------------------//
+          //       EditTextRating(context),
+          //     ],
+          //   ),
+          // ]),
           //loaders
           WidgetbookCategory(name: 'Loader', widgets: [
             WidgetbookComponent(
@@ -419,7 +417,61 @@ class HotreloadWidgetbook extends StatelessWidget {
                 BasicToggle(context),
               ],
             ),
-          ])
+          ]),
+          //input text
+          WidgetbookCategory(name: 'Input Text', widgets: [
+            WidgetbookComponent(
+              name: 'Basic Input Text',
+              useCases: [
+                //-------------Input text----------------------//
+                BasicTextInput(context),
+              ],
+            ),
+          ]),
+          //payment card
+          WidgetbookCategory(name: 'Payment Card', widgets: [
+            WidgetbookComponent(
+              name: 'PaymentCard',
+              useCases: [
+                //-------------Payment Card----------------------//
+                PaymentCard(context),
+              ],
+            ),
+          ]),
+          //payment card
+          WidgetbookCategory(name: 'Alerts', widgets: [
+            WidgetbookComponent(
+              name: 'Alerts IOS Native',
+              useCases: [
+                //-------------Alerts IOSt----------------------//
+                AlertIOS(context),
+              ],
+            ),
+          ]),
+          //progress bar
+          WidgetbookCategory(name: 'Progress Bar', widgets: [
+            WidgetbookComponent(
+              name: 'Progress Bar',
+              useCases: [
+                //-------------Alerts IOSt----------------------//
+                progressBar(context),
+              ],
+            ),
+          ]),
+          //country state city
+          // WidgetbookCategory(name: 'Country State City Picker', widgets: [
+          //   WidgetbookComponent(
+          //     name: 'CountryStateCity',
+          //     useCases: [
+          //       //-------------Country picker----------------------//
+          //       countryPicker(context),
+          //       //-------------Country State picker----------------------//
+          //       countryStatePicker(context),
+          //       //-------------Country State City picker----------------------//
+          //       countryStateCityPicker(context),
+          //     ],
+          //   ),
+          // ])
         ],
         themes: [
           WidgetbookTheme(

@@ -15,6 +15,7 @@ class DepText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? ellipsis;
   final GestureTapCallback? nav;
+  final String? fontFamily;
 
   const DepText(
       {Key? key,
@@ -27,6 +28,7 @@ class DepText extends StatelessWidget {
       this.fntstyle,
       this.letterSpace,
       this.textStyle,
+      this.fontFamily,
       this.textDecoration,
       this.softWrap,
       this.ellipsis,

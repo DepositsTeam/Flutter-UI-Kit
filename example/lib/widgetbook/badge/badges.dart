@@ -7,7 +7,7 @@ WidgetbookUseCase SubtleBadge(BuildContext context) {
       name: 'Badge/Subtle Badge',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
-              titleWidget: DepText(
+              titleWidget: const DepText(
                 text: "Subtle Badge",
                 txtColor: Colors.white,
                 font: 18,
@@ -26,7 +26,10 @@ WidgetbookUseCase SubtleBadge(BuildContext context) {
                     .text(label: 'Subtle Badge', initialValue: 'Subtle Badge'),
                 tagFontSize: context.knobs
                     .slider(
-                        label: 'Set font-size', initialValue: 18, max: 25, min: 16)
+                        label: 'Set font-size',
+                        initialValue: 12,
+                        max: 16,
+                        min: 12)
                     .toDouble(),
                 backgroundColor: context.knobs.options(
                   label: 'Button Color',
@@ -68,7 +71,7 @@ WidgetbookUseCase SolidBadge(BuildContext context) {
       name: 'Badge/Solid Badge',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
-              titleWidget: DepText(
+              titleWidget: const DepText(
                 text: "Solid Badge",
                 txtColor: Colors.white,
                 font: 18,
@@ -87,7 +90,10 @@ WidgetbookUseCase SolidBadge(BuildContext context) {
                     .text(label: 'Solid Badge', initialValue: 'Solid Badge'),
                 tagFontSize: context.knobs
                     .slider(
-                        label: 'Set font-size', initialValue: 18, max: 25, min: 16)
+                        label: 'Set font-size',
+                        initialValue: 12,
+                        max: 16,
+                        min: 12)
                     .toDouble(),
                 isSolid: true,
                 backgroundColor: context.knobs.options(

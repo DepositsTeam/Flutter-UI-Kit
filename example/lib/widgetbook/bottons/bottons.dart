@@ -45,6 +45,10 @@ WidgetbookUseCase PrimaryButton(BuildContext context) {
                   description: 'Background color of the button.',
                   options: const [
                     Option(
+                      label: 'Cyan500',
+                      value: cyan500,
+                    ),
+                    Option(
                       label: 'Cyan100',
                       value: cyan100,
                     ),
@@ -59,10 +63,6 @@ WidgetbookUseCase PrimaryButton(BuildContext context) {
                     Option(
                       label: 'Cyan400',
                       value: cyan400,
-                    ),
-                    Option(
-                      label: 'Cyan500',
-                      value: cyan500,
                     ),
                     Option(
                       label: 'Cyan600',
@@ -133,6 +133,10 @@ WidgetbookUseCase DefaultButton(BuildContext context) {
                   description: 'Background color of the button.',
                   options: const [
                     Option(
+                      label: 'neutral400',
+                      value: gray400,
+                    ),
+                    Option(
                       label: 'neutral100',
                       value: gray100,
                     ),
@@ -143,10 +147,6 @@ WidgetbookUseCase DefaultButton(BuildContext context) {
                     Option(
                       label: 'neutral300',
                       value: gray300,
-                    ),
-                    Option(
-                      label: 'neutral400',
-                      value: gray400,
                     ),
                   ],
                 ),
@@ -197,6 +197,10 @@ WidgetbookUseCase DangerButton(BuildContext context) {
                   label: 'Button Color',
                   description: 'Background color of the button.',
                   options: const [
+                    Option(
+                      label: 'red500',
+                      value: red500,
+                    ),
                     Option(label: 'red100', value: red100),
                     Option(
                       label: 'red200',
@@ -209,10 +213,6 @@ WidgetbookUseCase DangerButton(BuildContext context) {
                     Option(
                       label: 'red400',
                       value: red400,
-                    ),
-                    Option(
-                      label: 'red500',
-                      value: red500,
                     ),
                     Option(
                       label: 'red600',
@@ -279,6 +279,10 @@ WidgetbookUseCase SuccessButton(BuildContext context) {
                   label: 'Button Color',
                   description: 'Background color of the button.',
                   options: const [
+                    Option(
+                      label: 'green500',
+                      value: green500,
+                    ),
                     Option(label: 'green100', value: green100),
                     Option(
                       label: 'green200',
@@ -291,10 +295,6 @@ WidgetbookUseCase SuccessButton(BuildContext context) {
                     Option(
                       label: 'green400',
                       value: green400,
-                    ),
-                    Option(
-                      label: 'green500',
-                      value: green500,
                     ),
                     Option(
                       label: 'green600',
@@ -542,22 +542,19 @@ WidgetbookUseCase OutlinedSocialButton(BuildContext context) {
                     onPressed: () {},
                     icon: Icon(Icons.facebook),
                     size: context.knobs.options(
-                          label: 'Icon Size',
-                          description: 'Select icon size',
-                          options: const [
-                            Option(
-                              label: 'Small',
-                              value: DepSize.SMALL,
-                            ),
-                            Option(
-                              label: 'Medium',
-                              value: DepSize.MEDIUM
-                            ),
-                            Option(
-                              label: 'Large',
-                              value: DepSize.LARGE,
-                            ),
-                          ]),//DepSize.SMALL,
+                        label: 'Icon Size',
+                        description: 'Select icon size',
+                        options: const [
+                          Option(
+                            label: 'Small',
+                            value: DepSize.SMALL,
+                          ),
+                          Option(label: 'Medium', value: DepSize.MEDIUM),
+                          Option(
+                            label: 'Large',
+                            value: DepSize.LARGE,
+                          ),
+                        ]), //DepSize.SMALL,
                     type: context.knobs.options(
                         label: 'Button Type',
                         description: 'Select button type',
@@ -566,15 +563,14 @@ WidgetbookUseCase OutlinedSocialButton(BuildContext context) {
                             label: 'Solid',
                             value: DepButtonType.solid,
                           ),
-                          Option(label: 'Outline', value: DepButtonType.outline),
                           Option(
-                            label: 'Outline2x',
-                            value: DepButtonType.outline2x
-                          ),
+                              label: 'Outline', value: DepButtonType.outline),
                           Option(
-                            label: 'Transparent',
-                            value: DepButtonType.transparent
-                          ),
+                              label: 'Outline2x',
+                              value: DepButtonType.outline2x),
+                          Option(
+                              label: 'Transparent',
+                              value: DepButtonType.transparent),
                         ]), //DepButtonType.outline,
                     shape: DepIconButtonShape.pills,
                   ),

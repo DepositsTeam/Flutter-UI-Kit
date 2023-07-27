@@ -49,7 +49,10 @@ WidgetbookUseCase BasicAvatar(BuildContext context) {
                       size: DepSize.LARGE,
                       maxRadius: context.knobs
                           .slider(
-                              label: 'Radius', initialValue: 50, max: 70, min: 50)
+                              label: 'Radius',
+                              initialValue: 30,
+                              max: 50,
+                              min: 30)
                           .toDouble(),
                     )
                   ],
@@ -153,11 +156,21 @@ WidgetbookUseCase BasicSubtileAvatar(BuildContext context) {
                       size: DepSize.LARGE,
                       maxRadius: context.knobs
                           .slider(
-                              label: 'Radius', initialValue: 50, max: 70, min: 50)
+                              label: 'Radius',
+                              initialValue: 30,
+                              max: 40,
+                              min: 30)
                           .toDouble(),
                       child: DepText(
-                        text: context.knobs
-                            .text(label: '2 Letter Initials', initialValue: 'TB'),
+                        text: context.knobs.text(
+                            label: '2 Letter Initials', initialValue: 'TB'),
+                        font: context.knobs
+                            .slider(
+                                label: 'Font-size',
+                                initialValue: 14,
+                                max: 20,
+                                min: 14)
+                            .toDouble(),
                       ),
                     )
                   ],
@@ -195,19 +208,24 @@ WidgetbookUseCase BadgeAvatar(BuildContext context) {
                           maxRadius: context.knobs
                               .slider(
                                   label: 'Radius',
-                                  initialValue: 50,
-                                  max: 70,
-                                  min: 50)
+                                  initialValue: 45,
+                                  max: 50,
+                                  min: 45)
                               .toDouble(),
                           shape: AvatarShape.circle,
                         ),
-                        const Positioned(
-                          bottom: 10,
-                          right: 6,
-                          child: DepBadge(
-                            color: green500,
-                            size: DepSize.SMALL,
-                            shape: BadgeShape.circle,
+                        Positioned(
+                          bottom: 3,
+                          right: -4,
+                          child: Container(
+                            decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: white, width: 4)),
+                            child: const DepBadge(
+                              color: green500,
+                              size: DepSize.SMALL,
+                              shape: BadgeShape.circle,
+                            ),
                           ),
                         )
                       ],
@@ -299,23 +317,36 @@ WidgetbookUseCase BadgeSubtleAvatar(BuildContext context) {
                           maxRadius: context.knobs
                               .slider(
                                   label: 'Radius',
-                                  initialValue: 50,
-                                  max: 70,
-                                  min: 50)
+                                  initialValue: 45,
+                                  max: 50,
+                                  min: 45)
                               .toDouble(),
                           shape: AvatarShape.circle,
                           child: DepText(
+                            font: context.knobs
+                                .slider(
+                                    label: 'Font-size',
+                                    initialValue: 25,
+                                    max: 30,
+                                    min: 25)
+                                .toDouble(),
+                            fntweight: FontWeight.w400,
                             text: context.knobs.text(
                                 label: '2 Letter Initials', initialValue: 'TB'),
                           ),
                         ),
-                        const Positioned(
-                          bottom: 10,
-                          right: 6,
-                          child: DepBadge(
-                            color: green500,
-                            size: DepSize.SMALL,
-                            shape: BadgeShape.circle,
+                        Positioned(
+                          bottom: 3,
+                          right: -4,
+                          child: Container(
+                            decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: white, width: 4)),
+                            child: const DepBadge(
+                              color: green500,
+                              size: DepSize.SMALL,
+                              shape: BadgeShape.circle,
+                            ),
                           ),
                         )
                       ],
