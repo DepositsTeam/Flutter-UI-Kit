@@ -278,28 +278,28 @@ class HotreloadWidgetbook extends StatelessWidget {
               WidgetbookComponent(
                 name: 'Card/Basic',
                 useCases: [
-                  //-------------Basic button----------------------//
+                  //-------------Basic card----------------------//
                   BasicCard(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Card/Gradient',
                 useCases: [
-                  //-------------Gradient button----------------------//
+                  //-------------Gradient card----------------------//
                   GradientCard(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Card/Clip',
                 useCases: [
-                  //-------------clip button----------------------//
+                  //-------------clip card----------------------//
                   ClipCard(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Card/ImageBackground & Image Overlay',
                 useCases: [
-                  //-------------clip button----------------------//
+                  //-------------background image card----------------------//
                   BackImageCard(context),
                 ],
               )
@@ -434,7 +434,8 @@ class HotreloadWidgetbook extends StatelessWidget {
               name: 'PaymentCard',
               useCases: [
                 //-------------Payment Card----------------------//
-                PaymentCard(context),
+                // PaymentCard(context),
+                PaymentMainCard(context),
               ],
             ),
           ]),
@@ -459,19 +460,19 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ]),
           //country state city
-          // WidgetbookCategory(name: 'Country State City Picker', widgets: [
-          //   WidgetbookComponent(
-          //     name: 'CountryStateCity',
-          //     useCases: [
-          //       //-------------Country picker----------------------//
-          //       countryPicker(context),
-          //       //-------------Country State picker----------------------//
-          //       countryStatePicker(context),
-          //       //-------------Country State City picker----------------------//
-          //       countryStateCityPicker(context),
-          //     ],
-          //   ),
-          // ])
+          WidgetbookCategory(name: 'Country State City Picker', widgets: [
+            WidgetbookComponent(
+              name: 'CountryStateCity',
+              useCases: [
+                //-------------Country picker----------------------//
+                countryPicker(context),
+                //-------------Country State picker----------------------//
+                countryStatePicker(context),
+                //-------------Country State City picker----------------------//
+                countryStateCityPicker(context),
+              ],
+            ),
+          ])
         ],
         themes: [
           WidgetbookTheme(

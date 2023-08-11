@@ -55,6 +55,8 @@ class CardMonthInputFormatter extends TextInputFormatter {
   }
 }
 
+
+
 class CardNumberInputFormatter extends TextInputFormatter {
   @override
   TextEditingValue formatEditUpdate(
@@ -81,6 +83,18 @@ class CardNumberInputFormatter extends TextInputFormatter {
   }
 }
 
+String formatCardNumber(String accountNumber) {
+  accountNumber = accountNumber.replaceAll(RegExp(r'\s'), ''); // Remove spaces
+  if (accountNumber.length != 16) {
+    // Account number should have exactly 16 digits
+    return 'Invalid Account Number';
+  }
+
+  // Mask the account number except the last four digits
+  String maskedNumber =
+      '${accountNumber.substring(0, 4)} **** **** ${accountNumber.substring(12, 16)}';
+  return maskedNumber;
+}
 
 String formatExpiryDate(String expiryDate) {
   // Split the expiry date into month and year parts

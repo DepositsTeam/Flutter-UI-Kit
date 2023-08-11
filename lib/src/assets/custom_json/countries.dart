@@ -10,16 +10,16 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(
+        States(
             name: "Badakhshan", cities: ["Bala Morghab", "Qal\\'\\'eh-ye Naw"]),
-        State(name: "Badgis", cities: [
+        States(name: "Badgis", cities: [
           "Andarab",
           "Baghlan",
           "Dahaneh-ye Ghawri",
           "Nahrin",
           "Pol-e Khumri"
         ]),
-        State(name: "Baglan", cities: [
+        States(name: "Baglan", cities: [
           "Balkh",
           "Dawlatabad",
           "Mazar-e Sharif",
@@ -27,14 +27,14 @@ final List<Country> countries = [
           "Shulgara",
           "Tash Gozar"
         ]),
-        State(name: "Balkh", cities: ["Bamiyan", "Panjab", "Qil Qal\\'\\'eh"]),
-        State(name: "Bamiyan", cities: ["Anar Darreh", "Farah", "Shindand"]),
-        State(
+        States(name: "Balkh", cities: ["Bamiyan", "Panjab", "Qil Qal\\'\\'eh"]),
+        States(name: "Bamiyan", cities: ["Anar Darreh", "Farah", "Shindand"]),
+        States(
             name: "Farah",
             cities: ["Andkhvoy", "Darzi Ab", "Dawlatabad", "Maymanah"]),
-        State(name: "Faryab", cities: ["Chaghcharan", "Shahrak", "Taywarah"]),
-        State(name: "Gawr", cities: ["Ghazni"]),
-        State(name: "Gazni", cities: [
+        States(name: "Faryab", cities: ["Chaghcharan", "Shahrak", "Taywarah"]),
+        States(name: "Gawr", cities: ["Ghazni"]),
+        States(name: "Gazni", cities: [
           "Awbeh",
           "Eslam Qal\\'\\'eh",
           "Ghurian",
@@ -47,7 +47,7 @@ final List<Country> countries = [
           "Tir Pol",
           "Zendejan"
         ]),
-        State(name: "Herat", cities: [
+        States(name: "Herat", cities: [
           "Baghran",
           "Darwishan",
           "Deh Shu",
@@ -55,10 +55,10 @@ final List<Country> countries = [
           "Lashkar Gah",
           "Sangin"
         ]),
-        State(
+        States(
             name: "Hilmand",
             cities: ["Aqchah", "Qarqin", "Sang-e Charak", "Shibarghan"]),
-        State(name: "Jawzjan", cities: [
+        States(name: "Jawzjan", cities: [
           "Baghrami",
           "Kabul",
           "Mir Bachchekut",
@@ -66,19 +66,19 @@ final List<Country> countries = [
           "Qarabagh",
           "Sarawbi"
         ]),
-        State(name: "Kabul", cities: ["Mahmud-e Raqi", "Taghab"]),
-        State(name: "Kapisa", cities: ["Khawst"]),
-        State(name: "Khawst", cities: ["Asadabad", "Asmar"]),
-        State(name: "Kunar", cities: ["Mehtar Lam"]),
-        State(name: "Lagman", cities: ["Azraw", "Baraki Barak", "Pol-e Alam"]),
-        State(name: "Lawghar", cities: [
+        States(name: "Kabul", cities: ["Mahmud-e Raqi", "Taghab"]),
+        States(name: "Kapisa", cities: ["Khawst"]),
+        States(name: "Khawst", cities: ["Asadabad", "Asmar"]),
+        States(name: "Kunar", cities: ["Mehtar Lam"]),
+        States(name: "Lagman", cities: ["Azraw", "Baraki Barak", "Pol-e Alam"]),
+        States(name: "Lawghar", cities: [
           "Achin",
           "Batsawul",
           "Hugyani",
           "Jalalabad",
           "Nader Shah Kawt"
         ]),
-        State(name: "Nangarhar", cities: [
+        States(name: "Nangarhar", cities: [
           "Chahar Burjak",
           "Chakhansur",
           "Khash",
@@ -86,14 +86,14 @@ final List<Country> countries = [
           "Rudbar",
           "Zaranj"
         ]),
-        State(name: "Nimruz", cities: ["Nuristan"]),
-        State(
+        States(name: "Nimruz", cities: ["Nuristan"]),
+        States(
             name: "Nuristan",
             cities: ["Orgun", "Zareh Sharan", "Zarghun Shahr"]),
-        State(name: "Paktika", cities: ["Ali Khayl", "Ghardez"]),
-        State(name: "Paktiya", cities: ["Charikar", "Jabal-os-Saraj"]),
-        State(name: "Parwan", cities: ["Qandahar"]),
-        State(name: "Qandahar", cities: [
+        States(name: "Paktika", cities: ["Ali Khayl", "Ghardez"]),
+        States(name: "Paktiya", cities: ["Charikar", "Jabal-os-Saraj"]),
+        States(name: "Parwan", cities: ["Qandahar"]),
+        States(name: "Qandahar", cities: [
           "Dasht-e Archa",
           "Emam Saheb",
           "Hazart Imam",
@@ -101,9 +101,9 @@ final List<Country> countries = [
           "Qal\\'\\'eh-ye Zal",
           "Qunduz"
         ]),
-        State(name: "Qunduz", cities: ["Aybak", "Kholm"]),
-        State(name: "Samangan", cities: []),
-        State(name: "Sar-e Pul", cities: [
+        States(name: "Qunduz", cities: ["Aybak", "Kholm"]),
+        States(name: "Samangan", cities: []),
+        States(name: "Sar-e Pul", cities: [
           "Chah Ab",
           "Eshkamesh",
           "Farkhar",
@@ -112,12 +112,12 @@ final List<Country> countries = [
           "Taloqan",
           "Yangi Qal\\'\\'eh"
         ]),
-        State(
+        States(
             name: "Takhar",
             cities: ["Deh Rawud", "Gaz Ab", "Tarin Kawt", "Uruzgan"]),
-        State(name: "Uruzgan", cities: ["Gardan Diwal", "Maydanshahr"]),
-        State(name: "Wardag", cities: ["Qalat-e Ghilzay"]),
-        State(name: "Zabul", cities: ["Berat", "Polican", "Ure Vajgurore"])
+        States(name: "Uruzgan", cities: ["Gardan Diwal", "Maydanshahr"]),
+        States(name: "Wardag", cities: ["Qalat-e Ghilzay"]),
+        States(name: "Zabul", cities: ["Berat", "Polican", "Ure Vajgurore"])
       ]),
   Country(
       name: "Albania",
@@ -127,48 +127,48 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Berat", cities: ["Bulqize"]),
-        State(name: "Bulqize", cities: ["Delvine"]),
-        State(name: "Delvine", cities: ["Bilisht"]),
-        State(name: "Devoll", cities: ["Maqellare", "Peshkopi"]),
-        State(name: "Dibre", cities: ["Durres", "Shijak"]),
-        State(name: "Durres", cities: ["Cerrik", "Elbasan", "Kerrabe"]),
-        State(name: "Elbasan", cities: ["Fier", "Patos", "Roskovec"]),
-        State(name: "Fier", cities: ["Gjirokaster", "Libohove"]),
-        State(name: "Gjirokaster", cities: ["Gramsh"]),
-        State(name: "Gramsh", cities: ["Krume"]),
-        State(name: "Has", cities: ["Kavaje"]),
-        State(name: "Kavaje", cities: ["Erseke", "Leskovik"]),
-        State(name: "Kolonje", cities: ["Korce", "Maliq"]),
-        State(
+        States(name: "Berat", cities: ["Bulqize"]),
+        States(name: "Bulqize", cities: ["Delvine"]),
+        States(name: "Delvine", cities: ["Bilisht"]),
+        States(name: "Devoll", cities: ["Maqellare", "Peshkopi"]),
+        States(name: "Dibre", cities: ["Durres", "Shijak"]),
+        States(name: "Durres", cities: ["Cerrik", "Elbasan", "Kerrabe"]),
+        States(name: "Elbasan", cities: ["Fier", "Patos", "Roskovec"]),
+        States(name: "Fier", cities: ["Gjirokaster", "Libohove"]),
+        States(name: "Gjirokaster", cities: ["Gramsh"]),
+        States(name: "Gramsh", cities: ["Krume"]),
+        States(name: "Has", cities: ["Kavaje"]),
+        States(name: "Kavaje", cities: ["Erseke", "Leskovik"]),
+        States(name: "Kolonje", cities: ["Korce", "Maliq"]),
+        States(
             name: "Korce",
             cities: ["Fushe-Kruje", "Kruje", "Mamurras", "Milot"]),
-        State(name: "Kruje", cities: ["Kucove"]),
-        State(name: "Kucove", cities: ["Kukes"]),
-        State(name: "Kukes", cities: ["Lac"]),
-        State(name: "Kurbin", cities: ["Lezhe", "Shengjin"]),
-        State(name: "Lezhe", cities: ["Librazhd", "Perrenjas"]),
-        State(name: "Librazhd", cities: ["Lushnje", "Rrogozhine"]),
-        State(name: "Lushnje", cities: ["Ballsh"]),
-        State(name: "Mallakaster", cities: []),
-        State(
+        States(name: "Kruje", cities: ["Kucove"]),
+        States(name: "Kucove", cities: ["Kukes"]),
+        States(name: "Kukes", cities: ["Lac"]),
+        States(name: "Kurbin", cities: ["Lezhe", "Shengjin"]),
+        States(name: "Lezhe", cities: ["Librazhd", "Perrenjas"]),
+        States(name: "Librazhd", cities: ["Lushnje", "Rrogozhine"]),
+        States(name: "Lushnje", cities: ["Ballsh"]),
+        States(name: "Mallakaster", cities: []),
+        States(
             name: "Malsi e Madhe",
             cities: ["Burrel", "Klos", "Kraste", "Ulze"]),
-        State(name: "Mat", cities: ["Kurbnesh", "Rreshen", "Rubik"]),
-        State(name: "Mirdite", cities: ["Peqin"]),
-        State(name: "Peqin", cities: ["Kelcyre", "Permet"]),
-        State(name: "Permet", cities: ["Pogradec"]),
-        State(name: "Pogradec", cities: ["Fierze", "Fushe-Arrez", "Puke"]),
-        State(name: "Puke", cities: ["Konispol", "Sarande"]),
-        State(name: "Sarande", cities: ["Shkoder"]),
-        State(name: "Shkoder", cities: ["Corovode"]),
-        State(name: "Skrapar", cities: ["Memaliaj", "Tepelene"]),
-        State(
+        States(name: "Mat", cities: ["Kurbnesh", "Rreshen", "Rubik"]),
+        States(name: "Mirdite", cities: ["Peqin"]),
+        States(name: "Peqin", cities: ["Kelcyre", "Permet"]),
+        States(name: "Permet", cities: ["Pogradec"]),
+        States(name: "Pogradec", cities: ["Fierze", "Fushe-Arrez", "Puke"]),
+        States(name: "Puke", cities: ["Konispol", "Sarande"]),
+        States(name: "Sarande", cities: ["Shkoder"]),
+        States(name: "Shkoder", cities: ["Corovode"]),
+        States(name: "Skrapar", cities: ["Memaliaj", "Tepelene"]),
+        States(
             name: "Tepelene", cities: ["Kamze", "Paskuqan", "Tirane", "Vore"]),
-        State(name: "Tirane", cities: ["Bajram Curri"]),
-        State(
+        States(name: "Tirane", cities: ["Bajram Curri"]),
+        States(
             name: "Tropoje", cities: ["Himare", "Orikum", "Selenice", "Vlore"]),
-        State(name: "Vlore", cities: [])
+        States(name: "Vlore", cities: [])
       ]),
   Country(
       name: "Algeria",
@@ -178,12 +178,12 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Ayn Daflah", cities: []),
-        State(
+        States(name: "Ayn Daflah", cities: []),
+        States(
             name: "Ayn Tamushanat",
             cities: ["Adrar", "Awlaf", "Rijan", "Timimun"]),
-        State(name: "Adrar", cities: ["Hydra", "Kouba"]),
-        State(name: "Algiers", cities: [
+        States(name: "Adrar", cities: ["Hydra", "Kouba"]),
+        States(name: "Algiers", cities: [
           "Annabah",
           "Birrahhal",
           "Saraydih",
@@ -191,14 +191,14 @@ final List<Country> countries = [
           "al-Buni",
           "al-Hajar"
         ]),
-        State(name: "Annabah", cities: [
+        States(name: "Annabah", cities: [
           "Abadlah",
           "Bani Wanif",
           "Bashshar",
           "Qanadsan",
           "Taghit"
         ]),
-        State(name: "Bashshar", cities: [
+        States(name: "Bashshar", cities: [
           "Aris",
           "Ayn Tutah",
           "Barikah",
@@ -208,7 +208,7 @@ final List<Country> countries = [
           "Ra\\'\\'s-al-\\'\\'Ayun",
           "Tazult"
         ]),
-        State(name: "Batnah", cities: [
+        States(name: "Batnah", cities: [
           "Ayt Rizin",
           "Akbu",
           "Amizur",
@@ -225,7 +225,7 @@ final List<Country> countries = [
           "Uz-al-Laqin",
           "al-Qasr"
         ]),
-        State(name: "Bijayah", cities: [
+        States(name: "Bijayah", cities: [
           "Awlad Jallal",
           "Biskrah",
           "Sidi Khalid",
@@ -234,7 +234,7 @@ final List<Country> countries = [
           "Um\\'\\'ash",
           "Zaribat-al-Wad"
         ]),
-        State(name: "Biskrah", cities: [
+        States(name: "Biskrah", cities: [
           "Awlad Salam",
           "Awlad Yaysh",
           "Bani Khalil",
@@ -256,7 +256,7 @@ final List<Country> countries = [
           "al-\\'\\'Afrun",
           "al-Arba\\'\\'a"
         ]),
-        State(name: "Blidah", cities: [
+        States(name: "Blidah", cities: [
           "Ayn Bissim",
           "Aghbalu",
           "Bi\\'\\'r Ghabalu",
@@ -265,7 +265,7 @@ final List<Country> countries = [
           "Shurfa",
           "Sur-al-Ghuzlan"
         ]),
-        State(name: "Buirah", cities: [
+        States(name: "Buirah", cities: [
           "Ayn Tayah",
           "Awlad Haddaj",
           "Awlad Mussa",
@@ -285,8 +285,8 @@ final List<Country> countries = [
           "al-Arba\\'\\'a Tash",
           "ar-Ruwibah"
         ]),
-        State(name: "Bumardas", cities: []),
-        State(name: "Burj Bu Arririj", cities: [
+        States(name: "Bumardas", cities: []),
+        States(name: "Burj Bu Arririj", cities: [
           "Ammi Mussa",
           "Ghalizan",
           "Jidiwiyah",
@@ -295,7 +295,7 @@ final List<Country> countries = [
           "Wadi Rahiyu",
           "Zammurah"
         ]),
-        State(name: "Ghalizan", cities: [
+        States(name: "Ghalizan", cities: [
           "Biryan",
           "Bu Nura",
           "Ghardaia",
@@ -304,15 +304,15 @@ final List<Country> countries = [
           "al-Ghuli\\'\\'ah",
           "al-Qararah"
         ]),
-        State(name: "Ghardayah", cities: ["Ilizi"]),
-        State(name: "Ilizi", cities: [
+        States(name: "Ghardayah", cities: ["Ilizi"]),
+        States(name: "Ilizi", cities: [
           "Amir \\'\\'Abd-al-Qadar",
           "Jijili",
           "Shifka",
           "Tahar",
           "al-Miliyah"
         ]),
-        State(name: "Jijili", cities: [
+        States(name: "Jijili", cities: [
           "Ayn Wissarah",
           "Ayn-al-Ibil",
           "Birin",
@@ -323,10 +323,10 @@ final List<Country> countries = [
           "Sharif",
           "al-Idrisiyah"
         ]),
-        State(
+        States(
             name: "Jilfah",
             cities: ["Khanshalah", "Sharshar", "Tawziyanat", "al-Mahmal"]),
-        State(name: "Khanshalah", cities: [
+        States(name: "Khanshalah", cities: [
           "Ayn-al-Hajal",
           "Ayn-al-Milh",
           "Bu Sa\\'\\'adah",
@@ -337,7 +337,7 @@ final List<Country> countries = [
           "Sidi \\'\\'Aysa",
           "Wanugha"
         ]),
-        State(name: "Masilah", cities: [
+        States(name: "Masilah", cities: [
           "Ayn Bu Sif",
           "Birwaghiyah",
           "Midyah",
@@ -345,7 +345,7 @@ final List<Country> countries = [
           "Shillalah",
           "Tablat"
         ]),
-        State(name: "Midyah", cities: [
+        States(name: "Midyah", cities: [
           "Farjiwah",
           "Milah",
           "Qararam Quqa",
@@ -357,7 +357,7 @@ final List<Country> countries = [
           "Talighmah",
           "Wadi Athmaniyah"
         ]),
-        State(name: "Milah", cities: [
+        States(name: "Milah", cities: [
           "Bu Khanifiyah",
           "Muaskar",
           "Muhammadiyah",
@@ -366,24 +366,24 @@ final List<Country> countries = [
           "Wadi al-Abtal",
           "Zahana"
         ]),
-        State(name: "Muaskar", cities: [
+        States(name: "Muaskar", cities: [
           "Ayn Tadalas",
           "Hassi Mamash",
           "Mazaghran",
           "Mustaghanam",
           "Sidi Ali"
         ]),
-        State(name: "Mustaghanam", cities: ["Ayn Safra", "Mishriyah", "Naama"]),
-        State(name: "Naama", cities: ["Oran"]),
-        State(name: "Oran", cities: ["Ouargla"]),
-        State(name: "Ouargla", cities: [
+        States(name: "Mustaghanam", cities: ["Ayn Safra", "Mishriyah", "Naama"]),
+        States(name: "Naama", cities: ["Oran"]),
+        States(name: "Oran", cities: ["Ouargla"]),
+        States(name: "Ouargla", cities: [
           "Ayn Bardah",
           "Bumahra Ahmad",
           "Hamman Awlad \\'\\'Ali",
           "Qalmah",
           "Wadi Zinati"
         ]),
-        State(name: "Qalmah", cities: [
+        States(name: "Qalmah", cities: [
           "Ayn Abid",
           "Ayn Samara",
           "Didush Murad",
@@ -392,7 +392,7 @@ final List<Country> countries = [
           "Zighut Yusuf",
           "al-Khurub"
         ]),
-        State(name: "Qustantinah", cities: [
+        States(name: "Qustantinah", cities: [
           "Azzabah",
           "Amjaz Adshish",
           "Fil Fila",
@@ -404,7 +404,7 @@ final List<Country> countries = [
           "al-Harush",
           "al-Qull"
         ]),
-        State(name: "Sakikdah", cities: [
+        States(name: "Sakikdah", cities: [
           "Ayn \\'\\'Azl",
           "Ayn Arnat",
           "Ayn Taqrut",
@@ -418,13 +418,13 @@ final List<Country> countries = [
           "Ziyama Mansuriyah",
           "al-\\'\\'Ulmah"
         ]),
-        State(name: "Satif", cities: ["Ayn-al-Hajar", "Sayda"]),
-        State(name: "Sayda", cities: []),
-        State(name: "Sidi ban-al-\\'\\'Abbas", cities: []),
-        State(
+        States(name: "Satif", cities: ["Ayn-al-Hajar", "Sayda"]),
+        States(name: "Sayda", cities: []),
+        States(name: "Sidi ban-al-\\'\\'Abbas", cities: []),
+        States(
             name: "Suq Ahras",
             cities: ["Ayn Qazzan", "Ayn Salah", "Tamanghasat"]),
-        State(name: "Tamanghasat", cities: [
+        States(name: "Tamanghasat", cities: [
           "Ayn Binyan",
           "Bu Isma\\'\\'il",
           "Bu Midfar\\'\\'ah",
@@ -441,7 +441,7 @@ final List<Country> countries = [
           "Ziralda",
           "al-Qull\\'\\'ah"
         ]),
-        State(name: "Tibazah", cities: [
+        States(name: "Tibazah", cities: [
           "Bi\\'\\'r-al-\\'\\'Itir",
           "Hammamat",
           "Mursut",
@@ -450,7 +450,7 @@ final List<Country> countries = [
           "Winzah",
           "al-\\'\\'Awaynat"
         ]),
-        State(name: "Tibissah", cities: [
+        States(name: "Tibissah", cities: [
           "Awlad Mimun",
           "Bani Mastar",
           "Bani Sikran",
@@ -466,9 +466,9 @@ final List<Country> countries = [
           "Tilimsan",
           "al-Mansurah"
         ]),
-        State(name: "Tilimsan", cities: ["Tinduf"]),
-        State(name: "Tinduf", cities: ["Thaniyat-al-Had", "Tisamsilt"]),
-        State(name: "Tisamsilt", cities: [
+        States(name: "Tilimsan", cities: ["Tinduf"]),
+        States(name: "Tinduf", cities: ["Thaniyat-al-Had", "Tisamsilt"]),
+        States(name: "Tisamsilt", cities: [
           "Ayn Dhahab",
           "Firindah",
           "Mahdiyah",
@@ -479,8 +479,8 @@ final List<Country> countries = [
           "Takhamarat",
           "Tiyarat"
         ]),
-        State(name: "Tiyarat", cities: []),
-        State(name: "Tizi Wazu", cities: [
+        States(name: "Tiyarat", cities: []),
+        States(name: "Tizi Wazu", cities: [
           "Ayn Bayda",
           "Ayn Fakrun",
           "Ayn Kirshah",
@@ -490,7 +490,7 @@ final List<Country> countries = [
           "Shamurah",
           "Umm-al-Bawaghi"
         ]),
-        State(name: "Umm-al-Bawaghi", cities: [
+        States(name: "Umm-al-Bawaghi", cities: [
           "Ayn Biya",
           "Ayn-at-Turk",
           "Arzu",
@@ -505,7 +505,7 @@ final List<Country> countries = [
           "al-Ansur",
           "as-Saniyah"
         ]),
-        State(name: "Wahran", cities: [
+        States(name: "Wahran", cities: [
           "Hassi Mas\\'\\'ud",
           "Nazla",
           "Ruwisiyat",
@@ -517,16 +517,16 @@ final List<Country> countries = [
           "Warqla",
           "al-Hajirah"
         ]),
-        State(name: "Warqla", cities: []),
-        State(name: "Wilaya d Alger", cities: []),
-        State(name: "Wilaya de Bejaia", cities: []),
-        State(
+        States(name: "Warqla", cities: []),
+        States(name: "Wilaya d Alger", cities: []),
+        States(name: "Wilaya de Bejaia", cities: []),
+        States(
             name: "Wilaya de Constantine",
             cities: ["Aflu", "Hassi al-Raml", "al-Aghwat"]),
-        State(
+        States(
             name: "al-Aghwat",
             cities: ["Brizyanah", "al-Abyad Sidi Shaykh", "al-Bayadh"]),
-        State(name: "al-Bayadh", cities: [
+        States(name: "al-Bayadh", cities: [
           "Bab Azwar",
           "Baraki",
           "Bir Murad Rais",
@@ -535,7 +535,7 @@ final List<Country> countries = [
           "Dar-al-Bayda",
           "al-Jaza\\'\\'ir"
         ]),
-        State(name: "al-Jaza\\'\\'ir", cities: [
+        States(name: "al-Jaza\\'\\'ir", cities: [
           "Bayadha",
           "Dabilah",
           "Hassan \\'\\'Abd-al-Karim",
@@ -549,7 +549,7 @@ final List<Country> countries = [
           "al-Mighair",
           "al-Wad"
         ]),
-        State(name: "al-Wad", cities: [
+        States(name: "al-Wad", cities: [
           "Ayn Maran",
           "Abu al-Hassan",
           "Bani Hawa",
@@ -561,7 +561,7 @@ final List<Country> countries = [
           "ash-Shalif",
           "ash-Shattiyah"
         ]),
-        State(name: "ash-Shalif", cities: [
+        States(name: "ash-Shalif", cities: [
           "Ban Mahdi",
           "Bani Amar",
           "Basbas",
@@ -570,7 +570,7 @@ final List<Country> countries = [
           "al-Qal\\'\\'ah",
           "at-Tarif"
         ]),
-        State(name: "at-Tarif", cities: [
+        States(name: "at-Tarif", cities: [
           "Afono",
           "Alao",
           "Alofau",
@@ -600,9 +600,9 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Eastern", cities: ["Ofu"]),
-        State(name: "Manu\\'\\'a", cities: []),
-        State(name: "Swains Island", cities: [
+        States(name: "Eastern", cities: ["Ofu"]),
+        States(name: "Manu\\'\\'a", cities: []),
+        States(name: "Swains Island", cities: [
           "Aoloau",
           "Faleniu",
           "Futiga",
@@ -619,7 +619,7 @@ final List<Country> countries = [
           "Vailoatai",
           "Vaitogi"
         ]),
-        State(name: "Western", cities: [])
+        States(name: "Western", cities: [])
       ]),
   Country(
       name: "Andorra",
@@ -629,13 +629,13 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Andorra la Vella", cities: ["Canillo"]),
-        State(name: "Canillo", cities: ["Encamp"]),
-        State(name: "Encamp", cities: []),
-        State(name: "La Massana", cities: []),
-        State(name: "Les Escaldes", cities: ["Ordino"]),
-        State(name: "Ordino", cities: []),
-        State(name: "Sant Julia de Loria", cities: ["Caxito"])
+        States(name: "Andorra la Vella", cities: ["Canillo"]),
+        States(name: "Canillo", cities: ["Encamp"]),
+        States(name: "Encamp", cities: []),
+        States(name: "La Massana", cities: []),
+        States(name: "Les Escaldes", cities: ["Ordino"]),
+        States(name: "Ordino", cities: []),
+        States(name: "Sant Julia de Loria", cities: ["Caxito"])
       ]),
   Country(
       name: "Angola",
@@ -645,36 +645,36 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Bengo", cities: ["Benguela", "Lobito"]),
-        State(name: "Benguela", cities: [
+        States(name: "Bengo", cities: ["Benguela", "Lobito"]),
+        States(name: "Benguela", cities: [
           "Camacupa",
           "Catabola",
           "Catumbela",
           "Chissamba",
           "Kuito"
         ]),
-        State(name: "Bie", cities: ["Cabinda"]),
-        State(name: "Cabinda", cities: ["Ondjiva"]),
-        State(
+        States(name: "Bie", cities: ["Cabinda"]),
+        States(name: "Cabinda", cities: ["Ondjiva"]),
+        States(
             name: "Cunene",
             cities: ["Caala", "Catchiungo", "Huambo", "Longonjo"]),
-        State(name: "Huambo", cities: ["Caconda", "Caluquembe", "Lubango"]),
-        State(name: "Huila", cities: ["Menongue"]),
-        State(name: "Kuando-Kubango", cities: []),
-        State(name: "Kwanza Norte", cities: []),
-        State(name: "Kwanza Sul", cities: ["Luanda"]),
-        State(name: "Luanda", cities: []),
-        State(name: "Lunda Norte", cities: []),
-        State(name: "Lunda Sul", cities: ["Malanje"]),
-        State(
+        States(name: "Huambo", cities: ["Caconda", "Caluquembe", "Lubango"]),
+        States(name: "Huila", cities: ["Menongue"]),
+        States(name: "Kuando-Kubango", cities: []),
+        States(name: "Kwanza Norte", cities: []),
+        States(name: "Kwanza Sul", cities: ["Luanda"]),
+        States(name: "Luanda", cities: []),
+        States(name: "Lunda Norte", cities: []),
+        States(name: "Lunda Sul", cities: ["Malanje"]),
+        States(
             name: "Malanje",
             cities: ["Cazaje", "Leua", "Luau", "Luena", "Lumeje"]),
-        State(name: "Moxico", cities: ["Namibe"]),
-        State(name: "Namibe", cities: ["Camabatela", "Uige"]),
-        State(
+        States(name: "Moxico", cities: ["Namibe"]),
+        States(name: "Namibe", cities: ["Camabatela", "Uige"]),
+        States(
             name: "Uige",
             cities: ["M\\'\\'banza-Kongo", "N\\'\\'zeto", "Soyo"]),
-        State(name: "Zaire", cities: [])
+        States(name: "Zaire", cities: [])
       ]),
   Country(
       name: "Anguilla",
@@ -683,7 +683,7 @@ final List<Country> countries = [
       dialCode: "1264",
       minLength: 7,
       maxLength: 7,
-      states: [State(name: "Other Provinces", cities: [])]),
+      states: [States(name: "Other Provinces", cities: [])]),
   Country(
       name: "Antarctica",
       flag: "🇦🇶",
@@ -692,13 +692,13 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Sector claimed by Argentina/Ch", cities: []),
-        State(name: "Sector claimed by Argentina/UK", cities: []),
-        State(name: "Sector claimed by Australia", cities: []),
-        State(name: "Sector claimed by France", cities: []),
-        State(name: "Sector claimed by New Zealand", cities: []),
-        State(name: "Sector claimed by Norway", cities: []),
-        State(name: "Unclaimed Sector", cities: ["Codrington"])
+        States(name: "Sector claimed by Argentina/Ch", cities: []),
+        States(name: "Sector claimed by Argentina/UK", cities: []),
+        States(name: "Sector claimed by Australia", cities: []),
+        States(name: "Sector claimed by France", cities: []),
+        States(name: "Sector claimed by New Zealand", cities: []),
+        States(name: "Sector claimed by Norway", cities: []),
+        States(name: "Unclaimed Sector", cities: ["Codrington"])
       ]),
   Country(
       name: "Antigua and Barbuda",
@@ -708,13 +708,13 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Barbuda", cities: []),
-        State(name: "Saint George", cities: []),
-        State(name: "Saint John", cities: []),
-        State(name: "Saint Mary", cities: []),
-        State(name: "Saint Paul", cities: []),
-        State(name: "Saint Peter", cities: []),
-        State(name: "Saint Philip", cities: [])
+        States(name: "Barbuda", cities: []),
+        States(name: "Saint George", cities: []),
+        States(name: "Saint John", cities: []),
+        States(name: "Saint Mary", cities: []),
+        States(name: "Saint Paul", cities: []),
+        States(name: "Saint Peter", cities: []),
+        States(name: "Saint Philip", cities: [])
       ]),
   Country(
       name: "Argentina",
@@ -724,17 +724,17 @@ final List<Country> countries = [
       minLength: 12,
       maxLength: 12,
       states: [
-        State(name: "Buenos Aires", cities: ["Catamarca"]),
-        State(
+        States(name: "Buenos Aires", cities: ["Catamarca"]),
+        States(
             name: "Catamarca",
             cities: ["Presidencia Roque Saenz Pena", "Resistencia"]),
-        State(name: "Chaco", cities: [
+        States(name: "Chaco", cities: [
           "Comodoro Rivadavia",
           "Puerto Madryn",
           "Rawson",
           "Trelew"
         ]),
-        State(name: "Chubut", cities: [
+        States(name: "Chubut", cities: [
           "Alta Gracia",
           "Bell Ville",
           "Cordoba",
@@ -744,18 +744,18 @@ final List<Country> countries = [
           "Villa Carlos Paz",
           "Villa Maria"
         ]),
-        State(
+        States(
             name: "Cordoba",
             cities: ["Corrientes", "Goya", "Mercedes", "San Lorenzo"]),
-        State(name: "Corrientes", cities: []),
-        State(name: "Distrito Federal", cities: []),
-        State(name: "Entre Rios", cities: ["Formosa"]),
-        State(
+        States(name: "Corrientes", cities: []),
+        States(name: "Distrito Federal", cities: []),
+        States(name: "Entre Rios", cities: ["Formosa"]),
+        States(
             name: "Formosa",
             cities: ["Jujuy", "Libertador General San Martin", "San Pedro"]),
-        State(name: "Jujuy", cities: []),
-        State(name: "La Pampa", cities: []),
-        State(name: "La Rioja", cities: [
+        States(name: "Jujuy", cities: []),
+        States(name: "La Pampa", cities: []),
+        States(name: "La Rioja", cities: [
           "Godoy Cruz",
           "Lujan",
           "Mendoza",
@@ -763,20 +763,20 @@ final List<Country> countries = [
           "San Martin",
           "San Rafael"
         ]),
-        State(name: "Mendoza", cities: ["Eldorado", "Obera", "Posadas"]),
-        State(name: "Misiones", cities: ["Cutral Co", "Neuquen"]),
-        State(name: "Neuquen", cities: []),
-        State(
+        States(name: "Mendoza", cities: ["Eldorado", "Obera", "Posadas"]),
+        States(name: "Misiones", cities: ["Cutral Co", "Neuquen"]),
+        States(name: "Neuquen", cities: []),
+        States(
             name: "Rio Negro",
             cities: ["Salta", "San Ramon de la Nueva Oran", "Tartagal"]),
-        State(name: "Salta", cities: []),
-        State(name: "San Juan", cities: []),
-        State(name: "San Luis", cities: []),
-        State(name: "Santa Cruz", cities: []),
-        State(name: "Santa Fe", cities: []),
-        State(name: "Santiago del Estero", cities: []),
-        State(name: "Tierra del Fuego", cities: ["Tucuman"]),
-        State(name: "Tucuman", cities: ["Ashtarak", "Talin"])
+        States(name: "Salta", cities: []),
+        States(name: "San Juan", cities: []),
+        States(name: "San Luis", cities: []),
+        States(name: "Santa Cruz", cities: []),
+        States(name: "Santa Fe", cities: []),
+        States(name: "Santiago del Estero", cities: []),
+        States(name: "Tierra del Fuego", cities: ["Tucuman"]),
+        States(name: "Tucuman", cities: ["Ashtarak", "Talin"])
       ]),
   Country(
       name: "Armenia",
@@ -786,14 +786,14 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Aragatsotn", cities: ["Ararat", "Artashat"]),
-        State(name: "Ararat", cities: ["Armavir", "Vagharshapat"]),
-        State(
+        States(name: "Aragatsotn", cities: ["Ararat", "Artashat"]),
+        States(name: "Ararat", cities: ["Armavir", "Vagharshapat"]),
+        States(
             name: "Armavir", cities: ["Gavar", "Martuni", "Sevan", "Vardenis"]),
-        State(
+        States(
             name: "Gegharkunik",
             cities: ["Abovyan", "Arzni", "Charentsavan", "Hrazdan"]),
-        State(name: "Kotaik", cities: [
+        States(name: "Kotaik", cities: [
           "Akhtala",
           "Alaverdi",
           "Spitak",
@@ -801,9 +801,9 @@ final List<Country> countries = [
           "Tashir",
           "Vanadzor"
         ]),
-        State(name: "Lori", cities: ["Artik", "Gyumri"]),
-        State(name: "Shirak", cities: ["Stepanakert"]),
-        State(name: "Stepanakert", cities: [
+        States(name: "Lori", cities: ["Artik", "Gyumri"]),
+        States(name: "Shirak", cities: ["Stepanakert"]),
+        States(name: "Stepanakert", cities: [
           "Angeghakot",
           "Goris",
           "Kajaran",
@@ -811,10 +811,10 @@ final List<Country> countries = [
           "Meghri",
           "Sisian"
         ]),
-        State(name: "Syunik", cities: ["Dilijan", "Ijevan"]),
-        State(name: "Tavush", cities: []),
-        State(name: "Vayots Dzor", cities: ["Yerevan"]),
-        State(name: "Yerevan", cities: ["Aruba"])
+        States(name: "Syunik", cities: ["Dilijan", "Ijevan"]),
+        States(name: "Tavush", cities: []),
+        States(name: "Vayots Dzor", cities: ["Yerevan"]),
+        States(name: "Yerevan", cities: ["Aruba"])
       ]),
   Country(
       name: "Aruba",
@@ -824,7 +824,7 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Aruba", cities: ["Glenfield", "Henderson", "Milford"])
+        States(name: "Aruba", cities: ["Glenfield", "Henderson", "Milford"])
       ]),
   Country(
       name: "Australia",
@@ -834,29 +834,29 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Auckland", cities: []),
-        State(name: "Australian Capital Territory", cities: ["Balgowlah"]),
-        State(name: "Balgowlah", cities: ["Balmain"]),
-        State(name: "Balmain", cities: ["Bankstown"]),
-        State(name: "Bankstown", cities: []),
-        State(name: "Baulkham Hills", cities: []),
-        State(name: "Bonnet Bay", cities: ["Camberwell"]),
-        State(name: "Camberwell", cities: []),
-        State(name: "Carole Park", cities: []),
-        State(name: "Castle Hill", cities: ["Caulfield"]),
-        State(name: "Caulfield", cities: ["Chatswood"]),
-        State(name: "Chatswood", cities: ["Cheltenham"]),
-        State(name: "Cheltenham", cities: ["Cherrybrook"]),
-        State(name: "Cherrybrook", cities: ["Clayton"]),
-        State(name: "Clayton", cities: ["Collingwood"]),
-        State(name: "Collingwood", cities: []),
-        State(name: "Frenchs Forest", cities: ["Hawthorn"]),
-        State(name: "Hawthorn", cities: ["Jannnali"]),
-        State(name: "Jannnali", cities: ["Knoxfield"]),
-        State(name: "Knoxfield", cities: ["Melbourne", "South Oakleigh"]),
-        State(name: "Melbourne", cities: []),
-        State(name: "New South Wales", cities: []),
-        State(name: "Northern Territory", cities: [
+        States(name: "Auckland", cities: []),
+        States(name: "Australian Capital Territory", cities: ["Balgowlah"]),
+        States(name: "Balgowlah", cities: ["Balmain"]),
+        States(name: "Balmain", cities: ["Bankstown"]),
+        States(name: "Bankstown", cities: []),
+        States(name: "Baulkham Hills", cities: []),
+        States(name: "Bonnet Bay", cities: ["Camberwell"]),
+        States(name: "Camberwell", cities: []),
+        States(name: "Carole Park", cities: []),
+        States(name: "Castle Hill", cities: ["Caulfield"]),
+        States(name: "Caulfield", cities: ["Chatswood"]),
+        States(name: "Chatswood", cities: ["Cheltenham"]),
+        States(name: "Cheltenham", cities: ["Cherrybrook"]),
+        States(name: "Cherrybrook", cities: ["Clayton"]),
+        States(name: "Clayton", cities: ["Collingwood"]),
+        States(name: "Collingwood", cities: []),
+        States(name: "Frenchs Forest", cities: ["Hawthorn"]),
+        States(name: "Hawthorn", cities: ["Jannnali"]),
+        States(name: "Jannnali", cities: ["Knoxfield"]),
+        States(name: "Knoxfield", cities: ["Melbourne", "South Oakleigh"]),
+        States(name: "Melbourne", cities: []),
+        States(name: "New South Wales", cities: []),
+        States(name: "Northern Territory", cities: [
           "Cottesole",
           "Darch",
           "Mullaloo",
@@ -864,7 +864,7 @@ final List<Country> countries = [
           "Osborne Park",
           "Willetton"
         ]),
-        State(name: "Perth", cities: [
+        States(name: "Perth", cities: [
           "Acacia Ridge",
           "Aitkenvale",
           "Alderley",
@@ -971,8 +971,8 @@ final List<Country> countries = [
           "Yeppoon",
           "Zillmere"
         ]),
-        State(name: "Queensland", cities: []),
-        State(name: "South Australia", cities: [
+        States(name: "Queensland", cities: []),
+        States(name: "South Australia", cities: [
           "Bridgewater-Gagebrook",
           "Burnie",
           "Burnie-Devonport",
@@ -985,8 +985,8 @@ final List<Country> countries = [
           "Sheffield",
           "Ulverstone"
         ]),
-        State(name: "Tasmania", cities: ["Templestowe"]),
-        State(name: "Templestowe", cities: [
+        States(name: "Tasmania", cities: ["Templestowe"]),
+        States(name: "Templestowe", cities: [
           "Albion",
           "Ararat",
           "Avenel",
@@ -1124,10 +1124,10 @@ final List<Country> countries = [
           "Yarrawonga-Mulwala",
           "Yea"
         ]),
-        State(name: "Victoria", cities: []),
-        State(name: "Werribee south", cities: []),
-        State(name: "Western Australia", cities: ["Wheeler"]),
-        State(name: "Wheeler", cities: [])
+        States(name: "Victoria", cities: []),
+        States(name: "Werribee south", cities: []),
+        States(name: "Western Australia", cities: ["Wheeler"]),
+        States(name: "Wheeler", cities: [])
       ]),
   Country(
       name: "Austria",
@@ -1137,9 +1137,9 @@ final List<Country> countries = [
       minLength: 13,
       maxLength: 13,
       states: [
-        State(name: "Bundesland Salzburg", cities: []),
-        State(name: "Bundesland Steiermark", cities: []),
-        State(name: "Bundesland Tirol", cities: [
+        States(name: "Bundesland Salzburg", cities: []),
+        States(name: "Bundesland Steiermark", cities: []),
+        States(name: "Bundesland Tirol", cities: [
           "Eisenstadt",
           "GroBpetersdorf",
           "Jennersdorf",
@@ -1151,8 +1151,8 @@ final List<Country> countries = [
           "Pinkafeld",
           "Rust"
         ]),
-        State(name: "Burgenland", cities: ["Maria Rain", "Poggersdorf"]),
-        State(name: "Carinthia", cities: [
+        States(name: "Burgenland", cities: ["Maria Rain", "Poggersdorf"]),
+        States(name: "Carinthia", cities: [
           "Althofen",
           "Arnoldstein",
           "Bad Sankt Leonhard",
@@ -1181,9 +1181,9 @@ final List<Country> countries = [
           "Wernberg",
           "Wolfsberg"
         ]),
-        State(name: "Karnten", cities: []),
-        State(name: "Liezen", cities: []),
-        State(name: "Lower Austria", cities: [
+        States(name: "Karnten", cities: []),
+        States(name: "Liezen", cities: []),
+        States(name: "Lower Austria", cities: [
           "Amstetten",
           "Bad Voslau",
           "Baden",
@@ -1266,7 +1266,7 @@ final List<Country> countries = [
           "Zistersdorf",
           "Zwettl"
         ]),
-        State(name: "Niederosterreich", cities: [
+        States(name: "Niederosterreich", cities: [
           "Alkoven",
           "Altheim",
           "Altmunster",
@@ -1340,7 +1340,7 @@ final List<Country> countries = [
           "Wels",
           "Wilhering"
         ]),
-        State(name: "Oberosterreich", cities: [
+        States(name: "Oberosterreich", cities: [
           "Abtenau",
           "Anif",
           "Bad Gastein",
@@ -1378,8 +1378,8 @@ final List<Country> countries = [
           "Wolfgangsee",
           "Zell am See"
         ]),
-        State(name: "Salzburg", cities: ["Albersdorf"]),
-        State(name: "Schleswig-Holstein", cities: [
+        States(name: "Salzburg", cities: ["Albersdorf"]),
+        States(name: "Schleswig-Holstein", cities: [
           "Bad Aussee",
           "Barnbach",
           "Bruck an der Mur",
@@ -1417,10 +1417,10 @@ final List<Country> countries = [
           "Weiz",
           "Zeltweg"
         ]),
-        State(
+        States(
             name: "Steiermark",
             cities: ["Deutschfeistritz", "Liezen", "Sankt Bartholoma"]),
-        State(name: "Styria", cities: [
+        States(name: "Styria", cities: [
           "Absam",
           "Axams",
           "Ebbs",
@@ -1453,8 +1453,8 @@ final List<Country> countries = [
           "Worgl",
           "Zirl"
         ]),
-        State(name: "Tirol", cities: []),
-        State(name: "Upper Austria", cities: [
+        States(name: "Tirol", cities: []),
+        States(name: "Upper Austria", cities: [
           "Altach",
           "Bludenz",
           "Bregenz",
@@ -1480,8 +1480,8 @@ final List<Country> countries = [
           "Thuringen",
           "Wolfurt"
         ]),
-        State(name: "Vorarlberg", cities: ["Vienna", "Wien"]),
-        State(name: "Wien", cities: [
+        States(name: "Vorarlberg", cities: ["Vienna", "Wien"]),
+        States(name: "Wien", cities: [
           "Alat",
           "Artyom",
           "Baki",
@@ -1515,14 +1515,14 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Abseron", cities: []),
-        State(name: "Baki Sahari", cities: ["Daskasan", "Ganca", "Xanlar"]),
-        State(name: "Ganca", cities: ["Ganja"]),
-        State(name: "Ganja", cities: ["Cabrayil", "Kalbacar", "Lacin"]),
-        State(
+        States(name: "Abseron", cities: []),
+        States(name: "Baki Sahari", cities: ["Daskasan", "Ganca", "Xanlar"]),
+        States(name: "Ganca", cities: ["Ganja"]),
+        States(name: "Ganja", cities: ["Cabrayil", "Kalbacar", "Lacin"]),
+        States(
             name: "Kalbacar",
             cities: ["Astara", "Goytapa", "Lankaran", "Masalli", "Neftcala"]),
-        State(name: "Lankaran", cities: [
+        States(name: "Lankaran", cities: [
           "Agcabadi",
           "Agdam",
           "Barda",
@@ -1530,7 +1530,7 @@ final List<Country> countries = [
           "Tartar",
           "Yevlax"
         ]),
-        State(name: "Mil-Qarabax", cities: [
+        States(name: "Mil-Qarabax", cities: [
           "Ali Bayramli",
           "Bilasuvar",
           "Calilabad",
@@ -1540,12 +1540,12 @@ final List<Country> countries = [
           "Sabirabad",
           "Salyan"
         ]),
-        State(name: "Mugan-Salyan", cities: ["Susa", "Xankandi", "Xocavand"]),
-        State(
+        States(name: "Mugan-Salyan", cities: ["Susa", "Xankandi", "Xocavand"]),
+        States(
             name: "Nagorni-Qarabax",
             cities: ["Culfa", "Naxcivan", "Ordubad", "Sadarak", "Sarur"]),
-        State(name: "Naxcivan", cities: ["Beylaqan", "Fuzuli", "Imisli"]),
-        State(name: "Priaraks", cities: [
+        States(name: "Naxcivan", cities: ["Beylaqan", "Fuzuli", "Imisli"]),
+        States(name: "Priaraks", cities: [
           "Agstafa",
           "Gadabay",
           "Kovlar",
@@ -1554,7 +1554,7 @@ final List<Country> countries = [
           "Samkir",
           "Tovuz"
         ]),
-        State(name: "Qazax", cities: [
+        States(name: "Qazax", cities: [
           "Amircan",
           "Balakan",
           "Katex",
@@ -1564,7 +1564,7 @@ final List<Country> countries = [
           "Saki",
           "Zaqatala"
         ]),
-        State(name: "Saki", cities: [
+        States(name: "Saki", cities: [
           "Agdas",
           "Agsu",
           "Goycay",
@@ -1574,10 +1574,10 @@ final List<Country> countries = [
           "Ucar",
           "Zardab"
         ]),
-        State(
+        States(
             name: "Sirvan",
             cities: ["Davaci", "Quba", "Qusar", "Siyazan", "Xacmaz", "Xudat"]),
-        State(name: "Xacmaz", cities: ["Coopers Town", "Marsh Harbour"])
+        States(name: "Xacmaz", cities: ["Coopers Town", "Marsh Harbour"])
       ]),
   Country(
       name: "Bahamas",
@@ -1587,23 +1587,23 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Abaco", cities: []),
-        State(name: "Acklins Island", cities: ["Andros Town", "Nicholls Town"]),
-        State(name: "Andros", cities: []),
-        State(name: "Berry Islands", cities: ["Alice Town"]),
-        State(name: "Biminis", cities: []),
-        State(name: "Cat Island", cities: []),
-        State(name: "Crooked Island", cities: ["Freetown", "Rock Sound"]),
-        State(name: "Eleuthera", cities: []),
-        State(name: "Exuma and Cays", cities: []),
-        State(name: "Grand Bahama", cities: []),
-        State(name: "Inagua Islands", cities: []),
-        State(name: "Long Island", cities: ["Pirates Well"]),
-        State(name: "Mayaguana", cities: []),
-        State(name: "New Providence", cities: []),
-        State(name: "Ragged Island", cities: []),
-        State(name: "Rum Cay", cities: []),
-        State(name: "San Salvador", cities: ["Isa"])
+        States(name: "Abaco", cities: []),
+        States(name: "Acklins Island", cities: ["Andros Town", "Nicholls Town"]),
+        States(name: "Andros", cities: []),
+        States(name: "Berry Islands", cities: ["Alice Town"]),
+        States(name: "Biminis", cities: []),
+        States(name: "Cat Island", cities: []),
+        States(name: "Crooked Island", cities: ["Freetown", "Rock Sound"]),
+        States(name: "Eleuthera", cities: []),
+        States(name: "Exuma and Cays", cities: []),
+        States(name: "Grand Bahama", cities: []),
+        States(name: "Inagua Islands", cities: []),
+        States(name: "Long Island", cities: ["Pirates Well"]),
+        States(name: "Mayaguana", cities: []),
+        States(name: "New Providence", cities: []),
+        States(name: "Ragged Island", cities: []),
+        States(name: "Rum Cay", cities: []),
+        States(name: "San Salvador", cities: ["Isa"])
       ]),
   Country(
       name: "Bahrain",
@@ -1613,16 +1613,16 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Isa", cities: ["Badiyah"]),
-        State(name: "Badiyah", cities: ["Hidd"]),
-        State(name: "Hidd", cities: []),
-        State(name: "Jidd Hafs", cities: ["Mahama"]),
-        State(name: "Mahama", cities: ["Manama"]),
-        State(name: "Manama", cities: ["Sitrah"]),
-        State(name: "Sitrah", cities: ["al-Manamah"]),
-        State(name: "al-Manamah", cities: ["al-Muharraq"]),
-        State(name: "al-Muharraq", cities: ["ar-Rifa\\'\\'a"]),
-        State(name: "ar-Rifa\\'\\'a", cities: [])
+        States(name: "Isa", cities: ["Badiyah"]),
+        States(name: "Badiyah", cities: ["Hidd"]),
+        States(name: "Hidd", cities: []),
+        States(name: "Jidd Hafs", cities: ["Mahama"]),
+        States(name: "Mahama", cities: ["Manama"]),
+        States(name: "Manama", cities: ["Sitrah"]),
+        States(name: "Sitrah", cities: ["al-Manamah"]),
+        States(name: "al-Manamah", cities: ["al-Muharraq"]),
+        States(name: "al-Muharraq", cities: ["ar-Rifa\\'\\'a"]),
+        States(name: "ar-Rifa\\'\\'a", cities: [])
       ]),
   Country(
       name: "Bangladesh",
@@ -1632,18 +1632,18 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Bagar Hat", cities: ["Bandarban"]),
-        State(name: "Bandarban", cities: ["Barguna"]),
-        State(
+        States(name: "Bagar Hat", cities: ["Bandarban"]),
+        States(name: "Bandarban", cities: ["Barguna"]),
+        States(
             name: "Barguna",
             cities: ["Barisal", "Gaurnadi", "Mehendiganj", "Nalchiti"]),
-        State(
+        States(
             name: "Barisal",
             cities: ["Bhola", "Burhanuddin", "Char Fasson", "Lalmohan"]),
-        State(name: "Bhola", cities: ["Adamighi", "Bogora", "Sherpur"]),
-        State(name: "Bogora", cities: []),
-        State(name: "Brahman Bariya", cities: ["Chandpur", "Hajiganj"]),
-        State(name: "Chandpur", cities: [
+        States(name: "Bhola", cities: ["Adamighi", "Bogora", "Sherpur"]),
+        States(name: "Bogora", cities: []),
+        States(name: "Brahman Bariya", cities: ["Chandpur", "Hajiganj"]),
+        States(name: "Chandpur", cities: [
           "Boalkhali",
           "Chattagam",
           "Fatikchhari",
@@ -1654,50 +1654,50 @@ final List<Country> countries = [
           "Sandip",
           "Satkaniya"
         ]),
-        State(name: "Chattagam", cities: []),
-        State(
+        States(name: "Chattagam", cities: []),
+        States(
             name: "Chittagong Division",
             cities: ["Alamdanga", "Chuadanga", "Damurhuda"]),
-        State(name: "Chuadanga", cities: ["Dhaka", "Dhamrai", "Dohar"]),
-        State(
+        States(name: "Chuadanga", cities: ["Dhaka", "Dhamrai", "Dohar"]),
+        States(
             name: "Dhaka",
             cities: ["Bochanganj", "Dinajpur", "Fulbari", "Parbatipur"]),
-        State(
+        States(
             name: "Dinajpur", cities: ["Bhanga", "Char Bhadrasan", "Faridpur"]),
-        State(name: "Faridpur", cities: ["Chhagalnaiya", "Feni"]),
-        State(name: "Feni", cities: ["Gaybanda"]),
-        State(name: "Gaybanda", cities: ["Gazipur", "Tungi"]),
-        State(name: "Gazipur", cities: ["Gopalganj", "Tungi Para"]),
-        State(name: "Gopalganj", cities: ["Baniachang", "Habiganj"]),
-        State(name: "Habiganj", cities: []),
-        State(name: "Jaipur Hat", cities: ["Jamalpur", "Sarishabari"]),
-        State(
+        States(name: "Faridpur", cities: ["Chhagalnaiya", "Feni"]),
+        States(name: "Feni", cities: ["Gaybanda"]),
+        States(name: "Gaybanda", cities: ["Gazipur", "Tungi"]),
+        States(name: "Gazipur", cities: ["Gopalganj", "Tungi Para"]),
+        States(name: "Gopalganj", cities: ["Baniachang", "Habiganj"]),
+        States(name: "Habiganj", cities: []),
+        States(name: "Jaipur Hat", cities: ["Jamalpur", "Sarishabari"]),
+        States(
             name: "Jamalpur",
             cities: ["Abhaynagar", "Jessor", "Jhikargachha", "Keshabpur"]),
-        State(name: "Jessor", cities: ["Jhalakati"]),
-        State(
+        States(name: "Jessor", cities: ["Jhalakati"]),
+        States(
             name: "Jhalakati",
             cities: ["Jhanaydah", "Kaliganj", "Kotchandpur", "Shailkupa"]),
-        State(
+        States(
             name: "Jhanaydah",
             cities: ["Khagrachari", "Manikchhari", "Ramgarh"]),
-        State(name: "Khagrachhari", cities: ["Khulna", "Phultala"]),
-        State(
+        States(name: "Khagrachhari", cities: ["Khulna", "Phultala"]),
+        States(
             name: "Khulna",
             cities: ["Bajitpur", "Bhairab Bazar", "Itna", "Kishorganj"]),
-        State(name: "Kishorganj", cities: []),
-        State(name: "Koks Bazar", cities: ["Komilla", "Laksham"]),
-        State(
+        States(name: "Kishorganj", cities: []),
+        States(name: "Koks Bazar", cities: ["Komilla", "Laksham"]),
+        States(
             name: "Komilla",
             cities: ["Chilmari", "Kurigram", "Nageshwari", "Ulipur"]),
-        State(name: "Kurigram", cities: ["Bheramara", "Kushtiya"]),
-        State(
+        States(name: "Kurigram", cities: ["Bheramara", "Kushtiya"]),
+        States(
             name: "Kushtiya",
             cities: ["Lakshmipur", "Ramganj", "Ramgati", "Raypur"]),
-        State(name: "Lakshmipur", cities: []),
-        State(name: "Lalmanir Hat", cities: ["Madaripur"]),
-        State(name: "Madaripur", cities: ["Magura"]),
-        State(name: "Magura", cities: [
+        States(name: "Lakshmipur", cities: []),
+        States(name: "Lalmanir Hat", cities: ["Madaripur"]),
+        States(name: "Madaripur", cities: ["Magura"]),
+        States(name: "Magura", cities: [
           "Bhaluka",
           "Fulbaria",
           "Gafargaon",
@@ -1706,43 +1706,43 @@ final List<Country> countries = [
           "Muktagachha",
           "Trishal"
         ]),
-        State(name: "Maimansingh", cities: ["Manikganj"]),
-        State(name: "Manikganj", cities: []),
-        State(name: "Maulvi Bazar", cities: ["Meherpur"]),
-        State(name: "Meherpur", cities: ["Munshiganj"]),
-        State(name: "Munshiganj", cities: ["Kalia", "Naral"]),
-        State(name: "Naral", cities: ["Narayanganj", "Rupganj"]),
-        State(name: "Narayanganj", cities: ["Narsingdi", "Roypura"]),
-        State(name: "Narsingdi", cities: ["Gurudaspur", "Nator"]),
-        State(name: "Nator", cities: ["Naugaon"]),
-        State(name: "Naugaon", cities: ["Gomastapur", "Nawabganj", "Shibganj"]),
-        State(name: "Nawabganj", cities: ["Netrakona"]),
-        State(
+        States(name: "Maimansingh", cities: ["Manikganj"]),
+        States(name: "Manikganj", cities: []),
+        States(name: "Maulvi Bazar", cities: ["Meherpur"]),
+        States(name: "Meherpur", cities: ["Munshiganj"]),
+        States(name: "Munshiganj", cities: ["Kalia", "Naral"]),
+        States(name: "Naral", cities: ["Narayanganj", "Rupganj"]),
+        States(name: "Narayanganj", cities: ["Narsingdi", "Roypura"]),
+        States(name: "Narsingdi", cities: ["Gurudaspur", "Nator"]),
+        States(name: "Nator", cities: ["Naugaon"]),
+        States(name: "Naugaon", cities: ["Gomastapur", "Nawabganj", "Shibganj"]),
+        States(name: "Nawabganj", cities: ["Netrakona"]),
+        States(
             name: "Netrakona",
             cities: ["Domar", "Nilphamari", "Sa\\'\\'idpur"]),
-        State(name: "Nilphamari", cities: ["Begamganj", "Noakhali", "Senbagh"]),
-        State(
+        States(name: "Nilphamari", cities: ["Begamganj", "Noakhali", "Senbagh"]),
+        States(
             name: "Noakhali", cities: ["Bera", "Bhangura", "Ishurdi", "Pabna"]),
-        State(name: "Pabna", cities: ["Panchagarh"]),
-        State(name: "Panchagarh", cities: ["Patuakhali"]),
-        State(
+        States(name: "Pabna", cities: ["Panchagarh"]),
+        States(name: "Panchagarh", cities: ["Patuakhali"]),
+        States(
             name: "Patuakhali",
             cities: ["Bhandaria", "Mathbaria", "Nesarabad", "Pirojpur"]),
-        State(name: "Pirojpur", cities: ["Pangsha", "Rajbari"]),
-        State(name: "Rajbari", cities: ["Rajshahi"]),
-        State(name: "Rajshahi", cities: ["Kaptai", "Rangamati"]),
-        State(name: "Rangamati", cities: ["Badarganj", "Kaunia", "Rangpur"]),
-        State(name: "Rangpur", cities: ["Satkhira"]),
-        State(name: "Satkhira", cities: ["Palang"]),
-        State(name: "Shariatpur", cities: ["Nalitabari", "Sherpur"]),
-        State(name: "Sherpur", cities: ["Silhat"]),
-        State(name: "Silhat", cities: ["Shahjadpur", "Sirajganj"]),
-        State(name: "Sirajganj", cities: ["Chhatak", "Sunamganj"]),
-        State(
+        States(name: "Pirojpur", cities: ["Pangsha", "Rajbari"]),
+        States(name: "Rajbari", cities: ["Rajshahi"]),
+        States(name: "Rajshahi", cities: ["Kaptai", "Rangamati"]),
+        States(name: "Rangamati", cities: ["Badarganj", "Kaunia", "Rangpur"]),
+        States(name: "Rangpur", cities: ["Satkhira"]),
+        States(name: "Satkhira", cities: ["Palang"]),
+        States(name: "Shariatpur", cities: ["Nalitabari", "Sherpur"]),
+        States(name: "Sherpur", cities: ["Silhat"]),
+        States(name: "Silhat", cities: ["Shahjadpur", "Sirajganj"]),
+        States(name: "Sirajganj", cities: ["Chhatak", "Sunamganj"]),
+        States(
             name: "Sunamganj",
             cities: ["Gopalpur", "Mirzapur", "Sakhipur", "Tangayal"]),
-        State(name: "Tangayal", cities: ["Pirganj", "Thakurgaon"]),
-        State(name: "Thakurgaon", cities: [])
+        States(name: "Tangayal", cities: ["Pirganj", "Thakurgaon"]),
+        States(name: "Thakurgaon", cities: [])
       ]),
   Country(
       name: "Barbados",
@@ -1752,17 +1752,17 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Christ Church", cities: []),
-        State(name: "Saint Andrew", cities: []),
-        State(name: "Saint George", cities: []),
-        State(name: "Saint James", cities: []),
-        State(name: "Saint John", cities: []),
-        State(name: "Saint Joseph", cities: []),
-        State(name: "Saint Lucy", cities: []),
-        State(name: "Saint Michael", cities: []),
-        State(name: "Saint Peter", cities: []),
-        State(name: "Saint Philip", cities: []),
-        State(name: "Saint Thomas", cities: [
+        States(name: "Christ Church", cities: []),
+        States(name: "Saint Andrew", cities: []),
+        States(name: "Saint George", cities: []),
+        States(name: "Saint James", cities: []),
+        States(name: "Saint John", cities: []),
+        States(name: "Saint Joseph", cities: []),
+        States(name: "Saint Lucy", cities: []),
+        States(name: "Saint Michael", cities: []),
+        States(name: "Saint Peter", cities: []),
+        States(name: "Saint Philip", cities: []),
+        States(name: "Saint Thomas", cities: [
           "Baranavichy",
           "Bjaroza",
           "Bjeloozersk",
@@ -1794,7 +1794,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Brest", cities: [
+        States(name: "Brest", cities: [
           "Buda Kosheljovo",
           "Chechersk",
           "Dobrush",
@@ -1814,7 +1814,7 @@ final List<Country> countries = [
           "Zhlobin",
           "Zhytkavichy"
         ]),
-        State(name: "Homjel", cities: [
+        States(name: "Homjel", cities: [
           "Ashmjany",
           "Berjozovka",
           "Hrodna",
@@ -1827,7 +1827,7 @@ final List<Country> countries = [
           "Smarhon",
           "Vawkavysk"
         ]),
-        State(name: "Hrodna", cities: [
+        States(name: "Hrodna", cities: [
           "Asipovichy",
           "Babrujsk",
           "Byhau",
@@ -1842,11 +1842,11 @@ final List<Country> countries = [
           "Shklov",
           "Slaeuharad"
         ]),
-        State(name: "Mahiljow", cities: []),
-        State(name: "Mahilyowskaya Voblasts", cities: ["Minsk"]),
-        State(name: "Minsk", cities: []),
-        State(name: "Minskaja Voblasts", cities: ["Petrikov"]),
-        State(name: "Petrik", cities: [
+        States(name: "Mahiljow", cities: []),
+        States(name: "Mahilyowskaya Voblasts", cities: ["Minsk"]),
+        States(name: "Minsk", cities: []),
+        States(name: "Minskaja Voblasts", cities: ["Petrikov"]),
+        States(name: "Petrik", cities: [
           "Baran",
           "Braslav",
           "Chashniki",
@@ -1868,7 +1868,7 @@ final List<Country> countries = [
           "Verhnjadzvimsk",
           "Vicebsk"
         ]),
-        State(name: "Vicebsk", cities: [
+        States(name: "Vicebsk", cities: [
           "Aartselaar",
           "Antwerpen",
           "Arendonk",
@@ -1955,24 +1955,24 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Antwerpen", cities: ["Berchem"]),
-        State(name: "Berchem", cities: [
+        States(name: "Antwerpen", cities: ["Berchem"]),
+        States(name: "Berchem", cities: [
           "Alsemberg",
           "Asse Zellik",
           "Brussels",
           "Bruxelles",
           "Diegem"
         ]),
-        State(name: "Brabant", cities: [
+        States(name: "Brabant", cities: [
           "Alsemberg",
           "Asse Zellik",
           "Brussels",
           "Bruxelles",
           "Diegem"
         ]),
-        State(name: "Brabant Wallon", cities: ["Brussel"]),
-        State(name: "Brussel", cities: []),
-        State(name: "East Flanders", cities: [
+        States(name: "Brabant Wallon", cities: ["Brussel"]),
+        States(name: "Brussel", cities: []),
+        States(name: "East Flanders", cities: [
           "Aiseau-Presles",
           "Anderlues",
           "Antoing",
@@ -2044,7 +2044,7 @@ final List<Country> countries = [
           "Thuin",
           "Tournai"
         ]),
-        State(name: "Hainaut", cities: [
+        States(name: "Hainaut", cities: [
           "Amay",
           "Amel",
           "Angleur",
@@ -2133,7 +2133,7 @@ final List<Country> countries = [
           "Wasseiges",
           "Welkenraedt"
         ]),
-        State(name: "Liege", cities: [
+        States(name: "Liege", cities: [
           "Alken",
           "As",
           "Beringen",
@@ -2180,7 +2180,7 @@ final List<Country> countries = [
           "Zonhoven",
           "Zutendaal"
         ]),
-        State(name: "Limburg", cities: [
+        States(name: "Limburg", cities: [
           "Arlon",
           "Attert",
           "Aubange",
@@ -2228,7 +2228,7 @@ final List<Country> countries = [
           "Virton",
           "Wellin"
         ]),
-        State(name: "Luxembourg", cities: [
+        States(name: "Luxembourg", cities: [
           "Andenne",
           "Anhee",
           "Assesse",
@@ -2271,8 +2271,8 @@ final List<Country> countries = [
           "Walcourt",
           "Yvoir"
         ]),
-        State(name: "Namur", cities: ["Gullegem", "Langdorp"]),
-        State(name: "Ontario", cities: [
+        States(name: "Namur", cities: ["Gullegem", "Langdorp"]),
+        States(name: "Ontario", cities: [
           "Aalst",
           "Aalter",
           "Assenede",
@@ -2345,8 +2345,8 @@ final List<Country> countries = [
           "Zwalm",
           "Zwijnaarde"
         ]),
-        State(name: "Oost-Vlaanderen", cities: []),
-        State(name: "Provincie Brabant", cities: [
+        States(name: "Oost-Vlaanderen", cities: []),
+        States(name: "Provincie Brabant", cities: [
           "Aarschot",
           "Affligem",
           "Asse",
@@ -2413,10 +2413,10 @@ final List<Country> countries = [
           "Zemst",
           "Zoutleeuw"
         ]),
-        State(
+        States(
             name: "Vlaams-Brabant",
             cities: ["Callenelle", "Marcinelle", "Strepy-Bracquegnies"]),
-        State(name: "Wallonne", cities: [
+        States(name: "Wallonne", cities: [
           "Alveringem",
           "Anzegem",
           "Ardooie",
@@ -2485,7 +2485,7 @@ final List<Country> countries = [
           "Zuienkerke",
           "Zwevegem"
         ]),
-        State(name: "West-Vlaanderen", cities: ["Belize", "San Pedro"])
+        States(name: "West-Vlaanderen", cities: ["Belize", "San Pedro"])
       ]),
   Country(
       name: "Belize",
@@ -2495,14 +2495,14 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(
+        States(
             name: "Belize",
             cities: ["Belmopan", "Benque Viejo", "San Ignacio"]),
-        State(name: "Cayo", cities: ["Corozal"]),
-        State(name: "Corozal", cities: []),
-        State(name: "Orange Walk", cities: []),
-        State(name: "Stann Creek", cities: ["Punta Gorda"]),
-        State(name: "Toledo", cities: ["Kandi", "Malanville"])
+        States(name: "Cayo", cities: ["Corozal"]),
+        States(name: "Corozal", cities: []),
+        States(name: "Orange Walk", cities: []),
+        States(name: "Stann Creek", cities: ["Punta Gorda"]),
+        States(name: "Toledo", cities: ["Kandi", "Malanville"])
       ]),
   Country(
       name: "Benin",
@@ -2512,28 +2512,28 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(
+        States(
             name: "Alibori",
             cities: ["Batia", "Boukombe", "Kouande", "Natitingou"]),
-        State(
+        States(
             name: "Atacora",
             cities: ["Allada", "Cotonou", "Ouidah", "Tanguiete"]),
-        State(
+        States(
             name: "Atlantique",
             cities: ["Bembereke", "Nikki", "Parakou", "Tchaourou"]),
-        State(name: "Borgou", cities: ["Dassa", "Savalou", "Save"]),
-        State(name: "Collines", cities: ["Aplahoue", "Dogbo"]),
-        State(name: "Couffo", cities: ["Djougou"]),
-        State(name: "Donga", cities: ["Cotonou"]),
-        State(
+        States(name: "Borgou", cities: ["Dassa", "Savalou", "Save"]),
+        States(name: "Collines", cities: ["Aplahoue", "Dogbo"]),
+        States(name: "Couffo", cities: ["Djougou"]),
+        States(name: "Donga", cities: ["Cotonou"]),
+        States(
             name: "Littoral",
             cities: ["Athieme", "Come", "Grand Popo", "Lokossa"]),
-        State(name: "Mono", cities: ["Adjohoun", "Porto Novo"]),
-        State(name: "Oueme", cities: ["Ketou", "Pobe", "Sakete"]),
-        State(
+        States(name: "Mono", cities: ["Adjohoun", "Porto Novo"]),
+        States(name: "Oueme", cities: ["Ketou", "Pobe", "Sakete"]),
+        States(
             name: "Plateau",
             cities: ["Abomey", "Bohicon", "Cove", "Zagnanado"]),
-        State(name: "Zou", cities: ["Hamilton"])
+        States(name: "Zou", cities: ["Hamilton"])
       ]),
   Country(
       name: "Bermuda",
@@ -2543,8 +2543,8 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Hamilton", cities: []),
-        State(name: "Saint George", cities: ["Jakar"])
+        States(name: "Hamilton", cities: []),
+        States(name: "Saint George", cities: ["Jakar"])
       ]),
   Country(
       name: "Bhutan",
@@ -2554,24 +2554,24 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Bumthang", cities: ["Chhukha", "Phuentsholing"]),
-        State(name: "Chhukha", cities: ["Damphu"]),
-        State(name: "Chirang", cities: ["Taga Dzong"]),
-        State(name: "Daga", cities: ["Geylegphug"]),
-        State(name: "Geylegphug", cities: ["Ha"]),
-        State(name: "Ha", cities: ["Lhuntshi"]),
-        State(name: "Lhuntshi", cities: ["Mongar"]),
-        State(name: "Mongar", cities: ["Pemagatsel"]),
-        State(name: "Pemagatsel", cities: ["Gasa", "Punakha"]),
-        State(name: "Punakha", cities: ["Paro"]),
-        State(name: "Rinpung", cities: ["Phuntsholing", "Samchi"]),
-        State(name: "Samchi", cities: []),
-        State(name: "Samdrup Jongkhar", cities: ["Shemgang"]),
-        State(name: "Shemgang", cities: ["Tashigang"]),
-        State(name: "Tashigang", cities: ["Thimphu", "Timphu"]),
-        State(name: "Timphu", cities: ["Tongsa"]),
-        State(name: "Tongsa", cities: ["Wangdiphodrang"]),
-        State(name: "Wangdiphodrang", cities: [
+        States(name: "Bumthang", cities: ["Chhukha", "Phuentsholing"]),
+        States(name: "Chhukha", cities: ["Damphu"]),
+        States(name: "Chirang", cities: ["Taga Dzong"]),
+        States(name: "Daga", cities: ["Geylegphug"]),
+        States(name: "Geylegphug", cities: ["Ha"]),
+        States(name: "Ha", cities: ["Lhuntshi"]),
+        States(name: "Lhuntshi", cities: ["Mongar"]),
+        States(name: "Mongar", cities: ["Pemagatsel"]),
+        States(name: "Pemagatsel", cities: ["Gasa", "Punakha"]),
+        States(name: "Punakha", cities: ["Paro"]),
+        States(name: "Rinpung", cities: ["Phuntsholing", "Samchi"]),
+        States(name: "Samchi", cities: []),
+        States(name: "Samdrup Jongkhar", cities: ["Shemgang"]),
+        States(name: "Shemgang", cities: ["Tashigang"]),
+        States(name: "Tashigang", cities: ["Thimphu", "Timphu"]),
+        States(name: "Timphu", cities: ["Tongsa"]),
+        States(name: "Tongsa", cities: ["Wangdiphodrang"]),
+        States(name: "Wangdiphodrang", cities: [
           "Guayaramerin",
           "Magdalena",
           "Reyes",
@@ -2593,7 +2593,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Beni", cities: [
+        States(name: "Beni", cities: [
           "Camargo",
           "Monteagudo",
           "Muyupampa",
@@ -2602,7 +2602,7 @@ final List<Country> countries = [
           "Tarabuco",
           "Villa Serano"
         ]),
-        State(name: "Chuquisaca", cities: [
+        States(name: "Chuquisaca", cities: [
           "Aiquile",
           "Arani",
           "Capinota",
@@ -2620,8 +2620,8 @@ final List<Country> countries = [
           "Tarata",
           "Ucurena"
         ]),
-        State(name: "Cochabamba", cities: []),
-        State(name: "La Paz", cities: [
+        States(name: "Cochabamba", cities: []),
+        States(name: "La Paz", cities: [
           "Caracollo",
           "Challapata",
           "Eucaliptus",
@@ -2632,8 +2632,8 @@ final List<Country> countries = [
           "Santiago de Huari",
           "Totoral"
         ]),
-        State(name: "Oruro", cities: ["Cobija"]),
-        State(name: "Pando", cities: [
+        States(name: "Oruro", cities: ["Cobija"]),
+        States(name: "Pando", cities: [
           "Atocha",
           "Betanzos",
           "Colquechaca",
@@ -2645,8 +2645,8 @@ final List<Country> countries = [
           "Uyuni",
           "Villazon"
         ]),
-        State(name: "Potosi", cities: []),
-        State(name: "Santa Cruz", cities: [
+        States(name: "Potosi", cities: []),
+        States(name: "Santa Cruz", cities: [
           "Bermejo",
           "Entre Rios",
           "San Lorenzo",
@@ -2654,7 +2654,7 @@ final List<Country> countries = [
           "Villamontes",
           "Yacuiba"
         ]),
-        State(name: "Tarija", cities: [])
+        States(name: "Tarija", cities: [])
       ]),
   Country(
       name: "Bosnia and Herzegovina",
@@ -2664,8 +2664,8 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Federacija Bosna i Hercegovina", cities: []),
-        State(name: "Republika Srpska", cities: [])
+        States(name: "Federacija Bosna i Hercegovina", cities: []),
+        States(name: "Republika Srpska", cities: [])
       ]),
   Country(
       name: "Botswana",
@@ -2675,11 +2675,11 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Central Bobonong", cities: []),
-        State(name: "Central Boteti", cities: []),
-        State(name: "Central Mahalapye", cities: []),
-        State(name: "Central Serowe-Palapye", cities: []),
-        State(name: "Central Tutume", cities: [
+        States(name: "Central Bobonong", cities: []),
+        States(name: "Central Boteti", cities: []),
+        States(name: "Central Mahalapye", cities: []),
+        States(name: "Central Serowe-Palapye", cities: []),
+        States(name: "Central Tutume", cities: [
           "Kachikau",
           "Kasane",
           "Kavimba",
@@ -2691,9 +2691,9 @@ final List<Country> countries = [
           "Parakarungu",
           "Satau"
         ]),
-        State(name: "Chobe", cities: ["Francistown"]),
-        State(name: "Francistown", cities: ["Gaborone"]),
-        State(name: "Gaborone", cities: [
+        States(name: "Chobe", cities: ["Francistown"]),
+        States(name: "Francistown", cities: ["Gaborone"]),
+        States(name: "Gaborone", cities: [
           "Bere",
           "Charles Hill",
           "Chobokwane",
@@ -2713,10 +2713,10 @@ final List<Country> countries = [
           "Tsootsha",
           "West Hanahai"
         ]),
-        State(name: "Ghanzi", cities: ["Jwaneng"]),
-        State(name: "Jwaneng", cities: []),
-        State(name: "Kgalagadi North", cities: []),
-        State(name: "Kgalagadi South", cities: [
+        States(name: "Ghanzi", cities: ["Jwaneng"]),
+        States(name: "Jwaneng", cities: []),
+        States(name: "Kgalagadi North", cities: []),
+        States(name: "Kgalagadi South", cities: [
           "Artisia",
           "Bokaa",
           "Dikgonye",
@@ -2741,7 +2741,7 @@ final List<Country> countries = [
           "Rasesa",
           "Sikwane"
         ]),
-        State(name: "Kgatleng", cities: [
+        States(name: "Kgatleng", cities: [
           "Boatlaname",
           "Botlhapatlou",
           "Diagane",
@@ -2821,8 +2821,8 @@ final List<Country> countries = [
           "Tsetseng",
           "Tswaane"
         ]),
-        State(name: "Kweneng", cities: ["Lobatse"]),
-        State(name: "Lobatse", cities: [
+        States(name: "Kweneng", cities: ["Lobatse"]),
+        States(name: "Lobatse", cities: [
           "Bodibeng",
           "Boro",
           "Botlhatlogo",
@@ -2861,7 +2861,7 @@ final List<Country> countries = [
           "Xaxaba",
           "Xhobe"
         ]),
-        State(name: "Ngamiland", cities: [
+        States(name: "Ngamiland", cities: [
           "Bethel",
           "Borobadilepe",
           "Diabo",
@@ -2959,8 +2959,8 @@ final List<Country> countries = [
           "Tswagare-Lothoje-Lokalana",
           "Tswanyaneng"
         ]),
-        State(name: "Ngwaketse", cities: []),
-        State(name: "North East", cities: [
+        States(name: "Ngwaketse", cities: []),
+        States(name: "North East", cities: [
           "Beetsha",
           "Eretsha",
           "Etsha 1",
@@ -3004,11 +3004,11 @@ final List<Country> countries = [
           "Xhauga",
           "Xurube"
         ]),
-        State(name: "Okavango", cities: ["Orapa"]),
-        State(name: "Orapa", cities: []),
-        State(name: "Selibe Phikwe", cities: []),
-        State(name: "South East", cities: ["Sowa"]),
-        State(name: "Sowa", cities: [])
+        States(name: "Okavango", cities: ["Orapa"]),
+        States(name: "Orapa", cities: []),
+        States(name: "Selibe Phikwe", cities: []),
+        States(name: "South East", cities: ["Sowa"]),
+        States(name: "Sowa", cities: [])
       ]),
   Country(
       name: "Bouvet Island",
@@ -3018,7 +3018,7 @@ final List<Country> countries = [
       minLength: 15,
       maxLength: 15,
       states: [
-        State(name: "Bouvet Island", cities: [
+        States(name: "Bouvet Island", cities: [
           "Acrelandia",
           "Brasileia",
           "Cruzeiro do Sul",
@@ -3045,7 +3045,7 @@ final List<Country> countries = [
       minLength: 11,
       maxLength: 11,
       states: [
-        State(name: "Acre", cities: [
+        States(name: "Acre", cities: [
           "Agua Branca",
           "Anadia",
           "Arapiraca",
@@ -3119,7 +3119,7 @@ final List<Country> countries = [
           "Uniao dos Palmares",
           "Vicosa"
         ]),
-        State(name: "Alagoas", cities: [
+        States(name: "Alagoas", cities: [
           "Amapa",
           "Laranjal do Jari",
           "Macapa",
@@ -3127,7 +3127,7 @@ final List<Country> countries = [
           "Oiapoque",
           "Santana"
         ]),
-        State(name: "Amapa", cities: [
+        States(name: "Amapa", cities: [
           "Alvaraes",
           "Anori",
           "Apui",
@@ -3179,7 +3179,7 @@ final List<Country> countries = [
           "Urucara",
           "Urucurituba"
         ]),
-        State(name: "Amazonas", cities: [
+        States(name: "Amazonas", cities: [
           "Acajutiba",
           "Alagoinhas",
           "Amargosa",
@@ -3388,7 +3388,7 @@ final List<Country> countries = [
           "Wenceslau Guimaraes",
           "Xique-Xique"
         ]),
-        State(name: "Bahia", cities: [
+        States(name: "Bahia", cities: [
           "Acarau",
           "Acopiara",
           "Amontada",
@@ -3490,10 +3490,10 @@ final List<Country> countries = [
           "Varzea Alegre",
           "Vicosa do Ceara"
         ]),
-        State(name: "Ceara", cities: []),
-        State(name: "Distrito Federal", cities: []),
-        State(name: "Espirito Santo", cities: []),
-        State(name: "Estado de Sao Paulo", cities: [
+        States(name: "Ceara", cities: []),
+        States(name: "Distrito Federal", cities: []),
+        States(name: "Espirito Santo", cities: []),
+        States(name: "Estado de Sao Paulo", cities: [
           "Abadiania",
           "Acreuna",
           "Aguas Lindas de Goias",
@@ -3585,7 +3585,7 @@ final List<Country> countries = [
           "Valparaiso de Goias",
           "Vianopolis"
         ]),
-        State(name: "Goias", cities: [
+        States(name: "Goias", cities: [
           "Acailandia",
           "Alcantara",
           "Aldeias Altas",
@@ -3692,10 +3692,10 @@ final List<Country> countries = [
           "Vitorino Freire",
           "Ze Doca"
         ]),
-        State(name: "Maranhao", cities: []),
-        State(name: "Mato Grosso", cities: []),
-        State(name: "Mato Grosso do Sul", cities: []),
-        State(name: "Minas Gerais", cities: [
+        States(name: "Maranhao", cities: []),
+        States(name: "Mato Grosso", cities: []),
+        States(name: "Mato Grosso do Sul", cities: []),
+        States(name: "Minas Gerais", cities: [
           "Abaetetuba",
           "Acara",
           "Afua",
@@ -3789,7 +3789,7 @@ final List<Country> countries = [
           "Viseu",
           "Xinguara"
         ]),
-        State(name: "Para", cities: [
+        States(name: "Para", cities: [
           "Alagoa Grande",
           "Alagoa Nova",
           "Alagoinha",
@@ -3878,7 +3878,7 @@ final List<Country> countries = [
           "Uirauna",
           "Umbuzeiro"
         ]),
-        State(name: "Paraiba", cities: [
+        States(name: "Paraiba", cities: [
           "Almirante Tamandare",
           "Alto Parana",
           "Alto Piquiri",
@@ -4009,7 +4009,7 @@ final List<Country> countries = [
           "Uniao da Victoria",
           "Wenceslau Braz"
         ]),
-        State(name: "Parana", cities: [
+        States(name: "Parana", cities: [
           "Abreu e Lima",
           "Afogados da Ingazeira",
           "Agrestina",
@@ -4124,7 +4124,7 @@ final List<Country> countries = [
           "Vicencia",
           "Vitoria de Santo Antao"
         ]),
-        State(name: "Pernambuco", cities: [
+        States(name: "Pernambuco", cities: [
           "Agua Branca",
           "Alto Longa",
           "Altos",
@@ -4179,10 +4179,10 @@ final List<Country> countries = [
           "Urucui",
           "Valenca do Piaui"
         ]),
-        State(name: "Piaui", cities: []),
-        State(name: "Rio Grande do Norte", cities: []),
-        State(name: "Rio Grande do Sul", cities: []),
-        State(name: "Rio de Janeiro", cities: [
+        States(name: "Piaui", cities: []),
+        States(name: "Rio Grande do Norte", cities: []),
+        States(name: "Rio Grande do Sul", cities: []),
+        States(name: "Rio de Janeiro", cities: [
           "Alta Floresta d\\'\\'Oeste",
           "Alto Alegre do Parecis",
           "Alto Paraiso",
@@ -4216,7 +4216,7 @@ final List<Country> countries = [
           "Vale do Paraiso",
           "Vilhena"
         ]),
-        State(name: "Rondonia", cities: [
+        States(name: "Rondonia", cities: [
           "Alto Alegre",
           "Boa Vista",
           "Bonfim",
@@ -4226,9 +4226,9 @@ final List<Country> countries = [
           "Sao Joao da Baliza",
           "Sao Luiz"
         ]),
-        State(name: "Roraima", cities: []),
-        State(name: "Santa Catarina", cities: []),
-        State(name: "Sao Paulo", cities: [
+        States(name: "Roraima", cities: []),
+        States(name: "Santa Catarina", cities: []),
+        States(name: "Sao Paulo", cities: [
           "Aquidaba",
           "Aracaju",
           "Araua",
@@ -4274,7 +4274,7 @@ final List<Country> countries = [
           "Tomar do Geru",
           "Umbauba"
         ]),
-        State(name: "Sergipe", cities: [
+        States(name: "Sergipe", cities: [
           "Alvorada",
           "Ananas",
           "Araguacu",
@@ -4301,7 +4301,7 @@ final List<Country> countries = [
           "Wanderlandia",
           "Xambioa"
         ]),
-        State(name: "Tocantins", cities: [])
+        States(name: "Tocantins", cities: [])
       ]),
   Country(
       name: "British Indian Ocean Territory",
@@ -4311,7 +4311,7 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(
+        States(
             name: "British Indian Ocean Territory",
             cities: ["Kuala Belait", "Seria"])
       ]),
@@ -4323,10 +4323,10 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Belait", cities: ["Bandar Seri Begawan"]),
-        State(name: "Brunei-Muara", cities: ["Bangar"]),
-        State(name: "Temburong", cities: ["Tutong"]),
-        State(name: "Tutong", cities: [
+        States(name: "Belait", cities: ["Bandar Seri Begawan"]),
+        States(name: "Brunei-Muara", cities: ["Bangar"]),
+        States(name: "Temburong", cities: ["Tutong"]),
+        States(name: "Tutong", cities: [
           "Bansko",
           "Belica",
           "Blagoevgrad",
@@ -4349,7 +4349,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Blagoevgrad", cities: [
+        States(name: "Blagoevgrad", cities: [
           "Ahtopol",
           "Ajtos",
           "Balgarovo",
@@ -4369,7 +4369,7 @@ final List<Country> countries = [
           "Sungurlare",
           "Tvardica"
         ]),
-        State(name: "Burgas", cities: [
+        States(name: "Burgas", cities: [
           "Balchik",
           "Dobrich",
           "General-Toshevo",
@@ -4378,14 +4378,14 @@ final List<Country> countries = [
           "Shabla",
           "Tervel"
         ]),
-        State(name: "Dobrich", cities: [
+        States(name: "Dobrich", cities: [
           "Drjanovo",
           "Gabrovo",
           "Plachkovci",
           "Sevlievo",
           "Trjavna"
         ]),
-        State(name: "Gabrovo", cities: [
+        States(name: "Gabrovo", cities: [
           "Dimitrovgrad",
           "Harmanli",
           "Haskovo",
@@ -4396,21 +4396,21 @@ final List<Country> countries = [
           "Simeonovgrad",
           "Svilengrad"
         ]),
-        State(name: "Haskovo", cities: [
+        States(name: "Haskovo", cities: [
           "Boljarovo",
           "Elhovo",
           "Jambol",
           "Straldzha",
           "Topolovgrad"
         ]),
-        State(name: "Jambol", cities: [
+        States(name: "Jambol", cities: [
           "Ardino",
           "Dzhebel",
           "Kardzhali",
           "Krumovgrad",
           "Momchilgrad"
         ]),
-        State(name: "Kardzhali", cities: [
+        States(name: "Kardzhali", cities: [
           "Boboshevo",
           "Bobovdol",
           "Dupnica",
@@ -4420,7 +4420,7 @@ final List<Country> countries = [
           "Sapareva Banja",
           "Zemen"
         ]),
-        State(name: "Kjustendil", cities: [
+        States(name: "Kjustendil", cities: [
           "Aprilci",
           "Jablanica",
           "Letnica",
@@ -4431,7 +4431,7 @@ final List<Country> countries = [
           "Trojan",
           "Ugarchin"
         ]),
-        State(name: "Lovech", cities: [
+        States(name: "Lovech", cities: [
           "Berkovica",
           "Bojchinovci",
           "Brusarci",
@@ -4441,8 +4441,8 @@ final List<Country> countries = [
           "Valchedram",
           "Varshec"
         ]),
-        State(name: "Montana", cities: []),
-        State(name: "Oblast Sofiya-Grad", cities: [
+        States(name: "Montana", cities: []),
+        States(name: "Oblast Sofiya-Grad", cities: [
           "Batak",
           "Belovo",
           "Bracigovo",
@@ -4455,7 +4455,7 @@ final List<Country> countries = [
           "Strelcha",
           "Velingrad"
         ]),
-        State(name: "Pazardzhik", cities: [
+        States(name: "Pazardzhik", cities: [
           "Bankja",
           "Batanovci",
           "Breznik",
@@ -4463,7 +4463,7 @@ final List<Country> countries = [
           "Radomir",
           "Tran"
         ]),
-        State(name: "Pernik", cities: [
+        States(name: "Pernik", cities: [
           "Belene",
           "Cherven Brjag",
           "Dolna Mitropolija",
@@ -4477,7 +4477,7 @@ final List<Country> countries = [
           "Trashtenik",
           "Varbica"
         ]),
-        State(name: "Pleven", cities: [
+        States(name: "Pleven", cities: [
           "Asenovgrad",
           "Brezovo",
           "Car Kalojan",
@@ -4494,10 +4494,10 @@ final List<Country> countries = [
           "Saedinenie",
           "Stambolijski"
         ]),
-        State(
+        States(
             name: "Plovdiv",
             cities: ["Isperih", "Kubrat", "Razgrad", "Senovo", "Zavet"]),
-        State(name: "Razgrad", cities: [
+        States(name: "Razgrad", cities: [
           "Bjala",
           "Borovo",
           "Dve Mogili",
@@ -4505,7 +4505,7 @@ final List<Country> countries = [
           "Russe",
           "Vetovo"
         ]),
-        State(name: "Ruse", cities: [
+        States(name: "Ruse", cities: [
           "Kaolinovo",
           "Kaspichan",
           "Novi Pazar",
@@ -4514,13 +4514,13 @@ final List<Country> countries = [
           "Smjadovo",
           "Veliki Preslav"
         ]),
-        State(
+        States(
             name: "Shumen",
             cities: ["Alfatar", "Dulovo", "Glavinica", "Silistra", "Tutrakan"]),
-        State(
+        States(
             name: "Silistra",
             cities: ["Kermen", "Kotel", "Nova Zagora", "Shivachevo", "Sliven"]),
-        State(name: "Sliven", cities: [
+        States(name: "Sliven", cities: [
           "Chepelare",
           "Devin",
           "Dospat",
@@ -4531,13 +4531,13 @@ final List<Country> countries = [
           "Smoljan",
           "Zlatograd"
         ]),
-        State(name: "Smoljan", cities: []),
-        State(name: "Sofija grad", cities: []),
-        State(name: "Sofijska oblast", cities: []),
-        State(
+        States(name: "Smoljan", cities: []),
+        States(name: "Sofija grad", cities: []),
+        States(name: "Sofijska oblast", cities: []),
+        States(
             name: "Stara Zagora",
             cities: ["Antonovo", "Omurtag", "Opaka", "Popovo", "Targovishte"]),
-        State(name: "Targovishte", cities: [
+        States(name: "Targovishte", cities: [
           "Beloslav",
           "Bjala",
           "Dalgopol",
@@ -4548,8 +4548,8 @@ final List<Country> countries = [
           "Valchi Dol",
           "Varna"
         ]),
-        State(name: "Varna", cities: []),
-        State(name: "Veliko Tarnovo", cities: [
+        States(name: "Varna", cities: []),
+        States(name: "Veliko Tarnovo", cities: [
           "Belogradchik",
           "Bregovo",
           "Dimovo",
@@ -4559,7 +4559,7 @@ final List<Country> countries = [
           "Kula",
           "Vidin"
         ]),
-        State(name: "Vidin", cities: [
+        States(name: "Vidin", cities: [
           "Bjala Slatina",
           "Knezha",
           "Kojnare",
@@ -4571,8 +4571,8 @@ final List<Country> countries = [
           "Roman",
           "Vraca"
         ]),
-        State(name: "Vraca", cities: ["Yablaniza"]),
-        State(name: "Yablaniza", cities: ["Boromo"])
+        States(name: "Vraca", cities: ["Yablaniza"]),
+        States(name: "Yablaniza", cities: ["Boromo"])
       ]),
   Country(
       name: "Burkina Faso",
@@ -4582,45 +4582,45 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Bale", cities: ["Kongoussi"]),
-        State(name: "Bam", cities: ["Kombissiri"]),
-        State(name: "Bazega", cities: ["Diebougou", "Pa"]),
-        State(name: "Bougouriba", cities: ["Garango", "Tenkodogo"]),
-        State(name: "Boulgou", cities: ["Koudougou"]),
-        State(name: "Boulkiemde", cities: ["Banfora"]),
-        State(name: "Comoe", cities: ["Zorgo"]),
-        State(name: "Ganzourgou", cities: ["Bogande"]),
-        State(name: "Gnagna", cities: ["Fada N\\'\\'gourma"]),
-        State(name: "Gourma", cities: ["Bekuy", "Bobo Dioulasso"]),
-        State(name: "Houet", cities: ["Dano"]),
-        State(name: "Ioba", cities: ["Ouagadougou"]),
-        State(name: "Kadiogo", cities: ["Koalla", "Koloko", "Orodara"]),
-        State(name: "Kenedougou", cities: ["Gayeri"]),
-        State(name: "Komandjari", cities: ["Pama"]),
-        State(name: "Kompienga", cities: ["Nouna"]),
-        State(name: "Kossi", cities: ["Koupela"]),
-        State(name: "Kouritenga", cities: ["Bousse"]),
-        State(name: "Kourweogo", cities: ["Sindou"]),
-        State(name: "Leraba", cities: ["Dedougou"]),
-        State(name: "Mouhoun", cities: ["Po"]),
-        State(name: "Nahouri", cities: ["Boulsa"]),
-        State(name: "Namentenga", cities: ["Batie"]),
-        State(name: "Noumbiel", cities: ["Ziniare"]),
-        State(name: "Oubritenga", cities: ["Gorom-Gorom"]),
-        State(name: "Oudalan", cities: ["Yako"]),
-        State(name: "Passore", cities: ["Gaoua", "Kampti", "Loropeni"]),
-        State(name: "Poni", cities: ["Reo"]),
-        State(name: "Sanguie", cities: ["Kaya"]),
-        State(name: "Sanmatenga", cities: ["Dori"]),
-        State(name: "Seno", cities: ["Gao", "Leo"]),
-        State(name: "Sissili", cities: ["Aribinda", "Djibo"]),
-        State(name: "Soum", cities: ["Louta", "Tougan"]),
-        State(name: "Sourou", cities: ["Diapaga", "Kantchari"]),
-        State(name: "Tapoa", cities: ["Hounde"]),
-        State(name: "Tuy", cities: ["Ouahigouya"]),
-        State(name: "Yatenga", cities: ["Gourcy"]),
-        State(name: "Zondoma", cities: ["Manga"]),
-        State(name: "Zoundweogo", cities: ["Bubanza"])
+        States(name: "Bale", cities: ["Kongoussi"]),
+        States(name: "Bam", cities: ["Kombissiri"]),
+        States(name: "Bazega", cities: ["Diebougou", "Pa"]),
+        States(name: "Bougouriba", cities: ["Garango", "Tenkodogo"]),
+        States(name: "Boulgou", cities: ["Koudougou"]),
+        States(name: "Boulkiemde", cities: ["Banfora"]),
+        States(name: "Comoe", cities: ["Zorgo"]),
+        States(name: "Ganzourgou", cities: ["Bogande"]),
+        States(name: "Gnagna", cities: ["Fada N\\'\\'gourma"]),
+        States(name: "Gourma", cities: ["Bekuy", "Bobo Dioulasso"]),
+        States(name: "Houet", cities: ["Dano"]),
+        States(name: "Ioba", cities: ["Ouagadougou"]),
+        States(name: "Kadiogo", cities: ["Koalla", "Koloko", "Orodara"]),
+        States(name: "Kenedougou", cities: ["Gayeri"]),
+        States(name: "Komandjari", cities: ["Pama"]),
+        States(name: "Kompienga", cities: ["Nouna"]),
+        States(name: "Kossi", cities: ["Koupela"]),
+        States(name: "Kouritenga", cities: ["Bousse"]),
+        States(name: "Kourweogo", cities: ["Sindou"]),
+        States(name: "Leraba", cities: ["Dedougou"]),
+        States(name: "Mouhoun", cities: ["Po"]),
+        States(name: "Nahouri", cities: ["Boulsa"]),
+        States(name: "Namentenga", cities: ["Batie"]),
+        States(name: "Noumbiel", cities: ["Ziniare"]),
+        States(name: "Oubritenga", cities: ["Gorom-Gorom"]),
+        States(name: "Oudalan", cities: ["Yako"]),
+        States(name: "Passore", cities: ["Gaoua", "Kampti", "Loropeni"]),
+        States(name: "Poni", cities: ["Reo"]),
+        States(name: "Sanguie", cities: ["Kaya"]),
+        States(name: "Sanmatenga", cities: ["Dori"]),
+        States(name: "Seno", cities: ["Gao", "Leo"]),
+        States(name: "Sissili", cities: ["Aribinda", "Djibo"]),
+        States(name: "Soum", cities: ["Louta", "Tougan"]),
+        States(name: "Sourou", cities: ["Diapaga", "Kantchari"]),
+        States(name: "Tapoa", cities: ["Hounde"]),
+        States(name: "Tuy", cities: ["Ouahigouya"]),
+        States(name: "Yatenga", cities: ["Gourcy"]),
+        States(name: "Zondoma", cities: ["Manga"]),
+        States(name: "Zoundweogo", cities: ["Bubanza"])
       ]),
   Country(
       name: "Burundi",
@@ -4630,21 +4630,21 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Bubanza", cities: ["Bujumbura"]),
-        State(name: "Bujumbura", cities: ["Bururi"]),
-        State(name: "Bururi", cities: ["Cankuzo"]),
-        State(name: "Cankuzo", cities: ["Cibitoke"]),
-        State(name: "Cibitoke", cities: ["Gitega"]),
-        State(name: "Gitega", cities: ["Karuzi"]),
-        State(name: "Karuzi", cities: ["Kayanza"]),
-        State(name: "Kayanza", cities: ["Kirundo"]),
-        State(name: "Kirundo", cities: ["Makamba"]),
-        State(name: "Makamba", cities: ["Muramvya"]),
-        State(name: "Muramvya", cities: ["Muyinga"]),
-        State(name: "Muyinga", cities: ["Ngozi"]),
-        State(name: "Ngozi", cities: ["Rutana"]),
-        State(name: "Rutana", cities: ["Ruyigi"]),
-        State(name: "Ruyigi", cities: [])
+        States(name: "Bubanza", cities: ["Bujumbura"]),
+        States(name: "Bujumbura", cities: ["Bururi"]),
+        States(name: "Bururi", cities: ["Cankuzo"]),
+        States(name: "Cankuzo", cities: ["Cibitoke"]),
+        States(name: "Cibitoke", cities: ["Gitega"]),
+        States(name: "Gitega", cities: ["Karuzi"]),
+        States(name: "Karuzi", cities: ["Kayanza"]),
+        States(name: "Kayanza", cities: ["Kirundo"]),
+        States(name: "Kirundo", cities: ["Makamba"]),
+        States(name: "Makamba", cities: ["Muramvya"]),
+        States(name: "Muramvya", cities: ["Muyinga"]),
+        States(name: "Muyinga", cities: ["Ngozi"]),
+        States(name: "Ngozi", cities: ["Rutana"]),
+        States(name: "Rutana", cities: ["Ruyigi"]),
+        States(name: "Ruyigi", cities: [])
       ]),
   Country(
       name: "Cambodia",
@@ -4654,30 +4654,30 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Banteay Mean Chey", cities: []),
-        State(name: "Bat Dambang", cities: []),
-        State(name: "Kampong Cham", cities: []),
-        State(name: "Kampong Chhnang", cities: []),
-        State(name: "Kampong Spoeu", cities: []),
-        State(name: "Kampong Thum", cities: ["Kampot"]),
-        State(name: "Kampot", cities: ["Ta Khmau"]),
-        State(name: "Kandal", cities: []),
-        State(name: "Kaoh Kong", cities: ["Kracheh"]),
-        State(name: "Kracheh", cities: []),
-        State(name: "Krong Kaeb", cities: []),
-        State(name: "Krong Pailin", cities: []),
-        State(name: "Krong Preah Sihanouk", cities: []),
-        State(name: "Mondol Kiri", cities: []),
-        State(name: "Otdar Mean Chey", cities: []),
-        State(name: "Phnum Penh", cities: ["Pousat"]),
-        State(name: "Pousat", cities: []),
-        State(name: "Preah Vihear", cities: []),
-        State(name: "Prey Veaeng", cities: []),
-        State(name: "Rotanak Kiri", cities: []),
-        State(name: "Siem Reab", cities: []),
-        State(name: "Stueng Traeng", cities: []),
-        State(name: "Svay Rieng", cities: ["Phumi Takaev"]),
-        State(
+        States(name: "Banteay Mean Chey", cities: []),
+        States(name: "Bat Dambang", cities: []),
+        States(name: "Kampong Cham", cities: []),
+        States(name: "Kampong Chhnang", cities: []),
+        States(name: "Kampong Spoeu", cities: []),
+        States(name: "Kampong Thum", cities: ["Kampot"]),
+        States(name: "Kampot", cities: ["Ta Khmau"]),
+        States(name: "Kandal", cities: []),
+        States(name: "Kaoh Kong", cities: ["Kracheh"]),
+        States(name: "Kracheh", cities: []),
+        States(name: "Krong Kaeb", cities: []),
+        States(name: "Krong Pailin", cities: []),
+        States(name: "Krong Preah Sihanouk", cities: []),
+        States(name: "Mondol Kiri", cities: []),
+        States(name: "Otdar Mean Chey", cities: []),
+        States(name: "Phnum Penh", cities: ["Pousat"]),
+        States(name: "Pousat", cities: []),
+        States(name: "Preah Vihear", cities: []),
+        States(name: "Prey Veaeng", cities: []),
+        States(name: "Rotanak Kiri", cities: []),
+        States(name: "Siem Reab", cities: []),
+        States(name: "Stueng Traeng", cities: []),
+        States(name: "Svay Rieng", cities: ["Phumi Takaev"]),
+        States(
             name: "Takaev",
             cities: ["Banyo", "Meiganga", "Ngaoundere", "Tibati", "Tignere"])
       ]),
@@ -4689,7 +4689,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Adamaoua", cities: [
+        States(name: "Adamaoua", cities: [
           "Akonolinga",
           "Bafia",
           "Eseka",
@@ -4702,7 +4702,7 @@ final List<Country> countries = [
           "Saa",
           "Yaounde"
         ]),
-        State(name: "Centre", cities: [
+        States(name: "Centre", cities: [
           "Abong Mbang",
           "Batouri",
           "Bertoua",
@@ -4712,7 +4712,7 @@ final List<Country> countries = [
           "Lomie",
           "Yokadouma"
         ]),
-        State(name: "Est", cities: [
+        States(name: "Est", cities: [
           "Bonaberi",
           "Dibombari",
           "Douala",
@@ -4723,7 +4723,7 @@ final List<Country> countries = [
           "Nkongsamba",
           "Yabassi"
         ]),
-        State(name: "Littoral", cities: [
+        States(name: "Littoral", cities: [
           "Figuif",
           "Garoua",
           "Guider",
@@ -4732,7 +4732,7 @@ final List<Country> countries = [
           "Rey Bouba",
           "Tchollire"
         ]),
-        State(name: "Nord", cities: [
+        States(name: "Nord", cities: [
           "Figuif",
           "Garoua",
           "Guider",
@@ -4741,7 +4741,7 @@ final List<Country> countries = [
           "Rey Bouba",
           "Tchollire"
         ]),
-        State(name: "Nord Extreme", cities: [
+        States(name: "Nord Extreme", cities: [
           "Bamenda",
           "Kumbo",
           "Mbengwi",
@@ -4750,7 +4750,7 @@ final List<Country> countries = [
           "Nkambe",
           "Wum"
         ]),
-        State(name: "Nordouest", cities: [
+        States(name: "Nordouest", cities: [
           "Bafang",
           "Bafoussam",
           "Bafut",
@@ -4763,7 +4763,7 @@ final List<Country> countries = [
           "Foumbot",
           "Mbouda"
         ]),
-        State(name: "Ouest", cities: [
+        States(name: "Ouest", cities: [
           "Akom",
           "Ambam",
           "Ebolowa",
@@ -4773,7 +4773,7 @@ final List<Country> countries = [
           "Mvangue",
           "Sangmelima"
         ]),
-        State(name: "Sud", cities: [
+        States(name: "Sud", cities: [
           "Buea",
           "Idenao",
           "Kumba",
@@ -4782,7 +4782,7 @@ final List<Country> countries = [
           "Muyuka",
           "Tiko"
         ]),
-        State(name: "Sudouest", cities: [
+        States(name: "Sudouest", cities: [
           "Airdrie",
           "Athabasca",
           "Banff",
@@ -4911,8 +4911,8 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Alberta", cities: []),
-        State(name: "British Columbia", cities: [
+        States(name: "Alberta", cities: []),
+        States(name: "British Columbia", cities: [
           "Altona",
           "Beausejour",
           "Boissevain",
@@ -4958,11 +4958,11 @@ final List<Country> countries = [
           "Winkler",
           "Winnipeg"
         ]),
-        State(name: "Manitoba", cities: []),
-        State(name: "New Brunswick", cities: []),
-        State(name: "Newfoundland and Labrador", cities: []),
-        State(name: "Northwest Territories", cities: []),
-        State(name: "Nova Scotia", cities: [
+        States(name: "Manitoba", cities: []),
+        States(name: "New Brunswick", cities: []),
+        States(name: "Newfoundland and Labrador", cities: []),
+        States(name: "Northwest Territories", cities: []),
+        States(name: "Nova Scotia", cities: [
           "Clyde River",
           "Iqaluit",
           "Kangerdlinerk",
@@ -4970,7 +4970,7 @@ final List<Country> countries = [
           "Pangnirtung",
           "Tununirusiq"
         ]),
-        State(name: "Nunavut", cities: [
+        States(name: "Nunavut", cities: [
           "Acton",
           "Ajax",
           "Alexandria",
@@ -5272,8 +5272,8 @@ final List<Country> countries = [
           "Woodstock",
           "Wyoming"
         ]),
-        State(name: "Ontario", cities: []),
-        State(name: "Prince Edward Island", cities: [
+        States(name: "Ontario", cities: []),
+        States(name: "Prince Edward Island", cities: [
           "Acton Vale",
           "Albanel",
           "Alencon",
@@ -5526,7 +5526,7 @@ final List<Country> countries = [
           "Windsor",
           "Yamachiche"
         ]),
-        State(name: "Quebec", cities: [
+        States(name: "Quebec", cities: [
           "Assiniboia",
           "Biggar",
           "Canora",
@@ -5591,10 +5591,10 @@ final List<Country> countries = [
           "Wynyard",
           "Yorkton"
         ]),
-        State(
+        States(
             name: "Saskatchewan",
             cities: ["Haines Junction", "Mayo", "Whitehorse"]),
-        State(name: "Yukon", cities: ["Sal Rei"])
+        States(name: "Yukon", cities: ["Sal Rei"])
       ]),
   Country(
       name: "Cape Verde",
@@ -5604,15 +5604,15 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Boavista", cities: ["Nova Sintra"]),
-        State(name: "Brava", cities: ["Mosteiros", "Sao Filipe"]),
-        State(name: "Fogo", cities: ["Vila do Maio"]),
-        State(name: "Maio", cities: ["Santa Maria"]),
-        State(name: "Sal", cities: []),
-        State(name: "Santo Antao", cities: []),
-        State(name: "Sao Nicolau", cities: []),
-        State(name: "Sao Tiago", cities: []),
-        State(name: "Sao Vicente", cities: [])
+        States(name: "Boavista", cities: ["Nova Sintra"]),
+        States(name: "Brava", cities: ["Mosteiros", "Sao Filipe"]),
+        States(name: "Fogo", cities: ["Vila do Maio"]),
+        States(name: "Maio", cities: ["Santa Maria"]),
+        States(name: "Sal", cities: []),
+        States(name: "Santo Antao", cities: []),
+        States(name: "Sao Nicolau", cities: []),
+        States(name: "Sao Tiago", cities: []),
+        States(name: "Sao Vicente", cities: [])
       ]),
   Country(
       name: "Cayman Islands",
@@ -5622,7 +5622,7 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Grand Cayman", cities: ["Ndele"])
+        States(name: "Grand Cayman", cities: ["Ndele"])
       ]),
   Country(
       name: "Central African Republic",
@@ -5632,28 +5632,28 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Bamingui-Bangoran", cities: ["Bangui"]),
-        State(name: "Bangui", cities: ["Alindao", "Kembe", "Mobaye"]),
-        State(name: "Basse-Kotto", cities: ["Obo", "Zemio"]),
-        State(name: "Haut-Mbomou", cities: ["Bria", "Ouadda"]),
-        State(name: "Haute-Kotto", cities: ["Dekoa", "Sibut"]),
-        State(name: "Kemo", cities: ["Boda", "Mbaiki", "Mongoumba"]),
-        State(name: "Lobaye", cities: ["Berberati", "Carnot", "Gamboula"]),
-        State(
+        States(name: "Bamingui-Bangoran", cities: ["Bangui"]),
+        States(name: "Bangui", cities: ["Alindao", "Kembe", "Mobaye"]),
+        States(name: "Basse-Kotto", cities: ["Obo", "Zemio"]),
+        States(name: "Haut-Mbomou", cities: ["Bria", "Ouadda"]),
+        States(name: "Haute-Kotto", cities: ["Dekoa", "Sibut"]),
+        States(name: "Kemo", cities: ["Boda", "Mbaiki", "Mongoumba"]),
+        States(name: "Lobaye", cities: ["Berberati", "Carnot", "Gamboula"]),
+        States(
             name: "Mambere-Kadei",
             cities: ["Bangassou", "Gambo", "Ouango", "Rafai"]),
-        State(name: "Mbomou", cities: ["Kaga-Bandoro"]),
-        State(name: "Nana-Gribizi", cities: ["Baboua", "Baoro", "Bouar"]),
-        State(name: "Nana-Mambere", cities: []),
-        State(
+        States(name: "Mbomou", cities: ["Kaga-Bandoro"]),
+        States(name: "Nana-Gribizi", cities: ["Baboua", "Baoro", "Bouar"]),
+        States(name: "Nana-Mambere", cities: []),
+        States(
             name: "Ombella Mpoko",
             cities: ["Bambari", "Grimari", "Ippy", "Kouango"]),
-        State(
+        States(
             name: "Ouaka", cities: ["Batangafo", "Bossangoa", "Bouca", "Kabo"]),
-        State(name: "Ouham", cities: ["Bocaranga", "Bozoum", "Paoua"]),
-        State(name: "Ouham-Pende", cities: ["Nola"]),
-        State(name: "Sangha-Mbaere", cities: ["Birao"]),
-        State(name: "Vakaga", cities: ["Ati", "Oum Hadjer"])
+        States(name: "Ouham", cities: ["Bocaranga", "Bozoum", "Paoua"]),
+        States(name: "Ouham-Pende", cities: ["Nola"]),
+        States(name: "Sangha-Mbaere", cities: ["Birao"]),
+        States(name: "Vakaga", cities: ["Ati", "Oum Hadjer"])
       ]),
   Country(
       name: "Chad",
@@ -5663,9 +5663,9 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Batha", cities: ["Biltine"]),
-        State(name: "Biltine", cities: ["Aouzou", "Bardai", "Fada", "Faya"]),
-        State(name: "Bourkou-Ennedi-Tibesti", cities: [
+        States(name: "Batha", cities: ["Biltine"]),
+        States(name: "Biltine", cities: ["Aouzou", "Bardai", "Fada", "Faya"]),
+        States(name: "Bourkou-Ennedi-Tibesti", cities: [
           "Bokoro",
           "Bousso",
           "Dourbali",
@@ -5675,12 +5675,12 @@ final List<Country> countries = [
           "N\\'\\'Djamena",
           "Ngama"
         ]),
-        State(name: "Chari-Baguirmi", cities: ["Bitkine", "Melfi", "Mongo"]),
-        State(name: "Guera", cities: ["Mao", "Moussoro", "Rig-Rig"]),
-        State(name: "Kanem", cities: ["Bol"]),
-        State(name: "Lac", cities: []),
-        State(name: "Logone Occidental", cities: []),
-        State(name: "Logone Oriental", cities: [
+        States(name: "Chari-Baguirmi", cities: ["Bitkine", "Melfi", "Mongo"]),
+        States(name: "Guera", cities: ["Mao", "Moussoro", "Rig-Rig"]),
+        States(name: "Kanem", cities: ["Bol"]),
+        States(name: "Lac", cities: []),
+        States(name: "Logone Occidental", cities: []),
+        States(name: "Logone Oriental", cities: [
           "Bongor",
           "Fianga",
           "Gounou Gaya",
@@ -5688,13 +5688,13 @@ final List<Country> countries = [
           "Lere",
           "Pala"
         ]),
-        State(
+        States(
             name: "Mayo-Kebbi",
             cities: ["Goundi", "Koumra", "Kyabe", "Moissala", "Sarh"]),
-        State(name: "Moyen-Chari", cities: ["Abeche", "Adre", "Am Dam"]),
-        State(name: "Ouaddai", cities: ["Abou Deia", "Am Timan", "Mangueigne"]),
-        State(name: "Salamat", cities: ["Benoy", "Bere", "Kelo", "Lai"]),
-        State(name: "Tandjile", cities: [
+        States(name: "Moyen-Chari", cities: ["Abeche", "Adre", "Am Dam"]),
+        States(name: "Ouaddai", cities: ["Abou Deia", "Am Timan", "Mangueigne"]),
+        States(name: "Salamat", cities: ["Benoy", "Bere", "Kelo", "Lai"]),
+        States(name: "Tandjile", cities: [
           "Aisen",
           "Chile Chico",
           "Cisnes",
@@ -5715,7 +5715,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Aisen", cities: [
+        States(name: "Aisen", cities: [
           "Antofagasta",
           "Calama",
           "Maria Elena",
@@ -5726,7 +5726,7 @@ final List<Country> countries = [
           "Taltal",
           "Tocopilla"
         ]),
-        State(name: "Antofagasta", cities: [
+        States(name: "Antofagasta", cities: [
           "Angol",
           "Carahue",
           "Collipulli",
@@ -5759,7 +5759,7 @@ final List<Country> countries = [
           "Vilcun",
           "Villarica"
         ]),
-        State(name: "Araucania", cities: [
+        States(name: "Araucania", cities: [
           "Alto del Carmen",
           "Caldera",
           "Chanaral",
@@ -5770,8 +5770,8 @@ final List<Country> countries = [
           "Tierra Amarilla",
           "Vallenar"
         ]),
-        State(name: "Atacama", cities: []),
-        State(name: "Bio Bio", cities: [
+        States(name: "Atacama", cities: []),
+        States(name: "Bio Bio", cities: [
           "Andacollo",
           "Canela",
           "Combarbala",
@@ -5788,9 +5788,9 @@ final List<Country> countries = [
           "Salamanca",
           "Vicuna"
         ]),
-        State(name: "Coquimbo", cities: []),
-        State(name: "Libertador General Bernardo O", cities: []),
-        State(name: "Los Lagos", cities: [
+        States(name: "Coquimbo", cities: []),
+        States(name: "Libertador General Bernardo O", cities: []),
+        States(name: "Los Lagos", cities: [
           "Cabo de Horno",
           "Laguna Blanca",
           "Natales",
@@ -5802,7 +5802,7 @@ final List<Country> countries = [
           "Timaukel",
           "Torres del Paine"
         ]),
-        State(name: "Magellanes", cities: [
+        States(name: "Magellanes", cities: [
           "Cauquenes",
           "Chanco",
           "Colbun",
@@ -5834,7 +5834,7 @@ final List<Country> countries = [
           "Villa Alegre",
           "Yerbas Buenas"
         ]),
-        State(name: "Maule", cities: [
+        States(name: "Maule", cities: [
           "Alhue",
           "Buin",
           "Calera de Tango",
@@ -5858,7 +5858,7 @@ final List<Country> countries = [
           "Talagante",
           "Tiltil"
         ]),
-        State(name: "Metropolitana", cities: [
+        States(name: "Metropolitana", cities: [
           "Alhue",
           "Buin",
           "Calera de Tango",
@@ -5882,7 +5882,7 @@ final List<Country> countries = [
           "Talagante",
           "Tiltil"
         ]),
-        State(name: "Metropolitana de Santiago", cities: [
+        States(name: "Metropolitana de Santiago", cities: [
           "Arica",
           "Camarones",
           "Camina",
@@ -5894,7 +5894,7 @@ final List<Country> countries = [
           "Pozo Almonte",
           "Putre"
         ]),
-        State(name: "Tarapaca", cities: [
+        States(name: "Tarapaca", cities: [
           "Algarrobo",
           "Cabildo",
           "Calera",
@@ -5932,7 +5932,7 @@ final List<Country> countries = [
           "Vina del Mar",
           "Zapallar"
         ]),
-        State(name: "Valparaiso", cities: [
+        States(name: "Valparaiso", cities: [
           "Fengyang",
           "Guangde",
           "Liuan",
@@ -5950,7 +5950,7 @@ final List<Country> countries = [
       minLength: 12,
       maxLength: 12,
       states: [
-        State(name: "Anhui", cities: [
+        States(name: "Anhui", cities: [
           "Fengyang",
           "Guangde",
           "Liuan",
@@ -5959,7 +5959,7 @@ final List<Country> countries = [
           "Xinchang",
           "Xuancheng"
         ]),
-        State(name: "Anhui Province", cities: [
+        States(name: "Anhui Province", cities: [
           "Fengyang",
           "Guangde",
           "Liuan",
@@ -5968,8 +5968,8 @@ final List<Country> countries = [
           "Xinchang",
           "Xuancheng"
         ]),
-        State(name: "Anhui Sheng", cities: ["Aomen"]),
-        State(name: "Aomen", cities: [
+        States(name: "Anhui Sheng", cities: ["Aomen"]),
+        States(name: "Aomen", cities: [
           "Beijing",
           "Changping",
           "Fangshan",
@@ -5979,7 +5979,7 @@ final List<Country> countries = [
           "Shunyi",
           "Tongzhou"
         ]),
-        State(name: "Beijing", cities: [
+        States(name: "Beijing", cities: [
           "Beijing",
           "Changping",
           "Fangshan",
@@ -5989,7 +5989,7 @@ final List<Country> countries = [
           "Shunyi",
           "Tongzhou"
         ]),
-        State(name: "Beijing Shi", cities: [
+        States(name: "Beijing Shi", cities: [
           "Beibei",
           "Chongqing",
           "Fuling",
@@ -6000,7 +6000,7 @@ final List<Country> countries = [
           "Yubei",
           "Yudong"
         ]),
-        State(name: "Chongqing", cities: [
+        States(name: "Chongqing", cities: [
           "Bantou",
           "Dongshan",
           "Fuan",
@@ -6037,7 +6037,7 @@ final List<Country> countries = [
           "Zhangzhou",
           "Zhicheng"
         ]),
-        State(name: "Fujian", cities: [
+        States(name: "Fujian", cities: [
           "Bantou",
           "Dongshan",
           "Fuan",
@@ -6074,7 +6074,7 @@ final List<Country> countries = [
           "Zhangzhou",
           "Zhicheng"
         ]),
-        State(name: "Fujian Sheng", cities: [
+        States(name: "Fujian Sheng", cities: [
           "Baiyin",
           "Baoji",
           "Beidao",
@@ -6091,7 +6091,7 @@ final List<Country> countries = [
           "Zhangye",
           "Zhuanglang"
         ]),
-        State(name: "Gansu", cities: [
+        States(name: "Gansu", cities: [
           "Anbu",
           "Chaozhou",
           "Chenghai",
@@ -6179,7 +6179,7 @@ final List<Country> countries = [
           "Zhongshan",
           "Zhuhai"
         ]),
-        State(name: "Guangdong", cities: [
+        States(name: "Guangdong", cities: [
           "Anbu",
           "Chaozhou",
           "Chenghai",
@@ -6267,7 +6267,7 @@ final List<Country> countries = [
           "Zhongshan",
           "Zhuhai"
         ]),
-        State(name: "Guangdong Sheng", cities: [
+        States(name: "Guangdong Sheng", cities: [
           "Babu",
           "Baihe",
           "Baise",
@@ -6295,7 +6295,7 @@ final List<Country> countries = [
           "Yashan",
           "Yulin"
         ]),
-        State(name: "Guangxi", cities: [
+        States(name: "Guangxi", cities: [
           "Anshun",
           "Bijie",
           "Caohai",
@@ -6311,7 +6311,7 @@ final List<Country> countries = [
           "Xingyi",
           "Zunyi"
         ]),
-        State(name: "Guizhou", cities: [
+        States(name: "Guizhou", cities: [
           "Chengmai",
           "Dingan",
           "Haikou",
@@ -6321,7 +6321,7 @@ final List<Country> countries = [
           "Sanya",
           "Wanning"
         ]),
-        State(name: "Hainan", cities: [
+        States(name: "Hainan", cities: [
           "Anping",
           "Baoding",
           "Botou",
@@ -6363,7 +6363,7 @@ final List<Country> countries = [
           "Zhaogezhuang",
           "Zhuozhou"
         ]),
-        State(name: "Hebei", cities: [
+        States(name: "Hebei", cities: [
           "Acheng",
           "Anda",
           "Angangxi",
@@ -6446,7 +6446,7 @@ final List<Country> countries = [
           "Zhaoyuan",
           "Zhaozhou"
         ]),
-        State(name: "Heilongjiang", cities: [
+        States(name: "Heilongjiang", cities: [
           "Anyang",
           "Changying",
           "Dancheng",
@@ -6493,7 +6493,7 @@ final List<Country> countries = [
           "Zhoukou",
           "Zhumadian"
         ]),
-        State(name: "Henan", cities: [
+        States(name: "Henan", cities: [
           "Anlu",
           "Baisha",
           "Buhe",
@@ -6554,7 +6554,7 @@ final List<Country> countries = [
           "Zhifang",
           "Zhongxiang"
         ]),
-        State(name: "Hubei", cities: [
+        States(name: "Hubei", cities: [
           "Anjiang",
           "Anxiang",
           "Changde",
@@ -6590,7 +6590,7 @@ final List<Country> countries = [
           "Yueyang",
           "Zhuzhou"
         ]),
-        State(name: "Hunan", cities: [
+        States(name: "Hunan", cities: [
           "Baoying",
           "Changzhou",
           "Dachang",
@@ -6661,7 +6661,7 @@ final List<Country> countries = [
           "Zhenjiang",
           "Zhongxing"
         ]),
-        State(name: "Jiangsu", cities: [
+        States(name: "Jiangsu", cities: [
           "Baoying",
           "Changzhou",
           "Dachang",
@@ -6732,7 +6732,7 @@ final List<Country> countries = [
           "Zhenjiang",
           "Zhongxing"
         ]),
-        State(name: "Jiangsu Sheng", cities: [
+        States(name: "Jiangsu Sheng", cities: [
           "Fengxin",
           "Fenyi",
           "Ganzhou",
@@ -6756,7 +6756,7 @@ final List<Country> countries = [
           "Yingtan",
           "Zhangshui"
         ]),
-        State(name: "Jiangxi", cities: [
+        States(name: "Jiangxi", cities: [
           "Badaojiang",
           "Baicheng",
           "Baishishan",
@@ -6812,7 +6812,7 @@ final List<Country> countries = [
           "Zhengjiatun",
           "Zhenlai"
         ]),
-        State(name: "Jilin", cities: [
+        States(name: "Jilin", cities: [
           "Anshan",
           "Beipiao",
           "Benxi",
@@ -6862,7 +6862,7 @@ final List<Country> countries = [
           "Yuhong",
           "Zhuanghe"
         ]),
-        State(name: "Liaoning", cities: [
+        States(name: "Liaoning", cities: [
           "Anshan",
           "Beipiao",
           "Benxi",
@@ -6912,10 +6912,10 @@ final List<Country> countries = [
           "Yuhong",
           "Zhuanghe"
         ]),
-        State(name: "Liaoning Sheng", cities: []),
-        State(name: "Nei Monggol", cities: []),
-        State(name: "Ningxia Hui", cities: ["Qiatou", "Xining"]),
-        State(name: "Qinghai", cities: [
+        States(name: "Liaoning Sheng", cities: []),
+        States(name: "Nei Monggol", cities: []),
+        States(name: "Ningxia Hui", cities: ["Qiatou", "Xining"]),
+        States(name: "Qinghai", cities: [
           "Ankang",
           "Baoji",
           "Guozhen",
@@ -6932,7 +6932,7 @@ final List<Country> countries = [
           "Yulin",
           "Yuxia"
         ]),
-        State(name: "Shaanxi", cities: [
+        States(name: "Shaanxi", cities: [
           "Anqiu",
           "Bianzhuang",
           "Binzhou",
@@ -7036,7 +7036,7 @@ final List<Country> countries = [
           "Zouping",
           "Zouxian"
         ]),
-        State(name: "Shandong", cities: [
+        States(name: "Shandong", cities: [
           "Anqiu",
           "Bianzhuang",
           "Binzhou",
@@ -7140,10 +7140,10 @@ final List<Country> countries = [
           "Zouping",
           "Zouxian"
         ]),
-        State(
+        States(
             name: "Shandong Sheng",
             cities: ["Jiading", "Minhang", "Shanghai", "Songjiang", "Trencin"]),
-        State(name: "Shanghai", cities: [
+        States(name: "Shanghai", cities: [
           "Changzhi",
           "Datong",
           "Houma",
@@ -7159,7 +7159,7 @@ final List<Country> countries = [
           "Yuci",
           "Yuncheng"
         ]),
-        State(name: "Shanxi", cities: [
+        States(name: "Shanxi", cities: [
           "Anju",
           "Baoning",
           "Chengdu",
@@ -7199,7 +7199,7 @@ final List<Country> countries = [
           "Zigong",
           "Ziyang"
         ]),
-        State(name: "Sichuan", cities: [
+        States(name: "Sichuan", cities: [
           "Beichen",
           "Gangdong",
           "Hangu",
@@ -7211,7 +7211,7 @@ final List<Country> countries = [
           "Yangcun",
           "Yangliuqing"
         ]),
-        State(name: "Tianjin", cities: [
+        States(name: "Tianjin", cities: [
           "Guiqing",
           "Jiulong",
           "Quanwan",
@@ -7222,7 +7222,7 @@ final List<Country> countries = [
           "Xianggang",
           "Yuanlong"
         ]),
-        State(name: "Xianggang", cities: [
+        States(name: "Xianggang", cities: [
           "Aksu",
           "Baijiantan",
           "Changji",
@@ -7241,8 +7241,8 @@ final List<Country> countries = [
           "Urumqi",
           "Yining"
         ]),
-        State(name: "Xinjiang", cities: ["Lasa"]),
-        State(name: "Xizang", cities: [
+        States(name: "Xinjiang", cities: ["Lasa"]),
+        States(name: "Xizang", cities: [
           "Dali",
           "Gejiu",
           "Haikou",
@@ -7269,7 +7269,7 @@ final List<Country> countries = [
           "Zhoucheng",
           "Zhuocheng"
         ]),
-        State(name: "Yunnan", cities: [
+        States(name: "Yunnan", cities: [
           "Aojiang",
           "Choucheng",
           "Cixi",
@@ -7326,7 +7326,7 @@ final List<Country> countries = [
           "fenghua",
           "jiashan"
         ]),
-        State(name: "Zhejiang", cities: [
+        States(name: "Zhejiang", cities: [
           "Aojiang",
           "Choucheng",
           "Cixi",
@@ -7383,7 +7383,7 @@ final List<Country> countries = [
           "fenghua",
           "jiashan"
         ]),
-        State(name: "Zhejiang Sheng", cities: [])
+        States(name: "Zhejiang Sheng", cities: [])
       ]),
   Country(
       name: "Christmas Island",
@@ -7392,7 +7392,7 @@ final List<Country> countries = [
       dialCode: "61",
       minLength: 15,
       maxLength: 15,
-      states: [State(name: "Christmas Island", cities: [])]),
+      states: [States(name: "Christmas Island", cities: [])]),
   Country(
       name: "Cocos (Keeling) Islands",
       flag: "🇨🇨",
@@ -7401,7 +7401,7 @@ final List<Country> countries = [
       minLength: 15,
       maxLength: 15,
       states: [
-        State(
+        States(
             name: "Cocos (Keeling) Islands",
             cities: ["Leticia", "Puerto Narino"])
       ]),
@@ -7413,7 +7413,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Amazonas", cities: [
+        States(name: "Amazonas", cities: [
           "Abejorral",
           "Abriaqui",
           "Alejandria",
@@ -7540,7 +7540,7 @@ final List<Country> countries = [
           "Yondo",
           "Zaragoza"
         ]),
-        State(name: "Antioquia", cities: [
+        States(name: "Antioquia", cities: [
           "Arauca",
           "Arauquita",
           "Cravo Norte",
@@ -7549,7 +7549,7 @@ final List<Country> countries = [
           "Saravena",
           "Tame"
         ]),
-        State(name: "Arauca", cities: [
+        States(name: "Arauca", cities: [
           "Baranoa",
           "Barranquilla",
           "Campo de la Cruz",
@@ -7574,8 +7574,8 @@ final List<Country> countries = [
           "Tubara",
           "Usiacuri"
         ]),
-        State(name: "Atlantico", cities: ["Bogota"]),
-        State(name: "Bogota", cities: [
+        States(name: "Atlantico", cities: ["Bogota"]),
+        States(name: "Bogota", cities: [
           "Achi",
           "Altos del Rosario",
           "Arenal",
@@ -7622,7 +7622,7 @@ final List<Country> countries = [
           "Villanueva",
           "Zambrano"
         ]),
-        State(name: "Bolivar", cities: [
+        States(name: "Bolivar", cities: [
           "Almeida",
           "Aquitania",
           "Arcabuco",
@@ -7747,7 +7747,7 @@ final List<Country> countries = [
           "Viracacha",
           "Zetaquira"
         ]),
-        State(name: "Boyaca", cities: [
+        States(name: "Boyaca", cities: [
           "Aguadas",
           "Anserma",
           "Aranzazu",
@@ -7776,7 +7776,7 @@ final List<Country> countries = [
           "Villamaria",
           "Viterbo"
         ]),
-        State(name: "Caldas", cities: [
+        States(name: "Caldas", cities: [
           "Albania",
           "Belen Andaquies",
           "Cartagena del Chaira",
@@ -7794,7 +7794,7 @@ final List<Country> countries = [
           "Solita",
           "Valparaiso"
         ]),
-        State(name: "Caqueta", cities: [
+        States(name: "Caqueta", cities: [
           "Aguazul",
           "Chameza",
           "Hato Corozal",
@@ -7815,7 +7815,7 @@ final List<Country> countries = [
           "Villanueva",
           "Yopal"
         ]),
-        State(name: "Casanare", cities: [
+        States(name: "Casanare", cities: [
           "Almaguer",
           "Argelia",
           "Balboa",
@@ -7858,7 +7858,7 @@ final List<Country> countries = [
           "Totoro",
           "Villa Rica"
         ]),
-        State(name: "Cauca", cities: [
+        States(name: "Cauca", cities: [
           "Aguachica",
           "Agustin Codazzi",
           "Astrea",
@@ -7885,7 +7885,7 @@ final List<Country> countries = [
           "Tamalameque",
           "Valledupar"
         ]),
-        State(name: "Cesar", cities: [
+        States(name: "Cesar", cities: [
           "Acandi",
           "Alto Baudo",
           "Atrato",
@@ -7917,7 +7917,7 @@ final List<Country> countries = [
           "Unguia",
           "Union Panamericana"
         ]),
-        State(name: "Choco", cities: [
+        States(name: "Choco", cities: [
           "Ayapel",
           "Buenavista",
           "Canalete",
@@ -7947,7 +7947,7 @@ final List<Country> countries = [
           "Tierralta",
           "Valencia"
         ]),
-        State(name: "Cordoba", cities: [
+        States(name: "Cordoba", cities: [
           "Agua de Dios",
           "Alban",
           "Anapoima",
@@ -8065,14 +8065,14 @@ final List<Country> countries = [
           "Zipacon",
           "Zipaquira"
         ]),
-        State(name: "Cundinamarca", cities: ["Inirida"]),
-        State(name: "Guainia", cities: [
+        States(name: "Cundinamarca", cities: ["Inirida"]),
+        States(name: "Guainia", cities: [
           "Calamar",
           "El Retorno",
           "Miraflores",
           "San Jose del Guaviare"
         ]),
-        State(name: "Guaviare", cities: [
+        States(name: "Guaviare", cities: [
           "Acevedo",
           "Agrado",
           "Aipe",
@@ -8111,8 +8111,8 @@ final List<Country> countries = [
           "Villavieja",
           "Yaguara"
         ]),
-        State(name: "Huila", cities: []),
-        State(name: "La Guajira", cities: [
+        States(name: "Huila", cities: []),
+        States(name: "La Guajira", cities: [
           "Algarrobo",
           "Aracataca",
           "Ariguani",
@@ -8144,7 +8144,7 @@ final List<Country> countries = [
           "Zapayan",
           "Zona Bananera"
         ]),
-        State(name: "Magdalena", cities: [
+        States(name: "Magdalena", cities: [
           "Acacias",
           "Barranca de Upia",
           "Cabuyaro",
@@ -8175,7 +8175,7 @@ final List<Country> countries = [
           "Villavicencio",
           "Vista Hermosa"
         ]),
-        State(name: "Meta", cities: [
+        States(name: "Meta", cities: [
           "Alban",
           "Aldana",
           "Ancuya",
@@ -8241,8 +8241,8 @@ final List<Country> countries = [
           "Tuquerres",
           "Yacuanquer"
         ]),
-        State(name: "Narino", cities: []),
-        State(name: "Norte de Santander", cities: [
+        States(name: "Narino", cities: []),
+        States(name: "Norte de Santander", cities: [
           "Colon",
           "Mocoa",
           "Orito",
@@ -8257,7 +8257,7 @@ final List<Country> countries = [
           "Valle del Guamuez",
           "Villagarzon"
         ]),
-        State(name: "Putumayo", cities: [
+        States(name: "Putumayo", cities: [
           "Armenia",
           "Buenavista",
           "Calarca",
@@ -8271,7 +8271,7 @@ final List<Country> countries = [
           "Quimbaya",
           "Salento"
         ]),
-        State(name: "Quindio", cities: [
+        States(name: "Quindio", cities: [
           "Apia",
           "Balboa",
           "Belen de Umbria",
@@ -8287,8 +8287,8 @@ final List<Country> countries = [
           "Santa Rosa de Cabal",
           "Santuario"
         ]),
-        State(name: "Risaralda", cities: []),
-        State(name: "San Andres y Providencia", cities: [
+        States(name: "Risaralda", cities: []),
+        States(name: "San Andres y Providencia", cities: [
           "Aguada",
           "Albania",
           "Aratoca",
@@ -8377,7 +8377,7 @@ final List<Country> countries = [
           "Villanueva",
           "Zapatoca"
         ]),
-        State(name: "Santander", cities: [
+        States(name: "Santander", cities: [
           "Buenavista",
           "Caimito",
           "Chalan",
@@ -8404,7 +8404,7 @@ final List<Country> countries = [
           "Tolu",
           "Toluviejo"
         ]),
-        State(name: "Sucre", cities: [
+        States(name: "Sucre", cities: [
           "Alpujarra",
           "Alvarado",
           "Ambalema",
@@ -8453,7 +8453,7 @@ final List<Country> countries = [
           "Villahermosa",
           "Villarrica"
         ]),
-        State(name: "Tolima", cities: [
+        States(name: "Tolima", cities: [
           "Alcala",
           "Andalucia",
           "Ansermanuevo",
@@ -8497,7 +8497,7 @@ final List<Country> countries = [
           "Yumbo",
           "Zarzal"
         ]),
-        State(name: "Valle del Cauca", cities: [
+        States(name: "Valle del Cauca", cities: [
           "Acaricuara",
           "Mitu",
           "Papunaua",
@@ -8505,13 +8505,13 @@ final List<Country> countries = [
           "Villa Fatima",
           "Yavarate"
         ]),
-        State(name: "Vaupes", cities: [
+        States(name: "Vaupes", cities: [
           "Cumaribo",
           "La Primavera",
           "Puerto Carreno",
           "Santa Rosalia"
         ]),
-        State(name: "Vichada", cities: ["Fomboni"])
+        States(name: "Vichada", cities: ["Fomboni"])
       ]),
   Country(
       name: "Comoros",
@@ -8521,9 +8521,9 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Mwali", cities: ["Mitsamiouli", "Moroni"]),
-        State(name: "Njazidja", cities: ["Domoni", "Mutsamudu"]),
-        State(name: "Nzwani", cities: ["Loudima", "Madingou", "Nkayi"])
+        States(name: "Mwali", cities: ["Mitsamiouli", "Moroni"]),
+        States(name: "Njazidja", cities: ["Domoni", "Mutsamudu"]),
+        States(name: "Nzwani", cities: ["Loudima", "Madingou", "Nkayi"])
       ]),
   Country(
       name: "Congo",
@@ -8533,22 +8533,22 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Bouenza", cities: ["Brazzaville"]),
-        State(
+        States(name: "Bouenza", cities: ["Brazzaville"]),
+        States(
             name: "Brazzaville",
             cities: ["Ewo", "Kelle", "Makoua", "Mossaka", "Owando"]),
-        State(
+        States(
             name: "Cuvette",
             cities: ["Loandjili", "Ngamaba-Mfilou", "Pointe Noire"]),
-        State(name: "Kouilou", cities: ["Sibiti", "Zanaga"]),
-        State(name: "Lekoumou", cities: ["Dongou", "Epena", "Impfondo"]),
-        State(
+        States(name: "Kouilou", cities: ["Sibiti", "Zanaga"]),
+        States(name: "Lekoumou", cities: ["Dongou", "Epena", "Impfondo"]),
+        States(
             name: "Likouala",
             cities: ["Kibangou", "Loubomo", "Matsanga", "Mossendjo"]),
-        State(name: "Niari", cities: ["Djambala", "Gamboma"]),
-        State(name: "Plateaux", cities: ["Boko", "Kinkala", "Mindouli"]),
-        State(name: "Pool", cities: ["Ikelemba", "Ouesso", "Sembe", "Souanke"]),
-        State(name: "Sangha", cities: [
+        States(name: "Niari", cities: ["Djambala", "Gamboma"]),
+        States(name: "Plateaux", cities: ["Boko", "Kinkala", "Mindouli"]),
+        States(name: "Pool", cities: ["Ikelemba", "Ouesso", "Sembe", "Souanke"]),
+        States(name: "Sangha", cities: [
           "Bandundu",
           "Bolobo",
           "Bulungu",
@@ -8575,7 +8575,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Bandundu", cities: [
+        States(name: "Bandundu", cities: [
           "Boma",
           "Kasangulu",
           "Kimpese",
@@ -8585,7 +8585,7 @@ final List<Country> countries = [
           "Muanda",
           "Tshela"
         ]),
-        State(name: "Bas-Congo", cities: [
+        States(name: "Bas-Congo", cities: [
           "Basankusu",
           "Binga",
           "Bodalangi",
@@ -8607,7 +8607,7 @@ final List<Country> countries = [
           "Yumbi",
           "Zongo"
         ]),
-        State(name: "Equateur", cities: [
+        States(name: "Equateur", cities: [
           "Aba",
           "Aketi",
           "Bafwasende",
@@ -8633,7 +8633,7 @@ final List<Country> countries = [
           "Watsa",
           "Yangambi"
         ]),
-        State(name: "Haut-Congo", cities: [
+        States(name: "Haut-Congo", cities: [
           "Demba",
           "Dibaya",
           "Ilebo",
@@ -8643,7 +8643,7 @@ final List<Country> countries = [
           "Mweka",
           "Tshikapa"
         ]),
-        State(name: "Kasai-Occidental", cities: [
+        States(name: "Kasai-Occidental", cities: [
           "Gandajika",
           "Kabinda",
           "Katako-Kombe",
@@ -8657,7 +8657,7 @@ final List<Country> countries = [
           "Tshilenge",
           "Tshofa"
         ]),
-        State(name: "Kasai-Oriental", cities: [
+        States(name: "Kasai-Oriental", cities: [
           "Bukama",
           "Dilolo",
           "Kabalo",
@@ -8682,10 +8682,10 @@ final List<Country> countries = [
           "Sakania",
           "Shinkolobwe"
         ]),
-        State(name: "Katanga", cities: ["Kinshasa"]),
-        State(name: "Kinshasa", cities: ["Kalima", "Kasongo", "Kindu"]),
-        State(name: "Maniema", cities: ["Beni", "Butembo", "Goma"]),
-        State(name: "Nord-Kivu", cities: [
+        States(name: "Katanga", cities: ["Kinshasa"]),
+        States(name: "Kinshasa", cities: ["Kalima", "Kasongo", "Kindu"]),
+        States(name: "Maniema", cities: ["Beni", "Butembo", "Goma"]),
+        States(name: "Nord-Kivu", cities: [
           "Bukavu",
           "Kabare",
           "Kama",
@@ -8693,7 +8693,7 @@ final List<Country> countries = [
           "Kibombo",
           "Uvira"
         ]),
-        State(name: "Sud-Kivu", cities: ["Amuri"])
+        States(name: "Sud-Kivu", cities: ["Amuri"])
       ]),
   Country(
       name: "Cook Islands",
@@ -8703,17 +8703,17 @@ final List<Country> countries = [
       minLength: 5,
       maxLength: 5,
       states: [
-        State(name: "Aitutaki", cities: ["Atiu"]),
-        State(name: "Atiu", cities: ["Mangaia"]),
-        State(name: "Mangaia", cities: ["Tauhunu"]),
-        State(name: "Manihiki", cities: ["Mauke"]),
-        State(name: "Mauke", cities: ["Mitiaro"]),
-        State(name: "Mitiaro", cities: ["Nassau"]),
-        State(name: "Nassau", cities: ["Roto"]),
-        State(name: "Pukapuka", cities: ["Rakahanga"]),
-        State(name: "Rakahanga", cities: ["Avarua"]),
-        State(name: "Rarotonga", cities: ["Omoka"]),
-        State(name: "Tongareva", cities: [
+        States(name: "Aitutaki", cities: ["Atiu"]),
+        States(name: "Atiu", cities: ["Mangaia"]),
+        States(name: "Mangaia", cities: ["Tauhunu"]),
+        States(name: "Manihiki", cities: ["Mauke"]),
+        States(name: "Mauke", cities: ["Mitiaro"]),
+        States(name: "Mitiaro", cities: ["Nassau"]),
+        States(name: "Nassau", cities: ["Roto"]),
+        States(name: "Pukapuka", cities: ["Rakahanga"]),
+        States(name: "Rakahanga", cities: ["Avarua"]),
+        States(name: "Rarotonga", cities: ["Omoka"]),
+        States(name: "Tongareva", cities: [
           "Alajuela",
           "Atenas",
           "Bijagua",
@@ -8764,7 +8764,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Alajuela", cities: [
+        States(name: "Alajuela", cities: [
           "Aguacaliente",
           "Capellades",
           "Carmen",
@@ -8792,7 +8792,7 @@ final List<Country> countries = [
           "Tucurrique",
           "Turrialba"
         ]),
-        State(name: "Cartago", cities: [
+        States(name: "Cartago", cities: [
           "Bagaces",
           "Belen",
           "Canas",
@@ -8810,7 +8810,7 @@ final List<Country> countries = [
           "Sardinal",
           "Tilaran"
         ]),
-        State(name: "Guanacaste", cities: [
+        States(name: "Guanacaste", cities: [
           "Angeles",
           "Asuncion",
           "Barrantes",
@@ -8842,7 +8842,7 @@ final List<Country> countries = [
           "Santo Tomas",
           "Ulloa"
         ]),
-        State(name: "Heredia", cities: [
+        States(name: "Heredia", cities: [
           "Batan",
           "Cahuita",
           "Cariari",
@@ -8858,7 +8858,7 @@ final List<Country> countries = [
           "Sixaola",
           "Valle la Estrella"
         ]),
-        State(name: "Limon", cities: [
+        States(name: "Limon", cities: [
           "Buenos Aires",
           "Canoas",
           "Chacarita",
@@ -8881,8 +8881,8 @@ final List<Country> countries = [
           "Quepos",
           "San Vito"
         ]),
-        State(name: "Puntarenas", cities: []),
-        State(name: "San Jose", cities: ["Marcory"])
+        States(name: "Puntarenas", cities: []),
+        States(name: "San Jose", cities: ["Marcory"])
       ]),
   Country(
       name: "Côte d'Ivoire",
@@ -8892,13 +8892,13 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(
+        States(
             name: "Abidjan",
             cities: ["Adzope", "Affery", "Agboville", "Akoupe", "Rubino"]),
-        State(name: "Agneby", cities: ["Touba"]),
-        State(name: "Bafing", cities: ["Bako", "Odienne"]),
-        State(name: "Denguele", cities: []),
-        State(name: "Dix-huit Montagnes", cities: [
+        States(name: "Agneby", cities: ["Touba"]),
+        States(name: "Bafing", cities: ["Bako", "Odienne"]),
+        States(name: "Denguele", cities: []),
+        States(name: "Dix-huit Montagnes", cities: [
           "Gagnoa",
           "Guiberoua",
           "Hire",
@@ -8906,11 +8906,11 @@ final List<Country> countries = [
           "Oume",
           "Ouragahio"
         ]),
-        State(name: "Fromager", cities: ["Daloa", "Issia", "Vavoua"]),
-        State(
+        States(name: "Fromager", cities: ["Daloa", "Issia", "Vavoua"]),
+        States(
             name: "Haut-Sassandra",
             cities: ["Ndiekro", "Tiebissou", "Toumodi", "Yamoussoukro"]),
-        State(name: "Lacs", cities: [
+        States(name: "Lacs", cities: [
           "Abidjan",
           "Alepe",
           "Anyama",
@@ -8920,10 +8920,10 @@ final List<Country> countries = [
           "Jacqueville",
           "Tiassale"
         ]),
-        State(name: "Lagunes", cities: ["Bouafle", "Sinfra", "Zuenoula"]),
-        State(name: "Marahoue", cities: ["Duekoue", "Guiglo", "Toulepleu"]),
-        State(name: "Moyen-Cavally", cities: ["Abengourou", "Agnibilekrou"]),
-        State(name: "Moyen-Comoe", cities: [
+        States(name: "Lagunes", cities: ["Bouafle", "Sinfra", "Zuenoula"]),
+        States(name: "Marahoue", cities: ["Duekoue", "Guiglo", "Toulepleu"]),
+        States(name: "Moyen-Cavally", cities: ["Abengourou", "Agnibilekrou"]),
+        States(name: "Moyen-Comoe", cities: [
           "Arrah",
           "Bocanda",
           "Bongouanou",
@@ -8933,25 +8933,25 @@ final List<Country> countries = [
           "Mbatto",
           "N\\'\\'zi-Comoe"
         ]),
-        State(
+        States(
             name: "N\\'\\'zi-Comoe",
             cities: ["San-Pedro", "Sassandra", "Soubre", "Tabou"]),
-        State(name: "Sassandra", cities: [
+        States(name: "Sassandra", cities: [
           "Boundiali",
           "Dikodougou",
           "Ferkessedougou",
           "Korhogo",
           "Tingrela"
         ]),
-        State(name: "Savanes", cities: ["Divo", "Fresco", "Lakota"]),
-        State(
+        States(name: "Savanes", cities: ["Divo", "Fresco", "Lakota"]),
+        States(
             name: "Sud-Bandama",
             cities: ["Aboisso", "Adiake", "Ayame", "Bonoua", "Grand Bassam"]),
-        State(name: "Sud-Comoe", cities: []),
-        State(
+        States(name: "Sud-Comoe", cities: []),
+        States(
             name: "Vallee du Bandama", cities: ["Kani", "Mankono", "Seguela"]),
-        State(name: "Worodougou", cities: ["Bondoukou", "Bouna", "Tanda"]),
-        State(name: "Zanzan", cities: [
+        States(name: "Worodougou", cities: ["Bondoukou", "Bouna", "Tanda"]),
+        States(name: "Zanzan", cities: [
           "Bjelovar",
           "Brezovac",
           "Chazma",
@@ -8987,7 +8987,7 @@ final List<Country> countries = [
       minLength: 12,
       maxLength: 12,
       states: [
-        State(name: "Bjelovar-Bilogora", cities: [
+        States(name: "Bjelovar-Bilogora", cities: [
           "Blato",
           "Cavtat",
           "Chibacha",
@@ -9010,8 +9010,8 @@ final List<Country> countries = [
           "Zaton",
           "Zhrnovo"
         ]),
-        State(name: "Dubrovnik-Neretva", cities: []),
-        State(name: "Grad Zagreb", cities: [
+        States(name: "Dubrovnik-Neretva", cities: []),
+        States(name: "Grad Zagreb", cities: [
           "Bale",
           "Banjole",
           "Brtonigla",
@@ -9039,7 +9039,7 @@ final List<Country> countries = [
           "Vodnjan",
           "Vrsar"
         ]),
-        State(name: "Istra", cities: [
+        States(name: "Istra", cities: [
           "Cerovac Vukmansichki",
           "Draganic",
           "Duga Resa",
@@ -9053,7 +9053,7 @@ final List<Country> countries = [
           "Slunj",
           "Vojnic"
         ]),
-        State(name: "Karlovac", cities: [
+        States(name: "Karlovac", cities: [
           "Dhelekovec",
           "Dhurdhevac",
           "Drnje",
@@ -9081,7 +9081,7 @@ final List<Country> countries = [
           "Trema",
           "Virje"
         ]),
-        State(name: "Koprivnica-Krizhevci", cities: [
+        States(name: "Koprivnica-Krizhevci", cities: [
           "Andrashevec",
           "Bedekovchina",
           "Dhurmanec",
@@ -9112,7 +9112,7 @@ final List<Country> countries = [
           "Zlatar",
           "Zlatar-Bistrica"
         ]),
-        State(name: "Krapina-Zagorje", cities: [
+        States(name: "Krapina-Zagorje", cities: [
           "Brinje",
           "Donji Lapac",
           "Gospic",
@@ -9125,7 +9125,7 @@ final List<Country> countries = [
           "Prozor",
           "Senj"
         ]),
-        State(name: "Lika-Senj", cities: [
+        States(name: "Lika-Senj", cities: [
           "Belica",
           "Chakovec",
           "Cirkovljan",
@@ -9167,8 +9167,8 @@ final List<Country> countries = [
           "Vratishinec",
           "Zasadbreg"
         ]),
-        State(name: "Medhimurje", cities: []),
-        State(name: "Medimurska Zupanija", cities: [
+        States(name: "Medhimurje", cities: []),
+        States(name: "Medimurska Zupanija", cities: [
           "Antunovac",
           "Batina",
           "Beli Manastir",
@@ -9245,8 +9245,8 @@ final List<Country> countries = [
           "Zmajevac",
           "Zoljan"
         ]),
-        State(name: "Osijek-Baranja", cities: []),
-        State(name: "Osjecko-Baranjska Zupanija", cities: [
+        States(name: "Osijek-Baranja", cities: []),
+        States(name: "Osjecko-Baranjska Zupanija", cities: [
           "Badljevina",
           "Brodski Drenovac",
           "Dervishaga",
@@ -9264,8 +9264,8 @@ final List<Country> countries = [
           "Vetovo",
           "Vidovci"
         ]),
-        State(name: "Pozhega-Slavonija", cities: []),
-        State(name: "Primorje-Gorski Kotar", cities: [
+        States(name: "Pozhega-Slavonija", cities: []),
+        States(name: "Primorje-Gorski Kotar", cities: [
           "Bilice",
           "Brodarica",
           "Drnish",
@@ -9287,7 +9287,7 @@ final List<Country> countries = [
           "Vrpolje",
           "Zaton"
         ]),
-        State(name: "Shibenik-Knin", cities: [
+        States(name: "Shibenik-Knin", cities: [
           "Brestacha",
           "Brochice",
           "Budashevo",
@@ -9322,8 +9322,8 @@ final List<Country> countries = [
           "Topolovac",
           "Voloder"
         ]),
-        State(name: "Sisak-Moslavina", cities: []),
-        State(name: "Slavonski Brod-Posavina", cities: [
+        States(name: "Sisak-Moslavina", cities: []),
+        States(name: "Slavonski Brod-Posavina", cities: [
           "Bashka Voda",
           "Bol",
           "Brela",
@@ -9402,7 +9402,7 @@ final List<Country> countries = [
           "Zhrnovnica",
           "Zmijavci"
         ]),
-        State(name: "Split-Dalmacija", cities: [
+        States(name: "Split-Dalmacija", cities: [
           "Bedenec",
           "Beletinec",
           "Beretinec",
@@ -9452,7 +9452,7 @@ final List<Country> countries = [
           "Zavrshje Podbelsko",
           "Zharovnica"
         ]),
-        State(name: "Varazhdin", cities: [
+        States(name: "Varazhdin", cities: [
           "Borova",
           "Busetina",
           "Cabuna",
@@ -9474,7 +9474,7 @@ final List<Country> countries = [
           "Vocin",
           "Zdenci"
         ]),
-        State(name: "Virovitica-Podravina", cities: [
+        States(name: "Virovitica-Podravina", cities: [
           "Andrijashevci",
           "Antin",
           "Babina Greda",
@@ -9527,7 +9527,7 @@ final List<Country> countries = [
           "Vukovar",
           "Zhupanja"
         ]),
-        State(name: "Vukovar-Srijem", cities: [
+        States(name: "Vukovar-Srijem", cities: [
           "Benkovac",
           "Bibinje",
           "Biograd na Moru",
@@ -9563,7 +9563,7 @@ final List<Country> countries = [
           "Zadar",
           "Zemunik Donji"
         ]),
-        State(name: "Zadar", cities: [
+        States(name: "Zadar", cities: [
           "Bestovje",
           "Bishkupec Zelinski",
           "Brckovljani",
@@ -9629,7 +9629,7 @@ final List<Country> countries = [
           "Zapreshic",
           "Zdenci Brdovechki"
         ]),
-        State(name: "Zagreb", cities: [
+        States(name: "Zagreb", cities: [
           "Camaguey",
           "Caney",
           "Carlos Manuel de Cespedes",
@@ -9651,16 +9651,16 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Camaguey", cities: []),
-        State(name: "Ciego de Avila", cities: [
+        States(name: "Camaguey", cities: []),
+        States(name: "Ciego de Avila", cities: [
           "Cienfuegos",
           "Cruces",
           "Cumanayagua",
           "Palmira",
           "Rodas"
         ]),
-        State(name: "Cienfuegos", cities: []),
-        State(name: "Ciudad de la Habana", cities: [
+        States(name: "Cienfuegos", cities: []),
+        States(name: "Ciudad de la Habana", cities: [
           "Bayamo",
           "Campechuela",
           "Guisa",
@@ -9672,9 +9672,9 @@ final List<Country> countries = [
           "Rio Cauto",
           "Yara"
         ]),
-        State(name: "Granma", cities: ["Baracoa", "Guantanamo", "Yateras"]),
-        State(name: "Guantanamo", cities: ["Havana"]),
-        State(name: "Habana", cities: [
+        States(name: "Granma", cities: ["Baracoa", "Guantanamo", "Yateras"]),
+        States(name: "Guantanamo", cities: ["Havana"]),
+        States(name: "Habana", cities: [
           "Antilla",
           "Baguanos",
           "Banes",
@@ -9687,10 +9687,10 @@ final List<Country> countries = [
           "Moa",
           "Sagua de Tanamo"
         ]),
-        State(name: "Holguin", cities: []),
-        State(name: "Isla de la Juventud", cities: []),
-        State(name: "La Habana", cities: []),
-        State(name: "Las Tunas", cities: [
+        States(name: "Holguin", cities: []),
+        States(name: "Isla de la Juventud", cities: []),
+        States(name: "La Habana", cities: []),
+        States(name: "Las Tunas", cities: [
           "Abreus",
           "Agramonte",
           "Aguacate",
@@ -9715,11 +9715,11 @@ final List<Country> countries = [
           "Union de Reyes",
           "Varadero"
         ]),
-        State(name: "Matanzas", cities: []),
-        State(name: "Pinar del Rio", cities: []),
-        State(name: "Sancti Spiritus", cities: []),
-        State(name: "Santiago de Cuba", cities: []),
-        State(name: "Villa Clara", cities: [])
+        States(name: "Matanzas", cities: []),
+        States(name: "Pinar del Rio", cities: []),
+        States(name: "Sancti Spiritus", cities: []),
+        States(name: "Santiago de Cuba", cities: []),
+        States(name: "Villa Clara", cities: [])
       ]),
   Country(
       name: "Cyprus",
@@ -9729,11 +9729,11 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Government controlled area", cities: ["Limassol"]),
-        State(name: "Limassol", cities: []),
-        State(name: "Nicosia District", cities: ["Paphos"]),
-        State(name: "Paphos", cities: []),
-        State(name: "Turkish controlled area", cities: [])
+        States(name: "Government controlled area", cities: ["Limassol"]),
+        States(name: "Limassol", cities: []),
+        States(name: "Nicosia District", cities: ["Paphos"]),
+        States(name: "Paphos", cities: []),
+        States(name: "Turkish controlled area", cities: [])
       ]),
   Country(
       name: "Czech Republic",
@@ -9743,9 +9743,9 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Central Bohemian", cities: ["Frycovice"]),
-        State(name: "Frycovice", cities: []),
-        State(name: "Jihocesky Kraj", cities: [
+        States(name: "Central Bohemian", cities: ["Frycovice"]),
+        States(name: "Frycovice", cities: []),
+        States(name: "Jihocesky Kraj", cities: [
           "Bechyne",
           "Blatna",
           "Cheske Budejovice",
@@ -9767,7 +9767,7 @@ final List<Country> countries = [
           "Vimperk",
           "Vodnany"
         ]),
-        State(name: "Jihochesky", cities: [
+        States(name: "Jihochesky", cities: [
           "Adamov",
           "Blansko",
           "Boskovice",
@@ -9792,7 +9792,7 @@ final List<Country> countries = [
           "Vyshkov",
           "Znojmo"
         ]),
-        State(name: "Jihomoravsky", cities: [
+        States(name: "Jihomoravsky", cities: [
           "Ash",
           "Bozicany",
           "Cheb",
@@ -9807,8 +9807,8 @@ final List<Country> countries = [
           "Ostrov",
           "Sokolov"
         ]),
-        State(name: "Karlovarsky", cities: ["Klecany"]),
-        State(name: "Klecany", cities: [
+        States(name: "Karlovarsky", cities: ["Klecany"]),
+        States(name: "Klecany", cities: [
           "Broumov",
           "Cherveny Kostelec",
           "Cheska Skalice",
@@ -9835,7 +9835,7 @@ final List<Country> countries = [
           "Upice",
           "Vrchlabi"
         ]),
-        State(name: "Kralovehradecky", cities: [
+        States(name: "Kralovehradecky", cities: [
           "Ceska Lipa",
           "Cheska Kamenice",
           "Cheska Lipa",
@@ -9854,8 +9854,8 @@ final List<Country> countries = [
           "Turnov",
           "Zhelezny Brod"
         ]),
-        State(name: "Liberecky", cities: ["Lipov"]),
-        State(name: "Lipov", cities: [
+        States(name: "Liberecky", cities: ["Lipov"]),
+        States(name: "Lipov", cities: [
           "Bilovec",
           "Bohumin",
           "Bruntal",
@@ -9888,7 +9888,7 @@ final List<Country> countries = [
           "Vratimov",
           "Vrbno pod Pradedem"
         ]),
-        State(name: "Moravskoslezsky", cities: [
+        States(name: "Moravskoslezsky", cities: [
           "Hranice",
           "Jesenik",
           "Kojetin",
@@ -9903,7 +9903,7 @@ final List<Country> countries = [
           "Unichov",
           "Zabreh"
         ]),
-        State(name: "Olomoucky", cities: [
+        States(name: "Olomoucky", cities: [
           "Hranice",
           "Jesenik",
           "Kojetin",
@@ -9918,7 +9918,7 @@ final List<Country> countries = [
           "Unichov",
           "Zabreh"
         ]),
-        State(name: "Olomoucky Kraj", cities: [
+        States(name: "Olomoucky Kraj", cities: [
           "Cheska Trebova",
           "Chocen",
           "Chrudim",
@@ -9939,7 +9939,7 @@ final List<Country> countries = [
           "Vysoke Myto",
           "Zhamberk"
         ]),
-        State(name: "Pardubicky", cities: [
+        States(name: "Pardubicky", cities: [
           "Dobrany",
           "Domazhlice",
           "Horazhd\\'\\'ovice",
@@ -9957,12 +9957,12 @@ final List<Country> countries = [
           "Sushice",
           "Tachov"
         ]),
-        State(name: "Plzensky", cities: ["Prague", "Praha"]),
-        State(name: "Praha", cities: ["Rajhrad"]),
-        State(name: "Rajhrad", cities: ["Smirice"]),
-        State(name: "Smirice", cities: []),
-        State(name: "South Moravian", cities: []),
-        State(name: "Straz nad Nisou", cities: [
+        States(name: "Plzensky", cities: ["Prague", "Praha"]),
+        States(name: "Praha", cities: ["Rajhrad"]),
+        States(name: "Rajhrad", cities: ["Smirice"]),
+        States(name: "Smirice", cities: []),
+        States(name: "South Moravian", cities: []),
+        States(name: "Straz nad Nisou", cities: [
           "Benatky nad Jizerou",
           "Beneshov",
           "Beroun",
@@ -9996,8 +9996,8 @@ final List<Country> countries = [
           "Vlashim",
           "Zruch nad Sazavou"
         ]),
-        State(name: "Stredochesky", cities: ["Unicov"]),
-        State(name: "Unicov", cities: [
+        States(name: "Stredochesky", cities: ["Unicov"]),
+        States(name: "Unicov", cities: [
           "Bilina",
           "Chomutov",
           "Dechin",
@@ -10025,9 +10025,9 @@ final List<Country> countries = [
           "Varnsdorf",
           "Zatec"
         ]),
-        State(name: "Ustecky", cities: ["Valletta"]),
-        State(name: "Valletta", cities: ["Velesin"]),
-        State(name: "Velesin", cities: [
+        States(name: "Ustecky", cities: ["Valletta"]),
+        States(name: "Valletta", cities: ["Velesin"]),
+        States(name: "Velesin", cities: [
           "Bystrice nad Pernshtejnem",
           "Chotebor",
           "Havlichkuv Brod",
@@ -10047,7 +10047,7 @@ final List<Country> countries = [
           "Velke Mezirichi",
           "Zhd\\'\\'ar"
         ]),
-        State(name: "Vysochina", cities: [
+        States(name: "Vysochina", cities: [
           "Brumov",
           "Bystrice pod Hostynem",
           "Chropyne",
@@ -10072,7 +10072,7 @@ final List<Country> countries = [
           "Zborovice",
           "Zlin"
         ]),
-        State(name: "Zlinsky", cities: [
+        States(name: "Zlinsky", cities: [
           "Aarhus",
           "Allingabro",
           "Arhus",
@@ -10126,10 +10126,10 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(
+        States(
             name: "Arhus",
             cities: ["Aakirkeby", "Allinge-Sandvig", "Nexo", "Ronne"]),
-        State(name: "Bornholm", cities: [
+        States(name: "Bornholm", cities: [
           "Allerod",
           "Birkerod",
           "Blovstrod",
@@ -10164,7 +10164,7 @@ final List<Country> countries = [
           "Valby",
           "Vekso"
         ]),
-        State(name: "Frederiksborg", cities: [
+        States(name: "Frederiksborg", cities: [
           "Aarup",
           "Arslev",
           "Assens",
@@ -10203,10 +10203,10 @@ final List<Country> countries = [
           "Vindeby",
           "Vissenbjerg"
         ]),
-        State(
+        States(
             name: "Fyn",
             cities: ["Ballerup", "Brondby", "Stenlose", "Vallensbaek"]),
-        State(name: "Hovedstaden", cities: [
+        States(name: "Hovedstaden", cities: [
           "Dragor",
           "Flong",
           "Gentofte",
@@ -10223,9 +10223,9 @@ final List<Country> countries = [
           "Vanlose",
           "Varlose"
         ]),
-        State(name: "Kobenhavn", cities: []),
-        State(name: "Kobenhavns Amt", cities: []),
-        State(name: "Kobenhavns Kommune", cities: [
+        States(name: "Kobenhavn", cities: []),
+        States(name: "Kobenhavns Amt", cities: []),
+        States(name: "Kobenhavns Kommune", cities: [
           "Aabybro",
           "Aalborg",
           "Aars",
@@ -10270,7 +10270,7 @@ final List<Country> countries = [
           "Vodskov",
           "Vra"
         ]),
-        State(name: "Nordjylland", cities: [
+        States(name: "Nordjylland", cities: [
           "Ansager",
           "Billund",
           "Bramming",
@@ -10287,7 +10287,7 @@ final List<Country> countries = [
           "Vejen",
           "Vorbasse"
         ]),
-        State(name: "Ribe", cities: [
+        States(name: "Ribe", cities: [
           "Aulum",
           "Bording",
           "Brande",
@@ -10314,8 +10314,8 @@ final List<Country> countries = [
           "Vildbjerg",
           "Vinderup"
         ]),
-        State(name: "Ringkobing", cities: ["Roervig"]),
-        State(name: "Roervig", cities: [
+        States(name: "Ringkobing", cities: ["Roervig"]),
+        States(name: "Roervig", cities: [
           "Bjaverskov",
           "Borup",
           "Ejby",
@@ -10336,10 +10336,10 @@ final List<Country> countries = [
           "Viby",
           "Vindinge"
         ]),
-        State(name: "Roskilde", cities: ["Glyngore"]),
-        State(name: "Roslev", cities: ["Karise", "Naestved"]),
-        State(name: "Sjaelland", cities: ["Soeborg"]),
-        State(name: "Soeborg", cities: [
+        States(name: "Roskilde", cities: ["Glyngore"]),
+        States(name: "Roslev", cities: ["Karise", "Naestved"]),
+        States(name: "Sjaelland", cities: ["Soeborg"]),
+        States(name: "Soeborg", cities: [
           "Aabenraa",
           "Aarsleve",
           "Augustenborg",
@@ -10366,7 +10366,7 @@ final List<Country> countries = [
           "Tonder",
           "Vojens"
         ]),
-        State(name: "Sonderjylland", cities: [
+        States(name: "Sonderjylland", cities: [
           "Fakse",
           "Fakse Ladeplads",
           "Fensmark",
@@ -10390,9 +10390,9 @@ final List<Country> countries = [
           "Sundby",
           "Vordingborg"
         ]),
-        State(name: "Storstrom", cities: ["Bylderup-Bov", "Fovling"]),
-        State(name: "Syddanmark", cities: ["Toelloese"]),
-        State(name: "Toelloese", cities: [
+        States(name: "Storstrom", cities: ["Bylderup-Bov", "Fovling"]),
+        States(name: "Syddanmark", cities: ["Toelloese"]),
+        States(name: "Toelloese", cities: [
           "Borkop",
           "Bradstrup",
           "Brejning",
@@ -10412,7 +10412,7 @@ final List<Country> countries = [
           "Vamdrup",
           "Vejle"
         ]),
-        State(name: "Vejle", cities: [
+        States(name: "Vejle", cities: [
           "Asnas",
           "Dianalund",
           "Forlev",
@@ -10436,7 +10436,7 @@ final List<Country> countries = [
           "Tollose",
           "Vipperod"
         ]),
-        State(name: "Vestsjalland", cities: [
+        States(name: "Vestsjalland", cities: [
           "Aalestrup",
           "Bjerringbro",
           "Hanstholm",
@@ -10451,7 +10451,7 @@ final List<Country> countries = [
           "Ulstrup",
           "Viborg"
         ]),
-        State(name: "Viborg", cities: [])
+        States(name: "Viborg", cities: [])
       ]),
   Country(
       name: "Djibouti",
@@ -10461,11 +10461,11 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Ali Sabih", cities: ["Dikhil"]),
-        State(name: "Dikhil", cities: ["Jibuti"]),
-        State(name: "Jibuti", cities: ["Tajurah"]),
-        State(name: "Tajurah", cities: ["Ubuk"]),
-        State(name: "Ubuk", cities: [])
+        States(name: "Ali Sabih", cities: ["Dikhil"]),
+        States(name: "Dikhil", cities: ["Jibuti"]),
+        States(name: "Jibuti", cities: ["Tajurah"]),
+        States(name: "Tajurah", cities: ["Ubuk"]),
+        States(name: "Ubuk", cities: [])
       ]),
   Country(
       name: "Dominica",
@@ -10475,16 +10475,16 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Saint Andrew", cities: []),
-        State(name: "Saint David", cities: []),
-        State(name: "Saint George", cities: []),
-        State(name: "Saint John", cities: []),
-        State(name: "Saint Joseph", cities: []),
-        State(name: "Saint Luke", cities: []),
-        State(name: "Saint Mark", cities: []),
-        State(name: "Saint Patrick", cities: []),
-        State(name: "Saint Paul", cities: []),
-        State(name: "Saint Peter", cities: ["Azua", "Sabana Yegua"])
+        States(name: "Saint Andrew", cities: []),
+        States(name: "Saint David", cities: []),
+        States(name: "Saint George", cities: []),
+        States(name: "Saint John", cities: []),
+        States(name: "Saint Joseph", cities: []),
+        States(name: "Saint Luke", cities: []),
+        States(name: "Saint Mark", cities: []),
+        States(name: "Saint Patrick", cities: []),
+        States(name: "Saint Paul", cities: []),
+        States(name: "Saint Peter", cities: ["Azua", "Sabana Yegua"])
       ]),
   Country(
       name: "Dominican Republic",
@@ -10494,41 +10494,41 @@ final List<Country> countries = [
       minLength: 12,
       maxLength: 12,
       states: [
-        State(name: "Azua", cities: ["Neyba", "Tamayo"]),
-        State(name: "Bahoruco", cities: ["Barahona", "Cabral", "El Penon"]),
-        State(name: "Barahona", cities: ["Dajabon"]),
-        State(name: "Dajabon", cities: []),
-        State(
+        States(name: "Azua", cities: ["Neyba", "Tamayo"]),
+        States(name: "Bahoruco", cities: ["Barahona", "Cabral", "El Penon"]),
+        States(name: "Barahona", cities: ["Dajabon"]),
+        States(name: "Dajabon", cities: []),
+        States(
             name: "Distrito Nacional",
             cities: ["Las Guaranas", "Pimentel", "San Francisco de Macoris"]),
-        State(name: "Duarte", cities: []),
-        State(name: "El Seybo", cities: []),
-        State(name: "Elias Pina", cities: ["Moca"]),
-        State(name: "Espaillat", cities: []),
-        State(name: "Hato Mayor", cities: ["Duverge", "Jimani"]),
-        State(name: "Independencia", cities: []),
-        State(name: "La Altagracia", cities: []),
-        State(name: "La Romana", cities: []),
-        State(name: "La Vega", cities: []),
-        State(name: "Maria Trinidad Sanchez", cities: []),
-        State(name: "Monsenor Nouel", cities: []),
-        State(name: "Monte Cristi", cities: []),
-        State(name: "Monte Plata", cities: ["Pedernales"]),
-        State(name: "Pedernales", cities: ["Bani", "Ocoa"]),
-        State(name: "Peravia", cities: []),
-        State(name: "Puerto Plata", cities: ["Salcedo"]),
-        State(name: "Salcedo", cities: ["Samana", "Sanchez"]),
-        State(name: "Samana", cities: []),
-        State(name: "San Cristobal", cities: []),
-        State(name: "San Juan", cities: []),
-        State(name: "San Pedro de Macoris", cities: []),
-        State(
+        States(name: "Duarte", cities: []),
+        States(name: "El Seybo", cities: []),
+        States(name: "Elias Pina", cities: ["Moca"]),
+        States(name: "Espaillat", cities: []),
+        States(name: "Hato Mayor", cities: ["Duverge", "Jimani"]),
+        States(name: "Independencia", cities: []),
+        States(name: "La Altagracia", cities: []),
+        States(name: "La Romana", cities: []),
+        States(name: "La Vega", cities: []),
+        States(name: "Maria Trinidad Sanchez", cities: []),
+        States(name: "Monsenor Nouel", cities: []),
+        States(name: "Monte Cristi", cities: []),
+        States(name: "Monte Plata", cities: ["Pedernales"]),
+        States(name: "Pedernales", cities: ["Bani", "Ocoa"]),
+        States(name: "Peravia", cities: []),
+        States(name: "Puerto Plata", cities: ["Salcedo"]),
+        States(name: "Salcedo", cities: ["Samana", "Sanchez"]),
+        States(name: "Samana", cities: []),
+        States(name: "San Cristobal", cities: []),
+        States(name: "San Juan", cities: []),
+        States(name: "San Pedro de Macoris", cities: []),
+        States(
             name: "Sanchez Ramirez",
             cities: ["Santiago", "Tamboril", "Villa Bisono"]),
-        State(
+        States(
             name: "Santiago", cities: ["Santiago", "Tamboril", "Villa Bisono"]),
-        State(name: "Santiago Rodriguez", cities: ["Esperanza", "Mao"]),
-        State(name: "Valverde", cities: ["Aileu"])
+        States(name: "Santiago Rodriguez", cities: ["Esperanza", "Mao"]),
+        States(name: "Valverde", cities: ["Aileu"])
       ]),
   Country(
       name: "Ecuador",
@@ -10538,31 +10538,31 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 9,
       states: [
-        State(name: "Azuay", cities: ["Guaranda", "San Miguel"]),
-        State(name: "Bolivar", cities: ["Azogues", "Canar", "La Troncal"]),
-        State(name: "Canar", cities: ["El Angel", "San Gabriel", "Tulcan"]),
-        State(name: "Carchi", cities: ["Alausi", "Guano", "Riobamba"]),
-        State(name: "Chimborazo", cities: [
+        States(name: "Azuay", cities: ["Guaranda", "San Miguel"]),
+        States(name: "Bolivar", cities: ["Azogues", "Canar", "La Troncal"]),
+        States(name: "Canar", cities: ["El Angel", "San Gabriel", "Tulcan"]),
+        States(name: "Carchi", cities: ["Alausi", "Guano", "Riobamba"]),
+        States(name: "Chimborazo", cities: [
           "La Mana",
           "Latacunga",
           "Pujili",
           "San Miguel",
           "Saquisili"
         ]),
-        State(name: "Cotopaxi", cities: []),
-        State(name: "El Oro", cities: [
+        States(name: "Cotopaxi", cities: []),
+        States(name: "El Oro", cities: [
           "Esmeraldas",
           "Muisne",
           "Rosa Zarate",
           "San Lorenzo",
           "Valdez"
         ]),
-        State(name: "Esmeraldas", cities: [
+        States(name: "Esmeraldas", cities: [
           "Puerto Ayora",
           "Puerto Baquerizo Moreno",
           "San Cristobal"
         ]),
-        State(name: "Galapagos", cities: [
+        States(name: "Galapagos", cities: [
           "Alfredo Baquerizo Moreno",
           "Balao",
           "Balzar",
@@ -10589,14 +10589,14 @@ final List<Country> countries = [
           "Velasco Ibarra",
           "Yaguachi"
         ]),
-        State(name: "Guayas", cities: [
+        States(name: "Guayas", cities: [
           "Atuntaqui",
           "Cotacachi",
           "Ibarra",
           "Otavalo",
           "Pimampiro"
         ]),
-        State(name: "Imbabura", cities: [
+        States(name: "Imbabura", cities: [
           "Alamor",
           "Cariamanga",
           "Catacocha",
@@ -10605,8 +10605,8 @@ final List<Country> countries = [
           "Loja",
           "Macara"
         ]),
-        State(name: "Loja", cities: []),
-        State(name: "Los Rios", cities: [
+        States(name: "Loja", cities: []),
+        States(name: "Los Rios", cities: [
           "Bahia de Caraquez",
           "Calceta",
           "Chone",
@@ -10623,23 +10623,23 @@ final List<Country> countries = [
           "Sucre",
           "Tosagua"
         ]),
-        State(name: "Manabi", cities: []),
-        State(name: "Morona Santiago", cities: ["Archidona", "Tena"]),
-        State(name: "Napo", cities: ["Orellana"]),
-        State(name: "Orellana", cities: ["Puyo"]),
-        State(name: "Pastaza", cities: [
+        States(name: "Manabi", cities: []),
+        States(name: "Morona Santiago", cities: ["Archidona", "Tena"]),
+        States(name: "Napo", cities: ["Orellana"]),
+        States(name: "Orellana", cities: ["Puyo"]),
+        States(name: "Pastaza", cities: [
           "Cayambe",
           "Machachi",
           "Quito",
           "Sangolqui",
           "Santo Domingo"
         ]),
-        State(name: "Pichincha", cities: ["Nueva Loja", "Shushufindi"]),
-        State(
+        States(name: "Pichincha", cities: ["Nueva Loja", "Shushufindi"]),
+        States(
             name: "Sucumbios",
             cities: ["Ambato", "Banos", "Pelileo", "Pillaro"]),
-        State(name: "Tungurahua", cities: []),
-        State(
+        States(name: "Tungurahua", cities: []),
+        States(
             name: "Zamora Chinchipe",
             cities: ["Aswan", "Daraw", "Kawm Umbu", "an-Nasir"])
       ]),
@@ -10651,7 +10651,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Aswan", cities: [
+        States(name: "Aswan", cities: [
           "Abnub",
           "Abu Tij",
           "Asyut",
@@ -10667,9 +10667,9 @@ final List<Country> countries = [
           "al-Qusiyah",
           "an-Nukhaylah"
         ]),
-        State(name: "Asyut", cities: []),
-        State(name: "Bani Suwayf", cities: []),
-        State(name: "Bur Sa\\'\\'id", cities: [
+        States(name: "Asyut", cities: []),
+        States(name: "Bani Suwayf", cities: []),
+        States(name: "Bur Sa\\'\\'id", cities: [
           "6th of October City",
           "Ataba",
           "Cairo",
@@ -10677,7 +10677,7 @@ final List<Country> countries = [
           "Nasr City",
           "Obour City"
         ]),
-        State(name: "Cairo", cities: [
+        States(name: "Cairo", cities: [
           "Izbat-al-Burj",
           "Damietta",
           "Dumyat",
@@ -10687,7 +10687,7 @@ final List<Country> countries = [
           "Kafr-al-Battikh",
           "az-Zarqa"
         ]),
-        State(name: "Dumyat", cities: [
+        States(name: "Dumyat", cities: [
           "Biyala",
           "Disuq",
           "Fuwah",
@@ -10701,19 +10701,19 @@ final List<Country> countries = [
           "al-Haddadi",
           "al-Hamul"
         ]),
-        State(name: "Kafr-ash-Shaykh", cities: [
+        States(name: "Kafr-ash-Shaykh", cities: [
           "Marsa Matruh",
           "Nasr",
           "Sidi Barrani",
           "Zawiyat Shammas",
           "ad-Da\\'\\'ba"
         ]),
-        State(name: "Matruh", cities: []),
-        State(name: "Muhafazat ad Daqahliyah", cities: []),
-        State(name: "Muhafazat al Fayyum", cities: []),
-        State(name: "Muhafazat al Gharbiyah", cities: []),
-        State(name: "Muhafazat al Iskandariyah", cities: []),
-        State(name: "Muhafazat al Qahirah", cities: [
+        States(name: "Matruh", cities: []),
+        States(name: "Muhafazat ad Daqahliyah", cities: []),
+        States(name: "Muhafazat al Fayyum", cities: []),
+        States(name: "Muhafazat al Gharbiyah", cities: []),
+        States(name: "Muhafazat al Iskandariyah", cities: []),
+        States(name: "Muhafazat al Qahirah", cities: [
           "Armant",
           "Asfun-al-Mata\\'\\'inah",
           "Dandarah",
@@ -10736,7 +10736,7 @@ final List<Country> countries = [
           "al-Waqf",
           "ar-Radisiyat-al-Bahriyah"
         ]),
-        State(name: "Qina", cities: [
+        States(name: "Qina", cities: [
           "Akhmim",
           "Awlad Tawq Sharq",
           "Dar-as-Salam",
@@ -10749,9 +10749,9 @@ final List<Country> countries = [
           "al-Manshah",
           "al-Maragah"
         ]),
-        State(name: "Sawhaj", cities: []),
-        State(name: "Sina al-Janubiyah", cities: []),
-        State(name: "Sina ash-Shamaliyah", cities: [
+        States(name: "Sawhaj", cities: []),
+        States(name: "Sina al-Janubiyah", cities: []),
+        States(name: "Sina ash-Shamaliyah", cities: [
           "Aja",
           "Bahut",
           "Bilqas",
@@ -10767,10 +10767,10 @@ final List<Country> countries = [
           "al-Matariyah",
           "as-Sinbillawayn"
         ]),
-        State(
+        States(
             name: "ad-Daqahliyah",
             cities: ["Ras Gharib", "Safaja", "al-Ghardaqah", "al-Qusayr"]),
-        State(name: "al-Bahr-al-Ahmar", cities: [
+        States(name: "al-Bahr-al-Ahmar", cities: [
           "Abu Hummus",
           "Abu al-Matamir",
           "Buturis",
@@ -10791,7 +10791,7 @@ final List<Country> countries = [
           "al-Mahmudiyah",
           "ar-Rahmaniyah"
         ]),
-        State(name: "al-Buhayrah", cities: [
+        States(name: "al-Buhayrah", cities: [
           "Fidimin",
           "Ibshaway",
           "Itsa",
@@ -10801,7 +10801,7 @@ final List<Country> countries = [
           "Tamiyah",
           "al-Fayyum"
         ]),
-        State(name: "al-Fayyum", cities: [
+        States(name: "al-Fayyum", cities: [
           "Abyar",
           "Basyun",
           "Kafr-az-Zayyat",
@@ -10815,13 +10815,13 @@ final List<Country> countries = [
           "al-Mahallah al-Kubra",
           "as-Santah"
         ]),
-        State(
+        States(
             name: "al-Gharbiyah",
             cities: ["Agamy", "al-Iskandariyah", "al-Maks"]),
-        State(
+        States(
             name: "al-Iskandariyah",
             cities: ["Fa\\'\\'id", "Sarabiyum", "al-Ismailiyah"]),
-        State(name: "al-Ismailiyah", cities: [
+        States(name: "al-Ismailiyah", cities: [
           "Atfih",
           "Awsim",
           "Giza",
@@ -10836,7 +10836,7 @@ final List<Country> countries = [
           "al-Wahat-al-Bahriyah",
           "as-Saff"
         ]),
-        State(name: "al-Jizah", cities: [
+        States(name: "al-Jizah", cities: [
           "Ashmun",
           "Birkat-as-Sab",
           "Milij",
@@ -10849,7 +10849,7 @@ final List<Country> countries = [
           "al-Batanun",
           "ash-Shuhada"
         ]),
-        State(name: "al-Minufiyah", cities: [
+        States(name: "al-Minufiyah", cities: [
           "Abu Qurqas",
           "Bani Mazar",
           "Dayr Mawas",
@@ -10864,9 +10864,9 @@ final List<Country> countries = [
           "al-Minya",
           "ar-Rawdah"
         ]),
-        State(
+        States(
             name: "al-Minya", cities: ["Badr City", "Heliopolis", "al-Qahira"]),
-        State(name: "al-Qahira", cities: [
+        States(name: "al-Qahira", cities: [
           "Abu Za\\'\\'bal",
           "Banha",
           "Qalyub",
@@ -10876,10 +10876,10 @@ final List<Country> countries = [
           "al-Khankah",
           "al-Qanatir-al-Khayriyah"
         ]),
-        State(name: "al-Qalyubiyah", cities: ["al-Uqsur"]),
-        State(name: "al-Uqsur", cities: []),
-        State(name: "al-Wadi al-Jadid", cities: ["as-Suways"]),
-        State(name: "as-Suways", cities: [
+        States(name: "al-Qalyubiyah", cities: ["al-Uqsur"]),
+        States(name: "al-Uqsur", cities: []),
+        States(name: "al-Wadi al-Jadid", cities: ["as-Suways"]),
+        States(name: "as-Suways", cities: [
           "Abu Hammad",
           "Abu Kabir",
           "Bilbays",
@@ -10899,7 +10899,7 @@ final List<Country> countries = [
           "at-Tall-al-Kabir",
           "az-Zaqaziq"
         ]),
-        State(name: "ash-Sharqiyah", cities: [
+        States(name: "ash-Sharqiyah", cities: [
           "Ahuachapan",
           "Atiquizaya",
           "Concepcion de Ataco",
@@ -10917,26 +10917,26 @@ final List<Country> countries = [
       minLength: 11,
       maxLength: 11,
       states: [
-        State(
+        States(
             name: "Ahuachapan",
             cities: ["Ilobasco", "Sensuntepeque", "Victoria"]),
-        State(name: "Cabanas", cities: [
+        States(name: "Cabanas", cities: [
           "Chalatenango",
           "La Palma",
           "Nueva Concepcion",
           "San Francisco Morazan"
         ]),
-        State(name: "Chalatenango", cities: [
+        States(name: "Chalatenango", cities: [
           "Cojutepeque",
           "San Pedro Perulapan",
           "Suchitoto",
           "Tecoluca",
           "Tenancingo"
         ]),
-        State(name: "Cuscatlan", cities: []),
-        State(name: "La Libertad", cities: []),
-        State(name: "La Paz", cities: []),
-        State(name: "La Union", cities: [
+        States(name: "Cuscatlan", cities: []),
+        States(name: "La Libertad", cities: []),
+        States(name: "La Paz", cities: []),
+        States(name: "La Union", cities: [
           "Cacaopera",
           "Corinto",
           "Gotera",
@@ -10944,11 +10944,11 @@ final List<Country> countries = [
           "Jocoro",
           "Sociedad"
         ]),
-        State(name: "Morazan", cities: []),
-        State(name: "San Miguel", cities: []),
-        State(name: "San Salvador", cities: []),
-        State(name: "San Vicente", cities: []),
-        State(name: "Santa Ana", cities: [
+        States(name: "Morazan", cities: []),
+        States(name: "San Miguel", cities: []),
+        States(name: "San Salvador", cities: []),
+        States(name: "San Vicente", cities: []),
+        States(name: "Santa Ana", cities: [
           "Acajutla",
           "Armenia",
           "Izalco",
@@ -10959,7 +10959,7 @@ final List<Country> countries = [
           "Sonsonate",
           "Sonzacate"
         ]),
-        State(name: "Sonsonate", cities: [
+        States(name: "Sonsonate", cities: [
           "Berlin",
           "Concepcion Batres",
           "Estanzuelas",
@@ -10973,7 +10973,7 @@ final List<Country> countries = [
           "Santiago de Maria",
           "Usulutan"
         ]),
-        State(name: "Usulutan", cities: ["Pale"])
+        States(name: "Usulutan", cities: ["Pale"])
       ]),
   Country(
       name: "Equatorial Guinea",
@@ -10983,14 +10983,14 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Annobon", cities: []),
-        State(name: "Bioko Norte", cities: []),
-        State(name: "Bioko Sur", cities: []),
-        State(name: "Centro Sur", cities: ["Ebebiyin", "Mikomeseng"]),
-        State(name: "Kie-Ntem", cities: ["Bata", "Mbini"]),
-        State(
+        States(name: "Annobon", cities: []),
+        States(name: "Bioko Norte", cities: []),
+        States(name: "Bioko Sur", cities: []),
+        States(name: "Centro Sur", cities: ["Ebebiyin", "Mikomeseng"]),
+        States(name: "Kie-Ntem", cities: ["Bata", "Mbini"]),
+        States(
             name: "Litoral", cities: ["Aconibe", "Anisoc", "Mongomo", "Nsok"]),
-        State(name: "Wele-Nzas", cities: ["Keren"])
+        States(name: "Wele-Nzas", cities: ["Keren"])
       ]),
   Country(
       name: "Eritrea",
@@ -11000,21 +11000,21 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Anseba", cities: ["Addi Kwala", "Addi Ugri"]),
-        State(name: "Debub", cities: ["Asseb", "Beylul", "Edd", "Mersa Fatma"]),
-        State(
+        States(name: "Anseba", cities: ["Addi Kwala", "Addi Ugri"]),
+        States(name: "Debub", cities: ["Asseb", "Beylul", "Edd", "Mersa Fatma"]),
+        States(
             name: "Debub-Keih-Bahri",
             cities: ["Ak\\'\\'ordat", "Barentu", "Teseney"]),
-        State(
+        States(
             name: "Gash-Barka",
             cities: ["Asmara", "Ginda", "Himbirti", "Nefasit"]),
-        State(name: "Maekel", cities: [
+        States(name: "Maekel", cities: [
           "Addi K\\'\\'eyih",
           "Dek\\'\\'emhare",
           "Mitsiwa",
           "Sen\\'\\'afe"
         ]),
-        State(name: "Semien-Keih-Bahri", cities: [
+        States(name: "Semien-Keih-Bahri", cities: [
           "Aasmae",
           "Aaviku",
           "Aegviidu",
@@ -11185,7 +11185,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Harju", cities: [
+        States(name: "Harju", cities: [
           "Emmaste",
           "Jausa",
           "Kaina",
@@ -11197,7 +11197,7 @@ final List<Country> countries = [
           "Putkaste",
           "Suuremoisa"
         ]),
-        State(name: "Hiiu", cities: [
+        States(name: "Hiiu", cities: [
           "Aa",
           "Alajoe",
           "Aseri",
@@ -11244,7 +11244,7 @@ final List<Country> countries = [
           "Vasavere",
           "Voka"
         ]),
-        State(name: "Ida-Viru", cities: [
+        States(name: "Ida-Viru", cities: [
           "Ahula",
           "Aiamaa",
           "Albu",
@@ -11297,7 +11297,7 @@ final List<Country> countries = [
           "Viisu",
           "Villevere"
         ]),
-        State(name: "Jarva", cities: [
+        States(name: "Jarva", cities: [
           "Adavere",
           "Esku",
           "Harjanurme",
@@ -11366,7 +11366,7 @@ final List<Country> countries = [
           "Voore",
           "Votikvere"
         ]),
-        State(name: "Jogeva", cities: [
+        States(name: "Jogeva", cities: [
           "Haapsalu",
           "Hullo",
           "Joodre",
@@ -11398,7 +11398,7 @@ final List<Country> countries = [
           "Vatla",
           "Virtsu"
         ]),
-        State(name: "Laane", cities: [
+        States(name: "Laane", cities: [
           "Aaspere",
           "Ama",
           "Arkna",
@@ -11488,7 +11488,7 @@ final List<Country> countries = [
           "Vosu",
           "Vosupere"
         ]),
-        State(name: "Laane-Viru", cities: [
+        States(name: "Laane-Viru", cities: [
           "Ahaste",
           "Aluste",
           "Are",
@@ -11591,7 +11591,7 @@ final List<Country> countries = [
           "Voidu",
           "Voiste"
         ]),
-        State(name: "Parnu", cities: [
+        States(name: "Parnu", cities: [
           "Aarna",
           "Ahja",
           "Erastvere",
@@ -11654,7 +11654,7 @@ final List<Country> countries = [
           "Viluste",
           "Voopsu"
         ]),
-        State(name: "Polva", cities: [
+        States(name: "Polva", cities: [
           "Aespa",
           "Alu",
           "Eidapere",
@@ -11717,7 +11717,7 @@ final List<Country> countries = [
           "Varbola",
           "Vilivere"
         ]),
-        State(name: "Rapla", cities: [
+        States(name: "Rapla", cities: [
           "Arandi",
           "Aste",
           "Eikla",
@@ -11754,7 +11754,7 @@ final List<Country> countries = [
           "Valjala",
           "Vohma"
         ]),
-        State(name: "Saare", cities: [
+        States(name: "Saare", cities: [
           "Aardla",
           "Aksi",
           "Alasoo",
@@ -11863,7 +11863,7 @@ final List<Country> countries = [
           "Voopste",
           "Vorbuse"
         ]),
-        State(name: "Tartu", cities: [
+        States(name: "Tartu", cities: [
           "Aakre",
           "Ala",
           "Hargla",
@@ -11915,7 +11915,7 @@ final List<Country> countries = [
           "Valga",
           "Vana-Otepaa"
         ]),
-        State(name: "Valga", cities: [
+        States(name: "Valga", cities: [
           "Abja-Paluoja",
           "Abja-Vanamoisa",
           "Aidu",
@@ -12009,7 +12009,7 @@ final List<Country> countries = [
           "Voivaku",
           "Vooru"
         ]),
-        State(name: "Viljandi", cities: [
+        States(name: "Viljandi", cities: [
           "Antsla",
           "Haanja",
           "Jarvere",
@@ -12065,7 +12065,7 @@ final List<Country> countries = [
           "Voru",
           "Vorumoisa"
         ]),
-        State(name: "Voru", cities: [])
+        States(name: "Voru", cities: [])
       ]),
   Country(
       name: "Ethiopia",
@@ -12075,10 +12075,10 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(
+        States(
             name: "Addis Abeba",
             cities: ["Asayita", "Awash", "Dubti", "Gewane"]),
-        State(name: "Afar", cities: [
+        States(name: "Afar", cities: [
           "Addi Ark\\'\\'ay",
           "Addis \\'\\'Alem",
           "Addis Zemen",
@@ -12112,13 +12112,13 @@ final List<Country> countries = [
           "Were Ilu",
           "Werota"
         ]),
-        State(name: "Amhara", cities: ["Asosa"]),
-        State(name: "Benishangul", cities: ["Dire Dawa"]),
-        State(name: "Diredawa", cities: ["Gambela"]),
-        State(name: "Gambella", cities: ["Harer"]),
-        State(name: "Harar", cities: ["Jigjiga"]),
-        State(name: "Jigjiga", cities: []),
-        State(name: "Mekele", cities: [
+        States(name: "Amhara", cities: ["Asosa"]),
+        States(name: "Benishangul", cities: ["Dire Dawa"]),
+        States(name: "Diredawa", cities: ["Gambela"]),
+        States(name: "Gambella", cities: ["Harer"]),
+        States(name: "Harar", cities: ["Jigjiga"]),
+        States(name: "Jigjiga", cities: []),
+        States(name: "Mekele", cities: [
           "Alem Maya",
           "Abomsa",
           "Agaro",
@@ -12178,7 +12178,7 @@ final List<Country> countries = [
           "Yabelo",
           "Ziway"
         ]),
-        State(name: "Oromia", cities: [
+        States(name: "Oromia", cities: [
           "Bircot",
           "Degeh Bur",
           "Dollo Odo",
@@ -12186,7 +12186,7 @@ final List<Country> countries = [
           "Jijiga",
           "Werder"
         ]),
-        State(name: "Somali", cities: [
+        States(name: "Somali", cities: [
           "Alaba Kulito",
           "Arba Minch",
           "Areka",
@@ -12209,7 +12209,7 @@ final List<Country> countries = [
           "Yirga Alem",
           "Yirga Ch\\'\\'efe"
         ]),
-        State(name: "Southern", cities: [
+        States(name: "Southern", cities: [
           "Abiy Adi",
           "Addigrat",
           "Adwa",
@@ -12224,7 +12224,7 @@ final List<Country> countries = [
           "Mekele",
           "Wik\\'\\'ro"
         ]),
-        State(name: "Tigray", cities: [])
+        States(name: "Tigray", cities: [])
       ]),
   Country(
       name: "Falkland Islands (Malvinas)",
@@ -12234,8 +12234,8 @@ final List<Country> countries = [
       minLength: 5,
       maxLength: 5,
       states: [
-        State(name: "Falkland Islands", cities: []),
-        State(name: "South Georgia", cities: ["Hvannasund", "Klaksvik"])
+        States(name: "Falkland Islands", cities: []),
+        States(name: "South Georgia", cities: ["Hvannasund", "Klaksvik"])
       ]),
   Country(
       name: "Faroe Islands",
@@ -12245,12 +12245,12 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Klaksvik", cities: []),
-        State(name: "Nor ara Eysturoy", cities: []),
-        State(
+        States(name: "Klaksvik", cities: []),
+        States(name: "Nor ara Eysturoy", cities: []),
+        States(
             name: "Nor oy",
             cities: ["Husavik", "Sands", "Skalavik", "Skopun", "Skuvoy"]),
-        State(name: "Sandoy", cities: [
+        States(name: "Sandoy", cities: [
           "Haldarsvik",
           "Hests",
           "Hosvik",
@@ -12263,13 +12263,13 @@ final List<Country> countries = [
           "Torshavn",
           "Vestmanna"
         ]),
-        State(name: "Streymoy", cities: []),
-        State(name: "Su uroy", cities: []),
-        State(name: "Sy ra Eysturoy", cities: ["Torshavn"]),
-        State(
+        States(name: "Streymoy", cities: []),
+        States(name: "Su uroy", cities: []),
+        States(name: "Sy ra Eysturoy", cities: ["Torshavn"]),
+        States(
             name: "Torshavn",
             cities: ["Biggjar", "Midvags", "Mykines", "Sandavags", "Sorvags"]),
-        State(name: "Vaga", cities: [
+        States(name: "Vaga", cities: [
           "Deuba",
           "Korovou",
           "Lami",
@@ -12287,11 +12287,11 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(
+        States(
             name: "Central", cities: ["Levuka", "Malhaha", "Tubou", "Vunisea"]),
-        State(name: "Eastern", cities: ["Korokade", "Labasa", "Savusavu"]),
-        State(name: "Northern", cities: []),
-        State(name: "South Pacific", cities: [
+        States(name: "Eastern", cities: ["Korokade", "Labasa", "Savusavu"]),
+        States(name: "Northern", cities: []),
+        States(name: "South Pacific", cities: [
           "Ba",
           "Lautoka",
           "Nadi",
@@ -12300,7 +12300,7 @@ final List<Country> countries = [
           "Tavua",
           "Vatukoula"
         ]),
-        State(name: "Western", cities: ["Maarianhamina"])
+        States(name: "Western", cities: ["Maarianhamina"])
       ]),
   Country(
       name: "Finland",
@@ -12310,9 +12310,9 @@ final List<Country> countries = [
       minLength: 12,
       maxLength: 12,
       states: [
-        State(
+        States(
             name: "Ahvenanmaa", cities: ["Imatra", "Joutseno", "Lappeenranta"]),
-        State(name: "Etela-Karjala", cities: [
+        States(name: "Etela-Karjala", cities: [
           "Hyllykallio",
           "Ilmajoki",
           "Kauhajoki",
@@ -12320,18 +12320,18 @@ final List<Country> countries = [
           "Lapua",
           "Seinajoki"
         ]),
-        State(name: "Etela-Pohjanmaa", cities: ["Mikkeli", "Savonlinna"]),
-        State(name: "Etela-Savo", cities: []),
-        State(name: "Etela-Suomen Laani", cities: []),
-        State(
+        States(name: "Etela-Pohjanmaa", cities: ["Mikkeli", "Savonlinna"]),
+        States(name: "Etela-Savo", cities: []),
+        States(name: "Etela-Suomen Laani", cities: []),
+        States(
             name: "Ita-Suomen Laani",
             cities: ["Loviisa", "Orimattila", "Porvoo"]),
-        State(name: "Ita-Uusimaa", cities: ["Kajaani"]),
-        State(
+        States(name: "Ita-Uusimaa", cities: ["Kajaani"]),
+        States(
             name: "Kainuu",
             cities: ["Forssa", "Hameenlinna", "Janakkala", "Riihimaki"]),
-        State(name: "Kanta-Hame", cities: ["Kokkola"]),
-        State(name: "Keski-Pohjanmaa", cities: [
+        States(name: "Kanta-Hame", cities: ["Kokkola"]),
+        States(name: "Keski-Pohjanmaa", cities: [
           "Aanekoski",
           "Jamsa",
           "Jyvaskyla",
@@ -12339,7 +12339,7 @@ final List<Country> countries = [
           "Laukaa",
           "Lieto"
         ]),
-        State(name: "Keski-Suomi", cities: [
+        States(name: "Keski-Suomi", cities: [
           "Anjalankoski",
           "Hamina",
           "Kotka",
@@ -12348,17 +12348,17 @@ final List<Country> countries = [
           "Valkeala",
           "Vehkalahti"
         ]),
-        State(name: "Kymenlaakso", cities: []),
-        State(
+        States(name: "Kymenlaakso", cities: []),
+        States(
             name: "Lansi-Suomen Laani",
             cities: ["Kemi", "Kemijarvi", "Rovaniemi", "Sonka", "Tornio"]),
-        State(name: "Lappi", cities: []),
-        State(name: "Northern Savonia", cities: ["Jakobstad", "Oulunsalo"]),
-        State(name: "Ostrobothnia", cities: []),
-        State(
+        States(name: "Lappi", cities: []),
+        States(name: "Northern Savonia", cities: ["Jakobstad", "Oulunsalo"]),
+        States(name: "Ostrobothnia", cities: []),
+        States(
             name: "Oulun Laani",
             cities: ["Heinola", "Hollola", "Lahti", "Nastola"]),
-        State(name: "Paijat-Hame", cities: [
+        States(name: "Paijat-Hame", cities: [
           "Kangasala",
           "Lempaala",
           "Nokia",
@@ -12368,15 +12368,15 @@ final List<Country> countries = [
           "Valkeakoski",
           "Ylojarvi"
         ]),
-        State(name: "Pirkanmaa", cities: [
+        States(name: "Pirkanmaa", cities: [
           "Kristiinankaupunki",
           "Mustasaari",
           "Pietarsaari",
           "Uusikarlepyy",
           "Vaasa"
         ]),
-        State(name: "Pohjanmaa", cities: ["Joensuu", "Lieksa"]),
-        State(name: "Pohjois-Karjala", cities: [
+        States(name: "Pohjanmaa", cities: ["Joensuu", "Lieksa"]),
+        States(name: "Pohjois-Karjala", cities: [
           "Haukipudas",
           "Kempele",
           "Kuusamo",
@@ -12387,11 +12387,11 @@ final List<Country> countries = [
           "Raahe",
           "Ylivieska"
         ]),
-        State(
+        States(
             name: "Pohjois-Pohjanmaa",
             cities: ["Iisalmi", "Kuopio", "Sillinjarvi", "Varkaus"]),
-        State(name: "Pohjois-Savo", cities: ["Saarijarvi"]),
-        State(name: "Saarijarvi", cities: [
+        States(name: "Pohjois-Savo", cities: ["Saarijarvi"]),
+        States(name: "Saarijarvi", cities: [
           "Eura",
           "Eurajoki",
           "Harjavalta",
@@ -12407,10 +12407,10 @@ final List<Country> countries = [
           "Ulvila",
           "Vammala"
         ]),
-        State(name: "Satakunta", cities: []),
-        State(name: "Southern Savonia", cities: []),
-        State(name: "Tavastia Proper", cities: []),
-        State(name: "Uleaborgs Lan", cities: [
+        States(name: "Satakunta", cities: []),
+        States(name: "Southern Savonia", cities: []),
+        States(name: "Tavastia Proper", cities: []),
+        States(name: "Uleaborgs Lan", cities: [
           "Espoo",
           "Hanko",
           "Helsinki",
@@ -12428,7 +12428,7 @@ final List<Country> countries = [
           "Vantaa",
           "Vihti"
         ]),
-        State(name: "Uusimaa", cities: [
+        States(name: "Uusimaa", cities: [
           "Kaarina",
           "Naantali",
           "Parainen",
@@ -12437,7 +12437,7 @@ final List<Country> countries = [
           "Turku",
           "Uusikaupunki"
         ]),
-        State(name: "Varsinais-Suomi", cities: [
+        States(name: "Varsinais-Suomi", cities: [
           "Amberieu-en-Bugey",
           "Bellegarde-sur-Valserine",
           "Bourg-en-Bresse",
@@ -12452,7 +12452,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Ain", cities: [
+        States(name: "Ain", cities: [
           "Chateau-Thierry",
           "Chauny",
           "Hirson",
@@ -12462,12 +12462,12 @@ final List<Country> countries = [
           "Strassbourg",
           "Tergnier"
         ]),
-        State(name: "Aisne", cities: []),
-        State(
+        States(name: "Aisne", cities: []),
+        States(
             name: "Albi Le Sequestre",
             cities: ["Cusset", "Montlucon", "Moulins", "Vichy", "Yzeure"]),
-        State(name: "Allier", cities: []),
-        State(name: "Alpes-Cote dAzur", cities: [
+        States(name: "Allier", cities: []),
+        States(name: "Alpes-Cote dAzur", cities: [
           "Antibes",
           "Beausoleil",
           "Cagnes-sur-Mer",
@@ -12487,8 +12487,8 @@ final List<Country> countries = [
           "Vence",
           "Villeneuve-Loubet"
         ]),
-        State(name: "Alpes-Maritimes", cities: ["Digne-les-Bains", "Manosque"]),
-        State(name: "Alpes-de-Haute-Provence", cities: [
+        States(name: "Alpes-Maritimes", cities: ["Digne-les-Bains", "Manosque"]),
+        States(name: "Alpes-de-Haute-Provence", cities: [
           "Adainville",
           "Alby-sur-Cheran",
           "Aubervilliers",
@@ -12556,7 +12556,7 @@ final List<Country> countries = [
           "Wambrechies",
           "Wervocq Sud"
         ]),
-        State(name: "Alsace", cities: [
+        States(name: "Alsace", cities: [
           "Abzac",
           "Bidart",
           "Biganos",
@@ -12572,31 +12572,31 @@ final List<Country> countries = [
           "Seignosse",
           "Tresses"
         ]),
-        State(name: "Aquitaine", cities: [
+        States(name: "Aquitaine", cities: [
           "Annonay",
           "Aubenas",
           "Guilherand-Granges",
           "Privas",
           "Tournon-sur-Rhone"
         ]),
-        State(name: "Ardeche", cities: [
+        States(name: "Ardeche", cities: [
           "Charleville-Mezieres",
           "Les Hautes-Rivieres",
           "Revin",
           "Sedan"
         ]),
-        State(name: "Ardennes", cities: ["Foix", "Pamier"]),
-        State(name: "Ariege", cities: [
+        States(name: "Ardennes", cities: ["Foix", "Pamier"]),
+        States(name: "Ariege", cities: [
           "Bar-sur-Seine",
           "Romilly-sur-Seine",
           "Saint-Andre-les-Vergers",
           "Sainte-Savine",
           "Troyes"
         ]),
-        State(
+        States(
             name: "Aube",
             cities: ["Carcassonne", "Castelnaudary", "Limoux", "Narbonne"]),
-        State(name: "Aude", cities: [
+        States(name: "Aude", cities: [
           "Ambert",
           "Creuzier-le-Vieux",
           "Ferrieres",
@@ -12607,13 +12607,13 @@ final List<Country> countries = [
           "Saint-Vidal",
           "Sainte-Sigolene"
         ]),
-        State(name: "Auvergne", cities: [
+        States(name: "Auvergne", cities: [
           "Millau",
           "Onet-le-Chataeu",
           "Rodez",
           "Villefranche-de-Rouergue"
         ]),
-        State(name: "Aveyron", cities: [
+        States(name: "Aveyron", cities: [
           "Bischheim",
           "Bischwiller",
           "Haguenau",
@@ -12627,8 +12627,8 @@ final List<Country> countries = [
           "Selestat",
           "Strasbourg"
         ]),
-        State(name: "Bas-Rhin", cities: ["Deauville"]),
-        State(name: "Basse-Normandie", cities: [
+        States(name: "Bas-Rhin", cities: ["Deauville"]),
+        States(name: "Basse-Normandie", cities: [
           "Aix-en-Provence",
           "Allauch",
           "Arles",
@@ -12657,9 +12657,9 @@ final List<Country> countries = [
           "Tarascon",
           "Vitrolles"
         ]),
-        State(name: "Bouches-du-Rhone", cities: ["Migennes"]),
-        State(name: "Bourgogne", cities: ["Javene", "Plouha"]),
-        State(name: "Bretagne", cities: [
+        States(name: "Bouches-du-Rhone", cities: ["Migennes"]),
+        States(name: "Bourgogne", cities: ["Javene", "Plouha"]),
+        States(name: "Bretagne", cities: [
           "Brehan",
           "Broons",
           "Guipry",
@@ -12667,8 +12667,8 @@ final List<Country> countries = [
           "Ploudaniel",
           "Vern-sur-Seiche"
         ]),
-        State(name: "Brittany", cities: ["Aillant-sur-Tholon"]),
-        State(name: "Burgundy", cities: [
+        States(name: "Brittany", cities: ["Aillant-sur-Tholon"]),
+        States(name: "Burgundy", cities: [
           "Bayeux",
           "Caen",
           "Herouville-Saint-Clair",
@@ -12676,11 +12676,11 @@ final List<Country> countries = [
           "Mondeville",
           "Vire"
         ]),
-        State(name: "Calvados", cities: ["Aurillac"]),
-        State(
+        States(name: "Calvados", cities: ["Aurillac"]),
+        States(
             name: "Cantal",
             cities: ["Brumath", "Courtaboeuf", "Iregny", "cedex"]),
-        State(name: "Cedex", cities: [
+        States(name: "Cedex", cities: [
           "Azay-le-Rideau",
           "Chevillon-sur-Huillard",
           "Cloyes-sur-le-Loir",
@@ -12690,24 +12690,24 @@ final List<Country> countries = [
           "Ladon",
           "Le Chatelet"
         ]),
-        State(
+        States(
             name: "Centre",
             cities: ["Angouleme", "Cognac", "Lencloitre", "Soyaux"]),
-        State(
+        States(
             name: "Charente",
             cities: ["La Rochelle", "Rochefort", "Royan", "Saintes"]),
-        State(name: "Charente-Maritime", cities: [
+        States(name: "Charente-Maritime", cities: [
           "Bourges",
           "Saint-Amand-Montrond",
           "Saint-Doulchard",
           "Vierzon"
         ]),
-        State(name: "Cher", cities: ["Brive-la-Gaillarde", "Tulle", "Ussel"]),
-        State(name: "Correze", cities: ["Ajaccio", "Porto-Vecchio"]),
-        State(
+        States(name: "Cher", cities: ["Brive-la-Gaillarde", "Tulle", "Ussel"]),
+        States(name: "Correze", cities: ["Ajaccio", "Porto-Vecchio"]),
+        States(
             name: "Corse-du-Sud",
             cities: ["Beaune", "Chenove", "Dijon", "Quetigny", "Talant"]),
-        State(name: "Cote-d\\'\\'Or", cities: [
+        States(name: "Cote-d\\'\\'Or", cities: [
           "Dinan",
           "Lamballe",
           "Lannion",
@@ -12716,15 +12716,15 @@ final List<Country> countries = [
           "Ploufragan",
           "Saint-Brieuc"
         ]),
-        State(name: "Cotes-d\\'\\'Armor", cities: ["Gueret"]),
-        State(name: "Creuse", cities: ["Crolles"]),
-        State(
+        States(name: "Cotes-d\\'\\'Armor", cities: ["Gueret"]),
+        States(name: "Creuse", cities: ["Crolles"]),
+        States(
             name: "Crolles",
             cities: ["Bressuire", "Niort", "Parthenay", "Thouars"]),
-        State(
+        States(
             name: "Deux-Sevres",
             cities: ["Bergerac", "Perigueux", "Sarlat-la-Caneda"]),
-        State(name: "Dordogne", cities: [
+        States(name: "Dordogne", cities: [
           "Audincourt",
           "Besancon",
           "Beure",
@@ -12732,14 +12732,14 @@ final List<Country> countries = [
           "Pontarlier",
           "Valentigney"
         ]),
-        State(name: "Doubs", cities: [
+        States(name: "Doubs", cities: [
           "Bourg-les-Valence",
           "Montelimar",
           "Pierrelatte",
           "Romans-sur-Isere",
           "Valence"
         ]),
-        State(name: "Drome", cities: [
+        States(name: "Drome", cities: [
           "Athis-Mons",
           "Bretigny-sur-Orge",
           "Brunoy",
@@ -12777,7 +12777,7 @@ final List<Country> countries = [
           "Viry-Chatillon",
           "Yerres"
         ]),
-        State(name: "Essonne", cities: [
+        States(name: "Essonne", cities: [
           "Bernay",
           "Evreux",
           "Gisors",
@@ -12786,7 +12786,7 @@ final List<Country> countries = [
           "Val-de-Reuil",
           "Vernon"
         ]),
-        State(name: "Eure", cities: [
+        States(name: "Eure", cities: [
           "Chartres",
           "Chateaudun",
           "Dreux",
@@ -12795,8 +12795,8 @@ final List<Country> countries = [
           "Nogent-le-Rotrou",
           "Vernouillet"
         ]),
-        State(name: "Eure-et-Loir", cities: ["Feucherolles"]),
-        State(name: "Feucherolles", cities: [
+        States(name: "Eure-et-Loir", cities: ["Feucherolles"]),
+        States(name: "Feucherolles", cities: [
           "Brest",
           "Concarneau",
           "Douarnenez",
@@ -12809,7 +12809,7 @@ final List<Country> countries = [
           "Quimper",
           "Quimperle"
         ]),
-        State(name: "Finistere", cities: [
+        States(name: "Finistere", cities: [
           "Charquemont",
           "Chemaudin",
           "Pelousey",
@@ -12817,7 +12817,7 @@ final List<Country> countries = [
           "Pirey",
           "Villers-le-Lac"
         ]),
-        State(name: "Franche-Comte", cities: [
+        States(name: "Franche-Comte", cities: [
           "Ales",
           "Bagnols-sur-Ceze",
           "Beaucaire",
@@ -12827,8 +12827,8 @@ final List<Country> countries = [
           "Vauvert",
           "Villeneuve-les-Avignon"
         ]),
-        State(name: "Gard", cities: ["Auch", "Beraut"]),
-        State(name: "Gers", cities: [
+        States(name: "Gard", cities: ["Auch", "Beraut"]),
+        States(name: "Gers", cities: [
           "Ambares-et-Lagrave",
           "Arcachon",
           "Begles",
@@ -12851,7 +12851,7 @@ final List<Country> countries = [
           "Talence",
           "Villenave-d\\'\\'Ornon"
         ]),
-        State(name: "Gironde", cities: [
+        States(name: "Gironde", cities: [
           "Cernay",
           "Colmar",
           "Guebwiller",
@@ -12864,8 +12864,8 @@ final List<Country> countries = [
           "Wittelsheim",
           "Wittenheim"
         ]),
-        State(name: "Haut-Rhin", cities: ["Bastia"]),
-        State(name: "Haute-Corse", cities: [
+        States(name: "Haut-Rhin", cities: ["Bastia"]),
+        States(name: "Haute-Corse", cities: [
           "Balma",
           "Blagnac",
           "Colomiers",
@@ -12879,14 +12879,14 @@ final List<Country> countries = [
           "Toulouse",
           "Tournefeuille"
         ]),
-        State(name: "Haute-Garonne", cities: ["Blanzac", "Le Puy-en-Velay"]),
-        State(
+        States(name: "Haute-Garonne", cities: ["Blanzac", "Le Puy-en-Velay"]),
+        States(
             name: "Haute-Loire",
             cities: ["Chaumont", "Langres", "Saint-Dizier"]),
-        State(
+        States(
             name: "Haute-Marne",
             cities: ["Hericourt", "Lure", "Luxeuil-les-Bains", "Vesoul"]),
-        State(name: "Haute-Saone", cities: [
+        States(name: "Haute-Saone", cities: [
           "Annecy",
           "Annecy-le-Vieux",
           "Annemasse",
@@ -12902,12 +12902,12 @@ final List<Country> countries = [
           "Seynod",
           "Thonon-les-Bains"
         ]),
-        State(
+        States(
             name: "Haute-Savoie",
             cities: ["Gaillard", "Limoges", "Saint-Junien"]),
-        State(name: "Haute-Vienne", cities: ["Briancon", "Gap"]),
-        State(name: "Hautes-Alpes", cities: ["Lourdes", "Tarbes"]),
-        State(name: "Hautes-Pyrenees", cities: [
+        States(name: "Haute-Vienne", cities: ["Briancon", "Gap"]),
+        States(name: "Hautes-Alpes", cities: ["Lourdes", "Tarbes"]),
+        States(name: "Hautes-Pyrenees", cities: [
           "Antony",
           "Asnieres-sur-Seine",
           "Bagneux",
@@ -12943,7 +12943,7 @@ final List<Country> countries = [
           "Ville-d\\'\\'Avray",
           "Villeneuve-la-Garenne"
         ]),
-        State(name: "Hauts-de-Seine", cities: [
+        States(name: "Hauts-de-Seine", cities: [
           "Agde",
           "Beziers",
           "Castelnau-le-Lez",
@@ -12954,7 +12954,7 @@ final List<Country> countries = [
           "Montpellier",
           "Sete"
         ]),
-        State(name: "Herault", cities: [
+        States(name: "Herault", cities: [
           "Champagne-sur-Oise",
           "Croissy-Beaubourg",
           "Gennevilliers",
@@ -12963,7 +12963,7 @@ final List<Country> countries = [
           "Rebais",
           "Saint-Thibault-des-Vignes"
         ]),
-        State(name: "Ile-de-France", cities: [
+        States(name: "Ile-de-France", cities: [
           "Cesson-Sevigne",
           "Dinard",
           "Fougeres",
@@ -12971,8 +12971,8 @@ final List<Country> countries = [
           "Saint-Malo",
           "Vitre"
         ]),
-        State(name: "Ille-et-Vilaine", cities: ["Chateauroux", "Issoudun"]),
-        State(name: "Indre", cities: [
+        States(name: "Ille-et-Vilaine", cities: ["Chateauroux", "Issoudun"]),
+        States(name: "Indre", cities: [
           "Amboise",
           "Joue-les-Tours",
           "Saint-Avertin",
@@ -12980,7 +12980,7 @@ final List<Country> countries = [
           "Saint-Pierre-des-Corps",
           "Tours"
         ]),
-        State(name: "Indre-et-Loire", cities: [
+        States(name: "Indre-et-Loire", cities: [
           "Bourgoin-Jallieu",
           "Crolles",
           "Echirolles",
@@ -12995,11 +12995,11 @@ final List<Country> countries = [
           "Villefontaine",
           "Voiron"
         ]),
-        State(
+        States(
             name: "Isere",
             cities: ["Champagnole", "Dole", "Lons-le-Saunier", "Saint-Claude"]),
-        State(name: "Jura", cities: ["Sebastiangasse"]),
-        State(name: "Klagenfurt", cities: [
+        States(name: "Jura", cities: ["Sebastiangasse"]),
+        States(name: "Klagenfurt", cities: [
           "Biscarrosse",
           "Dax",
           "Hagetmau",
@@ -13008,7 +13008,7 @@ final List<Country> countries = [
           "Saint-Paul-les-Dax",
           "Tarnos"
         ]),
-        State(name: "Landes", cities: [
+        States(name: "Landes", cities: [
           "Codolet",
           "Cuxac-d\\'\\'Aude",
           "Gigean",
@@ -13018,14 +13018,14 @@ final List<Country> countries = [
           "Peyrens",
           "Tuchan"
         ]),
-        State(name: "Languedoc-Roussillon", cities: ["Larcay"]),
-        State(name: "Larcay", cities: []),
-        State(name: "Le Castellet", cities: []),
-        State(name: "Le Creusot", cities: ["Voutezac"]),
-        State(
+        States(name: "Languedoc-Roussillon", cities: ["Larcay"]),
+        States(name: "Larcay", cities: []),
+        States(name: "Le Castellet", cities: []),
+        States(name: "Le Creusot", cities: ["Voutezac"]),
+        States(
             name: "Limousin",
             cities: ["Blois", "Romorantin-Lanthenay", "Vendome"]),
-        State(name: "Loir-et-Cher", cities: [
+        States(name: "Loir-et-Cher", cities: [
           "Andrezieux-Boutheon",
           "Firminy",
           "La Ricamarie",
@@ -13039,7 +13039,7 @@ final List<Country> countries = [
           "Saint-Etienne",
           "Saint-Just-Saint-Rambert"
         ]),
-        State(name: "Loire", cities: [
+        States(name: "Loire", cities: [
           "Bouguenais",
           "Carquefou",
           "Chateaubriant",
@@ -13057,7 +13057,7 @@ final List<Country> countries = [
           "Sainte-Luce-sur-Loire",
           "Vertou"
         ]),
-        State(name: "Loire-Atlantique", cities: [
+        States(name: "Loire-Atlantique", cities: [
           "Amilly",
           "Chalette-sur-Loing",
           "Fleury-les-Aubrais",
@@ -13070,18 +13070,18 @@ final List<Country> countries = [
           "Saint-Jean-de-la-Ruelle",
           "Saran"
         ]),
-        State(name: "Loiret", cities: ["Montbronn"]),
-        State(name: "Lorraine", cities: ["Cahors", "Figeac"]),
-        State(name: "Lot", cities: [
+        States(name: "Loiret", cities: ["Montbronn"]),
+        States(name: "Lorraine", cities: ["Cahors", "Figeac"]),
+        States(name: "Lot", cities: [
           "Agen",
           "Le Passage",
           "Marmande",
           "Tonneins",
           "Villeneuve-sur-Lot"
         ]),
-        State(name: "Lot-et-Garonne", cities: []),
-        State(name: "Lower Normandy", cities: ["Mende"]),
-        State(name: "Lozere", cities: [
+        States(name: "Lot-et-Garonne", cities: []),
+        States(name: "Lower Normandy", cities: ["Mende"]),
+        States(name: "Lozere", cities: [
           "Angers",
           "Avrille",
           "Cholet",
@@ -13091,7 +13091,7 @@ final List<Country> countries = [
           "Torfou",
           "Trelaze"
         ]),
-        State(name: "Maine-et-Loire", cities: [
+        States(name: "Maine-et-Loire", cities: [
           "Cherbourg",
           "Coutances",
           "Equeurdreville-Hainneville",
@@ -13100,17 +13100,17 @@ final List<Country> countries = [
           "Saint-Lo",
           "Tourlaville"
         ]),
-        State(name: "Manche", cities: [
+        States(name: "Manche", cities: [
           "Chalons-en-Champagne",
           "Epernay",
           "Reims",
           "Tinqueux",
           "Vitry-le-Francois"
         ]),
-        State(
+        States(
             name: "Marne",
             cities: ["Chateau-Gontier", "Laval", "Mayenne", "Montsurs"]),
-        State(name: "Mayenne", cities: [
+        States(name: "Mayenne", cities: [
           "Dombasle-sur-Meurthe",
           "Jarville-la-Malgrange",
           "Laxou",
@@ -13124,15 +13124,15 @@ final List<Country> countries = [
           "Villers-les-Nancy",
           "Villerupt"
         ]),
-        State(name: "Meurthe-et-Moselle", cities: ["Bar-le-Duc", "Verdun"]),
-        State(name: "Meuse", cities: [
+        States(name: "Meurthe-et-Moselle", cities: ["Bar-le-Duc", "Verdun"]),
+        States(name: "Meuse", cities: [
           "Boissezon",
           "Hauterive",
           "Launaguet",
           "Mauleon",
           "Maurens-Scopont"
         ]),
-        State(name: "Midi-Pyrenees", cities: [
+        States(name: "Midi-Pyrenees", cities: [
           "Auray",
           "Guidel",
           "Hennebont",
@@ -13142,7 +13142,7 @@ final List<Country> countries = [
           "Pontivy",
           "Vannes"
         ]),
-        State(name: "Morbihan", cities: [
+        States(name: "Morbihan", cities: [
           "Amneville",
           "Behren-les-Forbach",
           "Creutzwald",
@@ -13168,10 +13168,10 @@ final List<Country> countries = [
           "Woippy",
           "Yutz"
         ]),
-        State(
+        States(
             name: "Moselle",
             cities: ["Cosne-Cours-sur-Loire", "Nevers", "Varennes-Vauzelles"]),
-        State(name: "Nievre", cities: [
+        States(name: "Nievre", cities: [
           "Aniche",
           "Annoeullin",
           "Anzin",
@@ -13240,8 +13240,8 @@ final List<Country> countries = [
           "Wattrelos",
           "Waziers"
         ]),
-        State(name: "Nord", cities: ["Esquelbecq"]),
-        State(name: "Nord-Pas-de-Calais", cities: [
+        States(name: "Nord", cities: ["Esquelbecq"]),
+        States(name: "Nord-Pas-de-Calais", cities: [
           "Beauvais",
           "Chantilly",
           "Clermont",
@@ -13256,11 +13256,11 @@ final List<Country> countries = [
           "Pont-Sainte-Maxence",
           "Senlis"
         ]),
-        State(
+        States(
             name: "Oise",
             cities: ["Alencon", "Argentan", "Flers", "L\\'\\'Aigle"]),
-        State(name: "Orne", cities: ["Paris"]),
-        State(name: "Paris", cities: [
+        States(name: "Orne", cities: ["Paris"]),
+        States(name: "Paris", cities: [
           "Aire-sur-la-Lys",
           "Arras",
           "Auchel",
@@ -13294,15 +13294,15 @@ final List<Country> countries = [
           "Sallaumines",
           "Vendin-le-Vieil"
         ]),
-        State(name: "Pas-de-Calais", cities: []),
-        State(name: "Pays de la Loire", cities: [
+        States(name: "Pas-de-Calais", cities: []),
+        States(name: "Pays de la Loire", cities: [
           "Loiron",
           "Marolles-les-Braults",
           "Mortagne-sur-Sevre",
           "Mouzillon",
           "Noirmoutier-en-l\\'\\'ÃƒÂŽle"
         ]),
-        State(name: "Pays-de-la-Loire", cities: [
+        States(name: "Pays-de-la-Loire", cities: [
           "Friville",
           "Liancourt",
           "Maizy",
@@ -13310,7 +13310,7 @@ final List<Country> countries = [
           "Puiseux-le-Hauberger",
           "Saint-Crepin-Ibouvillers"
         ]),
-        State(name: "Picardy", cities: [
+        States(name: "Picardy", cities: [
           "Aubiere",
           "Beaumont",
           "Chamalieres",
@@ -13321,7 +13321,7 @@ final List<Country> countries = [
           "Riom",
           "Thiers"
         ]),
-        State(name: "Puy-de-Dome", cities: [
+        States(name: "Puy-de-Dome", cities: [
           "Anglet",
           "Bayonne",
           "Biarritz",
@@ -13333,11 +13333,11 @@ final List<Country> countries = [
           "Pau",
           "Saint-Jean-de-Luz"
         ]),
-        State(
+        States(
             name: "Pyrenees-Atlantiques",
             cities: ["Perpignan", "Saint-Esteve"]),
-        State(name: "Pyrenees-Orientales", cities: ["Quelmes"]),
-        State(name: "Quelmes", cities: [
+        States(name: "Pyrenees-Orientales", cities: ["Quelmes"]),
+        States(name: "Quelmes", cities: [
           "Brignais",
           "Bron",
           "Caluire-et-Cuire",
@@ -13364,7 +13364,7 @@ final List<Country> countries = [
           "Villefranche-sur-Saone",
           "Villeurbanne"
         ]),
-        State(name: "Rhone", cities: [
+        States(name: "Rhone", cities: [
           "Beauvoir-en-Royans",
           "Belley",
           "Bons-en-Chablais",
@@ -13398,9 +13398,9 @@ final List<Country> countries = [
           "Trevoux",
           "Villard-Bonnot"
         ]),
-        State(name: "Rhone-Alpes", cities: []),
-        State(name: "Saint Ouen", cities: []),
-        State(name: "Saint Viatre", cities: [
+        States(name: "Rhone-Alpes", cities: []),
+        States(name: "Saint Ouen", cities: []),
+        States(name: "Saint Viatre", cities: [
           "Autun",
           "Chalon-sur-Saone",
           "Digoin",
@@ -13411,21 +13411,21 @@ final List<Country> countries = [
           "Paray-le-Monial",
           "Saint-Vallier"
         ]),
-        State(name: "Saone-et-Loire", cities: [
+        States(name: "Saone-et-Loire", cities: [
           "Allonnes",
           "La Ferte-Bernard",
           "La Fleche",
           "Le Mans",
           "Sable-sur-Sarthe"
         ]),
-        State(name: "Sarthe", cities: [
+        States(name: "Sarthe", cities: [
           "Aix-les-Bains",
           "Albertville",
           "Chambery",
           "La Motte-Servolex",
           "Saint-Jean-de-Maurienne"
         ]),
-        State(name: "Savoie", cities: [
+        States(name: "Savoie", cities: [
           "Barentin",
           "Bihorel",
           "Bois-Guillaume",
@@ -13454,7 +13454,7 @@ final List<Country> countries = [
           "Sotteville-les-Rouen",
           "Yvetot"
         ]),
-        State(name: "Seine-Maritime", cities: [
+        States(name: "Seine-Maritime", cities: [
           "Aubervillers",
           "Aulnay-sous-Bois",
           "Bagnolet",
@@ -13491,7 +13491,7 @@ final List<Country> countries = [
           "Villepinte",
           "Villetaneuse"
         ]),
-        State(name: "Seine-Saint-Denis", cities: [
+        States(name: "Seine-Saint-Denis", cities: [
           "Avon",
           "Brie-Comte-Robert",
           "Champs-sur-Marne",
@@ -13522,11 +13522,11 @@ final List<Country> countries = [
           "Veneux",
           "Villeparisis"
         ]),
-        State(
+        States(
             name: "Seine-et-Marne", cities: ["Abbeville", "Albert", "Amiens"]),
-        State(name: "Somme", cities: []),
-        State(name: "Sophia Antipolis", cities: ["Souvans"]),
-        State(name: "Souvans", cities: [
+        States(name: "Somme", cities: []),
+        States(name: "Sophia Antipolis", cities: ["Souvans"]),
+        States(name: "Souvans", cities: [
           "Albi",
           "Carmaux",
           "Castres",
@@ -13534,11 +13534,11 @@ final List<Country> countries = [
           "Graulhet",
           "Mazamet"
         ]),
-        State(name: "Tarn", cities: ["Castelsarassin", "Moissac", "Montauban"]),
-        State(name: "Tarn-et-Garonne", cities: []),
-        State(name: "Territoire de Belfort", cities: ["Chamberet"]),
-        State(name: "Treignac", cities: []),
-        State(name: "Upper Normandy", cities: [
+        States(name: "Tarn", cities: ["Castelsarassin", "Moissac", "Montauban"]),
+        States(name: "Tarn-et-Garonne", cities: []),
+        States(name: "Territoire de Belfort", cities: ["Chamberet"]),
+        States(name: "Treignac", cities: []),
+        States(name: "Upper Normandy", cities: [
           "Argenteuil",
           "Arnouville-les-Gonesse",
           "Beauchamps",
@@ -13577,7 +13577,7 @@ final List<Country> countries = [
           "Vaureal",
           "Villiers-le-Bel"
         ]),
-        State(name: "Val-d\\'\\'Oise", cities: [
+        States(name: "Val-d\\'\\'Oise", cities: [
           "Alfortville",
           "Arcueil",
           "Boissy-Saint-Leger",
@@ -13618,7 +13618,7 @@ final List<Country> countries = [
           "Vincennes",
           "Vitry-sur-Seine"
         ]),
-        State(name: "Val-de-Marne", cities: [
+        States(name: "Val-de-Marne", cities: [
           "Brignoles",
           "Draguignan",
           "Frejus",
@@ -13638,7 +13638,7 @@ final List<Country> countries = [
           "Sollies-Pont",
           "Toulon"
         ]),
-        State(name: "Var", cities: [
+        States(name: "Var", cities: [
           "Apt",
           "Avignon",
           "Bollene",
@@ -13651,8 +13651,8 @@ final List<Country> countries = [
           "Sorgues",
           "Valreas"
         ]),
-        State(name: "Vaucluse", cities: ["Vellise"]),
-        State(name: "Vellise", cities: [
+        States(name: "Vaucluse", cities: ["Vellise"]),
+        States(name: "Vellise", cities: [
           "Challans",
           "Chateau-d\\'\\'Olonne",
           "Fontenay-le-Comte",
@@ -13662,12 +13662,12 @@ final List<Country> countries = [
           "Les Sables-d\\'\\'Olonne",
           "Longeville-sur-Mer"
         ]),
-        State(name: "Vendee", cities: ["Chatellerault", "Poitiers"]),
-        State(
+        States(name: "Vendee", cities: ["Chatellerault", "Poitiers"]),
+        States(
             name: "Vienne",
             cities: ["Epinal", "Gerardmer", "Remiremont", "Saint-Die"]),
-        State(name: "Vosges", cities: ["Auxerre", "Avallon", "Joigny", "Sens"]),
-        State(name: "Yonne", cities: [
+        States(name: "Vosges", cities: ["Auxerre", "Avallon", "Joigny", "Sens"]),
+        States(name: "Yonne", cities: [
           "Acheres",
           "Andresy",
           "Aubergenville",
@@ -13710,7 +13710,7 @@ final List<Country> countries = [
           "Viroflay",
           "Voisins-le-Bretonneux"
         ]),
-        State(name: "Yvelines", cities: [
+        States(name: "Yvelines", cities: [
           "Camopi",
           "Cayenne",
           "Iracoubo",
@@ -13731,14 +13731,14 @@ final List<Country> countries = [
       minLength: 15,
       maxLength: 15,
       states: [
-        State(name: "Cayenne", cities: [
+        States(name: "Cayenne", cities: [
           "Apatou",
           "Grand-Santi",
           "Mana",
           "Maripasoula",
           "Saint-Laurent-du-Maroni"
         ]),
-        State(name: "Saint-Laurent-du-Maroni", cities: [])
+        States(name: "Saint-Laurent-du-Maroni", cities: [])
       ]),
   Country(
       name: "French Polynesia",
@@ -13748,8 +13748,8 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Iles du Vent", cities: []),
-        State(name: "Iles sous le Vent", cities: [
+        States(name: "Iles du Vent", cities: []),
+        States(name: "Iles sous le Vent", cities: [
           "Atuona",
           "Fatu-Hiva",
           "Hakahao",
@@ -13760,7 +13760,7 @@ final List<Country> countries = [
           "Taipivai",
           "Ua-Huka"
         ]),
-        State(name: "Marquesas", cities: [
+        States(name: "Marquesas", cities: [
           "Ahe",
           "Amanu",
           "Anaa",
@@ -13800,7 +13800,7 @@ final List<Country> countries = [
           "Vahitahi",
           "Vairaatea"
         ]),
-        State(name: "Tuamotu", cities: [
+        States(name: "Tuamotu", cities: [
           "Amaru",
           "Anapoto",
           "Anatonu",
@@ -13815,7 +13815,7 @@ final List<Country> countries = [
           "Taahuaia",
           "Vaiuru"
         ]),
-        State(name: "Tubuai", cities: ["Martin-de-Vivies"])
+        States(name: "Tubuai", cities: ["Martin-de-Vivies"])
       ]),
   Country(
       name: "French Southern Territories",
@@ -13825,9 +13825,9 @@ final List<Country> countries = [
       minLength: 15,
       maxLength: 15,
       states: [
-        State(name: "Amsterdam", cities: []),
-        State(name: "Crozet Islands", cities: ["Port-aux-Francais"]),
-        State(
+        States(name: "Amsterdam", cities: []),
+        States(name: "Crozet Islands", cities: ["Port-aux-Francais"]),
+        States(
             name: "Kerguelen",
             cities: ["Cocobeach", "Kango", "Libreville", "Nkan", "Ntoum"])
       ]),
@@ -13839,20 +13839,20 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(
+        States(
             name: "Estuaire",
             cities: ["Lekoni", "Masuku", "Moanda", "Mounana", "Okandja"]),
-        State(name: "Haut-Ogooue", cities: ["Lambarene", "Ndjole"]),
-        State(
+        States(name: "Haut-Ogooue", cities: ["Lambarene", "Ndjole"]),
+        States(
             name: "Moyen-Ogooue",
             cities: ["Fougamou", "Mbigou", "Mimongo", "Mouila", "Ndende"]),
-        State(name: "Ngounie", cities: ["Mayumba", "Tchibanga", "Tsogni"]),
-        State(name: "Nyanga", cities: ["Booue", "Makokou", "Mekambo"]),
-        State(name: "Ogooue-Ivindo", cities: ["Koulamoutou", "Lastoursville"]),
-        State(
+        States(name: "Ngounie", cities: ["Mayumba", "Tchibanga", "Tsogni"]),
+        States(name: "Nyanga", cities: ["Booue", "Makokou", "Mekambo"]),
+        States(name: "Ogooue-Ivindo", cities: ["Koulamoutou", "Lastoursville"]),
+        States(
             name: "Ogooue-Lolo",
             cities: ["Gamba", "Omboue", "Port-Gentil", "Sette Cama"]),
-        State(name: "Ogooue-Maritime", cities: [
+        States(name: "Ogooue-Maritime", cities: [
           "Bitam",
           "Lalara",
           "Medouneu",
@@ -13860,7 +13860,7 @@ final List<Country> countries = [
           "Mitzic",
           "Oyem"
         ]),
-        State(name: "Woleu-Ntem", cities: ["Banjul"])
+        States(name: "Woleu-Ntem", cities: ["Banjul"])
       ]),
   Country(
       name: "Gambia",
@@ -13870,18 +13870,18 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(
+        States(
             name: "Banjul",
             cities: ["Basse", "Gambissara", "Sabi", "Salikeni"]),
-        State(name: "Basse", cities: ["Brikama", "Brufut", "Gunjur", "Sukuta"]),
-        State(name: "Brikama", cities: ["Bansang", "Janjanbureh"]),
-        State(name: "Janjanbureh", cities: ["Bakau", "Serekunda"]),
-        State(
+        States(name: "Basse", cities: ["Brikama", "Brufut", "Gunjur", "Sukuta"]),
+        States(name: "Brikama", cities: ["Bansang", "Janjanbureh"]),
+        States(name: "Janjanbureh", cities: ["Bakau", "Serekunda"]),
+        States(
             name: "Kanifing",
             cities: ["Barra", "Essau", "Farafenni", "Kerewan", "Lamin"]),
-        State(name: "Kerewan", cities: ["Kuntaur"]),
-        State(name: "Kuntaur", cities: ["Mansakonko"]),
-        State(name: "Mansakonko", cities: [
+        States(name: "Kerewan", cities: ["Kuntaur"]),
+        States(name: "Kuntaur", cities: ["Mansakonko"]),
+        States(name: "Mansakonko", cities: [
           "Ahali Atoni",
           "Bihvinta",
           "Gagra",
@@ -13901,11 +13901,11 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 9,
       states: [
-        State(
+        States(
             name: "Abhasia",
             cities: ["Batumi", "Dioknisi", "Kobuleti", "Mahindzhauri"]),
-        State(name: "Ajaria", cities: ["Lanchhuti", "Ozurgeti"]),
-        State(name: "Guria", cities: [
+        States(name: "Ajaria", cities: ["Lanchhuti", "Ozurgeti"]),
+        States(name: "Guria", cities: [
           "Bagdadi",
           "Chaltubo",
           "Chiatura",
@@ -13918,7 +13918,7 @@ final List<Country> countries = [
           "Vani",
           "Zestaponi"
         ]),
-        State(name: "Imereti", cities: [
+        States(name: "Imereti", cities: [
           "Ahmeta",
           "Cnori",
           "Dedoplisckaro",
@@ -13929,20 +13929,20 @@ final List<Country> countries = [
           "Signahi",
           "Telavi"
         ]),
-        State(name: "Kaheti", cities: []),
-        State(name: "Kvemo Kartli", cities: ["Dusheti", "Mcheta"]),
-        State(name: "Mcheta-Mtianeti", cities: ["Ambrolauri", "Cageri", "Oni"]),
-        State(name: "Racha", cities: []),
-        State(name: "Samagrelo-Zemo Svaneti", cities: [
+        States(name: "Kaheti", cities: []),
+        States(name: "Kvemo Kartli", cities: ["Dusheti", "Mcheta"]),
+        States(name: "Mcheta-Mtianeti", cities: ["Ambrolauri", "Cageri", "Oni"]),
+        States(name: "Racha", cities: []),
+        States(name: "Samagrelo-Zemo Svaneti", cities: [
           "Ahalcihe",
           "Ahalkalaki",
           "Borzhomi",
           "Ninocminda",
           "Vale"
         ]),
-        State(name: "Samche-Zhavaheti", cities: []),
-        State(name: "Shida Kartli", cities: ["Tbilisi"]),
-        State(name: "Tbilisi", cities: [])
+        States(name: "Samche-Zhavaheti", cities: []),
+        States(name: "Shida Kartli", cities: ["Tbilisi"]),
+        States(name: "Tbilisi", cities: [])
       ]),
   Country(
       name: "Germany",
@@ -13952,7 +13952,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 13,
       states: [
-        State(name: "Auvergne", cities: [
+        States(name: "Auvergne", cities: [
           "Aalen",
           "Achern",
           "Aichtal",
@@ -14313,7 +14313,7 @@ final List<Country> countries = [
           "Wolpertshausen",
           "Zuzenhausen"
         ]),
-        State(name: "Baden-Wurttemberg", cities: [
+        States(name: "Baden-Wurttemberg", cities: [
           "Ahorn",
           "Allershausen",
           "Attenhofen",
@@ -14380,7 +14380,7 @@ final List<Country> countries = [
           "Wolfertschwenden",
           "Zorneding"
         ]),
-        State(name: "Bavaria", cities: [
+        States(name: "Bavaria", cities: [
           "Abensberg",
           "Aichach",
           "Ainring",
@@ -14656,11 +14656,11 @@ final List<Country> countries = [
           "Zirndorf",
           "Zwiesel"
         ]),
-        State(name: "Bayern", cities: []),
-        State(
+        States(name: "Bayern", cities: []),
+        States(
             name: "Beilstein Wurtt",
             cities: ["Berlin", "Panketal", "Steinfeld"]),
-        State(name: "Berlin", cities: [
+        States(name: "Berlin", cities: [
           "Angermunde",
           "Bad Freienwalde",
           "Bad Liebenwerda",
@@ -14731,13 +14731,13 @@ final List<Country> countries = [
           "Zehdenick",
           "Zepernick"
         ]),
-        State(name: "Brandenburg", cities: ["Bremen", "Bremerhaven"]),
-        State(name: "Bremen", cities: []),
-        State(name: "Dreisbach", cities: []),
-        State(name: "Freistaat Bayern", cities: ["Berne", "Hamburg"]),
-        State(name: "Hamburg", cities: ["Diekholzen"]),
-        State(name: "Hannover", cities: ["Heroldstatt"]),
-        State(name: "Heroldstatt", cities: [
+        States(name: "Brandenburg", cities: ["Bremen", "Bremerhaven"]),
+        States(name: "Bremen", cities: []),
+        States(name: "Dreisbach", cities: []),
+        States(name: "Freistaat Bayern", cities: ["Berne", "Hamburg"]),
+        States(name: "Hamburg", cities: ["Diekholzen"]),
+        States(name: "Hannover", cities: ["Heroldstatt"]),
+        States(name: "Heroldstatt", cities: [
           "ABlar",
           "Alsbach-HÃƒÂ¤hnlein",
           "Alsfeld",
@@ -14956,20 +14956,20 @@ final List<Country> countries = [
           "Wolfhagen",
           "Zwingenberg"
         ]),
-        State(name: "Hessen", cities: ["Kortenberg"]),
-        State(name: "Kortenberg", cities: ["Laasdorf"]),
-        State(name: "Laasdorf", cities: []),
-        State(name: "Land Baden-Wurttemberg", cities: []),
-        State(name: "Land Bayern", cities: []),
-        State(name: "Land Brandenburg", cities: []),
-        State(name: "Land Hessen", cities: []),
-        State(name: "Land Mecklenburg-Vorpommern", cities: []),
-        State(name: "Land Nordrhein-Westfalen", cities: []),
-        State(name: "Land Rheinland-Pfalz", cities: []),
-        State(name: "Land Sachsen", cities: []),
-        State(name: "Land Sachsen-Anhalt", cities: []),
-        State(name: "Land Thuringen", cities: []),
-        State(name: "Lower Saxony", cities: [
+        States(name: "Hessen", cities: ["Kortenberg"]),
+        States(name: "Kortenberg", cities: ["Laasdorf"]),
+        States(name: "Laasdorf", cities: []),
+        States(name: "Land Baden-Wurttemberg", cities: []),
+        States(name: "Land Bayern", cities: []),
+        States(name: "Land Brandenburg", cities: []),
+        States(name: "Land Hessen", cities: []),
+        States(name: "Land Mecklenburg-Vorpommern", cities: []),
+        States(name: "Land Nordrhein-Westfalen", cities: []),
+        States(name: "Land Rheinland-Pfalz", cities: []),
+        States(name: "Land Sachsen", cities: []),
+        States(name: "Land Sachsen-Anhalt", cities: []),
+        States(name: "Land Thuringen", cities: []),
+        States(name: "Lower Saxony", cities: [
           "Anklam",
           "Bad Doberan",
           "Barth",
@@ -15009,10 +15009,10 @@ final List<Country> countries = [
           "Wolgast",
           "Zarrentin"
         ]),
-        State(name: "Mecklenburg-Vorpommern", cities: ["Mulfingen"]),
-        State(name: "Mulfingen", cities: ["Grafing bei Munchen"]),
-        State(name: "Munich", cities: ["Neubeuern"]),
-        State(name: "Neubeuern", cities: [
+        States(name: "Mecklenburg-Vorpommern", cities: ["Mulfingen"]),
+        States(name: "Mulfingen", cities: ["Grafing bei Munchen"]),
+        States(name: "Munich", cities: ["Neubeuern"]),
+        States(name: "Neubeuern", cities: [
           "Achim",
           "Adendorf",
           "Aerzen",
@@ -15254,8 +15254,8 @@ final List<Country> countries = [
           "Zetel",
           "Zeven"
         ]),
-        State(name: "Niedersachsen", cities: ["Middenbeemster"]),
-        State(name: "Noord-Holland", cities: [
+        States(name: "Niedersachsen", cities: ["Middenbeemster"]),
+        States(name: "Noord-Holland", cities: [
           "Aachen",
           "Ahaus",
           "Ahlen",
@@ -15606,9 +15606,9 @@ final List<Country> countries = [
           "Xanten",
           "Zulpich"
         ]),
-        State(name: "Nordrhein-Westfalen", cities: []),
-        State(name: "North Rhine-Westphalia", cities: ["Herzberg am Harz"]),
-        State(name: "Osterode", cities: [
+        States(name: "Nordrhein-Westfalen", cities: []),
+        States(name: "North Rhine-Westphalia", cities: ["Herzberg am Harz"]),
+        States(name: "Osterode", cities: [
           "Alzey",
           "Andernach",
           "Bad Durkheim",
@@ -15680,7 +15680,7 @@ final List<Country> countries = [
           "Worth",
           "Zweibrucken"
         ]),
-        State(name: "Rheinland-Pfalz", cities: [
+        States(name: "Rheinland-Pfalz", cities: [
           "Adenau",
           "Anhausen",
           "Barbelroth",
@@ -15715,7 +15715,7 @@ final List<Country> countries = [
           "Winnweiler",
           "Wissen"
         ]),
-        State(name: "Rhineland-Palatinate", cities: [
+        States(name: "Rhineland-Palatinate", cities: [
           "Beckingen",
           "Bexbach",
           "Blieskastel",
@@ -15764,7 +15764,7 @@ final List<Country> countries = [
           "Wallerfangen",
           "Weiskirchen"
         ]),
-        State(name: "Saarland", cities: [
+        States(name: "Saarland", cities: [
           "Annaberg-Buchholz",
           "Aue",
           "Auerbach",
@@ -15843,7 +15843,7 @@ final List<Country> countries = [
           "Zwickau",
           "Zwonitz"
         ]),
-        State(name: "Sachsen", cities: [
+        States(name: "Sachsen", cities: [
           "Aken",
           "Aschersleben",
           "Bad Durrenberg",
@@ -15893,7 +15893,7 @@ final List<Country> countries = [
           "Zeitz",
           "Zerbst"
         ]),
-        State(name: "Sachsen-Anhalt", cities: [
+        States(name: "Sachsen-Anhalt", cities: [
           "Bad Lausick",
           "Bernsdorf",
           "Borde-Hakel",
@@ -15907,7 +15907,7 @@ final List<Country> countries = [
           "Seiffen",
           "Stutzengrun"
         ]),
-        State(name: "Saxony", cities: [
+        States(name: "Saxony", cities: [
           "Ahrensbok",
           "Ahrensburg",
           "Altenholz",
@@ -15994,7 +15994,7 @@ final List<Country> countries = [
           "Wohltorf",
           "Wotersen"
         ]),
-        State(name: "Schleswig-Holstein", cities: [
+        States(name: "Schleswig-Holstein", cities: [
           "Altenburg",
           "Apolda",
           "Arnstadt",
@@ -16045,10 +16045,10 @@ final List<Country> countries = [
           "Zella-Mehlis",
           "Zeulenroda"
         ]),
-        State(name: "Thuringia", cities: ["Webling"]),
-        State(name: "Webling", cities: ["Neustadt"]),
-        State(name: "Weinstrabe", cities: ["Schlobborn"]),
-        State(name: "schlobborn", cities: [
+        States(name: "Thuringia", cities: ["Webling"]),
+        States(name: "Webling", cities: ["Neustadt"]),
+        States(name: "Weinstrabe", cities: ["Schlobborn"]),
+        States(name: "schlobborn", cities: [
           "Agogo",
           "Bekwai",
           "Konongo",
@@ -16068,7 +16068,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Ashanti", cities: [
+        States(name: "Ashanti", cities: [
           "Bechem",
           "Berekum",
           "Duayaw Nkwanta",
@@ -16077,7 +16077,7 @@ final List<Country> countries = [
           "Techiman",
           "Wenchi"
         ]),
-        State(name: "Brong-Ahafo", cities: [
+        States(name: "Brong-Ahafo", cities: [
           "Apam",
           "Cape Coast",
           "Dunkwa",
@@ -16092,7 +16092,7 @@ final List<Country> countries = [
           "Swedru",
           "Winneba"
         ]),
-        State(name: "Central", cities: [
+        States(name: "Central", cities: [
           "Aburi",
           "Ada",
           "Akim Swedru",
@@ -16109,13 +16109,13 @@ final List<Country> countries = [
           "Somanya",
           "Suhum"
         ]),
-        State(name: "Eastern", cities: []),
-        State(
+        States(name: "Eastern", cities: []),
+        States(
             name: "Greater Accra",
             cities: ["Kpandae", "Salaga", "Savelugu", "Tamale", "Yendi"]),
-        State(name: "Northern", cities: []),
-        State(name: "Upper East", cities: []),
-        State(name: "Upper West", cities: [
+        States(name: "Northern", cities: []),
+        States(name: "Upper East", cities: []),
+        States(name: "Upper West", cities: [
           "Aflao",
           "Anloga",
           "Ho",
@@ -16124,7 +16124,7 @@ final List<Country> countries = [
           "Kete-Krachi",
           "Kpandu"
         ]),
-        State(name: "Volta", cities: [
+        States(name: "Volta", cities: [
           "Aboso",
           "Anomabu",
           "Axim",
@@ -16135,7 +16135,7 @@ final List<Country> countries = [
           "Takoradi",
           "Tarkwa"
         ]),
-        State(name: "Western", cities: ["Gibraltar"])
+        States(name: "Western", cities: ["Gibraltar"])
       ]),
   Country(
       name: "Gibraltar",
@@ -16145,7 +16145,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Gibraltar", cities: ["Elassonos"])
+        States(name: "Gibraltar", cities: ["Elassonos"])
       ]),
   Country(
       name: "Greece",
@@ -16155,12 +16155,12 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Acharnes", cities: ["Aiyion", "Patra"]),
-        State(name: "Ahaia", cities: []),
-        State(name: "Aitolia kai Akarnania", cities: ["Argos", "Navplion"]),
-        State(name: "Argolis", cities: ["Tripoli"]),
-        State(name: "Arkadia", cities: ["Arta"]),
-        State(name: "Arta", cities: [
+        States(name: "Acharnes", cities: ["Aiyion", "Patra"]),
+        States(name: "Ahaia", cities: []),
+        States(name: "Aitolia kai Akarnania", cities: ["Argos", "Navplion"]),
+        States(name: "Argolis", cities: ["Tripoli"]),
+        States(name: "Arkadia", cities: ["Arta"]),
+        States(name: "Arta", cities: [
           "Acharnes",
           "Agios Ioannis Rentis",
           "Drapetsona",
@@ -16169,7 +16169,7 @@ final List<Country> countries = [
           "Mandra",
           "Spata"
         ]),
-        State(name: "Attica", cities: [
+        States(name: "Attica", cities: [
           "Aharna",
           "Aiyaleo",
           "Alimos",
@@ -16225,69 +16225,69 @@ final List<Country> countries = [
           "Vrilission",
           "Zografos"
         ]),
-        State(name: "Attiki", cities: []),
-        State(name: "Ayion Oros", cities: ["Heraklion"]),
-        State(name: "Crete", cities: ["Arhangelos", "Ialysos", "Kos", "Rodos"]),
-        State(name: "Dodekanisos", cities: ["Drama"]),
-        State(name: "Drama", cities: ["Chalkis"]),
-        State(name: "Evia", cities: ["Karpenisi"]),
-        State(name: "Evritania", cities: ["Alexandroupoli", "Orestias"]),
-        State(name: "Evros", cities: ["Halkida"]),
-        State(name: "Evvoia", cities: ["Florina"]),
-        State(name: "Florina", cities: ["Amfissa"]),
-        State(name: "Fokis", cities: ["Lamia"]),
-        State(name: "Fthiotis", cities: ["Grevena"]),
-        State(name: "Grevena", cities: ["Halandri"]),
-        State(
+        States(name: "Attiki", cities: []),
+        States(name: "Ayion Oros", cities: ["Heraklion"]),
+        States(name: "Crete", cities: ["Arhangelos", "Ialysos", "Kos", "Rodos"]),
+        States(name: "Dodekanisos", cities: ["Drama"]),
+        States(name: "Drama", cities: ["Chalkis"]),
+        States(name: "Evia", cities: ["Karpenisi"]),
+        States(name: "Evritania", cities: ["Alexandroupoli", "Orestias"]),
+        States(name: "Evros", cities: ["Halkida"]),
+        States(name: "Evvoia", cities: ["Florina"]),
+        States(name: "Florina", cities: ["Amfissa"]),
+        States(name: "Fokis", cities: ["Lamia"]),
+        States(name: "Fthiotis", cities: ["Grevena"]),
+        States(name: "Grevena", cities: ["Halandri"]),
+        States(
             name: "Halandri",
             cities: ["Lakkoma", "N. Kallikrateia", "Poliyiros"]),
-        State(name: "Halkidiki", cities: ["Hania"]),
-        State(name: "Hania", cities: ["Crete"]),
-        State(name: "Heraklion", cities: ["Hios"]),
-        State(name: "Hios", cities: ["Pirgos"]),
-        State(name: "Ilia", cities: ["Veroia"]),
-        State(name: "Imathia", cities: ["Ioannina"]),
-        State(name: "Ioannina", cities: []),
-        State(name: "Iraklion", cities: ["Karditsa"]),
-        State(name: "Karditsa", cities: ["Kastoria"]),
-        State(name: "Kastoria", cities: ["Kavala"]),
-        State(name: "Kavala", cities: ["Agioi Theodoroi", "Argostolion"]),
-        State(name: "Kefallinia", cities: ["Kerkira"]),
-        State(name: "Kerkira", cities: ["Ermoupoli", "Fira", "Mikonos"]),
-        State(name: "Kiklades", cities: ["Kilkis"]),
-        State(name: "Kilkis", cities: ["Korinthos"]),
-        State(name: "Korinthia", cities: ["Kozani", "Ptolemais"]),
-        State(name: "Kozani", cities: ["Sparti"]),
-        State(name: "Lakonia", cities: ["Larisa", "Larissa"]),
-        State(name: "Larisa", cities: ["Ayios Nikolaos", "Ierapetra", "Sitia"]),
-        State(name: "Lasithi", cities: ["Mitilini"]),
-        State(name: "Lesvos", cities: ["Levkas"]),
-        State(name: "Levkas", cities: ["Volos"]),
-        State(name: "Magnisia", cities: ["Kalamata"]),
-        State(name: "Messinia", cities: []),
-        State(name: "Nomos Attikis", cities: []),
-        State(name: "Nomos Zakynthou", cities: ["Edessa", "Yiannitsa"]),
-        State(name: "Pella", cities: ["Katerini"]),
-        State(name: "Pieria", cities: ["Acharne", "Pallini"]),
-        State(name: "Piraios", cities: ["Preveza"]),
-        State(name: "Preveza", cities: ["Rethimnon"]),
-        State(name: "Rethimni", cities: ["Komotini"]),
-        State(name: "Rodopi", cities: ["Samos"]),
-        State(name: "Samos", cities: ["Serrai"]),
-        State(name: "Serrai", cities: ["Igoumenitsa"]),
-        State(name: "Thesprotia", cities: [
+        States(name: "Halkidiki", cities: ["Hania"]),
+        States(name: "Hania", cities: ["Crete"]),
+        States(name: "Heraklion", cities: ["Hios"]),
+        States(name: "Hios", cities: ["Pirgos"]),
+        States(name: "Ilia", cities: ["Veroia"]),
+        States(name: "Imathia", cities: ["Ioannina"]),
+        States(name: "Ioannina", cities: []),
+        States(name: "Iraklion", cities: ["Karditsa"]),
+        States(name: "Karditsa", cities: ["Kastoria"]),
+        States(name: "Kastoria", cities: ["Kavala"]),
+        States(name: "Kavala", cities: ["Agioi Theodoroi", "Argostolion"]),
+        States(name: "Kefallinia", cities: ["Kerkira"]),
+        States(name: "Kerkira", cities: ["Ermoupoli", "Fira", "Mikonos"]),
+        States(name: "Kiklades", cities: ["Kilkis"]),
+        States(name: "Kilkis", cities: ["Korinthos"]),
+        States(name: "Korinthia", cities: ["Kozani", "Ptolemais"]),
+        States(name: "Kozani", cities: ["Sparti"]),
+        States(name: "Lakonia", cities: ["Larisa", "Larissa"]),
+        States(name: "Larisa", cities: ["Ayios Nikolaos", "Ierapetra", "Sitia"]),
+        States(name: "Lasithi", cities: ["Mitilini"]),
+        States(name: "Lesvos", cities: ["Levkas"]),
+        States(name: "Levkas", cities: ["Volos"]),
+        States(name: "Magnisia", cities: ["Kalamata"]),
+        States(name: "Messinia", cities: []),
+        States(name: "Nomos Attikis", cities: []),
+        States(name: "Nomos Zakynthou", cities: ["Edessa", "Yiannitsa"]),
+        States(name: "Pella", cities: ["Katerini"]),
+        States(name: "Pieria", cities: ["Acharne", "Pallini"]),
+        States(name: "Piraios", cities: ["Preveza"]),
+        States(name: "Preveza", cities: ["Rethimnon"]),
+        States(name: "Rethimni", cities: ["Komotini"]),
+        States(name: "Rodopi", cities: ["Samos"]),
+        States(name: "Samos", cities: ["Serrai"]),
+        States(name: "Serrai", cities: ["Igoumenitsa"]),
+        States(name: "Thesprotia", cities: [
           "Ampelokipa",
           "Kalamaria",
           "Neapoli",
           "Oristiada",
           "Thessaloniki"
         ]),
-        State(name: "Thessaloniki", cities: ["Trikala"]),
-        State(name: "Trikala", cities: ["Levadia", "Thivai"]),
-        State(name: "Voiotia", cities: []),
-        State(name: "West Greece", cities: ["Xanthi"]),
-        State(name: "Xanthi", cities: ["Zakinthos"]),
-        State(
+        States(name: "Thessaloniki", cities: ["Trikala"]),
+        States(name: "Trikala", cities: ["Levadia", "Thivai"]),
+        States(name: "Voiotia", cities: []),
+        States(name: "West Greece", cities: ["Xanthi"]),
+        States(name: "Xanthi", cities: ["Zakinthos"]),
+        States(
             name: "Zakinthos",
             cities: ["Aasiaat", "Akunnaaq", "Kitsissuarsuit"])
       ]),
@@ -16299,7 +16299,7 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Aasiaat", cities: [
+        States(name: "Aasiaat", cities: [
           "Ikkatteq",
           "Isortoq",
           "Kulusuk",
@@ -16309,28 +16309,28 @@ final List<Country> countries = [
           "Tasiilaq",
           "Tiniteqilaaq"
         ]),
-        State(
+        States(
             name: "Ammassalik",
             cities: ["Illoqqortoormiut", "Itterajivit", "Uunarteq"]),
-        State(name: "Illoqqortoormiut", cities: [
+        States(name: "Illoqqortoormiut", cities: [
           "Ilimanaq",
           "Ilulissat",
           "Oqaatsut",
           "Qeqertaq",
           "Saqqaq"
         ]),
-        State(name: "Ilulissat", cities: ["Ivittuut", "Kangilinnguit"]),
-        State(name: "Ivittuut", cities: [
+        States(name: "Ilulissat", cities: ["Ivittuut", "Kangilinnguit"]),
+        States(name: "Ivittuut", cities: [
           "Attu",
           "Iginniarfik",
           "Ikerasaarsuk",
           "Kangaatsiaq",
           "Niaqornaarsuk"
         ]),
-        State(
+        States(
             name: "Kangaatsiaq",
             cities: ["Atammik", "Kangaamiut", "Maniitsoq", "Napasoq"]),
-        State(name: "Maniitsoq", cities: [
+        States(name: "Maniitsoq", cities: [
           "Aappilattoq",
           "Akuliaruseq",
           "Alluitsoq",
@@ -16344,7 +16344,7 @@ final List<Country> countries = [
           "Qortortorsuaq",
           "Tasiusaq"
         ]),
-        State(name: "Nanortalik", cities: [
+        States(name: "Nanortalik", cities: [
           "Amannguit",
           "Atarnaatsoq",
           "Eqaluit Ilua",
@@ -16366,7 +16366,7 @@ final List<Country> countries = [
           "Timerliit",
           "Uummannartuuaraq"
         ]),
-        State(name: "Narsaq", cities: [
+        States(name: "Narsaq", cities: [
           "Kangerluarsoruseq",
           "Kapisillit",
           "Neriunaq",
@@ -16375,8 +16375,8 @@ final List<Country> countries = [
           "Qooqqut",
           "Qoornoq"
         ]),
-        State(name: "Nuuk", cities: ["Arsuk", "Paamiut"]),
-        State(name: "Paamiut", cities: [
+        States(name: "Nuuk", cities: ["Arsuk", "Paamiut"]),
+        States(name: "Paamiut", cities: [
           "Moriusaq",
           "Qaanaaq",
           "Qeqertarsuaq",
@@ -16384,7 +16384,7 @@ final List<Country> countries = [
           "Savissivik",
           "Siorapaluk"
         ]),
-        State(name: "Qaanaaq", cities: [
+        States(name: "Qaanaaq", cities: [
           "Eqalugaarsuit",
           "Illorsuit",
           "Kangerluarsorujuk",
@@ -16398,13 +16398,13 @@ final List<Country> countries = [
           "Tasiluk",
           "Upernaviarsuk"
         ]),
-        State(name: "Qaqortoq", cities: ["Ikamiut", "Qasigiannguit"]),
-        State(name: "Qasigiannguit", cities: ["Kangerluk", "Qeqertarsuaq"]),
-        State(
+        States(name: "Qaqortoq", cities: ["Ikamiut", "Qasigiannguit"]),
+        States(name: "Qasigiannguit", cities: ["Kangerluk", "Qeqertarsuaq"]),
+        States(
             name: "Qeqertarsuaq",
             cities: ["Itilleq", "Kangerlussuaq", "Sarfannguit", "Sisimiut"]),
-        State(name: "Sisimiut", cities: []),
-        State(name: "Udenfor kommunal inddeling", cities: [
+        States(name: "Sisimiut", cities: []),
+        States(name: "Udenfor kommunal inddeling", cities: [
           "Aappilattoq",
           "Ikerakuuk",
           "Innarsuit",
@@ -16417,7 +16417,7 @@ final List<Country> countries = [
           "Upernavik",
           "Upernavik Kujalleq"
         ]),
-        State(name: "Upernavik", cities: [
+        States(name: "Upernavik", cities: [
           "Ikerasak",
           "Illorsuit",
           "Niaqornat",
@@ -16427,7 +16427,7 @@ final List<Country> countries = [
           "Ukkusissat",
           "Uummannaq"
         ]),
-        State(name: "Uummannaq", cities: [])
+        States(name: "Uummannaq", cities: [])
       ]),
   Country(
       name: "Grenada",
@@ -16437,13 +16437,13 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Carriacou-Petite Martinique", cities: []),
-        State(name: "Saint Andrew", cities: []),
-        State(name: "Saint Davids", cities: []),
-        State(name: "Saint George\\'\\'s", cities: []),
-        State(name: "Saint John", cities: []),
-        State(name: "Saint Mark", cities: []),
-        State(name: "Saint Patrick", cities: [
+        States(name: "Carriacou-Petite Martinique", cities: []),
+        States(name: "Saint Andrew", cities: []),
+        States(name: "Saint Davids", cities: []),
+        States(name: "Saint George\\'\\'s", cities: []),
+        States(name: "Saint John", cities: []),
+        States(name: "Saint Mark", cities: []),
+        States(name: "Saint Patrick", cities: [
           "Baie-Mahault",
           "Baillif",
           "Basse-Terre",
@@ -16467,7 +16467,7 @@ final List<Country> countries = [
       minLength: 15,
       maxLength: 15,
       states: [
-        State(name: "Basse-Terre", cities: [
+        States(name: "Basse-Terre", cities: [
           "Anse-Bertrand",
           "Le Gosier",
           "Le Moule",
@@ -16479,12 +16479,12 @@ final List<Country> countries = [
           "Saint-Francois",
           "Sainte-Anne"
         ]),
-        State(name: "Grande-Terre", cities: []),
-        State(name: "Iles des Saintes", cities: []),
-        State(name: "La Desirade", cities: ["Grand-Bourg"]),
-        State(name: "Marie-Galante", cities: []),
-        State(name: "Saint Barthelemy", cities: []),
-        State(name: "Saint Martin", cities: [])
+        States(name: "Grande-Terre", cities: []),
+        States(name: "Iles des Saintes", cities: []),
+        States(name: "La Desirade", cities: ["Grand-Bourg"]),
+        States(name: "Marie-Galante", cities: []),
+        States(name: "Saint Barthelemy", cities: []),
+        States(name: "Saint Martin", cities: [])
       ]),
   Country(
       name: "Guam",
@@ -16494,24 +16494,24 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Agana Heights", cities: ["Agat"]),
-        State(name: "Agat", cities: ["Barrigada", "Barrigada Heights"]),
-        State(name: "Barrigada", cities: ["Chalan Pago", "Ordot"]),
-        State(
+        States(name: "Agana Heights", cities: ["Agat"]),
+        States(name: "Agat", cities: ["Barrigada", "Barrigada Heights"]),
+        States(name: "Barrigada", cities: ["Chalan Pago", "Ordot"]),
+        States(
             name: "Chalan-Pago-Ordot",
             cities: ["Astumbo", "Dededo", "Finegayan Station"]),
-        State(name: "Dededo", cities: ["Agana", "Agana Station"]),
-        State(name: "Hagatna", cities: ["Inarajan"]),
-        State(name: "Inarajan", cities: ["Mangilao"]),
-        State(name: "Mangilao", cities: ["Merizo"]),
-        State(name: "Merizo", cities: ["Mongmong", "Toto"]),
-        State(name: "Mongmong-Toto-Maite", cities: []),
-        State(name: "Santa Rita", cities: ["Sinajana"]),
-        State(name: "Sinajana", cities: ["Talofofo"]),
-        State(name: "Talofofo", cities: ["Tamuning"]),
-        State(name: "Tamuning", cities: ["Anderson Air Force Base", "Yigo"]),
-        State(name: "Yigo", cities: ["Yona"]),
-        State(name: "Yona", cities: [])
+        States(name: "Dededo", cities: ["Agana", "Agana Station"]),
+        States(name: "Hagatna", cities: ["Inarajan"]),
+        States(name: "Inarajan", cities: ["Mangilao"]),
+        States(name: "Mangilao", cities: ["Merizo"]),
+        States(name: "Merizo", cities: ["Mongmong", "Toto"]),
+        States(name: "Mongmong-Toto-Maite", cities: []),
+        States(name: "Santa Rita", cities: ["Sinajana"]),
+        States(name: "Sinajana", cities: ["Talofofo"]),
+        States(name: "Talofofo", cities: ["Tamuning"]),
+        States(name: "Tamuning", cities: ["Anderson Air Force Base", "Yigo"]),
+        States(name: "Yigo", cities: ["Yona"]),
+        States(name: "Yona", cities: [])
       ]),
   Country(
       name: "Guatemala",
@@ -16521,20 +16521,20 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Alta Verapaz", cities: []),
-        State(
+        States(name: "Alta Verapaz", cities: []),
+        States(
             name: "Baja Verapaz",
             cities: ["Chimaltenango", "Comalapa", "Itzapa", "Patzun"]),
-        State(name: "Chimaltenango", cities: ["Chiquimula", "Esquipulas"]),
-        State(name: "Chiquimula", cities: []),
-        State(name: "El Progreso", cities: [
+        States(name: "Chimaltenango", cities: ["Chiquimula", "Esquipulas"]),
+        States(name: "Chiquimula", cities: []),
+        States(name: "El Progreso", cities: [
           "Cotzumalguapa",
           "Escuintla",
           "Palin",
           "San Jose",
           "Tiquisate"
         ]),
-        State(name: "Escuintla", cities: [
+        States(name: "Escuintla", cities: [
           "Amatitlan",
           "Chinautla",
           "Guatemala",
@@ -16542,28 +16542,28 @@ final List<Country> countries = [
           "Petapa",
           "Villa Nueva"
         ]),
-        State(name: "Guatemala", cities: ["Huehuetenango"]),
-        State(name: "Huehuetenango", cities: ["Puerto Barrios"]),
-        State(name: "Izabal", cities: ["Jalapa"]),
-        State(name: "Jalapa", cities: ["Asuncion Mita", "Jutiapa"]),
-        State(name: "Jutiapa", cities: ["Flores", "San Benito"]),
-        State(name: "Peten", cities: ["Quezaltenango"]),
-        State(name: "Quezaltenango", cities: ["Quiche"]),
-        State(name: "Quiche", cities: ["Retalhuleu"]),
-        State(name: "Retalhuleu", cities: [
+        States(name: "Guatemala", cities: ["Huehuetenango"]),
+        States(name: "Huehuetenango", cities: ["Puerto Barrios"]),
+        States(name: "Izabal", cities: ["Jalapa"]),
+        States(name: "Jalapa", cities: ["Asuncion Mita", "Jutiapa"]),
+        States(name: "Jutiapa", cities: ["Flores", "San Benito"]),
+        States(name: "Peten", cities: ["Quezaltenango"]),
+        States(name: "Quezaltenango", cities: ["Quiche"]),
+        States(name: "Quiche", cities: ["Retalhuleu"]),
+        States(name: "Retalhuleu", cities: [
           "Antigua",
           "Ciudad Vieja",
           "Jocotenango",
           "Santa Maria de Jesus",
           "Sumpango"
         ]),
-        State(name: "Sacatepequez", cities: []),
-        State(name: "San Marcos", cities: []),
-        State(name: "Santa Rosa", cities: ["Atitlan", "Solola"]),
-        State(name: "Solola", cities: ["Mazatenango"]),
-        State(name: "Suchitepequez", cities: ["Totonicapan"]),
-        State(name: "Totonicapan", cities: ["Zacapa"]),
-        State(name: "Zacapa", cities: ["Saint Anne\\'\\'s"])
+        States(name: "Sacatepequez", cities: []),
+        States(name: "San Marcos", cities: []),
+        States(name: "Santa Rosa", cities: ["Atitlan", "Solola"]),
+        States(name: "Solola", cities: ["Mazatenango"]),
+        States(name: "Suchitepequez", cities: ["Totonicapan"]),
+        States(name: "Totonicapan", cities: ["Zacapa"]),
+        States(name: "Zacapa", cities: ["Saint Anne\\'\\'s"])
       ]),
   Country(
       name: "Guernsey",
@@ -16574,18 +16574,18 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Alderney", cities: ["Castle"]),
-        State(name: "Castel", cities: ["Forest"]),
-        State(name: "Forest", cities: []),
-        State(name: "Saint Andrew", cities: []),
-        State(name: "Saint Martin", cities: []),
-        State(name: "Saint Peter Port", cities: []),
-        State(name: "Saint Pierre du Bois", cities: []),
-        State(name: "Saint Sampson", cities: []),
-        State(name: "Saint Saviour", cities: ["Sark"]),
-        State(name: "Sark", cities: ["Torteval"]),
-        State(name: "Torteval", cities: ["Vale"]),
-        State(name: "Vale", cities: ["Beyla"])
+        States(name: "Alderney", cities: ["Castle"]),
+        States(name: "Castel", cities: ["Forest"]),
+        States(name: "Forest", cities: []),
+        States(name: "Saint Andrew", cities: []),
+        States(name: "Saint Martin", cities: []),
+        States(name: "Saint Peter Port", cities: []),
+        States(name: "Saint Pierre du Bois", cities: []),
+        States(name: "Saint Sampson", cities: []),
+        States(name: "Saint Saviour", cities: ["Sark"]),
+        States(name: "Sark", cities: ["Torteval"]),
+        States(name: "Torteval", cities: ["Vale"]),
+        States(name: "Vale", cities: ["Beyla"])
       ]),
   Country(
       name: "Guinea",
@@ -16595,38 +16595,38 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 9,
       states: [
-        State(name: "Beyla", cities: ["Boffa"]),
-        State(name: "Boffa", cities: ["Boke"]),
-        State(name: "Boke", cities: ["Conakry"]),
-        State(name: "Conakry", cities: ["Coyah"]),
-        State(name: "Coyah", cities: ["Dabola"]),
-        State(name: "Dabola", cities: ["Dalaba"]),
-        State(name: "Dalaba", cities: ["Dinguiraye"]),
-        State(name: "Dinguiraye", cities: ["Faranah"]),
-        State(name: "Faranah", cities: ["Forecariah"]),
-        State(name: "Forecariah", cities: ["Fria"]),
-        State(name: "Fria", cities: ["Gaoual"]),
-        State(name: "Gaoual", cities: ["Guekedou"]),
-        State(name: "Gueckedou", cities: ["Kankan"]),
-        State(name: "Kankan", cities: ["Kerouane"]),
-        State(name: "Kerouane", cities: ["Kindia"]),
-        State(name: "Kindia", cities: ["Kissidougou"]),
-        State(name: "Kissidougou", cities: ["Koubia"]),
-        State(name: "Koubia", cities: ["Koundara"]),
-        State(name: "Koundara", cities: ["Kouroussa"]),
-        State(name: "Kouroussa", cities: ["Labe"]),
-        State(name: "Labe", cities: ["Lola"]),
-        State(name: "Lola", cities: ["Macenta"]),
-        State(name: "Macenta", cities: ["Mali"]),
-        State(name: "Mali", cities: ["Mamou"]),
-        State(name: "Mamou", cities: ["Mandiana"]),
-        State(name: "Mandiana", cities: ["Nzerekore"]),
-        State(name: "Nzerekore", cities: ["Pita"]),
-        State(name: "Pita", cities: ["Siguiri"]),
-        State(name: "Siguiri", cities: ["Telimele"]),
-        State(name: "Telimele", cities: ["Tougue"]),
-        State(name: "Tougue", cities: ["Yomou"]),
-        State(name: "Yomou", cities: ["Bafata"])
+        States(name: "Beyla", cities: ["Boffa"]),
+        States(name: "Boffa", cities: ["Boke"]),
+        States(name: "Boke", cities: ["Conakry"]),
+        States(name: "Conakry", cities: ["Coyah"]),
+        States(name: "Coyah", cities: ["Dabola"]),
+        States(name: "Dabola", cities: ["Dalaba"]),
+        States(name: "Dalaba", cities: ["Dinguiraye"]),
+        States(name: "Dinguiraye", cities: ["Faranah"]),
+        States(name: "Faranah", cities: ["Forecariah"]),
+        States(name: "Forecariah", cities: ["Fria"]),
+        States(name: "Fria", cities: ["Gaoual"]),
+        States(name: "Gaoual", cities: ["Guekedou"]),
+        States(name: "Gueckedou", cities: ["Kankan"]),
+        States(name: "Kankan", cities: ["Kerouane"]),
+        States(name: "Kerouane", cities: ["Kindia"]),
+        States(name: "Kindia", cities: ["Kissidougou"]),
+        States(name: "Kissidougou", cities: ["Koubia"]),
+        States(name: "Koubia", cities: ["Koundara"]),
+        States(name: "Koundara", cities: ["Kouroussa"]),
+        States(name: "Kouroussa", cities: ["Labe"]),
+        States(name: "Labe", cities: ["Lola"]),
+        States(name: "Lola", cities: ["Macenta"]),
+        States(name: "Macenta", cities: ["Mali"]),
+        States(name: "Mali", cities: ["Mamou"]),
+        States(name: "Mamou", cities: ["Mandiana"]),
+        States(name: "Mandiana", cities: ["Nzerekore"]),
+        States(name: "Nzerekore", cities: ["Pita"]),
+        States(name: "Pita", cities: ["Siguiri"]),
+        States(name: "Siguiri", cities: ["Telimele"]),
+        States(name: "Telimele", cities: ["Tougue"]),
+        States(name: "Tougue", cities: ["Yomou"]),
+        States(name: "Yomou", cities: ["Bafata"])
       ]),
   Country(
       name: "Guinea-Bissau",
@@ -16636,14 +16636,14 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Bafata", cities: ["Bissau"]),
-        State(name: "Bissau", cities: ["Bolama", "Bubaque"]),
-        State(name: "Bolama", cities: ["Cacheu", "Canchungo"]),
-        State(name: "Cacheu", cities: ["Gabu"]),
-        State(name: "Gabu", cities: ["Bissora", "Farim", "Mansoa"]),
-        State(name: "Oio", cities: ["Buba", "Fulacunda", "Quebo"]),
-        State(name: "Quinara", cities: ["Catio"]),
-        State(name: "Tombali", cities: ["Mabaruma", "Morawhanna"])
+        States(name: "Bafata", cities: ["Bissau"]),
+        States(name: "Bissau", cities: ["Bolama", "Bubaque"]),
+        States(name: "Bolama", cities: ["Cacheu", "Canchungo"]),
+        States(name: "Cacheu", cities: ["Gabu"]),
+        States(name: "Gabu", cities: ["Bissora", "Farim", "Mansoa"]),
+        States(name: "Oio", cities: ["Buba", "Fulacunda", "Quebo"]),
+        States(name: "Quinara", cities: ["Catio"]),
+        States(name: "Tombali", cities: ["Mabaruma", "Morawhanna"])
       ]),
   Country(
       name: "Guyana",
@@ -16653,22 +16653,22 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Barima-Waini", cities: ["Bartica", "Issano", "Kamarang"]),
-        State(
+        States(name: "Barima-Waini", cities: ["Bartica", "Issano", "Kamarang"]),
+        States(
             name: "Cuyuni-Mazaruni",
             cities: ["Georgetown", "Mahaica", "Paradise", "Queenstown"]),
-        State(name: "Demerara-Mahaica", cities: []),
-        State(name: "East Berbice-Corentyne", cities: []),
-        State(
+        States(name: "Demerara-Mahaica", cities: []),
+        States(name: "East Berbice-Corentyne", cities: []),
+        States(
             name: "Essequibo Islands-West Demerar",
             cities: ["Fort Wellington", "Mahaicony", "Rosignol"]),
-        State(
+        States(
             name: "Mahaica-Berbice",
             cities: ["Anna Regina", "Charity", "Suddie"]),
-        State(name: "Pomeroon-Supenaam", cities: ["Mahdia", "Tumatumari"]),
-        State(name: "Potaro-Siparuni", cities: []),
-        State(name: "Upper Demerara-Berbice", cities: []),
-        State(name: "Upper Takutu-Upper Essequibo", cities: [
+        States(name: "Pomeroon-Supenaam", cities: ["Mahdia", "Tumatumari"]),
+        States(name: "Potaro-Siparuni", cities: []),
+        States(name: "Upper Demerara-Berbice", cities: []),
+        States(name: "Upper Takutu-Upper Essequibo", cities: [
           "Desdunes",
           "Dessalines",
           "Gonaives",
@@ -16688,26 +16688,26 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Artibonite", cities: ["Hinche", "Mirebalais"]),
-        State(name: "Centre", cities: [
+        States(name: "Artibonite", cities: ["Hinche", "Mirebalais"]),
+        States(name: "Centre", cities: [
           "Anse-d\\'\\'Hainault",
           "Dame Marie",
           "Jeremie",
           "Miragoane"
         ]),
-        State(name: "Grand\\'\\'Anse", cities: [
+        States(name: "Grand\\'\\'Anse", cities: [
           "Cap-Haitien",
           "Croix-des-Bouquets",
           "Grande Riviere du Nord",
           "Limbe",
           "Pignon"
         ]),
-        State(
+        States(
             name: "Nord",
             cities: ["Derac", "Fort-Liberte", "Ouanaminthe", "Trou-du-Nord"]),
-        State(
+        States(
             name: "Nord-Est", cities: ["Port-de-Paix", "Saint-Louis-du-Nord"]),
-        State(name: "Nord-Ouest", cities: [
+        States(name: "Nord-Ouest", cities: [
           "Anse-a-Galets",
           "Carrefour",
           "Delmas",
@@ -16718,9 +16718,9 @@ final List<Country> countries = [
           "Petit Goave",
           "Port-au-Prince"
         ]),
-        State(name: "Ouest", cities: ["Aquin", "Les Cayes"]),
-        State(name: "Sud", cities: ["Jacmel"]),
-        State(name: "Sud-Est", cities: [])
+        States(name: "Ouest", cities: ["Aquin", "Les Cayes"]),
+        States(name: "Sud", cities: ["Jacmel"]),
+        States(name: "Sud-Est", cities: [])
       ]),
   Country(
       name: "Heard Island and Mcdonald Islands",
@@ -16730,7 +16730,7 @@ final List<Country> countries = [
       minLength: 15,
       maxLength: 15,
       states: [
-        State(
+        States(
             name: "Heard and McDonald Islands",
             cities: ["La Ceiba", "Olanchito", "Tela"])
       ]),
@@ -16742,11 +16742,11 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(
+        States(
             name: "Atlantida", cities: ["Choluteca", "El Triunfo", "Pespire"]),
-        State(name: "Choluteca", cities: ["Sonaguera", "Tocoa", "Trujillo"]),
-        State(name: "Colon", cities: ["Comayagua", "Siguatepeque"]),
-        State(name: "Comayagua", cities: [
+        States(name: "Choluteca", cities: ["Sonaguera", "Tocoa", "Trujillo"]),
+        States(name: "Colon", cities: ["Comayagua", "Siguatepeque"]),
+        States(name: "Comayagua", cities: [
           "Copan",
           "Corquin",
           "Dulce Nombre",
@@ -16755,33 +16755,33 @@ final List<Country> countries = [
           "San Nicolas",
           "Santa Rosa de Copan"
         ]),
-        State(name: "Copan", cities: [
+        States(name: "Copan", cities: [
           "Choloma",
           "La Lima",
           "Omoa",
           "Puerto Cortes",
           "San Pedro Sula"
         ]),
-        State(name: "Cortes", cities: []),
-        State(name: "Distrito Central", cities: []),
-        State(name: "El Paraiso", cities: []),
-        State(name: "Francisco Morazan", cities: []),
-        State(
+        States(name: "Cortes", cities: []),
+        States(name: "Distrito Central", cities: []),
+        States(name: "El Paraiso", cities: []),
+        States(name: "Francisco Morazan", cities: []),
+        States(
             name: "Gracias a Dios",
             cities: ["Intibuca", "La Esperanza", "Utila"]),
-        State(name: "Intibuca", cities: []),
-        State(name: "Islas de la Bahia", cities: []),
-        State(name: "La Paz", cities: ["Gracias"]),
-        State(name: "Lempira", cities: ["Ocotepeque", "San Marcos", "Sinuapa"]),
-        State(name: "Ocotepeque", cities: ["Catacamas", "Juticalpa"]),
-        State(name: "Olancho", cities: []),
-        State(
+        States(name: "Intibuca", cities: []),
+        States(name: "Islas de la Bahia", cities: []),
+        States(name: "La Paz", cities: ["Gracias"]),
+        States(name: "Lempira", cities: ["Ocotepeque", "San Marcos", "Sinuapa"]),
+        States(name: "Ocotepeque", cities: ["Catacamas", "Juticalpa"]),
+        States(name: "Olancho", cities: []),
+        States(
             name: "Santa Barbara",
             cities: ["Amapala", "Langue", "Nacaome", "San Lorenzo"]),
-        State(
+        States(
             name: "Valle",
             cities: ["El Progreso", "Morazan", "Santa Rita", "Yoro"]),
-        State(name: "Yoro", cities: [])
+        States(name: "Yoro", cities: [])
       ]),
   Country(
       name: "Hong Kong",
@@ -16791,7 +16791,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Hong Kong", cities: [
+        States(name: "Hong Kong", cities: [
           "Akaszto",
           "Bacsalmas",
           "Bacsbokod",
@@ -16840,7 +16840,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Bacs-Kiskun", cities: [
+        States(name: "Bacs-Kiskun", cities: [
           "Beremend",
           "Boly",
           "Dunaszekcso",
@@ -16859,7 +16859,7 @@ final List<Country> countries = [
           "Vajszlo",
           "Villany"
         ]),
-        State(name: "Baranya", cities: [
+        States(name: "Baranya", cities: [
           "Battonya",
           "Bekes",
           "Bekescsaba",
@@ -16889,7 +16889,7 @@ final List<Country> countries = [
           "Totkomlos",
           "Veszto"
         ]),
-        State(name: "Bekes", cities: [
+        States(name: "Bekes", cities: [
           "Abaujszanto",
           "Arlo",
           "Bogacs",
@@ -16932,8 +16932,8 @@ final List<Country> countries = [
           "Tokaj",
           "Tolcsva"
         ]),
-        State(name: "Borsod-Abauj-Zemplen", cities: ["Budapest"]),
-        State(name: "Budapest", cities: [
+        States(name: "Borsod-Abauj-Zemplen", cities: ["Budapest"]),
+        States(name: "Budapest", cities: [
           "Csongrad",
           "Fabiansebestyen",
           "Foldeak",
@@ -16953,7 +16953,7 @@ final List<Country> countries = [
           "Szekkutas",
           "Szentes"
         ]),
-        State(name: "Csongrad", cities: [
+        States(name: "Csongrad", cities: [
           "Aba",
           "Adony",
           "Alap",
@@ -16986,7 +16986,7 @@ final List<Country> countries = [
           "Szekesfehervar",
           "Val"
         ]),
-        State(name: "Fejer", cities: [
+        States(name: "Fejer", cities: [
           "Asvanyraro",
           "Beled",
           "Bosarkany",
@@ -17008,7 +17008,7 @@ final List<Country> countries = [
           "Szany",
           "Tet"
         ]),
-        State(name: "Gyor-Moson-Sopron", cities: [
+        States(name: "Gyor-Moson-Sopron", cities: [
           "Balmazujvaros",
           "Barand",
           "Berettyoujfalu",
@@ -17042,7 +17042,7 @@ final List<Country> countries = [
           "Ujfeherto",
           "Vamospercs"
         ]),
-        State(name: "Hajdu-Bihar", cities: [
+        States(name: "Hajdu-Bihar", cities: [
           "Abasar",
           "Andornaktalya",
           "Belapatfalva",
@@ -17067,7 +17067,7 @@ final List<Country> countries = [
           "Tarnalelesz",
           "Verpelet"
         ]),
-        State(name: "Heves", cities: [
+        States(name: "Heves", cities: [
           "Abadszalok",
           "Besenyszog",
           "Cserkeszolo",
@@ -17103,7 +17103,7 @@ final List<Country> countries = [
           "Turkeve",
           "Ujszasz"
         ]),
-        State(name: "Jasz-Nagykun-Szolnok", cities: [
+        States(name: "Jasz-Nagykun-Szolnok", cities: [
           "Acs",
           "Almasfuzito",
           "Babolna",
@@ -17127,7 +17127,7 @@ final List<Country> countries = [
           "Tokod",
           "Vertesszolos"
         ]),
-        State(name: "Komarom-Esztergom", cities: [
+        States(name: "Komarom-Esztergom", cities: [
           "Balassagyarmat",
           "Batonyterenye",
           "Bercel",
@@ -17143,7 +17143,7 @@ final List<Country> countries = [
           "Szecseny",
           "Tar"
         ]),
-        State(name: "Nograd", cities: [
+        States(name: "Nograd", cities: [
           "Abony",
           "Albertirsa",
           "Aszod",
@@ -17226,7 +17226,7 @@ final List<Country> countries = [
           "Zsambek",
           "Zsambok"
         ]),
-        State(name: "Pest", cities: [
+        States(name: "Pest", cities: [
           "Adand",
           "Balatonfoldvar",
           "Balatonoszod",
@@ -17250,7 +17250,7 @@ final List<Country> countries = [
           "Tab",
           "Zamardi"
         ]),
-        State(name: "Somogy", cities: [
+        States(name: "Somogy", cities: [
           "Ajak",
           "Baktaloranthaza",
           "Balkany",
@@ -17285,7 +17285,7 @@ final List<Country> countries = [
           "Vasarosnameny",
           "Zahony"
         ]),
-        State(name: "Szabolcs-Szatmar-Bereg", cities: [
+        States(name: "Szabolcs-Szatmar-Bereg", cities: [
           "Bataszek",
           "Bonyhad",
           "Decs",
@@ -17309,7 +17309,7 @@ final List<Country> countries = [
           "Tolna",
           "Zomba"
         ]),
-        State(name: "Tolna", cities: [
+        States(name: "Tolna", cities: [
           "Buk",
           "Celldomolk",
           "Csepreg",
@@ -17324,7 +17324,7 @@ final List<Country> countries = [
           "Vasvar",
           "Vep"
         ]),
-        State(name: "Vas", cities: [
+        States(name: "Vas", cities: [
           "Ajka",
           "Badacsonytomaj",
           "Balatonalmadi",
@@ -17344,7 +17344,7 @@ final List<Country> countries = [
           "Veszprem",
           "Zirc"
         ]),
-        State(name: "Veszprem", cities: [
+        States(name: "Veszprem", cities: [
           "Becsehely",
           "Heviz",
           "Keszthely",
@@ -17358,7 +17358,7 @@ final List<Country> countries = [
           "Zalalovo",
           "Zalaszentgrot"
         ]),
-        State(name: "Zala", cities: [
+        States(name: "Zala", cities: [
           "Bakkafjor ur",
           "Borgarfjor ur",
           "Brei dalsvik",
@@ -17385,14 +17385,14 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 9,
       states: [
-        State(name: "Austurland", cities: []),
-        State(name: "Gullbringusysla", cities: []),
-        State(name: "Hofu borgarsva i", cities: []),
-        State(name: "Nor urland eystra", cities: []),
-        State(name: "Nor urland vestra", cities: []),
-        State(name: "Su urland", cities: []),
-        State(name: "Su urnes", cities: []),
-        State(name: "Vestfir ir", cities: [
+        States(name: "Austurland", cities: []),
+        States(name: "Gullbringusysla", cities: []),
+        States(name: "Hofu borgarsva i", cities: []),
+        States(name: "Nor urland eystra", cities: []),
+        States(name: "Nor urland vestra", cities: []),
+        States(name: "Su urland", cities: []),
+        States(name: "Su urnes", cities: []),
+        States(name: "Vestfir ir", cities: [
           "Akranes",
           "Borgarnes",
           "Bu ardalur",
@@ -17403,7 +17403,7 @@ final List<Country> countries = [
           "Rif",
           "Stykkisholmur"
         ]),
-        State(name: "Vesturland", cities: [
+        States(name: "Vesturland", cities: [
           "Banda Aceh",
           "Bireun",
           "Langsa",
@@ -17419,7 +17419,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Andaman and Nicobar Islands", cities: [
+        States(name: "Andaman and Nicobar Islands", cities: [
           "Bombuflat",
           "Garacharma",
           "Port Blair",
@@ -18539,7 +18539,7 @@ final List<Country> countries = [
           "Taitung",
           "Dushanbe"
         ]),
-        State(name: "Andhra Pradesh", cities: [
+        States(name: "Andhra Pradesh", cities: [
           "Along",
           "Basar",
           "Bondila",
@@ -18558,7 +18558,7 @@ final List<Country> countries = [
           "Tezu",
           "Ziro"
         ]),
-        State(name: "Arunachal Pradesh", cities: [
+        States(name: "Arunachal Pradesh", cities: [
           "Abhayapuri",
           "Ambikapur",
           "Amguri",
@@ -18692,7 +18692,7 @@ final List<Country> countries = [
           "Umrangso",
           "Uttar Krishnapur Part-I"
         ]),
-        State(name: "Assam", cities: [
+        States(name: "Assam", cities: [
           "Amarpur",
           "Ara",
           "Araria",
@@ -18840,8 +18840,8 @@ final List<Country> countries = [
           "Vaishali",
           "Waris Aliganj"
         ]),
-        State(name: "Bihar", cities: ["Chandigarh"]),
-        State(name: "Chandigarh", cities: [
+        States(name: "Bihar", cities: ["Chandigarh"]),
+        States(name: "Chandigarh", cities: [
           "Ahiwara",
           "Akaltara",
           "Ambagarh Chauki",
@@ -18950,10 +18950,10 @@ final List<Country> countries = [
           "Urla",
           "Vishrampur"
         ]),
-        State(name: "Chhattisgarh", cities: ["Amli", "Silvassa"]),
-        State(name: "Dadra and Nagar Haveli", cities: ["Daman", "Diu"]),
-        State(name: "Daman and Diu", cities: ["Delhi", "New Delhi"]),
-        State(name: "Delhi", cities: [
+        States(name: "Chhattisgarh", cities: ["Amli", "Silvassa"]),
+        States(name: "Dadra and Nagar Haveli", cities: ["Daman", "Diu"]),
+        States(name: "Daman and Diu", cities: ["Delhi", "New Delhi"]),
+        States(name: "Delhi", cities: [
           "Aldona",
           "Altinho",
           "Aquem",
@@ -19026,7 +19026,7 @@ final List<Country> countries = [
           "Vasco",
           "Verna"
         ]),
-        State(name: "Goa", cities: [
+        States(name: "Goa", cities: [
           "Abrama",
           "Adalaj",
           "Adityana",
@@ -19345,7 +19345,7 @@ final List<Country> countries = [
           "Wankaner",
           "Zalod"
         ]),
-        State(name: "Gujarat", cities: [
+        States(name: "Gujarat", cities: [
           "Ambala",
           "Ambala Cantt",
           "Asan Khurd",
@@ -19456,7 +19456,7 @@ final List<Country> countries = [
           "Uncha Siwana",
           "Yamunanagar"
         ]),
-        State(name: "Haryana", cities: [
+        States(name: "Haryana", cities: [
           "Arki",
           "Baddi",
           "Bakloh",
@@ -19526,7 +19526,7 @@ final List<Country> countries = [
           "Una",
           "Yol"
         ]),
-        State(name: "Himachal Pradesh", cities: [
+        States(name: "Himachal Pradesh", cities: [
           "Achabal",
           "Akhnur",
           "Anantnag",
@@ -19605,7 +19605,7 @@ final List<Country> countries = [
           "Uri",
           "Vijaypur"
         ]),
-        State(name: "Jammu and Kashmir", cities: [
+        States(name: "Jammu and Kashmir", cities: [
           "Adityapur",
           "Amlabad",
           "Angarpathar",
@@ -19775,7 +19775,7 @@ final List<Country> countries = [
           "Topa",
           "Topchanchi"
         ]),
-        State(name: "Jharkhand", cities: [
+        States(name: "Jharkhand", cities: [
           "Adityanagar",
           "Adityapatna",
           "Afzalpur",
@@ -20102,15 +20102,15 @@ final List<Country> countries = [
           "Yellapur",
           "Yenagudde"
         ]),
-        State(name: "Karnataka", cities: []),
-        State(name: "Kerala", cities: [
+        States(name: "Karnataka", cities: []),
+        States(name: "Kerala", cities: [
           "Agethi",
           "Amini",
           "Androth Island",
           "Kavaratti",
           "Minicoy"
         ]),
-        State(name: "Lakshadweep", cities: [
+        States(name: "Lakshadweep", cities: [
           "Agar",
           "Ajaigarh",
           "Akoda",
@@ -20516,7 +20516,7 @@ final List<Country> countries = [
           "Vijayraghavgarh",
           "Waraseoni"
         ]),
-        State(name: "Madhya Pradesh", cities: [
+        States(name: "Madhya Pradesh", cities: [
           "Achalpur",
           "Aheri",
           "Ahmadnagar Cantonment",
@@ -20928,7 +20928,7 @@ final List<Country> countries = [
           "Yeola",
           "Yerkheda"
         ]),
-        State(name: "Maharashtra", cities: [
+        States(name: "Maharashtra", cities: [
           "Andro",
           "Bijoy Govinda",
           "Bishnupur",
@@ -20965,7 +20965,7 @@ final List<Country> countries = [
           "Wangoi",
           "Yairipok"
         ]),
-        State(name: "Manipur", cities: [
+        States(name: "Manipur", cities: [
           "Baghmara",
           "Cherrapunji",
           "Jawai",
@@ -20983,7 +20983,7 @@ final List<Country> countries = [
           "Tura",
           "Williamnagar"
         ]),
-        State(name: "Meghalaya", cities: [
+        States(name: "Meghalaya", cities: [
           "Aizawl",
           "Bairabi",
           "Biate",
@@ -21007,7 +21007,7 @@ final List<Country> countries = [
           "Vairengte",
           "Zawlnuam"
         ]),
-        State(name: "Mizoram", cities: [
+        States(name: "Mizoram", cities: [
           "Chumukedima",
           "Dimapur",
           "Kohima",
@@ -21018,9 +21018,9 @@ final List<Country> countries = [
           "Wokha",
           "Zunheboto"
         ]),
-        State(name: "Nagaland", cities: []),
-        State(name: "Odisha", cities: []),
-        State(name: "Pondicherry", cities: [
+        States(name: "Nagaland", cities: []),
+        States(name: "Odisha", cities: []),
+        States(name: "Pondicherry", cities: [
           "Abohar",
           "Adampur",
           "Ahmedgarh",
@@ -21189,7 +21189,7 @@ final List<Country> countries = [
           "Zira",
           "Zirakpur"
         ]),
-        State(name: "Punjab", cities: [
+        States(name: "Punjab", cities: [
           "Abu Road",
           "Ajmer",
           "Aklera",
@@ -21437,7 +21437,7 @@ final List<Country> countries = [
           "Viratnagar",
           "Wer"
         ]),
-        State(name: "Rajasthan", cities: [
+        States(name: "Rajasthan", cities: [
           "Gangtok",
           "Gezing",
           "Jorethang",
@@ -21450,7 +21450,7 @@ final List<Country> countries = [
           "Singtam",
           "Upper Tadong"
         ]),
-        State(name: "Sikkim", cities: [
+        States(name: "Sikkim", cities: [
           "Abiramam",
           "Achampudur",
           "Acharapakkam",
@@ -22343,7 +22343,7 @@ final List<Country> countries = [
           "Yercaud",
           "Zamin Uthukuli"
         ]),
-        State(name: "Tamil Nadu", cities: [
+        States(name: "Tamil Nadu", cities: [
           "Achampet",
           "Adilabad",
           "Armoor",
@@ -22411,7 +22411,7 @@ final List<Country> countries = [
           "Yellandu",
           "Zahirabad"
         ]),
-        State(name: "Telangana", cities: [
+        States(name: "Telangana", cities: [
           "Agartala",
           "Amarpur",
           "Ambassa",
@@ -22436,7 +22436,7 @@ final List<Country> countries = [
           "Teliamura",
           "Udaipur"
         ]),
-        State(name: "Tripura", cities: [
+        States(name: "Tripura", cities: [
           "Achhalda",
           "Achhnera",
           "Adari",
@@ -23126,7 +23126,7 @@ final List<Country> countries = [
           "Zaidpur",
           "Zamania"
         ]),
-        State(name: "Uttar Pradesh", cities: [
+        States(name: "Uttar Pradesh", cities: [
           "Almora",
           "Almora Cantonment",
           "Badrinathpuri",
@@ -23221,8 +23221,8 @@ final List<Country> countries = [
           "Vikasnagar",
           "Virbhadra"
         ]),
-        State(name: "Uttarakhand", cities: []),
-        State(name: "West Bengal", cities: [
+        States(name: "Uttarakhand", cities: []),
+        States(name: "West Bengal", cities: [
           "Eshkashem",
           "Fayzabad",
           "Jurm",
@@ -23238,7 +23238,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 13,
       states: [
-        State(name: "Aceh", cities: [
+        States(name: "Aceh", cities: [
           "Denpasar",
           "Karangasem",
           "Klungkung",
@@ -23248,7 +23248,7 @@ final List<Country> countries = [
           "Tabanan",
           "Ubud"
         ]),
-        State(name: "Bali", cities: [
+        States(name: "Bali", cities: [
           "Manggar",
           "Mentok",
           "Pangkal Pinang",
@@ -23256,7 +23256,7 @@ final List<Country> countries = [
           "Tanjung Pandan",
           "Toboali-Rias"
         ]),
-        State(name: "Bangka-Belitung", cities: [
+        States(name: "Bangka-Belitung", cities: [
           "Cikupa",
           "Cilegon",
           "Ciputat",
@@ -23271,33 +23271,33 @@ final List<Country> countries = [
           "Tangerang",
           "Teluknaga"
         ]),
-        State(name: "Banten", cities: ["Bengkulu", "Curup"]),
-        State(name: "Bengkulu", cities: ["Gandaria"]),
-        State(name: "Gandaria", cities: ["Gorontalo"]),
-        State(name: "Gorontalo", cities: ["Cengkareng", "Jakarta"]),
-        State(
+        States(name: "Banten", cities: ["Bengkulu", "Curup"]),
+        States(name: "Bengkulu", cities: ["Gandaria"]),
+        States(name: "Gandaria", cities: ["Gorontalo"]),
+        States(name: "Gorontalo", cities: ["Cengkareng", "Jakarta"]),
+        States(
             name: "Jakarta",
             cities: ["Jambi", "Kualatungka", "Simpang", "Sungaipenuh"]),
-        State(name: "Jambi", cities: []),
-        State(name: "Jawa Barat", cities: []),
-        State(name: "Jawa Tengah", cities: []),
-        State(name: "Jawa Timur", cities: []),
-        State(name: "Kalimantan Barat", cities: []),
-        State(name: "Kalimantan Selatan", cities: []),
-        State(name: "Kalimantan Tengah", cities: []),
-        State(name: "Kalimantan Timur", cities: ["Kendal"]),
-        State(name: "Kendal", cities: [
+        States(name: "Jambi", cities: []),
+        States(name: "Jawa Barat", cities: []),
+        States(name: "Jawa Tengah", cities: []),
+        States(name: "Jawa Timur", cities: []),
+        States(name: "Kalimantan Barat", cities: []),
+        States(name: "Kalimantan Selatan", cities: []),
+        States(name: "Kalimantan Tengah", cities: []),
+        States(name: "Kalimantan Timur", cities: ["Kendal"]),
+        States(name: "Kendal", cities: [
           "Bandar Lampung",
           "Kota Bumi",
           "Metro",
           "Pringsewu",
           "Terbanggi Besar"
         ]),
-        State(name: "Lampung", cities: ["Amahai", "Ambon", "Tual"]),
-        State(name: "Maluku", cities: ["Amahai", "Ambon", "Tual"]),
-        State(name: "Maluku Utara", cities: []),
-        State(name: "Nusa Tenggara Barat", cities: []),
-        State(name: "Nusa Tenggara Timur", cities: [
+        States(name: "Lampung", cities: ["Amahai", "Ambon", "Tual"]),
+        States(name: "Maluku", cities: ["Amahai", "Ambon", "Tual"]),
+        States(name: "Maluku Utara", cities: []),
+        States(name: "Nusa Tenggara Barat", cities: []),
+        States(name: "Nusa Tenggara Timur", cities: [
           "Aberpura",
           "Biak",
           "Jaya Pura",
@@ -23305,7 +23305,7 @@ final List<Country> countries = [
           "Merauke",
           "Sorong"
         ]),
-        State(name: "Papua", cities: [
+        States(name: "Papua", cities: [
           "Balaipungut",
           "Bengkalis",
           "Dumai",
@@ -23315,7 +23315,7 @@ final List<Country> countries = [
           "Tanjung Balai-Meral",
           "Tembilahan"
         ]),
-        State(name: "Riau", cities: [
+        States(name: "Riau", cities: [
           "Balaipungut",
           "Bengkalis",
           "Dumai",
@@ -23325,15 +23325,15 @@ final List<Country> countries = [
           "Tanjung Balai-Meral",
           "Tembilahan"
         ]),
-        State(name: "Riau Kepulauan", cities: ["Solo"]),
-        State(name: "Solo", cities: []),
-        State(name: "Sulawesi Selatan", cities: []),
-        State(name: "Sulawesi Tengah", cities: []),
-        State(name: "Sulawesi Tenggara", cities: []),
-        State(name: "Sulawesi Utara", cities: []),
-        State(name: "Sumatera Barat", cities: []),
-        State(name: "Sumatera Selatan", cities: []),
-        State(name: "Sumatera Utara", cities: [
+        States(name: "Riau Kepulauan", cities: ["Solo"]),
+        States(name: "Solo", cities: []),
+        States(name: "Sulawesi Selatan", cities: []),
+        States(name: "Sulawesi Tengah", cities: []),
+        States(name: "Sulawesi Tenggara", cities: []),
+        States(name: "Sulawesi Utara", cities: []),
+        States(name: "Sumatera Barat", cities: []),
+        States(name: "Sumatera Selatan", cities: []),
+        States(name: "Sumatera Utara", cities: [
           "Bambanglipuro",
           "Banguntapan",
           "Bantul",
@@ -23352,7 +23352,7 @@ final List<Country> countries = [
           "Wonosari",
           "Yogyakarta"
         ]),
-        State(name: "Yogyakarta", cities: [
+        States(name: "Yogyakarta", cities: [
           "Ardabil",
           "Garmi",
           "Khalkhal",
@@ -23368,9 +23368,9 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Ardabil", cities: []),
-        State(name: "Azarbayjan-e Bakhtari", cities: []),
-        State(name: "Azarbayjan-e Khavari", cities: [
+        States(name: "Ardabil", cities: []),
+        States(name: "Azarbayjan-e Bakhtari", cities: []),
+        States(name: "Azarbayjan-e Khavari", cities: [
           "Bandar-e Gonaveh",
           "Borazjan",
           "Bushehr",
@@ -23380,8 +23380,8 @@ final List<Country> countries = [
           "Kongan",
           "Tangestan"
         ]),
-        State(name: "Bushehr", cities: []),
-        State(name: "Chahar Mahal-e Bakhtiari", cities: [
+        States(name: "Bushehr", cities: []),
+        States(name: "Chahar Mahal-e Bakhtiari", cities: [
           "Ardistan",
           "Dorchehpiyaz",
           "Dowlatabad",
@@ -23408,7 +23408,7 @@ final List<Country> countries = [
           "Shahreza",
           "Zarinshahr"
         ]),
-        State(name: "Esfahan", cities: [
+        States(name: "Esfahan", cities: [
           "Abadeh",
           "Akbarabad",
           "Darab",
@@ -23427,7 +23427,7 @@ final List<Country> countries = [
           "Sepidan",
           "Shiraz"
         ]),
-        State(name: "Fars", cities: [
+        States(name: "Fars", cities: [
           "Astaneh-ye Ashrafiyeh",
           "Astara",
           "Bandar-e Anzali",
@@ -23440,14 +23440,14 @@ final List<Country> countries = [
           "Rudsar",
           "Sawma\\'\\'eh Sara"
         ]),
-        State(name: "Gilan", cities: [
+        States(name: "Gilan", cities: [
           "Aq Qal\\'\\'eh",
           "Azad Shahr",
           "Bandar-e Torkaman",
           "Gonbad-e Qabus",
           "Gorgan"
         ]),
-        State(name: "Golestan", cities: [
+        States(name: "Golestan", cities: [
           "Asadabad",
           "Bahar",
           "Hamadan",
@@ -23455,7 +23455,7 @@ final List<Country> countries = [
           "Nahavand",
           "Tuysarkan"
         ]),
-        State(name: "Hamadan", cities: [
+        States(name: "Hamadan", cities: [
           "Bandar Abbas",
           "Bandar-e \\'\\'Abbas",
           "Bandar-e Lengeh",
@@ -23465,7 +23465,7 @@ final List<Country> countries = [
           "Kish Island",
           "Minab"
         ]),
-        State(name: "Hormozgan", cities: [
+        States(name: "Hormozgan", cities: [
           "Abdanan",
           "Darrehshahr",
           "Dehloran",
@@ -23473,7 +23473,7 @@ final List<Country> countries = [
           "Ivan",
           "Mehran"
         ]),
-        State(name: "Ilam", cities: [
+        States(name: "Ilam", cities: [
           "Baft",
           "Bam",
           "Bardsir",
@@ -23486,7 +23486,7 @@ final List<Country> countries = [
           "Sirjan",
           "Zarand"
         ]),
-        State(name: "Kerman", cities: [
+        States(name: "Kerman", cities: [
           "Eslamabad",
           "Gilan-e Garb",
           "Harsin",
@@ -23498,7 +23498,7 @@ final List<Country> countries = [
           "Sar-e-Pol-e-Zohab",
           "Sonqor"
         ]),
-        State(name: "Kermanshah", cities: [
+        States(name: "Kermanshah", cities: [
           "Birjand",
           "Bojnurd",
           "Chenaran",
@@ -23522,7 +23522,7 @@ final List<Country> countries = [
           "Torbat-e Heydariyeh",
           "Torbat-e Jam"
         ]),
-        State(name: "Khorasan", cities: [
+        States(name: "Khorasan", cities: [
           "Abadan",
           "Agha Jari",
           "Ahvaz",
@@ -23544,8 +23544,8 @@ final List<Country> countries = [
           "Shushtar",
           "Susangerd"
         ]),
-        State(name: "Khuzestan", cities: []),
-        State(name: "Kohgiluyeh-e Boyerahmad", cities: [
+        States(name: "Khuzestan", cities: []),
+        States(name: "Kohgiluyeh-e Boyerahmad", cities: [
           "Baneh",
           "Bijar",
           "Kamyaran",
@@ -23554,7 +23554,7 @@ final List<Country> countries = [
           "Sanandaj",
           "Saqqez"
         ]),
-        State(name: "Kordestan", cities: [
+        States(name: "Kordestan", cities: [
           "Alashtar",
           "Aligudarz",
           "Azna",
@@ -23564,7 +23564,7 @@ final List<Country> countries = [
           "Kuhdasht",
           "Nurabad"
         ]),
-        State(name: "Lorestan", cities: [
+        States(name: "Lorestan", cities: [
           "Arak",
           "Ashtian",
           "Delijan",
@@ -23574,7 +23574,7 @@ final List<Country> countries = [
           "Saveh",
           "Tafresh"
         ]),
-        State(name: "Markazi", cities: [
+        States(name: "Markazi", cities: [
           "Aliabad",
           "Amir Kala",
           "Amol",
@@ -23597,14 +23597,14 @@ final List<Country> countries = [
           "Savadkuh",
           "Tonekabon"
         ]),
-        State(name: "Mazandaran", cities: []),
-        State(
+        States(name: "Mazandaran", cities: []),
+        States(
             name: "Ostan-e Esfahan",
             cities: ["Abhar", "Abyek", "Qazvin", "Takestan"]),
-        State(name: "Qazvin", cities: ["Qom"]),
-        State(name: "Qom", cities: ["Damghan", "Garmsar", "Semnan", "Shahrud"]),
-        State(name: "Semnan", cities: []),
-        State(name: "Sistan-e Baluchestan", cities: [
+        States(name: "Qazvin", cities: ["Qom"]),
+        States(name: "Qom", cities: ["Damghan", "Garmsar", "Semnan", "Shahrud"]),
+        States(name: "Semnan", cities: []),
+        States(name: "Sistan-e Baluchestan", cities: [
           "Damavand",
           "Eqbaliyeh",
           "Eslamshahr",
@@ -23623,11 +23623,11 @@ final List<Country> countries = [
           "Tehran",
           "Varamin"
         ]),
-        State(
+        States(
             name: "Tehran",
             cities: ["Ardakan", "Bafq", "Mehriz", "Meybod", "Taft", "Yazd"]),
-        State(name: "Yazd", cities: ["Alvand", "Khorramdarreh", "Zanjan"]),
-        State(name: "Zanjan", cities: [
+        States(name: "Yazd", cities: ["Alvand", "Khorramdarreh", "Zanjan"]),
+        States(name: "Zanjan", cities: [
           "Jurf-as-Sakhr",
           "Saddat-al-Hindiyah",
           "al-Hillah",
@@ -23644,10 +23644,10 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Babil", cities: ["Baghdad"]),
-        State(name: "Baghdad", cities: ["Dahuk", "Zakhu"]),
-        State(name: "Dahuk", cities: []),
-        State(name: "Dhi Qar", cities: [
+        States(name: "Babil", cities: ["Baghdad"]),
+        States(name: "Baghdad", cities: ["Dahuk", "Zakhu"]),
+        States(name: "Dahuk", cities: []),
+        States(name: "Dhi Qar", cities: [
           "Ba\\'\\'qubah",
           "Hanaqin",
           "Jalula",
@@ -23658,14 +23658,14 @@ final List<Country> countries = [
           "al-Miqdadiyah",
           "ash-Shatrah"
         ]),
-        State(name: "Diyala", cities: ["Ankawa"]),
-        State(name: "Erbil", cities: ["Chaqalawa", "Irbil", "Rawanduz"]),
-        State(name: "Irbil", cities: ["Karbala", "al-Hindiyah"]),
-        State(name: "Karbala", cities: ["Erbil"]),
-        State(
+        States(name: "Diyala", cities: ["Ankawa"]),
+        States(name: "Erbil", cities: ["Chaqalawa", "Irbil", "Rawanduz"]),
+        States(name: "Irbil", cities: ["Karbala", "al-Hindiyah"]),
+        States(name: "Karbala", cities: ["Erbil"]),
+        States(
             name: "Kurdistan",
             cities: ["Ali al Gharbi", "al-\\'\\'Amarah", "al-Majarr-al-Kabir"]),
-        State(name: "Maysan", cities: [
+        States(name: "Maysan", cities: [
           "Qarah Qush",
           "Sinjar",
           "Tall \\'\\'Afar",
@@ -23673,7 +23673,7 @@ final List<Country> countries = [
           "al-Mawsil",
           "ash-Shaykhan"
         ]),
-        State(name: "Ninawa", cities: [
+        States(name: "Ninawa", cities: [
           "Balad",
           "Bayji",
           "Dhalu\\'\\'iyah",
@@ -23682,14 +23682,14 @@ final List<Country> countries = [
           "Tuz",
           "ad-Dujayl"
         ]),
-        State(name: "Salah-ad-Din", cities: [
+        States(name: "Salah-ad-Din", cities: [
           "al-\\'\\'Aziziyah",
           "al-Hayy",
           "al-Kut",
           "an-Nu\\'\\'maniyah",
           "as-Suwayrah"
         ]),
-        State(name: "Wasit", cities: [
+        States(name: "Wasit", cities: [
           "Anah",
           "Hit",
           "Rawah",
@@ -23699,7 +23699,7 @@ final List<Country> countries = [
           "ar-Ramadi",
           "ar-Rutbah"
         ]),
-        State(name: "al-Anbar", cities: [
+        States(name: "al-Anbar", cities: [
           "Abu al-Khasib",
           "Harithah",
           "Shatt-al-\\'\\'Arab",
@@ -23708,8 +23708,8 @@ final List<Country> countries = [
           "al-Qurnah",
           "az-Zubayr"
         ]),
-        State(name: "al-Basrah", cities: ["ar-Rumaythah", "as-Samawah"]),
-        State(name: "al-Muthanna", cities: [
+        States(name: "al-Basrah", cities: ["ar-Rumaythah", "as-Samawah"]),
+        States(name: "al-Muthanna", cities: [
           "Afak",
           "ad-Diwaniyah",
           "al-Ghammas",
@@ -23717,10 +23717,10 @@ final List<Country> countries = [
           "ash-Shamiyah",
           "ash-Shinafiyah"
         ]),
-        State(
+        States(
             name: "al-Qadisiyah",
             cities: ["al-Kufah", "al-Mishkhab", "an-Najaf"]),
-        State(name: "an-Najaf", cities: [
+        States(name: "an-Najaf", cities: [
           "Chamchamal",
           "Halabjah",
           "Kusanjaq",
@@ -23728,8 +23728,8 @@ final List<Country> countries = [
           "Qal\\'\\'at Dizeh",
           "as-Sulaymaniyah"
         ]),
-        State(name: "as-Sulaymaniyah", cities: ["Aqrah", "Kirkuk"]),
-        State(name: "at-Ta\\'\\'mim", cities: ["Moira"])
+        States(name: "as-Sulaymaniyah", cities: ["Aqrah", "Kirkuk"]),
+        States(name: "at-Ta\\'\\'mim", cities: ["Moira"])
       ]),
   Country(
       name: "Ireland",
@@ -23739,18 +23739,18 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 9,
       states: [
-        State(name: "Armagh", cities: ["Bagenalstown", "Carlow", "Tullow"]),
-        State(
+        States(name: "Armagh", cities: ["Bagenalstown", "Carlow", "Tullow"]),
+        States(
             name: "Carlow",
             cities: ["Bailieborough", "Belturbet", "Cavan", "Coothill"]),
-        State(name: "Cavan", cities: [
+        States(name: "Cavan", cities: [
           "Ennis",
           "Kilkee",
           "Kilrush",
           "Newmarket-on-Fergus",
           "Shannon"
         ]),
-        State(name: "Clare", cities: [
+        States(name: "Clare", cities: [
           "Bandon",
           "Bantry",
           "Blarney",
@@ -23773,7 +23773,7 @@ final List<Country> countries = [
           "Skibbereen",
           "Youghal"
         ]),
-        State(name: "Cork", cities: [
+        States(name: "Cork", cities: [
           "Ballybofey",
           "Ballyshannon",
           "Buncrana",
@@ -23785,7 +23785,7 @@ final List<Country> countries = [
           "Lifford",
           "Moville"
         ]),
-        State(name: "Donegal", cities: [
+        States(name: "Donegal", cities: [
           "Balbriggan",
           "Ballsbridge",
           "Dublin",
@@ -23798,7 +23798,7 @@ final List<Country> countries = [
           "Skerries",
           "Swords"
         ]),
-        State(name: "Dublin", cities: [
+        States(name: "Dublin", cities: [
           "Athenry",
           "Ballinasloe",
           "Clifden",
@@ -23807,7 +23807,7 @@ final List<Country> countries = [
           "Loughrea",
           "Tuam"
         ]),
-        State(name: "Galway", cities: [
+        States(name: "Galway", cities: [
           "Ballybunion",
           "Cahirciveen",
           "Castleisland",
@@ -23818,7 +23818,7 @@ final List<Country> countries = [
           "Listowel",
           "Tralee"
         ]),
-        State(name: "Kerry", cities: [
+        States(name: "Kerry", cities: [
           "Athy",
           "Celbridge",
           "Clane",
@@ -23830,31 +23830,31 @@ final List<Country> countries = [
           "Naas",
           "Newbridge"
         ]),
-        State(
+        States(
             name: "Kildare",
             cities: ["Callan", "Castlecomer", "Kilkenny", "Thomastown"]),
-        State(name: "Kilkenny", cities: [
+        States(name: "Kilkenny", cities: [
           "Abbeyleix",
           "Mountmellick",
           "Mountrath",
           "Port Laoise",
           "Portarlington"
         ]),
-        State(name: "Laois", cities: ["Meath"]),
-        State(name: "Leinster", cities: ["Carrick-on-Shannon"]),
-        State(name: "Leitrim", cities: [
+        States(name: "Laois", cities: ["Meath"]),
+        States(name: "Leinster", cities: ["Carrick-on-Shannon"]),
+        States(name: "Leitrim", cities: [
           "Abbeyfeale",
           "Kilmallock",
           "Limerick",
           "Newcastle",
           "Rathkeale"
         ]),
-        State(name: "Limerick", cities: []),
-        State(name: "Loch Garman", cities: ["Granard", "Longford", "Moate"]),
-        State(
+        States(name: "Limerick", cities: []),
+        States(name: "Loch Garman", cities: ["Granard", "Longford", "Moate"]),
+        States(
             name: "Longford",
             cities: ["Ardee", "Drogheda", "Drumcar", "Dundalk"]),
-        State(name: "Louth", cities: [
+        States(name: "Louth", cities: [
           "Ballina",
           "Ballinrobe",
           "Ballyhaunis",
@@ -23863,7 +23863,7 @@ final List<Country> countries = [
           "Swinford",
           "Westport"
         ]),
-        State(name: "Mayo", cities: [
+        States(name: "Mayo", cities: [
           "Ashbourne",
           "Duleek",
           "Dunboyne",
@@ -23873,10 +23873,10 @@ final List<Country> countries = [
           "Navan",
           "Trim"
         ]),
-        State(
+        States(
             name: "Meath",
             cities: ["Carrickmacross", "Castleblayney", "Clones", "Monaghan"]),
-        State(name: "Monaghan", cities: [
+        States(name: "Monaghan", cities: [
           "Banagher",
           "Birr",
           "Clara",
@@ -23884,21 +23884,21 @@ final List<Country> countries = [
           "Kilcormac",
           "Tullamore"
         ]),
-        State(
+        States(
             name: "Offaly",
             cities: ["Ballaghaderreen", "Boyle", "Castlerea", "Roscommon"]),
-        State(name: "Roscommon", cities: ["Sligo"]),
-        State(name: "Sligo", cities: []),
-        State(name: "Tipperary North Riding", cities: []),
-        State(
+        States(name: "Roscommon", cities: ["Sligo"]),
+        States(name: "Sligo", cities: []),
+        States(name: "Tipperary North Riding", cities: []),
+        States(
             name: "Tipperary South Riding",
             cities: ["Co Tyrone", "Downpatrick"]),
-        State(name: "Ulster", cities: ["Dungarvan", "Tramore", "Waterford"]),
-        State(name: "Waterford", cities: ["Athlone", "Mullingar"]),
-        State(
+        States(name: "Ulster", cities: ["Dungarvan", "Tramore", "Waterford"]),
+        States(name: "Waterford", cities: ["Athlone", "Mullingar"]),
+        States(
             name: "Westmeath",
             cities: ["Enniscorthy", "Gorey", "New Ross", "Wexford"]),
-        State(name: "Wexford", cities: [
+        States(name: "Wexford", cities: [
           "Arklow",
           "Baltinglass",
           "Blessington",
@@ -23909,7 +23909,7 @@ final List<Country> countries = [
           "Rathdrum",
           "Wicklow"
         ]),
-        State(name: "Wicklow", cities: [])
+        States(name: "Wicklow", cities: [])
       ]),
   // Country(
   //   name: "Isle of Man",
@@ -23928,12 +23928,12 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Beit Hanania", cities: []),
-        State(name: "Ben Gurion Airport", cities: ["Bethlehem"]),
-        State(name: "Bethlehem", cities: ["Caesarea"]),
-        State(name: "Caesarea", cities: ["Petach Tikva", "Ramallah"]),
-        State(name: "Centre", cities: ["Gaza"]),
-        State(name: "Gaza", cities: [
+        States(name: "Beit Hanania", cities: []),
+        States(name: "Ben Gurion Airport", cities: ["Bethlehem"]),
+        States(name: "Bethlehem", cities: ["Caesarea"]),
+        States(name: "Caesarea", cities: ["Petach Tikva", "Ramallah"]),
+        States(name: "Centre", cities: ["Gaza"]),
+        States(name: "Gaza", cities: [
           "Arad",
           "Omer",
           "Ashdod",
@@ -23953,8 +23953,8 @@ final List<Country> countries = [
           "Yeroham",
           "kiryat Malachi"
         ]),
-        State(name: "Hadaron", cities: []),
-        State(name: "Haifa District", cities: [
+        States(name: "Hadaron", cities: []),
+        States(name: "Haifa District", cities: [
           "Be\\'\\'er Ya\\'\\'aqov",
           "Beit Shemesh",
           "Bene Beraq",
@@ -24001,7 +24001,7 @@ final List<Country> countries = [
           "Yavne",
           "Yehud"
         ]),
-        State(name: "Hamerkaz", cities: [
+        States(name: "Hamerkaz", cities: [
           "Afula",
           "Akko",
           "Arrabe",
@@ -24049,10 +24049,10 @@ final List<Country> countries = [
           "Zefat",
           "Zur Yigal"
         ]),
-        State(name: "Hazafon", cities: ["Hebron"]),
-        State(name: "Hebron", cities: ["Sgula"]),
-        State(name: "Jaffa", cities: ["Jerusalem"]),
-        State(name: "Jerusalem", cities: [
+        States(name: "Hazafon", cities: ["Hebron"]),
+        States(name: "Hebron", cities: ["Sgula"]),
+        States(name: "Jaffa", cities: ["Jerusalem"]),
+        States(name: "Jerusalem", cities: [
           "Ar\\'\\'ara",
           "Isifya",
           "Baqa al-Gharbiyyah",
@@ -24073,17 +24073,17 @@ final List<Country> countries = [
           "Umm-al-Fahm",
           "Zikhron Ya\\'\\'aqov"
         ]),
-        State(name: "Khefa", cities: []),
-        State(name: "Kiryat Yam", cities: []),
-        State(name: "Lower Galilee", cities: ["Qalqilya"]),
-        State(name: "Qalqilya", cities: []),
-        State(name: "Talme Elazar", cities: []),
-        State(name: "Tel Aviv", cities: ["Hadera", "Kiryag Bialik"]),
-        State(name: "Tsafon", cities: []),
-        State(
+        States(name: "Khefa", cities: []),
+        States(name: "Kiryat Yam", cities: []),
+        States(name: "Lower Galilee", cities: ["Qalqilya"]),
+        States(name: "Qalqilya", cities: []),
+        States(name: "Talme Elazar", cities: []),
+        States(name: "Tel Aviv", cities: ["Hadera", "Kiryag Bialik"]),
+        States(name: "Tsafon", cities: []),
+        States(
             name: "Umm El Fahem",
             cities: ["Bet Shemesh", "Mevasserat Ziyyon", "Yerushalayim"]),
-        State(name: "Yerushalayim", cities: ["Meta", "Miano"])
+        States(name: "Yerushalayim", cities: ["Meta", "Miano"])
       ]),
   Country(
       name: "Italy",
@@ -24093,7 +24093,7 @@ final List<Country> countries = [
       minLength: 13,
       maxLength: 13,
       states: [
-        State(name: "Abruzzi", cities: [
+        States(name: "Abruzzi", cities: [
           "Alba Adriatica",
           "Atessa",
           "Atri",
@@ -24125,7 +24125,7 @@ final List<Country> countries = [
           "Teramo",
           "Vasto"
         ]),
-        State(name: "Abruzzo", cities: [
+        States(name: "Abruzzo", cities: [
           "Agrigento",
           "Alessandria della Rocca",
           "Aragona",
@@ -24170,21 +24170,21 @@ final List<Country> countries = [
           "Siculiana",
           "Villafranca Sicula"
         ]),
-        State(
+        States(
             name: "Agrigento",
             cities: ["Castellazzo Bormida", "Gavi", "Villanova Monferrato"]),
-        State(name: "Alessandria", cities: ["Camerano", "Castelplanio"]),
-        State(name: "Ancona", cities: ["Capolona", "Montevarchi", "Subbiano"]),
-        State(name: "Arezzo", cities: []),
-        State(name: "Ascoli Piceno", cities: ["Buttigliera d\\'\\'Asti"]),
-        State(name: "Asti", cities: [
+        States(name: "Alessandria", cities: ["Camerano", "Castelplanio"]),
+        States(name: "Ancona", cities: ["Capolona", "Montevarchi", "Subbiano"]),
+        States(name: "Arezzo", cities: []),
+        States(name: "Ascoli Piceno", cities: ["Buttigliera d\\'\\'Asti"]),
+        States(name: "Asti", cities: [
           "Flumeri",
           "Nusco",
           "Prata di Principato Ultra",
           "Villanova del Battista"
         ]),
-        State(name: "Avellino", cities: []),
-        State(name: "Bari", cities: [
+        States(name: "Avellino", cities: []),
+        States(name: "Bari", cities: [
           "Avigliano",
           "Bernalda",
           "Ferrandina",
@@ -24199,11 +24199,11 @@ final List<Country> countries = [
           "Rionero in Vulture",
           "Venosa"
         ]),
-        State(
+        States(
             name: "Basilicata",
             cities: ["Belluno", "D\\'\\'alpago", "Longarone", "Pedavena"]),
-        State(name: "Belluno", cities: ["San Bartolomeo"]),
-        State(name: "Benevento", cities: [
+        States(name: "Belluno", cities: ["San Bartolomeo"]),
+        States(name: "Benevento", cities: [
           "",
           "Bagnatica",
           "Bergamo",
@@ -24233,14 +24233,14 @@ final List<Country> countries = [
           "Verdellino",
           "Zingonia"
         ]),
-        State(name: "Bergamo", cities: [
+        States(name: "Bergamo", cities: [
           "Camburzano",
           "Crevacuore",
           "Gaglianico",
           "Sandigliano",
           "Vigliano Biellese"
         ]),
-        State(name: "Biella", cities: [
+        States(name: "Biella", cities: [
           "Anzola dell\\'\\'Emilia",
           "Bologna",
           "Borgo Tossignano",
@@ -24251,8 +24251,8 @@ final List<Country> countries = [
           "Monterenzio",
           "Osteria Grande"
         ]),
-        State(name: "Bologna", cities: ["Frangarto"]),
-        State(name: "Bolzano", cities: [
+        States(name: "Bologna", cities: ["Frangarto"]),
+        States(name: "Bolzano", cities: [
           "Agnosine",
           "Brescia",
           "Capriano del Colle",
@@ -24280,8 +24280,8 @@ final List<Country> countries = [
           "Verolavecchia",
           "Visano"
         ]),
-        State(name: "Brescia", cities: ["San Donaci"]),
-        State(name: "Brindisi", cities: [
+        States(name: "Brescia", cities: ["San Donaci"]),
+        States(name: "Brindisi", cities: [
           "Acri",
           "Amantea",
           "Bagnara Calabra",
@@ -24329,7 +24329,7 @@ final List<Country> countries = [
           "Vibo Valentia",
           "Villa San Giovanni"
         ]),
-        State(name: "Calabria", cities: [
+        States(name: "Calabria", cities: [
           "Acerra",
           "Afragola",
           "Agropoli",
@@ -24476,10 +24476,10 @@ final List<Country> countries = [
           "Villaricca",
           "Volla"
         ]),
-        State(name: "Campania", cities: ["Cartoceto"]),
-        State(name: "Cartoceto", cities: ["Carinaro", "San Marco Evangelista"]),
-        State(name: "Caserta", cities: ["Fiandaca Di Acireale", "San Cono"]),
-        State(name: "Catania", cities: [
+        States(name: "Campania", cities: ["Cartoceto"]),
+        States(name: "Cartoceto", cities: ["Carinaro", "San Marco Evangelista"]),
+        States(name: "Caserta", cities: ["Fiandaca Di Acireale", "San Cono"]),
+        States(name: "Catania", cities: [
           "Altino",
           "Archi",
           "Ari",
@@ -24585,7 +24585,7 @@ final List<Country> countries = [
           "Villalfonsina",
           "Villamagna"
         ]),
-        State(name: "Chieti", cities: [
+        States(name: "Chieti", cities: [
           "Albavilla",
           "Cadorago",
           "Carimate",
@@ -24603,15 +24603,15 @@ final List<Country> countries = [
           "Turate",
           "Uggiate"
         ]),
-        State(name: "Como", cities: ["Corso del Tirreno", "Mangone"]),
-        State(name: "Cosenza", cities: [
+        States(name: "Como", cities: ["Corso del Tirreno", "Mangone"]),
+        States(name: "Cosenza", cities: [
           "Casalbuttano",
           "Casalmaggiore",
           "Castelverde",
           "Madignano",
           "Pieve San Giacomo"
         ]),
-        State(name: "Cremona", cities: [
+        States(name: "Cremona", cities: [
           "Bandito",
           "Bra",
           "Casalgrasso",
@@ -24622,7 +24622,7 @@ final List<Country> countries = [
           "Santa Vittoria d\\'\\'Alba",
           "Verduno"
         ]),
-        State(name: "Cuneo", cities: [
+        States(name: "Cuneo", cities: [
           "Alfonsine",
           "Argelato",
           "Argenta",
@@ -24731,26 +24731,26 @@ final List<Country> countries = [
           "Vignola",
           "Zola Predosa"
         ]),
-        State(name: "Emilia-Romagna", cities: ["Saint Agostino"]),
-        State(name: "Ferrara", cities: [
+        States(name: "Emilia-Romagna", cities: ["Saint Agostino"]),
+        States(name: "Ferrara", cities: [
           "Capalle",
           "Firenze",
           "Pelago",
           "San Donnino",
           "Scarperia"
         ]),
-        State(name: "Firenze", cities: ["Scandicci", "Sesto Fiorentino"]),
-        State(name: "Florence", cities: []),
-        State(name: "Forli-Cesena", cities: []),
-        State(
+        States(name: "Firenze", cities: ["Scandicci", "Sesto Fiorentino"]),
+        States(name: "Florence", cities: []),
+        States(name: "Forli-Cesena", cities: []),
+        States(
             name: "Friuli-Venezia Giulia",
             cities: ["Casalvieri", "Frosinone", "Sgurgola"]),
-        State(name: "Frosinone", cities: ["Genoa", "Moneglia"]),
-        State(
+        States(name: "Frosinone", cities: ["Genoa", "Moneglia"]),
+        States(
             name: "Genoa",
             cities: ["Romans d\\'\\'Isonzo", "Savogna d\\'\\'Isonzo"]),
-        State(name: "Gorizia", cities: ["Magliano de Marsi"]),
-        State(name: "L\\'\\'Aquila", cities: [
+        States(name: "Gorizia", cities: ["Magliano de Marsi"]),
+        States(name: "L\\'\\'Aquila", cities: [
           "Alatri",
           "Albano Laziale",
           "Anagni",
@@ -24831,8 +24831,8 @@ final List<Country> countries = [
           "Viterbo",
           "Zagarolo"
         ]),
-        State(name: "Lazio", cities: ["Acquarica del Capo"]),
-        State(name: "Lecce", cities: [
+        States(name: "Lazio", cities: ["Acquarica del Capo"]),
+        States(name: "Lecce", cities: [
           "Airuno",
           "Bosisio Parini",
           "Lecco",
@@ -24840,7 +24840,7 @@ final List<Country> countries = [
           "Osnago",
           "Sirone"
         ]),
-        State(name: "Lecco", cities: [
+        States(name: "Lecco", cities: [
           "Airuno",
           "Bosisio Parini",
           "Lecco",
@@ -24848,7 +24848,7 @@ final List<Country> countries = [
           "Osnago",
           "Sirone"
         ]),
-        State(name: "Lecco Province", cities: [
+        States(name: "Lecco Province", cities: [
           "Alassio",
           "Albenga",
           "Albisola Superiore",
@@ -24880,8 +24880,8 @@ final List<Country> countries = [
           "Varazze",
           "Ventimiglia"
         ]),
-        State(name: "Liguria", cities: ["Somaglia"]),
-        State(name: "Lodi", cities: [
+        States(name: "Liguria", cities: ["Somaglia"]),
+        States(name: "Lodi", cities: [
           "Abbiategrasso",
           "Agrate Brianza",
           "Albiate",
@@ -25137,7 +25137,7 @@ final List<Country> countries = [
           "Zibido San Giacomo",
           "Zogno"
         ]),
-        State(name: "Lombardia", cities: [
+        States(name: "Lombardia", cities: [
           "Barasso",
           "Bergamo",
           "Bolladello",
@@ -25152,8 +25152,8 @@ final List<Country> countries = [
           "Villongo",
           "milan"
         ]),
-        State(name: "Lombardy", cities: ["Colmurano", "Monte San Giusto"]),
-        State(name: "Macerata", cities: [
+        States(name: "Lombardy", cities: ["Colmurano", "Monte San Giusto"]),
+        States(name: "Macerata", cities: [
           "Castel",
           "Gazoldo",
           "Marmirolo",
@@ -25165,7 +25165,7 @@ final List<Country> countries = [
           "Roverbella",
           "Suzzara"
         ]),
-        State(name: "Mantova", cities: [
+        States(name: "Mantova", cities: [
           "Ancona",
           "Ascoli Piceno",
           "Barchi",
@@ -25211,8 +25211,8 @@ final List<Country> countries = [
           "Treia",
           "Urbino"
         ]),
-        State(name: "Marche", cities: ["Cumiana", "Giammoro"]),
-        State(name: "Messina", cities: [
+        States(name: "Marche", cities: ["Cumiana", "Giammoro"]),
+        States(name: "Messina", cities: [
           "Assago",
           "Besana in Brianza",
           "Biassono",
@@ -25239,7 +25239,7 @@ final List<Country> countries = [
           "Vaprio d\\'\\'Adda",
           "Vermezzo"
         ]),
-        State(name: "Milan", cities: [
+        States(name: "Milan", cities: [
           "Bomporto",
           "Campogalliano",
           "Cavezzo",
@@ -25249,7 +25249,7 @@ final List<Country> countries = [
           "Sassuolo",
           "Spilamberto"
         ]),
-        State(name: "Modena", cities: [
+        States(name: "Modena", cities: [
           "Bojano",
           "Campobasso",
           "Cantalupo",
@@ -25257,12 +25257,12 @@ final List<Country> countries = [
           "Termoli",
           "Venafro"
         ]),
-        State(name: "Molise", cities: []),
-        State(name: "Molteno", cities: ["Montenegro"]),
-        State(name: "Montenegro", cities: []),
-        State(name: "Monza and Brianza", cities: ["Forio d\\'\\'Ischia"]),
-        State(name: "Naples", cities: ["Bogogno", "Invorio", "Pombia"]),
-        State(name: "Novara", cities: [
+        States(name: "Molise", cities: []),
+        States(name: "Molteno", cities: ["Montenegro"]),
+        States(name: "Montenegro", cities: []),
+        States(name: "Monza and Brianza", cities: ["Forio d\\'\\'Ischia"]),
+        States(name: "Naples", cities: ["Bogogno", "Invorio", "Pombia"]),
+        States(name: "Novara", cities: [
           "Bagnoli di Sopra",
           "Bovolenta",
           "Casale Di Scodosia",
@@ -25278,7 +25278,7 @@ final List<Country> countries = [
           "Portogallo",
           "Tribano"
         ]),
-        State(name: "Padova", cities: [
+        States(name: "Padova", cities: [
           "Baganzola",
           "Busseto",
           "Casale Di Mezzani",
@@ -25286,17 +25286,17 @@ final List<Country> countries = [
           "Solignano",
           "Torrile"
         ]),
-        State(
+        States(
             name: "Parma",
             cities: ["Codevilla", "Marcignago", "Pavia", "Siziano"]),
-        State(name: "Pavia", cities: ["Pianello", "Ponte Felcino", "Zanica"]),
-        State(
+        States(name: "Pavia", cities: ["Pianello", "Ponte Felcino", "Zanica"]),
+        States(
             name: "Perugia",
             cities: ["Gradara", "Monte Porzio", "Pergola", "Tavullia"]),
-        State(
+        States(
             name: "Pesaro-Urbino",
             cities: ["Alseno", "Gossolengo", "Vigolzone"]),
-        State(name: "Piacenza", cities: [
+        States(name: "Piacenza", cities: [
           "Armeno",
           "Bergamasco",
           "Caselette",
@@ -25304,7 +25304,7 @@ final List<Country> countries = [
           "San Damiano",
           "Spinetta Marengo"
         ]),
-        State(name: "Piedmont", cities: [
+        States(name: "Piedmont", cities: [
           "Acqui Terme",
           "Alba",
           "Alessandria",
@@ -25394,10 +25394,10 @@ final List<Country> countries = [
           "Vinovo",
           "Volpiano"
         ]),
-        State(name: "Piemonte", cities: ["Perignano", "Ponte a Egola"]),
-        State(name: "Pisa", cities: ["San Quirino"]),
-        State(name: "Pordenone", cities: ["Latronico"]),
-        State(name: "Potenza", cities: [
+        States(name: "Piemonte", cities: ["Perignano", "Ponte a Egola"]),
+        States(name: "Pisa", cities: ["San Quirino"]),
+        States(name: "Pordenone", cities: ["Latronico"]),
+        States(name: "Potenza", cities: [
           "Acquaviva delle Fonti",
           "Adelfia",
           "Alberobello",
@@ -25525,19 +25525,19 @@ final List<Country> countries = [
           "Vieste",
           "Villa Castelli"
         ]),
-        State(name: "Puglia", cities: []),
-        State(
+        States(name: "Puglia", cities: []),
+        States(
             name: "Reggio Emilia",
             cities: ["San Giovanni in Marignano", "Torriana"]),
-        State(name: "Rimini", cities: ["Anzio"]),
-        State(name: "Roma", cities: [
+        States(name: "Rimini", cities: ["Anzio"]),
+        States(name: "Roma", cities: [
           "Atena Lucana",
           "Castel San Giorgio",
           "Fisciano",
           "Giungano",
           "Omignano"
         ]),
-        State(name: "Salerno", cities: [
+        States(name: "Salerno", cities: [
           "Alghero",
           "Arzachena",
           "Assemini",
@@ -25574,9 +25574,9 @@ final List<Country> countries = [
           "Tortoli",
           "Villacidro"
         ]),
-        State(name: "Sardegna", cities: ["Nule"]),
-        State(name: "Sassari", cities: ["Altare"]),
-        State(name: "Savona", cities: [
+        States(name: "Sardegna", cities: ["Nule"]),
+        States(name: "Sassari", cities: ["Altare"]),
+        States(name: "Savona", cities: [
           "Aci Castello",
           "Aci Catena",
           "Aci Sant\\'\\'Antonio",
@@ -25711,12 +25711,12 @@ final List<Country> countries = [
           "Vittoria",
           "Zafferana Etnea"
         ]),
-        State(name: "Sicilia", cities: ["Monteriggioni", "Monteroni d Arbia"]),
-        State(name: "Siena", cities: ["Delebio", "Talamona"]),
-        State(name: "Sondrio", cities: []),
-        State(name: "South Tyrol", cities: ["Faggiano", "Riva del Garda"]),
-        State(name: "Taranto", cities: ["Castilenti", "Controguerra"]),
-        State(name: "Teramo", cities: [
+        States(name: "Sicilia", cities: ["Monteriggioni", "Monteroni d Arbia"]),
+        States(name: "Siena", cities: ["Delebio", "Talamona"]),
+        States(name: "Sondrio", cities: []),
+        States(name: "South Tyrol", cities: ["Faggiano", "Riva del Garda"]),
+        States(name: "Taranto", cities: ["Castilenti", "Controguerra"]),
+        States(name: "Teramo", cities: [
           "Bruino",
           "Busano",
           "Buttigliera Alta",
@@ -25736,7 +25736,7 @@ final List<Country> countries = [
           "Villar Perosa",
           "Volpiano"
         ]),
-        State(name: "Torino", cities: [
+        States(name: "Torino", cities: [
           "Agliana",
           "Altopascio",
           "Anghiari",
@@ -25850,10 +25850,10 @@ final List<Country> countries = [
           "Vinci",
           "Volterra"
         ]),
-        State(name: "Toscana", cities: ["Guarrato"]),
-        State(name: "Trapani", cities: []),
-        State(name: "Trentino-Alto Adige", cities: ["San Giorgio", "Dro"]),
-        State(name: "Trento", cities: [
+        States(name: "Toscana", cities: ["Guarrato"]),
+        States(name: "Trapani", cities: []),
+        States(name: "Trentino-Alto Adige", cities: ["San Giorgio", "Dro"]),
+        States(name: "Trento", cities: [
           "Asolo",
           "Conegliano",
           "Cordignano",
@@ -25862,7 +25862,7 @@ final List<Country> countries = [
           "Possagno",
           "Revine Lago"
         ]),
-        State(name: "Treviso", cities: [
+        States(name: "Treviso", cities: [
           "Basiliano",
           "Bicinicco",
           "Buttrio",
@@ -25871,7 +25871,7 @@ final List<Country> countries = [
           "San Giovanni al Natisone",
           "Torreano"
         ]),
-        State(name: "Udine", cities: [
+        States(name: "Udine", cities: [
           "Amelia",
           "Assisi",
           "Bastia Umbra",
@@ -25894,8 +25894,8 @@ final List<Country> countries = [
           "Todi",
           "Umbertide"
         ]),
-        State(name: "Umbria", cities: []),
-        State(name: "Valle d\\'\\'Aosta", cities: [
+        States(name: "Umbria", cities: []),
+        States(name: "Valle d\\'\\'Aosta", cities: [
           "Arsago Seprio",
           "Busto Arsizio",
           "Cassano Magnago",
@@ -25906,7 +25906,7 @@ final List<Country> countries = [
           "Ternate",
           "Venegono Inferiore"
         ]),
-        State(name: "Varese", cities: [
+        States(name: "Varese", cities: [
           "Abano Terme",
           "Adria",
           "Albignasego",
@@ -26067,21 +26067,21 @@ final List<Country> countries = [
           "Zero Branco",
           "Zevio"
         ]),
-        State(
+        States(
             name: "Veneto",
             cities: ["Cona", "Marghera", "Oriago di Mira", "Tessera"]),
-        State(name: "Venezia", cities: ["Piedimulera"]),
-        State(
+        States(name: "Venezia", cities: ["Piedimulera"]),
+        States(
             name: "Verbano-Cusio-Ossola",
             cities: ["Crescentino", "Moncrivello", "Rovasenda", "Trino"]),
-        State(name: "Vercelli", cities: [
+        States(name: "Vercelli", cities: [
           "Valeggio Sul Mincio",
           "Cadidavid",
           "Colognola ai Colli",
           "Pastrengo",
           "Valgatara"
         ]),
-        State(name: "Verona", cities: [
+        States(name: "Verona", cities: [
           "Montebello Vicentino",
           "Alonte",
           "Arcugnano",
@@ -26105,8 +26105,8 @@ final List<Country> countries = [
           "Torri di Quartesolo",
           "Villaverla"
         ]),
-        State(name: "Vicenza", cities: ["Nepi"]),
-        State(name: "Viterbo", cities: [])
+        States(name: "Vicenza", cities: ["Nepi"]),
+        States(name: "Viterbo", cities: [])
       ]),
   Country(
       name: "Jamaica",
@@ -26116,21 +26116,21 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Buxoro Viloyati", cities: ["May Pen"]),
-        State(name: "Clarendon", cities: ["Lucea"]),
-        State(name: "Hanover", cities: ["Kingston"]),
-        State(name: "Kingston", cities: ["Mandeville"]),
-        State(name: "Manchester", cities: ["Port Antonio"]),
-        State(name: "Portland", cities: []),
-        State(name: "Saint Andrews", cities: []),
-        State(name: "Saint Ann", cities: []),
-        State(name: "Saint Catherine", cities: []),
-        State(name: "Saint Elizabeth", cities: []),
-        State(name: "Saint James", cities: []),
-        State(name: "Saint Mary", cities: []),
-        State(name: "Saint Thomas", cities: ["Albert Town", "Falmouth"]),
-        State(name: "Trelawney", cities: ["Savanna la Mar"]),
-        State(name: "Westmoreland", cities: [
+        States(name: "Buxoro Viloyati", cities: ["May Pen"]),
+        States(name: "Clarendon", cities: ["Lucea"]),
+        States(name: "Hanover", cities: ["Kingston"]),
+        States(name: "Kingston", cities: ["Mandeville"]),
+        States(name: "Manchester", cities: ["Port Antonio"]),
+        States(name: "Portland", cities: []),
+        States(name: "Saint Andrews", cities: []),
+        States(name: "Saint Ann", cities: []),
+        States(name: "Saint Catherine", cities: []),
+        States(name: "Saint Elizabeth", cities: []),
+        States(name: "Saint James", cities: []),
+        States(name: "Saint Mary", cities: []),
+        States(name: "Saint Thomas", cities: ["Albert Town", "Falmouth"]),
+        States(name: "Trelawney", cities: ["Savanna la Mar"]),
+        States(name: "Westmoreland", cities: [
           "Agui",
           "Anjo",
           "Atsumi",
@@ -26200,7 +26200,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Aichi", cities: [
+        States(name: "Aichi", cities: [
           "Akita",
           "Honjo",
           "Kazuno",
@@ -26214,7 +26214,7 @@ final List<Country> countries = [
           "Yokote",
           "Yuzawa"
         ]),
-        State(name: "Akita", cities: [
+        States(name: "Akita", cities: [
           "Aomori",
           "Goshogawara",
           "Hachinohe",
@@ -26227,7 +26227,7 @@ final List<Country> countries = [
           "Namioka",
           "Towada"
         ]),
-        State(name: "Aomori", cities: [
+        States(name: "Aomori", cities: [
           "Abiko",
           "Asahi",
           "Chiba",
@@ -26273,7 +26273,7 @@ final List<Country> countries = [
           "Yokaichiba",
           "Yotsukaido"
         ]),
-        State(name: "Chiba", cities: [
+        States(name: "Chiba", cities: [
           "Hojo",
           "Imabari",
           "Iyo",
@@ -26290,7 +26290,7 @@ final List<Country> countries = [
           "Uwajima",
           "Yawatahama"
         ]),
-        State(name: "Ehime", cities: [
+        States(name: "Ehime", cities: [
           "Fukui",
           "Harue",
           "Katsuyama",
@@ -26302,7 +26302,7 @@ final List<Country> countries = [
           "Takefu",
           "Tsuruga"
         ]),
-        State(name: "Fukui", cities: [
+        States(name: "Fukui", cities: [
           "Amagi",
           "Buzen",
           "Chikugo",
@@ -26347,7 +26347,7 @@ final List<Country> countries = [
           "Yanagawa",
           "Yukuhashi"
         ]),
-        State(name: "Fukuoka", cities: [
+        States(name: "Fukuoka", cities: [
           "Aizubange",
           "Aizuwakamatsu",
           "Fukushima",
@@ -26369,7 +26369,7 @@ final List<Country> countries = [
           "Sukagawa",
           "Yanagawa"
         ]),
-        State(name: "Fukushima", cities: [
+        States(name: "Fukushima", cities: [
           "Ena",
           "Gifu",
           "Ginan",
@@ -26395,7 +26395,7 @@ final List<Country> countries = [
           "Toki",
           "Yoro"
         ]),
-        State(name: "Gifu", cities: [
+        States(name: "Gifu", cities: [
           "Annaka",
           "Azuma",
           "Fujimi",
@@ -26421,7 +26421,7 @@ final List<Country> countries = [
           "Tomioka",
           "Yoshii"
         ]),
-        State(name: "Gumma", cities: [
+        States(name: "Gumma", cities: [
           "Fuchu",
           "Fukuyama",
           "Hatsukaichi",
@@ -26442,7 +26442,7 @@ final List<Country> countries = [
           "Shobara",
           "Takehara"
         ]),
-        State(name: "Hiroshima", cities: [
+        States(name: "Hiroshima", cities: [
           "Abashiri",
           "Akabira",
           "Asahikawa",
@@ -26491,7 +26491,7 @@ final List<Country> countries = [
           "Yoichi",
           "Yubari"
         ]),
-        State(name: "Hokkaido", cities: [
+        States(name: "Hokkaido", cities: [
           "Aioi",
           "Akashi",
           "Ako",
@@ -26525,7 +26525,7 @@ final List<Country> countries = [
           "Yashiro",
           "Yumesaki"
         ]),
-        State(name: "Hyogo", cities: [
+        States(name: "Hyogo", cities: [
           "Ami",
           "Chiyoda",
           "Daigo",
@@ -26575,7 +26575,7 @@ final List<Country> countries = [
           "Yasato",
           "Yuki"
         ]),
-        State(name: "Ibaraki", cities: [
+        States(name: "Ibaraki", cities: [
           "Hakui",
           "Kaga",
           "Kanazawa",
@@ -26589,7 +26589,7 @@ final List<Country> countries = [
           "Uchinada",
           "Wajima"
         ]),
-        State(name: "Ishikawa", cities: [
+        States(name: "Ishikawa", cities: [
           "Daito",
           "Esashi",
           "Hanamaki",
@@ -26613,7 +26613,7 @@ final List<Country> countries = [
           "Yahaba",
           "Yamada"
         ]),
-        State(name: "Iwate", cities: [
+        States(name: "Iwate", cities: [
           "Kagawa",
           "Kanonji",
           "Kokubunji",
@@ -26627,7 +26627,7 @@ final List<Country> countries = [
           "Tonosho",
           "Zentsuji"
         ]),
-        State(name: "Kagawa", cities: [
+        States(name: "Kagawa", cities: [
           "Aira",
           "Akune",
           "Hayato",
@@ -26649,7 +26649,7 @@ final List<Country> countries = [
           "Sueyoshi",
           "Tarumizu"
         ]),
-        State(name: "Kagoshima", cities: [
+        States(name: "Kagoshima", cities: [
           "Aikawa",
           "Atsugi",
           "Ayase",
@@ -26680,8 +26680,8 @@ final List<Country> countries = [
           "Zama",
           "Zushi"
         ]),
-        State(name: "Kanagawa", cities: ["Gunma", "Saitama"]),
-        State(name: "Kanto", cities: [
+        States(name: "Kanagawa", cities: ["Gunma", "Saitama"]),
+        States(name: "Kanto", cities: [
           "Aki",
           "Ino",
           "Kochi",
@@ -26694,7 +26694,7 @@ final List<Country> countries = [
           "Tosashimizu",
           "Tosayamada"
         ]),
-        State(name: "Kochi", cities: [
+        States(name: "Kochi", cities: [
           "Arao",
           "Ashikita",
           "Aso",
@@ -26717,7 +26717,7 @@ final List<Country> countries = [
           "Yamaga",
           "Yatsushiro"
         ]),
-        State(name: "Kumamoto", cities: [
+        States(name: "Kumamoto", cities: [
           "Ayabe",
           "Fukuchiyama",
           "Joyo",
@@ -26734,7 +26734,7 @@ final List<Country> countries = [
           "Uji",
           "Yawata"
         ]),
-        State(name: "Kyoto", cities: [
+        States(name: "Kyoto", cities: [
           "Ago",
           "Hisai",
           "Ise",
@@ -26753,7 +26753,7 @@ final List<Country> countries = [
           "Ueno",
           "Yokkaichi"
         ]),
-        State(name: "Mie", cities: [
+        States(name: "Mie", cities: [
           "Furukawa",
           "Hasama",
           "Ishinomaki",
@@ -26777,7 +26777,7 @@ final List<Country> countries = [
           "Watari",
           "Yamoto"
         ]),
-        State(name: "Miyagi", cities: [
+        States(name: "Miyagi", cities: [
           "Ebino",
           "Hyuga",
           "Kiyotake",
@@ -26794,7 +26794,7 @@ final List<Country> countries = [
           "Shintomi",
           "Takanabe"
         ]),
-        State(name: "Miyazaki", cities: [
+        States(name: "Miyazaki", cities: [
           "Chino",
           "Hotaka",
           "Iida",
@@ -26820,7 +26820,7 @@ final List<Country> countries = [
           "Toyoshina",
           "Ueda"
         ]),
-        State(name: "Nagano", cities: [
+        States(name: "Nagano", cities: [
           "Fukue",
           "Hirado",
           "Isahaya",
@@ -26832,7 +26832,7 @@ final List<Country> countries = [
           "Shimabara",
           "Togitsu"
         ]),
-        State(name: "Nagasaki", cities: [
+        States(name: "Nagasaki", cities: [
           "Gojo",
           "Gose",
           "Haibara",
@@ -26854,7 +26854,7 @@ final List<Country> countries = [
           "Yamatokoriyama",
           "Yamatotakada"
         ]),
-        State(name: "Nara", cities: [
+        States(name: "Nara", cities: [
           "Arai",
           "Fuchu",
           "Gosen",
@@ -26886,7 +26886,7 @@ final List<Country> countries = [
           "Tsubame",
           "Yoshida"
         ]),
-        State(name: "Niigata", cities: [
+        States(name: "Niigata", cities: [
           "Beppu",
           "Bungotakada",
           "Hiji",
@@ -26901,7 +26901,7 @@ final List<Country> countries = [
           "Usa",
           "Usuki"
         ]),
-        State(name: "Oita", cities: [
+        States(name: "Oita", cities: [
           "Bizen",
           "Ibara",
           "Kamogata",
@@ -26916,7 +26916,7 @@ final List<Country> countries = [
           "Tamano",
           "Tsuyama"
         ]),
-        State(name: "Okayama", cities: [
+        States(name: "Okayama", cities: [
           "Chatan",
           "Ginowan",
           "Gushikawa",
@@ -26933,7 +26933,7 @@ final List<Country> countries = [
           "Urasoe",
           "Yomitan"
         ]),
-        State(name: "Okinawa", cities: [
+        States(name: "Okinawa", cities: [
           "Daito",
           "Fujiidera",
           "Habikino",
@@ -26974,7 +26974,7 @@ final List<Country> countries = [
           "Toyono",
           "Yao"
         ]),
-        State(name: "Osaka", cities: [
+        States(name: "Osaka", cities: [
           "Imari",
           "Kanzaki",
           "Karatsu",
@@ -26987,7 +26987,7 @@ final List<Country> countries = [
           "Ureshino",
           "Yamato"
         ]),
-        State(name: "Saga", cities: [
+        States(name: "Saga", cities: [
           "Ageo",
           "Asaka",
           "Chichibu",
@@ -27055,7 +27055,7 @@ final List<Country> countries = [
           "Yoshikawa",
           "Yoshimi"
         ]),
-        State(name: "Saitama", cities: [
+        States(name: "Saitama", cities: [
           "Hikone",
           "Hino",
           "Konan",
@@ -27072,7 +27072,7 @@ final List<Country> countries = [
           "Yasu",
           "Yokaichi"
         ]),
-        State(name: "Shiga", cities: [
+        States(name: "Shiga", cities: [
           "Gotsu",
           "Hamada",
           "Hikawa",
@@ -27083,7 +27083,7 @@ final List<Country> countries = [
           "Oda",
           "Yasugi"
         ]),
-        State(name: "Shimane", cities: [
+        States(name: "Shimane", cities: [
           "Asaba",
           "Atami",
           "Daito",
@@ -27122,7 +27122,7 @@ final List<Country> countries = [
           "Yaizu",
           "Yoshida"
         ]),
-        State(name: "Shizuoka", cities: [
+        States(name: "Shizuoka", cities: [
           "Ashikaga",
           "Fujioka",
           "Imaichi",
@@ -27152,7 +27152,7 @@ final List<Country> countries = [
           "Utsunomiya",
           "Yaita"
         ]),
-        State(name: "Tochigi", cities: [
+        States(name: "Tochigi", cities: [
           "Aizumi",
           "Anan",
           "Ikeda",
@@ -27164,7 +27164,7 @@ final List<Country> countries = [
           "Tokushima",
           "Waki"
         ]),
-        State(name: "Tokushima", cities: [
+        States(name: "Tokushima", cities: [
           "Akiruno",
           "Akishima",
           "Chofu",
@@ -27194,10 +27194,10 @@ final List<Country> countries = [
           "Tanashi",
           "Tokyo"
         ]),
-        State(
+        States(
             name: "Tokyo",
             cities: ["Kurayoshi", "Sakaiminato", "Tottori", "Yonago"]),
-        State(name: "Tottori", cities: [
+        States(name: "Tottori", cities: [
           "Fukumitsu",
           "Himi",
           "Kamiichi",
@@ -27215,7 +27215,7 @@ final List<Country> countries = [
           "Uozu",
           "Yatsuo"
         ]),
-        State(name: "Toyama", cities: [
+        States(name: "Toyama", cities: [
           "Arida",
           "Gobo",
           "Hashimoto",
@@ -27228,7 +27228,7 @@ final List<Country> countries = [
           "Tanabe",
           "Wakayama"
         ]),
-        State(name: "Wakayama", cities: [
+        States(name: "Wakayama", cities: [
           "Higashine",
           "Kahoku",
           "Kaminoyama",
@@ -27248,7 +27248,7 @@ final List<Country> countries = [
           "Yonezawa",
           "Yuza"
         ]),
-        State(name: "Yamagata", cities: [
+        States(name: "Yamagata", cities: [
           "Hagi",
           "Hikari",
           "Hofu",
@@ -27267,7 +27267,7 @@ final List<Country> countries = [
           "Yamaguchi",
           "Yanai"
         ]),
-        State(name: "Yamaguchi", cities: [
+        States(name: "Yamaguchi", cities: [
           "Enzan",
           "Fujiyoshida",
           "Isawa",
@@ -27279,7 +27279,7 @@ final List<Country> countries = [
           "Uenohara",
           "Yamanashi"
         ]),
-        State(name: "Yamanashi", cities: ["Grouville"])
+        States(name: "Yamanashi", cities: ["Grouville"])
       ]),
   Country(
       name: "Jersey",
@@ -27290,17 +27290,17 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Grouville", cities: []),
-        State(name: "Saint Brelade", cities: []),
-        State(name: "Saint Clement", cities: []),
-        State(name: "Saint Helier", cities: []),
-        State(name: "Saint John", cities: []),
-        State(name: "Saint Lawrence", cities: []),
-        State(name: "Saint Martin", cities: []),
-        State(name: "Saint Mary", cities: []),
-        State(name: "Saint Peter", cities: []),
-        State(name: "Saint Saviour", cities: ["Trinity"]),
-        State(name: "Trinity", cities: [
+        States(name: "Grouville", cities: []),
+        States(name: "Saint Brelade", cities: []),
+        States(name: "Saint Clement", cities: []),
+        States(name: "Saint Helier", cities: []),
+        States(name: "Saint John", cities: []),
+        States(name: "Saint Lawrence", cities: []),
+        States(name: "Saint Martin", cities: []),
+        States(name: "Saint Mary", cities: []),
+        States(name: "Saint Peter", cities: []),
+        States(name: "Saint Saviour", cities: ["Trinity"]),
+        States(name: "Trinity", cities: [
           "Abbin",
           "Ajlun",
           "Anjarah",
@@ -27321,7 +27321,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Ajlun", cities: [
+        States(name: "Ajlun", cities: [
           "Abu \\'\\'Alanda",
           "Amman",
           "Askan Abu Nusayr",
@@ -27352,7 +27352,7 @@ final List<Country> countries = [
           "at-Talbiyah",
           "at-Taybah"
         ]),
-        State(name: "Amman", cities: [
+        States(name: "Amman", cities: [
           "Al\\'\\'al",
           "Anbah",
           "Arhaba",
@@ -27411,7 +27411,7 @@ final List<Country> countries = [
           "at-Taybah",
           "at-Turrah"
         ]),
-        State(name: "Irbid", cities: [
+        States(name: "Irbid", cities: [
           "Balila",
           "Burma",
           "Jarash",
@@ -27424,7 +27424,7 @@ final List<Country> countries = [
           "Suf",
           "al-Kattah"
         ]),
-        State(name: "Jarash", cities: [
+        States(name: "Jarash", cities: [
           "Bayar",
           "Ma\\'\\'an",
           "Wadi Musa",
@@ -27432,15 +27432,15 @@ final List<Country> countries = [
           "al-Jafar",
           "at-Taybah"
         ]),
-        State(name: "Ma\\'\\'an", cities: [
+        States(name: "Ma\\'\\'an", cities: [
           "Dhiban",
           "Ma\\'\\'in",
           "Madaba",
           "Mulayh",
           "al-Faysaliyah"
         ]),
-        State(name: "Madaba", cities: ["al-\\'\\'Aqabah", "al-Quwayrah"]),
-        State(name: "al-\\'\\'Aqabah", cities: [
+        States(name: "Madaba", cities: ["al-\\'\\'Aqabah", "al-Quwayrah"]),
+        States(name: "al-\\'\\'Aqabah", cities: [
           "Ayn al-Basha",
           "Darar",
           "Juwafat al-Kafrayn",
@@ -27459,7 +27459,7 @@ final List<Country> countries = [
           "at-Tawal al-Janubi",
           "at-Tuwal ash-Shamali"
         ]),
-        State(name: "al-Balqa", cities: [
+        States(name: "al-Balqa", cities: [
           "Ayy",
           "Adar",
           "Faqqu",
@@ -27476,7 +27476,7 @@ final List<Country> countries = [
           "ash-Shahabiyah",
           "at-Taybah"
         ]),
-        State(name: "al-Karak", cities: [
+        States(name: "al-Karak", cities: [
           "Badiyat ar-Ruwayshid",
           "Bal\\'\\'ama",
           "Manshiyat Bani Hassan",
@@ -27491,14 +27491,14 @@ final List<Country> countries = [
           "ar-Ruwayshid",
           "az-Za\\'\\'tari"
         ]),
-        State(name: "al-Mafraq", cities: [
+        States(name: "al-Mafraq", cities: [
           "Busayrah",
           "al-\\'\\'Ayn al-Bayda",
           "al-Hasa",
           "al-Qadisiyah",
           "at-Tafilah"
         ]),
-        State(name: "at-Tafilah", cities: [
+        States(name: "at-Tafilah", cities: [
           "Iskan al-Hashamiyah",
           "Mushayrfat Ras al-\\'\\'Ayn",
           "Shnillar",
@@ -27509,7 +27509,7 @@ final List<Country> countries = [
           "as-Sukhnah",
           "az-Zarqa"
         ]),
-        State(name: "az-Zarqa", cities: [
+        States(name: "az-Zarqa", cities: [
           "Akmecet",
           "Aral",
           "Baykonir",
@@ -27529,7 +27529,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Akmecet", cities: [
+        States(name: "Akmecet", cities: [
           "Aksu",
           "Alekseevka",
           "Astana",
@@ -27542,7 +27542,7 @@ final List<Country> countries = [
           "Makin",
           "Stepnogorsk"
         ]),
-        State(name: "Akmola", cities: [
+        States(name: "Akmola", cities: [
           "Aktobe",
           "Alka",
           "Batamsi",
@@ -27554,7 +27554,7 @@ final List<Country> countries = [
           "Subarsi",
           "Temir"
         ]),
-        State(name: "Aktobe", cities: [
+        States(name: "Aktobe", cities: [
           "Almati",
           "Almaty",
           "Boralday",
@@ -27575,7 +27575,7 @@ final List<Country> countries = [
           "Ustobe",
           "Uzunagac"
         ]),
-        State(name: "Almati", cities: [
+        States(name: "Almati", cities: [
           "Atirau",
           "Atyrau",
           "Dossor",
@@ -27586,9 +27586,9 @@ final List<Country> countries = [
           "Oporni",
           "Sumisker"
         ]),
-        State(name: "Atirau", cities: []),
-        State(name: "Batis Kazakstan", cities: []),
-        State(name: "Burlinsky Region", cities: [
+        States(name: "Atirau", cities: []),
+        States(name: "Batis Kazakstan", cities: []),
+        States(name: "Burlinsky Region", cities: [
           "Abay",
           "Akadir",
           "Aktas",
@@ -27612,7 +27612,7 @@ final List<Country> countries = [
           "Temirtau",
           "Tokaryovka"
         ]),
-        State(name: "Karagandi", cities: [
+        States(name: "Karagandi", cities: [
           "Arkalik",
           "Borovskoy",
           "Cetikara",
@@ -27629,7 +27629,7 @@ final List<Country> countries = [
           "Uritsk",
           "Zatobolsk"
         ]),
-        State(name: "Kostanay", cities: [
+        States(name: "Kostanay", cities: [
           "Aktau",
           "Beyneu",
           "Canaozen",
@@ -27639,8 +27639,8 @@ final List<Country> countries = [
           "Mangyslak",
           "Setpe"
         ]),
-        State(name: "Mankistau", cities: []),
-        State(name: "Ontustik Kazakstan", cities: [
+        States(name: "Mankistau", cities: []),
+        States(name: "Ontustik Kazakstan", cities: [
           "Ekibastuz",
           "Ermak",
           "Ertis",
@@ -27649,9 +27649,9 @@ final List<Country> countries = [
           "Pavlodar",
           "Sarbakti"
         ]),
-        State(name: "Pavlodar", cities: []),
-        State(name: "Sigis Kazakstan", cities: []),
-        State(name: "Soltustik Kazakstan", cities: [
+        States(name: "Pavlodar", cities: []),
+        States(name: "Sigis Kazakstan", cities: []),
+        States(name: "Soltustik Kazakstan", cities: [
           "Canatas",
           "Georgiyev",
           "Karatau",
@@ -27662,7 +27662,7 @@ final List<Country> countries = [
           "Su",
           "Taraz"
         ]),
-        State(name: "Taraz", cities: [
+        States(name: "Taraz", cities: [
           "Gilgil",
           "Karatina",
           "Kiambu",
@@ -27686,7 +27686,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Central", cities: [
+        States(name: "Central", cities: [
           "Changamwe",
           "Garsen",
           "Gazi",
@@ -27708,7 +27708,7 @@ final List<Country> countries = [
           "Witu",
           "Wundanyi"
         ]),
-        State(name: "Coast", cities: [
+        States(name: "Coast", cities: [
           "Athi River",
           "Chuka",
           "Embu",
@@ -27722,16 +27722,16 @@ final List<Country> countries = [
           "Moyale",
           "Mutomo"
         ]),
-        State(name: "Eastern", cities: ["Nairobi"]),
-        State(name: "Nairobi", cities: []),
-        State(
+        States(name: "Eastern", cities: ["Nairobi"]),
+        States(name: "Nairobi", cities: []),
+        States(
             name: "North Eastern",
             cities: ["Homa Bay", "Kisii", "Kisumu", "Migori"]),
-        State(name: "Nyanza", cities: []),
-        State(
+        States(name: "Nyanza", cities: []),
+        States(
             name: "Rift Valley",
             cities: ["Bungoma", "Busia", "Kakamega", "Mumias", "Webuye"]),
-        State(name: "Western", cities: ["Taburao"])
+        States(name: "Western", cities: ["Taburao"])
       ]),
   Country(
       name: "Kiribati",
@@ -27741,29 +27741,29 @@ final List<Country> countries = [
       minLength: 5,
       maxLength: 5,
       states: [
-        State(name: "Abaiang", cities: ["Binoinano"]),
-        State(name: "Abemana", cities: ["Takaeang"]),
-        State(name: "Aranuka", cities: ["Roreti"]),
-        State(name: "Arorae", cities: ["Ooma"]),
-        State(name: "Banaba", cities: ["Tabukiniberu"]),
-        State(name: "Beru", cities: ["Butaritari"]),
-        State(name: "Butaritari", cities: ["London"]),
-        State(name: "Kiritimati", cities: ["Tabontebike"]),
-        State(name: "Kuria", cities: ["Tabiauea"]),
-        State(name: "Maiana", cities: ["Makin"]),
-        State(name: "Makin", cities: ["Rawannawi"]),
-        State(name: "Marakei", cities: ["Rungata"]),
-        State(name: "Nikunau", cities: ["Temaraia"]),
-        State(name: "Nonouti", cities: ["Ijaki"]),
-        State(name: "Onotoa", cities: []),
-        State(name: "Phoenix Islands", cities: []),
-        State(name: "Tabiteuea North", cities: []),
-        State(name: "Tabiteuea South", cities: ["Nabari"]),
-        State(name: "Tabuaeran", cities: ["Abaokoro"]),
-        State(name: "Tamana", cities: []),
-        State(name: "Tarawa North", cities: []),
-        State(name: "Tarawa South", cities: ["Washington"]),
-        State(name: "Teraina", cities: ["Kanggye"])
+        States(name: "Abaiang", cities: ["Binoinano"]),
+        States(name: "Abemana", cities: ["Takaeang"]),
+        States(name: "Aranuka", cities: ["Roreti"]),
+        States(name: "Arorae", cities: ["Ooma"]),
+        States(name: "Banaba", cities: ["Tabukiniberu"]),
+        States(name: "Beru", cities: ["Butaritari"]),
+        States(name: "Butaritari", cities: ["London"]),
+        States(name: "Kiritimati", cities: ["Tabontebike"]),
+        States(name: "Kuria", cities: ["Tabiauea"]),
+        States(name: "Maiana", cities: ["Makin"]),
+        States(name: "Makin", cities: ["Rawannawi"]),
+        States(name: "Marakei", cities: ["Rungata"]),
+        States(name: "Nikunau", cities: ["Temaraia"]),
+        States(name: "Nonouti", cities: ["Ijaki"]),
+        States(name: "Onotoa", cities: []),
+        States(name: "Phoenix Islands", cities: []),
+        States(name: "Tabiteuea North", cities: []),
+        States(name: "Tabiteuea South", cities: ["Nabari"]),
+        States(name: "Tabuaeran", cities: ["Abaokoro"]),
+        States(name: "Tamana", cities: []),
+        States(name: "Tarawa North", cities: []),
+        States(name: "Tarawa South", cities: ["Washington"]),
+        States(name: "Teraina", cities: ["Kanggye"])
       ]),
   Country(
       name: "Korea, Democratic People's Republic of Korea",
@@ -27773,18 +27773,18 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Chagangdo", cities: ["Cheongjin", "Kimchaek", "Najin"]),
-        State(name: "Hamgyeongbukto", cities: ["Hamheung"]),
-        State(name: "Hamgyeongnamdo", cities: ["Sariweon", "Seongnim"]),
-        State(name: "Hwanghaebukto", cities: ["Haeju"]),
-        State(name: "Hwanghaenamdo", cities: ["Kaeseong"]),
-        State(name: "Kaeseong", cities: ["Weonsan"]),
-        State(name: "Kangweon", cities: ["Nampo"]),
-        State(name: "Nampo", cities: ["Sineuiju"]),
-        State(name: "Pyeonganbukto", cities: ["Phyeongseong"]),
-        State(name: "Pyeongannamdo", cities: ["Pyeongyang", "Pyongyang"]),
-        State(name: "Pyeongyang", cities: ["Hyesan"]),
-        State(name: "Yanggang", cities: ["Busan"])
+        States(name: "Chagangdo", cities: ["Cheongjin", "Kimchaek", "Najin"]),
+        States(name: "Hamgyeongbukto", cities: ["Hamheung"]),
+        States(name: "Hamgyeongnamdo", cities: ["Sariweon", "Seongnim"]),
+        States(name: "Hwanghaebukto", cities: ["Haeju"]),
+        States(name: "Hwanghaenamdo", cities: ["Kaeseong"]),
+        States(name: "Kaeseong", cities: ["Weonsan"]),
+        States(name: "Kangweon", cities: ["Nampo"]),
+        States(name: "Nampo", cities: ["Sineuiju"]),
+        States(name: "Pyeonganbukto", cities: ["Phyeongseong"]),
+        States(name: "Pyeongannamdo", cities: ["Pyeongyang", "Pyongyang"]),
+        States(name: "Pyeongyang", cities: ["Hyesan"]),
+        States(name: "Yanggang", cities: ["Busan"])
       ]),
   Country(
       name: "Korea, Republic of South Korea",
@@ -27794,8 +27794,8 @@ final List<Country> countries = [
       minLength: 11,
       maxLength: 11,
       states: [
-        State(name: "Busan", cities: ["Aeweol", "Cheju", "Seogwipo"]),
-        State(name: "Cheju", cities: [
+        States(name: "Busan", cities: ["Aeweol", "Cheju", "Seogwipo"]),
+        States(name: "Cheju", cities: [
           "Cheonju",
           "Chongup",
           "Iksan",
@@ -27805,7 +27805,7 @@ final List<Country> countries = [
           "Namwon",
           "Puan"
         ]),
-        State(name: "Chollabuk", cities: [
+        States(name: "Chollabuk", cities: [
           "Haenam",
           "Hwasun",
           "Kwangyang",
@@ -27818,14 +27818,14 @@ final List<Country> countries = [
           "Yeosu",
           "Yonggwang"
         ]),
-        State(name: "Chollanam", cities: [
+        States(name: "Chollanam", cities: [
           "Cheongwon-gun",
           "Eumsung-Kun",
           "Jinchunkun",
           "Okcheon-gun",
           "Um Sung Gun"
         ]),
-        State(name: "Chungbuk", cities: [
+        States(name: "Chungbuk", cities: [
           "Chechon",
           "Cheongju",
           "Chincheon",
@@ -27834,7 +27834,7 @@ final List<Country> countries = [
           "Okchon",
           "Yongdong"
         ]),
-        State(name: "Chungcheongbuk", cities: [
+        States(name: "Chungcheongbuk", cities: [
           "Asan",
           "Cheonan",
           "Chochiwon",
@@ -27853,15 +27853,15 @@ final List<Country> countries = [
           "Yesan",
           "Yonmu"
         ]),
-        State(
+        States(
             name: "Chungcheongnam",
             cities: ["Chonan", "Danjin-gun", "Gongjusi"]),
-        State(name: "Chungnam", cities: ["Daegu", "Dalseo-gu"]),
-        State(
+        States(name: "Chungnam", cities: ["Daegu", "Dalseo-gu"]),
+        States(
             name: "Daegu",
             cities: ["Chungcheong", "Hoengseong", "Mummakeup", "Wonju"]),
-        State(name: "Gangwon-do", cities: ["Gimhae", "Goyang-si"]),
-        State(name: "Goyang-si", cities: [
+        States(name: "Gangwon-do", cities: ["Gimhae", "Goyang-si"]),
+        States(name: "Goyang-si", cities: [
           "Ansan",
           "Anyang",
           "Anyang-Si",
@@ -27892,14 +27892,14 @@ final List<Country> countries = [
           "Yangpyeong-Gun",
           "Yeokbuk-Dong-Si"
         ]),
-        State(name: "Gyeonggi-do", cities: []),
-        State(name: "Gyeongsang", cities: ["Changwon", "Gimhae-si"]),
-        State(
+        States(name: "Gyeonggi-do", cities: []),
+        States(name: "Gyeongsang", cities: ["Changwon", "Gimhae-si"]),
+        States(
             name: "Gyeongsangnam-do",
             cities: ["Incheon", "Kanghwa", "Namdongku"]),
-        State(name: "Incheon", cities: ["Jeju", "Yeongpyeong-Dong"]),
-        State(name: "Jeju-Si", cities: ["Jeonju-Si"]),
-        State(name: "Jeonbuk", cities: [
+        States(name: "Incheon", cities: ["Jeju", "Yeongpyeong-Dong"]),
+        States(name: "Jeju-Si", cities: ["Jeonju-Si"]),
+        States(name: "Jeonbuk", cities: [
           "Chuncheon",
           "Hongcheon",
           "Kangneung",
@@ -27910,8 +27910,8 @@ final List<Country> countries = [
           "Weonju",
           "Yeongweol"
         ]),
-        State(name: "Kangweon", cities: ["Kwangju"]),
-        State(name: "Kwangju", cities: [
+        States(name: "Kangweon", cities: ["Kwangju"]),
+        States(name: "Kwangju", cities: [
           "Ansan",
           "Anseong",
           "Anyang",
@@ -27949,7 +27949,7 @@ final List<Country> countries = [
           "Yeoju",
           "Yongin"
         ]),
-        State(name: "Kyeonggi", cities: [
+        States(name: "Kyeonggi", cities: [
           "Andong",
           "Angang",
           "Hayang",
@@ -27970,7 +27970,7 @@ final List<Country> countries = [
           "Yeongju",
           "Yeonil"
         ]),
-        State(name: "Kyeongsangbuk", cities: [
+        States(name: "Kyeongsangbuk", cities: [
           "Changweon",
           "Chinhae",
           "Chinju",
@@ -27989,7 +27989,7 @@ final List<Country> countries = [
           "Yangju",
           "Yangsan"
         ]),
-        State(name: "Kyeongsangnam", cities: [
+        States(name: "Kyeongsangnam", cities: [
           "Anyang-Si",
           "Bucheon",
           "Paju",
@@ -27998,21 +27998,21 @@ final List<Country> countries = [
           "Uijongbu",
           "Yangju"
         ]),
-        State(
+        States(
             name: "Kyonggi-do",
             cities: ["Gumi-Shi", "Kyungsan", "Youngcheon-Si"]),
-        State(name: "Kyungbuk-Do", cities: ["Bundang", "Gunpo", "Yangu"]),
-        State(name: "Kyunggi-Do", cities: ["Pochun", "Yangju", "Yonggi"]),
-        State(name: "Kyunggi-do", cities: ["Kijang", "Pusan"]),
-        State(name: "Pusan", cities: ["Seoul"]),
-        State(name: "Seoul", cities: ["Paju"]),
-        State(name: "Sudogwon", cities: ["Hwawon", "Taegu"]),
-        State(name: "Taegu", cities: ["Taejeon"]),
-        State(name: "Taejeon", cities: ["Daejeon"]),
-        State(name: "Taejon-gwangyoksi", cities: ["Nongso", "Ulsan"]),
-        State(name: "Ulsan", cities: ["Heungup-Myun"]),
-        State(name: "Wonju", cities: ["Inchon", "Pusan", "Taejon"]),
-        State(name: "gwangyoksi", cities: [])
+        States(name: "Kyungbuk-Do", cities: ["Bundang", "Gunpo", "Yangu"]),
+        States(name: "Kyunggi-Do", cities: ["Pochun", "Yangju", "Yonggi"]),
+        States(name: "Kyunggi-do", cities: ["Kijang", "Pusan"]),
+        States(name: "Pusan", cities: ["Seoul"]),
+        States(name: "Seoul", cities: ["Paju"]),
+        States(name: "Sudogwon", cities: ["Hwawon", "Taegu"]),
+        States(name: "Taegu", cities: ["Taejeon"]),
+        States(name: "Taejeon", cities: ["Daejeon"]),
+        States(name: "Taejon-gwangyoksi", cities: ["Nongso", "Ulsan"]),
+        States(name: "Ulsan", cities: ["Heungup-Myun"]),
+        States(name: "Wonju", cities: ["Inchon", "Pusan", "Taejon"]),
+        States(name: "gwangyoksi", cities: [])
       ]),
   Country(
       name: "Kosovo",
@@ -28030,7 +28030,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Al Asimah", cities: [
+        States(name: "Al Asimah", cities: [
           "Bayan",
           "Hawalli",
           "Massilah",
@@ -28045,11 +28045,11 @@ final List<Country> countries = [
           "ar-Rumaythiyah",
           "as-Salimiyah"
         ]),
-        State(name: "Hawalli", cities: ["Mishref"]),
-        State(name: "Mishref", cities: ["Qadesiya"]),
-        State(name: "Qadesiya", cities: ["Safat"]),
-        State(name: "Safat", cities: ["Salmiya"]),
-        State(name: "Salmiya", cities: [
+        States(name: "Hawalli", cities: ["Mishref"]),
+        States(name: "Mishref", cities: ["Qadesiya"]),
+        States(name: "Qadesiya", cities: ["Safat"]),
+        States(name: "Safat", cities: ["Salmiya"]),
+        States(name: "Salmiya", cities: [
           "A\\'\\'qaylah",
           "Abu Hulayfah",
           "Dahar",
@@ -28067,7 +28067,7 @@ final List<Country> countries = [
           "as-Sabahiyah",
           "az-Zawr"
         ]),
-        State(name: "al-Ahmadi", cities: [
+        States(name: "al-Ahmadi", cities: [
           "Umayriyah",
           "Abraq Khitan",
           "Ardiyah",
@@ -28085,7 +28085,7 @@ final List<Country> countries = [
           "al-Farwaniyah",
           "ar-Rabbiyah"
         ]),
-        State(name: "al-Farwaniyah", cities: [
+        States(name: "al-Farwaniyah", cities: [
           "Amgarah",
           "Desert Area",
           "Nasim",
@@ -28096,7 +28096,7 @@ final List<Country> countries = [
           "al-Qusayr",
           "as-Sulaybiyah"
         ]),
-        State(name: "al-Jahra", cities: [
+        States(name: "al-Jahra", cities: [
           "Abullah-as-Salam",
           "Ardhiyah",
           "Banayd-al-Qar",
@@ -28119,7 +28119,7 @@ final List<Country> countries = [
           "ash-Shuwaykh Industrial",
           "ash-Shuwaykh Reservoir"
         ]),
-        State(name: "al-Kuwayt", cities: [
+        States(name: "al-Kuwayt", cities: [
           "Batken",
           "Isfana",
           "Khaidarkan",
@@ -28136,8 +28136,8 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Batken", cities: ["Bishkek"]),
-        State(name: "Bishkek", cities: [
+        States(name: "Batken", cities: ["Bishkek"]),
+        States(name: "Bishkek", cities: [
           "Ak-Suu",
           "Belovodskoye",
           "Boroldoy",
@@ -28166,7 +28166,7 @@ final List<Country> countries = [
           "Tunuk",
           "Yuryevka"
         ]),
-        State(name: "Chui", cities: [
+        States(name: "Chui", cities: [
           "Ak-Bulok",
           "Ak-Terek",
           "Ananyevo",
@@ -28189,7 +28189,7 @@ final List<Country> countries = [
           "Teploklyuchenka",
           "Tyup"
         ]),
-        State(name: "Issyk-Kul", cities: [
+        States(name: "Issyk-Kul", cities: [
           "Ala Buka",
           "Bazarkurgon",
           "Jalal-Abad",
@@ -28200,7 +28200,7 @@ final List<Country> countries = [
           "Mailuu-Suu",
           "Tash-Kumyr"
         ]),
-        State(name: "Jalal-Abad", cities: [
+        States(name: "Jalal-Abad", cities: [
           "At-Bashi",
           "Chaiek",
           "Kara-Suu",
@@ -28213,7 +28213,7 @@ final List<Country> countries = [
           "Naryn",
           "Ugyut"
         ]),
-        State(name: "Naryn", cities: [
+        States(name: "Naryn", cities: [
           "Daraut-Korgan",
           "Gulcha",
           "Kara-Suu",
@@ -28221,7 +28221,7 @@ final List<Country> countries = [
           "Osh",
           "Uzgen"
         ]),
-        State(name: "Osh", cities: [
+        States(name: "Osh", cities: [
           "Chat-Bazar",
           "Groznoye",
           "Kara-Kul",
@@ -28232,7 +28232,7 @@ final List<Country> countries = [
           "Talas",
           "Toktogul"
         ]),
-        State(name: "Talas", cities: ["Samakhixai"])
+        States(name: "Talas", cities: ["Samakhixai"])
       ]),
   Country(
       name: "Laos",
@@ -28242,25 +28242,25 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Attopu", cities: ["Huayxay"]),
-        State(name: "Bokeo", cities: ["Pakxan"]),
-        State(
+        States(name: "Attopu", cities: ["Huayxay"]),
+        States(name: "Bokeo", cities: ["Pakxan"]),
+        States(
             name: "Bolikhamsay",
             cities: ["Champasak", "Muang Khong", "Muang Khongxedon", "Pakxe"]),
-        State(name: "Champasak", cities: ["Xam Nua"]),
-        State(name: "Houaphanh", cities: ["Thakek"]),
-        State(name: "Khammouane", cities: []),
-        State(name: "Luang Nam Tha", cities: []),
-        State(name: "Luang Prabang", cities: ["Ban Nahin"]),
-        State(name: "Oudomxay", cities: ["Phongsaly"]),
-        State(name: "Phongsaly", cities: ["Saravan"]),
-        State(name: "Saravan", cities: ["Savannakhet"]),
-        State(name: "Savannakhet", cities: ["Sekong"]),
-        State(name: "Sekong", cities: []),
-        State(name: "Viangchan Prefecture", cities: []),
-        State(name: "Viangchan Province", cities: ["Xaignabury"]),
-        State(name: "Xaignabury", cities: []),
-        State(
+        States(name: "Champasak", cities: ["Xam Nua"]),
+        States(name: "Houaphanh", cities: ["Thakek"]),
+        States(name: "Khammouane", cities: []),
+        States(name: "Luang Nam Tha", cities: []),
+        States(name: "Luang Prabang", cities: ["Ban Nahin"]),
+        States(name: "Oudomxay", cities: ["Phongsaly"]),
+        States(name: "Phongsaly", cities: ["Saravan"]),
+        States(name: "Saravan", cities: ["Savannakhet"]),
+        States(name: "Savannakhet", cities: ["Sekong"]),
+        States(name: "Sekong", cities: []),
+        States(name: "Viangchan Prefecture", cities: []),
+        States(name: "Viangchan Province", cities: ["Xaignabury"]),
+        States(name: "Xaignabury", cities: []),
+        States(
             name: "Xiang Khuang",
             cities: ["Aizkraukle", "Jaunjelgava", "Plavinas"])
       ]),
@@ -28272,43 +28272,43 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Aizkraukles", cities: ["Aluksne", "Ape"]),
-        State(name: "Aluksnes", cities: ["Balvi", "Vilaka"]),
-        State(name: "Balvu", cities: ["Bauska"]),
-        State(name: "Bauskas", cities: ["Cesis", "Ligatne"]),
-        State(name: "Cesu", cities: ["Ilukste", "Subate"]),
-        State(name: "Daugavpils", cities: ["Ilukste", "Subate"]),
-        State(name: "Daugavpils City", cities: ["Auce", "Dobele"]),
-        State(name: "Dobeles", cities: ["Gulbene"]),
-        State(name: "Gulbenes", cities: ["Akniste", "Jekabspils", "Viesite"]),
-        State(name: "Jekabspils", cities: ["Jelgava"]),
-        State(name: "Jelgava", cities: ["Kalnciems"]),
-        State(name: "Jelgavas", cities: []),
-        State(name: "Jurmala City", cities: ["Dagda", "Kraslava"]),
-        State(name: "Kraslavas", cities: ["Kuldiga", "Skrunda"]),
-        State(name: "Kuldigas", cities: ["Liepaja"]),
-        State(
+        States(name: "Aizkraukles", cities: ["Aluksne", "Ape"]),
+        States(name: "Aluksnes", cities: ["Balvi", "Vilaka"]),
+        States(name: "Balvu", cities: ["Bauska"]),
+        States(name: "Bauskas", cities: ["Cesis", "Ligatne"]),
+        States(name: "Cesu", cities: ["Ilukste", "Subate"]),
+        States(name: "Daugavpils", cities: ["Ilukste", "Subate"]),
+        States(name: "Daugavpils City", cities: ["Auce", "Dobele"]),
+        States(name: "Dobeles", cities: ["Gulbene"]),
+        States(name: "Gulbenes", cities: ["Akniste", "Jekabspils", "Viesite"]),
+        States(name: "Jekabspils", cities: ["Jelgava"]),
+        States(name: "Jelgava", cities: ["Kalnciems"]),
+        States(name: "Jelgavas", cities: []),
+        States(name: "Jurmala City", cities: ["Dagda", "Kraslava"]),
+        States(name: "Kraslavas", cities: ["Kuldiga", "Skrunda"]),
+        States(name: "Kuldigas", cities: ["Liepaja"]),
+        States(
             name: "Liepaja",
             cities: ["Aizpute", "Durbe", "Grobina", "Pavilosta", "Priekule"]),
-        State(
+        States(
             name: "Liepajas",
             cities: ["Ainazhi", "Aloja", "Limbazhi", "Salacgriva", "Staicele"]),
-        State(name: "Limbazhu", cities: ["Karsava", "Ludza", "Zilupe"]),
-        State(
+        States(name: "Limbazhu", cities: ["Karsava", "Ludza", "Zilupe"]),
+        States(
             name: "Ludzas",
             cities: ["Cesvaine", "Lubana", "Madona", "Varaklani"]),
-        State(name: "Madonas", cities: [
+        States(name: "Madonas", cities: [
           "Ikskile",
           "Kegums",
           "Les Hautes-Rivieres",
           "Lielvarde",
           "Ogre"
         ]),
-        State(name: "Ogres", cities: ["Livani", "Preili"]),
-        State(name: "Preilu", cities: ["Rezekne"]),
-        State(name: "Rezekne", cities: ["Vilani"]),
-        State(name: "Rezeknes", cities: ["Riga"]),
-        State(name: "Riga", cities: [
+        States(name: "Ogres", cities: ["Livani", "Preili"]),
+        States(name: "Preilu", cities: ["Rezekne"]),
+        States(name: "Rezekne", cities: ["Vilani"]),
+        States(name: "Rezeknes", cities: ["Riga"]),
+        States(name: "Riga", cities: [
           "Baldone",
           "Balozhi",
           "Olaine",
@@ -28317,17 +28317,17 @@ final List<Country> countries = [
           "Sigulda",
           "Vangazhi"
         ]),
-        State(name: "Rigas", cities: ["Broceni", "Saldus"]),
-        State(
+        States(name: "Rigas", cities: ["Broceni", "Saldus"]),
+        States(
             name: "Saldus",
             cities: ["Sabile", "Stende", "Talsi", "Valdemarpils"]),
-        State(name: "Talsu", cities: ["Kandava", "Tukums"]),
-        State(
+        States(name: "Talsu", cities: ["Kandava", "Tukums"]),
+        States(
             name: "Tukuma", cities: ["Seda", "Smiltene", "Strenchi", "Valka"]),
-        State(name: "Valkas", cities: ["Mazsalaca", "Rujiena", "Valmiera"]),
-        State(name: "Valmieras", cities: ["Piltene"]),
-        State(name: "Ventspils", cities: ["Piltene"]),
-        State(
+        States(name: "Valkas", cities: ["Mazsalaca", "Rujiena", "Valmiera"]),
+        States(name: "Valmieras", cities: ["Piltene"]),
+        States(name: "Ventspils", cities: ["Piltene"]),
+        States(
             name: "Ventspils City",
             cities: ["Beirut", "Jdeidet el Metn", "Jnaah"])
       ]),
@@ -28339,11 +28339,11 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Beirut", cities: []),
-        State(name: "Jabal Lubnan", cities: []),
-        State(name: "Mohafazat Liban-Nord", cities: []),
-        State(name: "Mohafazat Mont-Liban", cities: ["Sidon"]),
-        State(name: "Sidon", cities: [
+        States(name: "Beirut", cities: []),
+        States(name: "Jabal Lubnan", cities: []),
+        States(name: "Mohafazat Liban-Nord", cities: []),
+        States(name: "Mohafazat Mont-Liban", cities: ["Sidon"]),
+        States(name: "Sidon", cities: [
           "Ba\\'\\'labakk",
           "Jubb Jannin",
           "Rashayya",
@@ -28351,13 +28351,13 @@ final List<Country> countries = [
           "Zahlah",
           "al-Hirmil"
         ]),
-        State(name: "al-Biqa", cities: ["Jazzin", "Juwayya", "Sayda", "Sur"]),
-        State(
+        States(name: "al-Biqa", cities: ["Jazzin", "Juwayya", "Sayda", "Sur"]),
+        States(
             name: "al-Janub",
             cities: ["Marj \\'\\'Uyun", "Nabatieh", "an-Nabatiyat-at-Tahta"]),
-        State(
+        States(
             name: "an-Nabatiyah", cities: ["Tarabulus ash-Sham", "al-Batrun"]),
-        State(name: "ash-Shamal", cities: ["Teyateyaneng"])
+        States(name: "ash-Shamal", cities: ["Teyateyaneng"])
       ]),
   Country(
       name: "Lesotho",
@@ -28367,16 +28367,16 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Berea", cities: ["Butha Buthe"]),
-        State(name: "Butha-Buthe", cities: ["Hlotse", "Maputsoa"]),
-        State(name: "Leribe", cities: ["Mafeteng"]),
-        State(name: "Mafeteng", cities: ["Maseru"]),
-        State(name: "Maseru", cities: []),
-        State(name: "Mohale\\'\\'s Hoek", cities: ["Mokhotlong"]),
-        State(name: "Mokhotlong", cities: []),
-        State(name: "Qacha\\'\\'s Nek", cities: ["Quthing"]),
-        State(name: "Quthing", cities: ["Thaba-Tseka"]),
-        State(name: "Thaba-Tseka", cities: ["Tubmanburg"])
+        States(name: "Berea", cities: ["Butha Buthe"]),
+        States(name: "Butha-Buthe", cities: ["Hlotse", "Maputsoa"]),
+        States(name: "Leribe", cities: ["Mafeteng"]),
+        States(name: "Mafeteng", cities: ["Maseru"]),
+        States(name: "Maseru", cities: []),
+        States(name: "Mohale\\'\\'s Hoek", cities: ["Mokhotlong"]),
+        States(name: "Mokhotlong", cities: []),
+        States(name: "Qacha\\'\\'s Nek", cities: ["Quthing"]),
+        States(name: "Quthing", cities: ["Thaba-Tseka"]),
+        States(name: "Thaba-Tseka", cities: ["Tubmanburg"])
       ]),
   Country(
       name: "Liberia",
@@ -28386,20 +28386,20 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Bomi", cities: ["Gbarnga"]),
-        State(name: "Bong", cities: []),
-        State(name: "Grand Bassa", cities: []),
-        State(name: "Grand Cape Mount", cities: []),
-        State(name: "Grand Gedeh", cities: ["Voinjama"]),
-        State(name: "Loffa", cities: ["Harbel", "Kakata"]),
-        State(name: "Margibi", cities: []),
-        State(
+        States(name: "Bomi", cities: ["Gbarnga"]),
+        States(name: "Bong", cities: []),
+        States(name: "Grand Bassa", cities: []),
+        States(name: "Grand Cape Mount", cities: []),
+        States(name: "Grand Gedeh", cities: ["Voinjama"]),
+        States(name: "Loffa", cities: ["Harbel", "Kakata"]),
+        States(name: "Margibi", cities: []),
+        States(
             name: "Maryland and Grand Kru",
             cities: ["Bensonville", "Monrovia"]),
-        State(name: "Montserrado", cities: ["Ganta", "Sanniquellie", "Yekepa"]),
-        State(name: "Nimba", cities: ["Rivercess"]),
-        State(name: "Rivercess", cities: ["Greenville"]),
-        State(name: "Sinoe", cities: [
+        States(name: "Montserrado", cities: ["Ganta", "Sanniquellie", "Yekepa"]),
+        States(name: "Nimba", cities: ["Rivercess"]),
+        States(name: "Rivercess", cities: ["Greenville"]),
+        States(name: "Sinoe", cities: [
           "Ajdabiya",
           "Awjilah",
           "Marsa al-Burayqah",
@@ -28414,34 +28414,34 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Ajdabiya", cities: ["Awbari", "Ghat"]),
-        State(name: "Fezzan", cities: ["Banghazi", "Suluq", "al-Quriyah"]),
-        State(name: "Banghazi", cities: ["Darnah"]),
-        State(name: "Darnah", cities: ["Ghadamis", "Nalut"]),
-        State(
+        States(name: "Ajdabiya", cities: ["Awbari", "Ghat"]),
+        States(name: "Fezzan", cities: ["Banghazi", "Suluq", "al-Quriyah"]),
+        States(name: "Banghazi", cities: ["Darnah"]),
+        States(name: "Darnah", cities: ["Ghadamis", "Nalut"]),
+        States(
             name: "Ghadamis",
             cities: ["Gharyan", "Mizdah", "al-Qaryah-ash-Sharqiyah"]),
-        State(name: "Gharyan", cities: ["Misratah"]),
-        State(name: "Misratah", cities: ["Murzuq"]),
-        State(name: "Murzuq", cities: ["Sabha"]),
-        State(name: "Sabha", cities: ["Bani Walid"]),
-        State(name: "Sawfajjin", cities: ["Surt"]),
-        State(name: "Surt", cities: ["Tarabulus", "Tripoli"]),
-        State(name: "Tarabulus", cities: ["Tarhunah"]),
-        State(name: "Tarhunah", cities: ["Misrata"]),
-        State(name: "Tripolitania", cities: ["Bardiyah", "Tubruq"]),
-        State(name: "Tubruq", cities: ["Yafran"]),
-        State(name: "Yafran", cities: ["Zlitan"]),
-        State(name: "Zlitan", cities: ["al-Aziziyah"]),
-        State(name: "al-\\'\\'Aziziyah", cities: ["al-Abyar", "al-Marj"]),
-        State(name: "al-Fatih", cities: []),
-        State(name: "al-Jabal al Akhdar", cities: ["Waddan"]),
-        State(name: "al-Jufrah", cities: ["al-Khums"]),
-        State(name: "al-Khums", cities: ["al-Jawf"]),
-        State(name: "al-Kufrah", cities: []),
-        State(name: "an-Nuqat al-Khams", cities: ["Birak"]),
-        State(name: "ash-Shati", cities: ["az-Zawiyah"]),
-        State(name: "az-Zawiyah", cities: ["Balzers"])
+        States(name: "Gharyan", cities: ["Misratah"]),
+        States(name: "Misratah", cities: ["Murzuq"]),
+        States(name: "Murzuq", cities: ["Sabha"]),
+        States(name: "Sabha", cities: ["Bani Walid"]),
+        States(name: "Sawfajjin", cities: ["Surt"]),
+        States(name: "Surt", cities: ["Tarabulus", "Tripoli"]),
+        States(name: "Tarabulus", cities: ["Tarhunah"]),
+        States(name: "Tarhunah", cities: ["Misrata"]),
+        States(name: "Tripolitania", cities: ["Bardiyah", "Tubruq"]),
+        States(name: "Tubruq", cities: ["Yafran"]),
+        States(name: "Yafran", cities: ["Zlitan"]),
+        States(name: "Zlitan", cities: ["al-Aziziyah"]),
+        States(name: "al-\\'\\'Aziziyah", cities: ["al-Abyar", "al-Marj"]),
+        States(name: "al-Fatih", cities: []),
+        States(name: "al-Jabal al Akhdar", cities: ["Waddan"]),
+        States(name: "al-Jufrah", cities: ["al-Khums"]),
+        States(name: "al-Khums", cities: ["al-Jawf"]),
+        States(name: "al-Kufrah", cities: []),
+        States(name: "an-Nuqat al-Khams", cities: ["Birak"]),
+        States(name: "ash-Shati", cities: ["az-Zawiyah"]),
+        States(name: "az-Zawiyah", cities: ["Balzers"])
       ]),
   Country(
       name: "Liechtenstein",
@@ -28451,17 +28451,17 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Balzers", cities: ["Eschen"]),
-        State(name: "Eschen", cities: ["Gamprin"]),
-        State(name: "Gamprin", cities: ["Mauren"]),
-        State(name: "Mauren", cities: ["Planken"]),
-        State(name: "Planken", cities: ["Ruggell"]),
-        State(name: "Ruggell", cities: ["Schaan"]),
-        State(name: "Schaan", cities: ["Schellenberg"]),
-        State(name: "Schellenberg", cities: ["Triesen"]),
-        State(name: "Triesen", cities: ["Triesenberg"]),
-        State(name: "Triesenberg", cities: ["Vaduz"]),
-        State(name: "Vaduz", cities: [
+        States(name: "Balzers", cities: ["Eschen"]),
+        States(name: "Eschen", cities: ["Gamprin"]),
+        States(name: "Gamprin", cities: ["Mauren"]),
+        States(name: "Mauren", cities: ["Planken"]),
+        States(name: "Planken", cities: ["Ruggell"]),
+        States(name: "Ruggell", cities: ["Schaan"]),
+        States(name: "Schaan", cities: ["Schellenberg"]),
+        States(name: "Schellenberg", cities: ["Triesen"]),
+        States(name: "Triesen", cities: ["Triesenberg"]),
+        States(name: "Triesenberg", cities: ["Vaduz"]),
+        States(name: "Vaduz", cities: [
           "Alytus",
           "Daugai",
           "Druskininkai",
@@ -28479,8 +28479,8 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Alytaus", cities: ["Anyksciai"]),
-        State(name: "Anyksciai", cities: [
+        States(name: "Alytaus", cities: ["Anyksciai"]),
+        States(name: "Anyksciai", cities: [
           "Ariogala",
           "Birshtonas",
           "Dotnuva",
@@ -28498,7 +28498,7 @@ final List<Country> countries = [
           "Vilkija",
           "Zhiezhmariai"
         ]),
-        State(name: "Kauno", cities: [
+        States(name: "Kauno", cities: [
           "Gargzhdai",
           "Klaipeda",
           "Kretinga",
@@ -28513,7 +28513,7 @@ final List<Country> countries = [
           "Skuodas",
           "Zhemaichiu Naumiestis"
         ]),
-        State(name: "Klaipedos", cities: [
+        States(name: "Klaipedos", cities: [
           "Gelgaudishkis",
           "Kalvarija",
           "Kazlu Ruda",
@@ -28524,7 +28524,7 @@ final List<Country> countries = [
           "Vilkavishkis",
           "Virbalis"
         ]),
-        State(name: "Marijampoles", cities: [
+        States(name: "Marijampoles", cities: [
           "Birzhai",
           "Jonishkelis",
           "Juodupe",
@@ -28539,8 +28539,8 @@ final List<Country> countries = [
           "Subachius",
           "Vabalninkas"
         ]),
-        State(name: "Panevezhio", cities: ["Panevezys"]),
-        State(name: "Panevezys", cities: [
+        States(name: "Panevezhio", cities: ["Panevezys"]),
+        States(name: "Panevezys", cities: [
           "Akmene",
           "Jonishkis",
           "Kelme",
@@ -28559,14 +28559,14 @@ final List<Country> countries = [
           "Viekshniai",
           "Zhagare"
         ]),
-        State(name: "Shiauliu", cities: [
+        States(name: "Shiauliu", cities: [
           "Jurbarkas",
           "Shilale",
           "Skaudvile",
           "Smalininkai",
           "Taurage"
         ]),
-        State(name: "Taurages", cities: [
+        States(name: "Taurages", cities: [
           "Guglingen",
           "Mazheikiai",
           "Plunge",
@@ -28575,8 +28575,8 @@ final List<Country> countries = [
           "Telshiai",
           "Varniai"
         ]),
-        State(name: "Telshiu", cities: ["Mazeikiai"]),
-        State(name: "Telsiai", cities: [
+        States(name: "Telshiu", cities: ["Mazeikiai"]),
+        States(name: "Telsiai", cities: [
           "Anykshchiai",
           "Dukshtas",
           "Dusetos",
@@ -28589,7 +28589,7 @@ final List<Country> countries = [
           "Visaginas",
           "Zarasai"
         ]),
-        State(name: "Utenos", cities: [
+        States(name: "Utenos", cities: [
           "Baltoji Voke",
           "Eishishkes",
           "Elektrenai",
@@ -28607,7 +28607,7 @@ final List<Country> countries = [
           "Vievis",
           "Vilnius"
         ]),
-        State(name: "Vilniaus", cities: [
+        States(name: "Vilniaus", cities: [
           "Bascharage",
           "Bettange-sur-Mess",
           "Bridel",
@@ -28654,7 +28654,7 @@ final List<Country> countries = [
       minLength: 11,
       maxLength: 11,
       states: [
-        State(name: "Capellen", cities: [
+        States(name: "Capellen", cities: [
           "Allerborn",
           "Asselborn",
           "Basbellain",
@@ -28719,7 +28719,7 @@ final List<Country> countries = [
           "Wilwerdange",
           "Wincrange"
         ]),
-        State(name: "Clervaux", cities: [
+        States(name: "Clervaux", cities: [
           "Bastendorf",
           "Bettendorf",
           "Bigelbach",
@@ -28756,7 +28756,7 @@ final List<Country> countries = [
           "Warken",
           "Welscheid"
         ]),
-        State(name: "Diekirch", cities: [
+        States(name: "Diekirch", cities: [
           "Altrier",
           "Beaufort",
           "Bech",
@@ -28791,7 +28791,7 @@ final List<Country> countries = [
           "Weilerbach",
           "Zittig"
         ]),
-        State(name: "Echternach", cities: [
+        States(name: "Echternach", cities: [
           "Abweiler",
           "Aspelt",
           "Belvaux",
@@ -28837,7 +28837,7 @@ final List<Country> countries = [
           "Tetange",
           "Wickrange"
         ]),
-        State(name: "Esch-sur-Alzette", cities: [
+        States(name: "Esch-sur-Alzette", cities: [
           "Ahn-Dreiborn",
           "Altlinster",
           "Beidweiler",
@@ -28882,7 +28882,7 @@ final List<Country> countries = [
           "Wormeldange",
           "Wormeldange-Haut"
         ]),
-        State(name: "Grevenmacher", cities: [
+        States(name: "Grevenmacher", cities: [
           "Alzingen",
           "Bereldange",
           "Bertrange",
@@ -28920,7 +28920,7 @@ final List<Country> countries = [
           "Walferdange",
           "Weiler-la-Tour"
         ]),
-        State(name: "Luxembourg", cities: [
+        States(name: "Luxembourg", cities: [
           "Angelsberg",
           "Ansembourg",
           "Beringen",
@@ -28963,7 +28963,7 @@ final List<Country> countries = [
           "Schrondweiler",
           "Tuntange"
         ]),
-        State(name: "Mersch", cities: [
+        States(name: "Mersch", cities: [
           "Arsdorf",
           "Beckerich",
           "Bettborn",
@@ -29021,7 +29021,7 @@ final List<Country> countries = [
           "Wahl",
           "Wolwelange"
         ]),
-        State(name: "Redange", cities: [
+        States(name: "Redange", cities: [
           "Altwies",
           "Assel",
           "Bech-Kleinmacher",
@@ -29050,7 +29050,7 @@ final List<Country> countries = [
           "Wellenstein",
           "Wintrange"
         ]),
-        State(name: "Remich", cities: [
+        States(name: "Remich", cities: [
           "Bettel",
           "Bivels",
           "Fouhren",
@@ -29064,7 +29064,7 @@ final List<Country> countries = [
           "Walsdorf",
           "Weiler"
         ]),
-        State(name: "Vianden", cities: [
+        States(name: "Vianden", cities: [
           "Alscheid",
           "Baschleiden",
           "Bavigne",
@@ -29114,7 +29114,7 @@ final List<Country> countries = [
           "Wilwerwiltz",
           "Winseler"
         ]),
-        State(name: "Wiltz", cities: ["Macau"])
+        States(name: "Wiltz", cities: ["Macau"])
       ]),
   Country(
       name: "Macao",
@@ -29124,7 +29124,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Macau", cities: ["Berovo", "Pehchevo"])
+        States(name: "Macau", cities: ["Berovo", "Pehchevo"])
       ]),
   Country(
       name: "Macedonia",
@@ -29134,7 +29134,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Berovo", cities: [
+        States(name: "Berovo", cities: [
           "Bach",
           "Bistrica",
           "Bitola",
@@ -29145,14 +29145,14 @@ final List<Country> countries = [
           "Novaci",
           "Staravina"
         ]),
-        State(name: "Bitola", cities: ["Brod", "Plasnica", "Samokov"]),
-        State(name: "Brod", cities: ["Debar", "Zhupa"]),
-        State(name: "Debar", cities: ["Delchevo", "Kamenica"]),
-        State(name: "Delchevo", cities: []),
-        State(
+        States(name: "Bitola", cities: ["Brod", "Plasnica", "Samokov"]),
+        States(name: "Brod", cities: ["Debar", "Zhupa"]),
+        States(name: "Debar", cities: ["Delchevo", "Kamenica"]),
+        States(name: "Delchevo", cities: []),
+        States(
             name: "Demir Hisar",
             cities: ["Bogdanci", "Gevgelija", "Miravci", "Star Dojran"]),
-        State(name: "Gevgelija", cities: [
+        States(name: "Gevgelija", cities: [
           "Chegrane",
           "Dolna Banjica",
           "Gostivar",
@@ -29163,17 +29163,17 @@ final List<Country> countries = [
           "Vrapchishte",
           "Vrutok"
         ]),
-        State(name: "Gostivar", cities: ["Kavadarci", "Konopishte", "Rosoman"]),
-        State(
+        States(name: "Gostivar", cities: ["Kavadarci", "Konopishte", "Rosoman"]),
+        States(
             name: "Kavadarci",
             cities: ["Drugovo", "Kichevo", "Oslomej", "Vraneshtica", "Zajas"]),
-        State(
+        States(
             name: "Kichevo",
             cities: ["Cheshinovo", "Kochani", "Obleshevo", "Zletovo"]),
-        State(name: "Kochani", cities: ["Kratovo"]),
-        State(name: "Kratovo", cities: []),
-        State(name: "Kriva Palanka", cities: ["Krushevo", "Zhitoshe"]),
-        State(name: "Krushevo", cities: [
+        States(name: "Kochani", cities: ["Kratovo"]),
+        States(name: "Kratovo", cities: []),
+        States(name: "Kriva Palanka", cities: ["Krushevo", "Zhitoshe"]),
+        States(name: "Krushevo", cities: [
           "Izvor",
           "Klechevce",
           "Kumanovo",
@@ -29181,22 +29181,22 @@ final List<Country> countries = [
           "Orashac",
           "Staro Nagorichane"
         ]),
-        State(name: "Kumanovo", cities: ["Demir Kapija", "Negotino"]),
-        State(
+        States(name: "Kumanovo", cities: ["Demir Kapija", "Negotino"]),
+        States(
             name: "Negotino",
             cities: ["Belchishta", "Kosel", "Mesheishta", "Ohrid"]),
-        State(name: "Ohrid", cities: [
+        States(name: "Ohrid", cities: [
           "Dolneni",
           "Krivogashtani",
           "Prilep",
           "Topolchani",
           "Vitolishte"
         ]),
-        State(name: "Prilep", cities: ["Probishtip"]),
-        State(name: "Probishtip", cities: ["Konche", "Podaresh", "Radovish"]),
-        State(name: "Radovish", cities: ["Resen"]),
-        State(name: "Resen", cities: ["Karbinci", "Shtip", "Stip"]),
-        State(name: "Shtip", cities: [
+        States(name: "Prilep", cities: ["Probishtip"]),
+        States(name: "Probishtip", cities: ["Konche", "Podaresh", "Radovish"]),
+        States(name: "Radovish", cities: ["Resen"]),
+        States(name: "Resen", cities: ["Karbinci", "Shtip", "Stip"]),
+        States(name: "Shtip", cities: [
           "Arachinovo",
           "Chucher",
           "Ilinden",
@@ -29208,7 +29208,7 @@ final List<Country> countries = [
           "Studenichani",
           "Zelenikovo"
         ]),
-        State(name: "Skopje", cities: [
+        States(name: "Skopje", cities: [
           "Delogozhdi",
           "Labunishta",
           "Lukovo",
@@ -29216,7 +29216,7 @@ final List<Country> countries = [
           "Veleshta",
           "Vevchani"
         ]),
-        State(name: "Struga", cities: [
+        States(name: "Struga", cities: [
           "Bosilovo",
           "Kuklish",
           "Murtino",
@@ -29224,8 +29224,8 @@ final List<Country> countries = [
           "Strumica",
           "Vasilevo"
         ]),
-        State(name: "Strumica", cities: []),
-        State(name: "Sveti Nikole", cities: [
+        States(name: "Strumica", cities: []),
+        States(name: "Sveti Nikole", cities: [
           "Bogovinje",
           "Brvenica",
           "Dzhepchishte",
@@ -29237,13 +29237,13 @@ final List<Country> countries = [
           "Vratnica",
           "Zhelino"
         ]),
-        State(name: "Tetovo", cities: ["Valandovo"]),
-        State(
+        States(name: "Tetovo", cities: ["Valandovo"]),
+        States(
             name: "Valandovo",
             cities: ["Bogomila", "Chashka", "Gradsko", "Veles"]),
-        State(
+        States(
             name: "Veles", cities: ["Blatec", "Orizari", "Vinica", "Zrnovci"]),
-        State(name: "Vinica", cities: [
+        States(name: "Vinica", cities: [
           "Ambatolampy",
           "Anjozorobe",
           "Ankazobe",
@@ -29267,7 +29267,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Antananarivo", cities: [
+        States(name: "Antananarivo", cities: [
           "Ambanja",
           "Ambilobe",
           "Andapa",
@@ -29276,7 +29276,7 @@ final List<Country> countries = [
           "Antsiranana",
           "Sambava"
         ]),
-        State(name: "Antsiranana", cities: [
+        States(name: "Antsiranana", cities: [
           "Ambalavao",
           "Ambatofinandrahana",
           "Ambositra",
@@ -29294,7 +29294,7 @@ final List<Country> countries = [
           "Vangaindrano",
           "Vondrozo"
         ]),
-        State(name: "Fianarantsoa", cities: [
+        States(name: "Fianarantsoa", cities: [
           "Ambato Boina",
           "Antsohihy",
           "Bealanana",
@@ -29302,7 +29302,7 @@ final List<Country> countries = [
           "Marovoay",
           "Tsaratanana"
         ]),
-        State(name: "Mahajanga", cities: [
+        States(name: "Mahajanga", cities: [
           "Ambatondrazaka",
           "Ambodifototra",
           "Amparafaravola",
@@ -29320,7 +29320,7 @@ final List<Country> countries = [
           "Vavatenina",
           "Vohibinany"
         ]),
-        State(name: "Toamasina", cities: [
+        States(name: "Toamasina", cities: [
           "Amboasary",
           "Ambovombe",
           "Ampanihy",
@@ -29336,7 +29336,7 @@ final List<Country> countries = [
           "Toliary",
           "Tsihombe"
         ]),
-        State(name: "Toliary", cities: ["Balaka"])
+        States(name: "Toliary", cities: ["Balaka"])
       ]),
   Country(
       name: "Malawi",
@@ -29346,33 +29346,33 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 9,
       states: [
-        State(name: "Balaka", cities: []),
-        State(name: "Blantyre City", cities: ["Chikwawa"]),
-        State(name: "Chikwawa", cities: ["Chiradzulu"]),
-        State(name: "Chiradzulu", cities: ["Chitipa"]),
-        State(name: "Chitipa", cities: ["Chipoka", "Dedza"]),
-        State(name: "Dedza", cities: ["Dowa", "Mponela"]),
-        State(name: "Dowa", cities: ["Chilumba", "Karonga", "Livingstonia"]),
-        State(name: "Karonga", cities: ["Kasungu"]),
-        State(name: "Kasungu", cities: []),
-        State(name: "Lilongwe City", cities: ["Liwonde", "Machinga"]),
-        State(name: "Machinga", cities: ["Mangochi", "Monkey Bay"]),
-        State(name: "Mangochi", cities: ["Mchinji"]),
-        State(name: "Mchinji", cities: ["Mulanje"]),
-        State(name: "Mulanje", cities: ["Mwanza"]),
-        State(name: "Mwanza", cities: ["Mzimba"]),
-        State(name: "Mzimba", cities: []),
-        State(name: "Mzuzu City", cities: []),
-        State(name: "Nkhata Bay", cities: ["Nkhotakota"]),
-        State(name: "Nkhotakota", cities: ["Nsanje"]),
-        State(name: "Nsanje", cities: ["Ntcheu"]),
-        State(name: "Ntcheu", cities: ["Ntchisi"]),
-        State(name: "Ntchisi", cities: ["Phalombe"]),
-        State(name: "Phalombe", cities: ["Rumphi"]),
-        State(name: "Rumphi", cities: ["Salima"]),
-        State(name: "Salima", cities: ["Luchenza", "Thyolo"]),
-        State(name: "Thyolo", cities: []),
-        State(name: "Zomba Municipality", cities: [
+        States(name: "Balaka", cities: []),
+        States(name: "Blantyre City", cities: ["Chikwawa"]),
+        States(name: "Chikwawa", cities: ["Chiradzulu"]),
+        States(name: "Chiradzulu", cities: ["Chitipa"]),
+        States(name: "Chitipa", cities: ["Chipoka", "Dedza"]),
+        States(name: "Dedza", cities: ["Dowa", "Mponela"]),
+        States(name: "Dowa", cities: ["Chilumba", "Karonga", "Livingstonia"]),
+        States(name: "Karonga", cities: ["Kasungu"]),
+        States(name: "Kasungu", cities: []),
+        States(name: "Lilongwe City", cities: ["Liwonde", "Machinga"]),
+        States(name: "Machinga", cities: ["Mangochi", "Monkey Bay"]),
+        States(name: "Mangochi", cities: ["Mchinji"]),
+        States(name: "Mchinji", cities: ["Mulanje"]),
+        States(name: "Mulanje", cities: ["Mwanza"]),
+        States(name: "Mwanza", cities: ["Mzimba"]),
+        States(name: "Mzimba", cities: []),
+        States(name: "Mzuzu City", cities: []),
+        States(name: "Nkhata Bay", cities: ["Nkhotakota"]),
+        States(name: "Nkhotakota", cities: ["Nsanje"]),
+        States(name: "Nsanje", cities: ["Ntcheu"]),
+        States(name: "Ntcheu", cities: ["Ntchisi"]),
+        States(name: "Ntchisi", cities: ["Phalombe"]),
+        States(name: "Phalombe", cities: ["Rumphi"]),
+        States(name: "Rumphi", cities: ["Salima"]),
+        States(name: "Salima", cities: ["Luchenza", "Thyolo"]),
+        States(name: "Thyolo", cities: []),
+        States(name: "Zomba Municipality", cities: [
           "Bandar Maharani",
           "Bandar Penggaram",
           "Bukit Bakri",
@@ -29408,7 +29408,7 @@ final List<Country> countries = [
       minLength: 11,
       maxLength: 11,
       states: [
-        State(name: "Johor", cities: [
+        States(name: "Johor", cities: [
           "Alor Setar",
           "Bailing",
           "Bedong",
@@ -29420,7 +29420,7 @@ final List<Country> countries = [
           "Langgar",
           "Sungai Petani"
         ]),
-        State(name: "Kedah", cities: [
+        States(name: "Kedah", cities: [
           "Gua Musang",
           "Kadok",
           "Kota Bahru",
@@ -29432,9 +29432,9 @@ final List<Country> countries = [
           "Tumpat",
           "Wakaf Baru"
         ]),
-        State(name: "Kelantan", cities: []),
-        State(name: "Kuala Lumpur", cities: ["Labuan"]),
-        State(name: "Labuan", cities: [
+        States(name: "Kelantan", cities: []),
+        States(name: "Kuala Lumpur", cities: ["Labuan"]),
+        States(name: "Labuan", cities: [
           "Alor Gajah",
           "Ayer Keroh",
           "Ayer Molek",
@@ -29450,9 +29450,9 @@ final List<Country> countries = [
           "Pulau Sebang",
           "Sungai Udang"
         ]),
-        State(name: "Melaka", cities: []),
-        State(name: "Negeri Johor", cities: []),
-        State(name: "Negeri Sembilan", cities: [
+        States(name: "Melaka", cities: []),
+        States(name: "Negeri Johor", cities: []),
+        States(name: "Negeri Sembilan", cities: [
           "Bandar Jengka Pusat",
           "Bentong",
           "Bukit Tinggi",
@@ -29466,10 +29466,10 @@ final List<Country> countries = [
           "Raub",
           "Temerloh"
         ]),
-        State(
+        States(
             name: "Pahang",
             cities: ["Bayan Lepas", "Church Town", "George Town"]),
-        State(name: "Penang", cities: [
+        States(name: "Penang", cities: [
           "Ayer Tawar",
           "Bagan Serai",
           "Batu Gajah",
@@ -29492,9 +29492,9 @@ final List<Country> countries = [
           "Tapah",
           "Teluk Intan"
         ]),
-        State(name: "Perak", cities: ["Kangar", "Kuala Perlis"]),
-        State(name: "Perlis", cities: []),
-        State(name: "Pulau Pinang", cities: [
+        States(name: "Perak", cities: ["Kangar", "Kuala Perlis"]),
+        States(name: "Perlis", cities: []),
+        States(name: "Pulau Pinang", cities: [
           "Beaufort",
           "Donggongon",
           "Keningau",
@@ -29511,7 +29511,7 @@ final List<Country> countries = [
           "Semporna",
           "Tawau"
         ]),
-        State(name: "Sabah", cities: [
+        States(name: "Sabah", cities: [
           "Batu Delapan Bazaar",
           "Bintulu",
           "Kapit",
@@ -29524,7 +29524,7 @@ final List<Country> countries = [
           "Sibu",
           "Sri Aman"
         ]),
-        State(name: "Sarawak", cities: [
+        States(name: "Sarawak", cities: [
           "Ampang",
           "Ampang Jaya",
           "Balakong",
@@ -29568,8 +29568,8 @@ final List<Country> countries = [
           "Tanjong Karang",
           "Tanjong Sepat"
         ]),
-        State(name: "Selangor", cities: ["Bahaiyah", "Langkap"]),
-        State(name: "Sembilan", cities: [
+        States(name: "Selangor", cities: ["Bahaiyah", "Langkap"]),
+        States(name: "Sembilan", cities: [
           "Cukai",
           "Jertih",
           "Kemaman",
@@ -29579,7 +29579,7 @@ final List<Country> countries = [
           "Paka",
           "Serdang"
         ]),
-        State(name: "Terengganu", cities: [])
+        States(name: "Terengganu", cities: [])
       ]),
   Country(
       name: "Maldives",
@@ -29589,8 +29589,8 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Alif Alif", cities: []),
-        State(name: "Alif Dhaal", cities: [
+        States(name: "Alif Alif", cities: []),
+        States(name: "Alif Dhaal", cities: [
           "Dharavandhoo",
           "Dhonfanu",
           "Eydhafushi",
@@ -29605,7 +29605,7 @@ final List<Country> countries = [
           "Maalhos",
           "Thulhaadhoo"
         ]),
-        State(name: "Baa", cities: [
+        States(name: "Baa", cities: [
           "Badidhoo",
           "Gemendhoo",
           "Hulhudheli",
@@ -29615,19 +29615,19 @@ final List<Country> countries = [
           "Ribudhoo",
           "Vaanee"
         ]),
-        State(name: "Dhaal", cities: [
+        States(name: "Dhaal", cities: [
           "Biledhdhoo",
           "Dharaboodhoo",
           "Feeali",
           "Magoodhoo",
           "Nilandhoo"
         ]),
-        State(name: "Faaf", cities: []),
-        State(name: "Gaaf Alif", cities: []),
-        State(name: "Gaaf Dhaal", cities: ["Fuvammulah"]),
-        State(name: "Ghaviyani", cities: []),
-        State(name: "Haa Alif", cities: []),
-        State(name: "Haa Dhaal", cities: [
+        States(name: "Faaf", cities: []),
+        States(name: "Gaaf Alif", cities: []),
+        States(name: "Gaaf Dhaal", cities: ["Fuvammulah"]),
+        States(name: "Ghaviyani", cities: []),
+        States(name: "Haa Alif", cities: []),
+        States(name: "Haa Dhaal", cities: [
           "Dhiffushi",
           "Gaafaru",
           "Gulhi",
@@ -29638,7 +29638,7 @@ final List<Country> countries = [
           "Maafushi",
           "Thulusdhoo"
         ]),
-        State(name: "Kaaf", cities: [
+        States(name: "Kaaf", cities: [
           "Dhabidhoo",
           "Fonadhoo",
           "Gaadhoo",
@@ -29652,15 +29652,15 @@ final List<Country> countries = [
           "Maavah",
           "Mundhoo"
         ]),
-        State(name: "Laam", cities: [
+        States(name: "Laam", cities: [
           "Hinnavaru",
           "Kurendhoo",
           "Maafilaafushi",
           "Naifaru",
           "Olhuvelifushi"
         ]),
-        State(name: "Lhaviyani", cities: []),
-        State(name: "Male", cities: [
+        States(name: "Lhaviyani", cities: []),
+        States(name: "Male", cities: [
           "Dhiggaru",
           "Kolhufushi",
           "Madifushi",
@@ -29671,7 +29671,7 @@ final List<Country> countries = [
           "Raimandhoo",
           "Veyvah"
         ]),
-        State(name: "Miim", cities: [
+        States(name: "Miim", cities: [
           "Fodhdhoo",
           "Hebadhoo",
           "Holhudhoo",
@@ -29686,7 +29686,7 @@ final List<Country> countries = [
           "Miladhoo",
           "Velidhoo"
         ]),
-        State(name: "Nuun", cities: [
+        States(name: "Nuun", cities: [
           "Agolhitheemu",
           "Alifushi",
           "Fainu",
@@ -29703,7 +29703,7 @@ final List<Country> countries = [
           "Ugoofaaru",
           "Vaadhoo"
         ]),
-        State(name: "Raa", cities: [
+        States(name: "Raa", cities: [
           "Bilehffahi",
           "Feevah",
           "Feydhoo",
@@ -29720,7 +29720,7 @@ final List<Country> countries = [
           "Narudhoo",
           "Noomaraa"
         ]),
-        State(name: "Shaviyani", cities: [
+        States(name: "Shaviyani", cities: [
           "Feydhoo",
           "Hithadhoo",
           "Hulhudhoo",
@@ -29728,7 +29728,7 @@ final List<Country> countries = [
           "Maradhoo-Feydhoo",
           "Meedhoo"
         ]),
-        State(name: "Siin", cities: [
+        States(name: "Siin", cities: [
           "Buruni",
           "Dhiyamigili",
           "Gaadhiffushi",
@@ -29743,14 +29743,14 @@ final List<Country> countries = [
           "Veymandhoo",
           "Vilufushi"
         ]),
-        State(name: "Thaa", cities: [
+        States(name: "Thaa", cities: [
           "Felidhoo",
           "Fulidhoo",
           "Keyodhoo",
           "Rakeedhoo",
           "Thinadhoo"
         ]),
-        State(name: "Vaav", cities: ["Bamako"])
+        States(name: "Vaav", cities: ["Bamako"])
       ]),
   Country(
       name: "Mali",
@@ -29760,10 +29760,10 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Bamako", cities: ["Gao"]),
-        State(name: "Gao", cities: ["Bafoulabe", "Kayes", "Kita", "Nioro"]),
-        State(name: "Kayes", cities: ["Kidal", "Tessalit"]),
-        State(name: "Kidal", cities: [
+        States(name: "Bamako", cities: ["Gao"]),
+        States(name: "Gao", cities: ["Bafoulabe", "Kayes", "Kita", "Nioro"]),
+        States(name: "Kayes", cities: ["Kidal", "Tessalit"]),
+        States(name: "Kidal", cities: [
           "Banamba",
           "Kangaba",
           "Kati",
@@ -29771,7 +29771,7 @@ final List<Country> countries = [
           "Koulikoro",
           "Nara"
         ]),
-        State(name: "Koulikoro", cities: [
+        States(name: "Koulikoro", cities: [
           "Bandiagara",
           "Djenne",
           "Douentza",
@@ -29779,7 +29779,7 @@ final List<Country> countries = [
           "Mopti",
           "Tenenkou"
         ]),
-        State(name: "Mopti", cities: [
+        States(name: "Mopti", cities: [
           "Ke-Massina",
           "Kimparana",
           "Markala",
@@ -29788,14 +29788,14 @@ final List<Country> countries = [
           "Segou",
           "Sokolo"
         ]),
-        State(name: "Segou", cities: [
+        States(name: "Segou", cities: [
           "Bougouni",
           "Kolondieba",
           "Koutiala",
           "Sikasso",
           "Yorosso"
         ]),
-        State(name: "Sikasso", cities: [
+        States(name: "Sikasso", cities: [
           "Araouane",
           "Dire",
           "Goundam",
@@ -29803,7 +29803,7 @@ final List<Country> countries = [
           "Taoudenni",
           "Tombouctou"
         ]),
-        State(name: "Tombouctou", cities: [])
+        States(name: "Tombouctou", cities: [])
       ]),
   Country(
       name: "Malta",
@@ -29813,8 +29813,8 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Gozo and Comino", cities: []),
-        State(name: "Inner Harbour", cities: [
+        States(name: "Gozo and Comino", cities: []),
+        States(name: "Inner Harbour", cities: [
           "Gharghur",
           "Mellieha",
           "Mgarr",
@@ -29822,10 +29822,10 @@ final List<Country> countries = [
           "Naxxar",
           "San Pawl il-Bahar"
         ]),
-        State(name: "Northern", cities: []),
-        State(name: "Outer Harbour", cities: []),
-        State(name: "South Eastern", cities: ["L-Iklin"]),
-        State(name: "Valletta", cities: [
+        States(name: "Northern", cities: []),
+        States(name: "Outer Harbour", cities: []),
+        States(name: "South Eastern", cities: ["L-Iklin"]),
+        States(name: "Valletta", cities: [
           "Attard",
           "Balzan",
           "Dingli",
@@ -29836,7 +29836,7 @@ final List<Country> countries = [
           "Sighghiewi",
           "Zebbug"
         ]),
-        State(name: "Western", cities: ["Castletown"])
+        States(name: "Western", cities: ["Castletown"])
       ]),
   Country(
       name: "Marshall Islands",
@@ -29846,7 +29846,7 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Ailinlaplap", cities: [
+        States(name: "Ailinlaplap", cities: [
           "Ailuk",
           "Ajelep",
           "Aliej",
@@ -29855,7 +29855,7 @@ final List<Country> countries = [
           "Enejelar",
           "Kapen"
         ]),
-        State(name: "Ailuk", cities: [
+        States(name: "Ailuk", cities: [
           "Arno Arno",
           "Bikarej",
           "Bikonele",
@@ -29885,9 +29885,9 @@ final List<Country> countries = [
           "Tutu",
           "Ulien"
         ]),
-        State(name: "Arno", cities: ["Aur", "Tabal"]),
-        State(name: "Aur", cities: ["Eneu"]),
-        State(name: "Bikini", cities: [
+        States(name: "Arno", cities: ["Aur", "Tabal"]),
+        States(name: "Aur", cities: ["Eneu"]),
+        States(name: "Bikini", cities: [
           "Emej",
           "Enearmij",
           "Enekoion",
@@ -29897,9 +29897,9 @@ final List<Country> countries = [
           "Rerok",
           "Toka"
         ]),
-        State(name: "Ebon", cities: ["Enewetak", "Japtan", "Medren"]),
-        State(name: "Enewetak", cities: ["Jabat"]),
-        State(name: "Jabat", cities: [
+        States(name: "Ebon", cities: ["Enewetak", "Japtan", "Medren"]),
+        States(name: "Enewetak", cities: ["Jabat"]),
+        States(name: "Jabat", cities: [
           "Ae",
           "Ajejen",
           "Anilep",
@@ -29922,8 +29922,8 @@ final List<Country> countries = [
           "Narmej",
           "Urbaj"
         ]),
-        State(name: "Jaluit", cities: ["Kili"]),
-        State(name: "Kili", cities: [
+        States(name: "Jaluit", cities: ["Kili"]),
+        States(name: "Kili", cities: [
           "Arbwa",
           "Ebadon",
           "Ebeye",
@@ -29939,10 +29939,10 @@ final List<Country> countries = [
           "Orpap",
           "South Loi"
         ]),
-        State(name: "Kwajalein", cities: ["Enerein", "Lae", "Lejab"]),
-        State(name: "Lae", cities: ["Lib"]),
-        State(name: "Lib", cities: ["Jebal", "Likiep", "Liklal", "Melang"]),
-        State(name: "Likiep", cities: [
+        States(name: "Kwajalein", cities: ["Enerein", "Lae", "Lejab"]),
+        States(name: "Lae", cities: ["Lib"]),
+        States(name: "Lib", cities: ["Jebal", "Likiep", "Liklal", "Melang"]),
+        States(name: "Likiep", cities: [
           "Ajeltake",
           "Aneenwudej",
           "Aneko",
@@ -29962,11 +29962,11 @@ final List<Country> countries = [
           "Rongrong",
           "Woja"
         ]),
-        State(
+        States(
             name: "Majuro",
             cities: ["Airok", "Jang", "Kaben", "Tarawa", "Wolot"]),
-        State(name: "Maloelap", cities: ["Mejit"]),
-        State(name: "Mejit", cities: [
+        States(name: "Maloelap", cities: ["Mejit"]),
+        States(name: "Mejit", cities: [
           "Aeloneo",
           "Anel",
           "Arbar",
@@ -29986,14 +29986,14 @@ final List<Country> countries = [
           "Tokewa",
           "Wau"
         ]),
-        State(name: "Mili", cities: ["Namorik"]),
-        State(name: "Namorik", cities: ["Namu"]),
-        State(name: "Namu", cities: ["Rongelap"]),
-        State(name: "Rongelap", cities: ["Ujae"]),
-        State(name: "Ujae", cities: ["Utirik"]),
-        State(name: "Utrik", cities: ["Wotho"]),
-        State(name: "Wotho", cities: ["Didi", "Nibun", "Wormej", "Wotje"]),
-        State(name: "Wotje", cities: [
+        States(name: "Mili", cities: ["Namorik"]),
+        States(name: "Namorik", cities: ["Namu"]),
+        States(name: "Namu", cities: ["Rongelap"]),
+        States(name: "Rongelap", cities: ["Ujae"]),
+        States(name: "Ujae", cities: ["Utirik"]),
+        States(name: "Utrik", cities: ["Wotho"]),
+        States(name: "Wotho", cities: ["Didi", "Nibun", "Wormej", "Wotje"]),
+        States(name: "Wotje", cities: [
           "Fort-de-France",
           "Le Lamentin",
           "Saint-Joseph",
@@ -30008,10 +30008,10 @@ final List<Country> countries = [
       minLength: 15,
       maxLength: 15,
       states: [
-        State(name: "Fort-de-France", cities: []),
-        State(name: "La Trinite", cities: []),
-        State(name: "Le Marin", cities: ["Le Morne-Rouge", "Saint-Pierre"]),
-        State(name: "Saint-Pierre", cities: ["Atar", "Shingati"])
+        States(name: "Fort-de-France", cities: []),
+        States(name: "La Trinite", cities: []),
+        States(name: "Le Marin", cities: ["Le Morne-Rouge", "Saint-Pierre"]),
+        States(name: "Saint-Pierre", cities: ["Atar", "Shingati"])
       ]),
   Country(
       name: "Mauritania",
@@ -30021,23 +30021,23 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Adrar", cities: ["Kifah"]),
-        State(name: "Assaba", cities: ["Alaq", "Buqah", "Magta\\'\\' Lahjar"]),
-        State(name: "Brakna", cities: []),
-        State(
+        States(name: "Adrar", cities: ["Kifah"]),
+        States(name: "Assaba", cities: ["Alaq", "Buqah", "Magta\\'\\' Lahjar"]),
+        States(name: "Brakna", cities: []),
+        States(
             name: "Dhakhlat Nawadibu",
             cities: ["Ayun-al-\\'\\'Atrus", "Kubanni"]),
-        State(
+        States(
             name: "Hudh-al-Gharbi",
             cities: ["Timbedra", "Walatah", "an-Na\\'\\'mah"]),
-        State(name: "Hudh-ash-Sharqi", cities: ["Aqjawajat"]),
-        State(name: "Inshiri", cities: ["Nawakshut"]),
-        State(name: "Nawakshut", cities: ["Hsay Walad \\'\\'Ali Babi"]),
-        State(name: "Qidimagha", cities: ["Kayhaydi"]),
-        State(name: "Qurqul", cities: ["Tijiqjah"]),
-        State(name: "Taqant", cities: []),
-        State(name: "Tiris Zammur", cities: ["Rusu"]),
-        State(name: "Trarza", cities: [])
+        States(name: "Hudh-ash-Sharqi", cities: ["Aqjawajat"]),
+        States(name: "Inshiri", cities: ["Nawakshut"]),
+        States(name: "Nawakshut", cities: ["Hsay Walad \\'\\'Ali Babi"]),
+        States(name: "Qidimagha", cities: ["Kayhaydi"]),
+        States(name: "Qurqul", cities: ["Tijiqjah"]),
+        States(name: "Taqant", cities: []),
+        States(name: "Tiris Zammur", cities: ["Rusu"]),
+        States(name: "Trarza", cities: [])
       ]),
   Country(
       name: "Mauritius",
@@ -30047,8 +30047,8 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 8,
       states: [
-        State(name: "Black River", cities: []),
-        State(name: "Eau Coulee", cities: [
+        States(name: "Black River", cities: []),
+        States(name: "Eau Coulee", cities: [
           "Bel Air",
           "Bon Accueil",
           "Brisee Verdiere",
@@ -30073,9 +30073,9 @@ final List<Country> countries = [
           "Sebastopol",
           "Trou d\\'\\'Eau Douce"
         ]),
-        State(name: "Flacq", cities: ["Floreal"]),
-        State(name: "Floreal", cities: []),
-        State(name: "Grand Port", cities: [
+        States(name: "Flacq", cities: ["Floreal"]),
+        States(name: "Floreal", cities: []),
+        States(name: "Grand Port", cities: [
           "Camp Thorel",
           "Dagotiere",
           "Dubreuil",
@@ -30092,7 +30092,7 @@ final List<Country> countries = [
           "Saint Pierre",
           "Verdun"
         ]),
-        State(name: "Moka", cities: [
+        States(name: "Moka", cities: [
           "Arsenal",
           "Baie du Tombeau",
           "Calebasses",
@@ -30112,10 +30112,10 @@ final List<Country> countries = [
           "Triolet",
           "Villebague"
         ]),
-        State(name: "Pamplempousses", cities: []),
-        State(name: "Plaines Wilhelm", cities: []),
-        State(name: "Port Louis", cities: []),
-        State(name: "Riviere du Rempart", cities: [
+        States(name: "Pamplempousses", cities: []),
+        States(name: "Plaines Wilhelm", cities: []),
+        States(name: "Port Louis", cities: []),
+        States(name: "Riviere du Rempart", cities: [
           "Baie Malgache",
           "Coromandel-Graviers",
           "Grand Baie-Montagne Goyaves",
@@ -30131,8 +30131,8 @@ final List<Country> countries = [
           "Riviere Cocos",
           "Roche Bon Dieu-Trefles"
         ]),
-        State(name: "Rodrigues", cities: []),
-        State(name: "Rose Hill", cities: [
+        States(name: "Rodrigues", cities: []),
+        States(name: "Rose Hill", cities: [
           "Baie du Cap",
           "Bel Ombre",
           "Benares",
@@ -30147,7 +30147,7 @@ final List<Country> countries = [
           "Souillac",
           "Surinam"
         ]),
-        State(name: "Savanne", cities: [
+        States(name: "Savanne", cities: [
           "Acoua",
           "Bandraboua",
           "Bandrele",
@@ -30173,8 +30173,8 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Mayotte", cities: ["Dzaoudzi", "Pamanzi"]),
-        State(name: "Pamanzi", cities: [
+        States(name: "Mayotte", cities: ["Dzaoudzi", "Pamanzi"]),
+        States(name: "Pamanzi", cities: [
           "Aguascalientes",
           "Asientos",
           "Calvillo",
@@ -30199,9 +30199,9 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Aguascalientes", cities: []),
-        State(name: "Baja California", cities: []),
-        State(name: "Baja California Sur", cities: [
+        States(name: "Aguascalientes", cities: []),
+        States(name: "Baja California", cities: []),
+        States(name: "Baja California Sur", cities: [
           "Becal",
           "Bolonchen",
           "Calkini",
@@ -30223,7 +30223,7 @@ final List<Country> countries = [
           "Seybaplaya",
           "Tenabo"
         ]),
-        State(name: "Campeche", cities: [
+        States(name: "Campeche", cities: [
           "Acacoyagua",
           "Acala",
           "Acapetahua",
@@ -30326,7 +30326,7 @@ final List<Country> countries = [
           "Yajalon",
           "Zinacantan"
         ]),
-        State(name: "Chiapas", cities: [
+        States(name: "Chiapas", cities: [
           "Adolfo Lopez Mateos",
           "Ahumada",
           "Anahuac",
@@ -30370,7 +30370,7 @@ final List<Country> countries = [
           "Valle de Allende",
           "Vicente Guerrero"
         ]),
-        State(name: "Chihuahua", cities: [
+        States(name: "Chihuahua", cities: [
           "Acuna",
           "Allende",
           "Arteaga",
@@ -30404,7 +30404,7 @@ final List<Country> countries = [
           "Villa Union",
           "Zaragoza"
         ]),
-        State(name: "Coahuila", cities: [
+        States(name: "Coahuila", cities: [
           "Armeria",
           "Cofradia",
           "Colima",
@@ -30421,8 +30421,8 @@ final List<Country> countries = [
           "Tecoman",
           "Villa de Alvarez"
         ]),
-        State(name: "Colima", cities: []),
-        State(name: "Distrito Federal", cities: [
+        States(name: "Colima", cities: []),
+        States(name: "Distrito Federal", cities: [
           "Bermejillo",
           "Canatlan",
           "Cuencame",
@@ -30451,8 +30451,8 @@ final List<Country> countries = [
           "Tlahualilo",
           "Vicente Guerrero"
         ]),
-        State(name: "Durango", cities: []),
-        State(name: "Estado de Mexico", cities: [
+        States(name: "Durango", cities: []),
+        States(name: "Estado de Mexico", cities: [
           "Abasolo",
           "Acambaro",
           "Aldama",
@@ -30536,7 +30536,7 @@ final List<Country> countries = [
           "Yerbabuena",
           "Yuriria"
         ]),
-        State(name: "Guanajuato", cities: [
+        States(name: "Guanajuato", cities: [
           "Acamixtla",
           "Acapulco",
           "Acatlan",
@@ -30616,7 +30616,7 @@ final List<Country> countries = [
           "Zitlala",
           "Zumpango"
         ]),
-        State(name: "Guerrero", cities: [
+        States(name: "Guerrero", cities: [
           "Acaxochitlan",
           "Acayuca",
           "Actopan",
@@ -30680,7 +30680,7 @@ final List<Country> countries = [
           "Zempoala",
           "Zimapan"
         ]),
-        State(name: "Hidalgo", cities: [
+        States(name: "Hidalgo", cities: [
           "Acatic",
           "Acatlan",
           "Ahualulco",
@@ -30817,7 +30817,7 @@ final List<Country> countries = [
           "Zapotiltic",
           "Zapotlanejo"
         ]),
-        State(name: "Jalisco", cities: [
+        States(name: "Jalisco", cities: [
           "Acahualco",
           "Acambay",
           "Acazulco",
@@ -31067,7 +31067,7 @@ final List<Country> countries = [
           "Zumpahuacan",
           "Zumpango"
         ]),
-        State(name: "Mexico", cities: [
+        States(name: "Mexico", cities: [
           "Acuitzio",
           "Aguililla",
           "Alvaro Obregon",
@@ -31189,7 +31189,7 @@ final List<Country> countries = [
           "Zinapecuaro",
           "Zitacuaro"
         ]),
-        State(name: "Michoacan", cities: [
+        States(name: "Michoacan", cities: [
           "Alpuyeca",
           "Amacuzac",
           "Amayuca",
@@ -31253,7 +31253,7 @@ final List<Country> countries = [
           "Zacatepec",
           "Zacualpan"
         ]),
-        State(name: "Morelos", cities: [
+        States(name: "Morelos", cities: [
           "Acaponeta",
           "Ahuacatlan",
           "Amatlan",
@@ -31288,8 +31288,8 @@ final List<Country> countries = [
           "Yago",
           "Zacualpan"
         ]),
-        State(name: "Nayarit", cities: []),
-        State(name: "Nuevo Leon", cities: [
+        States(name: "Nayarit", cities: []),
+        States(name: "Nuevo Leon", cities: [
           "Acatlan",
           "Amatlan",
           "Amilpas",
@@ -31411,7 +31411,7 @@ final List<Country> countries = [
           "Zanatepec",
           "Zimatlan"
         ]),
-        State(name: "Oaxaca", cities: [
+        States(name: "Oaxaca", cities: [
           "Acajete",
           "Acateno",
           "Acatlan",
@@ -31582,7 +31582,7 @@ final List<Country> countries = [
           "Zongozotla",
           "Zozutla"
         ]),
-        State(name: "Puebla", cities: [
+        States(name: "Puebla", cities: [
           "Ajuchitlan",
           "Amazcala",
           "Amealco",
@@ -31612,9 +31612,9 @@ final List<Country> countries = [
           "Tequisquiapan",
           "Tlacote el Bajo"
         ]),
-        State(name: "Queretaro", cities: []),
-        State(name: "Quintana Roo", cities: []),
-        State(name: "San Luis Potosi", cities: [
+        States(name: "Queretaro", cities: []),
+        States(name: "Quintana Roo", cities: []),
+        States(name: "San Luis Potosi", cities: [
           "Adolfo Ruiz Cortines",
           "Agua Verde",
           "Ahome",
@@ -31669,7 +31669,7 @@ final List<Country> countries = [
           "Villa Union",
           "Zapotitlan"
         ]),
-        State(name: "Sinaloa", cities: [
+        States(name: "Sinaloa", cities: [
           "Agua Prieta",
           "Alamos",
           "Altar",
@@ -31719,7 +31719,7 @@ final List<Country> countries = [
           "Yaqui",
           "Yavaros"
         ]),
-        State(name: "Sonora", cities: [
+        States(name: "Sonora", cities: [
           "Aquiles Serdan",
           "Ayapa",
           "Balancan",
@@ -31768,7 +31768,7 @@ final List<Country> countries = [
           "Villa Aldama",
           "Villahermosa"
         ]),
-        State(name: "Tabasco", cities: [
+        States(name: "Tabasco", cities: [
           "Abasolo",
           "Aldama",
           "Altamira",
@@ -31806,7 +31806,7 @@ final List<Country> countries = [
           "Victoria",
           "Xicotencatl"
         ]),
-        State(name: "Tamaulipas", cities: [
+        States(name: "Tamaulipas", cities: [
           "Ahuashuatepec",
           "Altzayanca",
           "Amaxac",
@@ -31866,7 +31866,7 @@ final List<Country> countries = [
           "Zacualpan",
           "Zitlaltepec"
         ]),
-        State(name: "Tlaxcala", cities: [
+        States(name: "Tlaxcala", cities: [
           "Acayucan",
           "Actopan",
           "Acultzingo",
@@ -32059,7 +32059,7 @@ final List<Country> countries = [
           "Zongolica",
           "Zozocolco"
         ]),
-        State(name: "Veracruz", cities: [
+        States(name: "Veracruz", cities: [
           "Acanceh",
           "Akil",
           "Baca",
@@ -32134,7 +32134,7 @@ final List<Country> countries = [
           "X-Can",
           "Yucatan"
         ]),
-        State(name: "Yucatan", cities: [
+        States(name: "Yucatan", cities: [
           "Apozol",
           "Banon",
           "Canitas",
@@ -32181,7 +32181,7 @@ final List<Country> countries = [
           "Villanueva",
           "Zacatecas"
         ]),
-        State(name: "Zacatecas", cities: ["Tol", "Weno"])
+        States(name: "Zacatecas", cities: ["Tol", "Weno"])
       ]),
   Country(
       name: "Micronesia, Federated States of Micronesia",
@@ -32191,10 +32191,10 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Chuuk", cities: ["Lelu"]),
-        State(name: "Kusaie", cities: ["Kolonia", "Palikir"]),
-        State(name: "Pohnpei", cities: ["Colonia"]),
-        State(name: "Yap", cities: ["Balti", "Falesti", "Glodeni", "Rascani"])
+        States(name: "Chuuk", cities: ["Lelu"]),
+        States(name: "Kusaie", cities: ["Kolonia", "Palikir"]),
+        States(name: "Pohnpei", cities: ["Colonia"]),
+        States(name: "Yap", cities: ["Balti", "Falesti", "Glodeni", "Rascani"])
       ]),
   Country(
       name: "Moldova",
@@ -32204,21 +32204,21 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Balti", cities: ["Cahul"]),
-        State(name: "Cahul", cities: ["Straseni"]),
-        State(name: "Chisinau", cities: ["Straseni"]),
-        State(
+        States(name: "Balti", cities: ["Cahul"]),
+        States(name: "Cahul", cities: ["Straseni"]),
+        States(name: "Chisinau", cities: ["Straseni"]),
+        States(
             name: "Chisinau Oras",
             cities: ["Briceni", "Donduseni", "Edinet", "Ocnita"]),
-        State(name: "Edinet", cities: ["Ciadar Lunga", "Comrat", "Vulcanesti"]),
-        State(
+        States(name: "Edinet", cities: ["Ciadar Lunga", "Comrat", "Vulcanesti"]),
+        States(
             name: "Gagauzia",
             cities: ["Basarabeasca", "Cimislia", "Hancesti", "Leova"]),
-        State(name: "Lapusna", cities: ["Orhei", "Rezina", "Telenesti"]),
-        State(name: "Orhei", cities: ["Drochia", "Floresti", "Soroca"]),
-        State(name: "Soroca", cities: ["Taraclia"]),
-        State(name: "Taraclia", cities: ["Causani"]),
-        State(name: "Tighina", cities: [
+        States(name: "Lapusna", cities: ["Orhei", "Rezina", "Telenesti"]),
+        States(name: "Orhei", cities: ["Drochia", "Floresti", "Soroca"]),
+        States(name: "Soroca", cities: ["Taraclia"]),
+        States(name: "Taraclia", cities: ["Causani"]),
+        States(name: "Tighina", cities: [
           "Camenca",
           "Dnestrovsc",
           "Dubasari",
@@ -32228,9 +32228,9 @@ final List<Country> countries = [
           "Tighina",
           "Tiraspol"
         ]),
-        State(
+        States(
             name: "Transnistria", cities: ["Calarasi", "Nisporeni", "Ungheni"]),
-        State(name: "Ungheni", cities: ["Fontvieille"])
+        States(name: "Ungheni", cities: ["Fontvieille"])
       ]),
   Country(
       name: "Monaco",
@@ -32240,10 +32240,10 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Fontvieille", cities: []),
-        State(name: "La Condamine", cities: ["Monaco-Ville"]),
-        State(name: "Monaco-Ville", cities: []),
-        State(name: "Monte Carlo", cities: ["Cecerleg"])
+        States(name: "Fontvieille", cities: []),
+        States(name: "La Condamine", cities: ["Monaco-Ville"]),
+        States(name: "Monaco-Ville", cities: []),
+        States(name: "Monte Carlo", cities: ["Cecerleg"])
       ]),
   Country(
       name: "Mongolia",
@@ -32253,28 +32253,28 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Arhangaj", cities: ["Olgij"]),
-        State(name: "Bajan-Olgij", cities: ["Bajanhongor"]),
-        State(name: "Bajanhongor", cities: ["Bulgan"]),
-        State(name: "Bulgan", cities: ["Darhan"]),
-        State(name: "Darhan-Uul", cities: ["Chojbalsan"]),
-        State(name: "Dornod", cities: ["Sajnshand"]),
-        State(name: "Dornogovi", cities: ["Mandalgovi"]),
-        State(name: "Dundgovi", cities: ["Altaj"]),
-        State(name: "Govi-Altaj", cities: ["Chojr"]),
-        State(name: "Govisumber", cities: ["Ondorhaan"]),
-        State(name: "Hentij", cities: ["Hovd"]),
-        State(name: "Hovd", cities: ["Moron"]),
-        State(name: "Hovsgol", cities: ["Dalanzadgad"]),
-        State(name: "Omnogovi", cities: ["Erdenet"]),
-        State(name: "Orhon", cities: ["Arvajheer"]),
-        State(name: "Ovorhangaj", cities: ["Suhbaatar", "Zuunharaa"]),
-        State(name: "Selenge", cities: ["Baruun-Urt"]),
-        State(name: "Suhbaatar", cities: ["Nalajh", "Zuunmod"]),
-        State(name: "Tov", cities: ["Ulaanbaatar"]),
-        State(name: "Ulaanbaatar", cities: ["Ulaangom"]),
-        State(name: "Uvs", cities: ["Tosoncengel", "Uliastaj"]),
-        State(name: "Zavhan", cities: ["Montserrat"])
+        States(name: "Arhangaj", cities: ["Olgij"]),
+        States(name: "Bajan-Olgij", cities: ["Bajanhongor"]),
+        States(name: "Bajanhongor", cities: ["Bulgan"]),
+        States(name: "Bulgan", cities: ["Darhan"]),
+        States(name: "Darhan-Uul", cities: ["Chojbalsan"]),
+        States(name: "Dornod", cities: ["Sajnshand"]),
+        States(name: "Dornogovi", cities: ["Mandalgovi"]),
+        States(name: "Dundgovi", cities: ["Altaj"]),
+        States(name: "Govi-Altaj", cities: ["Chojr"]),
+        States(name: "Govisumber", cities: ["Ondorhaan"]),
+        States(name: "Hentij", cities: ["Hovd"]),
+        States(name: "Hovd", cities: ["Moron"]),
+        States(name: "Hovsgol", cities: ["Dalanzadgad"]),
+        States(name: "Omnogovi", cities: ["Erdenet"]),
+        States(name: "Orhon", cities: ["Arvajheer"]),
+        States(name: "Ovorhangaj", cities: ["Suhbaatar", "Zuunharaa"]),
+        States(name: "Selenge", cities: ["Baruun-Urt"]),
+        States(name: "Suhbaatar", cities: ["Nalajh", "Zuunmod"]),
+        States(name: "Tov", cities: ["Ulaanbaatar"]),
+        States(name: "Ulaanbaatar", cities: ["Ulaangom"]),
+        States(name: "Uvs", cities: ["Tosoncengel", "Uliastaj"]),
+        States(name: "Zavhan", cities: ["Montserrat"])
       ]),
   Country(
       name: "Montserrat",
@@ -32284,7 +32284,7 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Montserrat", cities: ["Agadir"])
+        States(name: "Montserrat", cities: ["Agadir"])
       ]),
   Country(
       name: "Morocco",
@@ -32294,8 +32294,8 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Agadir", cities: ["Mohammedia", "ad-Dar-al-Bayda"]),
-        State(name: "Casablanca", cities: [
+        States(name: "Agadir", cities: ["Mohammedia", "ad-Dar-al-Bayda"]),
+        States(name: "Casablanca", cities: [
           "Bin Sulayman",
           "Bir Rashid",
           "Bu-al-Jad",
@@ -32304,7 +32304,7 @@ final List<Country> countries = [
           "Sattat",
           "Wad Zam"
         ]),
-        State(name: "Chaouia-Ouardigha", cities: [
+        States(name: "Chaouia-Ouardigha", cities: [
           "Asfi",
           "Azimur",
           "Sidi Binnur",
@@ -32312,14 +32312,14 @@ final List<Country> countries = [
           "Yussufiyah",
           "al-Jadidah"
         ]),
-        State(name: "Doukkala-Abda", cities: ["Fas", "Fes", "Safru"]),
-        State(name: "Fes-Boulemane", cities: []),
-        State(
+        States(name: "Doukkala-Abda", cities: ["Fas", "Fes", "Safru"]),
+        States(name: "Fes-Boulemane", cities: []),
+        States(
             name: "Gharb-Chrarda-Beni Hssen",
             cities: ["Ghulimim", "Sidi Ifni", "Tafraut", "Tantan"]),
-        State(name: "Guelmim", cities: ["Kenitra"]),
-        State(name: "Kenitra", cities: []),
-        State(name: "Marrakech-Tensift-Al Haouz", cities: [
+        States(name: "Guelmim", cities: ["Kenitra"]),
+        States(name: "Kenitra", cities: []),
+        States(name: "Marrakech-Tensift-Al Haouz", cities: [
           "Amalu Ighriban",
           "Azru",
           "Jama\\'\\'at-al-Marirt",
@@ -32331,7 +32331,7 @@ final List<Country> countries = [
           "al-Hajab",
           "ar-Rasidiyah"
         ]),
-        State(name: "Meknes-Tafilalet", cities: [
+        States(name: "Meknes-Tafilalet", cities: [
           "Ahfir",
           "Bin Ansar",
           "Birkan",
@@ -32344,22 +32344,22 @@ final List<Country> countries = [
           "al-Ayun Sidi Malluk",
           "an-Nadur"
         ]),
-        State(name: "Oriental", cities: ["Oujda"]),
-        State(name: "Oujda", cities: []),
-        State(
+        States(name: "Oriental", cities: ["Oujda"]),
+        States(name: "Oujda", cities: []),
+        States(
             name: "Province de Tanger",
             cities: ["Khamissat", "Sakhirat", "Tiflat", "ar-Ribat"]),
-        State(name: "Rabat-Sale-Zammour-Zaer", cities: []),
-        State(name: "Sala Al Jadida", cities: ["Settat"]),
-        State(name: "Settat", cities: []),
-        State(name: "Souss Massa-Draa", cities: [
+        States(name: "Rabat-Sale-Zammour-Zaer", cities: []),
+        States(name: "Sala Al Jadida", cities: ["Settat"]),
+        States(name: "Settat", cities: []),
+        States(name: "Souss Massa-Draa", cities: [
           "Bani Mallal",
           "Beni Mellal",
           "Qasbat Tadlah",
           "Suq Sabt Awlat Nama",
           "al-Faqih Bin Salah"
         ]),
-        State(name: "Tadla-Azilal", cities: [
+        States(name: "Tadla-Azilal", cities: [
           "Asilah",
           "Finidiq",
           "Martil",
@@ -32372,10 +32372,10 @@ final List<Country> countries = [
           "al-\\'\\'Ara\\'\\'ish",
           "al-Qasr-al-Kabir"
         ]),
-        State(name: "Tangier-Tetouan", cities: []),
-        State(name: "Taza-Al Hoceima-Taounate", cities: []),
-        State(name: "Wilaya de Casablanca", cities: []),
-        State(name: "Wilaya de Rabat-Sale", cities: [])
+        States(name: "Tangier-Tetouan", cities: []),
+        States(name: "Taza-Al Hoceima-Taounate", cities: []),
+        States(name: "Wilaya de Casablanca", cities: []),
+        States(name: "Wilaya de Rabat-Sale", cities: [])
       ]),
   Country(
       name: "Mozambique",
@@ -32385,7 +32385,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Cabo Delgado", cities: [
+        States(name: "Cabo Delgado", cities: [
           "Chibuto",
           "Chidenguele",
           "Chokwe",
@@ -32395,7 +32395,7 @@ final List<Country> countries = [
           "Manjacaze",
           "Xai-Xai"
         ]),
-        State(name: "Gaza", cities: [
+        States(name: "Gaza", cities: [
           "Homoine",
           "Inhambane",
           "Inharrime",
@@ -32404,19 +32404,19 @@ final List<Country> countries = [
           "Panda",
           "Quissico"
         ]),
-        State(name: "Inhambane", cities: ["Chimoio", "Manica"]),
-        State(name: "Manica", cities: ["Maputo"]),
-        State(name: "Maputo", cities: ["Maputo"]),
-        State(
+        States(name: "Inhambane", cities: ["Chimoio", "Manica"]),
+        States(name: "Manica", cities: ["Maputo"]),
+        States(name: "Maputo", cities: ["Maputo"]),
+        States(
             name: "Maputo Provincia",
             cities: ["Angoche", "Lumbo", "Mocambique", "Nacala", "Nampula"]),
-        State(
+        States(
             name: "Nampula",
             cities: ["Cuamba", "Lichinga", "Mandimba", "Maniamba", "Marrupa"]),
-        State(name: "Niassa", cities: ["Beira", "Dondo"]),
-        State(name: "Sofala", cities: ["Tete", "Zumbo"]),
-        State(name: "Tete", cities: ["Garue", "Mocuba", "Quelimane"]),
-        State(name: "Zambezia", cities: [
+        States(name: "Niassa", cities: ["Beira", "Dondo"]),
+        States(name: "Sofala", cities: ["Tete", "Zumbo"]),
+        States(name: "Tete", cities: ["Garue", "Mocuba", "Quelimane"]),
+        States(name: "Zambezia", cities: [
           "Bogale",
           "Henzada",
           "Kyaiklat",
@@ -32439,7 +32439,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Ayeyarwady", cities: [
+        States(name: "Ayeyarwady", cities: [
           "Bago",
           "Letpadan",
           "Nyaunglebin",
@@ -32450,11 +32450,11 @@ final List<Country> countries = [
           "Tharrawaddy",
           "Toungoo"
         ]),
-        State(name: "Bago", cities: ["Falam"]),
-        State(name: "Chin", cities: ["Banmo", "Myitkyina"]),
-        State(name: "Kachin", cities: ["Loikaw"]),
-        State(name: "Kayah", cities: ["Hpa-an"]),
-        State(name: "Kayin", cities: [
+        States(name: "Bago", cities: ["Falam"]),
+        States(name: "Chin", cities: ["Banmo", "Myitkyina"]),
+        States(name: "Kachin", cities: ["Loikaw"]),
+        States(name: "Kayah", cities: ["Hpa-an"]),
+        States(name: "Kayin", cities: [
           "Allanmyo",
           "Chauk",
           "Magway",
@@ -32464,7 +32464,7 @@ final List<Country> countries = [
           "Thayetmyo",
           "Yenangyaung"
         ]),
-        State(name: "Magway", cities: [
+        States(name: "Magway", cities: [
           "Kyaukse",
           "Mandalay",
           "Maymyo",
@@ -32474,7 +32474,7 @@ final List<Country> countries = [
           "Pyinmana",
           "Yamethin"
         ]),
-        State(name: "Mandalay", cities: [
+        States(name: "Mandalay", cities: [
           "Kyaikkami",
           "Kyaikto",
           "Martaban",
@@ -32482,9 +32482,9 @@ final List<Country> countries = [
           "Mudon",
           "Thaton"
         ]),
-        State(name: "Mon", cities: []),
-        State(name: "Nay Pyi Taw", cities: ["Akyab", "Arakan"]),
-        State(name: "Rakhine", cities: [
+        States(name: "Mon", cities: []),
+        States(name: "Nay Pyi Taw", cities: ["Akyab", "Arakan"]),
+        States(name: "Rakhine", cities: [
           "Kalay",
           "Katha",
           "Mawlaik",
@@ -32492,9 +32492,9 @@ final List<Country> countries = [
           "Sagaing",
           "Shwebo"
         ]),
-        State(name: "Sagaing", cities: ["Keng Tung", "Lashio", "Taunggyi"]),
-        State(name: "Shan", cities: ["Dawei", "Mergui"]),
-        State(name: "Tanintharyi", cities: [
+        States(name: "Sagaing", cities: ["Keng Tung", "Lashio", "Taunggyi"]),
+        States(name: "Shan", cities: ["Dawei", "Mergui"]),
+        States(name: "Tanintharyi", cities: [
           "Kanbe",
           "Kayan",
           "Syriam",
@@ -32502,7 +32502,7 @@ final List<Country> countries = [
           "Twante",
           "Yangon"
         ]),
-        State(name: "Yangon", cities: ["Katima Mulilo"])
+        States(name: "Yangon", cities: ["Katima Mulilo"])
       ]),
   Country(
       name: "Namibia",
@@ -32512,7 +32512,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Caprivi", cities: [
+        States(name: "Caprivi", cities: [
           "Henties Bay",
           "Karibib",
           "Kuisebmond",
@@ -32522,10 +32522,10 @@ final List<Country> countries = [
           "Usakos",
           "Walvis Bay"
         ]),
-        State(
+        States(
             name: "Erongo",
             cities: ["Aranos", "Maltahohe", "Mariental", "Rehoboth"]),
-        State(name: "Hardap", cities: [
+        States(name: "Hardap", cities: [
           "Bethanien",
           "Karasburg",
           "Keetmanshoop",
@@ -32533,19 +32533,19 @@ final List<Country> countries = [
           "Oranjemund",
           "Warmbad"
         ]),
-        State(name: "Karas", cities: ["Rundu"]),
-        State(name: "Kavango", cities: ["Windhoek"]),
-        State(
+        States(name: "Karas", cities: ["Rundu"]),
+        States(name: "Kavango", cities: ["Windhoek"]),
+        States(
             name: "Khomas", cities: ["Arandis", "Khorixas", "Opuwo", "Outjo"]),
-        State(name: "Kunene", cities: ["Oshikango"]),
-        State(name: "Ohangwena", cities: ["Gobabis", "Leonardville"]),
-        State(name: "Omaheke", cities: ["Ongandjera"]),
-        State(name: "Omusati", cities: ["Ongwediva", "Oshakati"]),
-        State(name: "Oshana", cities: ["Ondangwa", "Otavi", "Tsumeb"]),
-        State(
+        States(name: "Kunene", cities: ["Oshikango"]),
+        States(name: "Ohangwena", cities: ["Gobabis", "Leonardville"]),
+        States(name: "Omaheke", cities: ["Ongandjera"]),
+        States(name: "Omusati", cities: ["Ongwediva", "Oshakati"]),
+        States(name: "Oshana", cities: ["Ondangwa", "Otavi", "Tsumeb"]),
+        States(
             name: "Oshikoto",
             cities: ["Grootfontein", "Okahandja", "Okakarara", "Otjiwarongo"]),
-        State(name: "Otjozondjupa", cities: ["Yaren"])
+        States(name: "Otjozondjupa", cities: ["Yaren"])
       ]),
   Country(
       name: "Nauru",
@@ -32555,7 +32555,7 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Yaren", cities: [
+        States(name: "Yaren", cities: [
           "Banepa",
           "Bhaktapur",
           "Bidur",
@@ -32577,15 +32577,15 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Bagmati", cities: [
+        States(name: "Bagmati", cities: [
           "Birendranagar",
           "Gulariya",
           "Narayan",
           "Nepalganj",
           "Surkhet"
         ]),
-        State(name: "Bheri", cities: ["Baglung", "Weni"]),
-        State(name: "Dhawalagiri", cities: [
+        States(name: "Bheri", cities: ["Baglung", "Weni"]),
+        States(name: "Dhawalagiri", cities: [
           "Byas",
           "Leknath",
           "Pokhara",
@@ -32593,7 +32593,7 @@ final List<Country> countries = [
           "Putalibazar",
           "Waling"
         ]),
-        State(name: "Gandaki", cities: [
+        States(name: "Gandaki", cities: [
           "Bhimeshwar",
           "Jaleshwar",
           "Janakpur",
@@ -32601,8 +32601,8 @@ final List<Country> countries = [
           "Malangwa",
           "Sinduli Marhi"
         ]),
-        State(name: "Janakpur", cities: ["Jumla"]),
-        State(name: "Karnali", cities: [
+        States(name: "Janakpur", cities: ["Jumla"]),
+        States(name: "Karnali", cities: [
           "Biratnagar",
           "Dhankuta",
           "Dharan",
@@ -32610,7 +32610,7 @@ final List<Country> countries = [
           "Itahari",
           "Khandbari"
         ]),
-        State(name: "Koshi", cities: [
+        States(name: "Koshi", cities: [
           "Butwal",
           "Kapilwastu",
           "Ramgram",
@@ -32618,13 +32618,13 @@ final List<Country> countries = [
           "Tansen",
           "Wahadurganj"
         ]),
-        State(
+        States(
             name: "Lumbini",
             cities: ["Amargadhi", "Dashrathchand", "Mahendranagar"]),
-        State(
+        States(
             name: "Mahakali",
             cities: ["Bhadrapur", "Damak", "Ilam", "Mechinagar"]),
-        State(name: "Mechi", cities: [
+        States(name: "Mechi", cities: [
           "Bharatpur",
           "Birganj",
           "Chitwan",
@@ -32633,11 +32633,11 @@ final List<Country> countries = [
           "Kalaiya",
           "Ratnanagar"
         ]),
-        State(name: "Narayani", cities: ["Salyan", "Tulsipur"]),
-        State(
+        States(name: "Narayani", cities: ["Salyan", "Tulsipur"]),
+        States(
             name: "Rapti", cities: ["Lahan", "Rajbiraj", "Siraha", "Triyuga"]),
-        State(name: "Sagarmatha", cities: ["Dhangadi", "Dipayal", "Tikapur"]),
-        State(name: "Seti", cities: ["Kralendijk"])
+        States(name: "Sagarmatha", cities: ["Dhangadi", "Dipayal", "Tikapur"]),
+        States(name: "Seti", cities: ["Kralendijk"])
       ]),
   Country(
       name: "Netherlands",
@@ -32647,11 +32647,11 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Bonaire", cities: ["Curacao", "Willemstad"]),
-        State(name: "Curacao", cities: ["The Bottom"]),
-        State(name: "Saba", cities: []),
-        State(name: "Sint Eustatius", cities: []),
-        State(name: "Sint Maarten", cities: ["SchipolRijk"])
+        States(name: "Bonaire", cities: ["Curacao", "Willemstad"]),
+        States(name: "Curacao", cities: ["The Bottom"]),
+        States(name: "Saba", cities: []),
+        States(name: "Sint Eustatius", cities: []),
+        States(name: "Sint Maarten", cities: ["SchipolRijk"])
       ]),
   Country(
       name: "Netherlands Antilles",
@@ -32661,8 +32661,8 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Amsterdam", cities: ["Amstelveen"]),
-        State(name: "Benelux", cities: [
+        States(name: "Amsterdam", cities: ["Amstelveen"]),
+        States(name: "Benelux", cities: [
           "Aa en Hunze",
           "Assen",
           "Borger-Odoorn",
@@ -32682,7 +32682,7 @@ final List<Country> countries = [
           "Westerveld",
           "Zuidlaren"
         ]),
-        State(name: "Drenthe", cities: [
+        States(name: "Drenthe", cities: [
           "Almere",
           "Dronten",
           "Lelystad",
@@ -32690,7 +32690,7 @@ final List<Country> countries = [
           "Urk",
           "Zeewolde"
         ]),
-        State(name: "Flevoland", cities: [
+        States(name: "Flevoland", cities: [
           "Achtkarspelen",
           "Ameland",
           "Boarnsterhim",
@@ -32727,7 +32727,7 @@ final List<Country> countries = [
           "Wunseradiel",
           "Wymbritseradiel"
         ]),
-        State(name: "Friesland", cities: [
+        States(name: "Friesland", cities: [
           "Aalten",
           "Angerlo",
           "Apeldoorn",
@@ -32819,7 +32819,7 @@ final List<Country> countries = [
           "Zutphen",
           "s-Heerenberg"
         ]),
-        State(name: "Gelderland", cities: [
+        States(name: "Gelderland", cities: [
           "Appingedam",
           "Bedum",
           "Bellingwedde",
@@ -32846,7 +32846,7 @@ final List<Country> countries = [
           "Winsum",
           "Zuidhorn"
         ]),
-        State(name: "Groningen", cities: [
+        States(name: "Groningen", cities: [
           "Ambt Montfort",
           "Arcen en Velden",
           "Beek",
@@ -32902,7 +32902,7 @@ final List<Country> countries = [
           "Voerendaal",
           "Weert"
         ]),
-        State(name: "Limburg", cities: [
+        States(name: "Limburg", cities: [
           "s-Hertogenbosch",
           "Aalburg",
           "Alphen-Chaam",
@@ -32994,7 +32994,7 @@ final List<Country> countries = [
           "Woudrichem",
           "Zundert"
         ]),
-        State(name: "Noord-Brabant", cities: [
+        States(name: "Noord-Brabant", cities: [
           "Aalsmeer",
           "Alkmaar",
           "Amstelveen",
@@ -33083,7 +33083,7 @@ final List<Country> countries = [
           "Zwaag",
           "Zwanenburg"
         ]),
-        State(name: "Noord-Holland", cities: [
+        States(name: "Noord-Holland", cities: [
           "Almelo",
           "Bathmen",
           "Borne",
@@ -33122,8 +33122,8 @@ final List<Country> countries = [
           "Zwartewaterland",
           "Zwolle"
         ]),
-        State(name: "Overijssel", cities: []),
-        State(name: "South Holland", cities: [
+        States(name: "Overijssel", cities: []),
+        States(name: "South Holland", cities: [
           "Abcoude",
           "Amerongen",
           "Amersfoort",
@@ -33167,7 +33167,7 @@ final List<Country> countries = [
           "Woudenberg",
           "Zeist"
         ]),
-        State(name: "Utrecht", cities: [
+        States(name: "Utrecht", cities: [
           "Axel",
           "Borsele",
           "Goes",
@@ -33188,7 +33188,7 @@ final List<Country> countries = [
           "Zierikzee",
           "Zijpe"
         ]),
-        State(name: "Zeeland", cities: [
+        States(name: "Zeeland", cities: [
           "s-Gravendeel",
           "s-Gravenhage",
           "s-Gravenzande",
@@ -33282,7 +33282,7 @@ final List<Country> countries = [
           "Zoeterwoude",
           "Zwijndrecht"
         ]),
-        State(
+        States(
             name: "Zuid-Holland",
             cities: ["Belep", "Fayaoue", "Tadine", "Vao", "We"])
       ]),
@@ -33294,7 +33294,7 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Iles", cities: [
+        States(name: "Iles", cities: [
           "Canala",
           "Hienghene",
           "Houailu",
@@ -33311,7 +33311,7 @@ final List<Country> countries = [
           "Touho",
           "Voh"
         ]),
-        State(name: "Nord", cities: [
+        States(name: "Nord", cities: [
           "Bouloupari",
           "Bourail",
           "Dumbea",
@@ -33325,7 +33325,7 @@ final List<Country> countries = [
           "Thio",
           "Yate"
         ]),
-        State(name: "Sud", cities: [])
+        States(name: "Sud", cities: [])
       ]),
   Country(
       name: "New Zealand",
@@ -33335,7 +33335,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Area Outside Region", cities: [
+        States(name: "Area Outside Region", cities: [
           "Auckland",
           "Helensville",
           "Henderson",
@@ -33359,8 +33359,8 @@ final List<Country> countries = [
           "Waiheke",
           "Waitakere"
         ]),
-        State(name: "Auckland", cities: []),
-        State(name: "Bay of Plenty", cities: [
+        States(name: "Auckland", cities: []),
+        States(name: "Bay of Plenty", cities: [
           "Amberley",
           "Ashburton",
           "Christchurch",
@@ -33375,10 +33375,10 @@ final List<Country> countries = [
           "Timaru",
           "Waimate"
         ]),
-        State(name: "Canterbury", cities: []),
-        State(name: "Christchurch", cities: ["Gisborne"]),
-        State(name: "Gisborne", cities: []),
-        State(name: "Hawke\\'\\'s Bay", cities: [
+        States(name: "Canterbury", cities: []),
+        States(name: "Christchurch", cities: ["Gisborne"]),
+        States(name: "Gisborne", cities: []),
+        States(name: "Hawke\\'\\'s Bay", cities: [
           "Dannevirke",
           "Feilding",
           "Foxton",
@@ -33389,9 +33389,9 @@ final List<Country> countries = [
           "Taumarunui",
           "Wanganui"
         ]),
-        State(name: "Manawatu-Wanganui", cities: ["Blenheim", "Havelock"]),
-        State(name: "Marlborough", cities: ["Nelson"]),
-        State(name: "Nelson", cities: [
+        States(name: "Manawatu-Wanganui", cities: ["Blenheim", "Havelock"]),
+        States(name: "Marlborough", cities: ["Nelson"]),
+        States(name: "Nelson", cities: [
           "Dargaville",
           "Kaikohe",
           "Kaitaia",
@@ -33399,16 +33399,16 @@ final List<Country> countries = [
           "Maungatapere",
           "Whangarei"
         ]),
-        State(name: "Northland", cities: [
+        States(name: "Northland", cities: [
           "Alexandra",
           "Balclutha",
           "Dunedin",
           "Queenstown",
           "Wanaka"
         ]),
-        State(name: "Otago", cities: ["Warkworth"]),
-        State(name: "Rodney", cities: ["Gore", "Invercargill"]),
-        State(name: "Southland", cities: [
+        States(name: "Otago", cities: ["Warkworth"]),
+        States(name: "Rodney", cities: ["Gore", "Invercargill"]),
+        States(name: "Southland", cities: [
           "Eltham",
           "Hawera",
           "Inglewood",
@@ -33417,8 +33417,8 @@ final List<Country> countries = [
           "Stratford",
           "Waitara"
         ]),
-        State(name: "Taranaki", cities: ["Motueka", "Richmond"]),
-        State(name: "Tasman", cities: [
+        States(name: "Taranaki", cities: ["Motueka", "Richmond"]),
+        States(name: "Tasman", cities: [
           "Cambridge",
           "Coromandel",
           "Hamilton",
@@ -33442,7 +33442,7 @@ final List<Country> countries = [
           "Whangamata",
           "Whitianga"
         ]),
-        State(name: "Waikato", cities: [
+        States(name: "Waikato", cities: [
           "Carterton",
           "Kapiti",
           "Lower Hutt",
@@ -33455,8 +33455,8 @@ final List<Country> countries = [
           "Wairarapa",
           "Wellington"
         ]),
-        State(name: "Wellington", cities: []),
-        State(name: "West Coast", cities: [])
+        States(name: "Wellington", cities: []),
+        States(name: "West Coast", cities: [])
       ]),
   Country(
       name: "Nicaragua",
@@ -33466,10 +33466,10 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Atlantico Norte", cities: []),
-        State(
+        States(name: "Atlantico Norte", cities: []),
+        States(
             name: "Atlantico Sur", cities: ["Boaco", "Camoapa", "San Lorenzo"]),
-        State(name: "Boaco", cities: [
+        States(name: "Boaco", cities: [
           "Diriamba",
           "Dolores",
           "Jinotepe",
@@ -33477,7 +33477,7 @@ final List<Country> countries = [
           "San Marcos",
           "Santa Teresa"
         ]),
-        State(name: "Carazo", cities: [
+        States(name: "Carazo", cities: [
           "Chichigalpa",
           "Chinandega",
           "Corinto",
@@ -33485,17 +33485,17 @@ final List<Country> countries = [
           "Puerto Morazan",
           "Somotillo"
         ]),
-        State(name: "Chinandega", cities: [
+        States(name: "Chinandega", cities: [
           "Acoyapa",
           "Juigalpa",
           "Santo Domingo",
           "Santo Tomas",
           "Villa Sandino"
         ]),
-        State(name: "Chontales", cities: ["Condega", "Esteli", "La Trinidad"]),
-        State(name: "Esteli", cities: ["Diriomo", "Granada", "Nandaime"]),
-        State(name: "Granada", cities: ["Jinotega", "Wiwili"]),
-        State(name: "Jinotega", cities: [
+        States(name: "Chontales", cities: ["Condega", "Esteli", "La Trinidad"]),
+        States(name: "Esteli", cities: ["Diriomo", "Granada", "Nandaime"]),
+        States(name: "Granada", cities: ["Jinotega", "Wiwili"]),
+        States(name: "Jinotega", cities: [
           "El Sauce",
           "La Paz Centro",
           "Larreynaga",
@@ -33503,22 +33503,22 @@ final List<Country> countries = [
           "Nagarote",
           "Telica"
         ]),
-        State(name: "Leon", cities: ["Somoto"]),
-        State(name: "Madriz", cities: [
+        States(name: "Leon", cities: ["Somoto"]),
+        States(name: "Madriz", cities: [
           "Managua",
           "Mateare",
           "San Rafael del Sur",
           "Ticuantepe",
           "Tipitapa"
         ]),
-        State(name: "Managua", cities: [
+        States(name: "Managua", cities: [
           "La Concepcion",
           "Masaya",
           "Nandasmo",
           "Nindiri",
           "Niquinohomo"
         ]),
-        State(name: "Masaya", cities: [
+        States(name: "Masaya", cities: [
           "Ciudad Dario",
           "Esquipulas",
           "Matagalpa",
@@ -33527,12 +33527,12 @@ final List<Country> countries = [
           "San Isidro",
           "Sebaco"
         ]),
-        State(name: "Matagalpa", cities: []),
-        State(name: "Nueva Segovia", cities: []),
-        State(
+        States(name: "Matagalpa", cities: []),
+        States(name: "Nueva Segovia", cities: []),
+        States(
             name: "Rio San Juan",
             cities: ["Belen", "Rivas", "San Jorge", "San Juan del Sur"]),
-        State(name: "Rivas", cities: [
+        States(name: "Rivas", cities: [
           "Agadez",
           "Arlit",
           "Bilma",
@@ -33549,9 +33549,9 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(
+        States(
             name: "Agadez", cities: ["Diffa", "Maine-Soroa", "N\\'\\'Guigmi"]),
-        State(name: "Diffa", cities: [
+        States(name: "Diffa", cities: [
           "Birni N\\'\\'Gaoure",
           "Boboye",
           "Dogondoutchi",
@@ -33559,7 +33559,7 @@ final List<Country> countries = [
           "Gaya",
           "Loga"
         ]),
-        State(name: "Dosso", cities: [
+        States(name: "Dosso", cities: [
           "Aguie",
           "Dakoro",
           "Gazaoua",
@@ -33570,8 +33570,8 @@ final List<Country> countries = [
           "Tessaoua",
           "Tibiri"
         ]),
-        State(name: "Maradi", cities: ["Niamey"]),
-        State(name: "Niamey", cities: [
+        States(name: "Maradi", cities: ["Niamey"]),
+        States(name: "Niamey", cities: [
           "Birni N\\'\\'Konni",
           "Bouza",
           "Illela",
@@ -33581,7 +33581,7 @@ final List<Country> countries = [
           "Tahoua",
           "Tchintabaraden"
         ]),
-        State(name: "Tahoua", cities: [
+        States(name: "Tahoua", cities: [
           "Ayorou",
           "Filingue",
           "Kollo",
@@ -33590,7 +33590,7 @@ final List<Country> countries = [
           "Tera",
           "Tillabery"
         ]),
-        State(name: "Tillabery", cities: [
+        States(name: "Tillabery", cities: [
           "Goure",
           "Kantche",
           "Magaria",
@@ -33599,7 +33599,7 @@ final List<Country> countries = [
           "Tanout",
           "Zinder"
         ]),
-        State(name: "Zinder", cities: [
+        States(name: "Zinder", cities: [
           "Aba",
           "Amaigbo",
           "Arochukwu",
@@ -33617,8 +33617,8 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 11,
       states: [
-        State(name: "Abia", cities: []),
-        State(name: "Abuja Federal Capital Territor", cities: [
+        States(name: "Abia", cities: []),
+        States(name: "Abuja Federal Capital Territor", cities: [
           "Demsa",
           "Ganye",
           "Girei",
@@ -33636,8 +33636,8 @@ final List<Country> countries = [
           "Toungo",
           "Yola"
         ]),
-        State(name: "Adamawa", cities: []),
-        State(name: "Akwa Ibom", cities: [
+        States(name: "Adamawa", cities: []),
+        States(name: "Akwa Ibom", cities: [
           "Aguata",
           "Agulu",
           "Anambra",
@@ -33654,7 +33654,7 @@ final List<Country> countries = [
           "Ozubulu",
           "Uga"
         ]),
-        State(name: "Anambra", cities: [
+        States(name: "Anambra", cities: [
           "Alkaleri",
           "Azare",
           "Bauchi",
@@ -33669,9 +33669,9 @@ final List<Country> countries = [
           "Ningi",
           "Tafawa Balewa"
         ]),
-        State(
+        States(
             name: "Bauchi", cities: ["Brass", "Ekeremor", "Nembe", "Yenagoa"]),
-        State(name: "Bayelsa", cities: [
+        States(name: "Bayelsa", cities: [
           "Aliade",
           "Gboko",
           "Katsina-Ala",
@@ -33680,7 +33680,7 @@ final List<Country> countries = [
           "Ukum",
           "Zaki Biam"
         ]),
-        State(name: "Benue", cities: [
+        States(name: "Benue", cities: [
           "Abadan",
           "Askira",
           "Bama",
@@ -33703,8 +33703,8 @@ final List<Country> countries = [
           "Ngala",
           "Shani"
         ]),
-        State(name: "Borno", cities: []),
-        State(name: "Cross River", cities: [
+        States(name: "Borno", cities: []),
+        States(name: "Cross River", cities: [
           "Agbor",
           "Asaba",
           "Bomadi",
@@ -33715,7 +33715,7 @@ final List<Country> countries = [
           "Ughelli",
           "Warri"
         ]),
-        State(name: "Delta", cities: [
+        States(name: "Delta", cities: [
           "Abakaliki",
           "Afikpo",
           "Effium",
@@ -33723,7 +33723,7 @@ final List<Country> countries = [
           "Ishieke",
           "Uburu"
         ]),
-        State(name: "Ebonyi", cities: [
+        States(name: "Ebonyi", cities: [
           "Auchi",
           "Benin",
           "Ekpoma",
@@ -33734,7 +33734,7 @@ final List<Country> countries = [
           "Ubiaja",
           "Uromi"
         ]),
-        State(name: "Edo", cities: [
+        States(name: "Edo", cities: [
           "Ado",
           "Aramoko",
           "Efon Alaye",
@@ -33751,7 +33751,7 @@ final List<Country> countries = [
           "Omuo",
           "Osi"
         ]),
-        State(name: "Ekiti", cities: [
+        States(name: "Ekiti", cities: [
           "Agwa",
           "Aku",
           "Awgu",
@@ -33765,7 +33765,7 @@ final List<Country> countries = [
           "Oji",
           "Udi"
         ]),
-        State(name: "Enugu", cities: [
+        States(name: "Enugu", cities: [
           "Ako",
           "Deba",
           "Duku",
@@ -33776,7 +33776,7 @@ final List<Country> countries = [
           "Nafada",
           "Pindiga"
         ]),
-        State(name: "Gombe", cities: [
+        States(name: "Gombe", cities: [
           "Aboh",
           "Etiti",
           "Ihite",
@@ -33785,7 +33785,7 @@ final List<Country> countries = [
           "Okigwe",
           "Owerri"
         ]),
-        State(name: "Imo", cities: [
+        States(name: "Imo", cities: [
           "Babura",
           "Birnin Kudu",
           "Buji",
@@ -33806,7 +33806,7 @@ final List<Country> countries = [
           "Sule Tankarkar",
           "Taura"
         ]),
-        State(name: "Jigawa", cities: [
+        States(name: "Jigawa", cities: [
           "Birnin Gwari",
           "Doka",
           "Giwa",
@@ -33832,7 +33832,7 @@ final List<Country> countries = [
           "Zangon Katab",
           "Zaria"
         ]),
-        State(name: "Kaduna", cities: [
+        States(name: "Kaduna", cities: [
           "Ajingi",
           "Albasu",
           "Bagwai",
@@ -33867,7 +33867,7 @@ final List<Country> countries = [
           "Tudun Wada",
           "Wudil"
         ]),
-        State(name: "Kano", cities: [
+        States(name: "Kano", cities: [
           "Bakori",
           "Batsari",
           "Bindawa",
@@ -33894,7 +33894,7 @@ final List<Country> countries = [
           "Sandamu",
           "Zango"
         ]),
-        State(name: "Katsina", cities: [
+        States(name: "Katsina", cities: [
           "Argungu",
           "Augie",
           "Bagudo",
@@ -33913,7 +33913,7 @@ final List<Country> countries = [
           "Wasagu",
           "Zuru"
         ]),
-        State(name: "Kebbi", cities: [
+        States(name: "Kebbi", cities: [
           "Ajaokuta",
           "Ankpa",
           "Dekina",
@@ -33927,7 +33927,7 @@ final List<Country> countries = [
           "Ogori",
           "Okene"
         ]),
-        State(name: "Kogi", cities: [
+        States(name: "Kogi", cities: [
           "Ajasse",
           "Ilorin",
           "Jebba",
@@ -33936,7 +33936,7 @@ final List<Country> countries = [
           "Offa",
           "Pategi"
         ]),
-        State(name: "Kwara", cities: [
+        States(name: "Kwara", cities: [
           "Apapa",
           "Badagri",
           "Epe",
@@ -33948,7 +33948,7 @@ final List<Country> countries = [
           "Ojo",
           "Surulere"
         ]),
-        State(name: "Lagos", cities: [
+        States(name: "Lagos", cities: [
           "Akwanga",
           "Awe",
           "Doma",
@@ -33960,7 +33960,7 @@ final List<Country> countries = [
           "Toto",
           "Wamba"
         ]),
-        State(name: "Nassarawa", cities: [
+        States(name: "Nassarawa", cities: [
           "Agale",
           "Babana",
           "Bida",
@@ -33977,7 +33977,7 @@ final List<Country> countries = [
           "Suleja",
           "Wushishi"
         ]),
-        State(name: "Niger", cities: [
+        States(name: "Niger", cities: [
           "Abeokuta",
           "Ado Odo",
           "Agbara",
@@ -33994,7 +33994,7 @@ final List<Country> countries = [
           "Sango Ota",
           "Shagamu"
         ]),
-        State(name: "Ogun", cities: [
+        States(name: "Ogun", cities: [
           "Akure",
           "Idanre",
           "Ikare",
@@ -34005,7 +34005,7 @@ final List<Country> countries = [
           "Ondo",
           "Owo"
         ]),
-        State(name: "Ondo", cities: [
+        States(name: "Ondo", cities: [
           "Apomu",
           "Ede",
           "Ejigbo",
@@ -34030,7 +34030,7 @@ final List<Country> countries = [
           "Oshogbo",
           "Oyan"
         ]),
-        State(name: "Osun", cities: [
+        States(name: "Osun", cities: [
           "Akinyele",
           "Egbeda",
           "Eruwa",
@@ -34049,7 +34049,7 @@ final List<Country> countries = [
           "Oyo",
           "Shaki"
         ]),
-        State(name: "Oyo", cities: [
+        States(name: "Oyo", cities: [
           "Barakin",
           "Bassa",
           "Bokkos",
@@ -34062,7 +34062,7 @@ final List<Country> countries = [
           "Vom",
           "Wase"
         ]),
-        State(name: "Plateau", cities: [
+        States(name: "Plateau", cities: [
           "Abonnema",
           "Abua",
           "Ahoada",
@@ -34077,7 +34077,7 @@ final List<Country> countries = [
           "Oyigbo",
           "Port Harcourt"
         ]),
-        State(name: "Rivers", cities: [
+        States(name: "Rivers", cities: [
           "Binji",
           "Bodinga",
           "Dange",
@@ -34096,7 +34096,7 @@ final List<Country> countries = [
           "Wamako",
           "Wurno"
         ]),
-        State(name: "Sokoto", cities: [
+        States(name: "Sokoto", cities: [
           "Bali",
           "Gashaka",
           "Gassol",
@@ -34107,7 +34107,7 @@ final List<Country> countries = [
           "Wukari",
           "Yorro"
         ]),
-        State(name: "Taraba", cities: [
+        States(name: "Taraba", cities: [
           "Damaturu",
           "Fika",
           "Gashua",
@@ -34121,7 +34121,7 @@ final List<Country> countries = [
           "Potiskum",
           "Yusufari"
         ]),
-        State(name: "Yobe", cities: [
+        States(name: "Yobe", cities: [
           "Anka",
           "Bungudu",
           "Chafe",
@@ -34136,7 +34136,7 @@ final List<Country> countries = [
           "Talata Mafara",
           "Zurmi"
         ]),
-        State(name: "Zamfara", cities: ["Niue"])
+        States(name: "Zamfara", cities: ["Niue"])
       ]),
   Country(
       name: "Niue",
@@ -34145,7 +34145,7 @@ final List<Country> countries = [
       dialCode: "683",
       minLength: 4,
       maxLength: 4,
-      states: [State(name: "Niue", cities: [])]),
+      states: [States(name: "Niue", cities: [])]),
   Country(
       name: "Norfolk Island",
       flag: "🇳🇫",
@@ -34153,7 +34153,7 @@ final List<Country> countries = [
       dialCode: "672",
       minLength: 15,
       maxLength: 15,
-      states: [State(name: "Norfolk Island", cities: [])]),
+      states: [States(name: "Norfolk Island", cities: [])]),
   Country(
       name: "Northern Mariana Islands",
       flag: "🇲🇵",
@@ -34162,8 +34162,8 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Northern Islands", cities: ["Songsong"]),
-        State(name: "Rota", cities: [
+        States(name: "Northern Islands", cities: ["Songsong"]),
+        States(name: "Rota", cities: [
           "Capital Hill",
           "Chalan Kanoa",
           "Dandan",
@@ -34178,8 +34178,8 @@ final List<Country> countries = [
           "Susupe",
           "Tanapag"
         ]),
-        State(name: "Saipan", cities: ["San Jose"]),
-        State(name: "Tinian", cities: [
+        States(name: "Saipan", cities: ["San Jose"]),
+        States(name: "Tinian", cities: [
           "Asker",
           "Billingstad",
           "Haslum",
@@ -34202,9 +34202,9 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Akershus", cities: []),
-        State(name: "Aust Agder", cities: ["Kokstad"]),
-        State(name: "Bergen", cities: [
+        States(name: "Akershus", cities: []),
+        States(name: "Aust Agder", cities: ["Kokstad"]),
+        States(name: "Bergen", cities: [
           "Drammen",
           "Hokksund",
           "Honefoss",
@@ -34213,8 +34213,8 @@ final List<Country> countries = [
           "NÃƒÂ¦rsnes",
           "Vestby"
         ]),
-        State(name: "Buskerud", cities: ["Baatsfjord", "Hammerfest"]),
-        State(name: "Finnmark", cities: [
+        States(name: "Buskerud", cities: ["Baatsfjord", "Hammerfest"]),
+        States(name: "Finnmark", cities: [
           "Brumunddal",
           "Elverum",
           "Hamar",
@@ -34222,7 +34222,7 @@ final List<Country> countries = [
           "Rena",
           "Trysil"
         ]),
-        State(name: "Hedmark", cities: [
+        States(name: "Hedmark", cities: [
           "Bergen",
           "HÃƒÂ¸ylandsbygd",
           "Lonevag",
@@ -34230,9 +34230,9 @@ final List<Country> countries = [
           "Tysnes",
           "Voss"
         ]),
-        State(name: "Hordaland", cities: []),
-        State(name: "Moere og Romsdal", cities: []),
-        State(name: "Nord Trondelag", cities: [
+        States(name: "Hordaland", cities: []),
+        States(name: "Moere og Romsdal", cities: []),
+        States(name: "Nord Trondelag", cities: [
           "Bodo",
           "Mosjoen",
           "Narvik",
@@ -34241,7 +34241,7 @@ final List<Country> countries = [
           "Sortland",
           "Steigen"
         ]),
-        State(name: "Nordland", cities: [
+        States(name: "Nordland", cities: [
           "Askim",
           "Fredrikstad",
           "Halden",
@@ -34251,9 +34251,9 @@ final List<Country> countries = [
           "Sarpsborg",
           "Tistedal"
         ]),
-        State(name: "Oestfold", cities: ["Lena", "Lillehammer"]),
-        State(name: "Oppland", cities: ["Oslo", "Skedsmo", "Skjetten"]),
-        State(name: "Oslo", cities: [
+        States(name: "Oestfold", cities: ["Lena", "Lillehammer"]),
+        States(name: "Oppland", cities: ["Oslo", "Skedsmo", "Skjetten"]),
+        States(name: "Oslo", cities: [
           "Egersund",
           "Haugesund",
           "Kleppe",
@@ -34261,14 +34261,14 @@ final List<Country> countries = [
           "Sola",
           "Stavanger"
         ]),
-        State(name: "Rogaland", cities: []),
-        State(name: "Soer Troendelag", cities: []),
-        State(name: "Sogn og Fjordane", cities: ["Stavern"]),
-        State(name: "Stavern", cities: ["Sykkylven"]),
-        State(name: "Sykkylven", cities: ["Notodden", "Skien"]),
-        State(name: "Telemark", cities: ["Harstad", "Troms", "TromsÃƒÂ¸"]),
-        State(name: "Troms", cities: []),
-        State(name: "Vest Agder", cities: [
+        States(name: "Rogaland", cities: []),
+        States(name: "Soer Troendelag", cities: []),
+        States(name: "Sogn og Fjordane", cities: ["Stavern"]),
+        States(name: "Stavern", cities: ["Sykkylven"]),
+        States(name: "Sykkylven", cities: ["Notodden", "Skien"]),
+        States(name: "Telemark", cities: ["Harstad", "Troms", "TromsÃƒÂ¸"]),
+        States(name: "Troms", cities: []),
+        States(name: "Vest Agder", cities: [
           "Horten",
           "HusÃƒÂ¸ysund",
           "Larvik",
@@ -34276,8 +34276,8 @@ final List<Country> countries = [
           "Sandefjord",
           "TÃƒÂ¸nsberg"
         ]),
-        State(name: "Vestfold", cities: []),
-        State(name: "ÃƒÂ˜stfold", cities: [])
+        States(name: "Vestfold", cities: []),
+        States(name: "ÃƒÂ˜stfold", cities: [])
       ]),
   Country(
       name: "Oman",
@@ -34287,8 +34287,8 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Al Buraimi", cities: ["Salalah"]),
-        State(name: "Dhufar", cities: [
+        States(name: "Al Buraimi", cities: ["Salalah"]),
+        States(name: "Dhufar", cities: [
           "Azaiba",
           "Bawshar",
           "Madinat Qabus",
@@ -34302,12 +34302,12 @@ final List<Country> countries = [
           "Wadi Al Kabir",
           "as-Sib"
         ]),
-        State(name: "Masqat", cities: ["Khasab"]),
-        State(name: "Musandam", cities: ["Rusayl"]),
-        State(name: "Rusayl", cities: []),
-        State(name: "Wadi Kabir", cities: ["Bahla", "Nizwa", "Sumayl"]),
-        State(name: "ad-Dakhiliyah", cities: ["Ibri", "al-Buraymi"]),
-        State(name: "adh-Dhahirah", cities: [
+        States(name: "Masqat", cities: ["Khasab"]),
+        States(name: "Musandam", cities: ["Rusayl"]),
+        States(name: "Rusayl", cities: []),
+        States(name: "Wadi Kabir", cities: ["Bahla", "Nizwa", "Sumayl"]),
+        States(name: "ad-Dakhiliyah", cities: ["Ibri", "al-Buraymi"]),
+        States(name: "adh-Dhahirah", cities: [
           "Al khuwair",
           "Barkah",
           "Saham",
@@ -34318,8 +34318,8 @@ final List<Country> countries = [
           "ar-Rustaq",
           "as-Suwayq"
         ]),
-        State(name: "al-Batinah", cities: ["Ibra", "Sur", "al-Mudaybi"]),
-        State(name: "ash-Sharqiyah", cities: [
+        States(name: "al-Batinah", cities: ["Ibra", "Sur", "al-Mudaybi"]),
+        States(name: "ash-Sharqiyah", cities: [
           "Barkhan",
           "Bela",
           "Bhag",
@@ -34369,11 +34369,11 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Baluchistan", cities: []),
-        State(name: "Federal Capital Area", cities: []),
-        State(name: "Federally administered Tribal", cities: []),
-        State(name: "North-West Frontier", cities: []),
-        State(name: "Northern Areas", cities: [
+        States(name: "Baluchistan", cities: []),
+        States(name: "Federal Capital Area", cities: []),
+        States(name: "Federally administered Tribal", cities: []),
+        States(name: "North-West Frontier", cities: []),
+        States(name: "Northern Areas", cities: [
           "Abohar",
           "Adampur",
           "Ahmedgarh",
@@ -34770,7 +34770,7 @@ final List<Country> countries = [
           "Zafarwal",
           "Zahir Pir"
         ]),
-        State(name: "Punjab", cities: [
+        States(name: "Punjab", cities: [
           "Adilpur",
           "Badah",
           "Badin",
@@ -34923,7 +34923,7 @@ final List<Country> countries = [
           "Umarkot",
           "Warah"
         ]),
-        State(name: "Sind", cities: ["Ulimang"])
+        States(name: "Sind", cities: ["Ulimang"])
       ]),
   Country(
       name: "Palau",
@@ -34933,22 +34933,22 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Aimeliik", cities: ["Airai"]),
-        State(name: "Airai", cities: ["Ngaramash"]),
-        State(name: "Angaur", cities: ["Hatohobei"]),
-        State(name: "Hatobohei", cities: ["Kayangel"]),
-        State(name: "Kayangel", cities: ["Koror", "Meyungs"]),
-        State(name: "Koror", cities: ["Melekeok"]),
-        State(name: "Melekeok", cities: ["Ngermechau"]),
-        State(name: "Ngaraard", cities: ["Chol"]),
-        State(name: "Ngardmau", cities: ["Ollei"]),
-        State(name: "Ngaremlengui", cities: ["Oikul"]),
-        State(name: "Ngatpang", cities: ["Ngerkeai"]),
-        State(name: "Ngchesar", cities: ["Imeong"]),
-        State(name: "Ngerchelong", cities: ["Ngetkip"]),
-        State(name: "Ngiwal", cities: ["Kloulklubed"]),
-        State(name: "Peleliu", cities: ["Dongosaru"]),
-        State(name: "Sonsorol", cities: ["Ariha"])
+        States(name: "Aimeliik", cities: ["Airai"]),
+        States(name: "Airai", cities: ["Ngaramash"]),
+        States(name: "Angaur", cities: ["Hatohobei"]),
+        States(name: "Hatobohei", cities: ["Kayangel"]),
+        States(name: "Kayangel", cities: ["Koror", "Meyungs"]),
+        States(name: "Koror", cities: ["Melekeok"]),
+        States(name: "Melekeok", cities: ["Ngermechau"]),
+        States(name: "Ngaraard", cities: ["Chol"]),
+        States(name: "Ngardmau", cities: ["Ollei"]),
+        States(name: "Ngaremlengui", cities: ["Oikul"]),
+        States(name: "Ngatpang", cities: ["Ngerkeai"]),
+        States(name: "Ngchesar", cities: ["Imeong"]),
+        States(name: "Ngerchelong", cities: ["Ngetkip"]),
+        States(name: "Ngiwal", cities: ["Kloulklubed"]),
+        States(name: "Peleliu", cities: ["Dongosaru"]),
+        States(name: "Sonsorol", cities: ["Ariha"])
       ]),
   Country(
       name: "Palestinian Territory, Occupied",
@@ -34958,30 +34958,30 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Ariha", cities: []),
-        State(name: "Bayt Lahm", cities: ["Beit Jala"]),
-        State(name: "Bethlehem", cities: [
+        States(name: "Ariha", cities: []),
+        States(name: "Bayt Lahm", cities: ["Beit Jala"]),
+        States(name: "Bethlehem", cities: [
           "Dayr-al-Balah",
           "al-Burayj",
           "al-Insayrat",
           "al-Maghazi"
         ]),
-        State(name: "Dayr-al-Balah", cities: ["Ghazzah"]),
-        State(name: "Ghazzah", cities: ["Ghazzah"]),
-        State(name: "Ghazzah ash-Shamaliyah", cities: ["Janin", "Qabatiyah"]),
-        State(name: "Janin", cities: []),
-        State(name: "Khan Yunis", cities: ["Nabulus"]),
-        State(name: "Nabulus", cities: ["Qalqilyah"]),
-        State(name: "Qalqilyah", cities: ["Rafah", "Tall as-Sultan"]),
-        State(name: "Rafah", cities: []),
-        State(name: "Ram Allah wal-Birah", cities: ["Salfit"]),
-        State(name: "Salfit", cities: ["Tubas"]),
-        State(name: "Tubas", cities: ["Tulkarm"]),
-        State(
+        States(name: "Dayr-al-Balah", cities: ["Ghazzah"]),
+        States(name: "Ghazzah", cities: ["Ghazzah"]),
+        States(name: "Ghazzah ash-Shamaliyah", cities: ["Janin", "Qabatiyah"]),
+        States(name: "Janin", cities: []),
+        States(name: "Khan Yunis", cities: ["Nabulus"]),
+        States(name: "Nabulus", cities: ["Qalqilyah"]),
+        States(name: "Qalqilyah", cities: ["Rafah", "Tall as-Sultan"]),
+        States(name: "Rafah", cities: []),
+        States(name: "Ram Allah wal-Birah", cities: ["Salfit"]),
+        States(name: "Salfit", cities: ["Tubas"]),
+        States(name: "Tubas", cities: ["Tulkarm"]),
+        States(
             name: "Tulkarm",
             cities: ["Dura", "Halhul", "Yattah", "ad-Dahiriyah", "al-Khalil"]),
-        State(name: "al-Khalil", cities: ["Ma\\'\\'ale Adummim", "al-Quds"]),
-        State(name: "al-Quds", cities: [])
+        States(name: "al-Khalil", cities: ["Ma\\'\\'ale Adummim", "al-Quds"]),
+        States(name: "al-Quds", cities: [])
       ]),
   Country(
       name: "Panama",
@@ -34991,7 +34991,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Bocas del Toro", cities: [
+        States(name: "Bocas del Toro", cities: [
           "Alanje",
           "Bajo Boquete",
           "Boqueron",
@@ -35006,7 +35006,7 @@ final List<Country> countries = [
           "Rio Sereno",
           "Tole"
         ]),
-        State(name: "Chiriqui", cities: [
+        States(name: "Chiriqui", cities: [
           "Aguadulce",
           "Anton",
           "La Pintada",
@@ -35014,16 +35014,16 @@ final List<Country> countries = [
           "Ola",
           "Penonome"
         ]),
-        State(name: "Cocle", cities: [
+        States(name: "Cocle", cities: [
           "Colon",
           "Miguel de la Borda",
           "Nuevo Chagres",
           "Portobelo",
           "Santa Isabel"
         ]),
-        State(name: "Colon", cities: ["El Real de Santa Maria", "La Palma"]),
-        State(name: "Darien", cities: ["Cirilo Guainora", "Rio Sabalo"]),
-        State(name: "Embera", cities: [
+        States(name: "Colon", cities: ["El Real de Santa Maria", "La Palma"]),
+        States(name: "Darien", cities: ["Cirilo Guainora", "Rio Sabalo"]),
+        States(name: "Embera", cities: [
           "Chitre",
           "Las Minas",
           "Los Pozos",
@@ -35032,10 +35032,10 @@ final List<Country> countries = [
           "Pese",
           "Santa Maria"
         ]),
-        State(name: "Herrera", cities: []),
-        State(name: "Kuna Yala", cities: []),
-        State(name: "Los Santos", cities: []),
-        State(name: "Ngobe Bugle", cities: [
+        States(name: "Herrera", cities: []),
+        States(name: "Kuna Yala", cities: []),
+        States(name: "Los Santos", cities: []),
+        States(name: "Ngobe Bugle", cities: [
           "Arraijan",
           "Capira",
           "Chame",
@@ -35048,7 +35048,7 @@ final List<Country> countries = [
           "San Miguelito",
           "Taboga"
         ]),
-        State(name: "Panama", cities: [
+        States(name: "Panama", cities: [
           "Atalaya",
           "Calobre",
           "Canazas",
@@ -35061,7 +35061,7 @@ final List<Country> countries = [
           "Santiago",
           "Sona"
         ]),
-        State(name: "Veraguas", cities: [])
+        States(name: "Veraguas", cities: [])
       ]),
   Country(
       name: "Papua New Guinea",
@@ -35071,26 +35071,26 @@ final List<Country> countries = [
       minLength: 11,
       maxLength: 11,
       states: [
-        State(name: "East New Britain", cities: []),
-        State(name: "East Sepik", cities: []),
-        State(
+        States(name: "East New Britain", cities: []),
+        States(name: "East Sepik", cities: []),
+        States(
             name: "Eastern Highlands", cities: ["Laiagam", "Porgera", "Wabag"]),
-        State(name: "Enga", cities: []),
-        State(name: "Fly River", cities: ["Kerema"]),
-        State(name: "Gulf", cities: ["Finschhafen", "Madang"]),
-        State(name: "Madang", cities: ["Lorengau"]),
-        State(name: "Manus", cities: []),
-        State(name: "Milne Bay", cities: ["Bulolo", "Lae", "Wau"]),
-        State(name: "Morobe", cities: []),
-        State(name: "National Capital District", cities: []),
-        State(name: "New Ireland", cities: []),
-        State(name: "North Solomons", cities: ["Kokoda", "Popondetta"]),
-        State(name: "Oro", cities: ["Vanimo"]),
-        State(name: "Sandaun", cities: ["Kundiawa"]),
-        State(name: "Simbu", cities: []),
-        State(name: "Southern Highlands", cities: []),
-        State(name: "West New Britain", cities: []),
-        State(name: "Western Highlands", cities: [])
+        States(name: "Enga", cities: []),
+        States(name: "Fly River", cities: ["Kerema"]),
+        States(name: "Gulf", cities: ["Finschhafen", "Madang"]),
+        States(name: "Madang", cities: ["Lorengau"]),
+        States(name: "Manus", cities: []),
+        States(name: "Milne Bay", cities: ["Bulolo", "Lae", "Wau"]),
+        States(name: "Morobe", cities: []),
+        States(name: "National Capital District", cities: []),
+        States(name: "New Ireland", cities: []),
+        States(name: "North Solomons", cities: ["Kokoda", "Popondetta"]),
+        States(name: "Oro", cities: ["Vanimo"]),
+        States(name: "Sandaun", cities: ["Kundiawa"]),
+        States(name: "Simbu", cities: []),
+        States(name: "Southern Highlands", cities: []),
+        States(name: "West New Britain", cities: []),
+        States(name: "Western Highlands", cities: [])
       ]),
   Country(
       name: "Paraguay",
@@ -35100,19 +35100,19 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Alto Paraguay", cities: []),
-        State(
+        States(name: "Alto Paraguay", cities: []),
+        States(
             name: "Alto Parana",
             cities: ["Bella Vista", "Capitan Bado", "Pedro Juan Caballero"]),
-        State(name: "Amambay", cities: ["Asuncion"]),
-        State(name: "Asuncion", cities: [
+        States(name: "Amambay", cities: ["Asuncion"]),
+        States(name: "Asuncion", cities: [
           "Doctor Pedro P. Pena",
           "Filadelfia",
           "Marechal Estigarribia",
           "Menno",
           "Neuland"
         ]),
-        State(name: "Boqueron", cities: [
+        States(name: "Boqueron", cities: [
           "Caaguazu",
           "Carayao",
           "Coronel Oviedo",
@@ -35134,7 +35134,7 @@ final List<Country> countries = [
           "Vaqueria",
           "Yhu"
         ]),
-        State(name: "Caaguazu", cities: [
+        States(name: "Caaguazu", cities: [
           "Abai",
           "Buena Vista",
           "Caazapa",
@@ -35146,7 +35146,7 @@ final List<Country> countries = [
           "Yegros",
           "Yuty"
         ]),
-        State(name: "Caazapa", cities: [
+        States(name: "Caazapa", cities: [
           "Corpus Christi",
           "Curuguaty",
           "General Francisco Alvarez",
@@ -35158,7 +35158,7 @@ final List<Country> countries = [
           "Ygatimi",
           "Ypehu"
         ]),
-        State(name: "Canendiyu", cities: [
+        States(name: "Canendiyu", cities: [
           "Aregua",
           "Capiata",
           "Fernando de la Mora",
@@ -35178,7 +35178,7 @@ final List<Country> countries = [
           "Ypacarai",
           "Ypane"
         ]),
-        State(name: "Central", cities: [
+        States(name: "Central", cities: [
           "Belen",
           "Concepcion",
           "Horqueta",
@@ -35186,7 +35186,7 @@ final List<Country> countries = [
           "San Carlos",
           "San Lazaro"
         ]),
-        State(name: "Concepcion", cities: [
+        States(name: "Concepcion", cities: [
           "Altos",
           "Arroyos y Esteros",
           "Atyra",
@@ -35208,7 +35208,7 @@ final List<Country> countries = [
           "Tobati",
           "Valenzuela"
         ]),
-        State(name: "Cordillera", cities: [
+        States(name: "Cordillera", cities: [
           "Borja",
           "Capitan Mauricio Jose Troche",
           "Coronel Martinez",
@@ -35227,7 +35227,7 @@ final List<Country> countries = [
           "Villarrica",
           "Yataity"
         ]),
-        State(name: "Guaira", cities: [
+        States(name: "Guaira", cities: [
           "Alto Vera",
           "Bella Vista",
           "Cambyreta",
@@ -35259,7 +35259,7 @@ final List<Country> countries = [
           "Trinidad",
           "Yatytay"
         ]),
-        State(name: "Itapua", cities: [
+        States(name: "Itapua", cities: [
           "Ayolas",
           "San Ignacio",
           "San Juan Bautista",
@@ -35271,7 +35271,7 @@ final List<Country> countries = [
           "Villa Florida",
           "Yabebyry"
         ]),
-        State(name: "Misiones", cities: [
+        States(name: "Misiones", cities: [
           "Alberdi",
           "Cerrito",
           "Desmochados",
@@ -35289,7 +35289,7 @@ final List<Country> countries = [
           "Villa Oliva",
           "Villalbin"
         ]),
-        State(name: "Neembucu", cities: [
+        States(name: "Neembucu", cities: [
           "Acahay",
           "Caapucu",
           "Carapegua",
@@ -35308,9 +35308,9 @@ final List<Country> countries = [
           "Ybycui",
           "Ybytimi"
         ]),
-        State(name: "Paraguari", cities: []),
-        State(name: "Presidente Hayes", cities: []),
-        State(name: "San Pedro", cities: [
+        States(name: "Paraguari", cities: []),
+        States(name: "Presidente Hayes", cities: []),
+        States(name: "San Pedro", cities: [
           "Bagua Grande",
           "Cajaruro",
           "Chachapoyas",
@@ -35326,7 +35326,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Amazonas", cities: [
+        States(name: "Amazonas", cities: [
           "Ancash",
           "Caraz",
           "Carhuaz",
@@ -35341,10 +35341,10 @@ final List<Country> countries = [
           "Santa",
           "Yungay"
         ]),
-        State(
+        States(
             name: "Ancash",
             cities: ["Abancay", "Andahuaylas", "San Jeronimo", "Talavera"]),
-        State(name: "Apurimac", cities: [
+        States(name: "Apurimac", cities: [
           "Acari",
           "Arequipa",
           "Camana",
@@ -35359,7 +35359,7 @@ final List<Country> countries = [
           "Rio Grande",
           "Yura"
         ]),
-        State(name: "Arequipa", cities: [
+        States(name: "Arequipa", cities: [
           "Ayacucho",
           "Ayna",
           "Coracora",
@@ -35370,7 +35370,7 @@ final List<Country> countries = [
           "Silvia",
           "Tambo"
         ]),
-        State(name: "Ayacucho", cities: [
+        States(name: "Ayacucho", cities: [
           "Bambamarca",
           "Bellavista",
           "Cajabamba",
@@ -35385,7 +35385,7 @@ final List<Country> countries = [
           "Santa Cruz",
           "Yonan"
         ]),
-        State(name: "Cajamarca", cities: [
+        States(name: "Cajamarca", cities: [
           "Anta",
           "Calca",
           "Cusco",
@@ -35398,8 +35398,8 @@ final List<Country> countries = [
           "Urcos",
           "Urubamba"
         ]),
-        State(name: "Cusco", cities: ["Huancavelica", "Lircay", "Pampas"]),
-        State(name: "Huancavelica", cities: [
+        States(name: "Cusco", cities: ["Huancavelica", "Lircay", "Pampas"]),
+        States(name: "Huancavelica", cities: [
           "Ambos",
           "Huanuco",
           "Jose Crespo y Castillo",
@@ -35409,7 +35409,7 @@ final List<Country> countries = [
           "San Miguel de Cauri",
           "Tingo Maria"
         ]),
-        State(name: "Huanuco", cities: [
+        States(name: "Huanuco", cities: [
           "Chincha Alta",
           "Ica",
           "Los Aquijes",
@@ -35427,7 +35427,7 @@ final List<Country> countries = [
           "Tupac Amaru Inca",
           "Vista Alegre"
         ]),
-        State(name: "Ica", cities: [
+        States(name: "Ica", cities: [
           "Acobamba",
           "Acolla",
           "Carhuamayo",
@@ -35458,8 +35458,8 @@ final List<Country> countries = [
           "Yauli",
           "Yauya"
         ]),
-        State(name: "Junin", cities: []),
-        State(name: "La Libertad", cities: [
+        States(name: "Junin", cities: []),
+        States(name: "La Libertad", cities: [
           "Chiclayo",
           "Chongoyape",
           "Eten",
@@ -35484,8 +35484,8 @@ final List<Country> countries = [
           "Santa Rosa",
           "Tucume"
         ]),
-        State(name: "Lambayeque", cities: []),
-        State(name: "Lima y Callao", cities: [
+        States(name: "Lambayeque", cities: []),
+        States(name: "Lima y Callao", cities: [
           "Barranca",
           "Contamana",
           "Fernando Lores",
@@ -35499,11 +35499,11 @@ final List<Country> countries = [
           "Vargas Guerra",
           "Yurimaguas"
         ]),
-        State(name: "Loreto", cities: []),
-        State(
+        States(name: "Loreto", cities: []),
+        States(
             name: "Madre de Dios",
             cities: ["Ilo", "Moquegua", "Pacocha", "Torata"]),
-        State(name: "Moquegua", cities: [
+        States(name: "Moquegua", cities: [
           "Cerro de Pasco",
           "Chaupimarca",
           "Oxapampa",
@@ -35514,7 +35514,7 @@ final List<Country> countries = [
           "Yanacancha",
           "Yanahuanca"
         ]),
-        State(name: "Pasco", cities: [
+        States(name: "Pasco", cities: [
           "Ayabaca",
           "Bernal",
           "Buenos Aires",
@@ -35548,7 +35548,7 @@ final List<Country> countries = [
           "Vice",
           "Vichayal"
         ]),
-        State(name: "Piura", cities: [
+        States(name: "Piura", cities: [
           "Ayaviri",
           "Azangaro",
           "Desaguadero",
@@ -35565,9 +35565,9 @@ final List<Country> countries = [
           "Yanahuara",
           "Yunguyo"
         ]),
-        State(name: "Puno", cities: []),
-        State(name: "San Martin", cities: ["Ilabaya", "Tacna", "Tarata"]),
-        State(name: "Tacna", cities: [
+        States(name: "Puno", cities: []),
+        States(name: "San Martin", cities: ["Ilabaya", "Tacna", "Tarata"]),
+        States(name: "Tacna", cities: [
           "Aguas Verdes",
           "Corrales",
           "La Cruz",
@@ -35577,10 +35577,10 @@ final List<Country> countries = [
           "Zarumilla",
           "Zorritos"
         ]),
-        State(
+        States(
             name: "Tumbes",
             cities: ["Campoverde", "Padre Abad", "Pucallpa", "Raymondi"]),
-        State(name: "Ucayali", cities: ["San Juan"])
+        States(name: "Ucayali", cities: ["San Juan"])
       ]),
   Country(
       name: "Philippines",
@@ -35590,22 +35590,22 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(
+        States(
             name: "Batangas",
             cities: ["Albay", "Daet", "Iriga", "Legaspi", "Naga", "Sorsogon"]),
-        State(name: "Bicol", cities: ["Bulacan", "Marilao"]),
-        State(
+        States(name: "Bicol", cities: ["Bulacan", "Marilao"]),
+        States(
             name: "Bulacan",
             cities: ["Cagayan de Oro", "Santiago", "Solano", "Tuguegarao"]),
-        State(name: "Cagayan", cities: ["Bislig", "Butuan", "Surigao"]),
-        State(name: "Caraga", cities: []),
-        State(name: "Central Luzon", cities: []),
-        State(name: "Central Mindanao", cities: []),
-        State(name: "Central Visayas", cities: ["Baguio", "Bangued"]),
-        State(name: "Cordillera", cities: ["Davao"]),
-        State(name: "Davao", cities: []),
-        State(name: "Eastern Visayas", cities: []),
-        State(name: "Greater Metropolitan Area", cities: [
+        States(name: "Cagayan", cities: ["Bislig", "Butuan", "Surigao"]),
+        States(name: "Caraga", cities: []),
+        States(name: "Central Luzon", cities: []),
+        States(name: "Central Mindanao", cities: []),
+        States(name: "Central Visayas", cities: ["Baguio", "Bangued"]),
+        States(name: "Cordillera", cities: ["Davao"]),
+        States(name: "Davao", cities: []),
+        States(name: "Eastern Visayas", cities: []),
+        States(name: "Greater Metropolitan Area", cities: [
           "Dagupan",
           "Laoag",
           "Manaoag",
@@ -35614,18 +35614,18 @@ final List<Country> countries = [
           "Urdaneta",
           "Vigan"
         ]),
-        State(
+        States(
             name: "Ilocos", cities: ["Binan", "Laguna", "Pangil", "San Pedro"]),
-        State(name: "Laguna", cities: ["Manila", "Marikina"]),
-        State(name: "Luzon", cities: ["Mactan"]),
-        State(name: "Mactan", cities: []),
-        State(name: "Metropolitan Manila Area", cities: []),
-        State(name: "Muslim Mindanao", cities: []),
-        State(name: "Northern Mindanao", cities: []),
-        State(name: "Southern Mindanao", cities: []),
-        State(name: "Southern Tagalog", cities: []),
-        State(name: "Western Mindanao", cities: []),
-        State(name: "Western Visayas", cities: [])
+        States(name: "Laguna", cities: ["Manila", "Marikina"]),
+        States(name: "Luzon", cities: ["Mactan"]),
+        States(name: "Mactan", cities: []),
+        States(name: "Metropolitan Manila Area", cities: []),
+        States(name: "Muslim Mindanao", cities: []),
+        States(name: "Northern Mindanao", cities: []),
+        States(name: "Southern Mindanao", cities: []),
+        States(name: "Southern Tagalog", cities: []),
+        States(name: "Western Mindanao", cities: []),
+        States(name: "Western Visayas", cities: [])
       ]),
   Country(
       name: "Pitcairn",
@@ -35634,7 +35634,7 @@ final List<Country> countries = [
       dialCode: "64",
       minLength: 10,
       maxLength: 10,
-      states: [State(name: "Pitcairn Island", cities: [])]),
+      states: [States(name: "Pitcairn Island", cities: [])]),
   Country(
       name: "Poland",
       flag: "🇵🇱",
@@ -35643,8 +35643,8 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Biale Blota", cities: ["Fabryczna"]),
-        State(name: "Dobroszyce", cities: [
+        States(name: "Biale Blota", cities: ["Fabryczna"]),
+        States(name: "Dobroszyce", cities: [
           "Bielawa",
           "Bogatynia",
           "Boguszow-Gorce",
@@ -35687,12 +35687,12 @@ final List<Country> countries = [
           "Ziebice",
           "Zlotoryja"
         ]),
-        State(name: "Dolnoslaskie", cities: []),
-        State(name: "Dziekanow Lesny", cities: ["Hopowo"]),
-        State(name: "Hopowo", cities: ["Chwaszczyno"]),
-        State(name: "Kartuzy", cities: ["Smigiel"]),
-        State(name: "Koscian", cities: ["Jerzmanowice", "Zabierzow"]),
-        State(name: "Krakow", cities: [
+        States(name: "Dolnoslaskie", cities: []),
+        States(name: "Dziekanow Lesny", cities: ["Hopowo"]),
+        States(name: "Hopowo", cities: ["Chwaszczyno"]),
+        States(name: "Kartuzy", cities: ["Smigiel"]),
+        States(name: "Koscian", cities: ["Jerzmanowice", "Zabierzow"]),
+        States(name: "Krakow", cities: [
           "Aleksandrow Kujawski",
           "Brodnica",
           "Bydgoszcz",
@@ -35720,7 +35720,7 @@ final List<Country> countries = [
           "Wloclawek",
           "Znin"
         ]),
-        State(name: "Kujawsko-Pomorskie", cities: [
+        States(name: "Kujawsko-Pomorskie", cities: [
           "Aleksandrow Lodzki",
           "Belchatow",
           "Bratoszewice",
@@ -35748,7 +35748,7 @@ final List<Country> countries = [
           "Zgierz",
           "Zychlin"
         ]),
-        State(name: "Lodzkie", cities: [
+        States(name: "Lodzkie", cities: [
           "Biala Podlaska",
           "Bilgoraj",
           "Chelm",
@@ -35773,7 +35773,7 @@ final List<Country> countries = [
           "Wlodawa",
           "Zamosc"
         ]),
-        State(name: "Lubelskie", cities: [
+        States(name: "Lubelskie", cities: [
           "Drezdenko",
           "Gorzow Wielkopolski",
           "Gubin",
@@ -35795,8 +35795,8 @@ final List<Country> countries = [
           "Zary",
           "Zielona Gora"
         ]),
-        State(name: "Lubuskie", cities: ["Malomice"]),
-        State(name: "Malomice", cities: [
+        States(name: "Lubuskie", cities: ["Malomice"]),
+        States(name: "Malomice", cities: [
           "Andrychow",
           "Bochnia",
           "Brzesko",
@@ -35830,7 +35830,7 @@ final List<Country> countries = [
           "Wolbrom",
           "Zakopane"
         ]),
-        State(name: "Malopolskie", cities: [
+        States(name: "Malopolskie", cities: [
           "Blonie",
           "Brwinow",
           "Ciechanow",
@@ -35880,8 +35880,8 @@ final List<Country> countries = [
           "Zielonka",
           "Zyrardow"
         ]),
-        State(name: "Mazowieckie", cities: ["Dlugoteka"]),
-        State(name: "Mirkow", cities: [
+        States(name: "Mazowieckie", cities: ["Dlugoteka"]),
+        States(name: "Mirkow", cities: [
           "Brzeg",
           "Glubczyce",
           "Glucholazy",
@@ -35900,8 +35900,8 @@ final List<Country> countries = [
           "Zawadzkie",
           "Zdzieszowice"
         ]),
-        State(name: "Opolskie", cities: ["Cmielow"]),
-        State(name: "Ostrowiec", cities: [
+        States(name: "Opolskie", cities: ["Cmielow"]),
+        States(name: "Ostrowiec", cities: [
           "Debica",
           "Jaroslaw",
           "Jaslo",
@@ -35921,7 +35921,7 @@ final List<Country> countries = [
           "Tarnobrzeg",
           "Ustrzyki Dolne"
         ]),
-        State(name: "Podkarpackie", cities: [
+        States(name: "Podkarpackie", cities: [
           "Augustow",
           "Bialystok",
           "Bielsk Podlaski",
@@ -35938,8 +35938,8 @@ final List<Country> countries = [
           "Wysokie Mazowieckie",
           "Zambrow"
         ]),
-        State(name: "Podlaskie", cities: ["Bogumilowice"]),
-        State(name: "Polska", cities: [
+        States(name: "Podlaskie", cities: ["Bogumilowice"]),
+        States(name: "Polska", cities: [
           "Bytow",
           "Chojnice",
           "Czersk",
@@ -35966,11 +35966,11 @@ final List<Country> countries = [
           "Wejherowo",
           "Wladyslawowo"
         ]),
-        State(name: "Pomorskie", cities: ["Komorniki", "Steszew"]),
-        State(name: "Poznan", cities: ["Raszyn"]),
-        State(name: "Pruszkow", cities: ["Rymanowska"]),
-        State(name: "Rymanowska", cities: ["Glogow Malopolski"]),
-        State(name: "Rzeszow", cities: [
+        States(name: "Pomorskie", cities: ["Komorniki", "Steszew"]),
+        States(name: "Poznan", cities: ["Raszyn"]),
+        States(name: "Pruszkow", cities: ["Rymanowska"]),
+        States(name: "Rymanowska", cities: ["Glogow Malopolski"]),
+        States(name: "Rzeszow", cities: [
           "Bedzin",
           "Bielsko-Biala",
           "Bierun",
@@ -36023,8 +36023,8 @@ final List<Country> countries = [
           "Zory",
           "Zywiec"
         ]),
-        State(name: "Slaskie", cities: []),
-        State(name: "Stare Pole", cities: [
+        States(name: "Slaskie", cities: []),
+        States(name: "Stare Pole", cities: [
           "Busko-Zdroj",
           "Jedrzejow",
           "Kielce",
@@ -36039,7 +36039,7 @@ final List<Country> countries = [
           "Suchedniow",
           "Wloszczowa"
         ]),
-        State(name: "Swietokrzyskie", cities: [
+        States(name: "Swietokrzyskie", cities: [
           "Bartoszyce",
           "Biskupiec",
           "Braniewo",
@@ -36066,11 +36066,11 @@ final List<Country> countries = [
           "Szczytno",
           "Wegorzewo"
         ]),
-        State(
+        States(
             name: "Warminsko-Mazurskie",
             cities: ["Nadarzyn", "Szemud", "Warsaw"]),
-        State(name: "Warsaw", cities: ["Goscicino"]),
-        State(name: "Wejherowo", cities: [
+        States(name: "Warsaw", cities: ["Goscicino"]),
+        States(name: "Wejherowo", cities: [
           "Chodziez",
           "Czarnkow",
           "Gniezno",
@@ -36112,8 +36112,8 @@ final List<Country> countries = [
           "Wrzesnia",
           "Zlotow"
         ]),
-        State(name: "Wielkopolskie", cities: ["Borowa"]),
-        State(name: "Wroclaw", cities: [
+        States(name: "Wielkopolskie", cities: ["Borowa"]),
+        States(name: "Wroclaw", cities: [
           "Barlinek",
           "Bialogard",
           "Choszczno",
@@ -36142,8 +36142,8 @@ final List<Country> countries = [
           "Walcz",
           "Zlocieniec"
         ]),
-        State(name: "Zachodnio-Pomorskie", cities: ["Zukowskie"]),
-        State(name: "Zukowo", cities: ["Tramagal"])
+        States(name: "Zachodnio-Pomorskie", cities: ["Zukowskie"]),
+        States(name: "Zukowo", cities: ["Tramagal"])
       ]),
   Country(
       name: "Portugal",
@@ -36153,7 +36153,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Abrantes", cities: [
+        States(name: "Abrantes", cities: [
           "Angra",
           "Arrifes",
           "Faja de Baixo",
@@ -36166,7 +36166,7 @@ final List<Country> countries = [
           "Rosto do Cao",
           "Vila Franca do Campo"
         ]),
-        State(name: "Acores", cities: [
+        States(name: "Acores", cities: [
           "Alcacer do Sal",
           "Aljustrel",
           "Beja",
@@ -36196,7 +36196,7 @@ final List<Country> countries = [
           "Vila Nova de Milfontes",
           "Vila Vicosa"
         ]),
-        State(name: "Alentejo", cities: [
+        States(name: "Alentejo", cities: [
           "Albufeira",
           "Aljezur",
           "Almancil",
@@ -36226,9 +36226,9 @@ final List<Country> countries = [
           "Tavira",
           "Vila Real de Santo Antonio"
         ]),
-        State(
+        States(
             name: "Algarve", cities: ["Fafe", "Forjaes", "Vianna do Castello"]),
-        State(name: "Braga", cities: [
+        States(name: "Braga", cities: [
           "Abraveses",
           "Aguada de Cima",
           "Agueda",
@@ -36310,12 +36310,12 @@ final List<Country> countries = [
           "Vieira de Leiria",
           "Viseu"
         ]),
-        State(name: "Centro", cities: []),
-        State(name: "Distrito de Leiria", cities: []),
-        State(name: "Distrito de Viana do Castelo", cities: []),
-        State(name: "Distrito de Vila Real", cities: []),
-        State(name: "Distrito do Porto", cities: []),
-        State(name: "Lisboa e Vale do Tejo", cities: [
+        States(name: "Centro", cities: []),
+        States(name: "Distrito de Leiria", cities: []),
+        States(name: "Distrito de Viana do Castelo", cities: []),
+        States(name: "Distrito de Vila Real", cities: []),
+        States(name: "Distrito do Porto", cities: []),
+        States(name: "Lisboa e Vale do Tejo", cities: [
           "Camacha",
           "Camara de Lobos",
           "Campanario",
@@ -36327,7 +36327,7 @@ final List<Country> countries = [
           "Ribeira Brava",
           "Santa Cruz"
         ]),
-        State(name: "Madeira", cities: [
+        States(name: "Madeira", cities: [
           "A Ver-o-Mar",
           "Adaufe",
           "Aguas Santas",
@@ -36491,8 +36491,8 @@ final List<Country> countries = [
           "Vilela",
           "Vizela"
         ]),
-        State(name: "Norte", cities: ["Paivas"]),
-        State(name: "Paivas", cities: [
+        States(name: "Norte", cities: ["Paivas"]),
+        States(name: "Paivas", cities: [
           "Arecibo",
           "Barceloneta",
           "Camuy",
@@ -36511,14 +36511,14 @@ final List<Country> countries = [
       minLength: 15,
       maxLength: 15,
       states: [
-        State(
+        States(
             name: "Arecibo",
             cities: ["Bayamon", "Catano", "Guaynabo", "Levittown", "Valencia"]),
-        State(
+        States(
             name: "Bayamon",
             cities: ["Canovanas", "Carolina", "Trujillo Alto"]),
-        State(name: "Carolina", cities: ["Florida"]),
-        State(name: "Florida", cities: [
+        States(name: "Carolina", cities: ["Florida"]),
+        States(name: "Florida", cities: [
           "Aibonito",
           "Arroyo",
           "Barranquitas",
@@ -36528,7 +36528,7 @@ final List<Country> countries = [
           "Guayama",
           "Juana Diaz"
         ]),
-        State(name: "Guayama", cities: [
+        States(name: "Guayama", cities: [
           "Aguas Buenas",
           "Caguas",
           "Culebra",
@@ -36539,7 +36539,7 @@ final List<Country> countries = [
           "Rio Grande",
           "Vieques"
         ]),
-        State(name: "Humacao", cities: [
+        States(name: "Humacao", cities: [
           "Aguada",
           "Aguadilla",
           "Anasco",
@@ -36549,12 +36549,12 @@ final List<Country> countries = [
           "San German",
           "San Sebastian"
         ]),
-        State(
+        States(
             name: "Mayaguez-Aguadilla",
             cities: ["Adjuntas", "Guanica", "Ponce", "Utuado", "Yauco"]),
-        State(name: "Ponce", cities: ["Salinas"]),
-        State(name: "Salinas", cities: []),
-        State(name: "San Juan", cities: ["Doha"])
+        States(name: "Ponce", cities: ["Salinas"]),
+        States(name: "Salinas", cities: []),
+        States(name: "San Juan", cities: ["Doha"])
       ]),
   Country(
       name: "Qatar",
@@ -36564,18 +36564,18 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Doha", cities: ["Umm Bab"]),
-        State(name: "Jarian-al-Batnah", cities: []),
-        State(name: "Umm Salal", cities: ["ad-Dawhah"]),
-        State(name: "ad-Dawhah", cities: ["al-Ghuwayriyah"]),
-        State(name: "al-Ghuwayriyah", cities: ["Dukhan", "al-Jumayliyah"]),
-        State(name: "al-Jumayliyah", cities: ["al-Khawr"]),
-        State(
+        States(name: "Doha", cities: ["Umm Bab"]),
+        States(name: "Jarian-al-Batnah", cities: []),
+        States(name: "Umm Salal", cities: ["ad-Dawhah"]),
+        States(name: "ad-Dawhah", cities: ["al-Ghuwayriyah"]),
+        States(name: "al-Ghuwayriyah", cities: ["Dukhan", "al-Jumayliyah"]),
+        States(name: "al-Jumayliyah", cities: ["al-Khawr"]),
+        States(
             name: "al-Khawr",
             cities: ["Musay\\'\\'id", "al-Wakrah", "al-Wukayr"]),
-        State(name: "al-Wakrah", cities: ["ar-Rayyan", "ash-Shahaniyah"]),
-        State(name: "ar-Rayyan", cities: ["ar-Ruways"]),
-        State(name: "ash-Shamal", cities: [
+        States(name: "al-Wakrah", cities: ["ar-Rayyan", "ash-Shahaniyah"]),
+        States(name: "ar-Rayyan", cities: ["ar-Ruways"]),
+        States(name: "ash-Shamal", cities: [
           "Bras-Panon",
           "Saint-Andre",
           "Saint-Benoit",
@@ -36591,21 +36591,21 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Saint-Benoit", cities: [
+        States(name: "Saint-Benoit", cities: [
           "La Possession",
           "Le Port",
           "Saint-Denis",
           "Sainte-Marie",
           "Sainte-Suzanne"
         ]),
-        State(name: "Saint-Denis", cities: [
+        States(name: "Saint-Denis", cities: [
           "L\\'\\'Etang-Sale",
           "Les Aviron",
           "Les Trois-Bassins",
           "Saint-Leu",
           "Saint-Paul"
         ]),
-        State(name: "Saint-Paul", cities: [
+        States(name: "Saint-Paul", cities: [
           "Cilaos",
           "Entre-Deux",
           "Le Tampon",
@@ -36615,7 +36615,7 @@ final List<Country> countries = [
           "Saint-Philippe",
           "Saint-Pierre"
         ]),
-        State(name: "Saint-Pierre", cities: [
+        States(name: "Saint-Pierre", cities: [
           "Abrud",
           "Aiud",
           "Alba Iulia",
@@ -36702,7 +36702,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Alba", cities: [
+        States(name: "Alba", cities: [
           "Almas",
           "Apateu",
           "Arad",
@@ -36779,7 +36779,7 @@ final List<Country> countries = [
           "Zerind",
           "Zimandu Nou"
         ]),
-        State(name: "Arad", cities: [
+        States(name: "Arad", cities: [
           "Albesti",
           "Albestii-Pamanteni",
           "Albota",
@@ -36879,7 +36879,7 @@ final List<Country> countries = [
           "Vedea",
           "Vladesti"
         ]),
-        State(name: "Arges", cities: [
+        States(name: "Arges", cities: [
           "Agas",
           "Ardeoani",
           "Asau",
@@ -36968,7 +36968,7 @@ final List<Country> countries = [
           "Vultureni",
           "Zemes"
         ]),
-        State(name: "Bacau", cities: [
+        States(name: "Bacau", cities: [
           "Abram",
           "Abramut",
           "Alesd",
@@ -37065,7 +37065,7 @@ final List<Country> countries = [
           "Vascau",
           "Viisoara"
         ]),
-        State(name: "Bihor", cities: [
+        States(name: "Bihor", cities: [
           "Beclean",
           "Bistrita",
           "Bistrita Bargaului",
@@ -37124,7 +37124,7 @@ final List<Country> countries = [
           "Urmenis",
           "Zagra"
         ]),
-        State(name: "Bistrita-Nasaud", cities: [
+        States(name: "Bistrita-Nasaud", cities: [
           "Albesti",
           "Avrameni",
           "Baluseni",
@@ -37198,7 +37198,7 @@ final List<Country> countries = [
           "Vorniceni",
           "Vorona"
         ]),
-        State(name: "Botosani", cities: [
+        States(name: "Botosani", cities: [
           "Baraganul",
           "Bertestii de Jos",
           "Bordei Verde",
@@ -37243,7 +37243,7 @@ final List<Country> countries = [
           "Viziru",
           "Zavoaia"
         ]),
-        State(name: "Braila", cities: [
+        States(name: "Braila", cities: [
           "Apata",
           "Beclean",
           "Bod",
@@ -37297,8 +37297,8 @@ final List<Country> countries = [
           "Vulcan",
           "Zarnesti"
         ]),
-        State(name: "Brasov", cities: ["Bucharest", "Bucuresti"]),
-        State(name: "Bucuresti", cities: [
+        States(name: "Brasov", cities: ["Bucharest", "Bucuresti"]),
+        States(name: "Bucuresti", cities: [
           "Amaru",
           "Balaceanu",
           "Balta Alba",
@@ -37385,7 +37385,7 @@ final List<Country> countries = [
           "Zarnesti",
           "Ziduri"
         ]),
-        State(name: "Buzau", cities: [
+        States(name: "Buzau", cities: [
           "Alexandru Odobescu",
           "Belciugatele",
           "Borcea",
@@ -37440,7 +37440,7 @@ final List<Country> countries = [
           "Vasilati",
           "Vlad Tepes"
         ]),
-        State(name: "Calarasi", cities: [
+        States(name: "Calarasi", cities: [
           "Anina",
           "Armenis",
           "Baile Herculane",
@@ -37519,7 +37519,7 @@ final List<Country> countries = [
           "Zavoi",
           "Zorlentu Mare"
         ]),
-        State(name: "Caras-Severin", cities: [
+        States(name: "Caras-Severin", cities: [
           "Aghiresu",
           "Aiton",
           "Alunis",
@@ -37601,7 +37601,7 @@ final List<Country> countries = [
           "Viisoara",
           "Vultureni"
         ]),
-        State(name: "Cluj", cities: [
+        States(name: "Cluj", cities: [
           "Adamclisi",
           "Agigea",
           "Albesti",
@@ -37668,7 +37668,7 @@ final List<Country> countries = [
           "Valu lui Traian",
           "Vulturu"
         ]),
-        State(name: "Constanta", cities: [
+        States(name: "Constanta", cities: [
           "Aita Mare",
           "Baraolt",
           "Barcani",
@@ -37709,7 +37709,7 @@ final List<Country> countries = [
           "Zabala",
           "Zagon"
         ]),
-        State(name: "Covasna", cities: [
+        States(name: "Covasna", cities: [
           "Aninoasa",
           "Baleni",
           "Barbuletu",
@@ -37793,7 +37793,7 @@ final List<Country> countries = [
           "Voinesti",
           "Vulcana Bai"
         ]),
-        State(name: "Dambovita", cities: [
+        States(name: "Dambovita", cities: [
           "Afumati",
           "Almajiu",
           "Amarastii de Jos",
@@ -37894,7 +37894,7 @@ final List<Country> countries = [
           "Vela",
           "Verbita"
         ]),
-        State(name: "Dolj", cities: [
+        States(name: "Dolj", cities: [
           "Balabanesti",
           "Balasesti",
           "Baleni",
@@ -37956,7 +37956,7 @@ final List<Country> countries = [
           "Varlezi",
           "Vladesti"
         ]),
-        State(name: "Galati", cities: [
+        States(name: "Galati", cities: [
           "Adunatii-Copaceni",
           "Baneasa",
           "Bolintin Deal",
@@ -38007,7 +38007,7 @@ final List<Country> countries = [
           "Varasti",
           "Vedea"
         ]),
-        State(name: "Giurgiu", cities: [
+        States(name: "Giurgiu", cities: [
           "Albeni",
           "Alimpesti",
           "Aninoasa",
@@ -38079,7 +38079,7 @@ final List<Country> countries = [
           "Vagiulesti",
           "Vladimir"
         ]),
-        State(name: "Gorj", cities: [
+        States(name: "Gorj", cities: [
           "Atid",
           "Avramesti",
           "Baile Tusnad",
@@ -38139,7 +38139,7 @@ final List<Country> countries = [
           "Voslobeni",
           "Zetea"
         ]),
-        State(name: "Harghita", cities: [
+        States(name: "Harghita", cities: [
           "Aninoasa",
           "Bacia",
           "Baia de Cris",
@@ -38210,7 +38210,7 @@ final List<Country> countries = [
           "Vulcan",
           "Zam"
         ]),
-        State(name: "Hunedoara", cities: [
+        States(name: "Hunedoara", cities: [
           "Adancata",
           "Albesti",
           "Alexeni",
@@ -38265,7 +38265,7 @@ final List<Country> countries = [
           "Valea Macrisului",
           "Vladeni"
         ]),
-        State(name: "Ialomita", cities: [
+        States(name: "Ialomita", cities: [
           "Alexandru Ioan Cuza",
           "Andrieseni",
           "Aroneanu",
@@ -38355,7 +38355,7 @@ final List<Country> countries = [
           "Vladeni",
           "Voinesti"
         ]),
-        State(name: "Iasi", cities: [
+        States(name: "Iasi", cities: [
           "Afumati",
           "Balotesti",
           "Berceni",
@@ -38396,7 +38396,7 @@ final List<Country> countries = [
           "Vidra",
           "Voluntari"
         ]),
-        State(name: "Ilfov", cities: [
+        States(name: "Ilfov", cities: [
           "Ardusat",
           "Arinis",
           "Asuaju de Sus",
@@ -38469,7 +38469,7 @@ final List<Country> countries = [
           "Viseu de Jos",
           "Viseu de Sus"
         ]),
-        State(name: "Maramures", cities: [
+        States(name: "Maramures", cities: [
           "Baclesu",
           "Baia de Arama",
           "Bala",
@@ -38535,7 +38535,7 @@ final List<Country> countries = [
           "Vladaia",
           "Voloiac"
         ]),
-        State(name: "Mehedinti", cities: [
+        States(name: "Mehedinti", cities: [
           "Acatari",
           "Adamus",
           "Albesti",
@@ -38634,7 +38634,7 @@ final List<Country> countries = [
           "Zagar",
           "Zau de Campie"
         ]),
-        State(name: "Mures", cities: [
+        States(name: "Mures", cities: [
           "Agapia",
           "Bahna",
           "Baltatesti",
@@ -38710,7 +38710,7 @@ final List<Country> countries = [
           "Viisoara",
           "Zanesti"
         ]),
-        State(name: "Neamt", cities: [
+        States(name: "Neamt", cities: [
           "Babiciu",
           "Baldovinesti",
           "Bals",
@@ -38813,7 +38813,7 @@ final List<Country> countries = [
           "Vulpeni",
           "Vulturesti"
         ]),
-        State(name: "Olt", cities: [
+        States(name: "Olt", cities: [
           "Adunati",
           "Albesti-Paleologu",
           "Alunis",
@@ -38915,7 +38915,7 @@ final List<Country> countries = [
           "Valenii de Munte",
           "Varbilau"
         ]),
-        State(name: "Prahova", cities: [
+        States(name: "Prahova", cities: [
           "Agrij",
           "Almasu",
           "Babeni",
@@ -38976,8 +38976,8 @@ final List<Country> countries = [
           "Zalha",
           "Zimbor"
         ]),
-        State(name: "Salaj", cities: []),
-        State(name: "Satu Mare", cities: [
+        States(name: "Salaj", cities: []),
+        States(name: "Satu Mare", cities: [
           "Agnita",
           "Altina",
           "Apoldu de Jos",
@@ -39041,8 +39041,8 @@ final List<Country> countries = [
           "Valea Viilor",
           "Vurpar"
         ]),
-        State(name: "Sibiu", cities: ["Sondelor"]),
-        State(name: "Sondelor", cities: [
+        States(name: "Sibiu", cities: ["Sondelor"]),
+        States(name: "Sondelor", cities: [
           "Adancata",
           "Arbore",
           "Baia",
@@ -39142,7 +39142,7 @@ final List<Country> countries = [
           "Zamostea",
           "Zvoristea"
         ]),
-        State(name: "Suceava", cities: [
+        States(name: "Suceava", cities: [
           "Alexandria",
           "Babaita",
           "Balaci",
@@ -39231,7 +39231,7 @@ final List<Country> countries = [
           "Zambreasca",
           "Zimnicea"
         ]),
-        State(name: "Teleorman", cities: [
+        States(name: "Teleorman", cities: [
           "Balint",
           "Banloc",
           "Bara",
@@ -39315,7 +39315,7 @@ final List<Country> countries = [
           "Victor Vlad Delamarina",
           "Voiteg"
         ]),
-        State(name: "Timis", cities: [
+        States(name: "Timis", cities: [
           "Babadag",
           "Baia",
           "Beidaud",
@@ -39365,7 +39365,7 @@ final List<Country> countries = [
           "Turcoaia",
           "Valea Nucarilor"
         ]),
-        State(name: "Tulcea", cities: [
+        States(name: "Tulcea", cities: [
           "Alunu",
           "Amarasti",
           "Babeni",
@@ -39452,7 +39452,7 @@ final List<Country> countries = [
           "Voineasa",
           "Zatreni"
         ]),
-        State(name: "Valcea", cities: [
+        States(name: "Valcea", cities: [
           "Albesti",
           "Alexandru Vlahuta",
           "Arsura",
@@ -39529,7 +39529,7 @@ final List<Country> countries = [
           "Zapodeni",
           "Zorleni"
         ]),
-        State(name: "Vaslui", cities: [
+        States(name: "Vaslui", cities: [
           "Adjud",
           "Andreiasu de Jos",
           "Balesti",
@@ -39595,7 +39595,7 @@ final List<Country> countries = [
           "Vrancioaia",
           "Vulturu"
         ]),
-        State(name: "Vrancea", cities: [
+        States(name: "Vrancea", cities: [
           "Adygejsk",
           "Enem",
           "Jablonovskij",
@@ -39612,16 +39612,16 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Butare", cities: ["Byumba"]),
-        State(name: "Byumba", cities: ["Cyangugu"]),
-        State(name: "Cyangugu", cities: ["Gikongoro"]),
-        State(name: "Gikongoro", cities: ["Gisenyi"]),
-        State(name: "Gisenyi", cities: ["Gitarama"]),
-        State(name: "Gitarama", cities: ["Kibungo", "Rwamagana"]),
-        State(name: "Kibungo", cities: ["Kibuye"]),
-        State(name: "Kibuye", cities: ["Kigali"]),
-        State(name: "Kigali-ngali", cities: ["Ruhengeri"]),
-        State(name: "Ruhengeri", cities: ["Georgetown"])
+        States(name: "Butare", cities: ["Byumba"]),
+        States(name: "Byumba", cities: ["Cyangugu"]),
+        States(name: "Cyangugu", cities: ["Gikongoro"]),
+        States(name: "Gikongoro", cities: ["Gisenyi"]),
+        States(name: "Gisenyi", cities: ["Gitarama"]),
+        States(name: "Gitarama", cities: ["Kibungo", "Rwamagana"]),
+        States(name: "Kibungo", cities: ["Kibuye"]),
+        States(name: "Kibuye", cities: ["Kigali"]),
+        States(name: "Kigali-ngali", cities: ["Ruhengeri"]),
+        States(name: "Ruhengeri", cities: ["Georgetown"])
       ]),
   Country(
       name: "Saint Barthelemy",
@@ -39639,10 +39639,10 @@ final List<Country> countries = [
       minLength: 4,
       maxLength: 4,
       states: [
-        State(name: "Ascension", cities: []),
-        State(name: "Gough Island", cities: []),
-        State(name: "Saint Helena", cities: []),
-        State(name: "Tristan da Cunha", cities: [])
+        States(name: "Ascension", cities: []),
+        States(name: "Gough Island", cities: []),
+        States(name: "Saint Helena", cities: []),
+        States(name: "Tristan da Cunha", cities: [])
       ]),
   Country(
       name: "Saint Kitts and Nevis",
@@ -39652,20 +39652,20 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Christ Church Nichola Town", cities: []),
-        State(name: "Saint Anne Sandy Point", cities: []),
-        State(name: "Saint George Basseterre", cities: []),
-        State(name: "Saint George Gingerland", cities: []),
-        State(name: "Saint James Windward", cities: []),
-        State(name: "Saint John Capesterre", cities: []),
-        State(name: "Saint John Figtree", cities: []),
-        State(name: "Saint Mary Cayon", cities: []),
-        State(name: "Saint Paul Capesterre", cities: []),
-        State(name: "Saint Paul Charlestown", cities: []),
-        State(name: "Saint Peter Basseterre", cities: []),
-        State(name: "Saint Thomas Lowland", cities: []),
-        State(name: "Saint Thomas Middle Island", cities: []),
-        State(name: "Trinity Palmetto Point", cities: ["Anse-la-Raye"])
+        States(name: "Christ Church Nichola Town", cities: []),
+        States(name: "Saint Anne Sandy Point", cities: []),
+        States(name: "Saint George Basseterre", cities: []),
+        States(name: "Saint George Gingerland", cities: []),
+        States(name: "Saint James Windward", cities: []),
+        States(name: "Saint John Capesterre", cities: []),
+        States(name: "Saint John Figtree", cities: []),
+        States(name: "Saint Mary Cayon", cities: []),
+        States(name: "Saint Paul Capesterre", cities: []),
+        States(name: "Saint Paul Charlestown", cities: []),
+        States(name: "Saint Peter Basseterre", cities: []),
+        States(name: "Saint Thomas Lowland", cities: []),
+        States(name: "Saint Thomas Middle Island", cities: []),
+        States(name: "Trinity Palmetto Point", cities: ["Anse-la-Raye"])
       ]),
   Country(
       name: "Saint Lucia",
@@ -39675,16 +39675,16 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Anse-la-Raye", cities: ["Canaries"]),
-        State(name: "Canaries", cities: ["Castries", "Choc"]),
-        State(name: "Castries", cities: ["Choiseul"]),
-        State(name: "Choiseul", cities: ["Dennery"]),
-        State(name: "Dennery", cities: []),
-        State(name: "Gros Inlet", cities: ["Laborie"]),
-        State(name: "Laborie", cities: ["Micoud"]),
-        State(name: "Micoud", cities: ["Soufriere"]),
-        State(name: "Soufriere", cities: []),
-        State(name: "Vieux Fort", cities: ["Miquelon"])
+        States(name: "Anse-la-Raye", cities: ["Canaries"]),
+        States(name: "Canaries", cities: ["Castries", "Choc"]),
+        States(name: "Castries", cities: ["Choiseul"]),
+        States(name: "Choiseul", cities: ["Dennery"]),
+        States(name: "Dennery", cities: []),
+        States(name: "Gros Inlet", cities: ["Laborie"]),
+        States(name: "Laborie", cities: ["Micoud"]),
+        States(name: "Micoud", cities: ["Soufriere"]),
+        States(name: "Soufriere", cities: []),
+        States(name: "Vieux Fort", cities: ["Miquelon"])
       ]),
   Country(
       name: "Saint Martin",
@@ -39702,8 +39702,8 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Miquelon-Langlade", cities: ["Saint-Pierre"]),
-        State(name: "Saint-Pierre", cities: ["Biabou", "Byera", "Georgetown"])
+        States(name: "Miquelon-Langlade", cities: ["Saint-Pierre"]),
+        States(name: "Saint-Pierre", cities: ["Biabou", "Byera", "Georgetown"])
       ]),
   Country(
       name: "Saint Vincent and the Grenadines",
@@ -39713,14 +39713,14 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(
+        States(
             name: "Charlotte",
             cities: ["Dovers", "Hamilton", "Port Elizabeth"]),
-        State(name: "Grenadines", cities: []),
-        State(name: "Saint Andrew", cities: []),
-        State(name: "Saint David", cities: []),
-        State(name: "Saint George", cities: []),
-        State(name: "Saint Patrick", cities: ["Falelatai"])
+        States(name: "Grenadines", cities: []),
+        States(name: "Saint Andrew", cities: []),
+        States(name: "Saint David", cities: []),
+        States(name: "Saint George", cities: []),
+        States(name: "Saint Patrick", cities: ["Falelatai"])
       ]),
   Country(
       name: "Samoa",
@@ -39730,17 +39730,17 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "A\\'\\'ana", cities: ["Mulifanua"]),
-        State(name: "Aiga-i-le-Tai", cities: ["Solosolo"]),
-        State(name: "Atua", cities: ["Safotulafai"]),
-        State(name: "Fa\\'\\'asaleleaga", cities: ["Samalae\\'\\'ulu"]),
-        State(name: "Gaga\\'\\'emauga", cities: ["A\\'\\'opo"]),
-        State(name: "Gagaifomauga", cities: ["Taga"]),
-        State(name: "Palauli", cities: ["Gautavai"]),
-        State(name: "Satupa\\'\\'itea", cities: ["Apia"]),
-        State(name: "Tuamasaga", cities: ["Samamea"]),
-        State(name: "Va\\'\\'a-o-Fonoti", cities: ["Neiafu"]),
-        State(name: "Vaisigano", cities: ["Acquaviva"])
+        States(name: "A\\'\\'ana", cities: ["Mulifanua"]),
+        States(name: "Aiga-i-le-Tai", cities: ["Solosolo"]),
+        States(name: "Atua", cities: ["Safotulafai"]),
+        States(name: "Fa\\'\\'asaleleaga", cities: ["Samalae\\'\\'ulu"]),
+        States(name: "Gaga\\'\\'emauga", cities: ["A\\'\\'opo"]),
+        States(name: "Gagaifomauga", cities: ["Taga"]),
+        States(name: "Palauli", cities: ["Gautavai"]),
+        States(name: "Satupa\\'\\'itea", cities: ["Apia"]),
+        States(name: "Tuamasaga", cities: ["Samamea"]),
+        States(name: "Va\\'\\'a-o-Fonoti", cities: ["Neiafu"]),
+        States(name: "Vaisigano", cities: ["Acquaviva"])
       ]),
   Country(
       name: "San Marino",
@@ -39750,15 +39750,15 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Acquaviva", cities: []),
-        State(name: "Borgo Maggiore", cities: ["Chiesanuova"]),
-        State(name: "Chiesanuova", cities: ["Domagnano"]),
-        State(name: "Domagnano", cities: ["Faetano"]),
-        State(name: "Faetano", cities: ["Fiorentino"]),
-        State(name: "Fiorentino", cities: ["Montegiardino"]),
-        State(name: "Montegiardino", cities: []),
-        State(name: "San Marino", cities: ["Serravalle"]),
-        State(name: "Serravalle", cities: [])
+        States(name: "Acquaviva", cities: []),
+        States(name: "Borgo Maggiore", cities: ["Chiesanuova"]),
+        States(name: "Chiesanuova", cities: ["Domagnano"]),
+        States(name: "Domagnano", cities: ["Faetano"]),
+        States(name: "Faetano", cities: ["Fiorentino"]),
+        States(name: "Fiorentino", cities: ["Montegiardino"]),
+        States(name: "Montegiardino", cities: []),
+        States(name: "San Marino", cities: ["Serravalle"]),
+        States(name: "Serravalle", cities: [])
       ]),
   Country(
       name: "Sao Tome and Principe",
@@ -39768,12 +39768,12 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Agua Grande", cities: ["Santana"]),
-        State(name: "Cantagalo", cities: ["Neves"]),
-        State(name: "Lemba", cities: ["Santo Amaro"]),
-        State(name: "Lobata", cities: ["Trindade"]),
-        State(name: "Me-Zochi", cities: ["Santo Antonio"]),
-        State(name: "Pague", cities: [])
+        States(name: "Agua Grande", cities: ["Santana"]),
+        States(name: "Cantagalo", cities: ["Neves"]),
+        States(name: "Lemba", cities: ["Santo Amaro"]),
+        States(name: "Lobata", cities: ["Trindade"]),
+        States(name: "Me-Zochi", cities: ["Santo Antonio"]),
+        States(name: "Pague", cities: [])
       ]),
   Country(
       name: "Saudi Arabia",
@@ -39783,32 +39783,32 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Al Khobar", cities: ["Mahayel"]),
-        State(name: "Aseer", cities: []),
-        State(name: "Ash Sharqiyah", cities: [
+        States(name: "Al Khobar", cities: ["Mahayel"]),
+        States(name: "Aseer", cities: []),
+        States(name: "Ash Sharqiyah", cities: [
           "Abha",
           "Abu \\'\\'Aris",
           "Khamis Mushayt",
           "Qal\\'\\'at Bishah"
         ]),
-        State(name: "Asir", cities: []),
-        State(name: "Central Province", cities: []),
-        State(name: "Eastern Province", cities: ["Ha\\'\\'il"]),
-        State(name: "Ha\\'\\'il", cities: ["Jawf", "Sakakah"]),
-        State(name: "Jawf", cities: ["Jizan", "Sabya"]),
-        State(
+        States(name: "Asir", cities: []),
+        States(name: "Central Province", cities: []),
+        States(name: "Eastern Province", cities: ["Ha\\'\\'il"]),
+        States(name: "Ha\\'\\'il", cities: ["Jawf", "Sakakah"]),
+        States(name: "Jawf", cities: ["Jizan", "Sabya"]),
+        States(
             name: "Jizan",
             cities: ["Makkah", "Rabig", "al-Hawiyah", "at-Ta\\'\\'if"]),
-        State(name: "Makkah", cities: ["Dar\\'\\'iyah", "Najran", "Sharurah"]),
-        State(name: "Najran", cities: ["Unayzah", "Buraydah", "ar-Rass"]),
-        State(name: "Qasim", cities: ["Tabuk", "Umm Lajj"]),
-        State(name: "Tabuk", cities: []),
-        State(name: "Western Province", cities: ["al-Bahah"]),
-        State(
+        States(name: "Makkah", cities: ["Dar\\'\\'iyah", "Najran", "Sharurah"]),
+        States(name: "Najran", cities: ["Unayzah", "Buraydah", "ar-Rass"]),
+        States(name: "Qasim", cities: ["Tabuk", "Umm Lajj"]),
+        States(name: "Tabuk", cities: []),
+        States(name: "Western Province", cities: ["al-Bahah"]),
+        States(
             name: "al-Bahah",
             cities: ["Ara\\'\\'ar", "Rafha", "Turayf", "al-Qurayyat"]),
-        State(name: "al-Hudud-ash-Shamaliyah", cities: ["Yanbu", "al-Madinah"]),
-        State(name: "al-Madinah", cities: [
+        States(name: "al-Hudud-ash-Shamaliyah", cities: ["Yanbu", "al-Madinah"]),
+        States(name: "al-Madinah", cities: [
           "Afif",
           "ad-Dawadimi",
           "ad-Dilam",
@@ -39817,7 +39817,7 @@ final List<Country> countries = [
           "ar-Riyad",
           "az-Zulfi"
         ]),
-        State(name: "ar-Riyad", cities: ["Dakar"])
+        States(name: "ar-Riyad", cities: ["Dakar"])
       ]),
   Country(
       name: "Senegal",
@@ -39827,8 +39827,8 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Dakar", cities: ["Bambey", "Diourbel", "Mbacke", "Touba"]),
-        State(name: "Diourbel", cities: [
+        States(name: "Dakar", cities: ["Bambey", "Diourbel", "Mbacke", "Touba"]),
+        States(name: "Diourbel", cities: [
           "Diofior",
           "Fatick",
           "Foundiougne",
@@ -39838,7 +39838,7 @@ final List<Country> countries = [
           "Passy",
           "Sokone"
         ]),
-        State(name: "Fatick", cities: [
+        States(name: "Fatick", cities: [
           "Gandiaye",
           "Kaffrine",
           "Kaolack",
@@ -39848,7 +39848,7 @@ final List<Country> countries = [
           "Nioro du Rip",
           "Toubakouta"
         ]),
-        State(name: "Kaolack", cities: [
+        States(name: "Kaolack", cities: [
           "Dabo",
           "Goudomp",
           "Kolda",
@@ -39858,8 +39858,8 @@ final List<Country> countries = [
           "Velingara",
           "Wassadou"
         ]),
-        State(name: "Kolda", cities: ["Dahra", "Kebemer", "Linguere", "Louga"]),
-        State(name: "Louga", cities: [
+        States(name: "Kolda", cities: ["Dahra", "Kebemer", "Linguere", "Louga"]),
+        States(name: "Louga", cities: [
           "Dagana",
           "Gollere",
           "Kanel",
@@ -39873,9 +39873,9 @@ final List<Country> countries = [
           "Thilogne",
           "Waounde"
         ]),
-        State(
+        States(
             name: "Saint-Louis", cities: ["Bakel", "Kedougou", "Tambacounda"]),
-        State(name: "Tambacounda", cities: [
+        States(name: "Tambacounda", cities: [
           "Joal-Fadiouth",
           "Kayar",
           "Khombole",
@@ -39887,10 +39887,10 @@ final List<Country> countries = [
           "Thies",
           "Tivaouane"
         ]),
-        State(
+        States(
             name: "Thies",
             cities: ["Bignona", "Oussouye", "Thionck-Essyl", "Ziguinchor"]),
-        State(name: "Ziguinchor", cities: [])
+        States(name: "Ziguinchor", cities: [])
       ]),
   Country(
       name: "Serbia",
@@ -39900,9 +39900,9 @@ final List<Country> countries = [
       minLength: 12,
       maxLength: 12,
       states: [
-        State(name: "Central Serbia", cities: []),
-        State(name: "Kosovo and Metohija", cities: []),
-        State(name: "Vojvodina", cities: [])
+        States(name: "Central Serbia", cities: []),
+        States(name: "Kosovo and Metohija", cities: []),
+        States(name: "Vojvodina", cities: [])
       ]),
   Country(
       name: "Seychelles",
@@ -39912,11 +39912,11 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Anse Boileau", cities: []),
-        State(name: "Anse Royale", cities: ["Cascade"]),
-        State(name: "Cascade", cities: ["Takamaka"]),
-        State(name: "Takamaka", cities: ["Mahe"]),
-        State(name: "Victoria", cities: [
+        States(name: "Anse Boileau", cities: []),
+        States(name: "Anse Royale", cities: ["Cascade"]),
+        States(name: "Cascade", cities: ["Takamaka"]),
+        States(name: "Takamaka", cities: ["Mahe"]),
+        States(name: "Victoria", cities: [
           "Biama",
           "Daru",
           "Kailahun",
@@ -39937,7 +39937,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Eastern", cities: [
+        States(name: "Eastern", cities: [
           "Kabala",
           "Kambia",
           "Lungi",
@@ -39950,7 +39950,7 @@ final List<Country> countries = [
           "Port Loko",
           "Yele"
         ]),
-        State(name: "Northern", cities: [
+        States(name: "Northern", cities: [
           "Binkolo",
           "Bo",
           "Bonthe",
@@ -39959,8 +39959,8 @@ final List<Country> countries = [
           "Pujehun",
           "Taiama"
         ]),
-        State(name: "Southern", cities: ["Freetown", "York"]),
-        State(name: "Western", cities: ["Singapore"])
+        States(name: "Southern", cities: ["Freetown", "York"]),
+        States(name: "Western", cities: ["Singapore"])
       ]),
   Country(
       name: "Singapore",
@@ -39970,7 +39970,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Singapore", cities: [
+        States(name: "Singapore", cities: [
           "Banska Bystrica",
           "Banska Shtiavnica",
           "Brezno",
@@ -40006,7 +40006,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Banskobystricky", cities: [
+        States(name: "Banskobystricky", cities: [
           "Bernolakovo",
           "Bratislava",
           "Ivanka pri Dunaji",
@@ -40018,7 +40018,7 @@ final List<Country> countries = [
           "Stupava",
           "Svaty Jur"
         ]),
-        State(name: "Bratislavsky", cities: [
+        States(name: "Bratislavsky", cities: [
           "Chana",
           "Chierna nad Tisou",
           "Dobshina",
@@ -40039,7 +40039,7 @@ final List<Country> countries = [
           "Vel\\'\\'ke Kapushany",
           "Vranov"
         ]),
-        State(name: "Kosicky", cities: [
+        States(name: "Kosicky", cities: [
           "Dvory nad Zhitavou",
           "Hurbanovo",
           "Kolarovo",
@@ -40062,7 +40062,7 @@ final List<Country> countries = [
           "Vrable",
           "Zlate Moravce"
         ]),
-        State(name: "Nitriansky", cities: [
+        States(name: "Nitriansky", cities: [
           "Bardejov",
           "Giraltovce",
           "Humenne",
@@ -40086,7 +40086,7 @@ final List<Country> countries = [
           "Vel\\'\\'ky Sharish",
           "Vysoke Tatry"
         ]),
-        State(name: "Presovsky", cities: [
+        States(name: "Presovsky", cities: [
           "Banovce",
           "Belusha",
           "Bojnice",
@@ -40111,7 +40111,7 @@ final List<Country> countries = [
           "Trenchin",
           "Trencin"
         ]),
-        State(name: "Trenciansky", cities: [
+        States(name: "Trenciansky", cities: [
           "Brezova pod Bradlom",
           "Dunajska Streda",
           "Gabchikovo",
@@ -40135,7 +40135,7 @@ final List<Country> countries = [
           "Vel\\'\\'ky Meder",
           "Vrbove"
         ]),
-        State(name: "Trnavsky", cities: [
+        States(name: "Trnavsky", cities: [
           "Bytcha",
           "Chadca",
           "Chierne",
@@ -40168,7 +40168,7 @@ final List<Country> countries = [
           "Zhilina",
           "Zilina"
         ]),
-        State(name: "Zilinsky", cities: ["Semic", "Skofljica", "Zelezniki"])
+        States(name: "Zilinsky", cities: ["Semic", "Skofljica", "Zelezniki"])
       ]),
   Country(
       name: "Slovenia",
@@ -40178,7 +40178,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Benedikt", cities: [
+        States(name: "Benedikt", cities: [
           "Begunje na Gorenjskem",
           "Bistrica ob Trzhichu",
           "Bled",
@@ -40218,7 +40218,7 @@ final List<Country> countries = [
           "Zhelezniki",
           "Zhiri"
         ]),
-        State(name: "Gorenjska", cities: [
+        States(name: "Gorenjska", cities: [
           "Ajdovshchina",
           "Bilje",
           "Bovec",
@@ -40243,8 +40243,8 @@ final List<Country> countries = [
           "Vipava",
           "Vrtojba"
         ]),
-        State(name: "Gorishka", cities: []),
-        State(name: "Jugovzhodna Slovenija", cities: [
+        States(name: "Gorishka", cities: []),
+        States(name: "Jugovzhodna Slovenija", cities: [
           "Chrna na Koroshkem",
           "Dravograd",
           "Legen",
@@ -40262,7 +40262,7 @@ final List<Country> countries = [
           "Vuhred",
           "Vuzenica"
         ]),
-        State(name: "Koroshka", cities: [
+        States(name: "Koroshka", cities: [
           "Cerknica",
           "Ilirska Bistrica",
           "Pivka",
@@ -40270,7 +40270,7 @@ final List<Country> countries = [
           "Rakek",
           "Stari trg pri Lozhu"
         ]),
-        State(name: "Notranjsko-krashka", cities: [
+        States(name: "Notranjsko-krashka", cities: [
           "Ankaran",
           "Bertoki",
           "Dekani",
@@ -40290,9 +40290,9 @@ final List<Country> countries = [
           "Spodnje Shkofije",
           "Sveti Anton"
         ]),
-        State(name: "Obalno-krashka", cities: []),
-        State(name: "Obcina Domzale", cities: []),
-        State(name: "Obcina Vitanje", cities: [
+        States(name: "Obalno-krashka", cities: []),
+        States(name: "Obcina Domzale", cities: []),
+        States(name: "Obcina Vitanje", cities: [
           "Borovnica",
           "Brezovica pri Ljubljani",
           "Dob",
@@ -40333,7 +40333,7 @@ final List<Country> countries = [
           "Vrhnika",
           "Zgornje Pirniche"
         ]),
-        State(name: "Osrednjeslovenska", cities: [
+        States(name: "Osrednjeslovenska", cities: [
           "Bistrica ob Dravi",
           "Bresternica",
           "Bukovci",
@@ -40378,7 +40378,7 @@ final List<Country> countries = [
           "Zgornje Poljchane",
           "Zgornji Duplek"
         ]),
-        State(name: "Podravska", cities: [
+        States(name: "Podravska", cities: [
           "Bakovci",
           "Beltinci",
           "Chernelavci",
@@ -40402,7 +40402,7 @@ final List<Country> countries = [
           "Velika Polana",
           "Verzej"
         ]),
-        State(name: "Pomurska", cities: [
+        States(name: "Pomurska", cities: [
           "Breg pri Polzeli",
           "Celje",
           "Gornji Grad",
@@ -40443,8 +40443,8 @@ final List<Country> countries = [
           "Zhalec",
           "Zreche"
         ]),
-        State(name: "Savinjska", cities: []),
-        State(name: "Slovenian Littoral", cities: [
+        States(name: "Savinjska", cities: []),
+        States(name: "Slovenian Littoral", cities: [
           "Brestanica",
           "Brezhice",
           "Krshko",
@@ -40452,7 +40452,7 @@ final List<Country> countries = [
           "Senovo",
           "Sevnica"
         ]),
-        State(name: "Spodnjeposavska", cities: [
+        States(name: "Spodnjeposavska", cities: [
           "Dol pri Hrastniku",
           "Hrastnik",
           "Izlake",
@@ -40460,7 +40460,7 @@ final List<Country> countries = [
           "Trbovlje",
           "Zagorje ob Savi"
         ]),
-        State(name: "Zasavska", cities: ["Adamstown"])
+        States(name: "Zasavska", cities: ["Adamstown"])
       ]),
   Country(
       name: "Solomon Islands",
@@ -40470,15 +40470,15 @@ final List<Country> countries = [
       minLength: 5,
       maxLength: 5,
       states: [
-        State(name: "Central", cities: ["Taro Island"]),
-        State(name: "Choiseul", cities: ["Honiara"]),
-        State(name: "Guadalcanal", cities: ["Buala"]),
-        State(name: "Isabel", cities: []),
-        State(name: "Makira and Ulawa", cities: ["Auki"]),
-        State(name: "Malaita", cities: []),
-        State(name: "Rennell and Bellona", cities: ["Lata"]),
-        State(name: "Temotu", cities: ["Gizo"]),
-        State(name: "Western", cities: ["Baki", "Borama", "Gebilay", "Sayla"])
+        States(name: "Central", cities: ["Taro Island"]),
+        States(name: "Choiseul", cities: ["Honiara"]),
+        States(name: "Guadalcanal", cities: ["Buala"]),
+        States(name: "Isabel", cities: []),
+        States(name: "Makira and Ulawa", cities: ["Auki"]),
+        States(name: "Malaita", cities: []),
+        States(name: "Rennell and Bellona", cities: ["Lata"]),
+        States(name: "Temotu", cities: ["Gizo"]),
+        States(name: "Western", cities: ["Baki", "Borama", "Gebilay", "Sayla"])
       ]),
   Country(
       name: "Somalia",
@@ -40488,9 +40488,9 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Awdal", cities: ["Tayeglo", "Xuddur", "Yet"]),
-        State(name: "Bakol", cities: ["Muqdisho"]),
-        State(name: "Banadir", cities: [
+        States(name: "Awdal", cities: ["Tayeglo", "Xuddur", "Yet"]),
+        States(name: "Bakol", cities: ["Muqdisho"]),
+        States(name: "Banadir", cities: [
           "Alula",
           "Bandarbeyla",
           "Bandarmu\\'\\'ayo",
@@ -40502,9 +40502,9 @@ final List<Country> countries = [
           "Qardho",
           "Xafun"
         ]),
-        State(name: "Bari", cities: ["Baydhabo", "Bur Hakkaba", "Dinsor"]),
-        State(name: "Bay", cities: ["Elbur", "Eldhere", "Dhusa Marreb"]),
-        State(name: "Galgudug", cities: [
+        States(name: "Bari", cities: ["Baydhabo", "Bur Hakkaba", "Dinsor"]),
+        States(name: "Bay", cities: ["Elbur", "Eldhere", "Dhusa Marreb"]),
+        States(name: "Galgudug", cities: [
           "Bardhere",
           "Dolaw",
           "Dujuma",
@@ -40513,21 +40513,21 @@ final List<Country> countries = [
           "Sa\\'\\'o",
           "Wajid"
         ]),
-        State(
+        States(
             name: "Gedo",
             cities: ["Bal\\'\\'ad", "Beled Weyne", "Bulobarde", "Jalalassi"]),
-        State(name: "Hiran", cities: []),
-        State(name: "Jubbada Hose", cities: []),
-        State(
+        States(name: "Hiran", cities: []),
+        States(name: "Jubbada Hose", cities: []),
+        States(
             name: "Jubbadha Dexe",
             cities: ["Galka\\'\\'yo", "Hobyo", "Xarardhere"]),
-        State(name: "Mudug", cities: ["Eyl", "Garowe", "Las\\'\\'anod"]),
-        State(name: "Nugal", cities: ["Erigabo", "Lasqoray"]),
-        State(name: "Sanag", cities: []),
-        State(name: "Shabellaha Dhexe", cities: []),
-        State(name: "Shabellaha Hose", cities: ["Ek", "Bur\\'\\'o", "Odweyne"]),
-        State(name: "Togdher", cities: []),
-        State(name: "Woqoyi Galbed", cities: [])
+        States(name: "Mudug", cities: ["Eyl", "Garowe", "Las\\'\\'anod"]),
+        States(name: "Nugal", cities: ["Erigabo", "Lasqoray"]),
+        States(name: "Sanag", cities: []),
+        States(name: "Shabellaha Dhexe", cities: []),
+        States(name: "Shabellaha Hose", cities: ["Ek", "Bur\\'\\'o", "Odweyne"]),
+        States(name: "Togdher", cities: []),
+        States(name: "Woqoyi Galbed", cities: [])
       ]),
   Country(
       name: "South Africa",
@@ -40537,8 +40537,8 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Eastern Cape", cities: []),
-        State(name: "Free State", cities: [
+        States(name: "Eastern Cape", cities: []),
+        States(name: "Free State", cities: [
           "Alberton",
           "Alrode",
           "Benmore",
@@ -40589,10 +40589,10 @@ final List<Country> countries = [
           "Wadeville",
           "Westonaria"
         ]),
-        State(name: "Gauteng", cities: []),
-        State(name: "Kempton Park", cities: ["Sandton"]),
-        State(name: "Kramerville", cities: []),
-        State(name: "KwaZulu Natal", cities: [
+        States(name: "Gauteng", cities: []),
+        States(name: "Kempton Park", cities: ["Sandton"]),
+        States(name: "Kramerville", cities: []),
+        States(name: "KwaZulu Natal", cities: [
           "Bela-Bela",
           "Dendron",
           "Duiwelskloof",
@@ -40617,7 +40617,7 @@ final List<Country> countries = [
           "Thulamahashe",
           "Tzaneen"
         ]),
-        State(name: "Limpopo", cities: [
+        States(name: "Limpopo", cities: [
           "Botleng",
           "Ekangala",
           "Embalenhle",
@@ -40647,13 +40647,13 @@ final List<Country> countries = [
           "Witrivier",
           "eLukwatini"
         ]),
-        State(name: "Mpumalanga", cities: []),
-        State(name: "North West", cities: []),
-        State(name: "Northern Cape", cities: ["Parow"]),
-        State(name: "Parow", cities: []),
-        State(name: "Table View", cities: ["Umtentweni"]),
-        State(name: "Umtentweni", cities: []),
-        State(name: "Western Cape", cities: [])
+        States(name: "Mpumalanga", cities: []),
+        States(name: "North West", cities: []),
+        States(name: "Northern Cape", cities: ["Parow"]),
+        States(name: "Parow", cities: []),
+        States(name: "Table View", cities: ["Umtentweni"]),
+        States(name: "Umtentweni", cities: []),
+        States(name: "Western Cape", cities: [])
       ]),
   Country(
       name: "South Sudan",
@@ -40662,7 +40662,7 @@ final List<Country> countries = [
       dialCode: "211",
       minLength: 9,
       maxLength: 9,
-      states: [State(name: "Central Equatoria", cities: [])]),
+      states: [States(name: "Central Equatoria", cities: [])]),
   Country(
       name: "South Georgia and the South Sandwich Islands",
       flag: "🇬🇸",
@@ -40670,7 +40670,7 @@ final List<Country> countries = [
       dialCode: "500",
       minLength: 15,
       maxLength: 15,
-      states: [State(name: "South Georgia", cities: [])]),
+      states: [States(name: "South Georgia", cities: [])]),
   Country(
       name: "Spain",
       flag: "🇪🇸",
@@ -40679,7 +40679,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "A Coruna", cities: [
+        States(name: "A Coruna", cities: [
           "ALbatera",
           "Alacant",
           "Alcoi",
@@ -40719,8 +40719,8 @@ final List<Country> countries = [
           "Villena",
           "Xabia"
         ]),
-        State(name: "Alacant", cities: ["Amurrio", "Llodio", "Vitoria"]),
-        State(name: "Alava", cities: [
+        States(name: "Alacant", cities: ["Amurrio", "Llodio", "Vitoria"]),
+        States(name: "Alava", cities: [
           "Albacete",
           "Almansa",
           "Caudete",
@@ -40728,7 +40728,7 @@ final List<Country> countries = [
           "La Roda",
           "Villarrobledo"
         ]),
-        State(name: "Albacete", cities: [
+        States(name: "Albacete", cities: [
           "Adra",
           "Albox",
           "Almeria",
@@ -40741,8 +40741,8 @@ final List<Country> countries = [
           "Roquetas de Mar",
           "Vicar"
         ]),
-        State(name: "Almeria", cities: ["Benalmadena"]),
-        State(name: "Andalucia", cities: [
+        States(name: "Almeria", cities: ["Benalmadena"]),
+        States(name: "Andalucia", cities: [
           "Aller",
           "Aviles",
           "C/ Pena Salon",
@@ -40769,8 +40769,8 @@ final List<Country> countries = [
           "Valdes",
           "Villaviciosa"
         ]),
-        State(name: "Asturias", cities: ["Avila"]),
-        State(name: "Avila", cities: [
+        States(name: "Asturias", cities: ["Avila"]),
+        States(name: "Avila", cities: [
           "Almendralejo",
           "Azuaga",
           "Badajoz",
@@ -40783,7 +40783,7 @@ final List<Country> countries = [
           "Villanueva de la Serena",
           "Zafra"
         ]),
-        State(name: "Badajoz", cities: [
+        States(name: "Badajoz", cities: [
           "Alayor-Menorca",
           "Alcudia",
           "Calvia",
@@ -40805,7 +40805,7 @@ final List<Country> countries = [
           "Santanyi",
           "Soller"
         ]),
-        State(name: "Balears", cities: [
+        States(name: "Balears", cities: [
           "Abrera",
           "Alella",
           "Arenys de Mar",
@@ -40891,14 +40891,14 @@ final List<Country> countries = [
           "Vilanova i la Geltru",
           "Vilassar del Mar"
         ]),
-        State(name: "Barcelona", cities: ["Bertamirans"]),
-        State(
+        States(name: "Barcelona", cities: ["Bertamirans"]),
+        States(
             name: "Bertamirans",
             cities: ["Berriatua", "Derio", "Elorio", "Loiu"]),
-        State(
+        States(
             name: "Biscay",
             cities: ["Aranda de Duero", "Burgos", "Miranda de Ebro"]),
-        State(name: "Burgos", cities: [
+        States(name: "Burgos", cities: [
           "Caceres",
           "Coria",
           "Miajadas",
@@ -40907,7 +40907,7 @@ final List<Country> countries = [
           "Talayuela",
           "Trujillo"
         ]),
-        State(name: "Caceres", cities: [
+        States(name: "Caceres", cities: [
           "Algeciras",
           "Arcos de la Frontera",
           "Barbate",
@@ -40932,7 +40932,7 @@ final List<Country> countries = [
           "Vejer de la Frontera",
           "Villamartin"
         ]),
-        State(name: "Cadiz", cities: [
+        States(name: "Cadiz", cities: [
           "Camargo",
           "Castro-Urdiales",
           "El Astillero",
@@ -40946,7 +40946,7 @@ final List<Country> countries = [
           "Santona",
           "Torrelavega"
         ]),
-        State(name: "Cantabria", cities: [
+        States(name: "Cantabria", cities: [
           "Almassora",
           "Benicarlo",
           "Benicassim",
@@ -40960,16 +40960,16 @@ final List<Country> countries = [
           "Vila-real",
           "Vinaros"
         ]),
-        State(name: "Castello", cities: ["Barcelona"]),
-        State(name: "Catalunya", cities: ["Ceuta"]),
-        State(name: "Ceuta", cities: []),
-        State(name: "Ciudad Real", cities: []),
-        State(name: "Comunidad Autonoma de Canarias", cities: []),
-        State(name: "Comunidad Autonoma de Cataluna", cities: []),
-        State(name: "Comunidad Autonoma de Galicia", cities: []),
-        State(name: "Comunidad Autonoma de las Isla", cities: []),
-        State(name: "Comunidad Autonoma del Princip", cities: []),
-        State(name: "Comunidad Valenciana", cities: [
+        States(name: "Castello", cities: ["Barcelona"]),
+        States(name: "Catalunya", cities: ["Ceuta"]),
+        States(name: "Ceuta", cities: []),
+        States(name: "Ciudad Real", cities: []),
+        States(name: "Comunidad Autonoma de Canarias", cities: []),
+        States(name: "Comunidad Autonoma de Cataluna", cities: []),
+        States(name: "Comunidad Autonoma de Galicia", cities: []),
+        States(name: "Comunidad Autonoma de las Isla", cities: []),
+        States(name: "Comunidad Autonoma del Princip", cities: []),
+        States(name: "Comunidad Valenciana", cities: [
           "Aguilar de la Frontera",
           "Baena",
           "Bujalance",
@@ -40990,9 +40990,9 @@ final List<Country> countries = [
           "Rute",
           "Villanueva de Cordoba"
         ]),
-        State(name: "Cordoba", cities: ["Cuenca", "Tarancon"]),
-        State(name: "Cuenca", cities: ["Aduna", "Lazakao"]),
-        State(name: "Gipuzkoa", cities: [
+        States(name: "Cordoba", cities: ["Cuenca", "Tarancon"]),
+        States(name: "Cuenca", cities: ["Aduna", "Lazakao"]),
+        States(name: "Gipuzkoa", cities: [
           "Banyoles",
           "Blanes",
           "Empuriabrava",
@@ -41011,7 +41011,7 @@ final List<Country> countries = [
           "Santa Coloma de Farners",
           "Torroella de Montgri"
         ]),
-        State(name: "Girona", cities: [
+        States(name: "Girona", cities: [
           "Albolote",
           "Almunecar",
           "Armilla",
@@ -41034,8 +41034,8 @@ final List<Country> countries = [
           "Salobrena",
           "Santa Fe"
         ]),
-        State(name: "Granada", cities: ["Azuqueca de Henares", "Guadalajara"]),
-        State(name: "Guadalajara", cities: [
+        States(name: "Granada", cities: ["Azuqueca de Henares", "Guadalajara"]),
+        States(name: "Guadalajara", cities: [
           "Andoain",
           "Anoeta",
           "Arrasate",
@@ -41064,7 +41064,7 @@ final List<Country> countries = [
           "Zumaia",
           "Zumarraga"
         ]),
-        State(name: "Guipuzcoa", cities: [
+        States(name: "Guipuzcoa", cities: [
           "Aljaraque",
           "Almonte",
           "Ayamonte",
@@ -41079,7 +41079,7 @@ final List<Country> countries = [
           "Punta Umbria",
           "Valverde del Camino"
         ]),
-        State(name: "Huelva", cities: [
+        States(name: "Huelva", cities: [
           "Barbastro",
           "Binefar",
           "Fraga",
@@ -41088,7 +41088,7 @@ final List<Country> countries = [
           "Monzon",
           "Sabinanigo"
         ]),
-        State(name: "Huesca", cities: [
+        States(name: "Huesca", cities: [
           "Alcala la Real",
           "Alcaudete",
           "Andujar",
@@ -41108,9 +41108,9 @@ final List<Country> countries = [
           "Villacarrillo",
           "Villanueva del Arzobispo"
         ]),
-        State(name: "Jaen", cities: []),
-        State(name: "La Rioja", cities: []),
-        State(name: "Las Palmas", cities: [
+        States(name: "Jaen", cities: []),
+        States(name: "La Rioja", cities: []),
+        States(name: "Las Palmas", cities: [
           "Astorga",
           "Bembibre",
           "La Baneza",
@@ -41120,15 +41120,15 @@ final List<Country> countries = [
           "Villablino",
           "Villaquilambre"
         ]),
-        State(name: "Leon", cities: ["Tora"]),
-        State(name: "Lerida", cities: [
+        States(name: "Leon", cities: ["Tora"]),
+        States(name: "Lerida", cities: [
           "Balaguer",
           "La Seu d\\'\\'Urgell",
           "Lleida",
           "Mollerussa",
           "Tarrega"
         ]),
-        State(name: "Lleida", cities: [
+        States(name: "Lleida", cities: [
           "Burela",
           "Cervo",
           "Chantada",
@@ -41140,7 +41140,7 @@ final List<Country> countries = [
           "Vilalba",
           "Viveiro"
         ]),
-        State(name: "Lugo", cities: [
+        States(name: "Lugo", cities: [
           "Alcala de Henares",
           "Alcobendas",
           "Alcorcon",
@@ -41183,7 +41183,7 @@ final List<Country> countries = [
           "Villanueva de la Canada",
           "Villaviciosa de Odon"
         ]),
-        State(name: "Madrid", cities: [
+        States(name: "Madrid", cities: [
           "Alhaurin de la Torre",
           "Alhaurin el Grande",
           "Alora",
@@ -41206,8 +41206,8 @@ final List<Country> countries = [
           "Velez-Malaga",
           "maro"
         ]),
-        State(name: "Malaga", cities: ["Melilla"]),
-        State(name: "Melilla", cities: [
+        States(name: "Malaga", cities: ["Melilla"]),
+        States(name: "Melilla", cities: [
           "Abaran",
           "Aguilas",
           "Alcantarilla",
@@ -41240,7 +41240,7 @@ final List<Country> countries = [
           "Totana",
           "Yecla"
         ]),
-        State(name: "Murcia", cities: [
+        States(name: "Murcia", cities: [
           "Ansoain",
           "Atarrabia",
           "Baranain",
@@ -41253,16 +41253,16 @@ final List<Country> countries = [
           "Tudela",
           "Zizur Nagusia"
         ]),
-        State(name: "Navarra", cities: [
+        States(name: "Navarra", cities: [
           "O Barco de Valdeorras",
           "O Carballino",
           "Ourense",
           "Verin",
           "Xinzo de Limia"
         ]),
-        State(name: "Ourense", cities: []),
-        State(name: "Pais Vasco", cities: ["Guardo", "Palencia"]),
-        State(name: "Palencia", cities: [
+        States(name: "Ourense", cities: []),
+        States(name: "Pais Vasco", cities: ["Guardo", "Palencia"]),
+        States(name: "Palencia", cities: [
           "A Estrada",
           "A Guarda",
           "Baiona",
@@ -41292,15 +41292,15 @@ final List<Country> countries = [
           "Vilagarcia de Arousa",
           "Vilanova de Arousa"
         ]),
-        State(name: "Pontevedra", cities: [
+        States(name: "Pontevedra", cities: [
           "Bejar",
           "Ciudad Rodrigo",
           "Salamanca",
           "Santa Marta de Tormes"
         ]),
-        State(name: "Salamanca", cities: []),
-        State(name: "Santa Cruz de Tenerife", cities: ["Cuellar", "Segovia"]),
-        State(name: "Segovia", cities: [
+        States(name: "Salamanca", cities: []),
+        States(name: "Santa Cruz de Tenerife", cities: ["Cuellar", "Segovia"]),
+        States(name: "Segovia", cities: [
           "Alcala de Guadaira",
           "Alcala del Rio",
           "Arahal",
@@ -41339,8 +41339,8 @@ final List<Country> countries = [
           "Tomares",
           "Utrera"
         ]),
-        State(name: "Sevilla", cities: ["Soria"]),
-        State(name: "Soria", cities: [
+        States(name: "Sevilla", cities: ["Soria"]),
+        States(name: "Soria", cities: [
           "Alcanar",
           "Amposta",
           "Calafell",
@@ -41356,9 +41356,9 @@ final List<Country> countries = [
           "Valls",
           "Vila-seca"
         ]),
-        State(name: "Tarragona", cities: ["Tenerife"]),
-        State(name: "Tenerife", cities: ["Alcaniz", "Teruel"]),
-        State(name: "Teruel", cities: [
+        States(name: "Tarragona", cities: ["Tenerife"]),
+        States(name: "Tenerife", cities: ["Alcaniz", "Teruel"]),
+        States(name: "Teruel", cities: [
           "Consuegra",
           "Illescas",
           "Madridejos",
@@ -41371,7 +41371,7 @@ final List<Country> countries = [
           "Torrijos",
           "Villacanas"
         ]),
-        State(name: "Toledo", cities: [
+        States(name: "Toledo", cities: [
           "Agullent",
           "Alaquas",
           "Albal",
@@ -41430,13 +41430,13 @@ final List<Country> countries = [
           "Xativa",
           "Xirivella"
         ]),
-        State(name: "Valencia", cities: [
+        States(name: "Valencia", cities: [
           "Laguna de Duero",
           "Medina del Campo",
           "Tordesillas",
           "Valladolid"
         ]),
-        State(name: "Valladolid", cities: [
+        States(name: "Valladolid", cities: [
           "Abadiano",
           "Abanto Zierbena",
           "Amorebieta",
@@ -41465,15 +41465,15 @@ final List<Country> countries = [
           "Trapagaran",
           "Zamudio"
         ]),
-        State(name: "Vizcaya", cities: ["Benavente", "Toro", "Zamora"]),
-        State(name: "Zamora", cities: [
+        States(name: "Vizcaya", cities: ["Benavente", "Toro", "Zamora"]),
+        States(name: "Zamora", cities: [
           "Calatayud",
           "Ejea de los Caballeros",
           "Tarazona",
           "Utebo",
           "Zaragoza"
         ]),
-        State(name: "Zaragoza", cities: ["Amparai", "Galmune"])
+        States(name: "Zaragoza", cities: ["Amparai", "Galmune"])
       ]),
   Country(
       name: "Sri Lanka",
@@ -41483,12 +41483,12 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Amparai", cities: ["Anuradhapuraya"]),
-        State(
+        States(name: "Amparai", cities: ["Anuradhapuraya"]),
+        States(
             name: "Anuradhapuraya",
             cities: ["Badulla", "Bandarawela", "Haputale"]),
-        State(name: "Badulla", cities: ["Boralesgamuwa"]),
-        State(name: "Boralesgamuwa", cities: [
+        States(name: "Badulla", cities: ["Boralesgamuwa"]),
+        States(name: "Boralesgamuwa", cities: [
           "Battaramulla",
           "Colombo",
           "Dehiwala-Mount Lavinia",
@@ -41503,8 +41503,8 @@ final List<Country> countries = [
           "Seethawakapura",
           "Sri Jayawardanapura"
         ]),
-        State(name: "Colombo", cities: ["Ambalamgoda", "Galla"]),
-        State(name: "Galla", cities: [
+        States(name: "Colombo", cities: ["Ambalamgoda", "Galla"]),
+        States(name: "Galla", cities: [
           "Daluguma",
           "Gampaha",
           "Hendala",
@@ -41519,47 +41519,47 @@ final List<Country> countries = [
           "Wattala",
           "Welesara"
         ]),
-        State(name: "Gampaha", cities: ["Hambantota", "Tanggalla"]),
-        State(name: "Hambantota", cities: [
+        States(name: "Gampaha", cities: ["Hambantota", "Tanggalla"]),
+        States(name: "Hambantota", cities: [
           "Beruwala",
           "Horana",
           "Kalutara",
           "Keselwatta",
           "Panadraya"
         ]),
-        State(name: "Kalatura", cities: ["Kegalla"]),
-        State(name: "Kegalla", cities: ["Kilinochchi"]),
-        State(
+        States(name: "Kalatura", cities: ["Kegalla"]),
+        States(name: "Kegalla", cities: ["Kilinochchi"]),
+        States(
             name: "Kilinochchi",
             cities: ["Kuliyapitiya", "Kurunegala", "Polgahawela"]),
-        State(
+        States(
             name: "Kurunegala", cities: ["Eravur", "Katankudi", "Madakalpuwa"]),
-        State(name: "Madakalpuwa", cities: []),
-        State(name: "Maha Nuwara", cities: ["Malwana"]),
-        State(name: "Malwana", cities: ["Mannarama"]),
-        State(name: "Mannarama", cities: ["Dambulla", "Matale", "Sigiriya"]),
-        State(name: "Matale", cities: ["Matara", "Weligama"]),
-        State(name: "Matara", cities: ["Monaragala", "Wattegama"]),
-        State(name: "Monaragala", cities: ["Mullaitivu"]),
-        State(name: "Mullaitivu", cities: []),
-        State(name: "North Eastern Province", cities: []),
-        State(name: "North Western Province", cities: []),
-        State(name: "Nuwara Eliya", cities: ["Polonnaruwa"]),
-        State(name: "Polonnaruwa", cities: ["Halawata", "Puttalama"]),
-        State(name: "Puttalama", cities: ["Balangoda", "Ratnapuraya"]),
-        State(name: "Ratnapuraya", cities: []),
-        State(name: "Southern Province", cities: ["Tirikunamalaya"]),
-        State(name: "Tirikunamalaya", cities: ["Querceta"]),
-        State(name: "Tuscany", cities: ["Vavuniyawa"]),
-        State(name: "Vavuniyawa", cities: []),
-        State(name: "Western Province", cities: [
+        States(name: "Madakalpuwa", cities: []),
+        States(name: "Maha Nuwara", cities: ["Malwana"]),
+        States(name: "Malwana", cities: ["Mannarama"]),
+        States(name: "Mannarama", cities: ["Dambulla", "Matale", "Sigiriya"]),
+        States(name: "Matale", cities: ["Matara", "Weligama"]),
+        States(name: "Matara", cities: ["Monaragala", "Wattegama"]),
+        States(name: "Monaragala", cities: ["Mullaitivu"]),
+        States(name: "Mullaitivu", cities: []),
+        States(name: "North Eastern Province", cities: []),
+        States(name: "North Western Province", cities: []),
+        States(name: "Nuwara Eliya", cities: ["Polonnaruwa"]),
+        States(name: "Polonnaruwa", cities: ["Halawata", "Puttalama"]),
+        States(name: "Puttalama", cities: ["Balangoda", "Ratnapuraya"]),
+        States(name: "Ratnapuraya", cities: []),
+        States(name: "Southern Province", cities: ["Tirikunamalaya"]),
+        States(name: "Tirikunamalaya", cities: ["Querceta"]),
+        States(name: "Tuscany", cities: ["Vavuniyawa"]),
+        States(name: "Vavuniyawa", cities: []),
+        States(name: "Western Province", cities: [
           "Chavakachcheri",
           "Peduru Tuduwa",
           "Valvedditturai",
           "Yapanaya"
         ]),
-        State(name: "Yapanaya", cities: ["Mahara"]),
-        State(
+        States(name: "Yapanaya", cities: ["Mahara"]),
+        States(
             name: "kadawatha", cities: ["Kodok", "Malakal", "Nasir", "ar-Rank"])
       ]),
   Country(
@@ -41570,18 +41570,18 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "A\\'\\'ali-an-Nil", cities: ["Juba", "Yei"]),
-        State(name: "Bahr-al-Jabal", cities: []),
-        State(name: "Central Equatoria", cities: []),
-        State(name: "Gharb Bahr-al-Ghazal", cities: []),
-        State(name: "Gharb Darfur", cities: []),
-        State(
+        States(name: "A\\'\\'ali-an-Nil", cities: ["Juba", "Yei"]),
+        States(name: "Bahr-al-Jabal", cities: []),
+        States(name: "Central Equatoria", cities: []),
+        States(name: "Gharb Bahr-al-Ghazal", cities: []),
+        States(name: "Gharb Darfur", cities: []),
+        States(
             name: "Gharb Kurdufan",
             cities: ["Maridi", "Nzara", "Tambura", "Yambio"]),
-        State(name: "Gharb-al-Istiwa\\'\\'iyah", cities: []),
-        State(name: "Janub Darfur", cities: []),
-        State(name: "Janub Kurdufan", cities: ["Bur"]),
-        State(name: "Junqali", cities: [
+        States(name: "Gharb-al-Istiwa\\'\\'iyah", cities: []),
+        States(name: "Janub Darfur", cities: []),
+        States(name: "Janub Kurdufan", cities: ["Bur"]),
+        States(name: "Junqali", cities: [
           "Aruma",
           "Halfa al-Jadidah",
           "Kassala",
@@ -41589,7 +41589,7 @@ final List<Country> countries = [
           "Wagar",
           "al-Masnah"
         ]),
-        State(name: "Kassala", cities: [
+        States(name: "Kassala", cities: [
           "Atbarah",
           "Barbar",
           "Kabushiyah",
@@ -41598,11 +41598,11 @@ final List<Country> countries = [
           "al-Bawga",
           "al-Matammah"
         ]),
-        State(name: "Nahr-an-Nil", cities: []),
-        State(name: "Shamal Bahr-al-Ghazal", cities: []),
-        State(name: "Shamal Darfur", cities: []),
-        State(name: "Shamal Kurdufan", cities: ["Kapoeta", "Torit"]),
-        State(name: "Sharq-al-Istiwa\\'\\'iyah", cities: [
+        States(name: "Nahr-an-Nil", cities: []),
+        States(name: "Shamal Bahr-al-Ghazal", cities: []),
+        States(name: "Shamal Darfur", cities: []),
+        States(name: "Shamal Kurdufan", cities: ["Kapoeta", "Torit"]),
+        States(name: "Sharq-al-Istiwa\\'\\'iyah", cities: [
           "Abu Hijar",
           "Galgani",
           "Hajj \\'\\'Abdallah",
@@ -41615,13 +41615,13 @@ final List<Country> countries = [
           "ad-Dindar",
           "as-Suki"
         ]),
-        State(name: "Sinnar", cities: ["Mashra ar-Raqq", "Tonj", "Warab"]),
-        State(name: "Warab", cities: []),
-        State(
+        States(name: "Sinnar", cities: ["Mashra ar-Raqq", "Tonj", "Warab"]),
+        States(name: "Warab", cities: []),
+        States(
             name: "Wilayat al Khartum",
             cities: ["Bur Sudan", "Gabait", "Sawakin", "Sinkat", "Tawkar"]),
-        State(name: "al-Bahr-al-Ahmar", cities: ["Rumbik", "Yirol"]),
-        State(name: "al-Buhayrat", cities: [
+        States(name: "al-Bahr-al-Ahmar", cities: ["Rumbik", "Yirol"]),
+        States(name: "al-Buhayrat", cities: [
           "Abu \\'\\'Usar",
           "Arba\\'\\'atun wa \\'\\'Ishrun-al-Qurash",
           "Maharaybah",
@@ -41642,13 +41642,13 @@ final List<Country> countries = [
           "al-Mu\\'\\'sadiyah",
           "al-Musallamiyah"
         ]),
-        State(name: "al-Jazirah", cities: [
+        States(name: "al-Jazirah", cities: [
           "Umm Dawm",
           "Umm Durman",
           "al-Khartum",
           "al-Khartum Bahri"
         ]),
-        State(name: "al-Khartum", cities: [
+        States(name: "al-Khartum", cities: [
           "Doka",
           "Qala\\'\\'-an-Nahl",
           "Shuwak",
@@ -41656,8 +41656,8 @@ final List<Country> countries = [
           "al-Hawatah",
           "al-Qadarif"
         ]),
-        State(name: "al-Qadarif", cities: ["Bentiu", "Ler"]),
-        State(name: "al-Wahdah", cities: [
+        States(name: "al-Qadarif", cities: ["Bentiu", "Ler"]),
+        States(name: "al-Wahdah", cities: [
           "Asalaya",
           "Bufi",
           "Gulli",
@@ -41674,10 +41674,10 @@ final List<Country> countries = [
           "al-Kawah",
           "al-Qutaynah"
         ]),
-        State(
+        States(
             name: "an-Nil-al-Abyad",
             cities: ["ad-Damazin", "al-Kurumuk", "al-Quwaysi", "ar-Rusayris"]),
-        State(name: "an-Nil-al-Azraq", cities: [
+        States(name: "an-Nil-al-Azraq", cities: [
           "Argu",
           "Dalqu",
           "Dunqulah",
@@ -41690,7 +41690,7 @@ final List<Country> countries = [
           "Wadi Halfa",
           "ad-Dabbah"
         ]),
-        State(name: "ash-Shamaliyah", cities: ["Brokopondo", "Brownsweg"])
+        States(name: "ash-Shamaliyah", cities: ["Brokopondo", "Brownsweg"])
       ]),
   Country(
       name: "Suriname",
@@ -41700,17 +41700,17 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(
+        States(
             name: "Brokopondo",
             cities: ["Marienburg", "Meerzorg", "Nieuw Amsterdam"]),
-        State(name: "Commewijne", cities: ["Totness"]),
-        State(name: "Coronie", cities: ["Albina", "Moengo"]),
-        State(name: "Marowijne", cities: ["Nieuw Nickerie", "Wageningen"]),
-        State(name: "Nickerie", cities: ["Onverwacht"]),
-        State(name: "Para", cities: ["Paramaribo"]),
-        State(name: "Paramaribo", cities: ["Groningen"]),
-        State(name: "Saramacca", cities: ["Lelydorp"]),
-        State(name: "Wanica", cities: [
+        States(name: "Commewijne", cities: ["Totness"]),
+        States(name: "Coronie", cities: ["Albina", "Moengo"]),
+        States(name: "Marowijne", cities: ["Nieuw Nickerie", "Wageningen"]),
+        States(name: "Nickerie", cities: ["Onverwacht"]),
+        States(name: "Para", cities: ["Paramaribo"]),
+        States(name: "Paramaribo", cities: ["Groningen"]),
+        States(name: "Saramacca", cities: ["Lelydorp"]),
+        States(name: "Wanica", cities: [
           "Barentsburg",
           "Hornsund",
           "Isfjord Radio",
@@ -41726,7 +41726,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Svalbard", cities: [
+        States(name: "Svalbard", cities: [
           "Bulembu",
           "Ezulwini",
           "Mbabane",
@@ -41742,7 +41742,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Hhohho", cities: [
+        States(name: "Hhohho", cities: [
           "Big Bend",
           "Mhlume",
           "Mpaka",
@@ -41751,7 +41751,7 @@ final List<Country> countries = [
           "Siteki",
           "Tshaneni"
         ]),
-        State(name: "Lubombo", cities: [
+        States(name: "Lubombo", cities: [
           "Bhunya",
           "Kwaluseni",
           "Lobamba",
@@ -41762,10 +41762,10 @@ final List<Country> countries = [
           "Mhlambanyatsi",
           "Sidvokodvo"
         ]),
-        State(
+        States(
             name: "Manzini",
             cities: ["Hlatikulu", "Hluti", "Kubuta", "Lavumisa", "Nhlangano"]),
-        State(name: "Shiselweni", cities: [])
+        States(name: "Shiselweni", cities: [])
       ]),
   Country(
       name: "Sweden",
@@ -41775,12 +41775,12 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 13,
       states: [
-        State(name: "Alvsborgs Lan", cities: []),
-        State(
+        States(name: "Alvsborgs Lan", cities: []),
+        States(
             name: "Angermanland",
             cities: ["Karlshamn", "Karlskrona", "Ronneby"]),
-        State(name: "Blekinge", cities: ["Stenungsund"]),
-        State(name: "Bohuslan", cities: [
+        States(name: "Blekinge", cities: ["Stenungsund"]),
+        States(name: "Bohuslan", cities: [
           "Avesta",
           "Borlange",
           "Falun",
@@ -41788,7 +41788,7 @@ final List<Country> countries = [
           "Ludvika",
           "Malung"
         ]),
-        State(name: "Dalarna", cities: [
+        States(name: "Dalarna", cities: [
           "Bollnas",
           "Bro",
           "Gavle",
@@ -41796,17 +41796,17 @@ final List<Country> countries = [
           "Sandviken",
           "Soderhamn"
         ]),
-        State(name: "Gavleborg", cities: []),
-        State(name: "Gaza", cities: ["Skara", "Visby"]),
-        State(name: "Gotland", cities: [
+        States(name: "Gavleborg", cities: []),
+        States(name: "Gaza", cities: ["Skara", "Visby"]),
+        States(name: "Gotland", cities: [
           "Anderstorp",
           "Falkenberg",
           "Halmstad",
           "Ullared",
           "Varberg"
         ]),
-        State(name: "Halland", cities: ["Farjestaden", "Ostersund"]),
-        State(name: "Jamtland", cities: [
+        States(name: "Halland", cities: ["Farjestaden", "Ostersund"]),
+        States(name: "Jamtland", cities: [
           "Gislaved",
           "Jonkoping",
           "Nassjo",
@@ -41814,7 +41814,7 @@ final List<Country> countries = [
           "Varnamo",
           "Vetlanda"
         ]),
-        State(name: "Jonkoping", cities: [
+        States(name: "Jonkoping", cities: [
           "Blomstermala",
           "Kalmar",
           "Nybro",
@@ -41823,15 +41823,15 @@ final List<Country> countries = [
           "Torsas",
           "Vastervik"
         ]),
-        State(
+        States(
             name: "Kalmar",
             cities: ["Habo", "Limhamn", "Segeltorp", "Svedala"]),
-        State(name: "Kristianstads", cities: ["Ljungby", "Vaxjo"]),
-        State(name: "Kronoberg", cities: ["Boden", "Kiruna", "Lulea", "Pitea"]),
-        State(
+        States(name: "Kristianstads", cities: ["Ljungby", "Vaxjo"]),
+        States(name: "Kronoberg", cities: ["Boden", "Kiruna", "Lulea", "Pitea"]),
+        States(
             name: "Norrbotten",
             cities: ["Askersund", "Karlskoga", "Kumla", "Orebro"]),
-        State(name: "Orebro", cities: [
+        States(name: "Orebro", cities: [
           "Finspang",
           "Follinge",
           "Kisa",
@@ -41841,8 +41841,8 @@ final List<Country> countries = [
           "Norrkoping",
           "Vadstena"
         ]),
-        State(name: "Ostergotland", cities: ["Skarpovagen"]),
-        State(name: "Saltsjo-Boo", cities: [
+        States(name: "Ostergotland", cities: ["Skarpovagen"]),
+        States(name: "Saltsjo-Boo", cities: [
           "Angelholm",
           "Arlov",
           "Bastad",
@@ -41863,10 +41863,10 @@ final List<Country> countries = [
           "Trelleborg",
           "Ystad"
         ]),
-        State(
+        States(
             name: "Skane",
             cities: ["Hillerstorp", "Markaryd", "Smalandsstenar"]),
-        State(name: "Smaland", cities: [
+        States(name: "Smaland", cities: [
           "Eskilstuna",
           "Gnesta",
           "Katrineholm",
@@ -41875,7 +41875,7 @@ final List<Country> countries = [
           "Strangnas",
           "Vingaker"
         ]),
-        State(name: "Sodermanland", cities: [
+        States(name: "Sodermanland", cities: [
           "Akersberga",
           "Boo",
           "Bromma",
@@ -41899,7 +41899,7 @@ final List<Country> countries = [
           "Vallentuna",
           "Vasterhaninge"
         ]),
-        State(name: "Stockholm", cities: [
+        States(name: "Stockholm", cities: [
           "Balsta",
           "Enkoping",
           "Knivsta",
@@ -41907,23 +41907,23 @@ final List<Country> countries = [
           "Storvreta",
           "Uppsala"
         ]),
-        State(name: "Uppsala", cities: [
+        States(name: "Uppsala", cities: [
           "Arvika",
           "Hammaro",
           "Karlstad",
           "Kristinehamn",
           "Skoghall"
         ]),
-        State(
+        States(
             name: "Varmland",
             cities: ["Guglingen", "Robertsfors", "Skelleftea", "Umea"]),
-        State(
+        States(
             name: "Vasterbotten",
             cities: ["Gothenburg", "Kallered", "Kvanum", "Timmersdala"]),
-        State(
+        States(
             name: "Vastergotland",
             cities: ["Harnosand", "Ornskoldsvik", "Sundsvall"]),
-        State(name: "Vasternorrland", cities: [
+        States(name: "Vasternorrland", cities: [
           "Arboga",
           "Fagersta",
           "Hallstahammar",
@@ -41931,8 +41931,8 @@ final List<Country> countries = [
           "Sala",
           "Vasteras"
         ]),
-        State(name: "Vastmanland", cities: []),
-        State(name: "Vastra Gotaland", cities: [
+        States(name: "Vastmanland", cities: []),
+        States(name: "Vastra Gotaland", cities: [
           "Aarau",
           "Aarburg",
           "Baden",
@@ -41988,9 +41988,9 @@ final List<Country> countries = [
       minLength: 12,
       maxLength: 12,
       states: [
-        State(name: "Aargau", cities: []),
-        State(name: "Appenzell Inner-Rhoden", cities: []),
-        State(name: "Appenzell-Ausser Rhoden", cities: [
+        States(name: "Aargau", cities: []),
+        States(name: "Appenzell Inner-Rhoden", cities: []),
+        States(name: "Appenzell-Ausser Rhoden", cities: [
           "Aesch",
           "Allschwil",
           "Arlesheim",
@@ -42011,8 +42011,8 @@ final List<Country> countries = [
           "Sissach",
           "Therwil"
         ]),
-        State(name: "Basel-Landschaft", cities: ["Basel", "Riehen"]),
-        State(name: "Basel-Stadt", cities: [
+        States(name: "Basel-Landschaft", cities: ["Basel", "Riehen"]),
+        States(name: "Basel-Stadt", cities: [
           "Belp",
           "Bern",
           "Berne",
@@ -42058,8 +42058,8 @@ final List<Country> countries = [
           "Worb",
           "Zollikofen"
         ]),
-        State(name: "Bern", cities: []),
-        State(name: "Canton Ticino", cities: [
+        States(name: "Bern", cities: []),
+        States(name: "Canton Ticino", cities: [
           "Bulle",
           "Dudingen",
           "Fribourg",
@@ -42072,7 +42072,7 @@ final List<Country> countries = [
           "Villaz-Saint-Pierre",
           "Wunnewil-Flamatt"
         ]),
-        State(name: "Fribourg", cities: [
+        States(name: "Fribourg", cities: [
           "Bernex",
           "Carouge",
           "Chene-Bougeries",
@@ -42091,8 +42091,8 @@ final List<Country> countries = [
           "Versoix",
           "Veyrier"
         ]),
-        State(name: "Geneve", cities: ["Glarus", "Nafels"]),
-        State(name: "Glarus", cities: [
+        States(name: "Geneve", cities: ["Glarus", "Nafels"]),
+        States(name: "Glarus", cities: [
           "Arosa",
           "Chur",
           "Davos",
@@ -42102,12 +42102,12 @@ final List<Country> countries = [
           "Maienfeld",
           "Sankt Moritz"
         ]),
-        State(name: "Graubunden", cities: ["Heerbrugg"]),
-        State(
+        States(name: "Graubunden", cities: ["Heerbrugg"]),
+        States(
             name: "Heerbrugg",
             cities: ["Delemont", "Glovelier", "Le Noirmont", "Porrentruy"]),
-        State(name: "Jura", cities: []),
-        State(name: "Kanton Aargau", cities: [
+        States(name: "Jura", cities: []),
+        States(name: "Kanton Aargau", cities: [
           "Adligenswil",
           "Ballwil",
           "Buchrain",
@@ -42126,9 +42126,9 @@ final List<Country> countries = [
           "Ruswil",
           "Sursee"
         ]),
-        State(name: "Luzern", cities: []),
-        State(name: "Morbio Inferiore", cities: ["Muhen"]),
-        State(name: "Muhen", cities: [
+        States(name: "Luzern", cities: []),
+        States(name: "Morbio Inferiore", cities: ["Muhen"]),
+        States(name: "Muhen", cities: [
           "Bole",
           "Boudry",
           "Colombier",
@@ -42137,15 +42137,15 @@ final List<Country> countries = [
           "Neuchatel",
           "Peseux"
         ]),
-        State(
+        States(
             name: "Neuchatel",
             cities: ["Buochs", "Hergiswil", "Stans", "Stansstad"]),
-        State(
+        States(
             name: "Nidwalden",
             cities: ["Alpnach", "Kerns", "Sachseln", "Sarnen"]),
-        State(name: "Obwalden", cities: []),
-        State(name: "Sankt Gallen", cities: ["Neuhausen", "Schaffhausen"]),
-        State(name: "Schaffhausen", cities: [
+        States(name: "Obwalden", cities: []),
+        States(name: "Sankt Gallen", cities: ["Neuhausen", "Schaffhausen"]),
+        States(name: "Schaffhausen", cities: [
           "Altendorf",
           "Arth",
           "Buron",
@@ -42160,7 +42160,7 @@ final List<Country> countries = [
           "Wangen",
           "Wollerau"
         ]),
-        State(name: "Schwyz", cities: [
+        States(name: "Schwyz", cities: [
           "Balsthal",
           "Bellach",
           "Bettlach",
@@ -42179,7 +42179,7 @@ final List<Country> countries = [
           "Wangen",
           "Zuchwil"
         ]),
-        State(name: "Solothurn", cities: [
+        States(name: "Solothurn", cities: [
           "Aadorf",
           "Amriswil",
           "Arbon",
@@ -42194,7 +42194,7 @@ final List<Country> countries = [
           "Tagerwilen",
           "Weinfelden"
         ]),
-        State(name: "Thurgau", cities: [
+        States(name: "Thurgau", cities: [
           "Ascona",
           "Bellinzona",
           "Biasca",
@@ -42214,8 +42214,8 @@ final List<Country> countries = [
           "Pregassona",
           "Viganello"
         ]),
-        State(name: "Ticino", cities: ["Altdorf", "Schattdorf"]),
-        State(name: "Uri", cities: [
+        States(name: "Ticino", cities: ["Altdorf", "Schattdorf"]),
+        States(name: "Uri", cities: [
           "Bagnes",
           "Brig-Glis",
           "Collombey-Muraz",
@@ -42234,7 +42234,7 @@ final List<Country> countries = [
           "Vouvry",
           "Zermatt"
         ]),
-        State(name: "Valais", cities: [
+        States(name: "Valais", cities: [
           "Aigle",
           "Ballaigues",
           "Bex",
@@ -42265,8 +42265,8 @@ final List<Country> countries = [
           "Vevey",
           "Yverdon"
         ]),
-        State(name: "Vaud", cities: ["Vauffelin"]),
-        State(name: "Vauffelin", cities: [
+        States(name: "Vaud", cities: ["Vauffelin"]),
+        States(name: "Vauffelin", cities: [
           "Baar",
           "Cham",
           "Hunenberg",
@@ -42279,7 +42279,7 @@ final List<Country> countries = [
           "Unterageri",
           "Zug"
         ]),
-        State(name: "Zug", cities: [
+        States(name: "Zug", cities: [
           "Adliswil",
           "Affoltern",
           "Bachenbulach",
@@ -42348,7 +42348,7 @@ final List<Country> countries = [
           "Zumikon",
           "Zurich"
         ]),
-        State(name: "Zurich", cities: ["Aleppo"])
+        States(name: "Zurich", cities: ["Aleppo"])
       ]),
   Country(
       name: "Syrian Arab Republic",
@@ -42358,11 +42358,11 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Aleppo", cities: ["Dar\\'\\'a", "Nawa"]),
-        State(
+        States(name: "Aleppo", cities: ["Dar\\'\\'a", "Nawa"]),
+        States(
             name: "Dar\\'\\'a",
             cities: ["Abu Kamal", "Dayr az-Zawr", "al-Mayadin"]),
-        State(name: "Dayr-az-Zawr", cities: [
+        States(name: "Dayr-az-Zawr", cities: [
           "Damascus",
           "Darayya",
           "Duma",
@@ -42378,7 +42378,7 @@ final List<Country> countries = [
           "at-Tall",
           "az-Zabadani"
         ]),
-        State(name: "Dimashq", cities: [
+        States(name: "Dimashq", cities: [
           "Afrin",
           "Ayn-al-\\'\\'Arab",
           "A\\'\\'zaz",
@@ -42387,33 +42387,33 @@ final List<Country> countries = [
           "al-Bab",
           "as-Safirah"
         ]),
-        State(
+        States(
             name: "Halab",
             cities: ["Hamah", "Masyaf", "Muhradah", "Salamiyah"]),
-        State(
+        States(
             name: "Hamah",
             cities: ["Hims", "Homs", "Tudmur", "al-Qusayr", "ar-Rastan"]),
-        State(name: "Hims", cities: [
+        States(name: "Hims", cities: [
           "Ariha",
           "Idlib",
           "Jisr-ash-Shughur",
           "Ma\\'\\'arrat-an-Nu\\'\\'man"
         ]),
-        State(name: "Idlib", cities: []),
-        State(name: "Madinat Dimashq", cities: ["Baniyas", "Safita", "Tartus"]),
-        State(name: "Tartus", cities: [
+        States(name: "Idlib", cities: []),
+        States(name: "Madinat Dimashq", cities: ["Baniyas", "Safita", "Tartus"]),
+        States(name: "Tartus", cities: [
           "Ra\\'\\'s-al-\\'\\'Ayn",
           "al-Hasakah",
           "al-Malikiyah",
           "al-Qamishli"
         ]),
-        State(
+        States(
             name: "al-Hasakah",
             cities: ["Jablah", "Lattakia", "al-Ladhiqiyah"]),
-        State(name: "al-Ladhiqiyah", cities: ["al-Qunaytirah"]),
-        State(name: "al-Qunaytirah", cities: ["ar-Raqqah", "ath-Thawrah"]),
-        State(name: "ar-Raqqah", cities: ["as-Suwayda"]),
-        State(name: "as-Suwayda", cities: [
+        States(name: "al-Ladhiqiyah", cities: ["al-Qunaytirah"]),
+        States(name: "al-Qunaytirah", cities: ["ar-Raqqah", "ath-Thawrah"]),
+        States(name: "ar-Raqqah", cities: ["as-Suwayda"]),
+        States(name: "as-Suwayda", cities: [
           "Changhua City",
           "Changhwa",
           "Chihu",
@@ -42437,18 +42437,18 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Changhua County", cities: []),
-        State(name: "Chiayi County", cities: []),
-        State(name: "Chiayi City", cities: []),
-        State(name: "Taipei City", cities: []),
-        State(name: "Hsinchu County", cities: []),
-        State(name: "Hsinchu City", cities: ["Fenglin", "Hualian", "Yuli"]),
-        State(
+        States(name: "Changhua County", cities: []),
+        States(name: "Chiayi County", cities: []),
+        States(name: "Chiayi City", cities: []),
+        States(name: "Taipei City", cities: []),
+        States(name: "Hsinchu County", cities: []),
+        States(name: "Hsinchu City", cities: ["Fenglin", "Hualian", "Yuli"]),
+        States(
             name: "Hualien County",
             cities: ["Ilan", "Lotung", "Suao", "Toucheng"]),
-        State(name: "Kaohsiung City", cities: []),
-        State(name: "Keelung City", cities: ["Kincheng", "Kinhsia", "Kinhu"]),
-        State(name: "Kinmen County", cities: [
+        States(name: "Kaohsiung City", cities: []),
+        States(name: "Keelung City", cities: ["Kincheng", "Kinhsia", "Kinhu"]),
+        States(name: "Kinmen County", cities: [
           "Cholan",
           "Chunan",
           "Houlung",
@@ -42458,22 +42458,22 @@ final List<Country> countries = [
           "Yuanli",
           "Zaociao"
         ]),
-        State(
+        States(
             name: "Miaoli County",
             cities: ["Chichi", "Chushan", "Nantou", "Puli", "Tsaotun"]),
-        State(name: "Nantou County", cities: []),
-        State(
+        States(name: "Nantou County", cities: []),
+        States(
             name: "Penghu County",
             cities: ["Chaochou", "Hengchun", "Pingtung", "Tungkang"]),
-        State(
+        States(
             name: "Pingtung County",
             cities: ["Dali", "South District", "Ta-Ya Shang"]),
-        State(
+        States(
             name: "Taichung City",
             cities: ["Dali", "South District", "Ta-Ya Shang"]),
-        State(name: "Tainan City", cities: []),
-        State(name: "New Taipei City", cities: []),
-        State(name: "Taitung County", cities: [
+        States(name: "Tainan City", cities: []),
+        States(name: "New Taipei City", cities: []),
+        States(name: "Taitung County", cities: [
           "Chengkung",
           "Chungli",
           "Kuan Yin",
@@ -42485,12 +42485,12 @@ final List<Country> countries = [
           "Tungshih",
           "Yangmei"
         ]),
-        State(name: "Taoyuan City", cities: ["Wujie"]),
-        State(name: "Yilan County", cities: []),
-        State(
+        States(name: "Taoyuan City", cities: ["Wujie"]),
+        States(name: "Yilan County", cities: []),
+        States(
             name: "YunLin County",
             cities: ["Hsilo", "Huwei", "Peikang", "Touliu", "Tounan", "Tuku"]),
-        State(name: "Lienchiang County", cities: [])
+        States(name: "Lienchiang County", cities: [])
       ]),
   Country(
       name: "Tajikistan",
@@ -42500,8 +42500,8 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Dushanbe", cities: ["Khorug", "Murgob"]),
-        State(name: "Gorno-Badakhshan", cities: [
+        States(name: "Dushanbe", cities: ["Khorug", "Murgob"]),
+        States(name: "Gorno-Badakhshan", cities: [
           "Garm",
           "Hisor",
           "Kofarnihon",
@@ -42510,7 +42510,7 @@ final List<Country> countries = [
           "Shakhrinau",
           "Tursunzoda"
         ]),
-        State(name: "Karotegin", cities: [
+        States(name: "Karotegin", cities: [
           "Dangara",
           "Farkhor",
           "Jilikul",
@@ -42530,7 +42530,7 @@ final List<Country> countries = [
           "Vose",
           "Yovon"
         ]),
-        State(name: "Khatlon", cities: [
+        States(name: "Khatlon", cities: [
           "Adrasmon",
           "Asht",
           "Ayni",
@@ -42552,7 +42552,7 @@ final List<Country> countries = [
           "Uroteppa",
           "Zafarobod"
         ]),
-        State(name: "Sughd", cities: ["Arusha"])
+        States(name: "Sughd", cities: ["Arusha"])
       ]),
   Country(
       name: "Tanzania, United Republic of Tanzania",
@@ -42562,40 +42562,40 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Arusha", cities: []),
-        State(name: "Dar es Salaam", cities: ["Dodoma", "Kondoa", "Mpwapwa"]),
-        State(name: "Dodoma", cities: ["Iringa", "Njombe"]),
-        State(name: "Iringa", cities: ["Bukoba", "Bwanga", "Ngara"]),
-        State(name: "Kagera", cities: ["Kasulu", "Kigoma", "Uvinza"]),
-        State(name: "Kigoma", cities: ["Moshi", "Same"]),
-        State(
+        States(name: "Arusha", cities: []),
+        States(name: "Dar es Salaam", cities: ["Dodoma", "Kondoa", "Mpwapwa"]),
+        States(name: "Dodoma", cities: ["Iringa", "Njombe"]),
+        States(name: "Iringa", cities: ["Bukoba", "Bwanga", "Ngara"]),
+        States(name: "Kagera", cities: ["Kasulu", "Kigoma", "Uvinza"]),
+        States(name: "Kigoma", cities: ["Moshi", "Same"]),
+        States(
             name: "Kilimanjaro",
             cities: ["Kilwa Kivinje", "Lindi", "Nachingwea"]),
-        State(name: "Lindi", cities: ["Musoma", "Tarime"]),
-        State(name: "Mara", cities: ["Mbeya", "Mwaya", "Tukuyu"]),
-        State(name: "Mbeya", cities: ["Kilosa", "Mahenge", "Morogoro"]),
-        State(
+        States(name: "Lindi", cities: ["Musoma", "Tarime"]),
+        States(name: "Mara", cities: ["Mbeya", "Mwaya", "Tukuyu"]),
+        States(name: "Mbeya", cities: ["Kilosa", "Mahenge", "Morogoro"]),
+        States(
             name: "Morogoro",
             cities: ["Masasi", "Mikindani", "Mtwara", "Newala"]),
-        State(
+        States(
             name: "Mtwara", cities: ["Magu", "Mwanza", "Nansio", "Sengerama"]),
-        State(
+        States(
             name: "Mwanza", cities: ["Bagamoyo", "Kibaha", "Rufiji", "Utete"]),
-        State(name: "Pwani", cities: ["Mpanda", "Sumbawanga"]),
-        State(name: "Rukwa", cities: ["Songea", "Tunduru"]),
-        State(name: "Ruvuma", cities: [
+        States(name: "Pwani", cities: ["Mpanda", "Sumbawanga"]),
+        States(name: "Rukwa", cities: ["Songea", "Tunduru"]),
+        States(name: "Ruvuma", cities: [
           "Kahama",
           "Maswa",
           "Mwadui",
           "Old Shinyanga",
           "Shinyanga"
         ]),
-        State(name: "Shinyanga", cities: ["Manyoni", "Singida"]),
-        State(name: "Singida", cities: ["Bukene", "Nzega", "Tabora", "Urambo"]),
-        State(
+        States(name: "Shinyanga", cities: ["Manyoni", "Singida"]),
+        States(name: "Singida", cities: ["Bukene", "Nzega", "Tabora", "Urambo"]),
+        States(
             name: "Tabora", cities: ["Korogwe", "Muheza", "Pangani", "Tanga"]),
-        State(name: "Tanga", cities: []),
-        State(name: "Zanzibar and Pemba", cities: [])
+        States(name: "Tanga", cities: []),
+        States(name: "Zanzibar and Pemba", cities: [])
       ]),
   Country(
       name: "Thailand",
@@ -42605,11 +42605,11 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Amnat Charoen", cities: []),
-        State(
+        States(name: "Amnat Charoen", cities: []),
+        States(
             name: "Ang Thong", cities: ["Bangkhen", "Bangkok", "Phatumthanee"]),
-        State(name: "Bangkok", cities: []),
-        State(name: "Buri Ram", cities: [
+        States(name: "Bangkok", cities: []),
+        States(name: "Buri Ram", cities: [
           "Bang Khla",
           "Bang Pakong",
           "Bangpakong",
@@ -42617,27 +42617,27 @@ final List<Country> countries = [
           "Phanom Sarakham",
           "Plaeng Yao"
         ]),
-        State(name: "Chachoengsao", cities: []),
-        State(name: "Chai Nat", cities: [
+        States(name: "Chachoengsao", cities: []),
+        States(name: "Chai Nat", cities: [
           "Bamnet Narong",
           "Chaiyaphum",
           "Kaeng Khlo",
           "Kaset Sombun",
           "Phu Khieo"
         ]),
-        State(name: "Chaiyaphum", cities: []),
-        State(name: "Changwat Chaiyaphum", cities: [
+        States(name: "Chaiyaphum", cities: []),
+        States(name: "Changwat Chaiyaphum", cities: [
           "Chanthaburi",
           "Khlung",
           "Laem Sing",
           "Soydow",
           "Tha Mai"
         ]),
-        State(name: "Chanthaburi", cities: []),
-        State(name: "Chiang Mai", cities: []),
-        State(name: "Chiang Rai", cities: []),
-        State(name: "Chon Buri", cities: ["Chumphon", "Lang Suan"]),
-        State(name: "Chumphon", cities: [
+        States(name: "Chanthaburi", cities: []),
+        States(name: "Chiang Mai", cities: []),
+        States(name: "Chiang Rai", cities: []),
+        States(name: "Chon Buri", cities: ["Chumphon", "Lang Suan"]),
+        States(name: "Chumphon", cities: [
           "Huai Mek",
           "Kalasin",
           "Kamalasai",
@@ -42646,33 +42646,33 @@ final List<Country> countries = [
           "Nong Kung Si",
           "Yang Talat"
         ]),
-        State(name: "Kalasin", cities: []),
-        State(name: "Kamphaeng Phet", cities: [
+        States(name: "Kalasin", cities: []),
+        States(name: "Kamphaeng Phet", cities: [
           "Bo Phloi",
           "Kanchanaburi",
           "Phanom Thuan",
           "Tha Maka",
           "Tha Muang"
         ]),
-        State(name: "Kanchanaburi", cities: []),
-        State(name: "Khon Kaen", cities: ["Ao Luk", "Krabi"]),
-        State(name: "Krabi", cities: []),
-        State(name: "Krung Thep", cities: ["Lampang", "Thoen"]),
-        State(name: "Lampang", cities: ["Lamphun", "Mae Tha", "Pa Sang"]),
-        State(
+        States(name: "Kanchanaburi", cities: []),
+        States(name: "Khon Kaen", cities: ["Ao Luk", "Krabi"]),
+        States(name: "Krabi", cities: []),
+        States(name: "Krung Thep", cities: ["Lampang", "Thoen"]),
+        States(name: "Lampang", cities: ["Lamphun", "Mae Tha", "Pa Sang"]),
+        States(
             name: "Lamphun", cities: ["Loei", "Phu Kra Dung", "Wang Saphung"]),
-        State(name: "Loei", cities: []),
-        State(name: "Lop Buri", cities: []),
-        State(name: "Mae Hong Son", cities: []),
-        State(name: "Maha Sarakham", cities: ["Mukdahan"]),
-        State(name: "Mukdahan", cities: []),
-        State(name: "Nakhon Nayok", cities: []),
-        State(name: "Nakhon Pathom", cities: []),
-        State(name: "Nakhon Phanom", cities: []),
-        State(name: "Nakhon Ratchasima", cities: []),
-        State(name: "Nakhon Sawan", cities: []),
-        State(name: "Nakhon Si Thammarat", cities: ["Chiang Klang", "Nan"]),
-        State(name: "Nan", cities: [
+        States(name: "Loei", cities: []),
+        States(name: "Lop Buri", cities: []),
+        States(name: "Mae Hong Son", cities: []),
+        States(name: "Maha Sarakham", cities: ["Mukdahan"]),
+        States(name: "Mukdahan", cities: []),
+        States(name: "Nakhon Nayok", cities: []),
+        States(name: "Nakhon Pathom", cities: []),
+        States(name: "Nakhon Phanom", cities: []),
+        States(name: "Nakhon Ratchasima", cities: []),
+        States(name: "Nakhon Sawan", cities: []),
+        States(name: "Nakhon Si Thammarat", cities: ["Chiang Klang", "Nan"]),
+        States(name: "Nan", cities: [
           "Bacho",
           "Narathiwat",
           "Rangae",
@@ -42680,9 +42680,9 @@ final List<Country> countries = [
           "Sungai Padi",
           "Tak Bai"
         ]),
-        State(name: "Narathiwat", cities: []),
-        State(name: "Nong Bua Lam Phu", cities: []),
-        State(name: "Nong Khai", cities: [
+        States(name: "Narathiwat", cities: []),
+        States(name: "Nong Bua Lam Phu", cities: []),
+        States(name: "Nong Khai", cities: [
           "Bang Bo Thong",
           "Bang Kruai",
           "Bang Yai",
@@ -42690,47 +42690,47 @@ final List<Country> countries = [
           "Pak Kret",
           "Sainoi"
         ]),
-        State(name: "Nonthaburi", cities: []),
-        State(
+        States(name: "Nonthaburi", cities: []),
+        States(
             name: "Pathum Thani",
             cities: ["Nong Chik", "Pattani", "Sai Buri", "Yaring"]),
-        State(name: "Pattani", cities: ["Phangnga"]),
-        State(name: "Phangnga", cities: ["Phatthalung"]),
-        State(
+        States(name: "Pattani", cities: ["Phangnga"]),
+        States(name: "Phangnga", cities: ["Phatthalung"]),
+        States(
             name: "Phatthalung",
             cities: ["Chiang Kham", "Dok Kham Tai", "Phayao", "Pong"]),
-        State(name: "Phayao", cities: [
+        States(name: "Phayao", cities: [
           "Chon Daen",
           "Lom Sak",
           "Nong Phai",
           "Phetchabun",
           "Wichian Buri"
         ]),
-        State(name: "Phetchabun", cities: [
+        States(name: "Phetchabun", cities: [
           "Ban Laem",
           "Chaam",
           "Khao Yoi",
           "Phetchaburi",
           "Tha Yang"
         ]),
-        State(
+        States(
             name: "Phetchaburi",
             cities: ["Bang Mun Nak", "Phichit", "Taphan Hin", "Thap Khlo"]),
-        State(name: "Phichit", cities: [
+        States(name: "Phichit", cities: [
           "Bang Krathum",
           "Bang Rakam",
           "Nakhon Thai",
           "Phitsanulok"
         ]),
-        State(name: "Phitsanulok", cities: []),
-        State(
+        States(name: "Phitsanulok", cities: []),
+        States(
             name: "Phra Nakhon Si Ayutthaya",
             cities: ["Den Chai", "Long", "Phrae", "Rong Kwang"]),
-        State(name: "Phrae", cities: ["Kathu", "Phuket"]),
-        State(name: "Phuket", cities: []),
-        State(name: "Prachin Buri", cities: []),
-        State(name: "Prachuap Khiri Khan", cities: ["Ranong"]),
-        State(name: "Ranong", cities: [
+        States(name: "Phrae", cities: ["Kathu", "Phuket"]),
+        States(name: "Phuket", cities: []),
+        States(name: "Prachin Buri", cities: []),
+        States(name: "Prachuap Khiri Khan", cities: ["Ranong"]),
+        States(name: "Ranong", cities: [
           "Ban Pong",
           "Bang Phae",
           "Chom Bung",
@@ -42738,46 +42738,46 @@ final List<Country> countries = [
           "Photharam",
           "Ratchaburi"
         ]),
-        State(name: "Ratchaburi", cities: ["Ban Chang", "Klaeng", "Rayong"]),
-        State(name: "Rayong", cities: []),
-        State(name: "Roi Et", cities: []),
-        State(name: "Sa Kaeo", cities: []),
-        State(name: "Sakon Nakhon", cities: []),
-        State(name: "Samut Prakan", cities: []),
-        State(name: "Samut Sakhon", cities: []),
-        State(name: "Samut Songkhran", cities: [
+        States(name: "Ratchaburi", cities: ["Ban Chang", "Klaeng", "Rayong"]),
+        States(name: "Rayong", cities: []),
+        States(name: "Roi Et", cities: []),
+        States(name: "Sa Kaeo", cities: []),
+        States(name: "Sakon Nakhon", cities: []),
+        States(name: "Samut Prakan", cities: []),
+        States(name: "Samut Sakhon", cities: []),
+        States(name: "Samut Songkhran", cities: [
           "Ban Mo",
           "Kaeng Khoi",
           "Nong Khae",
           "Phra Phutthabat",
           "Saraburi"
         ]),
-        State(name: "Saraburi", cities: ["Satun"]),
-        State(name: "Satun", cities: []),
-        State(name: "Si Sa Ket", cities: []),
-        State(
+        States(name: "Saraburi", cities: ["Satun"]),
+        States(name: "Satun", cities: []),
+        States(name: "Si Sa Ket", cities: []),
+        States(
             name: "Sing Buri",
             cities: ["Hat Yai", "Ranot", "Sadao", "Singha Nakhon", "Songkhla"]),
-        State(name: "Songkhla", cities: [
+        States(name: "Songkhla", cities: [
           "Khiri Mat",
           "Sawankhalok",
           "Si Satchanalai",
           "Sukhothai"
         ]),
-        State(name: "Sukhothai", cities: []),
-        State(name: "Suphan Buri", cities: []),
-        State(name: "Surat Thani", cities: ["Phasat", "Surin"]),
-        State(
+        States(name: "Sukhothai", cities: []),
+        States(name: "Suphan Buri", cities: []),
+        States(name: "Surat Thani", cities: ["Phasat", "Surin"]),
+        States(
             name: "Surin", cities: ["Ban Tak", "Mae Ramat", "Mae Sot", "Tak"]),
-        State(name: "Tak", cities: ["Huai Yot", "Kantang", "Trang"]),
-        State(name: "Trang", cities: ["Bo Rai", "Trat"]),
-        State(name: "Trat", cities: []),
-        State(name: "Ubon Ratchathani", cities: []),
-        State(name: "Udon Thani", cities: []),
-        State(name: "Uthai Thani", cities: ["Laplae", "Uttaradit"]),
-        State(name: "Uttaradit", cities: ["Betong", "Yala"]),
-        State(name: "Yala", cities: ["Yasothon"]),
-        State(
+        States(name: "Tak", cities: ["Huai Yot", "Kantang", "Trang"]),
+        States(name: "Trang", cities: ["Bo Rai", "Trat"]),
+        States(name: "Trat", cities: []),
+        States(name: "Ubon Ratchathani", cities: []),
+        States(name: "Udon Thani", cities: []),
+        States(name: "Uthai Thani", cities: ["Laplae", "Uttaradit"]),
+        States(name: "Uttaradit", cities: ["Betong", "Yala"]),
+        States(name: "Yala", cities: ["Yasothon"]),
+        States(
             name: "Yasothon",
             cities: ["Guerin Kouka", "Sokode", "Sotouboua", "Tchamba"])
       ]),
@@ -42797,7 +42797,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Centre", cities: [
+        States(name: "Centre", cities: [
           "Bafilo",
           "Bassar",
           "Kande",
@@ -42805,7 +42805,7 @@ final List<Country> countries = [
           "Kpagouda",
           "Niamtougou"
         ]),
-        State(name: "Kara", cities: [
+        States(name: "Kara", cities: [
           "Agbelouve",
           "Aneho",
           "Lome",
@@ -42813,7 +42813,7 @@ final List<Country> countries = [
           "Tsevie",
           "Vogan"
         ]),
-        State(name: "Maritime", cities: [
+        States(name: "Maritime", cities: [
           "Amlame",
           "Anie",
           "Atakpame",
@@ -42824,8 +42824,8 @@ final List<Country> countries = [
           "Kpessi",
           "Notse"
         ]),
-        State(name: "Plateaux", cities: ["Dapaong", "Mango", "Tandjouare"]),
-        State(name: "Savanes", cities: ["Atafu"])
+        States(name: "Plateaux", cities: ["Dapaong", "Mango", "Tandjouare"]),
+        States(name: "Savanes", cities: ["Atafu"])
       ]),
   Country(
       name: "Tokelau",
@@ -42835,9 +42835,9 @@ final List<Country> countries = [
       minLength: 4,
       maxLength: 4,
       states: [
-        State(name: "Atafu", cities: ["Fakaofo"]),
-        State(name: "Fakaofo", cities: ["Nukunonu"]),
-        State(name: "Nukunonu", cities: ["Ohonua"])
+        States(name: "Atafu", cities: ["Fakaofo"]),
+        States(name: "Fakaofo", cities: ["Nukunonu"]),
+        States(name: "Nukunonu", cities: ["Ohonua"])
       ]),
   Country(
       name: "Tonga",
@@ -42847,17 +42847,17 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Eua", cities: ["Pangai"]),
-        State(name: "Ha\\'\\'apai", cities: ["Hihifo"]),
-        State(name: "Niuas", cities: [
+        States(name: "Eua", cities: ["Pangai"]),
+        States(name: "Ha\\'\\'apai", cities: ["Hihifo"]),
+        States(name: "Niuas", cities: [
           "Haveloloto",
           "Mu\\'\\'a",
           "Nuku\\'\\'alofa",
           "Tofoa-Koloua",
           "Vaini"
         ]),
-        State(name: "Tongatapu", cities: ["Neiafu"]),
-        State(
+        States(name: "Tongatapu", cities: ["Neiafu"]),
+        States(
             name: "Vava\\'\\'u",
             cities: ["Arima", "Arouca", "Tacarigua", "Tunapuna"])
       ]),
@@ -42869,24 +42869,24 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(
+        States(
             name: "Arima-Tunapuna-Piarco",
             cities: ["Carapichaima", "Claxton Bay"]),
-        State(name: "Caroni", cities: ["Chaguanas"]),
-        State(name: "Chaguanas", cities: ["Couva", "Tabaquite"]),
-        State(name: "Couva-Tabaquite-Talparo", cities: []),
-        State(name: "Diego Martin", cities: ["Glencoe"]),
-        State(name: "Glencoe", cities: []),
-        State(name: "Penal Debe", cities: []),
-        State(name: "Point Fortin", cities: []),
-        State(name: "Port of Spain", cities: []),
-        State(name: "Princes Town", cities: []),
-        State(name: "Saint George", cities: []),
-        State(name: "San Fernando", cities: []),
-        State(name: "San Juan", cities: []),
-        State(name: "Sangre Grande", cities: ["Siparia"]),
-        State(name: "Siparia", cities: ["Scarborough"]),
-        State(name: "Tobago", cities: [
+        States(name: "Caroni", cities: ["Chaguanas"]),
+        States(name: "Chaguanas", cities: ["Couva", "Tabaquite"]),
+        States(name: "Couva-Tabaquite-Talparo", cities: []),
+        States(name: "Diego Martin", cities: ["Glencoe"]),
+        States(name: "Glencoe", cities: []),
+        States(name: "Penal Debe", cities: []),
+        States(name: "Point Fortin", cities: []),
+        States(name: "Port of Spain", cities: []),
+        States(name: "Princes Town", cities: []),
+        States(name: "Saint George", cities: []),
+        States(name: "San Fernando", cities: []),
+        States(name: "San Juan", cities: []),
+        States(name: "Sangre Grande", cities: ["Siparia"]),
+        States(name: "Siparia", cities: ["Scarborough"]),
+        States(name: "Tobago", cities: [
           "Aryanah",
           "Bordj Aalouine",
           "Burj-al-\\'\\'Amri",
@@ -42910,7 +42910,7 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Aryanah", cities: [
+        States(name: "Aryanah", cities: [
           "Bajah",
           "Majaz-al-Bab",
           "Nafzah",
@@ -42920,8 +42920,8 @@ final List<Country> countries = [
           "Zahrat Madina",
           "al-Ma\\'\\'qulah"
         ]),
-        State(name: "Bajah", cities: []),
-        State(name: "Bin \\'\\'Arus", cities: [
+        States(name: "Bajah", cities: []),
+        States(name: "Bin \\'\\'Arus", cities: [
           "Awsajah",
           "Binzart",
           "Ghar-al-Milh",
@@ -42936,11 +42936,11 @@ final List<Country> countries = [
           "al-\\'\\'Aliyah",
           "al-Matlin"
         ]),
-        State(name: "Binzart", cities: []),
-        State(name: "Gouvernorat de Ariana", cities: []),
-        State(name: "Gouvernorat de Nabeul", cities: []),
-        State(name: "Gouvernorat de Sousse", cities: []),
-        State(name: "Hammamet Yasmine", cities: [
+        States(name: "Binzart", cities: []),
+        States(name: "Gouvernorat de Ariana", cities: []),
+        States(name: "Gouvernorat de Nabeul", cities: []),
+        States(name: "Gouvernorat de Sousse", cities: []),
+        States(name: "Hammamet Yasmine", cities: [
           "Ayn Darahim",
           "Bani Matir",
           "Bu Salim",
@@ -42950,7 +42950,7 @@ final List<Country> countries = [
           "Tabarqah",
           "Wadi Maliz"
         ]),
-        State(name: "Jundubah", cities: [
+        States(name: "Jundubah", cities: [
           "Bani Khaddash",
           "Bin Qirdan",
           "Jarbah Ajim",
@@ -42959,9 +42959,9 @@ final List<Country> countries = [
           "Jarjis",
           "Madaniyin"
         ]),
-        State(name: "Madaniyin", cities: ["Manubah"]),
-        State(name: "Manubah", cities: ["Monastir"]),
-        State(name: "Monastir", cities: [
+        States(name: "Madaniyin", cities: ["Manubah"]),
+        States(name: "Manubah", cities: ["Monastir"]),
+        States(name: "Monastir", cities: [
           "Azimur",
           "Bani Hiyar",
           "Bani Khallad",
@@ -42987,7 +42987,7 @@ final List<Country> countries = [
           "al-Middah",
           "as-Sama\\'\\'ah"
         ]),
-        State(name: "Nabul", cities: [
+        States(name: "Nabul", cities: [
           "Ghannush",
           "Marath",
           "Matmatat-al-Jadidah",
@@ -42999,7 +42999,7 @@ final List<Country> countries = [
           "al-Matwiyah",
           "az-Zarat"
         ]),
-        State(name: "Qabis", cities: [
+        States(name: "Qabis", cities: [
           "Qafsah",
           "Umm-al-\\'\\'Arais",
           "al-Madilah",
@@ -43009,14 +43009,14 @@ final List<Country> countries = [
           "ar-Rudayyif",
           "as-Sanad"
         ]),
-        State(name: "Qafsah", cities: [
+        States(name: "Qafsah", cities: [
           "Duz",
           "Jamnah",
           "Qibili",
           "Suq-al-Ahad",
           "al-Qal\\'\\'ah"
         ]),
-        State(name: "Qibili", cities: [
+        States(name: "Qibili", cities: [
           "Aqarib",
           "Bi\\'\\'r Ali Bin Khalifah",
           "Jabinyanah",
@@ -43034,9 +43034,9 @@ final List<Country> countries = [
           "as-Sukhayrah",
           "ash-Shayhiyah"
         ]),
-        State(name: "Safaqis", cities: ["Sfax"]),
-        State(name: "Sfax", cities: []),
-        State(name: "Sidi Bu Zayd", cities: [
+        States(name: "Safaqis", cities: ["Sfax"]),
+        States(name: "Sfax", cities: []),
+        States(name: "Sidi Bu Zayd", cities: [
           "Barqu",
           "Bu \\'\\'Aradah",
           "Bu Ruwis",
@@ -43048,7 +43048,7 @@ final List<Country> countries = [
           "al-Karib",
           "ar-Rawhiyah"
         ]),
-        State(name: "Silyanah", cities: [
+        States(name: "Silyanah", cities: [
           "Akkudah",
           "Bu Fishah",
           "Hammam Susah",
@@ -43065,21 +43065,21 @@ final List<Country> countries = [
           "an-Nafidah",
           "az-Zuhur"
         ]),
-        State(name: "Susah", cities: [
+        States(name: "Susah", cities: [
           "Bi\\'\\'r-al-Ahmar",
           "Dhahibah",
           "Ghumrassin",
           "Rimadah",
           "Tatawin"
         ]),
-        State(name: "Tatawin", cities: [
+        States(name: "Tatawin", cities: [
           "Daqash",
           "Hammat-al-Jarid",
           "Naftah",
           "Tamaghzah",
           "Tawzar"
         ]),
-        State(name: "Tawzar", cities: [
+        States(name: "Tawzar", cities: [
           "Bardaw",
           "Ben Arous",
           "Carthage",
@@ -43090,7 +43090,7 @@ final List<Country> countries = [
           "Tunis",
           "al-Marsa"
         ]),
-        State(name: "Tunis", cities: [
+        States(name: "Tunis", cities: [
           "Bi\\'\\'r Mashariqah",
           "Jabal-al-Wust",
           "Zaghwan",
@@ -43098,7 +43098,7 @@ final List<Country> countries = [
           "an-Nazur",
           "az-Zaribah"
         ]),
-        State(name: "Zaghwan", cities: [
+        States(name: "Zaghwan", cities: [
           "Manzil Salim",
           "Nibbar",
           "Qal\\'\\'at-as-Sanan",
@@ -43112,7 +43112,7 @@ final List<Country> countries = [
           "as-Sars",
           "at-Tawiraf"
         ]),
-        State(name: "al-Kaf", cities: [
+        States(name: "al-Kaf", cities: [
           "Awlad ash-Shamakh",
           "Bumirdas",
           "Habirah",
@@ -43128,7 +43128,7 @@ final List<Country> countries = [
           "as-Sawasi",
           "ash-Shabbah"
         ]),
-        State(name: "al-Mahdiyah", cities: [
+        States(name: "al-Mahdiyah", cities: [
           "Amirat-al-Fahul",
           "Amirat-al-Hajjaj",
           "Amirat-at-Tawazarah",
@@ -43161,7 +43161,7 @@ final List<Country> countries = [
           "al-Wardanin",
           "ash-Sharahil"
         ]),
-        State(name: "al-Munastir", cities: [
+        States(name: "al-Munastir", cities: [
           "Firyanah",
           "Fussanah",
           "Haydrah",
@@ -43173,7 +43173,7 @@ final List<Country> countries = [
           "Talah",
           "al-Qasrayn"
         ]),
-        State(name: "al-Qasrayn", cities: [
+        States(name: "al-Qasrayn", cities: [
           "Ayn Jalulah",
           "Buhajlah",
           "Haffuz",
@@ -43187,7 +43187,7 @@ final List<Country> countries = [
           "ash-Shabikah",
           "ash-Sharardah"
         ]),
-        State(name: "al-Qayrawan", cities: [
+        States(name: "al-Qayrawan", cities: [
           "Adana",
           "Aladag",
           "Ceyhan",
@@ -43210,7 +43210,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Adana", cities: [
+        States(name: "Adana", cities: [
           "Adiyaman",
           "Besni",
           "Celikhan",
@@ -43221,7 +43221,7 @@ final List<Country> countries = [
           "Sincik",
           "Tut"
         ]),
-        State(name: "Adiyaman", cities: [
+        States(name: "Adiyaman", cities: [
           "Afyonkarahisar",
           "Basmakci",
           "Bayat",
@@ -43240,7 +43240,7 @@ final List<Country> countries = [
           "Suhut",
           "Sultandagi"
         ]),
-        State(name: "Afyon", cities: [
+        States(name: "Afyon", cities: [
           "Diyadin",
           "Dogubeyazit",
           "Eleskirt",
@@ -43250,7 +43250,7 @@ final List<Country> countries = [
           "Taslicay",
           "Tutak"
         ]),
-        State(name: "Agri", cities: [
+        States(name: "Agri", cities: [
           "Agacoren",
           "Aksaray",
           "Eskil",
@@ -43259,7 +43259,7 @@ final List<Country> countries = [
           "Ortakoy",
           "Sariyahsi"
         ]),
-        State(name: "Aksaray", cities: [
+        States(name: "Aksaray", cities: [
           "Amasya",
           "Goynucek",
           "Gumushacikoy",
@@ -43268,7 +43268,7 @@ final List<Country> countries = [
           "Suluova",
           "Tasova"
         ]),
-        State(name: "Amasya", cities: [
+        States(name: "Amasya", cities: [
           "Akyurt",
           "Ankara",
           "Ayas",
@@ -43287,7 +43287,7 @@ final List<Country> countries = [
           "Sereflikochisar",
           "Yenisehir"
         ]),
-        State(name: "Ankara", cities: [
+        States(name: "Ankara", cities: [
           "Akseki",
           "Alanya",
           "Antalya",
@@ -43305,10 +43305,10 @@ final List<Country> countries = [
           "Manavgat",
           "Serik"
         ]),
-        State(
+        States(
             name: "Antalya",
             cities: ["Ardahan", "Damal", "Gole", "Hanak", "Posof"]),
-        State(name: "Ardahan", cities: [
+        States(name: "Ardahan", cities: [
           "Ardanuc",
           "Arhavi",
           "Artvin",
@@ -43318,7 +43318,7 @@ final List<Country> countries = [
           "Savsat",
           "Yusufeli"
         ]),
-        State(name: "Artvin", cities: [
+        States(name: "Artvin", cities: [
           "Aydin",
           "Bozdogan",
           "Buharkent",
@@ -43337,7 +43337,7 @@ final List<Country> countries = [
           "Sultanhisar",
           "Yenipazar"
         ]),
-        State(name: "Aydin", cities: [
+        States(name: "Aydin", cities: [
           "Ayvalik",
           "Balikesir",
           "Balya",
@@ -43359,10 +43359,10 @@ final List<Country> countries = [
           "Sindirgi",
           "Susurluk"
         ]),
-        State(
+        States(
             name: "Balikesir",
             cities: ["Amasra", "Bartin", "Kurucasile", "Ulus"]),
-        State(name: "Bartin", cities: [
+        States(name: "Bartin", cities: [
           "Batman",
           "Besiri",
           "Gercus",
@@ -43370,8 +43370,8 @@ final List<Country> countries = [
           "Kozluk",
           "Sason"
         ]),
-        State(name: "Batman", cities: ["Aydintepe", "Bayburt", "Demirozu"]),
-        State(name: "Bayburt", cities: [
+        States(name: "Batman", cities: ["Aydintepe", "Bayburt", "Demirozu"]),
+        States(name: "Bayburt", cities: [
           "Bilecik",
           "Bozuyuk",
           "Golpazari",
@@ -43381,7 +43381,7 @@ final List<Country> countries = [
           "Sogut",
           "Yenipazar"
         ]),
-        State(name: "Bilecik", cities: [
+        States(name: "Bilecik", cities: [
           "Adakli",
           "Bingol",
           "Genc",
@@ -43391,7 +43391,7 @@ final List<Country> countries = [
           "Yayladere",
           "Yedisu"
         ]),
-        State(name: "Bingol", cities: [
+        States(name: "Bingol", cities: [
           "Adilcevaz",
           "Ahlat",
           "Bitlis",
@@ -43400,7 +43400,7 @@ final List<Country> countries = [
           "Mutki",
           "Tatvan"
         ]),
-        State(name: "Bitlis", cities: [
+        States(name: "Bitlis", cities: [
           "Akcakoca",
           "Bolu",
           "Dortdivan",
@@ -43412,7 +43412,7 @@ final List<Country> countries = [
           "Seben",
           "Yenicaga"
         ]),
-        State(name: "Bolu", cities: [
+        States(name: "Bolu", cities: [
           "Aglasun",
           "Altinyayla",
           "Bucak",
@@ -43423,7 +43423,7 @@ final List<Country> countries = [
           "Tefenni",
           "Yesilova"
         ]),
-        State(name: "Burdur", cities: [
+        States(name: "Burdur", cities: [
           "Bursa",
           "Buyukorhan",
           "Gemlik",
@@ -43440,7 +43440,7 @@ final List<Country> countries = [
           "Orhangazi",
           "Yenisehir"
         ]),
-        State(name: "Bursa", cities: [
+        States(name: "Bursa", cities: [
           "Ayvacik",
           "Bayramic",
           "Biga",
@@ -43454,7 +43454,7 @@ final List<Country> countries = [
           "Lapseki",
           "Yenice"
         ]),
-        State(name: "Canakkale", cities: [
+        States(name: "Canakkale", cities: [
           "Atkaracalar",
           "Bayramoren",
           "Cankiri",
@@ -43468,7 +43468,7 @@ final List<Country> countries = [
           "Sabanozu",
           "Yaprakli"
         ]),
-        State(name: "Cankiri", cities: [
+        States(name: "Cankiri", cities: [
           "Alaca",
           "Bayat",
           "Corum",
@@ -43483,7 +43483,7 @@ final List<Country> countries = [
           "Sungurlu",
           "Ugurludag"
         ]),
-        State(name: "Corum", cities: [
+        States(name: "Corum", cities: [
           "Acipayam",
           "Akkoy",
           "Babadag",
@@ -43501,7 +43501,7 @@ final List<Country> countries = [
           "Serinhisar",
           "Tavas"
         ]),
-        State(name: "Denizli", cities: [
+        States(name: "Denizli", cities: [
           "Bismil",
           "Cermik",
           "Cinar",
@@ -43517,7 +43517,7 @@ final List<Country> countries = [
           "Lice",
           "Silvan"
         ]),
-        State(name: "Diyarbakir", cities: [
+        States(name: "Diyarbakir", cities: [
           "Cumayeri",
           "Duzce",
           "Golyaka",
@@ -43525,7 +43525,7 @@ final List<Country> countries = [
           "Kaynasli",
           "Yigilca"
         ]),
-        State(name: "Duzce", cities: [
+        States(name: "Duzce", cities: [
           "Edirne",
           "Enez",
           "Havsa",
@@ -43536,7 +43536,7 @@ final List<Country> countries = [
           "Suleoglu",
           "Uzunkopru"
         ]),
-        State(name: "Edirne", cities: [
+        States(name: "Edirne", cities: [
           "Agin",
           "Alacakaya",
           "Aricak",
@@ -43549,7 +43549,7 @@ final List<Country> countries = [
           "Palu",
           "Sivrice"
         ]),
-        State(name: "Elazig", cities: [
+        States(name: "Elazig", cities: [
           "Erzincan",
           "Ilic",
           "Kemah",
@@ -43559,7 +43559,7 @@ final List<Country> countries = [
           "Tercan",
           "Uzumlu"
         ]),
-        State(name: "Erzincan", cities: [
+        States(name: "Erzincan", cities: [
           "Askale",
           "Erzurum",
           "Hinis",
@@ -43579,7 +43579,7 @@ final List<Country> countries = [
           "Tortum",
           "Uzundere"
         ]),
-        State(name: "Erzurum", cities: [
+        States(name: "Erzurum", cities: [
           "Alpu",
           "Beylikova",
           "Cifteler",
@@ -43594,7 +43594,7 @@ final List<Country> countries = [
           "Seyitgazi",
           "Sivrihisar"
         ]),
-        State(name: "Eskisehir", cities: [
+        States(name: "Eskisehir", cities: [
           "Araban",
           "Gaziantep",
           "Islahiye",
@@ -43605,7 +43605,7 @@ final List<Country> countries = [
           "Sehitkamil",
           "Yavuzeli"
         ]),
-        State(name: "Gaziantep", cities: [
+        States(name: "Gaziantep", cities: [
           "Aluca",
           "Bulancak",
           "Dereli",
@@ -43621,7 +43621,7 @@ final List<Country> countries = [
           "Tirebolu",
           "Yaglidere"
         ]),
-        State(name: "Giresun", cities: [
+        States(name: "Giresun", cities: [
           "Gumushane",
           "Kelkit",
           "Kose",
@@ -43629,10 +43629,10 @@ final List<Country> countries = [
           "Siran",
           "Torul"
         ]),
-        State(
+        States(
             name: "Gumushane",
             cities: ["Cukurca", "Hakkari", "Semdinli", "Yuksekova"]),
-        State(name: "Hakkari", cities: [
+        States(name: "Hakkari", cities: [
           "Altinozu",
           "Antakya",
           "Belen",
@@ -43646,7 +43646,7 @@ final List<Country> countries = [
           "Samandag",
           "Yayladagi"
         ]),
-        State(name: "Hatay", cities: [
+        States(name: "Hatay", cities: [
           "Anamur",
           "Aydincik",
           "Bozyazi",
@@ -43657,10 +43657,10 @@ final List<Country> countries = [
           "Silifke",
           "Tarsus"
         ]),
-        State(
+        States(
             name: "Icel",
             cities: ["Aralik", "Igdir", "Karakoyunlu", "Tuzluca"]),
-        State(name: "Igdir", cities: [
+        States(name: "Igdir", cities: [
           "Aksu",
           "Atabey",
           "Egirdir",
@@ -43675,7 +43675,7 @@ final List<Country> countries = [
           "Yalvac",
           "Yenisarbademli"
         ]),
-        State(name: "Isparta", cities: [
+        States(name: "Isparta", cities: [
           "Buyukcekmece",
           "Catalca",
           "Eminonu",
@@ -43689,7 +43689,7 @@ final List<Country> countries = [
           "Tuzla",
           "Umraniye"
         ]),
-        State(name: "Istanbul", cities: [
+        States(name: "Istanbul", cities: [
           "Aliaga",
           "Alsancak",
           "Bayindir",
@@ -43716,7 +43716,7 @@ final List<Country> countries = [
           "Torbali",
           "Urla"
         ]),
-        State(name: "Izmir", cities: [
+        States(name: "Izmir", cities: [
           "Afsin",
           "Andirin",
           "Caglayancerit",
@@ -43728,7 +43728,7 @@ final List<Country> countries = [
           "Pazarcik",
           "Turkoglu"
         ]),
-        State(name: "Kahramanmaras", cities: [
+        States(name: "Kahramanmaras", cities: [
           "Eflani",
           "Eskipazar",
           "Karabuk",
@@ -43736,7 +43736,7 @@ final List<Country> countries = [
           "Safranbolu",
           "Yenice"
         ]),
-        State(name: "Karabuk", cities: [
+        States(name: "Karabuk", cities: [
           "Ayranci",
           "Basyayla",
           "Ermenek",
@@ -43744,7 +43744,7 @@ final List<Country> countries = [
           "Kazimkarabekir",
           "Sariveliler"
         ]),
-        State(name: "Karaman", cities: [
+        States(name: "Karaman", cities: [
           "Akyaka",
           "Arpacay",
           "Kagizman",
@@ -43753,8 +43753,8 @@ final List<Country> countries = [
           "Selim",
           "Susuz"
         ]),
-        State(name: "Kars", cities: ["Karsiyaka"]),
-        State(name: "Karsiyaka", cities: [
+        States(name: "Kars", cities: ["Karsiyaka"]),
+        States(name: "Karsiyaka", cities: [
           "Abana",
           "Agli",
           "Arac",
@@ -43774,7 +43774,7 @@ final List<Country> countries = [
           "Taskopru",
           "Tosya"
         ]),
-        State(name: "Kastamonu", cities: [
+        States(name: "Kastamonu", cities: [
           "Akkisla",
           "Bunyan",
           "Develi",
@@ -43791,10 +43791,10 @@ final List<Country> countries = [
           "Yahyali",
           "Yesilhisar"
         ]),
-        State(
+        States(
             name: "Kayseri",
             cities: ["Elbeyli", "Kilis", "Musabeyli", "Polateli"]),
-        State(name: "Kilis", cities: [
+        States(name: "Kilis", cities: [
           "Bahsili",
           "Baliseyh",
           "Delice",
@@ -43804,7 +43804,7 @@ final List<Country> countries = [
           "Sulakyurt",
           "Yahsihan"
         ]),
-        State(name: "Kirikkale", cities: [
+        States(name: "Kirikkale", cities: [
           "Babaeski",
           "Demirkoy",
           "Kirklareli",
@@ -43815,7 +43815,7 @@ final List<Country> countries = [
           "Pinarhisar",
           "Vize"
         ]),
-        State(name: "Kirklareli", cities: [
+        States(name: "Kirklareli", cities: [
           "Akcakent",
           "Akpinar",
           "Boztepe",
@@ -43823,7 +43823,7 @@ final List<Country> countries = [
           "Kirsehir",
           "Mucur"
         ]),
-        State(name: "Kirsehir", cities: [
+        States(name: "Kirsehir", cities: [
           "CayÃ„Â±rova",
           "Derince",
           "DilovasÃ„Â±",
@@ -43835,7 +43835,7 @@ final List<Country> countries = [
           "Kocaeli",
           "Korfez"
         ]),
-        State(name: "Kocaeli", cities: [
+        States(name: "Kocaeli", cities: [
           "Ahirli",
           "Akoren",
           "Aksehir",
@@ -43865,7 +43865,7 @@ final List<Country> countries = [
           "Yalihuyuk",
           "Yunak"
         ]),
-        State(name: "Konya", cities: [
+        States(name: "Konya", cities: [
           "Altinas",
           "Aslanapa",
           "Domanic",
@@ -43878,8 +43878,8 @@ final List<Country> countries = [
           "Simav",
           "Tavsanli"
         ]),
-        State(name: "Kutahya", cities: ["Lefkosa"]),
-        State(name: "Lefkosa", cities: [
+        States(name: "Kutahya", cities: ["Lefkosa"]),
+        States(name: "Lefkosa", cities: [
           "Akcadag",
           "Arapkir",
           "Arguvan",
@@ -43895,7 +43895,7 @@ final List<Country> countries = [
           "Yazihan",
           "Yesilyurt"
         ]),
-        State(name: "Malatya", cities: [
+        States(name: "Malatya", cities: [
           "Ahmetli",
           "Akhisar",
           "Alasehir",
@@ -43913,7 +43913,7 @@ final List<Country> countries = [
           "Soma",
           "Turgutlu"
         ]),
-        State(name: "Manisa", cities: [
+        States(name: "Manisa", cities: [
           "Dargecit",
           "Derik",
           "Kiziltepe",
@@ -43925,7 +43925,7 @@ final List<Country> countries = [
           "Savur",
           "Yesilli"
         ]),
-        State(name: "Mardin", cities: [
+        States(name: "Mardin", cities: [
           "Bodrum",
           "Dalaman",
           "Datca",
@@ -43939,7 +43939,7 @@ final List<Country> countries = [
           "Ula",
           "Yatagan"
         ]),
-        State(name: "Mugla", cities: [
+        States(name: "Mugla", cities: [
           "Bulanik",
           "Haskoy",
           "Korkut",
@@ -43947,7 +43947,7 @@ final List<Country> countries = [
           "Mus",
           "Varto"
         ]),
-        State(name: "Mus", cities: [
+        States(name: "Mus", cities: [
           "Acigol",
           "Avanos",
           "Derinkuyu",
@@ -43957,10 +43957,10 @@ final List<Country> countries = [
           "Nevsehir",
           "Urgup"
         ]),
-        State(
+        States(
             name: "Nevsehir",
             cities: ["Altunhisar", "Bor", "Nigde", "Ulukisla"]),
-        State(name: "Nigde", cities: [
+        States(name: "Nigde", cities: [
           "Akkus",
           "Aybasti",
           "Camas",
@@ -43979,7 +43979,7 @@ final List<Country> countries = [
           "Ulubey",
           "Unye"
         ]),
-        State(name: "Ordu", cities: [
+        States(name: "Ordu", cities: [
           "Bahce",
           "Duzici",
           "Hasanbeyli",
@@ -43988,7 +43988,7 @@ final List<Country> countries = [
           "Sumbas",
           "Toprakkale"
         ]),
-        State(name: "Osmaniye", cities: [
+        States(name: "Osmaniye", cities: [
           "Ardesen",
           "Cayeli",
           "Derepazan",
@@ -44001,7 +44001,7 @@ final List<Country> countries = [
           "Pazar",
           "Rize"
         ]),
-        State(name: "Rize", cities: [
+        States(name: "Rize", cities: [
           "Adapazari",
           "Akyazi",
           "Ferizli",
@@ -44016,7 +44016,7 @@ final List<Country> countries = [
           "Sogutlu",
           "Tarakli"
         ]),
-        State(name: "Sakarya", cities: [
+        States(name: "Sakarya", cities: [
           "Akcakale",
           "Alacam",
           "Asarcik",
@@ -44034,7 +44034,7 @@ final List<Country> countries = [
           "Vezirkopru",
           "Yakakent"
         ]),
-        State(name: "Samsun", cities: [
+        States(name: "Samsun", cities: [
           "Birecik",
           "Bozova",
           "Ceylanpinar",
@@ -44047,7 +44047,7 @@ final List<Country> countries = [
           "Urfa",
           "Viransehir"
         ]),
-        State(name: "Sanliurfa", cities: [
+        States(name: "Sanliurfa", cities: [
           "Aydinlar",
           "Baykan",
           "Eruh",
@@ -44056,7 +44056,7 @@ final List<Country> countries = [
           "Siirt",
           "Sirvan"
         ]),
-        State(name: "Siirt", cities: [
+        States(name: "Siirt", cities: [
           "Ayancik",
           "Boyabat",
           "Dikmen",
@@ -44067,7 +44067,7 @@ final List<Country> countries = [
           "Sinop",
           "Turkeli"
         ]),
-        State(name: "Sinop", cities: [
+        States(name: "Sinop", cities: [
           "Beytussebap",
           "Cizre",
           "Guclukonak",
@@ -44076,7 +44076,7 @@ final List<Country> countries = [
           "Sirnak",
           "Uludere"
         ]),
-        State(name: "Sirnak", cities: [
+        States(name: "Sirnak", cities: [
           "Akincilar",
           "Altinyayla",
           "Divrigi",
@@ -44095,7 +44095,7 @@ final List<Country> countries = [
           "Yildizeli",
           "Zara"
         ]),
-        State(name: "Sivas", cities: [
+        States(name: "Sivas", cities: [
           "Cerkezkoy",
           "Corlu",
           "Hayrabolu",
@@ -44106,7 +44106,7 @@ final List<Country> countries = [
           "Sarkoy",
           "Tekirdag"
         ]),
-        State(name: "Tekirdag", cities: [
+        States(name: "Tekirdag", cities: [
           "Almus",
           "Artova",
           "Basciftlik",
@@ -44120,7 +44120,7 @@ final List<Country> countries = [
           "Yesilyurt",
           "Zile"
         ]),
-        State(name: "Tokat", cities: [
+        States(name: "Tokat", cities: [
           "Akcaabat",
           "Arakli",
           "Arsin",
@@ -44139,7 +44139,7 @@ final List<Country> countries = [
           "Vakfikebir",
           "Yomra"
         ]),
-        State(name: "Trabzon", cities: [
+        States(name: "Trabzon", cities: [
           "Hozat",
           "Mazgirt",
           "Nazimiye",
@@ -44148,7 +44148,7 @@ final List<Country> countries = [
           "Pulumur",
           "Tunceli"
         ]),
-        State(name: "Tunceli", cities: [
+        States(name: "Tunceli", cities: [
           "Banaz",
           "Esme",
           "Karahalli",
@@ -44156,7 +44156,7 @@ final List<Country> countries = [
           "Ulubey",
           "Usak"
         ]),
-        State(name: "Usak", cities: [
+        States(name: "Usak", cities: [
           "Bahcesaray",
           "Baskale",
           "Caldiran",
@@ -44169,7 +44169,7 @@ final List<Country> countries = [
           "Saray",
           "Van"
         ]),
-        State(name: "Van", cities: [
+        States(name: "Van", cities: [
           "Altinova",
           "Armutlu",
           "Ciftlikkoy",
@@ -44177,7 +44177,7 @@ final List<Country> countries = [
           "Termal",
           "Yalova"
         ]),
-        State(name: "Yalova", cities: [
+        States(name: "Yalova", cities: [
           "Akdagmadeni",
           "Aydincik",
           "Bogaziliyan",
@@ -44193,7 +44193,7 @@ final List<Country> countries = [
           "Yerkoy",
           "Yozgat"
         ]),
-        State(name: "Yozgat", cities: [
+        States(name: "Yozgat", cities: [
           "Alapli",
           "Caycuma",
           "Devrek",
@@ -44201,7 +44201,7 @@ final List<Country> countries = [
           "Gokcebey",
           "Zonguldak"
         ]),
-        State(name: "Zonguldak", cities: [
+        States(name: "Zonguldak", cities: [
           "Ahchadepe",
           "Annau",
           "Babadayhan",
@@ -44225,8 +44225,8 @@ final List<Country> countries = [
       minLength: 8,
       maxLength: 8,
       states: [
-        State(name: "Ahal", cities: ["Asgabat"]),
-        State(name: "Asgabat", cities: [
+        States(name: "Ahal", cities: ["Asgabat"]),
+        States(name: "Asgabat", cities: [
           "Adyndaky",
           "Balkanabat",
           "Bekdash",
@@ -44241,7 +44241,7 @@ final List<Country> countries = [
           "Sharlawuk",
           "Turkmenbasi"
         ]),
-        State(name: "Balkan", cities: [
+        States(name: "Balkan", cities: [
           "Akdepe",
           "Boldumsaz",
           "Dasoguz",
@@ -44251,7 +44251,7 @@ final List<Country> countries = [
           "Tagta",
           "Yilanli"
         ]),
-        State(name: "Dasoguz", cities: [
+        States(name: "Dasoguz", cities: [
           "Darganata",
           "Esenmengli",
           "Farap",
@@ -44265,7 +44265,7 @@ final List<Country> countries = [
           "Seydi",
           "Turkmenabat"
         ]),
-        State(name: "Lebap", cities: [
+        States(name: "Lebap", cities: [
           "Bayramali",
           "Eloten",
           "Mari",
@@ -44274,7 +44274,7 @@ final List<Country> countries = [
           "Tagtabazar",
           "Turkmengala"
         ]),
-        State(name: "Mari", cities: [])
+        States(name: "Mari", cities: [])
       ]),
   Country(
       name: "Turks and Caicos Islands",
@@ -44284,8 +44284,8 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Grand Turk", cities: []),
-        State(name: "South Caicos and East Caicos", cities: ["Vaiaku"])
+        States(name: "Grand Turk", cities: []),
+        States(name: "South Caicos and East Caicos", cities: ["Vaiaku"])
       ]),
   Country(
       name: "Tuvalu",
@@ -44295,14 +44295,14 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(name: "Funafuti", cities: ["Tonga"]),
-        State(name: "Nanumanga", cities: ["Lolua"]),
-        State(name: "Nanumea", cities: ["Kua"]),
-        State(name: "Niutao", cities: ["Tanrake"]),
-        State(name: "Nui", cities: ["Savave"]),
-        State(name: "Nukufetau", cities: ["Fangaua"]),
-        State(name: "Nukulaelae", cities: ["Asau"]),
-        State(name: "Vaitupu", cities: [
+        States(name: "Funafuti", cities: ["Tonga"]),
+        States(name: "Nanumanga", cities: ["Lolua"]),
+        States(name: "Nanumea", cities: ["Kua"]),
+        States(name: "Niutao", cities: ["Tanrake"]),
+        States(name: "Nui", cities: ["Savave"]),
+        States(name: "Nukufetau", cities: ["Fangaua"]),
+        States(name: "Nukulaelae", cities: ["Asau"]),
+        States(name: "Vaitupu", cities: [
           "Bombo",
           "Bweyogerere",
           "Entebbe",
@@ -44341,7 +44341,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Central", cities: [
+        States(name: "Central", cities: [
           "Bugembe",
           "Bugiri",
           "Busembatia",
@@ -44363,7 +44363,7 @@ final List<Country> countries = [
           "Soroti",
           "Tororo"
         ]),
-        State(name: "Eastern", cities: [
+        States(name: "Eastern", cities: [
           "Adjumani",
           "Amudat",
           "Apac",
@@ -44383,7 +44383,7 @@ final List<Country> countries = [
           "Pakwach",
           "Yumbe"
         ]),
-        State(name: "Northern", cities: [
+        States(name: "Northern", cities: [
           "Bundibugyo",
           "Bushenyi",
           "Fort Portal",
@@ -44409,7 +44409,7 @@ final List<Country> countries = [
           "Ntungamo",
           "Rukungiri"
         ]),
-        State(name: "Western", cities: ["Cherkasy", "Smila", "Uman"])
+        States(name: "Western", cities: ["Cherkasy", "Smila", "Uman"])
       ]),
   Country(
       name: "Ukraine",
@@ -44419,12 +44419,12 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(
+        States(
             name: "Cherkas\\'\\'ka",
             cities: ["Chernihiv", "Nizhyn", "Pryluky"]),
-        State(name: "Chernihivs\\'\\'ka", cities: ["Chernivtsi"]),
-        State(name: "Chernivets\\'\\'ka", cities: ["Alushta", "Sevastopol"]),
-        State(name: "Crimea", cities: [
+        States(name: "Chernihivs\\'\\'ka", cities: ["Chernivtsi"]),
+        States(name: "Chernivets\\'\\'ka", cities: ["Alushta", "Sevastopol"]),
+        States(name: "Crimea", cities: [
           "Dneprodzerzhinsk",
           "Dnipropetrovsk",
           "Kryvyy Rih",
@@ -44435,7 +44435,7 @@ final List<Country> countries = [
           "Plekhanov",
           "Zhovti Vody"
         ]),
-        State(name: "Dnipropetrovska", cities: [
+        States(name: "Dnipropetrovska", cities: [
           "Artemivs\\'\\'k",
           "Donets\\'\\'k",
           "Donetsk",
@@ -44455,25 +44455,25 @@ final List<Country> countries = [
           "Torez",
           "Yenakiyeve"
         ]),
-        State(
+        States(
             name: "Donets\\'\\'ka",
             cities: ["Ivano-Frankivs\\'\\'k", "Kalush", "Kolomyya"]),
-        State(
+        States(
             name: "Ivano-Frankivs\\'\\'ka",
             cities: ["Izyum", "Kharkiv", "Lozova"]),
-        State(name: "Kharkiv", cities: ["Volchansk"]),
-        State(name: "Kharkov", cities: ["Kherson", "Nova Kakhovka"]),
-        State(name: "Khersonska", cities: [
+        States(name: "Kharkiv", cities: ["Volchansk"]),
+        States(name: "Kharkov", cities: ["Kherson", "Nova Kakhovka"]),
+        States(name: "Khersonska", cities: [
           "Geologov",
           "Kam\\'\\'yanets\\'\\'-Podil\\'\\'s\\'\\'kyy",
           "Khmel\\'\\'nyts\\'\\'kyy",
           "Shepetivka",
           "khmelnitskiy"
         ]),
-        State(
+        States(
             name: "Khmel\\'\\'nyts\\'\\'ka",
             cities: ["Kirovohrad", "Oleksandriya", "Svidlovodsk"]),
-        State(name: "Kirovohrad", cities: [
+        States(name: "Kirovohrad", cities: [
           "Dzhankoy",
           "Feodosiya",
           "Kerch",
@@ -44481,18 +44481,18 @@ final List<Country> countries = [
           "Yalta",
           "Yevpatoriya"
         ]),
-        State(name: "Krym", cities: ["Kiev", "Kyyiv"]),
-        State(
+        States(name: "Krym", cities: ["Kiev", "Kyyiv"]),
+        States(
             name: "Kyyiv",
             cities: ["Bila Tserkva", "Boryspil", "Brovary", "Fastiv"]),
-        State(name: "Kyyivs\\'\\'ka", cities: [
+        States(name: "Kyyivs\\'\\'ka", cities: [
           "Chervonohrad",
           "Drohobych",
           "L\\'\\'viv",
           "Stryy",
           "Yavoriv"
         ]),
-        State(name: "L\\'\\'vivs\\'\\'ka", cities: [
+        States(name: "L\\'\\'vivs\\'\\'ka", cities: [
           "Alchevs\\'\\'k",
           "Antratsyt",
           "Bryanka",
@@ -44508,42 +44508,42 @@ final List<Country> countries = [
           "Sverdlovs\\'\\'k",
           "Syeverodonets\\'\\'k"
         ]),
-        State(
+        States(
             name: "Luhans\\'\\'ka", cities: ["Mykolayiv", "Pervomays\\'\\'k"]),
-        State(name: "Mykolayivs\\'\\'ka", cities: [
+        States(name: "Mykolayivs\\'\\'ka", cities: [
           "Bilhorod-Dnistrovs\\'\\'kyy",
           "Illichivs\\'\\'k",
           "Izmayil",
           "Odesa"
         ]),
-        State(name: "Odes\\'\\'ka", cities: ["Odessa"]),
-        State(name: "Odessa", cities: [
+        States(name: "Odes\\'\\'ka", cities: ["Odessa"]),
+        States(name: "Odessa", cities: [
           "Komsomol\\'\\'s\\'\\'k",
           "Kremenchuh",
           "Lubny",
           "Poltava"
         ]),
-        State(name: "Poltavs\\'\\'ka", cities: ["Rivne"]),
-        State(name: "Rivnens\\'\\'ka", cities: []),
-        State(
+        States(name: "Poltavs\\'\\'ka", cities: ["Rivne"]),
+        States(name: "Rivnens\\'\\'ka", cities: []),
+        States(
             name: "Sevastopol",
             cities: ["Konotop", "Okhtyrka", "Romny", "Shostka", "Sumy"]),
-        State(name: "Sums\\'\\'ka", cities: ["Ternopil"]),
-        State(
+        States(name: "Sums\\'\\'ka", cities: ["Ternopil"]),
+        States(
             name: "Ternopil\\'\\'s\\'\\'ka",
             cities: ["Kovel", "Luts\\'\\'k", "Novovolyns\\'\\'k"]),
-        State(name: "Volyns\\'\\'ka", cities: ["Vinnitsa", "Vinnytsya"]),
-        State(name: "Vynnyts\\'\\'ka", cities: ["Mukacheve", "Uzhhorod"]),
-        State(
+        States(name: "Volyns\\'\\'ka", cities: ["Vinnitsa", "Vinnytsya"]),
+        States(name: "Vynnyts\\'\\'ka", cities: ["Mukacheve", "Uzhhorod"]),
+        States(
             name: "Zakarpats\\'\\'ka",
             cities: ["Berdyans\\'\\'k", "Enerhodar", "Melitpol", "Zaporizhia"]),
-        State(name: "Zaporizhia", cities: [
+        States(name: "Zaporizhia", cities: [
           "Berdychiv",
           "Korosten",
           "Novohrad-Volyns\\'\\'kyy",
           "Zhytomyr"
         ]),
-        State(name: "Zhytomyrs\\'\\'ka", cities: [])
+        States(name: "Zhytomyrs\\'\\'ka", cities: [])
       ]),
   Country(
       name: "United Arab Emirates",
@@ -44553,17 +44553,17 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Abu Zabi", cities: ["Ajman"]),
-        State(
+        States(name: "Abu Zabi", cities: ["Ajman"]),
+        States(
             name: "Ajman",
             cities: ["Al Qusais", "Deira", "Dubai", "Jebel Ali"]),
-        State(name: "Dubai", cities: []),
-        State(name: "Ras al-Khaymah", cities: ["Sharjah"]),
-        State(name: "Sharjah", cities: []),
-        State(name: "Sharjha", cities: []),
-        State(name: "Umm al Qaywayn", cities: ["Khawr Fakkan", "al-Fujayrah"]),
-        State(name: "al-Fujayrah", cities: []),
-        State(name: "ash-Shariqah", cities: [
+        States(name: "Dubai", cities: []),
+        States(name: "Ras al-Khaymah", cities: ["Sharjah"]),
+        States(name: "Sharjah", cities: []),
+        States(name: "Sharjha", cities: []),
+        States(name: "Umm al Qaywayn", cities: ["Khawr Fakkan", "al-Fujayrah"]),
+        States(name: "al-Fujayrah", cities: []),
+        States(name: "ash-Shariqah", cities: [
           "Cleveland",
           "Gilberdyke",
           "Llanrwst",
@@ -44579,10 +44579,10 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Aberdeen", cities: ["Westhill"]),
-        State(name: "Aberdeenshire", cities: ["Oban"]),
-        State(name: "Argyll", cities: ["Craigavon"]),
-        State(name: "Armagh", cities: [
+        States(name: "Aberdeen", cities: ["Westhill"]),
+        States(name: "Aberdeenshire", cities: ["Oban"]),
+        States(name: "Argyll", cities: ["Craigavon"]),
+        States(name: "Armagh", cities: [
           "Barton-le-Clay",
           "Bedford",
           "Biggleswade",
@@ -44594,8 +44594,8 @@ final List<Country> countries = [
           "Sandy",
           "Westoning"
         ]),
-        State(name: "Bedfordshire", cities: ["Dundonald", "Holywood"]),
-        State(name: "Belfast", cities: [
+        States(name: "Bedfordshire", cities: ["Dundonald", "Holywood"]),
+        States(name: "Belfast", cities: [
           "Berkshire",
           "Bracknell",
           "Littlewick Green",
@@ -44610,7 +44610,7 @@ final List<Country> countries = [
           "Wokingham",
           "Woodley"
         ]),
-        State(name: "Berkshire", cities: [
+        States(name: "Berkshire", cities: [
           "Coleshill",
           "Edgbaston",
           "Hockley",
@@ -44619,12 +44619,12 @@ final List<Country> countries = [
           "Rubery",
           "Small Heath"
         ]),
-        State(name: "Birmingham", cities: ["Angus"]),
-        State(name: "Brechin", cities: ["Bridgnorth"]),
-        State(
+        States(name: "Birmingham", cities: ["Angus"]),
+        States(name: "Brechin", cities: ["Bridgnorth"]),
+        States(
             name: "Bridgnorth",
             cities: ["Avon", "Fishponds", "Henleaze", "Thornbury", "Warmley"]),
-        State(name: "Bristol", cities: [
+        States(name: "Bristol", cities: [
           "Amersham",
           "Aston Clinton",
           "Beaconsfield",
@@ -44640,14 +44640,14 @@ final List<Country> countries = [
           "Princes Risborough",
           "Rowsham"
         ]),
-        State(
+        States(
             name: "Buckinghamshire",
             cities: ["Cambridge", "Ely", "Huntingdon", "Peterborough"]),
-        State(
+        States(
             name: "Cambridge",
             cities: ["Cambridge", "Haddenham", "Sawtry", "Wisbech"]),
-        State(name: "Cambridgeshire", cities: []),
-        State(name: "Channel Islands", cities: [
+        States(name: "Cambridgeshire", cities: []),
+        States(name: "Channel Islands", cities: [
           "Alderley Edge",
           "Altrincham",
           "Betley",
@@ -44674,10 +44674,10 @@ final List<Country> countries = [
           "Widnes",
           "Winsford"
         ]),
-        State(name: "Cheshire", cities: ["Redcar", "Stockton-on-Tees"]),
-        State(name: "Cleveland", cities: []),
-        State(name: "Co Fermanagh", cities: ["Conwy", "Llandudno"]),
-        State(name: "Conwy", cities: [
+        States(name: "Cheshire", cities: ["Redcar", "Stockton-on-Tees"]),
+        States(name: "Cleveland", cities: []),
+        States(name: "Co Fermanagh", cities: ["Conwy", "Llandudno"]),
+        States(name: "Conwy", cities: [
           "Bude",
           "Camborne",
           "Fowey",
@@ -44694,9 +44694,9 @@ final List<Country> countries = [
           "Truro",
           "Wadebridge"
         ]),
-        State(name: "Cornwall", cities: ["Holbrooks"]),
-        State(name: "Coventry", cities: []),
-        State(name: "Craven Arms", cities: [
+        States(name: "Cornwall", cities: ["Holbrooks"]),
+        States(name: "Coventry", cities: []),
+        States(name: "Craven Arms", cities: [
           "Askam-in-Furness",
           "Flookburgh",
           "Grasmere",
@@ -44708,11 +44708,11 @@ final List<Country> countries = [
           "Ulverston",
           "Windermere"
         ]),
-        State(name: "Cumbria", cities: ["Denbigh"]),
-        State(
+        States(name: "Cumbria", cities: ["Denbigh"]),
+        States(
             name: "Denbighshire",
             cities: ["Ashbourne", "Buxton", "Chesterfield", "Eckington"]),
-        State(name: "Derby", cities: [
+        States(name: "Derby", cities: [
           "Bakewell",
           "Belper",
           "Breaston",
@@ -44721,7 +44721,7 @@ final List<Country> countries = [
           "Matlock",
           "Ripley"
         ]),
-        State(name: "Derbyshire", cities: [
+        States(name: "Derbyshire", cities: [
           "Axminster",
           "Barnstaple",
           "Beaworthy",
@@ -44752,9 +44752,9 @@ final List<Country> countries = [
           "Woodburyd",
           "Yelverton"
         ]),
-        State(name: "Devon", cities: []),
-        State(name: "Dial Code Dungannon", cities: ["Didcot"]),
-        State(name: "Didcot", cities: [
+        States(name: "Devon", cities: []),
+        States(name: "Dial Code Dungannon", cities: ["Didcot"]),
+        States(name: "Didcot", cities: [
           "Beaminster",
           "Blandford Forum",
           "Christchurch",
@@ -44766,14 +44766,14 @@ final List<Country> countries = [
           "Verwood",
           "Wimborne"
         ]),
-        State(name: "Dorset", cities: ["Alexandria"]),
-        State(name: "Dunbartonshire", cities: ["Crook", "Spennymoor"]),
-        State(name: "Durham", cities: []),
-        State(name: "East Dunbartonshire", cities: []),
-        State(name: "East Lothian", cities: []),
-        State(name: "East Midlands", cities: []),
-        State(name: "East Sussex", cities: []),
-        State(name: "East Yorkshire", cities: [
+        States(name: "Dorset", cities: ["Alexandria"]),
+        States(name: "Dunbartonshire", cities: ["Crook", "Spennymoor"]),
+        States(name: "Durham", cities: []),
+        States(name: "East Dunbartonshire", cities: []),
+        States(name: "East Lothian", cities: []),
+        States(name: "East Midlands", cities: []),
+        States(name: "East Sussex", cities: []),
+        States(name: "East Yorkshire", cities: [
           "Abingdon",
           "Accrington",
           "Aldershot",
@@ -45222,7 +45222,7 @@ final List<Country> countries = [
           "Yeovil",
           "York"
         ]),
-        State(name: "England", cities: [
+        States(name: "England", cities: [
           "Barking",
           "Basildon",
           "Brentwood",
@@ -45246,12 +45246,12 @@ final List<Country> countries = [
           "Stansted",
           "Wickford"
         ]),
-        State(name: "Essex", cities: ["Ballinamallard"]),
-        State(name: "Fermanagh", cities: ["Kirkcaldy"]),
-        State(name: "Fife", cities: ["Ewloe", "Greenfield"]),
-        State(name: "Flintshire", cities: ["Imperial Wharf"]),
-        State(name: "Fulham", cities: ["Kirton-in-Lindsey"]),
-        State(name: "Gainsborough", cities: [
+        States(name: "Essex", cities: ["Ballinamallard"]),
+        States(name: "Fermanagh", cities: ["Kirkcaldy"]),
+        States(name: "Fife", cities: ["Ewloe", "Greenfield"]),
+        States(name: "Flintshire", cities: ["Imperial Wharf"]),
+        States(name: "Fulham", cities: ["Kirton-in-Lindsey"]),
+        States(name: "Gainsborough", cities: [
           "Berkeley",
           "Cheltenham",
           "Churchham",
@@ -45264,10 +45264,10 @@ final List<Country> countries = [
           "Stroud",
           "Tewkesbury"
         ]),
-        State(
+        States(
             name: "Glocestershire",
             cities: ["Blackwood", "Blaenavon", "Newport", "Tredegar"]),
-        State(name: "Gwent", cities: [
+        States(name: "Gwent", cities: [
           "Aldershot",
           "Alton",
           "Andover",
@@ -45294,13 +45294,13 @@ final List<Country> countries = [
           "West Wellow",
           "Winchester"
         ]),
-        State(
+        States(
             name: "Hampshire",
             cities: ["Lymington", "Pennington", "Southampton"]),
-        State(
+        States(
             name: "Hants",
             cities: ["Kington", "Ledbury", "Leominster", "Saint Albans"]),
-        State(name: "Herefordshire", cities: [
+        States(name: "Herefordshire", cities: [
           "Barnet",
           "Bishops Stortford",
           "Borehamwood",
@@ -45321,11 +45321,11 @@ final List<Country> countries = [
           "Watford",
           "Welwyn"
         ]),
-        State(name: "Hertfordshire", cities: []),
-        State(name: "Ireland", cities: []),
-        State(name: "Isle Of Man", cities: []),
-        State(name: "Isle of Wight", cities: ["Newmarket"]),
-        State(name: "Kenford", cities: [
+        States(name: "Hertfordshire", cities: []),
+        States(name: "Ireland", cities: []),
+        States(name: "Isle Of Man", cities: []),
+        States(name: "Isle of Wight", cities: ["Newmarket"]),
+        States(name: "Kenford", cities: [
           "Ashford",
           "Beckenham",
           "Bromley",
@@ -45362,9 +45362,9 @@ final List<Country> countries = [
           "Whitstable",
           "canterbury"
         ]),
-        State(name: "Kent", cities: ["Ayrshire"]),
-        State(name: "Kilmarnock", cities: ["Airdrie", "Glasgow"]),
-        State(name: "Lanarkshire", cities: [
+        States(name: "Kent", cities: ["Ayrshire"]),
+        States(name: "Kilmarnock", cities: ["Airdrie", "Glasgow"]),
+        States(name: "Lanarkshire", cities: [
           "Accrington",
           "Blackburn",
           "Blackpool",
@@ -45391,7 +45391,7 @@ final List<Country> countries = [
           "Todmorden",
           "West Lancashire"
         ]),
-        State(name: "Lancashire", cities: [
+        States(name: "Lancashire", cities: [
           "Coalville",
           "Fleckney",
           "Leicester",
@@ -45400,7 +45400,7 @@ final List<Country> countries = [
           "Market Harborough",
           "Tur Langton"
         ]),
-        State(name: "Leicestershire", cities: [
+        States(name: "Leicestershire", cities: [
           "Alford",
           "Bourne",
           "Casewick",
@@ -45419,8 +45419,8 @@ final List<Country> countries = [
           "Thurlby",
           "Witham St Hughs"
         ]),
-        State(name: "Lincolnshire", cities: ["Llanymynech"]),
-        State(name: "Llanymynech", cities: [
+        States(name: "Lincolnshire", cities: ["Llanymynech"]),
+        States(name: "Llanymynech", cities: [
           "Abbeywood",
           "Aldgate",
           "Alperton",
@@ -45448,18 +45448,18 @@ final List<Country> countries = [
           "Wimbledon",
           "Woolwich"
         ]),
-        State(name: "London", cities: ["Ludlow"]),
-        State(name: "Ludlow", cities: [
+        States(name: "London", cities: ["Ludlow"]),
+        States(name: "Ludlow", cities: [
           "Manchester",
           "Prestwich",
           "Salford",
           "Swinton",
           "Worsley"
         ]),
-        State(name: "Manchester", cities: ["Mayfair"]),
-        State(name: "Mayfair", cities: ["Southport"]),
-        State(name: "Merseyside", cities: []),
-        State(name: "Mid Glamorgan", cities: [
+        States(name: "Manchester", cities: ["Mayfair"]),
+        States(name: "Mayfair", cities: ["Southport"]),
+        States(name: "Merseyside", cities: []),
+        States(name: "Mid Glamorgan", cities: [
           "Brentford",
           "Brimsdown",
           "Drayton",
@@ -45493,10 +45493,10 @@ final List<Country> countries = [
           "Wraysbury",
           "hounslow"
         ]),
-        State(name: "Middlesex", cities: ["Mildenhall"]),
-        State(name: "Mildenhall", cities: ["Abergavenny", "Monmouth"]),
-        State(name: "Monmouthshire", cities: []),
-        State(name: "Newton Stewart", cities: [
+        States(name: "Middlesex", cities: ["Mildenhall"]),
+        States(name: "Mildenhall", cities: ["Abergavenny", "Monmouth"]),
+        States(name: "Monmouthshire", cities: []),
+        States(name: "Newton Stewart", cities: [
           "Attleborough",
           "Bacton",
           "Briston",
@@ -45519,9 +45519,9 @@ final List<Country> countries = [
           "Winordhan",
           "Wymondham"
         ]),
-        State(name: "Norfolk", cities: []),
-        State(name: "North Humberside", cities: []),
-        State(name: "North Yorkshire", cities: [
+        States(name: "Norfolk", cities: []),
+        States(name: "North Humberside", cities: []),
+        States(name: "North Yorkshire", cities: [
           "Daventry",
           "Irthlingborough",
           "Middleton Cheney",
@@ -45531,11 +45531,11 @@ final List<Country> countries = [
           "Wellingborough",
           "Woodford Halse"
         ]),
-        State(
+        States(
             name: "Northamptonshire",
             cities: ["Brackley", "Desborough", "weedon"]),
-        State(name: "Northants", cities: []),
-        State(name: "Northern Ireland", cities: [
+        States(name: "Northants", cities: []),
+        States(name: "Northern Ireland", cities: [
           "Bedlington",
           "Corbridge",
           "Cramlington",
@@ -45544,7 +45544,7 @@ final List<Country> countries = [
           "Ponteland",
           "Wooler"
         ]),
-        State(name: "Northumberland", cities: [
+        States(name: "Northumberland", cities: [
           "Burton Joyce",
           "Cotgraves",
           "Gonalston",
@@ -45556,7 +45556,7 @@ final List<Country> countries = [
           "Southwell",
           "Whatton"
         ]),
-        State(name: "Nottinghamshire", cities: [
+        States(name: "Nottinghamshire", cities: [
           "Bampton",
           "Banbury",
           "Bicester",
@@ -45573,7 +45573,7 @@ final List<Country> countries = [
           "Thame",
           "Wantage"
         ]),
-        State(name: "Oxford", cities: [
+        States(name: "Oxford", cities: [
           "Builth Wells",
           "Knighton",
           "Llanbrynmair",
@@ -45582,10 +45582,10 @@ final List<Country> countries = [
           "Rhaeadr",
           "Welshpool"
         ]),
-        State(name: "Powys", cities: ["Hill of Fearn"]),
-        State(name: "Roos-shire", cities: ["Shoreham"]),
-        State(name: "SUSSEX", cities: ["Sark"]),
-        State(name: "Sark", cities: [
+        States(name: "Powys", cities: ["Hill of Fearn"]),
+        States(name: "Roos-shire", cities: ["Shoreham"]),
+        States(name: "SUSSEX", cities: ["Sark"]),
+        States(name: "Sark", cities: [
           "Aberdeen",
           "Alloa",
           "Alness",
@@ -45677,8 +45677,8 @@ final List<Country> countries = [
           "Troon",
           "Whitburn"
         ]),
-        State(name: "Scotland", cities: []),
-        State(name: "Scottish Borders", cities: [
+        States(name: "Scotland", cities: []),
+        States(name: "Scottish Borders", cities: [
           "Bishops Castle",
           "Bridgnorth",
           "Bucknell",
@@ -45695,7 +45695,7 @@ final List<Country> countries = [
           "Telford",
           "Whitchurch"
         ]),
-        State(name: "Shropshire", cities: [
+        States(name: "Shropshire", cities: [
           "Bath",
           "Brent Knoll",
           "Castle Cary",
@@ -45706,18 +45706,18 @@ final List<Country> countries = [
           "Wellington",
           "Weston-super-Mare"
         ]),
-        State(name: "Somerset", cities: []),
-        State(name: "South Glamorgan", cities: []),
-        State(name: "South Wales", cities: []),
-        State(name: "South Yorkshire", cities: []),
-        State(name: "Southwell", cities: [
+        States(name: "Somerset", cities: []),
+        States(name: "South Glamorgan", cities: []),
+        States(name: "South Wales", cities: []),
+        States(name: "South Yorkshire", cities: []),
+        States(name: "Southwell", cities: [
           "Burton-on-Trent",
           "Hednesford",
           "Stoke on Trent",
           "Stone"
         ]),
-        State(name: "Staffordshire", cities: ["Strabane"]),
-        State(name: "Strabane", cities: [
+        States(name: "Staffordshire", cities: ["Strabane"]),
+        States(name: "Strabane", cities: [
           "Bury St Edmunds",
           "Felixstowe",
           "Haverhill",
@@ -45727,7 +45727,7 @@ final List<Country> countries = [
           "Sudbury",
           "Woodbridge"
         ]),
-        State(name: "Suffolk", cities: [
+        States(name: "Suffolk", cities: [
           "Ashtead",
           "Bagshot",
           "Betchworth",
@@ -45758,14 +45758,14 @@ final List<Country> countries = [
           "Wisley",
           "Woking"
         ]),
-        State(
+        States(
             name: "Surrey",
             cities: ["Brighton", "Henfield", "Sussex", "Worthing"]),
-        State(name: "Sussex", cities: ["Twickenham"]),
-        State(name: "Twickenham", cities: []),
-        State(name: "Tyne and Wear", cities: ["Omagh"]),
-        State(name: "Tyrone", cities: ["Santaquin"]),
-        State(name: "Utah", cities: [
+        States(name: "Sussex", cities: ["Twickenham"]),
+        States(name: "Twickenham", cities: []),
+        States(name: "Tyne and Wear", cities: ["Omagh"]),
+        States(name: "Tyrone", cities: ["Santaquin"]),
+        States(name: "Utah", cities: [
           "Aberdare",
           "Aberystwyth",
           "Barry",
@@ -45812,7 +45812,7 @@ final List<Country> countries = [
           "West Glamorgan",
           "Wrexham"
         ]),
-        State(name: "Wales", cities: [
+        States(name: "Wales", cities: [
           "Alcester",
           "Coventry",
           "Henley in Arden",
@@ -45821,12 +45821,12 @@ final List<Country> countries = [
           "Southam",
           "Warwick"
         ]),
-        State(name: "Warwickshire", cities: []),
-        State(name: "West Lothian", cities: []),
-        State(name: "West Midlands", cities: []),
-        State(name: "West Sussex", cities: []),
-        State(name: "West Yorkshire", cities: ["Whissendine"]),
-        State(name: "Whissendine", cities: [
+        States(name: "Warwickshire", cities: []),
+        States(name: "West Lothian", cities: []),
+        States(name: "West Midlands", cities: []),
+        States(name: "West Sussex", cities: []),
+        States(name: "West Yorkshire", cities: ["Whissendine"]),
+        States(name: "Whissendine", cities: [
           "Amesbury",
           "Bradford on Avon",
           "Calne",
@@ -45845,8 +45845,8 @@ final List<Country> countries = [
           "Warminster",
           "Westbury"
         ]),
-        State(name: "Wiltshire", cities: ["Winnersh"]),
-        State(name: "Wokingham", cities: [
+        States(name: "Wiltshire", cities: ["Winnersh"]),
+        States(name: "Wokingham", cities: [
           "Evesham",
           "Hartlebury",
           "Kidderminster",
@@ -45854,11 +45854,11 @@ final List<Country> countries = [
           "Redditch",
           "Worcester"
         ]),
-        State(name: "Worcestershire", cities: ["Caergwrle", "Ruabon"]),
-        State(name: "Wrexham", cities: ["Neuffen"]),
-        State(
+        States(name: "Worcestershire", cities: ["Caergwrle", "Ruabon"]),
+        States(name: "Wrexham", cities: ["Neuffen"]),
+        States(
             name: "Wurttemberg", cities: ["Beverley", "Malton", "Mexborough"]),
-        State(name: "Yorkshire", cities: [
+        States(name: "Yorkshire", cities: [
           "Alabaster",
           "Albertville",
           "Alexander City",
@@ -45945,7 +45945,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Alabama", cities: [
+        States(name: "Alabama", cities: [
           "Anchorage",
           "Barrow",
           "Bethel",
@@ -45965,7 +45965,7 @@ final List<Country> countries = [
           "Valdez",
           "Wasilla"
         ]),
-        State(name: "Alaska", cities: [
+        States(name: "Alaska", cities: [
           "Apache Junction",
           "Avondale",
           "Bisbee",
@@ -46028,7 +46028,7 @@ final List<Country> countries = [
           "Winslow",
           "Yuma"
         ]),
-        State(name: "Arizona", cities: [
+        States(name: "Arizona", cities: [
           "Alexander",
           "Arkadelphia",
           "Batesville",
@@ -46079,8 +46079,8 @@ final List<Country> countries = [
           "West Memphis",
           "Wynne"
         ]),
-        State(name: "Arkansas", cities: []),
-        State(name: "Byram", cities: [
+        States(name: "Arkansas", cities: []),
+        States(name: "Byram", cities: [
           "Acton",
           "Adelanto",
           "Agoura Hills",
@@ -46667,8 +46667,8 @@ final List<Country> countries = [
           "Yucaipa",
           "Yucca Valley"
         ]),
-        State(name: "California", cities: []),
-        State(name: "Cokato", cities: [
+        States(name: "California", cities: []),
+        States(name: "Cokato", cities: [
           "Air Force Academy",
           "Alamosa",
           "Applewood",
@@ -46753,7 +46753,7 @@ final List<Country> countries = [
           "Wheat Ridge",
           "Woodland Park"
         ]),
-        State(name: "Colorado", cities: [
+        States(name: "Colorado", cities: [
           "Ansonia",
           "Avon",
           "Bethel",
@@ -46857,7 +46857,7 @@ final List<Country> countries = [
           "Woodstock",
           "pomfret"
         ]),
-        State(name: "Connecticut", cities: [
+        States(name: "Connecticut", cities: [
           "Bear",
           "Brookside",
           "Claymont",
@@ -46879,8 +46879,8 @@ final List<Country> countries = [
           "Wilmington",
           "Wilmington Manor"
         ]),
-        State(name: "Delaware", cities: []),
-        State(name: "District of Columbia", cities: [
+        States(name: "Delaware", cities: []),
+        States(name: "District of Columbia", cities: [
           "Alachua",
           "Altamonte Springs",
           "Apopka",
@@ -47215,7 +47215,7 @@ final List<Country> countries = [
           "Wright",
           "Yeehaw Junction"
         ]),
-        State(name: "Florida", cities: [
+        States(name: "Florida", cities: [
           "Acworth",
           "Adel",
           "Albany",
@@ -47359,7 +47359,7 @@ final List<Country> countries = [
           "Woodbine",
           "Woodstock"
         ]),
-        State(name: "Georgia", cities: [
+        States(name: "Georgia", cities: [
           "Ahuimanu",
           "Aiea",
           "Aliamanu",
@@ -47401,7 +47401,7 @@ final List<Country> countries = [
           "Waipahu",
           "Waipio"
         ]),
-        State(name: "Hawaii", cities: [
+        States(name: "Hawaii", cities: [
           "Blackfoot",
           "Boise",
           "Boise City",
@@ -47427,7 +47427,7 @@ final List<Country> countries = [
           "Troy",
           "Twin Falls"
         ]),
-        State(name: "Idaho", cities: [
+        States(name: "Idaho", cities: [
           "Addison",
           "Algonquin",
           "Alsip",
@@ -47694,7 +47694,7 @@ final List<Country> countries = [
           "Worth",
           "Zion"
         ]),
-        State(name: "Illinois", cities: [
+        States(name: "Illinois", cities: [
           "Albion",
           "Anderson",
           "Angola",
@@ -47790,7 +47790,7 @@ final List<Country> countries = [
           "West Lafayette",
           "Williams"
         ]),
-        State(name: "Indiana", cities: [
+        States(name: "Indiana", cities: [
           "Altoona",
           "Ames",
           "Ankeny",
@@ -47836,7 +47836,7 @@ final List<Country> countries = [
           "Waterloo",
           "West Des Moines"
         ]),
-        State(name: "Iowa", cities: [
+        States(name: "Iowa", cities: [
           "Arkansas City",
           "Atchison",
           "Coffeyville",
@@ -47881,7 +47881,7 @@ final List<Country> countries = [
           "Winfield",
           "tecumseh"
         ]),
-        State(name: "Kansas", cities: [
+        States(name: "Kansas", cities: [
           "Albany",
           "Ashland",
           "Bardstown",
@@ -47950,7 +47950,7 @@ final List<Country> countries = [
           "Walton",
           "Winchester"
         ]),
-        State(name: "Kentucky", cities: [
+        States(name: "Kentucky", cities: [
           "Abbeville",
           "Alexandria",
           "Amite",
@@ -48018,8 +48018,8 @@ final List<Country> countries = [
           "Westwego",
           "Zachary"
         ]),
-        State(name: "Louisiana", cities: ["Manchester", "Washington"]),
-        State(name: "Lowa", cities: [
+        States(name: "Louisiana", cities: ["Manchester", "Washington"]),
+        States(name: "Lowa", cities: [
           "Auburn",
           "Augusta",
           "Bangor",
@@ -48062,7 +48062,7 @@ final List<Country> countries = [
           "York Harbor",
           "stockton springs"
         ]),
-        State(name: "Maine", cities: [
+        States(name: "Maine", cities: [
           "Aberdeen",
           "Accokeek",
           "Adelphi",
@@ -48217,7 +48217,7 @@ final List<Country> countries = [
           "Windsor Mill",
           "Woodlawn"
         ]),
-        State(name: "Maryland", cities: [
+        States(name: "Maryland", cities: [
           "Abington",
           "Acton",
           "Agawam",
@@ -48391,8 +48391,8 @@ final List<Country> countries = [
           "Worcester",
           "Yarmouthport"
         ]),
-        State(name: "Massachusetts", cities: []),
-        State(name: "Medfield", cities: [
+        States(name: "Massachusetts", cities: []),
+        States(name: "Medfield", cities: [
           "Adrian",
           "Albion",
           "Allegan",
@@ -48571,7 +48571,7 @@ final List<Country> countries = [
           "Wyoming",
           "Ypsilanti"
         ]),
-        State(name: "Michigan", cities: [
+        States(name: "Michigan", cities: [
           "Albert Lea",
           "Alger",
           "Andover",
@@ -48683,7 +48683,7 @@ final List<Country> countries = [
           "Woodbury",
           "Worthington"
         ]),
-        State(name: "Minnesota", cities: [
+        States(name: "Minnesota", cities: [
           "Bay Saint Louis",
           "Biloxi",
           "Brandon",
@@ -48737,7 +48737,7 @@ final List<Country> countries = [
           "Vicksburg",
           "Yazoo City"
         ]),
-        State(name: "Mississippi", cities: [
+        States(name: "Mississippi", cities: [
           "Affton",
           "Annapolis",
           "Arnold",
@@ -48843,7 +48843,7 @@ final List<Country> countries = [
           "West Plains",
           "Wildwood"
         ]),
-        State(name: "Missouri", cities: [
+        States(name: "Missouri", cities: [
           "Anaconda-Deer Lodge County",
           "Arlee",
           "Belgrade",
@@ -48875,7 +48875,7 @@ final List<Country> countries = [
           "Stevensville",
           "Whitefish"
         ]),
-        State(name: "Montana", cities: [
+        States(name: "Montana", cities: [
           "Beatrice",
           "Bellevue",
           "Central City",
@@ -48902,7 +48902,7 @@ final List<Country> countries = [
           "Scottsbluff",
           "South Sioux City"
         ]),
-        State(name: "Nebraska", cities: [
+        States(name: "Nebraska", cities: [
           "Boulder City",
           "Carson City",
           "Elko",
@@ -48924,7 +48924,7 @@ final List<Country> countries = [
           "Winchester",
           "Winnemucca"
         ]),
-        State(name: "Nevada", cities: [
+        States(name: "Nevada", cities: [
           "Manchester",
           "Nashua",
           "Concord",
@@ -48982,7 +48982,7 @@ final List<Country> countries = [
           "Rindge",
           "Hillsborough"
         ]),
-        State(name: "New Hampshire", cities: [
+        States(name: "New Hampshire", cities: [
           "Newark",
           "Jersey City",
           "Paterson",
@@ -49171,8 +49171,8 @@ final List<Country> countries = [
           "Pennsville",
           "Verona"
         ]),
-        State(name: "New Jersey", cities: []),
-        State(name: "New Jersy", cities: [
+        States(name: "New Jersey", cities: []),
+        States(name: "New Jersy", cities: [
           "Albuquerque",
           "Las Cruces",
           "Rio Rancho",
@@ -49208,7 +49208,7 @@ final List<Country> countries = [
           "Kirtland",
           "Belen"
         ]),
-        State(name: "New Mexico", cities: [
+        States(name: "New Mexico", cities: [
           "Airmont",
           "Albany",
           "Alden",
@@ -49488,7 +49488,7 @@ final List<Country> countries = [
           "Yonkers",
           "Yorktown"
         ]),
-        State(name: "New York", cities: [
+        States(name: "New York", cities: [
           "Charlotte",
           "Raleigh",
           "Greensboro",
@@ -49540,7 +49540,7 @@ final List<Country> countries = [
           "Clayton",
           "Boone"
         ]),
-        State(name: "North Carolina", cities: [
+        States(name: "North Carolina", cities: [
           "Fargo",
           "Bismarck",
           "Grand Forks",
@@ -49554,7 +49554,7 @@ final List<Country> countries = [
           "Devils Lake",
           "Valley City"
         ]),
-        State(name: "North Dakota", cities: [
+        States(name: "North Dakota", cities: [
           "Akron",
           "Alledonia",
           "Alliance",
@@ -49781,7 +49781,7 @@ final List<Country> countries = [
           "Youngstown",
           "Zanesville"
         ]),
-        State(name: "Ohio", cities: [
+        States(name: "Ohio", cities: [
           "Ada",
           "Altus",
           "Ardmore",
@@ -49834,8 +49834,8 @@ final List<Country> countries = [
           "Woodward",
           "Yukon"
         ]),
-        State(name: "Oklahoma", cities: ["Point Edward", "Woodbridge"]),
-        State(name: "Ontario", cities: [
+        States(name: "Oklahoma", cities: ["Point Edward", "Woodbridge"]),
+        States(name: "Ontario", cities: [
           "Albany",
           "Aloha",
           "Altamont",
@@ -49909,7 +49909,7 @@ final List<Country> countries = [
           "Wilsonville",
           "Woodburn"
         ]),
-        State(name: "Oregon", cities: [
+        States(name: "Oregon", cities: [
           "Akron",
           "Aliquippa",
           "Allentown",
@@ -50161,8 +50161,8 @@ final List<Country> countries = [
           "Yeadon",
           "York"
         ]),
-        State(name: "Pennsylvania", cities: ["Ramey"]),
-        State(name: "Ramey", cities: [
+        States(name: "Pennsylvania", cities: ["Ramey"]),
+        States(name: "Ramey", cities: [
           "Providence",
           "Warwick",
           "Cranston",
@@ -50197,7 +50197,7 @@ final List<Country> countries = [
           "Charlestown",
           "Richmond"
         ]),
-        State(name: "Rhode Island", cities: [
+        States(name: "Rhode Island", cities: [
           "Columbia",
           "Charleston",
           "North Charleston",
@@ -50236,7 +50236,7 @@ final List<Country> countries = [
           "Forest Acres",
           "Newberry"
         ]),
-        State(name: "South Carolina", cities: [
+        States(name: "South Carolina", cities: [
           "Sioux Falls",
           "Rapid City",
           "Aberdeen",
@@ -50255,8 +50255,8 @@ final List<Country> countries = [
           "Belle Fourche",
           "Harrisburg"
         ]),
-        State(name: "South Dakota", cities: []),
-        State(name: "Sublimity", cities: [
+        States(name: "South Dakota", cities: []),
+        States(name: "Sublimity", cities: [
           "Adamsville",
           "Alcoa",
           "Antioch",
@@ -50329,7 +50329,7 @@ final List<Country> countries = [
           "Tullahoma",
           "Union City"
         ]),
-        State(name: "Tennessee", cities: [
+        States(name: "Tennessee", cities: [
           "Abilene",
           "Addison",
           "Alamo",
@@ -50608,8 +50608,8 @@ final List<Country> countries = [
           "Yoakum",
           "austinn"
         ]),
-        State(name: "Texas", cities: ["Bedford Kentucky"]),
-        State(name: "Trimble", cities: [
+        States(name: "Texas", cities: ["Bedford Kentucky"]),
+        States(name: "Trimble", cities: [
           "Alpine",
           "American Fork",
           "Bluffdale",
@@ -50669,7 +50669,7 @@ final List<Country> countries = [
           "West Valley City",
           "Woods Cross"
         ]),
-        State(name: "Utah", cities: [
+        States(name: "Utah", cities: [
           "Barre",
           "Bennington",
           "Brattleboro",
@@ -50715,7 +50715,7 @@ final List<Country> countries = [
           "Williston",
           "Winooski"
         ]),
-        State(name: "Vermont", cities: [
+        States(name: "Vermont", cities: [
           "Abingdon",
           "Alexandria",
           "Annandale",
@@ -50839,7 +50839,7 @@ final List<Country> countries = [
           "Wytheville",
           "Yorktown"
         ]),
-        State(name: "Virginia", cities: [
+        States(name: "Virginia", cities: [
           "Aberdeen",
           "Airway Heights",
           "Alderwood Manor",
@@ -50981,7 +50981,7 @@ final List<Country> countries = [
           "Yakima",
           "Yelm"
         ]),
-        State(name: "Washington", cities: [
+        States(name: "Washington", cities: [
           "Charleston",
           "Huntington",
           "Morgantown",
@@ -51017,7 +51017,7 @@ final List<Country> countries = [
           "Ravenswood",
           "Summersville"
         ]),
-        State(name: "West Virginia", cities: [
+        States(name: "West Virginia", cities: [
           "Adams",
           "Allouez",
           "Appleton",
@@ -51131,7 +51131,7 @@ final List<Country> countries = [
           "Whitewater",
           "Wisconsin Rapids"
         ]),
-        State(name: "Wisconsin", cities: [
+        States(name: "Wisconsin", cities: [
           "Buffalo",
           "Casper",
           "Cheyenne",
@@ -51151,7 +51151,7 @@ final List<Country> countries = [
           "Torrington",
           "Worland"
         ]),
-        State(name: "Wyoming", cities: [])
+        States(name: "Wyoming", cities: [])
       ]),
   Country(
       name: "Uruguay",
@@ -51161,7 +51161,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Artigas", cities: [
+        States(name: "Artigas", cities: [
           "Camino Maldonado",
           "Canelones",
           "Ciudad de la Costa",
@@ -51172,26 +51172,26 @@ final List<Country> countries = [
           "Progreso",
           "Santa Lucia"
         ]),
-        State(name: "Canelones", cities: []),
-        State(
+        States(name: "Canelones", cities: []),
+        States(
             name: "Cerro Largo",
             cities: ["Carmelo", "Colonia", "Juan Lacaze", "Nueva Helvecia"]),
-        State(name: "Colonia", cities: ["Durazno"]),
-        State(name: "Durazno", cities: ["Florida"]),
-        State(name: "FLorida", cities: ["Trinidad"]),
-        State(name: "Flores", cities: ["Minas"]),
-        State(name: "Lavalleja", cities: ["Maldonado", "San Carlos"]),
-        State(name: "Maldonado", cities: ["La Paz", "Montevideo"]),
-        State(name: "Montevideo", cities: ["Paysandu"]),
-        State(name: "Paysandu", cities: []),
-        State(name: "Rio Negro", cities: ["Rivera"]),
-        State(name: "Rivera", cities: ["Chuy", "Rocha"]),
-        State(name: "Rocha", cities: ["Salto"]),
-        State(name: "Salto", cities: []),
-        State(name: "San Jose", cities: ["Dolores", "Mercedes"]),
-        State(name: "Soriano", cities: ["Paso de los Toros", "Tacuarembo"]),
-        State(name: "Tacuarembo", cities: []),
-        State(name: "Treinta y Tres", cities: [
+        States(name: "Colonia", cities: ["Durazno"]),
+        States(name: "Durazno", cities: ["Florida"]),
+        States(name: "FLorida", cities: ["Trinidad"]),
+        States(name: "Flores", cities: ["Minas"]),
+        States(name: "Lavalleja", cities: ["Maldonado", "San Carlos"]),
+        States(name: "Maldonado", cities: ["La Paz", "Montevideo"]),
+        States(name: "Montevideo", cities: ["Paysandu"]),
+        States(name: "Paysandu", cities: []),
+        States(name: "Rio Negro", cities: ["Rivera"]),
+        States(name: "Rivera", cities: ["Chuy", "Rocha"]),
+        States(name: "Rocha", cities: ["Salto"]),
+        States(name: "Salto", cities: []),
+        States(name: "San Jose", cities: ["Dolores", "Mercedes"]),
+        States(name: "Soriano", cities: ["Paso de los Toros", "Tacuarembo"]),
+        States(name: "Tacuarembo", cities: []),
+        States(name: "Treinta y Tres", cities: [
           "Ahunabayev",
           "Andijon",
           "Asaka",
@@ -51216,7 +51216,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Andijon", cities: [
+        States(name: "Andijon", cities: [
           "Buhoro",
           "Cangeldi",
           "Galaosiye",
@@ -51233,8 +51233,8 @@ final List<Country> countries = [
           "Safirkon",
           "Vobkent"
         ]),
-        State(name: "Buhoro", cities: []),
-        State(name: "Buxoro Viloyati", cities: [
+        States(name: "Buhoro", cities: []),
+        States(name: "Buxoro Viloyati", cities: [
           "Cizah",
           "Dustlik",
           "Gagarin",
@@ -51244,7 +51244,7 @@ final List<Country> countries = [
           "Ulyanovo",
           "Zomin"
         ]),
-        State(name: "Cizah", cities: [
+        States(name: "Cizah", cities: [
           "Altyarik",
           "Avval",
           "Besarik",
@@ -51260,7 +51260,7 @@ final List<Country> countries = [
           "Toslok",
           "Yaypan"
         ]),
-        State(name: "Fargona", cities: [
+        States(name: "Fargona", cities: [
           "Drujba",
           "Gurlan",
           "Hazorasp",
@@ -51272,7 +51272,7 @@ final List<Country> countries = [
           "Turpokkala",
           "Urgenc"
         ]),
-        State(name: "Horazm", cities: [
+        States(name: "Horazm", cities: [
           "Beskent",
           "Ceynau",
           "Cirakci",
@@ -51297,7 +51297,7 @@ final List<Country> countries = [
           "Yakkabog",
           "Yaninison"
         ]),
-        State(name: "Kaskadar", cities: [
+        States(name: "Kaskadar", cities: [
           "Beruni",
           "Buston",
           "Cimboy",
@@ -51315,7 +51315,7 @@ final List<Country> countries = [
           "Tahtakupir",
           "Turtkul"
         ]),
-        State(name: "Korakalpogiston", cities: [
+        States(name: "Korakalpogiston", cities: [
           "Aytim",
           "Besbulok",
           "Cartak",
@@ -51339,10 +51339,10 @@ final List<Country> countries = [
           "Uzunkuduk",
           "Yanikurgon"
         ]),
-        State(
+        States(
             name: "Namangan",
             cities: ["Karmana", "Kiziltepa", "Navoi", "Uckuduk", "Zarafson"]),
-        State(name: "Navoi", cities: [
+        States(name: "Navoi", cities: [
           "Bulungur",
           "Camboy",
           "Carhin",
@@ -51361,7 +51361,7 @@ final List<Country> countries = [
           "Yanirobod",
           "Ziadin"
         ]),
-        State(name: "Samarkand", cities: [
+        States(name: "Samarkand", cities: [
           "Baht",
           "Guliston",
           "Hovos",
@@ -51369,7 +51369,7 @@ final List<Country> countries = [
           "Sirin",
           "Yaniyer"
         ]),
-        State(name: "Sirdare", cities: [
+        States(name: "Sirdare", cities: [
           "Akkurgon",
           "Boysun",
           "Carkurgon",
@@ -51383,7 +51383,7 @@ final List<Country> countries = [
           "Termiz",
           "Zan"
         ]),
-        State(name: "Surhondar", cities: [
+        States(name: "Surhondar", cities: [
           "Almazar",
           "Angren",
           "Bekobod",
@@ -51410,7 +51410,7 @@ final List<Country> countries = [
           "Yaniobod",
           "Yaniyul"
         ]),
-        State(name: "Toskent", cities: ["Lakatoro", "Norsup"])
+        States(name: "Toskent", cities: ["Lakatoro", "Norsup"])
       ]),
   Country(
       name: "Vanuatu",
@@ -51420,12 +51420,12 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Malampa", cities: ["Longana"]),
-        State(name: "Penama", cities: ["Luganville", "Port Olry"]),
-        State(name: "Sanma", cities: ["Vila"]),
-        State(name: "Shefa", cities: ["Isangel"]),
-        State(name: "Tafea", cities: ["Sola"]),
-        State(name: "Torba", cities: [])
+        States(name: "Malampa", cities: ["Longana"]),
+        States(name: "Penama", cities: ["Luganville", "Port Olry"]),
+        States(name: "Sanma", cities: ["Vila"]),
+        States(name: "Shefa", cities: ["Isangel"]),
+        States(name: "Tafea", cities: ["Sola"]),
+        States(name: "Torba", cities: [])
       ]),
   Country(
       name: "Venezuela, Bolivarian Republic of Venezuela",
@@ -51435,7 +51435,7 @@ final List<Country> countries = [
       minLength: 10,
       maxLength: 10,
       states: [
-        State(name: "Amazonas", cities: [
+        States(name: "Amazonas", cities: [
           "Anaco",
           "Barcelona",
           "Cantaura",
@@ -51443,8 +51443,8 @@ final List<Country> countries = [
           "Puerto la Cruz",
           "San Jose de Guanipa"
         ]),
-        State(name: "Anzoategui", cities: ["Guasdualito", "San Fernando"]),
-        State(name: "Apure", cities: [
+        States(name: "Anzoategui", cities: ["Guasdualito", "San Fernando"]),
+        States(name: "Apure", cities: [
           "Cagua",
           "El Limon",
           "La Victoria",
@@ -51455,11 +51455,11 @@ final List<Country> countries = [
           "Turmero",
           "Villa de Cura"
         ]),
-        State(name: "Aragua", cities: ["Barinas", "Barinitas"]),
-        State(
+        States(name: "Aragua", cities: ["Barinas", "Barinitas"]),
+        States(
             name: "Barinas",
             cities: ["Ciudad Bolivar", "Ciudad Guayana", "Upata"]),
-        State(name: "Bolivar", cities: [
+        States(name: "Bolivar", cities: [
           "Goaigoaza",
           "Guacara",
           "Guigue",
@@ -51470,20 +51470,20 @@ final List<Country> countries = [
           "Tacarigua",
           "Valencia"
         ]),
-        State(name: "Carabobo", cities: ["San Carlos", "Tinaquillo"]),
-        State(name: "Cojedes", cities: []),
-        State(name: "Delta Amacuro", cities: []),
-        State(
+        States(name: "Carabobo", cities: ["San Carlos", "Tinaquillo"]),
+        States(name: "Cojedes", cities: []),
+        States(name: "Delta Amacuro", cities: []),
+        States(
             name: "Distrito Federal",
             cities: ["Coro", "Punta Cardon", "Punto Fijo"]),
-        State(name: "Falcon", cities: [
+        States(name: "Falcon", cities: [
           "Altagracia de Orituco",
           "Calabozo",
           "San Juan de los Morros",
           "Valle de la Pascua",
           "Zaraza"
         ]),
-        State(name: "Guarico", cities: [
+        States(name: "Guarico", cities: [
           "Barquisimeto",
           "Cabudare",
           "Carora",
@@ -51491,8 +51491,8 @@ final List<Country> countries = [
           "Los Rastrojos",
           "Quibor"
         ]),
-        State(name: "Lara", cities: ["Ejido", "El Vigia", "Merida"]),
-        State(name: "Merida", cities: [
+        States(name: "Lara", cities: ["Ejido", "El Vigia", "Merida"]),
+        States(name: "Merida", cities: [
           "Baruta",
           "Carrizal",
           "Catia La Mar",
@@ -51513,13 +51513,13 @@ final List<Country> countries = [
           "San Antonio de los Altos",
           "Santa Teresa"
         ]),
-        State(name: "Miranda", cities: ["Maturin"]),
-        State(name: "Monagas", cities: []),
-        State(
+        States(name: "Miranda", cities: ["Maturin"]),
+        States(name: "Monagas", cities: []),
+        States(
             name: "Nueva Esparta",
             cities: ["Acarigua", "Araure", "Guanare", "Villa Bruzual"]),
-        State(name: "Portuguesa", cities: ["Carupano", "Cumana"]),
-        State(name: "Sucre", cities: [
+        States(name: "Portuguesa", cities: ["Carupano", "Cumana"]),
+        States(name: "Sucre", cities: [
           "La Fria",
           "Rubio",
           "San Antonio del Tachira",
@@ -51527,14 +51527,14 @@ final List<Country> countries = [
           "San Juan de Colon",
           "Tariba"
         ]),
-        State(name: "Tachira", cities: ["Trujillo", "Valera"]),
-        State(
+        States(name: "Tachira", cities: ["Trujillo", "Valera"]),
+        States(
             name: "Trujillo",
             cities: ["Caraballeda", "La Guaira", "Maiquetia"]),
-        State(
+        States(
             name: "Vargas",
             cities: ["Chivacoa", "Nirgua", "San Felipe", "Yaritagua"]),
-        State(name: "Yaracuy", cities: [
+        States(name: "Yaracuy", cities: [
           "Bachaquero",
           "Cabimas",
           "Ciudad Ojeda",
@@ -51545,7 +51545,7 @@ final List<Country> countries = [
           "Santa Rita",
           "Villa del Rosario"
         ]),
-        State(name: "Zulia", cities: [])
+        States(name: "Zulia", cities: [])
       ]),
   Country(
       name: "Vietnam",
@@ -51555,28 +51555,28 @@ final List<Country> countries = [
       minLength: 11,
       maxLength: 11,
       states: [
-        State(name: "Bac Giang", cities: []),
-        State(name: "Binh Dinh", cities: []),
-        State(name: "Binh Duong", cities: []),
-        State(name: "Da Nang", cities: []),
-        State(name: "Dong Bang Song Cuu Long", cities: []),
-        State(name: "Dong Bang Song Hong", cities: []),
-        State(name: "Dong Nai", cities: []),
-        State(name: "Dong Nam Bo", cities: []),
-        State(
+        States(name: "Bac Giang", cities: []),
+        States(name: "Binh Dinh", cities: []),
+        States(name: "Binh Duong", cities: []),
+        States(name: "Da Nang", cities: []),
+        States(name: "Dong Bang Song Cuu Long", cities: []),
+        States(name: "Dong Bang Song Hong", cities: []),
+        States(name: "Dong Nai", cities: []),
+        States(name: "Dong Nam Bo", cities: []),
+        States(
             name: "Duyen Hai Mien Trung",
             cities: ["Ha noi", "Hoang Mai", "Lang Ha"]),
-        State(name: "Hanoi", cities: []),
-        State(name: "Hung Yen", cities: []),
-        State(name: "Khu Bon Cu", cities: []),
-        State(name: "Long An", cities: []),
-        State(name: "Mien Nui Va Trung Du", cities: []),
-        State(name: "Thai Nguyen", cities: []),
-        State(name: "Thanh Pho Ho Chi Minh", cities: []),
-        State(name: "Thu Do Ha Noi", cities: []),
-        State(name: "Tinh Can Tho", cities: []),
-        State(name: "Tinh Da Nang", cities: []),
-        State(name: "Tinh Gia Lai", cities: ["Settlement"])
+        States(name: "Hanoi", cities: []),
+        States(name: "Hung Yen", cities: []),
+        States(name: "Khu Bon Cu", cities: []),
+        States(name: "Long An", cities: []),
+        States(name: "Mien Nui Va Trung Du", cities: []),
+        States(name: "Thai Nguyen", cities: []),
+        States(name: "Thanh Pho Ho Chi Minh", cities: []),
+        States(name: "Thu Do Ha Noi", cities: []),
+        States(name: "Tinh Can Tho", cities: []),
+        States(name: "Tinh Da Nang", cities: []),
+        States(name: "Tinh Gia Lai", cities: ["Settlement"])
       ]),
   Country(
       name: "Virgin Islands, British",
@@ -51586,11 +51586,11 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Anegada", cities: []),
-        State(
+        States(name: "Anegada", cities: []),
+        States(
             name: "Jost van Dyke",
             cities: ["East End-Long Look", "Road Town", "West End"]),
-        State(name: "Tortola", cities: [])
+        States(name: "Tortola", cities: [])
       ]),
   Country(
       name: "Virgin Islands, U.S.",
@@ -51600,9 +51600,9 @@ final List<Country> countries = [
       minLength: 7,
       maxLength: 7,
       states: [
-        State(name: "Saint Croix", cities: []),
-        State(name: "Saint John", cities: []),
-        State(name: "Saint Thomas", cities: [
+        States(name: "Saint Croix", cities: []),
+        States(name: "Saint John", cities: []),
+        States(name: "Saint Thomas", cities: [
           "Kolia",
           "Mala\\'\\'e",
           "Ono",
@@ -51621,10 +51621,10 @@ final List<Country> countries = [
       minLength: 6,
       maxLength: 6,
       states: [
-        State(
+        States(
             name: "Alo",
             cities: ["Fiua", "Leava", "Nuku", "Tavai", "Toloke", "Vaisei"]),
-        State(name: "Singave", cities: [
+        States(name: "Singave", cities: [
           "Ahoa",
           "Aka Aka",
           "Alele",
@@ -51646,7 +51646,7 @@ final List<Country> countries = [
           "Vaimalau",
           "Vaitupu"
         ]),
-        State(name: "Wallis", cities: [])
+        States(name: "Wallis", cities: [])
       ]),
   Country(
       name: "Yemen",
@@ -51656,24 +51656,24 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Adan", cities: ["Ahwar", "Ja\\'\\'ar", "Zinjibar"]),
-        State(name: "Abyan", cities: ["Dhamar"]),
-        State(name: "Dhamar", cities: ["Shaqra", "al-Mukalla", "ash-Shahir"]),
-        State(name: "Hadramaut", cities: ["Hajjah"]),
-        State(name: "Hajjah", cities: ["Hodaidah"]),
-        State(
+        States(name: "Adan", cities: ["Ahwar", "Ja\\'\\'ar", "Zinjibar"]),
+        States(name: "Abyan", cities: ["Dhamar"]),
+        States(name: "Dhamar", cities: ["Shaqra", "al-Mukalla", "ash-Shahir"]),
+        States(name: "Hadramaut", cities: ["Hajjah"]),
+        States(name: "Hajjah", cities: ["Hodaidah"]),
+        States(
             name: "Hudaydah",
             cities: ["Dhi Sufal", "Ibb", "Jiblah", "Qa\\'\\'tabah", "Yarim"]),
-        State(name: "Ibb", cities: ["Tuban"]),
-        State(name: "Lahij", cities: ["Ma\\'\\'rib"]),
-        State(name: "Ma\\'\\'rib", cities: []),
-        State(name: "Madinat San\\'\\'a", cities: ["Sa\\'\\'dah"]),
-        State(
+        States(name: "Ibb", cities: ["Tuban"]),
+        States(name: "Lahij", cities: ["Ma\\'\\'rib"]),
+        States(name: "Ma\\'\\'rib", cities: []),
+        States(name: "Madinat San\\'\\'a", cities: ["Sa\\'\\'dah"]),
+        States(
             name: "Sa\\'\\'dah", cities: ["Amran", "Sahar", "Sanaa", "Sayyan"]),
-        State(name: "Sana", cities: ["Ataq", "Habban", "Taiz"]),
-        State(name: "Shabwah", cities: ["Ta\\'\\'izz", "al-Mukha"]),
-        State(name: "Ta\\'\\'izz", cities: ["Raydah", "al-Bayda"]),
-        State(name: "al-Bayda", cities: [
+        States(name: "Sana", cities: ["Ataq", "Habban", "Taiz"]),
+        States(name: "Shabwah", cities: ["Ta\\'\\'izz", "al-Mukha"]),
+        States(name: "Ta\\'\\'izz", cities: ["Raydah", "al-Bayda"]),
+        States(name: "al-Bayda", cities: [
           "Bajil",
           "Bayt-al-Faqih",
           "Zabid",
@@ -51681,10 +51681,10 @@ final List<Country> countries = [
           "al-Marawi\\'\\'ah",
           "az-Zaydiyah"
         ]),
-        State(name: "al-Hudaydah", cities: ["al-Hazm"]),
-        State(name: "al-Jawf", cities: ["al-Ghaydah"]),
-        State(name: "al-Mahrah", cities: ["Mahwit"]),
-        State(name: "al-Mahwit", cities: [])
+        States(name: "al-Hudaydah", cities: ["al-Hazm"]),
+        States(name: "al-Jawf", cities: ["al-Ghaydah"]),
+        States(name: "al-Mahrah", cities: ["Mahwit"]),
+        States(name: "al-Mahwit", cities: [])
       ]),
   Country(
       name: "Zambia",
@@ -51694,7 +51694,7 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Central", cities: [
+        States(name: "Central", cities: [
           "Chambishi",
           "Chililabombwe",
           "Chingola",
@@ -51705,24 +51705,24 @@ final List<Country> countries = [
           "Mufulira",
           "Ndola"
         ]),
-        State(
+        States(
             name: "Copperbelt",
             cities: ["Chipata", "Katete", "Lundazi", "Petauke"]),
-        State(
+        States(
             name: "Eastern",
             cities: ["Mansa", "Mwansabombwe", "Nchelenge", "Samfya"]),
-        State(name: "Luapala", cities: ["Chilanga", "Kafue", "Lusaka"]),
-        State(name: "Lusaka", cities: [
+        States(name: "Luapala", cities: ["Chilanga", "Kafue", "Lusaka"]),
+        States(name: "Lusaka", cities: [
           "Kalengwa",
           "Kansanshi",
           "Mwinilunga",
           "Solwezi",
           "Zambezi"
         ]),
-        State(
+        States(
             name: "North-Western",
             cities: ["Chinsali", "Isoka", "Kasama", "Mbala", "Mpika"]),
-        State(name: "Northern", cities: [
+        States(name: "Northern", cities: [
           "Choma",
           "Itezhi-Tezhi",
           "Kalomo",
@@ -51733,7 +51733,7 @@ final List<Country> countries = [
           "Nakambala",
           "Siavonga"
         ]),
-        State(name: "Southern", cities: [
+        States(name: "Southern", cities: [
           "Kalabo",
           "Kaoma",
           "Limulunga",
@@ -51741,7 +51741,7 @@ final List<Country> countries = [
           "Senanga",
           "Sesheke"
         ]),
-        State(name: "Western", cities: ["Bulawayo"])
+        States(name: "Western", cities: ["Bulawayo"])
       ]),
   Country(
       name: "Zimbabwe",
@@ -51751,8 +51751,8 @@ final List<Country> countries = [
       minLength: 9,
       maxLength: 9,
       states: [
-        State(name: "Bulawayo", cities: ["Chitungwiza", "Harare"]),
-        State(name: "Harare", cities: [
+        States(name: "Bulawayo", cities: ["Chitungwiza", "Harare"]),
+        States(name: "Harare", cities: [
           "Chimanimani",
           "Chipinge",
           "Mutare",
@@ -51760,15 +51760,15 @@ final List<Country> countries = [
           "Rusape",
           "Sakubva"
         ]),
-        State(name: "Manicaland", cities: []),
-        State(name: "Mashonaland Central", cities: []),
-        State(name: "Mashonaland East", cities: []),
-        State(
+        States(name: "Manicaland", cities: []),
+        States(name: "Mashonaland Central", cities: []),
+        States(name: "Mashonaland East", cities: []),
+        States(
             name: "Mashonaland West",
             cities: ["Chiredzi", "Gaths", "Masvingo"]),
-        State(name: "Masvingo", cities: []),
-        State(name: "Matabeleland North", cities: []),
-        State(name: "Matabeleland South", cities: [
+        States(name: "Masvingo", cities: []),
+        States(name: "Matabeleland North", cities: []),
+        States(name: "Matabeleland South", cities: [
           "Chivhu",
           "Gweru",
           "Kwekwe",
@@ -51777,7 +51777,7 @@ final List<Country> countries = [
           "Shurugwi",
           "Zvishavane"
         ]),
-        State(name: "Midlands", cities: [])
+        States(name: "Midlands", cities: [])
       ]),
 ];
 
@@ -51789,7 +51789,7 @@ class Country {
   final String regionCode;
   final int minLength;
   final int maxLength;
-  final List<State>? states;
+  final List<States>? states;
 
   const Country({
     required this.name,
@@ -51823,7 +51823,7 @@ class Country {
         regionCode: json["regionCode"],
         states: json["states"] == null
             ? []
-            : List<State>.from(json["states"]!.map((x) => State.fromJson(x))),
+            : List<States>.from(json["states"]!.map((x) => States.fromJson(x))),
       );
 
   Map<String, dynamic> toJson() => {
@@ -51840,16 +51840,16 @@ class Country {
       };
 }
 
-class State {
+class States {
   String? name;
   List<String>? cities;
 
-  State({
+  States({
     this.name,
     this.cities,
   });
 
-  factory State.fromJson(Map<String, dynamic> json) => State(
+  factory States.fromJson(Map<String, dynamic> json) => States(
         name: json["name"],
         cities: json["cities"] == null
             ? []

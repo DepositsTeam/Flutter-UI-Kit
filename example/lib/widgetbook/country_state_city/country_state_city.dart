@@ -1,13 +1,14 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
-import 'package:deposits_ui_kit_example/widgetbook/custom_json/countries.dart'
+import 'package:deposits_ui_kit/src/assets/custom_json/countries.dart'
     as Country;
-import 'package:deposits_ui_kit_example/widgetbook/custom_json/countries.dart';
+import 'package:deposits_ui_kit/src/assets/custom_json/countries.dart';
+import 'package:dropdown_search2/dropdown_search2.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:widgetbook/widgetbook.dart';
 
 WidgetbookUseCase countryPicker(BuildContext context) {
-  final formKey = GlobalKey<FormBuilderState>();
   Country.Country? selectedCountry;
 
   return WidgetbookUseCase(
@@ -24,39 +25,22 @@ WidgetbookUseCase countryPicker(BuildContext context) {
             backgroundColor: primaryColor,
           ),
           body: StatefulBuilder(builder: (context, setState) {
-            return FormBuilder(
-                key: formKey,
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      DropdownButton<Country.Country>(
-                        value: selectedCountry,
-                        onChanged: (newValue) {
-                          setState(() {
-                            selectedCountry = newValue;
-                          });
-                        },
-                        items: countries.map((country) {
-                          return DropdownMenuItem<Country.Country>(
-                            value: country,
-                            child: Text(country.name),
-                          );
-                        }).toList(),
-                      )
-                    ],
-                  ),
+            return Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                ),
+                alignment: Alignment.center,
+                child: DepCountryPicker(
+                  selectedCountry: (value) {
+                    selectedCountry = value;
+                  },
                 ));
           })));
 }
 
 WidgetbookUseCase countryStatePicker(BuildContext context) {
-  final formKey = GlobalKey<FormBuilderState>();
+  Country.States? selectedState;
   Country.Country? selectedCountry;
-  Country.State? selectedState;
 
   return WidgetbookUseCase(
       name: 'Country State Picker',
@@ -72,62 +56,24 @@ WidgetbookUseCase countryStatePicker(BuildContext context) {
             backgroundColor: primaryColor,
           ),
           body: StatefulBuilder(builder: (context, setState) {
-            Widget buildStatePicker() {
-              if (selectedCountry == null || selectedCountry!.states == null) {
-                return SizedBox.shrink();
-              }
-
-              return DropdownButton<Country.State>(
-                value: selectedState,
-                onChanged: (newValue) {
-                  setState(() {
-                    selectedState = newValue;
-                  });
-                },
-                items: selectedCountry!.states!.map((state) {
-                  return DropdownMenuItem<Country.State>(
-                    value: state,
-                    child: Text(state.name ?? ""),
-                  );
-                }).toList(),
-              );
-            }
-
-            return FormBuilder(
-                key: formKey,
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      DropdownButton<Country.Country>(
-                        value: selectedCountry,
-                        onChanged: (newValue) {
-                          setState(() {
-                            selectedCountry = newValue;
-                          });
-                        },
-                        items: countries.map((country) {
-                          return DropdownMenuItem<Country.Country>(
-                            value: country,
-                            child: Text(country.name),
-                          );
-                        }).toList(),
-                      ),
-                      verticalSpaceSmallX,
-                      buildStatePicker()
-                    ],
-                  ),
+            return Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                ),
+                child: DepCountryStatePicker(
+                  selectedCountry: (value) {
+                    selectedCountry = value;
+                  },
+                  selectedState: (value) {
+                    selectedState = value;
+                  },
                 ));
           })));
 }
 
 WidgetbookUseCase countryStateCityPicker(BuildContext context) {
-  final formKey = GlobalKey<FormBuilderState>();
   Country.Country? selectedCountry;
-  Country.State? selectedState;
+  Country.States? selectedState;
   String? selectedCity;
 
   return WidgetbookUseCase(
@@ -144,77 +90,16 @@ WidgetbookUseCase countryStateCityPicker(BuildContext context) {
             backgroundColor: primaryColor,
           ),
           body: StatefulBuilder(builder: (context, setState) {
-            Widget buildStatePicker() {
-              if (selectedCountry == null || selectedCountry!.states == null) {
-                return SizedBox.shrink();
-              }
-
-              return DropdownButton<Country.State>(
-                value: selectedState,
-                onChanged: (newValue) {
-                  setState(() {
-                    selectedState = newValue;
-                  });
-                },
-                items: selectedCountry!.states!.map((state) {
-                  return DropdownMenuItem<Country.State>(
-                    value: state,
-                    child: Text(state.name ?? ""),
-                  );
-                }).toList(),
-              );
-            }
-
-            Widget buildCityPicker() {
-              if (selectedState == null || selectedState!.cities == null) {
-                return SizedBox.shrink();
-              }
-
-              return DropdownButton<String>(
-                value: selectedCity,
-                onChanged: (newValue) {
-                  setState(() {
-                    selectedCity = newValue;
-                  });
-                },
-                items: selectedState!.cities!.map((city) {
-                  return DropdownMenuItem<String>(
-                    value: city,
-                    child: Text(city),
-                  );
-                }).toList(),
-              );
-            }
-
-            return FormBuilder(
-                key: formKey,
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      DropdownButton<Country.Country>(
-                        value: selectedCountry,
-                        onChanged: (newValue) {
-                          setState(() {
-                            selectedCountry = newValue;
-                          });
-                        },
-                        items: countries.map((country) {
-                          return DropdownMenuItem<Country.Country>(
-                            value: country,
-                            child: Text(country.name),
-                          );
-                        }).toList(),
-                      ),
-                      verticalSpaceSmallX,
-                      buildStatePicker(),
-                      verticalSpaceSmallX,
-                      buildCityPicker()
-                    ],
-                  ),
-                ));
+            return Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                ),
+                child: DepCountryStateCityPicker(selectedCountry: (value) {
+                  selectedCountry = value;
+                }, selectedState: (value) {
+                  selectedState = value;
+                }, selectedCity: (value) {
+                  selectedCity = value;
+                }));
           })));
 }

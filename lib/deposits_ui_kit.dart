@@ -42,3 +42,4 @@ export 'package:deposits_ui_kit/src/widgets/dep_toggle.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_input_text.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_payment_card.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_alert.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_country_state_city_picker.dart';
