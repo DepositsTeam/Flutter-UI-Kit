@@ -15,7 +15,7 @@ dependencies:
   form_builder_validators: ^8.6.1
   flutter_form_builder: ^7.7.0
   linear_progress_bar: "^1.1.0"
-  syncfusion_flutter_core: ^22.1.36
+  fl_chart: ^0.62.0
   dropdown_search2: ^1.0.2
   currency_text_input_formatter: ^2.1.7
 
@@ -58,7 +58,6 @@ flutter:
     - lib/src/assets/images/
     - lib/src/assets/fonts/
     - lib/src/assets/custom_json/
-    - lib/widgetbook/custom_json/
   #
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages

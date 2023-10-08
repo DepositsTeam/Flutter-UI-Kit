@@ -2,9 +2,9 @@ import 'package:deposits_ui_kit/src/values/dep_colors.dart';
 import 'package:deposits_ui_kit/src/values/dep_spacing.dart';
 import 'package:dropdown_search2/dropdown_search2.dart';
 import 'package:flutter/material.dart';
-import 'package:deposits_ui_kit/src/assets/custom_json/countries.dart'
+import 'package:deposits_ui_kit/src/model/countries.dart'
     as Country;
-import 'package:deposits_ui_kit/src/assets/custom_json/countries.dart';
+import 'package:deposits_ui_kit/src/model/countries.dart';
 
 class DepCountryPicker extends StatefulWidget {
   final ValueChanged<Country.Country>? selectedCountry;

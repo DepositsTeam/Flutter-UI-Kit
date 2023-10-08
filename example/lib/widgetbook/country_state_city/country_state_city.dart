@@ -1,7 +1,4 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
-import 'package:deposits_ui_kit/src/assets/custom_json/countries.dart'
-    as Country;
-import 'package:deposits_ui_kit/src/assets/custom_json/countries.dart';
 import 'package:dropdown_search2/dropdown_search2.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -9,7 +6,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:widgetbook/widgetbook.dart';
 
 WidgetbookUseCase countryPicker(BuildContext context) {
-  Country.Country? selectedCountry;
+  Country? selectedCountry;
 
   return WidgetbookUseCase(
       name: 'Country Picker',
@@ -39,8 +36,8 @@ WidgetbookUseCase countryPicker(BuildContext context) {
 }
 
 WidgetbookUseCase countryStatePicker(BuildContext context) {
-  Country.States? selectedState;
-  Country.Country? selectedCountry;
+  States? selectedState;
+  Country? selectedCountry;
 
   return WidgetbookUseCase(
       name: 'Country State Picker',
@@ -72,8 +69,8 @@ WidgetbookUseCase countryStatePicker(BuildContext context) {
 }
 
 WidgetbookUseCase countryStateCityPicker(BuildContext context) {
-  Country.Country? selectedCountry;
-  Country.States? selectedState;
+  Country? selectedCountry;
+  States? selectedState;
   String? selectedCity;
 
   return WidgetbookUseCase(

@@ -5,11 +5,17 @@ import 'package:deposits_ui_kit_example/widgetbook/badge/badges.dart';
 import 'package:deposits_ui_kit_example/widgetbook/bottom_sheet/bottom_sheet.dart';
 import 'package:deposits_ui_kit_example/widgetbook/bottons/bottons.dart';
 import 'package:deposits_ui_kit_example/widgetbook/card/card.dart';
+import 'package:deposits_ui_kit_example/widgetbook/charts/multiple_line_chart.dart';
+import 'package:deposits_ui_kit_example/widgetbook/charts/single_line_chart.dart';
+import 'package:deposits_ui_kit_example/widgetbook/charts/half_pie_chart.dart';
+import 'package:deposits_ui_kit_example/widgetbook/charts/invoice_chart.dart';
+import 'package:deposits_ui_kit_example/widgetbook/charts/pie_chart.dart';
 import 'package:deposits_ui_kit_example/widgetbook/colors/colors.dart';
 import 'package:deposits_ui_kit_example/widgetbook/country_state_city/country_state_city.dart';
 import 'package:deposits_ui_kit_example/widgetbook/images/images.dart';
 import 'package:deposits_ui_kit_example/widgetbook/loaders/loaders.dart';
 import 'package:deposits_ui_kit_example/widgetbook/payment_card/payment_card.dart';
+import 'package:deposits_ui_kit_example/widgetbook/charts/doughnut_chart.dart';
 import 'package:deposits_ui_kit_example/widgetbook/progress_bar/progress_bar.dart';
 import 'package:deposits_ui_kit_example/widgetbook/radio/radio.dart';
 import 'package:deposits_ui_kit_example/widgetbook/text_input/text_input.dart';
@@ -120,7 +126,7 @@ class HotreloadWidgetbook extends StatelessWidget {
                 ],
               ),
               WidgetbookComponent(
-                name: 'Subtle Badge',
+                name: 'Solid Badge',
                 useCases: [
                   //-------------Solid badge----------------------//
                   SolidBadge(context),
@@ -272,39 +278,39 @@ class HotreloadWidgetbook extends StatelessWidget {
             ],
           ),
           //card
-          WidgetbookCategory(
-            name: 'Card',
-            widgets: [
-              WidgetbookComponent(
-                name: 'Card/Basic',
-                useCases: [
-                  //-------------Basic card----------------------//
-                  BasicCard(context),
-                ],
-              ),
-              WidgetbookComponent(
-                name: 'Card/Gradient',
-                useCases: [
-                  //-------------Gradient card----------------------//
-                  GradientCard(context),
-                ],
-              ),
-              WidgetbookComponent(
-                name: 'Card/Clip',
-                useCases: [
-                  //-------------clip card----------------------//
-                  ClipCard(context),
-                ],
-              ),
-              WidgetbookComponent(
-                name: 'Card/ImageBackground & Image Overlay',
-                useCases: [
-                  //-------------background image card----------------------//
-                  BackImageCard(context),
-                ],
-              )
-            ],
-          ),
+          // WidgetbookCategory(
+          //   name: 'Card',
+          //   widgets: [
+          //     WidgetbookComponent(
+          //       name: 'Card/Basic',
+          //       useCases: [
+          //         //-------------Basic card----------------------//
+          //         BasicCard(context),
+          //       ],
+          //     ),
+          //     WidgetbookComponent(
+          //       name: 'Card/Gradient',
+          //       useCases: [
+          //         //-------------Gradient card----------------------//
+          //         GradientCard(context),
+          //       ],
+          //     ),
+          //     WidgetbookComponent(
+          //       name: 'Card/Clip',
+          //       useCases: [
+          //         //-------------clip card----------------------//
+          //         ClipCard(context),
+          //       ],
+          //     ),
+          //     WidgetbookComponent(
+          //       name: 'Card/ImageBackground & Image Overlay',
+          //       useCases: [
+          //         //-------------background image card----------------------//
+          //         BackImageCard(context),
+          //       ],
+          //     )
+          //   ],
+          // ),
           //Bottom sheet
           WidgetbookCategory(name: 'Bottom Sheet', widgets: [
             WidgetbookComponent(
@@ -470,6 +476,33 @@ class HotreloadWidgetbook extends StatelessWidget {
                 countryStatePicker(context),
                 //-------------Country State City picker----------------------//
                 countryStateCityPicker(context),
+              ],
+            ),
+          ]),
+          //charts
+          WidgetbookCategory(name: 'Charts', widgets: [
+            WidgetbookComponent(
+              name: 'Pie Chart',
+              useCases: [
+                //-------------Doughnut Char----------------------//
+                doughnutChart(context),
+                pieChart(context),
+                halfPieChart(context),
+                invoiceChart(context),
+              ],
+            ),
+            WidgetbookComponent(
+              name: 'Bar Chart',
+              useCases: [
+                //-------------Doughnut Char----------------------//
+              ],
+            ),
+            WidgetbookComponent(
+              name: 'Line Chart',
+              useCases: [
+                //-------------Doughnut Char----------------------//
+                lineChart(context),
+                multipleLineChart(context)
               ],
             ),
           ])

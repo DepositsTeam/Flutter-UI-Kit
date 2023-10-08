@@ -5,6 +5,8 @@ export 'package:deposits_ui_kit/src/utils/enum.dart';
 export 'package:deposits_ui_kit/src/model/city_model.dart';
 export 'package:deposits_ui_kit/src/model/country_model.dart';
 export 'package:deposits_ui_kit/src/model/state_model.dart';
+export 'package:deposits_ui_kit/src/model/sector_model.dart';
+export 'package:deposits_ui_kit/src/model/countries.dart';
 
 export 'package:deposits_ui_kit/src/values/dep_colors.dart';
 export 'package:deposits_ui_kit/src/values/dep_dimens.dart';
@@ -43,3 +45,9 @@ export 'package:deposits_ui_kit/src/widgets/dep_input_text.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_payment_card.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_alert.dart';
 export 'package:deposits_ui_kit/src/widgets/dep_country_state_city_picker.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_doughnut_chart.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_pie_chart.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_invoice_chart.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_half_pie_chart.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_line_chart.dart';
+export 'package:deposits_ui_kit/src/widgets/dep_multiple_line_chart.dart';
