@@ -5,7 +5,7 @@ import 'package:widgetbook/widgetbook.dart';
 String imageUrl =
     "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250";
 
-WidgetbookUseCase BasicAvatar(BuildContext context) {
+WidgetbookUseCase basicAvatar(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Avatar/Basic',
       builder: (context) => Scaffold(
@@ -46,7 +46,7 @@ WidgetbookUseCase BasicAvatar(BuildContext context) {
                               value: AvatarShape.standard,
                             ),
                           ]),
-                      size: DepSize.LARGE,
+                      size: DepSize.large,
                       maxRadius: context.knobs
                           .slider(
                               label: 'Radius',
@@ -60,7 +60,7 @@ WidgetbookUseCase BasicAvatar(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase BasicSubtileAvatar(BuildContext context) {
+WidgetbookUseCase basicSubtileAvatar(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Avatar/Subtle',
       builder: (context) => Scaffold(
@@ -153,7 +153,7 @@ WidgetbookUseCase BasicSubtileAvatar(BuildContext context) {
                               value: AvatarShape.standard,
                             ),
                           ]),
-                      size: DepSize.LARGE,
+                      size: DepSize.large,
                       maxRadius: context.knobs
                           .slider(
                               label: 'Radius',
@@ -178,7 +178,7 @@ WidgetbookUseCase BasicSubtileAvatar(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase BadgeAvatar(BuildContext context) {
+WidgetbookUseCase badgeAvatar(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Avatar/Badge',
       builder: (context) => Scaffold(
@@ -204,7 +204,7 @@ WidgetbookUseCase BadgeAvatar(BuildContext context) {
                       children: [
                         DepAvatar(
                           backgroundImage: NetworkImage(imageUrl),
-                          size: DepSize.LARGE,
+                          size: DepSize.large,
                           maxRadius: context.knobs
                               .slider(
                                   label: 'Radius',
@@ -223,7 +223,7 @@ WidgetbookUseCase BadgeAvatar(BuildContext context) {
                                 border: Border.all(color: white, width: 4)),
                             child: const DepBadge(
                               color: green500,
-                              size: DepSize.SMALL,
+                              size: DepSize.small,
                               shape: BadgeShape.circle,
                             ),
                           ),
@@ -235,7 +235,7 @@ WidgetbookUseCase BadgeAvatar(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase BadgeSubtleAvatar(BuildContext context) {
+WidgetbookUseCase badgeSubtleAvatar(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Avatar/Subtile Badge',
       builder: (context) => Scaffold(
@@ -313,7 +313,7 @@ WidgetbookUseCase BadgeSubtleAvatar(BuildContext context) {
                                   value: blue600,
                                 ),
                               ]),
-                          size: DepSize.LARGE,
+                          size: DepSize.large,
                           maxRadius: context.knobs
                               .slider(
                                   label: 'Radius',
@@ -344,7 +344,7 @@ WidgetbookUseCase BadgeSubtleAvatar(BuildContext context) {
                                 border: Border.all(color: white, width: 4)),
                             child: const DepBadge(
                               color: green500,
-                              size: DepSize.SMALL,
+                              size: DepSize.small,
                               shape: BadgeShape.circle,
                             ),
                           ),

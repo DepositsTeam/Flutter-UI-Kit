@@ -80,50 +80,50 @@ flutter:
   fonts:
     - family: HeroNew
       fonts:
-        - asset: ../example/assets/fonts/Hero-New-Bold.ttf
-        - asset: ../example/assets/fonts/Hero-New-SemiBold.ttf
-        - asset: ../example/assets/fonts/Hero-New-Regular.ttf
-        - asset: ../example/assets/fonts/Hero-New-Thin.ttf
+        - asset: assets/fonts/Hero-New-Bold.ttf
+        - asset: assets/fonts/Hero-New-SemiBold.ttf
+        - asset: assets/fonts/Hero-New-Regular.ttf
+        - asset: assets/fonts/Hero-New-Thin.ttf
 
     - family: SFProDisplay
       fonts:
-        - asset: ../example/assets/fonts/SF-Pro-Display-Regular.ttf
+        - asset: assets/fonts/SF-Pro-Display-Regular.ttf
           weight: 400
-        - asset: ../example/assets/fonts/SF-Pro-Display-Medium.ttf
+        - asset: assets/fonts/SF-Pro-Display-Medium.ttf
           weight: 500
-        - asset: ../example/assets/fonts/SF-Pro-Display-Semibold.ttf
+        - asset: assets/fonts/SF-Pro-Display-Semibold.ttf
           weight: 600
-        - asset: ../example/assets/fonts/SF-Pro-Display-Bold.ttf
+        - asset: assets/fonts/SF-Pro-Display-Bold.ttf
           weight: 700
 
     - family: SFProRounded
       fonts:
-        - asset: ../example/assets/fonts/SF-Pro-Rounded-Regular.otf
+        - asset: assets/fonts/SF-Pro-Rounded-Regular.otf
           weight: 400
-        - asset: ../example/assets/fonts/SF-Pro-Rounded-Medium.otf
+        - asset: assets/fonts/SF-Pro-Rounded-Medium.otf
           weight: 500
-        - asset: ../example/assets/fonts/SF-Pro-Rounded-Semibold.otf
+        - asset: assets/fonts/SF-Pro-Rounded-Semibold.otf
           weight: 600
-        - asset: ../example/assets/fonts/SF-Pro-Rounded-Bold.otf
+        - asset: assets/fonts/SF-Pro-Rounded-Bold.otf
           weight: 700
 
     - family: SFProText
       fonts:
-        - asset: ../example/assets/fonts/SF-Pro-Text-Regular.otf
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
           weight: 400
-        - asset: ../example/assets/fonts/SF-Pro-Text-Medium.otf
+        - asset: assets/fonts/SF-Pro-Text-Medium.otf
           weight: 500
-        - asset: ../example/assets/fonts/SF-Pro-Text-Semibold.otf
+        - asset: assets/fonts/SF-Pro-Text-Semibold.otf
           weight: 600
-        - asset: ../example/assets/fonts/SF-Pro-Text-Bold.otf
+        - asset: assets/fonts/SF-Pro-Text-Bold.otf
           weight: 700
 
     - family: CircularStd
       fonts:
-        - asset: ../example/assets/fonts/CircularStd-Black.ttf
-        - asset: ../example/assets/fonts/CircularStd-Bold.ttf
-        - asset: ../example/assets/fonts/CircularStd-Book.ttf
-        - asset: ../example/assets/fonts/CircularStd-Medium.ttf
+        - asset: assets/fonts/CircularStd-Black.ttf
+        - asset: assets/fonts/CircularStd-Bold.ttf
+        - asset: assets/fonts/CircularStd-Book.ttf
+        - asset: assets/fonts/CircularStd-Medium.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

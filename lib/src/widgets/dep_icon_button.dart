@@ -24,7 +24,7 @@ class DepIconButton extends StatefulWidget {
     this.color = primaryColor,
     this.borderShape,
     this.boxShadow,
-    this.size = DepSize.MEDIUM,
+    this.size = DepSize.medium,
     this.buttonBoxShadow,
     this.borderSide,
   }) : super(key: key);
@@ -93,10 +93,10 @@ class DepIconButton extends StatefulWidget {
   final BorderSide? borderSide;
 
   @override
-  _DepIconButtonState createState() => _DepIconButtonState();
+  DepIconButtonState createState() => DepIconButtonState();
 }
 
-class _DepIconButtonState extends State<DepIconButton> {
+class DepIconButtonState extends State<DepIconButton> {
   late Color color;
   Function? onPressed;
   late DepButtonType type;
@@ -176,11 +176,9 @@ class _DepIconButtonState extends State<DepIconButton> {
       color: widget.borderSide == null
           ? getBorderColor()
           : widget.borderSide!.color,
-      width: (widget.borderSide?.width == null
-          ? widget.type == DepButtonType.outline2x
+      width: (widget.borderSide?.width ?? (widget.type == DepButtonType.outline2x
               ? 2.0
-              : 1.0
-          : widget.borderSide?.width)!,
+              : 1.0)),
     );
 
     final BorderSide shapeBorder = widget.type == DepButtonType.outline ||
@@ -216,15 +214,15 @@ class _DepIconButtonState extends State<DepIconButton> {
       );
     }
 
-    if (widget.size == DepSize.SMALL) {
+    if (widget.size == DepSize.small) {
       height = 30.0;
       width = 30.0;
       iconPixel = 18.0;
-    } else if (widget.size == DepSize.MEDIUM) {
+    } else if (widget.size == DepSize.medium) {
       height = 35.0;
       width = 35.0;
       iconPixel = 28.0;
-    } else if (widget.size == DepSize.LARGE) {
+    } else if (widget.size == DepSize.large) {
       height = 40.0;
       width = 40.0;
       iconPixel = 38.0;
@@ -312,7 +310,8 @@ class _DepIconButtonState extends State<DepIconButton> {
           //     : widget.shape == DepIconButtonShape.circle
           //         ? height + 6
           //         : width,
-          decoration: widget.type == DepButtonType.solid ? getBoxShadow() : null,
+          decoration:
+              widget.type == DepButtonType.solid ? getBoxShadow() : null,
           child: Material(
             shape: widget.type == DepButtonType.transparent
                 ? null
@@ -324,7 +323,6 @@ class _DepIconButtonState extends State<DepIconButton> {
                 : MaterialType.button,
             child: InkResponse(
               onTap: widget.onPressed,
-              child: result,
               focusColor: widget.focusColor ?? Theme.of(context).focusColor,
               hoverColor: widget.hoverColor ?? Theme.of(context).hoverColor,
               highlightColor:
@@ -340,6 +338,7 @@ class _DepIconButtonState extends State<DepIconButton> {
                                 widget.padding.vertical,
                               )) *
                       0.7),
+              child: result,
             ),
           ),
         ),

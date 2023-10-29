@@ -74,10 +74,10 @@ class DepToggle extends StatefulWidget {
   final ValueChanged<bool?> onChanged;
 
   @override
-  _DepToggleState createState() => _DepToggleState();
+  DepToggleState createState() => DepToggleState();
 }
 
-class _DepToggleState extends State<DepToggle> with TickerProviderStateMixin {
+class DepToggleState extends State<DepToggle> with TickerProviderStateMixin {
   AnimationController? animationController;
   Animation<double>? animation;
   late AnimationController controller;
@@ -129,7 +129,7 @@ class _DepToggleState extends State<DepToggle> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) => Stack(
         children: <Widget>[
-          Container(
+          SizedBox(
             height: widget.type == DepToggleType.android ? 25 : 30,
             width: widget.type == DepToggleType.android ? 40 : 50,
           ),

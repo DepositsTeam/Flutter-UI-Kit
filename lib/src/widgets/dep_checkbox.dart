@@ -5,7 +5,7 @@ class DepCheckbox extends StatefulWidget {
   /// [DepCheckbox] is a small box (as in a checklist) in which to place a check mark to make a selection with various customization options.
   const DepCheckbox(
       {Key? key,
-      this.size = DepSize.MEDIUM,
+      this.size = DepSize.medium,
       this.type = DepCheckboxType.basic,
       this.activeBgColor = primaryColor,
       this.inactiveBgColor = white,
@@ -65,10 +65,10 @@ class DepCheckbox extends StatefulWidget {
   final FocusNode? focusNode;
 
   @override
-  _DepCheckboxState createState() => _DepCheckboxState();
+  DepCheckboxState createState() => DepCheckboxState();
 }
 
-class _DepCheckboxState extends State<DepCheckbox> {
+class DepCheckboxState extends State<DepCheckbox> {
   bool get enabled => widget.onChanged != null;
 
   @override

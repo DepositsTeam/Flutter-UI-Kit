@@ -6,9 +6,8 @@ import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:widgetbook/widgetbook.dart';
 import 'package:currency_text_input_formatter/currency_text_input_formatter.dart';
 
-WidgetbookUseCase PaymentCard(BuildContext context) {
+WidgetbookUseCase paymentCard(BuildContext context) {
   final formKey = GlobalKey<FormBuilderState>();
-  bool ready = false;
   FocusNode cardNameNode = FocusNode();
   FocusNode cardNumberNode = FocusNode();
   FocusNode expiryNode = FocusNode();
@@ -106,10 +105,7 @@ WidgetbookUseCase PaymentCard(BuildContext context) {
                                   cardNumberController.text.isNotEmpty &&
                                   cvvController.text.isNotEmpty &&
                                   expiryDateController.text.isNotEmpty) {
-                                ready = true;
-                              } else {
-                                ready = false;
-                              }
+                              } else {}
                             });
                           },
                         ),
@@ -138,10 +134,7 @@ WidgetbookUseCase PaymentCard(BuildContext context) {
                                   cardNumberController.text.isNotEmpty &&
                                   cvvController.text.isNotEmpty &&
                                   expiryDateController.text.isNotEmpty) {
-                                ready = true;
-                              } else {
-                                ready = false;
-                              }
+                              } else {}
                             });
                           },
                         ),
@@ -179,10 +172,7 @@ WidgetbookUseCase PaymentCard(BuildContext context) {
                                           cvvController.text.isNotEmpty &&
                                           expiryDateController
                                               .text.isNotEmpty) {
-                                        ready = true;
-                                      } else {
-                                        ready = false;
-                                      }
+                                      } else {}
                                     });
                                   },
                                 ),
@@ -212,10 +202,7 @@ WidgetbookUseCase PaymentCard(BuildContext context) {
                                           cvvController.text.isNotEmpty &&
                                           expiryDateController
                                               .text.isNotEmpty) {
-                                        ready = true;
-                                      } else {
-                                        ready = false;
-                                      }
+                                      } else {}
                                     });
                                   },
                                 ),
@@ -226,9 +213,8 @@ WidgetbookUseCase PaymentCard(BuildContext context) {
           })));
 }
 
-WidgetbookUseCase PaymentMainCard(BuildContext context) {
+WidgetbookUseCase paymentMainCard(BuildContext context) {
   final formKey = GlobalKey<FormBuilderState>();
-  bool ready = false;
   FocusNode cardAmountNode = FocusNode();
   FocusNode cardNameNode = FocusNode();
   FocusNode cardNumberNode = FocusNode();
@@ -410,9 +396,7 @@ WidgetbookUseCase PaymentMainCard(BuildContext context) {
                                   cardNumberController.text.isNotEmpty &&
                                   cvvController.text.isNotEmpty &&
                                   expiryDateController.text.isNotEmpty) {
-                                ready = true;
                               } else {
-                                ready = false;
                               }
                             });
                           },
@@ -442,9 +426,7 @@ WidgetbookUseCase PaymentMainCard(BuildContext context) {
                                   cardNumberController.text.isNotEmpty &&
                                   cvvController.text.isNotEmpty &&
                                   expiryDateController.text.isNotEmpty) {
-                                ready = true;
                               } else {
-                                ready = false;
                               }
                             });
                           },
@@ -483,9 +465,7 @@ WidgetbookUseCase PaymentMainCard(BuildContext context) {
                                           cvvController.text.isNotEmpty &&
                                           expiryDateController
                                               .text.isNotEmpty) {
-                                        ready = true;
                                       } else {
-                                        ready = false;
                                       }
                                     });
                                   },
@@ -516,9 +496,7 @@ WidgetbookUseCase PaymentMainCard(BuildContext context) {
                                           cvvController.text.isNotEmpty &&
                                           expiryDateController
                                               .text.isNotEmpty) {
-                                        ready = true;
                                       } else {
-                                        ready = false;
                                       }
                                     });
                                   },

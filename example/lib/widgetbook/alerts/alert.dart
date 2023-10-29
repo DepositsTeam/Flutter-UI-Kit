@@ -1,9 +1,8 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-WidgetbookUseCase AlertIOS(BuildContext context) {
+WidgetbookUseCase alertIOS(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Alert',
       builder: (context) => Scaffold(
@@ -25,7 +24,7 @@ WidgetbookUseCase AlertIOS(BuildContext context) {
                   //Horizontalsingle action alert
                   DepButton(
                       onPressed: () {
-                        DepDialog(
+                        depDialog(
                             context: context,
                             title: 'Alert title',
                             content:
@@ -40,7 +39,7 @@ WidgetbookUseCase AlertIOS(BuildContext context) {
                   //Horizontal double action alert
                   DepButton(
                       onPressed: () {
-                        DepDialog(
+                        depDialog(
                             context: context,
                             title: 'Alert title',
                             content:
@@ -55,7 +54,7 @@ WidgetbookUseCase AlertIOS(BuildContext context) {
                   //vertical single action alert
                   DepButton(
                       onPressed: () {
-                        DepDialog(
+                        depDialog(
                             context: context,
                             title: 'Alert title',
                             content:
@@ -70,7 +69,7 @@ WidgetbookUseCase AlertIOS(BuildContext context) {
                   //vertical double action alert
                   DepButton(
                       onPressed: () {
-                        DepDialog(
+                        depDialog(
                             context: context,
                             title: 'Alert title',
                             content:

@@ -10,7 +10,7 @@ class DepSocialButton extends StatelessWidget {
     required this.buttonType,
     this.elevation = 0.0,
     this.shape = DepButtonShape.standard,
-    this.size = DepSize.MEDIUM,
+    this.size = DepSize.medium,
     this.blockButton,
     this.fullWidthButton,
     this.onLongPress,
@@ -56,9 +56,9 @@ class DepSocialButton extends StatelessWidget {
     Widget? icon;
     String? text;
     Color? color;
-    final double imageSize = (size == DepSize.LARGE)
+    final double imageSize = (size == DepSize.large)
         ? 30
-        : (size == DepSize.MEDIUM)
+        : (size == DepSize.medium)
             ? 25
             : 20;
     switch (type) {
@@ -70,11 +70,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.WHATSAPP
+              ? DepSocialColors.whatsapp
               : Colors.white,
         );
         text = 'Whatsapp';
-        color = DepSocialColors.WHATSAPP;
+        color = DepSocialColors.whatsapp;
         break;
       case DepSocialType.facebook:
         icon = Image.asset(
@@ -84,11 +84,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.FACEBOOK
+              ? DepSocialColors.facebook
               : Colors.white,
         );
         text = 'Facebook';
-        color = DepSocialColors.FACEBOOK;
+        color = DepSocialColors.facebook;
         break;
       case DepSocialType.twitter:
         icon = Image.asset(
@@ -98,11 +98,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.TWITTER
+              ? DepSocialColors.twitter
               : Colors.white,
         );
         text = 'Twitter';
-        color = DepSocialColors.TWITTER;
+        color = DepSocialColors.twitter;
         break;
       case DepSocialType.google:
         icon = Image.asset(
@@ -112,11 +112,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.GOOGLE
+              ? DepSocialColors.google
               : Colors.white,
         );
         text = 'Google';
-        color = DepSocialColors.GOOGLE;
+        color = DepSocialColors.google;
         break;
       case DepSocialType.youtube:
         icon = Image.asset(
@@ -126,11 +126,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.YOUTUBE
+              ? DepSocialColors.youtube
               : Colors.white,
         );
         text = 'Youtube';
-        color = DepSocialColors.YOUTUBE;
+        color = DepSocialColors.youtube;
         break;
       case DepSocialType.dribble:
         icon = Image.asset(
@@ -140,11 +140,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.DRIBBLE
+              ? DepSocialColors.dribble
               : Colors.white,
         );
         text = 'Dribble';
-        color = DepSocialColors.DRIBBLE;
+        color = DepSocialColors.dribble;
         break;
       case DepSocialType.linkedin:
         icon = Image.asset(
@@ -154,11 +154,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.LINKEDIN
+              ? DepSocialColors.linkedin
               : Colors.white,
         );
         text = 'Linkedin';
-        color = DepSocialColors.LINKEDIN;
+        color = DepSocialColors.linkedin;
         break;
       case DepSocialType.pinterest:
         icon = Image.asset(
@@ -168,11 +168,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.PININTEREST
+              ? DepSocialColors.pininterest
               : Colors.white,
         );
         text = 'Pinterest';
-        color = DepSocialColors.PININTEREST;
+        color = DepSocialColors.pininterest;
         break;
       case DepSocialType.slack:
         icon = Image.asset(
@@ -182,11 +182,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.SLACK
+              ? DepSocialColors.slack
               : Colors.white,
         );
         text = 'Slack';
-        color = DepSocialColors.SLACK;
+        color = DepSocialColors.slack;
         break;
       case DepSocialType.line:
         icon = Image.asset(
@@ -196,11 +196,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.LINE
+              ? DepSocialColors.line
               : Colors.white,
         );
         text = 'Line';
-        color = DepSocialColors.LINE;
+        color = DepSocialColors.line;
         break;
       case DepSocialType.wechat:
         icon = Image.asset(
@@ -210,11 +210,11 @@ class DepSocialButton extends StatelessWidget {
           color: (buttonType == DepSocialButtonType.outline ||
                   buttonType == DepSocialButtonType.outline2x ||
                   buttonType == DepSocialButtonType.transparent)
-              ? DepSocialColors.WECHAT
+              ? DepSocialColors.wechat
               : Colors.white,
         );
         text = 'WeChat';
-        color = DepSocialColors.WECHAT;
+        color = DepSocialColors.wechat;
         break;
     }
 
@@ -232,7 +232,8 @@ class DepSocialButton extends StatelessWidget {
     }
   }
 
-  Widget socialButtonSolid(Widget? icon, String? text, Color color) => DepNormalButton(
+  Widget socialButtonSolid(Widget? icon, String? text, Color color) =>
+      DepNormalButton(
         onPressed: onPressed,
         elevation: elevation,
         shape: shape,

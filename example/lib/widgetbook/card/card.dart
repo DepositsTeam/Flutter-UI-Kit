@@ -2,7 +2,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-final childWidget = Container(
+const childWidget = SizedBox(
   width: 100,
   height: 100,
 );
@@ -19,7 +19,7 @@ const gradient = LinearGradient(
     end: Alignment.bottomRight,
     colors: [Colors.red, Colors.pink]);
 
-WidgetbookUseCase BasicCard (BuildContext context) {
+WidgetbookUseCase basicCard (BuildContext context) {
   return WidgetbookUseCase(
       name: 'Card/Basic',
       builder: (context) => Scaffold(
@@ -49,7 +49,7 @@ WidgetbookUseCase BasicCard (BuildContext context) {
                       margin: margin,
                       title:  DepListTile(
                         titleText: context.knobs.text(label: 'Card Title', initialValue: 'Card Title'),
-                        icon: Icon(Icons.favorite_border),
+                        icon: const Icon(Icons.favorite_border),
                       ),
                       content: childWidget,
                       image: Image.network(
@@ -62,7 +62,7 @@ WidgetbookUseCase BasicCard (BuildContext context) {
           ));
 }
 
-WidgetbookUseCase GradientCard(BuildContext context) {
+WidgetbookUseCase gradientCard(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Card/Gradient',
       builder: (context) => Scaffold(
@@ -92,7 +92,7 @@ WidgetbookUseCase GradientCard(BuildContext context) {
                       margin: margin,
                       title: DepListTile(
                         titleText: context.knobs.text(label: 'Card Title', initialValue: 'Card Title'),
-                        icon: Icon(Icons.favorite_border),
+                        icon: const Icon(Icons.favorite_border),
                       ),
                       image: Image.network(
                           'https://images.unsplash.com/photo-1547721064-da6cfb341d50'),
@@ -104,7 +104,7 @@ WidgetbookUseCase GradientCard(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase ClipCard(BuildContext context) {
+WidgetbookUseCase clipCard(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Card/Clip',
       builder: (context) => Scaffold(
@@ -132,7 +132,7 @@ WidgetbookUseCase ClipCard(BuildContext context) {
                       ),
                       title: DepListTile(
                         titleText: context.knobs.text(label: 'Card Title', initialValue: 'Card Title'),
-                        icon: Icon(Icons.favorite_border),
+                        icon: const Icon(Icons.favorite_border),
                       ),
                       clipBehavior: Clip.none,
                       imageOverlay: const NetworkImage(
@@ -143,7 +143,7 @@ WidgetbookUseCase ClipCard(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase BackImageCard(BuildContext context) {
+WidgetbookUseCase backImageCard(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Card/Background Image',
       builder: (context) => Scaffold(
@@ -171,10 +171,10 @@ WidgetbookUseCase BackImageCard(BuildContext context) {
                       ),
                       title: DepListTile(
                         titleText: context.knobs.text(label: 'Card Title', initialValue: 'Card Title'),
-                        icon: Icon(Icons.favorite_border),
+                        icon: const Icon(Icons.favorite_border),
                       ),
                       boxFit: BoxFit.cover,
-                      imageOverlay: NetworkImage(
+                      imageOverlay: const NetworkImage(
                           'https://cdn.pixabay.com/photo/2016/11/22/07/09/spruce-1848543__340.jpg'),
                     )
                   ],

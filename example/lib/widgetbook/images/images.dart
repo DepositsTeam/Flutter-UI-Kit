@@ -2,14 +2,13 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-
 const bgImage = NetworkImage(
   'https://images.unsplash.com/photo-1547721064-da6cfb341d50',
 );
 const padding = EdgeInsets.all(5);
 const margin = EdgeInsets.all(5);
 const boxFit = BoxFit.cover;
-WidgetbookUseCase BasicImage(BuildContext context) {
+WidgetbookUseCase basicImage(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Image/Basic',
       builder: (context) => Scaffold(
@@ -45,12 +44,11 @@ WidgetbookUseCase BasicImage(BuildContext context) {
                           min: 5)),
                       padding: padding,
                       margin: margin,
-                      
                     )
                   ]))));
 }
 
-WidgetbookUseCase OverlayImage(BuildContext context) {
+WidgetbookUseCase overlayImage(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Image/Overlay',
       builder: (context) => Scaffold(
@@ -70,34 +68,37 @@ WidgetbookUseCase OverlayImage(BuildContext context) {
                 horizontal: 16,
               ),
               child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center, children: [
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
                     DepImageOverlay(
                       height: 100,
                       width: 100,
                       image: bgImage,
-                      colorFilter: ColorFilter.mode(context.knobs.options(
-                  label: 'Overlay Color',
-                  description: 'Overlay color for image.',
-                  options: const [
-                    Option(
-                      label: 'Red500',
-                      value: red500,
-                    ),
-                    Option(
-                      label: 'Blue500',
-                      value: blue500,
-                    ),
-                    Option(
-                      label: 'Green500',
-                      value: green500,
-                    )
-                  ],
-                ), BlendMode.colorBurn),
+                      colorFilter: ColorFilter.mode(
+                          context.knobs.options(
+                            label: 'Overlay Color',
+                            description: 'Overlay color for image.',
+                            options: const [
+                              Option(
+                                label: 'Red500',
+                                value: red500,
+                              ),
+                              Option(
+                                label: 'Blue500',
+                                value: blue500,
+                              ),
+                              Option(
+                                label: 'Green500',
+                                value: green500,
+                              )
+                            ],
+                          ),
+                          BlendMode.colorBurn),
                     )
                   ]))));
 }
 
-WidgetbookUseCase ChildImage(BuildContext context) {
+WidgetbookUseCase childImage(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Image/ChildWidget',
       builder: (context) => Scaffold(
@@ -133,7 +134,10 @@ WidgetbookUseCase ChildImage(BuildContext context) {
                           min: 5)),
                       padding: padding,
                       margin: margin,
-                      alignment: context.knobs.options(label: 'Alignment', description: 'Select Alignment' , options: const [
+                      alignment: context.knobs.options(
+                        label: 'Alignment',
+                        description: 'Select Alignment',
+                        options: const [
                           Option(
                             label: 'Top-center',
                             value: Alignment.topCenter,
@@ -172,8 +176,10 @@ WidgetbookUseCase ChildImage(BuildContext context) {
                           ),
                         ],
                       ),
-                      child: Icon(Icons.car_rental, color: white,),
-                      
+                      child: const Icon(
+                        Icons.car_rental,
+                        color: white,
+                      ),
                     )
                   ]))));
 }

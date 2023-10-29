@@ -37,7 +37,7 @@ WidgetbookUseCase invoiceChart(BuildContext context) {
             return DepInvoiceChart(
               icon: Container(
                   height: 40,
-                  padding: EdgeInsets.all(5.0),
+                  padding: const EdgeInsets.all(5.0),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30.0),
                     border: Border.all(
@@ -69,7 +69,7 @@ WidgetbookUseCase invoiceChart(BuildContext context) {
                       elevation: 0,
                       underline: Container(),
                       onChanged: (String? newValue) {
-                        print('Selected: $newValue');
+                        debugPrint('Selected: $newValue');
                         setState(() {
                           selectedMonth = newValue!;
                         });

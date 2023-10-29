@@ -56,13 +56,13 @@ class DepAppbarWidget extends PreferredSize {
       centerTitle: centerTitle,
       elevation: 0,
       actions: actions,
-      actionsIconTheme: IconThemeData(
+      actionsIconTheme: const IconThemeData(
         size: 20,
       ),
       bottom: bottom == null
           ? null
           : PreferredSize(
-              preferredSize: Size.fromHeight(100),
+              preferredSize: const Size.fromHeight(100),
               child: bottom!,
             ),
       leading: addBackButton
@@ -71,7 +71,7 @@ class DepAppbarWidget extends PreferredSize {
               onBackTap: onBackPress,
               backbuttonColor: backbuttonColor,
               padding: backButtonPadding ??
-                  EdgeInsets.only(left: (10)),
+                  const EdgeInsets.only(left: (10)),
             )
           : addCloseButton
               ? DepCloseButton(
@@ -79,7 +79,7 @@ class DepAppbarWidget extends PreferredSize {
                   onCloseTap: onClosePress,
                   closeButtonColor: closeButtonColor,
                   padding: closeButtonPadding ??
-                      EdgeInsets.only(left: (10)),
+                      const EdgeInsets.only(left: (10)),
                 )
               : null,
       leadingWidth: 45,

@@ -13,7 +13,7 @@ class DepAvatar extends StatelessWidget {
       this.maxRadius,
       this.borderRadius,
       this.shape = AvatarShape.circle,
-      this.size = DepSize.MEDIUM})
+      this.size = DepSize.medium})
       : assert(radius == null || (minRadius == null && maxRadius == null)),
         super(key: key);
 
@@ -72,7 +72,7 @@ class DepAvatar extends StatelessWidget {
     final Color? foregroundColor = this.foregroundColor;
     assert(debugCheckHasMediaQuery(context));
     final ThemeData theme = Theme.of(context);
-    TextStyle? textStyle = theme.primaryTextTheme.subtitle1?.copyWith(
+    TextStyle? textStyle = theme.primaryTextTheme.titleMedium?.copyWith(
       color: foregroundColor,
     );
     Color? effectiveBackgroundColor = backgroundColor;
@@ -136,4 +136,3 @@ class DepAvatar extends StatelessWidget {
     );
   }
 }
-

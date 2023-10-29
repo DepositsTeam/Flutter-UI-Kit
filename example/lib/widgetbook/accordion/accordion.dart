@@ -2,8 +2,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-
-WidgetbookUseCase BasicAccordion(BuildContext context) {
+WidgetbookUseCase basicAccordion(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Accordion/Basic',
       builder: (context) => Scaffold(
@@ -27,16 +26,18 @@ WidgetbookUseCase BasicAccordion(BuildContext context) {
                   children: [
                     DepAccordion(
                       title: context.knobs.text(
-                            label: 'Accordion Title', initialValue: 'Accordion Title'),
-                        content: context.knobs.text(
-                          label: 'Accordion Content', initialValue: 'Accordion Content'),
-                      )
+                          label: 'Accordion Title',
+                          initialValue: 'Accordion Title'),
+                      content: context.knobs.text(
+                          label: 'Accordion Content',
+                          initialValue: 'Accordion Content'),
+                    )
                   ],
                 )),
           ));
 }
 
-WidgetbookUseCase IconAccordion(BuildContext context) {
+WidgetbookUseCase iconAccordion(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Accordion/Icon',
       builder: (context) => Scaffold(
@@ -58,22 +59,21 @@ WidgetbookUseCase IconAccordion(BuildContext context) {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                   DepAccordion(
-                      title: context.knobs.text(
-                          label: 'Accordion Title',
-                          initialValue: 'Accordion Title'),
-                      content: context.knobs.text(
-                          label: 'Accordion Content',
-                          initialValue: 'Accordion Content'),
-                          collapsedIcon: Icon(Icons.add),
-                        expandedIcon: Icon(Icons.minimize)
-                    )
+                    DepAccordion(
+                        title: context.knobs.text(
+                            label: 'Accordion Title',
+                            initialValue: 'Accordion Title'),
+                        content: context.knobs.text(
+                            label: 'Accordion Content',
+                            initialValue: 'Accordion Content'),
+                        collapsedIcon: const Icon(Icons.add),
+                        expandedIcon: const Icon(Icons.minimize))
                   ],
                 )),
           ));
 }
 
-WidgetbookUseCase TextAccordion(BuildContext context) {
+WidgetbookUseCase textAccordion(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Accordion/Text',
       builder: (context) => Scaffold(
@@ -96,15 +96,14 @@ WidgetbookUseCase TextAccordion(BuildContext context) {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     DepAccordion(
-                      title: context.knobs.text(
-                          label: 'Accordion Title',
-                          initialValue: 'Accordion Title'),
-                      content: context.knobs.text(
-                          label: 'Accordion Content',
-                          initialValue: 'Accordion Content'),
-                          collapsedIcon: Text('Show'),
-                        expandedIcon: Text('Hide')
-                    )
+                        title: context.knobs.text(
+                            label: 'Accordion Title',
+                            initialValue: 'Accordion Title'),
+                        content: context.knobs.text(
+                            label: 'Accordion Content',
+                            initialValue: 'Accordion Content'),
+                        collapsedIcon: const Text('Show'),
+                        expandedIcon: const Text('Hide'))
                   ],
                 )),
           ));

@@ -39,7 +39,7 @@ class DepRichTextWidget extends StatelessWidget {
       text: TextSpan(
         text: title,
         style: titleStyle ??
-            TextStyle(
+            const TextStyle(
               color: black,
               fontSize: fontSize13,
             ),
@@ -65,7 +65,7 @@ class DepRichTextWidget extends StatelessWidget {
           TextSpan(
               text: title2,
               style: titleStyle2 ??
-                  TextStyle(
+                  const TextStyle(
                     color: black,
                     fontSize: fontSize13,
                   )),

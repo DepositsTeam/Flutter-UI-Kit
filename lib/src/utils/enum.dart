@@ -1,4 +1,5 @@
-enum ToastType { General, Info, Warning, Error, Success }
+enum ToastType { general, info, warning, error, success }
+
 enum AvatarShape {
   circle,
   standard,
@@ -11,10 +12,11 @@ enum DepRadioType {
   custom,
   blunt,
 }
+
 class DepSize {
-  static const double SMALL = 30;
-  static const double MEDIUM = 35;
-  static const double LARGE = 40;
+  static const double small = 30;
+  static const double medium = 35;
+  static const double large = 40;
 }
 
 enum BadgeShape {
@@ -42,7 +44,6 @@ enum DepButtonType {
   transparent,
 }
 
-
 enum DepIconButtonShape {
   circle,
   pills,
@@ -63,7 +64,6 @@ enum DepSocialType {
   wechat,
   line,
 }
-
 
 enum DepSocialButtonType {
   solid,
@@ -95,10 +95,4 @@ enum DepToggleType {
   square,
 }
 
-enum DepFontName {
-  HeroNew,
-  SFProDisplay,
-  SFProRounded,
-  SFProText,
-  CircularStd
-}
+enum DepFontName { heroNew, sfproDisplay, sfproRounded, sfproText, circularStd }

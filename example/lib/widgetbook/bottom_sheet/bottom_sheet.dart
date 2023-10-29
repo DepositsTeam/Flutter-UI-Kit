@@ -6,7 +6,7 @@ final Key bottomSheetKey = UniqueKey();
 final Key contentKey = UniqueKey();
 final DepBottomSheetController _controller = DepBottomSheetController();
 
-WidgetbookUseCase BasicBottomSheet(BuildContext context) {
+WidgetbookUseCase basicBottomSheet(BuildContext context) {
   return WidgetbookUseCase(
       name: 'BottomSheet/Basic',
       builder: (context) => Scaffold(
@@ -28,7 +28,7 @@ WidgetbookUseCase BasicBottomSheet(BuildContext context) {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                   DepBottomSheet(
+                    DepBottomSheet(
                       key: bottomSheetKey,
                       controller: _controller,
                       stickyHeaderHeight: 70,
@@ -75,8 +75,7 @@ WidgetbookUseCase BasicBottomSheet(BuildContext context) {
           ));
 }
 
-
-WidgetbookUseCase FooterBottomSheet(BuildContext context) {
+WidgetbookUseCase footerBottomSheet(BuildContext context) {
   return WidgetbookUseCase(
       name: 'BottomSheet/Footer',
       builder: (context) => Scaffold(
@@ -130,12 +129,12 @@ WidgetbookUseCase FooterBottomSheet(BuildContext context) {
                         child: const Text('Footer Title'),
                       ),
                     )
-                    ],
+                  ],
                 )),
           ));
 }
 
-WidgetbookUseCase ExpandableBottomSheet(BuildContext context) {
+WidgetbookUseCase expandableBottomSheet(BuildContext context) {
   return WidgetbookUseCase(
       name: 'BottomSheet/Expandable',
       builder: (context) => Scaffold(
@@ -152,8 +151,8 @@ WidgetbookUseCase ExpandableBottomSheet(BuildContext context) {
             floatingActionButton: FloatingActionButton(
                 backgroundColor: greenColor,
                 child: _controller.isBottomSheetOpened
-                    ? Icon(Icons.keyboard_arrow_down)
-                    : Icon(Icons.keyboard_arrow_up),
+                    ? const Icon(Icons.keyboard_arrow_down)
+                    : const Icon(Icons.keyboard_arrow_up),
                 onPressed: () {
                   _controller.isBottomSheetOpened
                       ? _controller.hideBottomSheet()
@@ -167,7 +166,7 @@ WidgetbookUseCase ExpandableBottomSheet(BuildContext context) {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                   DepBottomSheet(
+                    DepBottomSheet(
                       key: bottomSheetKey,
                       controller: _controller,
                       enableExpandableContent: true,

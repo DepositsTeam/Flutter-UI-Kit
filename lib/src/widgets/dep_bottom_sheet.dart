@@ -66,10 +66,10 @@ class DepBottomSheet extends StatefulWidget {
   final int animationDuration;
 
   @override
-  _GFBottomSheetState createState() => _GFBottomSheetState();
+  GFBottomSheetState createState() => GFBottomSheetState();
 }
 
-class _GFBottomSheetState extends State<DepBottomSheet>
+class GFBottomSheetState extends State<DepBottomSheet>
     with TickerProviderStateMixin {
   final StreamController<double?> _streamController =
       StreamController.broadcast();
@@ -136,7 +136,7 @@ class _GFBottomSheetState extends State<DepBottomSheet>
                 onVerticalDragUpdate: _onVerticalDragUpdate,
                 onVerticalDragEnd: _onVerticalDragEnd,
                 onTap: _onTap,
-                child: Container(
+                child: SizedBox(
                   height: widget.stickyHeaderHeight,
                   child: widget.stickyHeader,
                 ),

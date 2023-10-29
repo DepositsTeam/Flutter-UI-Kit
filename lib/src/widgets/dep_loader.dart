@@ -16,7 +16,7 @@ class DepLoader extends StatefulWidget {
       this.loaderIconThree,
       this.androidLoaderColor,
       this.loaderstrokeWidth = 4.0,
-      this.size = DepSize.MEDIUM,
+      this.size = DepSize.medium,
       this.child})
       : super(key: key);
 
@@ -58,10 +58,10 @@ class DepLoader extends StatefulWidget {
   final double size;
 
   @override
-  _DepLoaderState createState() => _DepLoaderState();
+  DepLoaderState createState() => DepLoaderState();
 }
 
-class _DepLoaderState extends State<DepLoader>
+class DepLoaderState extends State<DepLoader>
     with SingleTickerProviderStateMixin {
   late Animation<double> loaderAnimation1;
   late Animation<double> loaderAnimation2;
@@ -98,7 +98,7 @@ class _DepLoaderState extends State<DepLoader>
               )
             : widget.type == DepLoaderType.android
                 ? Center(
-                    child: Container(
+                    child: SizedBox(
                     height: widget.size * 0.7,
                     width: widget.size * 0.7,
                     child: CircularProgressIndicator(
@@ -198,7 +198,7 @@ class Loader extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Center(
         child: type == DepLoaderType.custom
-            ? Container(child: child != null ? child : icon ?? Container())
+            ? Container(child: child ?? icon ?? Container())
             : Container(
                 width: radius,
                 height: radius,

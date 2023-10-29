@@ -3,11 +3,11 @@ import 'package:deposits_ui_kit/src/values/dep_spacing.dart';
 import 'package:dropdown_search2/dropdown_search2.dart';
 import 'package:flutter/material.dart';
 import 'package:deposits_ui_kit/src/model/countries.dart'
-    as Country;
+    as country;
 import 'package:deposits_ui_kit/src/model/countries.dart';
 
 class DepCountryPicker extends StatefulWidget {
-  final ValueChanged<Country.Country>? selectedCountry;
+  final ValueChanged<country.Country>? selectedCountry;
   const DepCountryPicker({required this.selectedCountry, super.key});
 
   @override
@@ -15,7 +15,7 @@ class DepCountryPicker extends StatefulWidget {
 }
 
 class _DepCountryPickerState extends State<DepCountryPicker> {
-  Country.Country initialSelectedCountry = countries[229];
+  country.Country initialSelectedCountry = countries[229];
   ScrollController scrollController = ScrollController();
 
   @override
@@ -26,7 +26,7 @@ class _DepCountryPickerState extends State<DepCountryPicker> {
 
   @override
   Widget build(BuildContext context) {
-    return DropdownSearch<Country.Country>(
+    return DropdownSearch<country.Country>(
       mode: Mode.MENU,
       showSearchBox: true,
       isFilteredOnline: true,
@@ -83,7 +83,7 @@ class _DepCountryPickerState extends State<DepCountryPicker> {
           fillColor: Colors.white),
       dropdownBuilder: customDropDownCountries,
       popupItemBuilder: customPopupItemBuilder,
-      onChanged: (Country.Country? country) {
+      onChanged: (country.Country? country) {
         setState(() {
           if (country != null) {
             initialSelectedCountry = country;
@@ -100,7 +100,7 @@ class _DepCountryPickerState extends State<DepCountryPicker> {
     );
   }
 
-  Widget customDropDownCountries(BuildContext context, Country.Country? item) {
+  Widget customDropDownCountries(BuildContext context, country.Country? item) {
     return Container(
         child: (item == null)
             ? ListTile(
@@ -120,7 +120,7 @@ class _DepCountryPickerState extends State<DepCountryPicker> {
   }
 
   Widget customPopupItemBuilder(
-      BuildContext context, Country.Country item, bool isSelected) {
+      BuildContext context, country.Country item, bool isSelected) {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 8),
       decoration: !isSelected
@@ -144,7 +144,7 @@ class _DepCountryPickerState extends State<DepCountryPicker> {
     );
   }
 
-  Future<List<Country.Country>> getData(String filter) async {
+  Future<List<country.Country>> getData(String filter) async {
     if (filter.isEmpty) {
       // If the query is empty, return all countries
       return countries;
@@ -160,8 +160,8 @@ class _DepCountryPickerState extends State<DepCountryPicker> {
 }
 
 class DepCountryStatePicker extends StatefulWidget {
-  final ValueChanged<Country.Country>? selectedCountry;
-  final ValueChanged<Country.States>? selectedState;
+  final ValueChanged<country.Country>? selectedCountry;
+  final ValueChanged<country.States>? selectedState;
   const DepCountryStatePicker(
       {required this.selectedCountry, required this.selectedState, super.key});
 
@@ -170,9 +170,9 @@ class DepCountryStatePicker extends StatefulWidget {
 }
 
 class _DepCountryStatePickerState extends State<DepCountryStatePicker> {
-  Country.States userSelectedState = countries[229].states!.first;
+  country.States userSelectedState = countries[229].states!.first;
   ScrollController scrollController = ScrollController();
-  Country.Country? userSelectedCountry;
+  country.Country? userSelectedCountry;
 
   @override
   void initState() {
@@ -193,7 +193,7 @@ class _DepCountryStatePickerState extends State<DepCountryStatePicker> {
           },
         ),
         verticalSpaceSmallX,
-        DropdownSearch<Country.States>(
+        DropdownSearch<country.States>(
           mode: Mode.MENU,
           showSearchBox: true,
           isFilteredOnline: true,
@@ -244,7 +244,7 @@ class _DepCountryStatePickerState extends State<DepCountryStatePicker> {
               fillColor: Colors.white),
           dropdownBuilder: customDropDownStates,
           popupItemBuilder: customPopupItemBuilder,
-          onChanged: (Country.States? states) {
+          onChanged: (country.States? states) {
             setState(() {
               if (states != null) {
                 userSelectedState = states;
@@ -263,7 +263,7 @@ class _DepCountryStatePickerState extends State<DepCountryStatePicker> {
     );
   }
 
-  Widget customDropDownStates(BuildContext context, Country.States? item) {
+  Widget customDropDownStates(BuildContext context, country.States? item) {
     return Container(
         child: (item == null)
             ? ListTile(
@@ -283,7 +283,7 @@ class _DepCountryStatePickerState extends State<DepCountryStatePicker> {
   }
 
   Widget customPopupItemBuilder(
-      BuildContext context, Country.States item, bool isSelected) {
+      BuildContext context, country.States item, bool isSelected) {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 8),
       decoration: !isSelected
@@ -303,7 +303,7 @@ class _DepCountryStatePickerState extends State<DepCountryStatePicker> {
     );
   }
 
-  Future<List<Country.States>> getData(String filter) async {
+  Future<List<country.States>> getData(String filter) async {
     if (filter.isEmpty) {
       // If the query is empty, return all countries
       return userSelectedCountry!.states!;
@@ -319,8 +319,8 @@ class _DepCountryStatePickerState extends State<DepCountryStatePicker> {
 }
 
 class DepCountryStateCityPicker extends StatefulWidget {
-  final ValueChanged<Country.Country>? selectedCountry;
-  final ValueChanged<Country.States>? selectedState;
+  final ValueChanged<country.Country>? selectedCountry;
+  final ValueChanged<country.States>? selectedState;
   final ValueChanged<String>? selectedCity;
   const DepCountryStateCityPicker(
       {required this.selectedCountry,
@@ -336,8 +336,8 @@ class DepCountryStateCityPicker extends StatefulWidget {
 class _DepCountryStateCityPickerState extends State<DepCountryStateCityPicker> {
   // Country.States userSelectedState = countries[229].states!.first;
   ScrollController scrollController = ScrollController();
-  Country.Country? userSelectedCountry;
-  Country.States? userSelectedState;
+  country.Country? userSelectedCountry;
+  country.States? userSelectedState;
   String? userSelectedCity;
 
   @override

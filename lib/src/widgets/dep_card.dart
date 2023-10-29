@@ -147,13 +147,13 @@ class DepCard extends StatelessWidget {
 
     final Widget overlayImage = DepImageOverlay(
       width: MediaQuery.of(context).size.width,
-      child: cardChild,
       color: color ?? cardTheme.color ?? Theme.of(context).cardColor,
       image: imageOverlay,
       boxFit: boxFit,
       colorFilter: colorFilter,
       border: border,
       borderRadius: borderRadius ?? const BorderRadius.all(Radius.circular(4)),
+      child: cardChild,
     );
 
     return Container(

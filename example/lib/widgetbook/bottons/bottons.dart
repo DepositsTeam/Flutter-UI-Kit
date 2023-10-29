@@ -2,7 +2,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-WidgetbookUseCase PrimaryButton(BuildContext context) {
+WidgetbookUseCase primaryButton(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Button/Primary Button',
       builder: (context) => Scaffold(
@@ -87,7 +87,7 @@ WidgetbookUseCase PrimaryButton(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase DefaultButton(BuildContext context) {
+WidgetbookUseCase defaultButton(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Button/Default Button',
       builder: (context) => Scaffold(
@@ -155,12 +155,12 @@ WidgetbookUseCase DefaultButton(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase DangerButton(BuildContext context) {
+WidgetbookUseCase dangerButton(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Button/Danger Button',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
-              titleWidget: DepText(
+              titleWidget: const DepText(
                 text: "Danger Button",
                 txtColor: Colors.white,
                 font: 18,
@@ -237,12 +237,12 @@ WidgetbookUseCase DangerButton(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase SuccessButton(BuildContext context) {
+WidgetbookUseCase successButton(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Button/Success Button',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
-              titleWidget: DepText(
+              titleWidget: const DepText(
                 text: "Success Button",
                 txtColor: Colors.white,
                 font: 18,
@@ -319,12 +319,12 @@ WidgetbookUseCase SuccessButton(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase InvincibleButton(BuildContext context) {
+WidgetbookUseCase invincibleButton(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Button/Invincible Button',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
-              titleWidget: DepText(
+              titleWidget: const DepText(
                 text: "Invincible Button",
                 txtColor: secondaryColor,
                 font: 18,
@@ -380,12 +380,12 @@ WidgetbookUseCase InvincibleButton(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase OutlineButton(BuildContext context) {
+WidgetbookUseCase outlineButton(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Button/Outline Button',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
-              titleWidget: DepText(
+              titleWidget: const DepText(
                 text: "Outline Button",
                 txtColor: white,
                 font: 18,
@@ -444,12 +444,12 @@ WidgetbookUseCase OutlineButton(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase FilledSocialButton(BuildContext context) {
+WidgetbookUseCase filledSocialButton(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Filled Social Button',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
-              titleWidget: DepText(
+              titleWidget: const DepText(
                 text: "Filled Social Button",
                 txtColor: white,
                 font: 18,
@@ -471,7 +471,7 @@ WidgetbookUseCase FilledSocialButton(BuildContext context) {
                       text: context.knobs.text(
                           label: 'Filled Button',
                           initialValue: 'Filled Button'),
-                      icon: Icon(Icons.facebook),
+                      icon: const Icon(Icons.facebook),
                       type: context.knobs.options(
                           label: 'Button Type',
                           description: 'Select Button Type',
@@ -516,12 +516,12 @@ WidgetbookUseCase FilledSocialButton(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase OutlinedSocialButton(BuildContext context) {
+WidgetbookUseCase outlinedSocialButton(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Outlined Social Button',
       builder: (context) => Scaffold(
             appBar: DepAppbarWidget(
-              titleWidget: DepText(
+              titleWidget: const DepText(
                 text: "Outlined Social Button",
                 txtColor: white,
                 font: 18,
@@ -540,19 +540,19 @@ WidgetbookUseCase OutlinedSocialButton(BuildContext context) {
                 children: [
                   DepIconButton(
                     onPressed: () {},
-                    icon: Icon(Icons.facebook),
+                    icon: const Icon(Icons.facebook),
                     size: context.knobs.options(
                         label: 'Icon Size',
                         description: 'Select icon size',
                         options: const [
                           Option(
                             label: 'Small',
-                            value: DepSize.SMALL,
+                            value: DepSize.small,
                           ),
-                          Option(label: 'Medium', value: DepSize.MEDIUM),
+                          Option(label: 'Medium', value: DepSize.medium),
                           Option(
                             label: 'Large',
-                            value: DepSize.LARGE,
+                            value: DepSize.large,
                           ),
                         ]), //DepSize.SMALL,
                     type: context.knobs.options(

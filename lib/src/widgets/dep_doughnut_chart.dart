@@ -43,7 +43,7 @@ class _DepDoughnutChartState extends State<DepDoughnutChart> {
                     verticalSpaceTiny,
                     DepText(
                       text: widget.amount,
-                      txtColor: Color(0xFF2A2E33),
+                      txtColor: const Color(0xFF2A2E33),
                       font: 40,
                       fntweight: FontWeight.w500,
                       letterSpace: -1.50,

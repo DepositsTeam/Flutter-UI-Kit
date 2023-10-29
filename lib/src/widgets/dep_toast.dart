@@ -15,35 +15,35 @@ void depToast({
   IconData? icon;
   Color? backgroundColor, titleColor, messageColor, leftBarIndicatorColor;
   switch (toastType) {
-    case ToastType.General:
+    case ToastType.general:
       icon = null;
       backgroundColor = gray200;
       leftBarIndicatorColor = null;
       titleColor = black;
       messageColor = black;
       break;
-    case ToastType.Info:
+    case ToastType.info:
       icon = Icons.error;
       backgroundColor = blue500;
       leftBarIndicatorColor = blue500;
       titleColor = white;
       messageColor = white;
       break;
-    case ToastType.Warning:
+    case ToastType.warning:
       icon = Icons.warning;
       backgroundColor = orange600;
       leftBarIndicatorColor = orange600;
       titleColor = black;
       messageColor = black;
       break;
-    case ToastType.Error:
+    case ToastType.error:
       icon = Icons.error;
       backgroundColor = red500;
       leftBarIndicatorColor = red500;
       titleColor = white;
       messageColor = white;
       break;
-    case ToastType.Success:
+    case ToastType.success:
       icon = Icons.check_circle_rounded;
       backgroundColor = green500;
       leftBarIndicatorColor = green500;

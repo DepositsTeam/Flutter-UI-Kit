@@ -28014,7 +28014,7 @@ final List<Country> countries = [
         States(name: "Wonju", cities: ["Inchon", "Pusan", "Taejon"]),
         States(name: "gwangyoksi", cities: [])
       ]),
-  Country(
+  const Country(
       name: "Kosovo",
       flag: "🇽🇰",
       code: "XK",
@@ -39623,7 +39623,7 @@ final List<Country> countries = [
         States(name: "Kigali-ngali", cities: ["Ruhengeri"]),
         States(name: "Ruhengeri", cities: ["Georgetown"])
       ]),
-  Country(
+  const Country(
       name: "Saint Barthelemy",
       flag: "🇧🇱",
       code: "BL",
@@ -39686,7 +39686,7 @@ final List<Country> countries = [
         States(name: "Soufriere", cities: []),
         States(name: "Vieux Fort", cities: ["Miquelon"])
       ]),
-  Country(
+  const Country(
       name: "Saint Martin",
       flag: "🇲🇫",
       code: "MF",
@@ -42781,7 +42781,7 @@ final List<Country> countries = [
             name: "Yasothon",
             cities: ["Guerin Kouka", "Sokode", "Sotouboua", "Tchamba"])
       ]),
-  Country(
+  const Country(
       name: "Timor-Leste",
       flag: "🇹🇱",
       code: "TL",

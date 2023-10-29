@@ -8,8 +8,8 @@ final Key buttonKey = UniqueKey();
 const filledIcon = Icon(Icons.favorite);
 const defaultIcon = Icon(Icons.favorite_border);
 
-WidgetbookUseCase BasicRating(BuildContext context) {
-  double _rating = 4;
+WidgetbookUseCase basicRating(BuildContext context) {
+  double rating = 4;
   return WidgetbookUseCase(
       name: 'Rating/Basic',
       builder: (context) => Scaffold(
@@ -38,11 +38,11 @@ WidgetbookUseCase BasicRating(BuildContext context) {
                               (BuildContext context, StateSetter setState) =>
                                   DepRating(
                                     key: ratingKey,
-                                    value: _rating,
+                                    value: rating,
                                     onChanged: (value) {
-                                      print('value $value');
+                                      debugPrint('value $value');
                                       setState(() {
-                                        _rating = value;
+                                        rating = value;
                                       });
                                     },
                                   )),
@@ -50,8 +50,8 @@ WidgetbookUseCase BasicRating(BuildContext context) {
                   ]))));
 }
 
-WidgetbookUseCase IconRating(BuildContext context) {
-  double _rating = 1;
+WidgetbookUseCase iconRating(BuildContext context) {
+  double rating = 1;
   return WidgetbookUseCase(
       name: 'Rating/Icon',
       builder: (context) => Scaffold(
@@ -80,13 +80,13 @@ WidgetbookUseCase IconRating(BuildContext context) {
                               (BuildContext context, StateSetter setState) =>
                                   DepRating(
                                     key: ratingKey,
-                                    value: _rating,
+                                    value: rating,
                                     defaultIcon: defaultIcon,
                                     filledIcon: filledIcon,
                                     onChanged: (value) {
-                                      print('value $value');
+                                      debugPrint('value $value');
                                       setState(() {
-                                        _rating = value;
+                                        rating = value;
                                       });
                                     },
                                   )),
@@ -94,10 +94,10 @@ WidgetbookUseCase IconRating(BuildContext context) {
                   ]))));
 }
 
-WidgetbookUseCase EditTextRating(BuildContext context) {
-  final _ratingController = TextEditingController();
-  double _rating = 3.5;
-  _ratingController.text = '3.5';
+WidgetbookUseCase editTextRating(BuildContext context) {
+  final ratingController = TextEditingController();
+  double rating = 3.5;
+  ratingController.text = '3.5';
   return WidgetbookUseCase(
       name: 'Rating/Edittext',
       builder: (context) => Scaffold(
@@ -126,16 +126,16 @@ WidgetbookUseCase EditTextRating(BuildContext context) {
                             Material(
                           child: DepRating(
                             key: ratingKey,
-                            value: _rating,
-                            controller: _ratingController,
+                            value: rating,
+                            controller: ratingController,
                             showTextForm: true,
                             suffixIcon: DepNormalButton(
                               key: buttonKey,
                               type: DepButtonType.transparent,
                               onPressed: () {
                                 setState(() {
-                                  _rating =
-                                      double.parse(_ratingController.text);
+                                  rating =
+                                      double.parse(ratingController.text);
                                 });
                               },
                               child: const Text('Rate'),

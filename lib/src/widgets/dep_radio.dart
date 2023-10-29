@@ -8,7 +8,7 @@ class DepRadio<T> extends StatefulWidget {
       required this.value,
       required this.groupValue,
       required this.onChanged,
-      this.size = DepSize.SMALL,
+      this.size = DepSize.small,
       this.type = DepRadioType.basic,
       this.radioColor = white,
       this.activeBgColor = primaryColor,
@@ -45,10 +45,11 @@ class DepRadio<T> extends StatefulWidget {
   final bool toggleable;
 
   @override
-  _GFRadioState<T> createState() => _GFRadioState<T>();
+  GFRadioState<T> createState() => GFRadioState<T>();
 }
 
-class _GFRadioState<T> extends State<DepRadio<T>> with TickerProviderStateMixin {
+class GFRadioState<T> extends State<DepRadio<T>>
+    with TickerProviderStateMixin {
   bool get enabled => widget.onChanged != null;
   bool selected = false;
   T? groupValue;
@@ -68,12 +69,12 @@ class _GFRadioState<T> extends State<DepRadio<T>> with TickerProviderStateMixin 
   Widget build(BuildContext context) {
     selected = widget.value == widget.groupValue;
     return InkWell(
-        borderRadius:
-            widget.type == DepRadioType.basic && widget.type == DepRadioType.blunt
-                ? BorderRadius.circular(50)
-                : widget.type == DepRadioType.square
-                    ? BorderRadius.circular(0)
-                    : BorderRadius.circular(10),
+        borderRadius: widget.type == DepRadioType.basic &&
+                widget.type == DepRadioType.blunt
+            ? BorderRadius.circular(50)
+            : widget.type == DepRadioType.square
+                ? BorderRadius.circular(0)
+                : BorderRadius.circular(10),
         enableFeedback: enabled,
         onTap: onStatusChange,
         child: Container(

@@ -14,7 +14,7 @@ class DepRating extends StatefulWidget {
     this.defaultIcon,
     this.color,
     this.borderColor,
-    this.size = DepSize.MEDIUM,
+    this.size = DepSize.medium,
     this.filledIcon,
     this.halfFilledIcon,
     this.allowHalfRating = true,
@@ -78,10 +78,10 @@ class DepRating extends StatefulWidget {
   final EdgeInsets padding;
 
   @override
-  _DepRatingState createState() => _DepRatingState();
+  DepRatingState createState() => DepRatingState();
 }
 
-class _DepRatingState extends State<DepRating> {
+class DepRatingState extends State<DepRating> {
   Widget buildRatingBar(BuildContext context, int index) {
     Widget icon;
     if (index >= widget.value) {
@@ -117,8 +117,8 @@ class _DepRatingState extends State<DepRating> {
       onHorizontalDragUpdate: (dragDetails) {
         // ignore: avoid_as
         final RenderBox box = context.findRenderObject() as RenderBox;
-        final _pos = box.globalToLocal(dragDetails.globalPosition);
-        final i = _pos.dx / widget.size;
+        final pos = box.globalToLocal(dragDetails.globalPosition);
+        final i = pos.dx / widget.size;
         var newRating = widget.allowHalfRating ? i : i.round().toDouble();
         if (newRating > widget.itemCount) {
           newRating = widget.itemCount.toDouble();

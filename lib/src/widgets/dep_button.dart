@@ -39,7 +39,7 @@ class DepButton extends StatelessWidget {
       this.isResponsive = false,
       this.showDropDownIcon = false})
       : assert(
-          title == null || titleWidget == null,
+          titleWidget == null,
           'Cannot provide both a title and a child\n'
           'To provide both, use "titleWidget: Text(title)".',
         ),

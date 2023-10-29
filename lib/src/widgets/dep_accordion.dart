@@ -84,10 +84,10 @@ class DepAccordion extends StatefulWidget {
   final Function(bool)? onToggleCollapsed;
 
   @override
-  _GFAccordionState createState() => _GFAccordionState();
+  GFAccordionState createState() => GFAccordionState();
 }
 
-class _GFAccordionState extends State<DepAccordion>
+class GFAccordionState extends State<DepAccordion>
     with TickerProviderStateMixin {
   late AnimationController animationController;
   late AnimationController controller;

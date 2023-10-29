@@ -8,7 +8,7 @@ class DepRadioListTile<T> extends StatelessWidget {
     required this.value,
     required this.groupValue,
     required this.onChanged,
-    this.size = DepSize.SMALL,
+    this.size = DepSize.small,
     this.type = DepRadioType.basic,
     this.radioColor = primaryColor,
     this.activeBgColor = white,

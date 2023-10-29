@@ -1,12 +1,8 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
-import 'package:dropdown_search2/dropdown_search2.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:widgetbook/widgetbook.dart';
 
 WidgetbookUseCase countryPicker(BuildContext context) {
-  Country? selectedCountry;
 
   return WidgetbookUseCase(
       name: 'Country Picker',
@@ -29,15 +25,12 @@ WidgetbookUseCase countryPicker(BuildContext context) {
                 alignment: Alignment.center,
                 child: DepCountryPicker(
                   selectedCountry: (value) {
-                    selectedCountry = value;
                   },
                 ));
           })));
 }
 
 WidgetbookUseCase countryStatePicker(BuildContext context) {
-  States? selectedState;
-  Country? selectedCountry;
 
   return WidgetbookUseCase(
       name: 'Country State Picker',
@@ -59,19 +52,14 @@ WidgetbookUseCase countryStatePicker(BuildContext context) {
                 ),
                 child: DepCountryStatePicker(
                   selectedCountry: (value) {
-                    selectedCountry = value;
                   },
                   selectedState: (value) {
-                    selectedState = value;
                   },
                 ));
           })));
 }
 
 WidgetbookUseCase countryStateCityPicker(BuildContext context) {
-  Country? selectedCountry;
-  States? selectedState;
-  String? selectedCity;
 
   return WidgetbookUseCase(
       name: 'Country State City Picker',
@@ -92,11 +80,8 @@ WidgetbookUseCase countryStateCityPicker(BuildContext context) {
                   horizontal: 16,
                 ),
                 child: DepCountryStateCityPicker(selectedCountry: (value) {
-                  selectedCountry = value;
                 }, selectedState: (value) {
-                  selectedState = value;
                 }, selectedCity: (value) {
-                  selectedCity = value;
                 }));
           })));
 }

@@ -1,7 +1,8 @@
 import 'dart:math';
-import 'package:deposits_ui_kit/deposits_ui_kit.dart';
+
 import 'package:collection/collection.dart';
-import 'package:flutter/material.dart';
+
+import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 
 List<double> get randomNumbers {
   final Random random = Random();

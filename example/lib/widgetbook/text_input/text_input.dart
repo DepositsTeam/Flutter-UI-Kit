@@ -4,7 +4,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-WidgetbookUseCase BasicTextInput(BuildContext context) {
+WidgetbookUseCase basicTextInput(BuildContext context) {
   bool passwordVisible = true;
   bool emailHasError = false;
   bool passwordHasError = false;
@@ -57,12 +57,12 @@ WidgetbookUseCase BasicTextInput(BuildContext context) {
                             {FocusScope.of(context).requestFocus(passwordNode)},
                         onChanged: (value) {
                           setState(() {
-                          if (emailController.text.isNotEmpty &&
-                              passwordController.text.isNotEmpty) {
-                            ready = true;
-                          } else {
-                            ready = false;
-                          }
+                            if (emailController.text.isNotEmpty &&
+                                passwordController.text.isNotEmpty) {
+                              ready = true;
+                            } else {
+                              ready = false;
+                            }
                           });
                         },
                       ),
@@ -77,12 +77,12 @@ WidgetbookUseCase BasicTextInput(BuildContext context) {
                         validator: FormBuilderValidators.required(),
                         onChanged: (value) {
                           setState(() {
-                          if (emailController.text.isNotEmpty &&
-                              passwordController.text.isNotEmpty) {
-                            ready = true;
-                          } else {
-                            ready = false;
-                          }
+                            if (emailController.text.isNotEmpty &&
+                                passwordController.text.isNotEmpty) {
+                              ready = true;
+                            } else {
+                              ready = false;
+                            }
                           });
                         },
                         keyboardType: TextInputType.visiblePassword,

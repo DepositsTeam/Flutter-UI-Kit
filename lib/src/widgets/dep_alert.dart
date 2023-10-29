@@ -2,7 +2,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-void DepDialog({
+void depDialog({
   required BuildContext context,
   required String title,
   required String content,

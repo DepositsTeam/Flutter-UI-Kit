@@ -4,7 +4,6 @@ import 'package:deposits_ui_kit_example/widgetbook/avatar/avatar.dart';
 import 'package:deposits_ui_kit_example/widgetbook/badge/badges.dart';
 import 'package:deposits_ui_kit_example/widgetbook/bottom_sheet/bottom_sheet.dart';
 import 'package:deposits_ui_kit_example/widgetbook/bottons/bottons.dart';
-import 'package:deposits_ui_kit_example/widgetbook/card/card.dart';
 import 'package:deposits_ui_kit_example/widgetbook/charts/multiple_line_chart.dart';
 import 'package:deposits_ui_kit_example/widgetbook/charts/single_line_chart.dart';
 import 'package:deposits_ui_kit_example/widgetbook/charts/half_pie_chart.dart';
@@ -39,21 +38,21 @@ class HotreloadWidgetbook extends StatelessWidget {
                 name: 'Accordion/Basic',
                 useCases: [
                   //-------------default button----------------------//
-                  BasicAccordion(context),
+                  basicAccordion(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Accordion/Icon',
                 useCases: [
                   //-------------default button----------------------//
-                  IconAccordion(context),
+                  iconAccordion(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Accordion/Text',
                 useCases: [
                   //-------------default button----------------------//
-                  TextAccordion(context),
+                  textAccordion(context),
                 ],
               )
             ],
@@ -66,50 +65,50 @@ class HotreloadWidgetbook extends StatelessWidget {
                 name: 'Default Button',
                 useCases: [
                   //-------------default button----------------------//
-                  DefaultButton(context),
+                  defaultButton(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'primary Button',
                 useCases: [
                   //-------------primary button----------------------//
-                  PrimaryButton(context),
+                  primaryButton(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Danger Button',
                 useCases: [
                   //-------------Danger button----------------------//
-                  DangerButton(context),
+                  dangerButton(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Success Button',
                 useCases: [
                   //-------------Success button----------------------//
-                  SuccessButton(context),
+                  successButton(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Invincible Button',
                 useCases: [
                   //-------------Invincible button----------------------//
-                  InvincibleButton(context),
+                  invincibleButton(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Outline Button',
                 useCases: [
                   //-------------Outline button----------------------//
-                  OutlineButton(context),
+                  outlineButton(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Social Button',
                 useCases: [
                   //-------------Social button----------------------//
-                  FilledSocialButton(context),
-                  OutlinedSocialButton(context),
+                  filledSocialButton(context),
+                  outlinedSocialButton(context),
                 ],
               ),
             ],
@@ -122,14 +121,14 @@ class HotreloadWidgetbook extends StatelessWidget {
                 name: 'Subtle Badge',
                 useCases: [
                   //-------------Subtle badge----------------------//
-                  SubtleBadge(context),
+                  subtleBadge(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Solid Badge',
                 useCases: [
                   //-------------Solid badge----------------------//
-                  SolidBadge(context),
+                  solidBadge(context),
                 ],
               ),
             ],
@@ -142,28 +141,28 @@ class HotreloadWidgetbook extends StatelessWidget {
                 name: 'Title Toast',
                 useCases: [
                   //-------------Title Toast----------------------//
-                  TitleToast(context),
+                  titleToast(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Title Indicator Toast',
                 useCases: [
                   //-------------Title Indicator Toast----------------------//
-                  TitleIndicatorToast(context),
+                  titleIndicatorToast(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Title Mgs Toast',
                 useCases: [
                   //-------------Title Mgs Toast----------------------//
-                  TitleMgsToast(context),
+                  titleMgsToast(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Indicator Toast',
                 useCases: [
                   //-------------Indicator Toast----------------------//
-                  IndicatorToast(context),
+                  indicatorToast(context),
                 ],
               ),
             ],
@@ -176,42 +175,42 @@ class HotreloadWidgetbook extends StatelessWidget {
                 name: 'Chromatic Colors',
                 useCases: [
                   //-------------Chromatic Colors----------------------//
-                  ChromaticColors(context),
+                  chromaticColors(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Cyan Color Shades',
                 useCases: [
                   //-------------Cyan Color Shades----------------------//
-                  CyanColorShades(context),
+                  cyanColorShades(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Green Color Shades',
                 useCases: [
                   //-------------Green Color Shades----------------------//
-                  GreenColorShades(context),
+                  greenColorShades(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Orange Color Shades',
                 useCases: [
                   //-------------Orange Color Shades----------------------//
-                  OrangeColorShades(context),
+                  orangeColorShades(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Red Color Shades',
                 useCases: [
                   //-------------Red Color Shades----------------------//
-                  RedColorShades(context),
+                  redColorShades(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Blue Color Shades',
                 useCases: [
                   //-------------Blue Color Shades----------------------//
-                  BlueColorShades(context),
+                  blueColorShades(context),
                 ],
               ),
             ],
@@ -224,28 +223,28 @@ class HotreloadWidgetbook extends StatelessWidget {
                 name: 'Basic Avatar',
                 useCases: [
                   //-------------Basic Avatar----------------------//
-                  BasicAvatar(context),
+                  basicAvatar(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Basic Subtile Avatar',
                 useCases: [
                   //-------------Basic Subtile Avatar----------------------//
-                  BasicSubtileAvatar(context),
+                  basicSubtileAvatar(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Badge Avatar',
                 useCases: [
                   //-------------Badge Avatar----------------------//
-                  BadgeAvatar(context),
+                  badgeAvatar(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Badge Subtile Avatar',
                 useCases: [
                   //-------------Badge Subtile Avatar----------------------//
-                  BadgeSubtleAvatar(context),
+                  badgeSubtleAvatar(context),
                 ],
               ),
             ],
@@ -258,21 +257,21 @@ class HotreloadWidgetbook extends StatelessWidget {
                 name: 'Radio Label',
                 useCases: [
                   //-------------Radio Label----------------------//
-                  RadioLabel(context),
+                  radioLabel(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Radio ListTile Label',
                 useCases: [
                   //-------------Radio ListTile Label----------------------//
-                  RadioListTileLabel(context),
+                  radioListTileLabel(context),
                 ],
               ),
               WidgetbookComponent(
                 name: 'Check Label',
                 useCases: [
                   //-------------Check Label----------------------//
-                  CheckLabel(context),
+                  checkLabel(context),
                 ],
               ),
             ],
@@ -317,21 +316,21 @@ class HotreloadWidgetbook extends StatelessWidget {
               name: 'BottomSheet/Basic',
               useCases: [
                 //-------------Basic button----------------------//
-                BasicBottomSheet(context),
+                basicBottomSheet(context),
               ],
             ),
             WidgetbookComponent(
               name: 'BottomSheet/Footer',
               useCases: [
                 //-------------Footer bottom sheet----------------------//
-                FooterBottomSheet(context),
+                footerBottomSheet(context),
               ],
             ),
             WidgetbookComponent(
               name: 'BottomSheet/Expandable Content',
               useCases: [
                 //-------------Footer bottom sheet----------------------//
-                ExpandableBottomSheet(context),
+                expandableBottomSheet(context),
               ],
             ),
           ]),
@@ -341,21 +340,21 @@ class HotreloadWidgetbook extends StatelessWidget {
               name: 'Basic Image',
               useCases: [
                 //-------------basic image----------------------//
-                BasicImage(context),
+                basicImage(context),
               ],
             ),
             WidgetbookComponent(
               name: 'Image with Child widget & alignment',
               useCases: [
                 //-------------basic image----------------------//
-                ChildImage(context),
+                childImage(context),
               ],
             ),
             WidgetbookComponent(
               name: 'Overlay Image',
               useCases: [
                 //-------------basic image----------------------//
-                OverlayImage(context),
+                overlayImage(context),
               ],
             ),
           ]),
@@ -389,28 +388,28 @@ class HotreloadWidgetbook extends StatelessWidget {
               name: 'Basic Loader',
               useCases: [
                 //-------------IOS loader----------------------//
-                BasicLoader(context),
+                basicLoader(context),
               ],
             ),
             WidgetbookComponent(
               name: 'Custom loader with image/gif',
               useCases: [
                 //-------------icon rating----------------------//
-                CustomLoader(context),
+                customLoader(context),
               ],
             ),
             WidgetbookComponent(
               name: 'Custom loader with Icons',
               useCases: [
                 //-------------half rating----------------------//
-                CustomIconsLoader(context),
+                customIconsLoader(context),
               ],
             ),
             WidgetbookComponent(
               name: 'Custom loader with Text',
               useCases: [
                 //-------------half rating----------------------//
-                CustomTextLoader(context),
+                customTextLoader(context),
               ],
             ),
           ]),
@@ -420,7 +419,7 @@ class HotreloadWidgetbook extends StatelessWidget {
               name: 'Basic Toggle',
               useCases: [
                 //-------------IOS loader----------------------//
-                BasicToggle(context),
+                basicToggle(context),
               ],
             ),
           ]),
@@ -430,7 +429,7 @@ class HotreloadWidgetbook extends StatelessWidget {
               name: 'Basic Input Text',
               useCases: [
                 //-------------Input text----------------------//
-                BasicTextInput(context),
+                basicTextInput(context),
               ],
             ),
           ]),
@@ -441,7 +440,7 @@ class HotreloadWidgetbook extends StatelessWidget {
               useCases: [
                 //-------------Payment Card----------------------//
                 // PaymentCard(context),
-                PaymentMainCard(context),
+                paymentMainCard(context),
               ],
             ),
           ]),
@@ -451,7 +450,7 @@ class HotreloadWidgetbook extends StatelessWidget {
               name: 'Alerts IOS Native',
               useCases: [
                 //-------------Alerts IOSt----------------------//
-                AlertIOS(context),
+                alertIOS(context),
               ],
             ),
           ]),

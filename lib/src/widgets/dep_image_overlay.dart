@@ -81,7 +81,6 @@ class DepImageOverlay extends StatelessWidget {
         width: width ?? MediaQuery.of(context).size.width,
         margin: margin,
         padding: padding,
-        child: child,
         decoration: BoxDecoration(
           shape: shape,
           borderRadius: borderRadius,
@@ -93,5 +92,6 @@ class DepImageOverlay extends StatelessWidget {
             image: image!,
           ),
         ),
+        child: child,
       );
 }

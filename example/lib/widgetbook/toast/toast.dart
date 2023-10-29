@@ -2,7 +2,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-WidgetbookUseCase TitleToast(BuildContext context) {
+WidgetbookUseCase titleToast(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Toast/Title Toast',
       builder: (context) => Scaffold(
@@ -31,7 +31,7 @@ WidgetbookUseCase TitleToast(BuildContext context) {
                           depToast(
                               context: context,
                               msg: "A simple general message",
-                              toastType: ToastType.General);
+                              toastType: ToastType.general);
                         },
                         buttonColor: gray200,
                         title: "Info Toast",
@@ -42,7 +42,7 @@ WidgetbookUseCase TitleToast(BuildContext context) {
                           depToast(
                               context: context,
                               msg: "This is an info alert ",
-                              toastType: ToastType.Info);
+                              toastType: ToastType.info);
                         },
                         buttonColor: blue500,
                         title: "Info Toast",
@@ -53,7 +53,7 @@ WidgetbookUseCase TitleToast(BuildContext context) {
                           depToast(
                               context: context,
                               msg: "This is an warning alert ",
-                              toastType: ToastType.Warning);
+                              toastType: ToastType.warning);
                         },
                         buttonColor: orange600,
                         title: "Warning Toast",
@@ -64,7 +64,7 @@ WidgetbookUseCase TitleToast(BuildContext context) {
                           depToast(
                               context: context,
                               msg: "This is an error alert ",
-                              toastType: ToastType.Error);
+                              toastType: ToastType.error);
                         },
                         buttonColor: red500,
                         title: "Error Toast",
@@ -75,7 +75,7 @@ WidgetbookUseCase TitleToast(BuildContext context) {
                           depToast(
                               context: context,
                               msg: "This is an success alert ",
-                              toastType: ToastType.Success);
+                              toastType: ToastType.success);
                         },
                         buttonColor: green600,
                         title: "Success Toast",
@@ -85,7 +85,7 @@ WidgetbookUseCase TitleToast(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase TitleIndicatorToast(BuildContext context) {
+WidgetbookUseCase titleIndicatorToast(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Toast/Title Indicator Toast',
       builder: (context) => Scaffold(
@@ -115,7 +115,7 @@ WidgetbookUseCase TitleIndicatorToast(BuildContext context) {
                               isLeftIndicatorPresent: true,
                               context: context,
                               msg: "A simple general message",
-                              toastType: ToastType.General);
+                              toastType: ToastType.general);
                         },
                         buttonColor: gray200,
                         title: "Info Toast",
@@ -127,7 +127,7 @@ WidgetbookUseCase TitleIndicatorToast(BuildContext context) {
                               isLeftIndicatorPresent: true,
                               context: context,
                               msg: "This is an info alert ",
-                              toastType: ToastType.Info);
+                              toastType: ToastType.info);
                         },
                         buttonColor: blue500,
                         title: "Info Toast",
@@ -139,7 +139,7 @@ WidgetbookUseCase TitleIndicatorToast(BuildContext context) {
                               isLeftIndicatorPresent: true,
                               context: context,
                               msg: "This is an warning alert ",
-                              toastType: ToastType.Warning);
+                              toastType: ToastType.warning);
                         },
                         buttonColor: orange600,
                         title: "Warning Toast",
@@ -151,7 +151,7 @@ WidgetbookUseCase TitleIndicatorToast(BuildContext context) {
                               isLeftIndicatorPresent: true,
                               context: context,
                               msg: "This is an error alert ",
-                              toastType: ToastType.Error);
+                              toastType: ToastType.error);
                         },
                         buttonColor: red500,
                         title: "Error Toast",
@@ -163,7 +163,7 @@ WidgetbookUseCase TitleIndicatorToast(BuildContext context) {
                               isLeftIndicatorPresent: true,
                               context: context,
                               msg: "This is an success alert ",
-                              toastType: ToastType.Success);
+                              toastType: ToastType.success);
                         },
                         buttonColor: green600,
                         title: "Success Toast",
@@ -173,7 +173,7 @@ WidgetbookUseCase TitleIndicatorToast(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase TitleMgsToast(BuildContext context) {
+WidgetbookUseCase titleMgsToast(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Toast/Title & Message Toast',
       builder: (context) => Scaffold(
@@ -204,7 +204,7 @@ WidgetbookUseCase TitleMgsToast(BuildContext context) {
                               title: "A simple general message",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.General);
+                              toastType: ToastType.general);
                         },
                         buttonColor: gray200,
                         title: "Info Toast",
@@ -217,7 +217,7 @@ WidgetbookUseCase TitleMgsToast(BuildContext context) {
                               title: "This is an info alert ",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.Info);
+                              toastType: ToastType.info);
                         },
                         buttonColor: blue500,
                         title: "Info Toast",
@@ -230,7 +230,7 @@ WidgetbookUseCase TitleMgsToast(BuildContext context) {
                               title: "This is an warning alert ",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.Warning);
+                              toastType: ToastType.warning);
                         },
                         buttonColor: orange600,
                         title: "Warning Toast",
@@ -243,7 +243,7 @@ WidgetbookUseCase TitleMgsToast(BuildContext context) {
                               title: "This is an error alert ",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.Error);
+                              toastType: ToastType.error);
                         },
                         buttonColor: red500,
                         title: "Error Toast",
@@ -256,7 +256,7 @@ WidgetbookUseCase TitleMgsToast(BuildContext context) {
                               title: "This is an success alert ",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.Success);
+                              toastType: ToastType.success);
                         },
                         buttonColor: green600,
                         title: "Success Toast",
@@ -266,7 +266,7 @@ WidgetbookUseCase TitleMgsToast(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase IndicatorToast(BuildContext context) {
+WidgetbookUseCase indicatorToast(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Toast/Left Indicator Toast',
       builder: (context) => Scaffold(
@@ -298,7 +298,7 @@ WidgetbookUseCase IndicatorToast(BuildContext context) {
                               title: "A simple general message",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.General);
+                              toastType: ToastType.general);
                         },
                         buttonColor: gray200,
                         title: "Info Toast",
@@ -312,7 +312,7 @@ WidgetbookUseCase IndicatorToast(BuildContext context) {
                               title: "This is an info alert ",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.Info);
+                              toastType: ToastType.info);
                         },
                         buttonColor: blue500,
                         title: "Info Toast",
@@ -326,7 +326,7 @@ WidgetbookUseCase IndicatorToast(BuildContext context) {
                               title: "This is an warning alert ",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.Warning);
+                              toastType: ToastType.warning);
                         },
                         buttonColor: orange600,
                         title: "Warning Toast",
@@ -340,7 +340,7 @@ WidgetbookUseCase IndicatorToast(BuildContext context) {
                               title: "This is an error alert ",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.Error);
+                              toastType: ToastType.error);
                         },
                         buttonColor: red500,
                         title: "Error Toast",
@@ -354,7 +354,7 @@ WidgetbookUseCase IndicatorToast(BuildContext context) {
                               title: "This is an success alert ",
                               msg:
                                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                              toastType: ToastType.Success);
+                              toastType: ToastType.success);
                         },
                         buttonColor: green600,
                         title: "Success Toast",

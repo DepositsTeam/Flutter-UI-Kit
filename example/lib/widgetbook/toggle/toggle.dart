@@ -2,8 +2,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-WidgetbookUseCase BasicToggle(BuildContext context) {
-  bool isChecked = false;
+WidgetbookUseCase basicToggle(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Toggle/Basic',
       builder: (context) => Scaffold(

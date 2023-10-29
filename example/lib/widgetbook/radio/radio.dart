@@ -6,7 +6,7 @@ int groupValue = 0;
 String imageUrl =
     "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250";
 
-WidgetbookUseCase RadioLabel(BuildContext context) {
+WidgetbookUseCase radioLabel(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Radio/Basic',
       builder: (context) => Scaffold(
@@ -27,7 +27,7 @@ WidgetbookUseCase RadioLabel(BuildContext context) {
                     horizontal: 16,
                   ),
                   child: DepRadio(
-                    size: DepSize.SMALL,
+                    size: DepSize.small,
                     value: 2,
                     toggleable: true,
                     type: context.knobs.options(
@@ -58,7 +58,7 @@ WidgetbookUseCase RadioLabel(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase RadioListTileLabel(BuildContext context) {
+WidgetbookUseCase radioListTileLabel(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Radio/ListTile',
       builder: (context) => Scaffold(
@@ -101,7 +101,7 @@ WidgetbookUseCase RadioListTileLabel(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase CheckLabel(BuildContext context) {
+WidgetbookUseCase checkLabel(BuildContext context) {
   bool isChecked = false;
   return WidgetbookUseCase(
       name: 'Checkbox/Basic',
@@ -117,7 +117,6 @@ WidgetbookUseCase CheckLabel(BuildContext context) {
             backgroundColor: primaryColor,
           ),
           body: StatefulBuilder(builder: (context, setState) {
-            
             return Container(
               alignment: Alignment.center,
               padding: const EdgeInsets.symmetric(
@@ -130,15 +129,15 @@ WidgetbookUseCase CheckLabel(BuildContext context) {
                     options: const [
                       Option(
                         label: 'Small',
-                        value: DepSize.SMALL,
+                        value: DepSize.small,
                       ),
                       Option(
                         label: 'Medium',
-                        value: DepSize.MEDIUM,
+                        value: DepSize.medium,
                       ),
                       Option(
                         label: 'Large',
-                        value: DepSize.LARGE,
+                        value: DepSize.large,
                       ),
                     ]),
                 activeBgColor: context.knobs.options(
@@ -158,7 +157,7 @@ WidgetbookUseCase CheckLabel(BuildContext context) {
                         value: greenColor,
                       ),
                     ]),
-                    type:  context.knobs.options(
+                type: context.knobs.options(
                     label: 'Check Type',
                     description: 'Select Check Type',
                     options: const [

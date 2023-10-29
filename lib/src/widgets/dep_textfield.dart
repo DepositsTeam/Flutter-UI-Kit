@@ -54,12 +54,12 @@ class DepTextFieldWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final textStyle = TextStyle(
+    const textStyle = TextStyle(
       color: gray400,
       fontSize: fontSize15,
     );
 
-   final  hintStyle = TextStyle(
+   const  hintStyle = TextStyle(
     fontSize: fontSize16,
     fontWeight: FontWeight.w400,
     color: gray200

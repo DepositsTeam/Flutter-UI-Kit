@@ -2,7 +2,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-WidgetbookUseCase SubtleBadge(BuildContext context) {
+WidgetbookUseCase subtleBadge(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Badge/Subtle Badge',
       builder: (context) => Scaffold(
@@ -66,7 +66,7 @@ WidgetbookUseCase SubtleBadge(BuildContext context) {
           ));
 }
 
-WidgetbookUseCase SolidBadge(BuildContext context) {
+WidgetbookUseCase solidBadge(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Badge/Solid Badge',
       builder: (context) => Scaffold(

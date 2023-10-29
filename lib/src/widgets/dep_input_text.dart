@@ -90,7 +90,7 @@ class _CustomtextFieldState extends State<CustomtextField> {
             keyboardType: widget.keyboardType,
             style: widget.style ??
                 TextStyle(
-                    fontFamily: preferedFont(DepFontName.SFProDisplay),
+                    fontFamily: preferedFont(DepFontName.sfproDisplay),
                     fontSize: (14),
                     fontWeight: FontWeight.w600,
                     color: const Color.fromRGBO(30, 32, 42, 1)),
@@ -138,7 +138,7 @@ class _CustomtextFieldState extends State<CustomtextField> {
                         ),
                   hintStyle: widget.hintStyle ??
                       TextStyle(
-                          fontFamily: preferedFont(DepFontName.SFProText),
+                          fontFamily: preferedFont(DepFontName.sfproText),
                           fontSize: (14),
                           fontWeight: FontWeight.w400,
                           color: gray300),
@@ -153,11 +153,12 @@ class _CustomtextFieldState extends State<CustomtextField> {
                   widget.validator!(widget.controller!.text) != null) {
                 return Row(
                   children: [
-                    const Icon(Icons.error, color: Color.fromRGBO(214, 47, 75, 1)),
+                    const Icon(Icons.error,
+                        color: Color.fromRGBO(214, 47, 75, 1)),
                     horizontalSpaceTiny,
                     DepText(
                       text: widget.validator!(widget.controller!.text)!,
-                      fontFamily: preferedFont(DepFontName.SFProText),
+                      fontFamily: preferedFont(DepFontName.sfproText),
                       txtColor: const Color(0XFFD62F4B),
                       fntweight: FontWeight.w400,
                       font: 12,

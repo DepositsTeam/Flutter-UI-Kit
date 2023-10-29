@@ -30,7 +30,7 @@ class DepListTileWidget extends StatelessWidget {
       contentPadding: contentpadding ??
           EdgeInsets.only(
               left: 0, right: 0, bottom: 0, top: Platform.isAndroid ? 10 : 20),
-      leading: leading ?? null,
+      leading: leading,
       onTap: onTap,
       title: DepText(
         text: title!,
@@ -42,7 +42,7 @@ class DepListTileWidget extends StatelessWidget {
           ? subTitleWidget
           : DepText(
               text: subTitle!,
-              txtColor: Color(0XFF8895A7),
+              txtColor: const Color(0XFF8895A7),
               fntweight: FontWeight.w400,
               font: 13,
             ),

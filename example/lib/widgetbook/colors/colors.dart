@@ -2,7 +2,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
-WidgetbookUseCase ChromaticColors(BuildContext context) {
+WidgetbookUseCase chromaticColors(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Colors/Chromatic Colors',
       builder: (context) => Scaffold(
@@ -63,7 +63,7 @@ WidgetbookUseCase ChromaticColors(BuildContext context) {
           )));
 }
 
-WidgetbookUseCase CyanColorShades(BuildContext context) {
+WidgetbookUseCase cyanColorShades(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Colors/Cyan Color Shades',
       builder: (context) => Scaffold(
@@ -130,7 +130,7 @@ WidgetbookUseCase CyanColorShades(BuildContext context) {
           )));
 }
 
-WidgetbookUseCase GreenColorShades(BuildContext context) {
+WidgetbookUseCase greenColorShades(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Colors/Green Color Shades',
       builder: (context) => Scaffold(
@@ -197,7 +197,7 @@ WidgetbookUseCase GreenColorShades(BuildContext context) {
           )));
 }
 
-WidgetbookUseCase OrangeColorShades(BuildContext context) {
+WidgetbookUseCase orangeColorShades(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Colors/Orange Color Shades',
       builder: (context) => Scaffold(
@@ -264,7 +264,7 @@ WidgetbookUseCase OrangeColorShades(BuildContext context) {
           )));
 }
 
-WidgetbookUseCase RedColorShades(BuildContext context) {
+WidgetbookUseCase redColorShades(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Colors/Red Color Shades',
       builder: (context) => Scaffold(
@@ -331,7 +331,7 @@ WidgetbookUseCase RedColorShades(BuildContext context) {
           )));
 }
 
-WidgetbookUseCase BlueColorShades(BuildContext context) {
+WidgetbookUseCase blueColorShades(BuildContext context) {
   return WidgetbookUseCase(
       name: 'Colors/Blue Color Shades',
       builder: (context) => Scaffold(

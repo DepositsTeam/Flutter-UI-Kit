@@ -10,7 +10,7 @@ class DepBadge extends StatefulWidget {
     this.shape = BadgeShape.standard,
     this.color = red500,
     this.textColor = white,
-    this.size = DepSize.SMALL,
+    this.size = DepSize.small,
     this.border,
     this.text,
     this.child,
@@ -44,10 +44,10 @@ class DepBadge extends StatefulWidget {
   final Color textColor;
 
   @override
-  _GFBadgeState createState() => _GFBadgeState();
+  GFBadgeState createState() => GFBadgeState();
 }
 
-class _GFBadgeState extends State<DepBadge> {
+class GFBadgeState extends State<DepBadge> {
   late Color color;
   late Color textColor;
   Widget? child;
@@ -115,15 +115,15 @@ class _GFBadgeState extends State<DepBadge> {
       );
     }
 
-    if (widget.size == DepSize.SMALL) {
+    if (widget.size == DepSize.small) {
       height = size * 0.56;
       width = size * 0.73;
       fontSize = size * 0.31;
-    } else if (widget.size == DepSize.MEDIUM) {
+    } else if (widget.size == DepSize.medium) {
       height = size * 0.58;
       width = size * 0.76;
       fontSize = size * 0.34;
-    } else if (widget.size == DepSize.LARGE) {
+    } else if (widget.size == DepSize.large) {
       height = size * 0.6;
       width = size * 0.79;
       fontSize = size * 0.37;
@@ -133,7 +133,7 @@ class _GFBadgeState extends State<DepBadge> {
       fontSize = size * 0.34;
     }
 
-    return Container(
+    return SizedBox(
       height: height,
       width: counterShape == BadgeShape.circle ? height : width,
       child: Material(
@@ -144,12 +144,10 @@ class _GFBadgeState extends State<DepBadge> {
         shape: widget.borderShape ?? shape,
         color: color,
         type: MaterialType.button,
-        child: Container(
-          child: Center(
-            widthFactor: 1,
-            heightFactor: 1,
-            child: child,
-          ),
+        child: Center(
+          widthFactor: 1,
+          heightFactor: 1,
+          child: child,
         ),
       ),
     );

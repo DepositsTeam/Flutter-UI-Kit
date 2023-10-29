@@ -35,7 +35,7 @@ class DepNormalButton extends StatefulWidget {
     this.color = primaryColor,
     this.textColor,
     this.position = DepPosition.start,
-    this.size = DepSize.MEDIUM,
+    this.size = DepSize.medium,
     this.borderSide,
     this.text,
     this.icon,
@@ -218,10 +218,10 @@ class DepNormalButton extends StatefulWidget {
   final VoidCallback? onLongPress;
 
   @override
-  _DepNormalButtonState createState() => _DepNormalButtonState();
+  DepNormalButtonState createState() => DepNormalButtonState();
 }
 
-class _DepNormalButtonState extends State<DepNormalButton> {
+class DepNormalButtonState extends State<DepNormalButton> {
   late Color color;
   Color? textColor;
   Color? disabledColor;
@@ -434,11 +434,9 @@ class _DepNormalButtonState extends State<DepNormalButton> {
       color: widget.borderSide == null
           ? getBorderColor()
           : widget.borderSide!.color,
-      width: (widget.borderSide?.width == null
-          ? widget.type == DepButtonType.outline2x
+      width: (widget.borderSide?.width ?? (widget.type == DepButtonType.outline2x
               ? 2.0
-              : 1.0
-          : widget.borderSide?.width)!,
+              : 1.0)),
     );
 
     Size minSize;
@@ -527,18 +525,18 @@ class _DepNormalButtonState extends State<DepNormalButton> {
     }
 
     TextStyle getTextStyle() {
-      if (widget.size == DepSize.SMALL) {
+      if (widget.size == DepSize.small) {
         return TextStyle(
           color: widget.enabled ? getTextColor() : getDisabledTextColor(),
           fontSize: 12,
         );
-      } else if (widget.size == DepSize.MEDIUM) {
+      } else if (widget.size == DepSize.medium) {
         return TextStyle(
           color: widget.enabled ? getTextColor() : getDisabledTextColor(),
           fontSize: 13,
           fontWeight: FontWeight.w400,
         );
-      } else if (widget.size == DepSize.LARGE) {
+      } else if (widget.size == DepSize.large) {
         return TextStyle(
           color: widget.enabled ? getTextColor() : getDisabledTextColor(),
           fontSize: 14,
@@ -559,7 +557,7 @@ class _DepNormalButtonState extends State<DepNormalButton> {
       decoration: widget.type == DepButtonType.solid ? getBoxShadow() : null,
       child: Material(
         elevation: _effectiveElevation,
-        textStyle: widget.textStyle == null ? getTextStyle() : widget.textStyle,
+        textStyle: widget.textStyle ?? getTextStyle(),
         shape: widget.type == DepButtonType.transparent
             ? null
             : widget.borderShape ?? shapeBorderType,
