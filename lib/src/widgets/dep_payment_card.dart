@@ -2,8 +2,8 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
 
 class DepPaymentCard extends StatelessWidget {
-  final String cardName, cardAmount ,cardNumber, cardExpiry, cardCVV, brand;
-  final Widget cardType;
+  final String cardName, cardAmount, cardNumber, cardExpiry, cardCVV;
+  final Widget cardType, brand;
   final bool isHideCardInfo;
   final Color cardColor;
   const DepPaymentCard(
@@ -160,13 +160,15 @@ class DepPaymentCard extends StatelessWidget {
             top: 24,
             right: 17,
             child: SizedBox(
-                width: 85,
-                height: 30,
-                child: Image(
-                    color: (brand.contains('brandlogo') && cardColor != gray700)
-                        ? gray700
-                        : null,
-                    image: AssetImage(brand))),
+              width: 85,
+              height: 30,
+              child: brand,
+              // child: Image(
+              //     color: (brand.contains('brandlogo') && cardColor != gray700)
+              //         ? gray700
+              //         : null,
+              //     image: AssetImage(brand))
+            ),
           ),
         ],
       ),

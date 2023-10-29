@@ -292,21 +292,27 @@ WidgetbookUseCase PaymentMainCard(BuildContext context) {
                                 ),
                               ],
                             ),
-                            brand: context.knobs.options<String>(
+                            brand: context.knobs.options<Image>(
                                 label: 'Select brand',
                                 description: 'List of brands',
                                 options: const [
                                   Option(
                                     label: 'Default',
-                                    value: "assets/images/brandlogo.png",
+                                    value: Image(
+                                        image: AssetImage(
+                                            "assets/images/brandlogo.png")),
                                   ),
                                   Option(
                                     label: 'NFINIT',
-                                    value: "assets/images/nfinit.png",
+                                    value: Image(
+                                        image: AssetImage(
+                                            "assets/images/nfinit.png")),
                                   ),
                                   Option(
                                     label: 'MYFRSH',
-                                    value: "assets/images/myfrsh.png",
+                                    value: Image(
+                                        image: AssetImage(
+                                            "assets/images/myfrsh.png")),
                                   ),
                                 ]),
                             cardType: context.knobs.options<Image>(
