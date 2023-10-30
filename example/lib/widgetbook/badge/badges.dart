@@ -1,4 +1,5 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
+import 'package:deposits_ui_kit_example/widgetbook/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
@@ -23,43 +24,22 @@ WidgetbookUseCase subtleBadge(BuildContext context) {
               ),
               child: DepTextTagTag(
                 text: context.knobs
-                    .text(label: 'Subtle Badge', initialValue: 'Subtle Badge'),
+                    .string(label: 'Subtle Badge', initialValue: 'Subtle Badge'),
                 tagFontSize: context.knobs
+                    .doubleOrNull
                     .slider(
                         label: 'Set font-size',
                         initialValue: 12,
                         max: 16,
-                        min: 12)
-                    .toDouble(),
-                backgroundColor: context.knobs.options(
+                        min: 12),
+                backgroundColor: context.knobs.list(
                   label: 'Button Color',
                   description: 'Background color of the badge.',
-                  options: const [
-                    Option(
-                      label: 'Neutral',
-                      value: gray700,
-                    ),
-                    Option(
-                      label: 'Green',
-                      value: green800,
-                    ),
-                    Option(
-                      label: 'Red',
-                      value: red800,
-                    ),
-                    Option(
-                      label: 'Yellow',
-                      value: orange800,
-                    ),
-                    Option(
-                      label: 'Cyan',
-                      value: cyan800,
-                    ),
-                    Option(
-                      label: 'Blue',
-                      value: blue800,
-                    ),
-                  ],
+                  initialOption: cyan200,
+                  labelBuilder: (value) {
+                    return getSubtleColorLabel(value);
+                  },
+                  options: subtleColorOptions,
                 ),
               ),
             ),
@@ -87,44 +67,23 @@ WidgetbookUseCase solidBadge(BuildContext context) {
               ),
               child: DepTextTagTag(
                 text: context.knobs
-                    .text(label: 'Solid Badge', initialValue: 'Solid Badge'),
+                    .string(label: 'Solid Badge', initialValue: 'Solid Badge'),
                 tagFontSize: context.knobs
+                    .doubleOrNull
                     .slider(
                         label: 'Set font-size',
                         initialValue: 12,
                         max: 16,
-                        min: 12)
-                    .toDouble(),
+                        min: 12),
                 isSolid: true,
-                backgroundColor: context.knobs.options(
+                backgroundColor: context.knobs.list(
                   label: 'Button Color',
                   description: 'Background color of the badge.',
-                  options: const [
-                    Option(
-                      label: 'Neutral',
-                      value: Color(0xff8C97A7),
-                    ),
-                    Option(
-                      label: 'Green',
-                      value: greenColor,
-                    ),
-                    Option(
-                      label: 'Red',
-                      value: redColor,
-                    ),
-                    Option(
-                      label: 'Yellow',
-                      value: orangeColor,
-                    ),
-                    Option(
-                      label: 'Cyan',
-                      value: Color(0xff0C9CCC),
-                    ),
-                    Option(
-                      label: 'Blue',
-                      value: secondaryColor,
-                    ),
-                  ],
+                  initialOption: cyan700,
+                  labelBuilder: (value) {
+                    return getSolidColorLabel(value);
+                  },
+                  options: solidColorOptions,
                 ),
               ),
             ),

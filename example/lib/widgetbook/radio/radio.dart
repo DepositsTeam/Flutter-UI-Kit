@@ -1,4 +1,5 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
+import 'package:deposits_ui_kit_example/widgetbook/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
@@ -30,23 +31,14 @@ WidgetbookUseCase radioLabel(BuildContext context) {
                     size: DepSize.small,
                     value: 2,
                     toggleable: true,
-                    type: context.knobs.options(
+                    type: context.knobs.list(
                         label: 'Circle Shaoe',
                         description: 'Radio Type',
-                        options: const [
-                          Option(
-                            label: 'Basic',
-                            value: DepRadioType.basic,
-                          ),
-                          Option(
-                            label: 'Square',
-                            value: DepRadioType.square,
-                          ),
-                          Option(
-                            label: 'Blunt',
-                            value: DepRadioType.blunt,
-                          ),
-                        ]),
+                        initialOption: DepRadioType.basic,
+                        labelBuilder: (value) {
+                          return getDepRadioTypeLabel(value);
+                        },
+                        options: depRadioTypeOptions),
                     groupValue: groupValue,
                     onChanged: (value) {
                       setState(() {
@@ -123,57 +115,30 @@ WidgetbookUseCase checkLabel(BuildContext context) {
                 horizontal: 16,
               ),
               child: DepCheckbox(
-                size: context.knobs.options(
+                size: context.knobs.list(
                     label: 'Checkbox Size',
                     description: 'Select Checkbox Size',
-                    options: const [
-                      Option(
-                        label: 'Small',
-                        value: DepSize.small,
-                      ),
-                      Option(
-                        label: 'Medium',
-                        value: DepSize.medium,
-                      ),
-                      Option(
-                        label: 'Large',
-                        value: DepSize.large,
-                      ),
-                    ]),
-                activeBgColor: context.knobs.options(
+                    initialOption: DepSize.small,
+                    labelBuilder: (value) {
+                      return getDepSizeTypeLabel(value);
+                    },
+                    options: depSizeTypeOptions),
+                activeBgColor: context.knobs.list(
                     label: 'Active Background Color',
                     description: 'Select Active Background Color',
-                    options: const [
-                      Option(
-                        label: 'Red',
-                        value: redColor,
-                      ),
-                      Option(
-                        label: 'Secondary',
-                        value: secondaryColor,
-                      ),
-                      Option(
-                        label: 'Green',
-                        value: greenColor,
-                      ),
-                    ]),
-                type: context.knobs.options(
+                    initialOption: redColor,
+                    labelBuilder: (value) {
+                      return getcheckLabelColorLabel(value);
+                    },
+                    options: checkLabelColorOptions),
+                type: context.knobs.list(
                     label: 'Check Type',
                     description: 'Select Check Type',
-                    options: const [
-                      Option(
-                        label: 'Basic',
-                        value: DepCheckboxType.basic,
-                      ),
-                      Option(
-                        label: 'Circle',
-                        value: DepCheckboxType.circle,
-                      ),
-                      Option(
-                        label: 'Square',
-                        value: DepCheckboxType.square,
-                      ),
-                    ]),
+                    initialOption: DepCheckboxType.basic,
+                    labelBuilder: (value) {
+                      return getDepCheckboxTypeLabel(value);
+                    },
+                    options: depCheckboxTypeOptions),
                 onChanged: (value) {
                   setState(() {
                     isChecked = value;

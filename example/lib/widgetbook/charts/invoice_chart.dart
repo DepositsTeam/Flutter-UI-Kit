@@ -77,9 +77,9 @@ WidgetbookUseCase invoiceChart(BuildContext context) {
                     ),
                   )),
               sectors: invoiceSectors,
-              total: context.knobs.text(label: 'Total', initialValue: '245'),
+              total: context.knobs.string(label: 'Total', initialValue: '245'),
               amount: context.knobs
-                  .text(label: 'Amount', initialValue: '\$765,098.90'),
+                  .string(label: 'Amount', initialValue: '\$765,098.90'),
             );
           })));
 }

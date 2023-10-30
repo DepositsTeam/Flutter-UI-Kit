@@ -1,4 +1,5 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
+import 'package:deposits_ui_kit_example/widgetbook/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
@@ -25,23 +26,14 @@ WidgetbookUseCase basicToggle(BuildContext context) {
                 child: DepToggle(
                   onChanged: (val) {},
                   value: true,
-                  type: context.knobs.options(
+                  type: context.knobs.list(
                       label: 'Loader Type',
                       description: 'Select Loader Type',
-                      options: const [
-                        Option(
-                          label: 'IOS',
-                          value: DepToggleType.ios,
-                        ),
-                        Option(
-                          label: 'Android',
-                          value: DepToggleType.android,
-                        ),
-                        Option(
-                          label: 'Square',
-                          value: DepToggleType.square,
-                        ),
-                      ]),
+                      initialOption: DepToggleType.android,
+                      labelBuilder: (value) {
+                        return getDepToggleTypeLabel(value);
+                      },
+                      options: depToggleTypeOptions),
                 ));
           })));
 }

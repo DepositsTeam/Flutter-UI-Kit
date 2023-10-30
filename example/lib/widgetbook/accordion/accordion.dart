@@ -25,10 +25,10 @@ WidgetbookUseCase basicAccordion(BuildContext context) {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     DepAccordion(
-                      title: context.knobs.text(
+                      title: context.knobs.stringOrNull(
                           label: 'Accordion Title',
                           initialValue: 'Accordion Title'),
-                      content: context.knobs.text(
+                      content: context.knobs.stringOrNull(
                           label: 'Accordion Content',
                           initialValue: 'Accordion Content'),
                     )
@@ -60,10 +60,10 @@ WidgetbookUseCase iconAccordion(BuildContext context) {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     DepAccordion(
-                        title: context.knobs.text(
+                        title: context.knobs.stringOrNull(
                             label: 'Accordion Title',
                             initialValue: 'Accordion Title'),
-                        content: context.knobs.text(
+                        content: context.knobs.stringOrNull(
                             label: 'Accordion Content',
                             initialValue: 'Accordion Content'),
                         collapsedIcon: const Icon(Icons.add),
@@ -96,10 +96,10 @@ WidgetbookUseCase textAccordion(BuildContext context) {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     DepAccordion(
-                        title: context.knobs.text(
+                        title: context.knobs.stringOrNull(
                             label: 'Accordion Title',
                             initialValue: 'Accordion Title'),
-                        content: context.knobs.text(
+                        content: context.knobs.stringOrNull(
                             label: 'Accordion Content',
                             initialValue: 'Accordion Content'),
                         collapsedIcon: const Text('Show'),

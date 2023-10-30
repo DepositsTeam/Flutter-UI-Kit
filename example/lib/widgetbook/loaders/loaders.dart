@@ -1,4 +1,5 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
+import 'package:deposits_ui_kit_example/widgetbook/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
@@ -23,27 +24,14 @@ WidgetbookUseCase basicLoader(BuildContext context) {
                   horizontal: 16,
                 ),
                 child: DepLoader(
-                  type: context.knobs.options(
+                  type: context.knobs.list(
                       label: 'Loader Type',
                       description: 'Select Loader Type',
-                      options: const [
-                        Option(
-                          label: 'IOS',
-                          value: DepLoaderType.ios,
-                        ),
-                        Option(
-                          label: 'Android',
-                          value: DepLoaderType.android,
-                        ),
-                        Option(
-                          label: 'Circle',
-                          value: DepLoaderType.circle,
-                        ),
-                        Option(
-                          label: 'Square',
-                          value: DepLoaderType.square,
-                        ),
-                      ]),
+                      initialOption: DepLoaderType.android,
+                      labelBuilder: (value) {
+                        return getDepLoaderTypeLabel(value);
+                      },
+                      options: depLoaderTypeOptions),
                 ));
           })));
 }

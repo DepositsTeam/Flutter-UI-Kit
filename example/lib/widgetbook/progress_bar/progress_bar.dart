@@ -30,6 +30,7 @@ WidgetbookUseCase progressBar(BuildContext context) {
                       maxSteps: 5,
                       progressType: LinearProgressBar.progressTypeLinear,
                       currentStep: context.knobs
+                          .double
                           .slider(
                             label: 'Progress',
                             description: 'Select Step',
@@ -55,6 +56,7 @@ WidgetbookUseCase progressBar(BuildContext context) {
                           const TextSpan(text: 'Step '),
                           TextSpan(
                             text: context.knobs
+                                .doubleOrNull
                                 .slider(
                                   label: 'Progress',
                                   description: 'Select Step',
@@ -62,7 +64,6 @@ WidgetbookUseCase progressBar(BuildContext context) {
                                   max: 5,
                                   min: 1,
                                 )
-                                .round()
                                 .toString(),
                           ),
                           const TextSpan(text: ' of '),
@@ -77,7 +78,7 @@ WidgetbookUseCase progressBar(BuildContext context) {
                       font: 20,
                       fntweight: FontWeight.w400,
                       text: context.knobs
-                          .text(label: 'Enter Title', initialValue: 'Title'),
+                          .string(label: 'Enter Title', initialValue: 'Title'),
                     )
                   ]))));
 }

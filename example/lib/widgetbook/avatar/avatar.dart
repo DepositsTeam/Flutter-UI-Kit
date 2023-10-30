@@ -1,4 +1,5 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
+import 'package:deposits_ui_kit_example/widgetbook/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
@@ -29,31 +30,18 @@ WidgetbookUseCase basicAvatar(BuildContext context) {
                   children: [
                     DepAvatar(
                       backgroundImage: NetworkImage(imageUrl),
-                      shape: context.knobs.options(
-                          label: 'Circle Shaoe',
-                          description: 'Select Shape.',
-                          options: const [
-                            Option(
-                              label: 'Circle',
-                              value: AvatarShape.circle,
-                            ),
-                            Option(
-                              label: 'Square',
-                              value: AvatarShape.square,
-                            ),
-                            Option(
-                              label: 'Standard',
-                              value: AvatarShape.standard,
-                            ),
-                          ]),
+                      shape: context.knobs.list(
+                        label: 'Circle Shaoe',
+                        description: 'Select Shape.',
+                        initialOption: AvatarShape.circle,
+                        options: depAvatarShapeOptions,
+                        labelBuilder: (value) {
+                          return getAvatarShapeLabel(value);
+                        },
+                      ),
                       size: DepSize.large,
-                      maxRadius: context.knobs
-                          .slider(
-                              label: 'Radius',
-                              initialValue: 30,
-                              max: 50,
-                              min: 30)
-                          .toDouble(),
+                      maxRadius: context.knobs.doubleOrNull.slider(
+                          label: 'Radius', initialValue: 30, max: 50, min: 30),
                     )
                   ],
                 )),
@@ -83,94 +71,35 @@ WidgetbookUseCase basicSubtileAvatar(BuildContext context) {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     DepAvatar(
-                      backgroundColor: context.knobs.options(
-                          label: 'Color Shade',
-                          description: 'Select Color Shade.',
-                          options: const [
-                            Option(
-                              label: 'cyan200',
-                              value: cyan200,
-                            ),
-                            Option(
-                              label: 'cyan600',
-                              value: cyan600,
-                            ),
-                            Option(
-                              label: 'green200',
-                              value: green200,
-                            ),
-                            Option(
-                              label: 'green600',
-                              value: green600,
-                            ),
-                            Option(
-                              label: 'orange200',
-                              value: orange200,
-                            ),
-                            Option(
-                              label: 'orange600',
-                              value: orange600,
-                            ),
-                            Option(
-                              label: 'danger200',
-                              value: red200,
-                            ),
-                            Option(
-                              label: 'danger600',
-                              value: red600,
-                            ),
-                            Option(
-                              label: 'neutral200',
-                              value: gray200,
-                            ),
-                            Option(
-                              label: 'neutral600',
-                              value: gray600,
-                            ),
-                            Option(
-                              label: 'blue200',
-                              value: blue200,
-                            ),
-                            Option(
-                              label: 'blue600',
-                              value: blue600,
-                            ),
-                          ]),
-                      shape: context.knobs.options(
-                          label: 'Circle Shaoe',
-                          description: 'Select Shape.',
-                          options: const [
-                            Option(
-                              label: 'Circle',
-                              value: AvatarShape.circle,
-                            ),
-                            Option(
-                              label: 'Square',
-                              value: AvatarShape.square,
-                            ),
-                            Option(
-                              label: 'Standard',
-                              value: AvatarShape.standard,
-                            ),
-                          ]),
+                      backgroundColor: context.knobs.list(
+                        label: 'Color Shade',
+                        description: 'Select Color Shade.',
+                        initialOption: cyan200,
+                        labelBuilder: (value) {
+                          return getSubtleColorLabel(value);
+                        },
+                        options: subtleColorOptions,
+                      ),
+                      shape: context.knobs.list(
+                        label: 'Circle Shaoe',
+                        description: 'Select Shape.',
+                        initialOption: AvatarShape.circle,
+                        options: depAvatarShapeOptions,
+                        labelBuilder: (value) {
+                          return getAvatarShapeLabel(value);
+                        },
+                      ),
                       size: DepSize.large,
-                      maxRadius: context.knobs
-                          .slider(
-                              label: 'Radius',
-                              initialValue: 30,
-                              max: 40,
-                              min: 30)
-                          .toDouble(),
+                      maxRadius: context.knobs.doubleOrNull.slider(
+                          label: 'Radius', initialValue: 30, max: 40, min: 30),
                       child: DepText(
-                        text: context.knobs.text(
+                        text: context.knobs.string(
                             label: '2 Letter Initials', initialValue: 'TB'),
-                        font: context.knobs
-                            .slider(
-                                label: 'Font-size',
-                                initialValue: 14,
-                                max: 20,
-                                min: 14)
-                            .toDouble(),
+                        font: context.knobs.doubleOrNull.slider(
+                            label: 'Font-size',
+                            initialValue: 14,
+                            max: 20,
+                            min: 14),
                       ),
                     )
                   ],
@@ -205,13 +134,11 @@ WidgetbookUseCase badgeAvatar(BuildContext context) {
                         DepAvatar(
                           backgroundImage: NetworkImage(imageUrl),
                           size: DepSize.large,
-                          maxRadius: context.knobs
-                              .slider(
-                                  label: 'Radius',
-                                  initialValue: 45,
-                                  max: 50,
-                                  min: 45)
-                              .toDouble(),
+                          maxRadius: context.knobs.doubleOrNull.slider(
+                              label: 'Radius',
+                              initialValue: 45,
+                              max: 50,
+                              min: 45),
                           shape: AvatarShape.circle,
                         ),
                         Positioned(
@@ -260,78 +187,30 @@ WidgetbookUseCase badgeSubtleAvatar(BuildContext context) {
                     Stack(
                       children: [
                         DepAvatar(
-                          backgroundColor: context.knobs.options(
-                              label: 'Color Shade',
-                              description: 'Select Color Shade.',
-                              options: const [
-                                Option(
-                                  label: 'cyan200',
-                                  value: cyan200,
-                                ),
-                                Option(
-                                  label: 'cyan600',
-                                  value: cyan600,
-                                ),
-                                Option(
-                                  label: 'green200',
-                                  value: green200,
-                                ),
-                                Option(
-                                  label: 'green600',
-                                  value: green600,
-                                ),
-                                Option(
-                                  label: 'orange200',
-                                  value: orange200,
-                                ),
-                                Option(
-                                  label: 'orange600',
-                                  value: orange600,
-                                ),
-                                Option(
-                                  label: 'danger200',
-                                  value: red200,
-                                ),
-                                Option(
-                                  label: 'danger600',
-                                  value: red600,
-                                ),
-                                Option(
-                                  label: 'neutral200',
-                                  value: gray200,
-                                ),
-                                Option(
-                                  label: 'neutral600',
-                                  value: gray600,
-                                ),
-                                Option(
-                                  label: 'blue200',
-                                  value: blue200,
-                                ),
-                                Option(
-                                  label: 'blue600',
-                                  value: blue600,
-                                ),
-                              ]),
+                          backgroundColor: context.knobs.list(
+                            label: 'Color Shade',
+                            description: 'Select Color Shade.',
+                            initialOption: cyan200,
+                            labelBuilder: (value) {
+                              return getSubtleColorLabel(value);
+                            },
+                            options: subtleColorOptions,
+                          ),
                           size: DepSize.large,
-                          maxRadius: context.knobs
-                              .slider(
-                                  label: 'Radius',
-                                  initialValue: 45,
-                                  max: 50,
-                                  min: 45)
-                              .toDouble(),
+                          maxRadius: context.knobs.doubleOrNull.slider(
+                              label: 'Radius',
+                              initialValue: 45,
+                              max: 50,
+                              min: 45),
                           shape: AvatarShape.circle,
                           child: DepText(
-                            font: context.knobs
-                                .slider(
-                                    label: 'Font-size',
-                                    initialValue: 25,
-                                    max: 30,
-                                    min: 25)
-                                .toDouble(),
+                            font: context.knobs.doubleOrNull.slider(
+                                label: 'Font-size',
+                                initialValue: 25,
+                                max: 30,
+                                min: 25),
                             fntweight: FontWeight.w400,
-                            text: context.knobs.text(
+                            text: context.knobs.string(
                                 label: '2 Letter Initials', initialValue: 'TB'),
                           ),
                         ),

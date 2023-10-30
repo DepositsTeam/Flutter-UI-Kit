@@ -48,7 +48,7 @@ WidgetbookUseCase basicCard (BuildContext context) {
                       padding: padding,
                       margin: margin,
                       title:  DepListTile(
-                        titleText: context.knobs.text(label: 'Card Title', initialValue: 'Card Title'),
+                        titleText: context.knobs.stringOrNull(label: 'Card Title', initialValue: 'Card Title'),
                         icon: const Icon(Icons.favorite_border),
                       ),
                       content: childWidget,
@@ -91,7 +91,7 @@ WidgetbookUseCase gradientCard(BuildContext context) {
                       padding: padding,
                       margin: margin,
                       title: DepListTile(
-                        titleText: context.knobs.text(label: 'Card Title', initialValue: 'Card Title'),
+                        titleText: context.knobs.stringOrNull(label: 'Card Title', initialValue: 'Card Title'),
                         icon: const Icon(Icons.favorite_border),
                       ),
                       image: Image.network(
@@ -131,7 +131,7 @@ WidgetbookUseCase clipCard(BuildContext context) {
                         'https://images.unsplash.com/photo-1547721064-da6cfb341d50',
                       ),
                       title: DepListTile(
-                        titleText: context.knobs.text(label: 'Card Title', initialValue: 'Card Title'),
+                        titleText: context.knobs.stringOrNull(label: 'Card Title', initialValue: 'Card Title'),
                         icon: const Icon(Icons.favorite_border),
                       ),
                       clipBehavior: Clip.none,
@@ -170,7 +170,7 @@ WidgetbookUseCase backImageCard(BuildContext context) {
                         'https://images.unsplash.com/photo-1547721064-da6cfb341d50',
                       ),
                       title: DepListTile(
-                        titleText: context.knobs.text(label: 'Card Title', initialValue: 'Card Title'),
+                        titleText: context.knobs.stringOrNull(label: 'Card Title', initialValue: 'Card Title'),
                         icon: const Icon(Icons.favorite_border),
                       ),
                       boxFit: BoxFit.cover,

@@ -1,4 +1,5 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
+import 'package:deposits_ui_kit_example/widgetbook/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
@@ -23,7 +24,7 @@ WidgetbookUseCase primaryButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs.text(
+                title: context.knobs.string(
                     label: 'Primary Button', initialValue: 'Primary Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
@@ -40,47 +41,14 @@ WidgetbookUseCase primaryButton(BuildContext context) {
                 height: 65,
                 textColor: gray700,
                 textFontSize: 18,
-                buttonColor: context.knobs.options(
+                buttonColor: context.knobs.list(
                   label: 'Button Color',
                   description: 'Background color of the button.',
-                  options: const [
-                    Option(
-                      label: 'Cyan500',
-                      value: cyan500,
-                    ),
-                    Option(
-                      label: 'Cyan100',
-                      value: cyan100,
-                    ),
-                    Option(
-                      label: 'Cyan200',
-                      value: cyan200,
-                    ),
-                    Option(
-                      label: 'Cyan300',
-                      value: cyan300,
-                    ),
-                    Option(
-                      label: 'Cyan400',
-                      value: cyan400,
-                    ),
-                    Option(
-                      label: 'Cyan600',
-                      value: cyan600,
-                    ),
-                    Option(
-                      label: 'Cyan700',
-                      value: cyan700,
-                    ),
-                    Option(
-                      label: 'Cyan800',
-                      value: cyan800,
-                    ),
-                    Option(
-                      label: 'Cyan900',
-                      value: cyan900,
-                    ),
-                  ],
+                  initialOption: cyan400,
+                  options: cyanColorOptions,
+                  labelBuilder: (value) {
+                    return getCyanColorLabel(value);
+                  },
                 ),
               ),
             ),
@@ -108,7 +76,7 @@ WidgetbookUseCase defaultButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs.text(
+                title: context.knobs.string(
                     label: 'Default Button', initialValue: 'Default Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
@@ -128,27 +96,14 @@ WidgetbookUseCase defaultButton(BuildContext context) {
                 addBorder: context.knobs
                     .boolean(label: 'Add Border', initialValue: false),
                 buttonBorderColor: gray300,
-                buttonColor: context.knobs.options(
+                buttonColor: context.knobs.list(
                   label: 'Button Color',
                   description: 'Background color of the button.',
-                  options: const [
-                    Option(
-                      label: 'neutral400',
-                      value: gray400,
-                    ),
-                    Option(
-                      label: 'neutral100',
-                      value: gray100,
-                    ),
-                    Option(
-                      label: 'neutral200',
-                      value: gray200,
-                    ),
-                    Option(
-                      label: 'neutral300',
-                      value: gray300,
-                    ),
-                  ],
+                  initialOption: gray400,
+                  options: grayColorOptions,
+                  labelBuilder: (value) {
+                    return getGrayColorLabel(value);
+                  },
                 ),
               ),
             ),
@@ -176,7 +131,7 @@ WidgetbookUseCase dangerButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs.text(
+                title: context.knobs.string(
                     label: 'Danger Button', initialValue: 'Danger Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
@@ -193,45 +148,14 @@ WidgetbookUseCase dangerButton(BuildContext context) {
                 height: 65,
                 textFontSize: 18,
                 textColor: white,
-                buttonColor: context.knobs.options(
-                  label: 'Button Color',
-                  description: 'Background color of the button.',
-                  options: const [
-                    Option(
-                      label: 'red500',
-                      value: red500,
-                    ),
-                    Option(label: 'red100', value: red100),
-                    Option(
-                      label: 'red200',
-                      value: red200,
-                    ),
-                    Option(
-                      label: 'red300',
-                      value: red300,
-                    ),
-                    Option(
-                      label: 'red400',
-                      value: red400,
-                    ),
-                    Option(
-                      label: 'red600',
-                      value: red600,
-                    ),
-                    Option(
-                      label: 'red700',
-                      value: red700,
-                    ),
-                    Option(
-                      label: 'red800',
-                      value: red800,
-                    ),
-                    Option(
-                      label: 'red900',
-                      value: red900,
-                    ),
-                  ],
-                ),
+                buttonColor: context.knobs.list(
+                    label: 'Button Color',
+                    description: 'Background color of the button.',
+                    initialOption: red500,
+                    labelBuilder: (value) {
+                      return getRedColorLabel(value);
+                    },
+                    options: redColorOptions),
               ),
             ),
           ));
@@ -258,7 +182,7 @@ WidgetbookUseCase successButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs.text(
+                title: context.knobs.string(
                     label: 'Success Button', initialValue: 'Success Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
@@ -275,45 +199,14 @@ WidgetbookUseCase successButton(BuildContext context) {
                 height: 65,
                 textFontSize: 18,
                 textColor: white,
-                buttonColor: context.knobs.options(
-                  label: 'Button Color',
-                  description: 'Background color of the button.',
-                  options: const [
-                    Option(
-                      label: 'green500',
-                      value: green500,
-                    ),
-                    Option(label: 'green100', value: green100),
-                    Option(
-                      label: 'green200',
-                      value: green200,
-                    ),
-                    Option(
-                      label: 'green300',
-                      value: green300,
-                    ),
-                    Option(
-                      label: 'green400',
-                      value: green400,
-                    ),
-                    Option(
-                      label: 'green600',
-                      value: green600,
-                    ),
-                    Option(
-                      label: 'green700',
-                      value: green700,
-                    ),
-                    Option(
-                      label: 'green800',
-                      value: green800,
-                    ),
-                    Option(
-                      label: 'green900',
-                      value: green900,
-                    ),
-                  ],
-                ),
+                buttonColor: context.knobs.list(
+                    initialOption: green500,
+                    label: 'Button Color',
+                    description: 'Background color of the button.',
+                    labelBuilder: (value) {
+                      return getGreenColorLabel(value);
+                    },
+                    options: greenColorOptions),
               ),
             ),
           ));
@@ -340,7 +233,7 @@ WidgetbookUseCase invincibleButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs.text(
+                title: context.knobs.string(
                     label: 'Invincible Button',
                     initialValue: 'Invincible Button'),
                 isBusy: context.knobs
@@ -361,20 +254,14 @@ WidgetbookUseCase invincibleButton(BuildContext context) {
                 addBorder: context.knobs
                     .boolean(label: 'Add Border', initialValue: false),
                 buttonBorderColor: secondaryColor,
-                buttonColor: context.knobs.options(
-                  label: 'Button Color',
-                  description: 'Background color of the button.',
-                  options: const [
-                    Option(
-                      label: 'transparent',
-                      value: transparent,
-                    ),
-                    Option(
-                      label: 'white',
-                      value: white,
-                    )
-                  ],
-                ),
+                buttonColor: context.knobs.list(
+                    label: 'Button Color',
+                    description: 'Background color of the button.',
+                    initialOption: transparent,
+                    labelBuilder: (value) {
+                      return getInvincibleButtonColorLabel(value);
+                    },
+                    options: invincibleButtonColorOptions),
               ),
             ),
           ));
@@ -401,7 +288,7 @@ WidgetbookUseCase outlineButton(BuildContext context) {
               ),
               child: DepButton(
                 onPressed: () {},
-                title: context.knobs.text(
+                title: context.knobs.string(
                     label: 'Outline Button', initialValue: 'Outline Button'),
                 isBusy: context.knobs
                     .boolean(label: 'Show Loading Status', initialValue: false),
@@ -421,23 +308,11 @@ WidgetbookUseCase outlineButton(BuildContext context) {
                 addBorder: context.knobs
                     .boolean(label: 'Add Border', initialValue: false),
                 buttonBorderColor: secondaryColor,
-                buttonColor: context.knobs.options(
+                buttonColor: context.knobs.list(
                   label: 'Button Color',
                   description: 'Background color of the button.',
-                  options: const [
-                    Option(
-                      label: 'transparent',
-                      value: transparent,
-                    ),
-                    Option(
-                      label: 'white',
-                      value: white,
-                    ),
-                    Option(
-                      label: 'secondary',
-                      value: secondaryColor,
-                    ),
-                  ],
+                  initialOption: transparent,
+                  options: outlineButtonColorOptions,
                 ),
               ),
             ),
@@ -468,48 +343,26 @@ WidgetbookUseCase filledSocialButton(BuildContext context) {
                 children: [
                   DepNormalButton(
                       onPressed: () {},
-                      text: context.knobs.text(
+                      text: context.knobs.string(
                           label: 'Filled Button',
                           initialValue: 'Filled Button'),
                       icon: const Icon(Icons.facebook),
-                      type: context.knobs.options(
+                      type: context.knobs.list(
                           label: 'Button Type',
                           description: 'Select Button Type',
-                          options: const [
-                            Option(
-                              label: 'Solid',
-                              value: DepButtonType.solid,
-                            ),
-                            Option(
-                              label: 'Outline',
-                              value: DepButtonType.outline,
-                            ),
-                            Option(
-                              label: 'Outline2x',
-                              value: DepButtonType.outline2x,
-                            ),
-                            Option(
-                              label: 'Transparent',
-                              value: DepButtonType.transparent,
-                            ),
-                          ]),
-                      shape: context.knobs.options(
+                          initialOption: DepButtonType.solid,
+                          labelBuilder: (value) {
+                            return getDepButtonTypeTypeLabel(value);
+                          },
+                          options: depButtonTypeTypeOptions),
+                      shape: context.knobs.list(
                           label: 'Button Shape',
                           description: 'Select Button Shape',
-                          options: const [
-                            Option(
-                              label: 'Pills',
-                              value: DepButtonShape.pills,
-                            ),
-                            Option(
-                              label: 'Standard',
-                              value: DepButtonShape.standard,
-                            ),
-                            Option(
-                              label: 'Square',
-                              value: DepButtonShape.square,
-                            ),
-                          ])),
+                          initialOption: DepButtonShape.pills,
+                          labelBuilder: (value) {
+                            return getDepButtonShapeTypeLabel(value);
+                          },
+                          options: depButtonShapeeOptions)),
                 ],
               ),
             ),
@@ -541,37 +394,24 @@ WidgetbookUseCase outlinedSocialButton(BuildContext context) {
                   DepIconButton(
                     onPressed: () {},
                     icon: const Icon(Icons.facebook),
-                    size: context.knobs.options(
-                        label: 'Icon Size',
-                        description: 'Select icon size',
-                        options: const [
-                          Option(
-                            label: 'Small',
-                            value: DepSize.small,
-                          ),
-                          Option(label: 'Medium', value: DepSize.medium),
-                          Option(
-                            label: 'Large',
-                            value: DepSize.large,
-                          ),
-                        ]), //DepSize.SMALL,
-                    type: context.knobs.options(
+                    size: context.knobs.list(
+                      label: 'Icon Size',
+                      description: 'Select icon size',
+                      initialOption: DepSize.small,
+                      options: depSizeTypeOptions,
+                      labelBuilder: (value) {
+                        return getDepSizeTypeLabel(value);
+                      },
+                    ), //DepSize.SMALL,
+                    type: context.knobs.list(
                         label: 'Button Type',
                         description: 'Select button type',
-                        options: const [
-                          Option(
-                            label: 'Solid',
-                            value: DepButtonType.solid,
-                          ),
-                          Option(
-                              label: 'Outline', value: DepButtonType.outline),
-                          Option(
-                              label: 'Outline2x',
-                              value: DepButtonType.outline2x),
-                          Option(
-                              label: 'Transparent',
-                              value: DepButtonType.transparent),
-                        ]), //DepButtonType.outline,
+                        initialOption: DepButtonType.solid,
+                        labelBuilder: (value) {
+                          return getDepButtonTypeTypeLabel(value);
+                        },
+                        options:
+                            depButtonTypeTypeOptions), //DepButtonType.outline,
                     shape: DepIconButtonShape.pills,
                   ),
                 ],

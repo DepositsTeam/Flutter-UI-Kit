@@ -10,7 +10,7 @@ import 'package:deposits_ui_kit_example/widgetbook/charts/half_pie_chart.dart';
 import 'package:deposits_ui_kit_example/widgetbook/charts/invoice_chart.dart';
 import 'package:deposits_ui_kit_example/widgetbook/charts/pie_chart.dart';
 import 'package:deposits_ui_kit_example/widgetbook/colors/colors.dart';
-import 'package:deposits_ui_kit_example/widgetbook/country_state_city/country_state_city.dart';
+// import 'package:deposits_ui_kit_example/widgetbook/country_state_city/country_state_city.dart';
 import 'package:deposits_ui_kit_example/widgetbook/images/images.dart';
 import 'package:deposits_ui_kit_example/widgetbook/loaders/loaders.dart';
 import 'package:deposits_ui_kit_example/widgetbook/payment_card/payment_card.dart';
@@ -29,11 +29,11 @@ class HotreloadWidgetbook extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Widgetbook.material(
-        categories: [
+        directories: [
           //accordion
-          WidgetbookCategory(
+          WidgetbookFolder(
             name: 'Accordion',
-            widgets: [
+            children: [
               WidgetbookComponent(
                 name: 'Accordion/Basic',
                 useCases: [
@@ -58,9 +58,9 @@ class HotreloadWidgetbook extends StatelessWidget {
             ],
           ),
           //button
-          WidgetbookCategory(
+          WidgetbookFolder(
             name: 'Buttons',
-            widgets: [
+            children: [
               WidgetbookComponent(
                 name: 'Default Button',
                 useCases: [
@@ -114,9 +114,9 @@ class HotreloadWidgetbook extends StatelessWidget {
             ],
           ),
           //badges
-          WidgetbookCategory(
+          WidgetbookFolder(
             name: 'Badges',
-            widgets: [
+            children: [
               WidgetbookComponent(
                 name: 'Subtle Badge',
                 useCases: [
@@ -134,9 +134,9 @@ class HotreloadWidgetbook extends StatelessWidget {
             ],
           ),
           //toast
-          WidgetbookCategory(
+          WidgetbookFolder(
             name: 'Toasts',
-            widgets: [
+            children: [
               WidgetbookComponent(
                 name: 'Title Toast',
                 useCases: [
@@ -168,9 +168,9 @@ class HotreloadWidgetbook extends StatelessWidget {
             ],
           ),
           //colors
-          WidgetbookCategory(
+          WidgetbookFolder(
             name: 'colors',
-            widgets: [
+            children: [
               WidgetbookComponent(
                 name: 'Chromatic Colors',
                 useCases: [
@@ -216,9 +216,9 @@ class HotreloadWidgetbook extends StatelessWidget {
             ],
           ),
           //Avatars
-          WidgetbookCategory(
+          WidgetbookFolder(
             name: 'Avatars',
-            widgets: [
+            children: [
               WidgetbookComponent(
                 name: 'Basic Avatar',
                 useCases: [
@@ -250,9 +250,9 @@ class HotreloadWidgetbook extends StatelessWidget {
             ],
           ),
           //badges
-          WidgetbookCategory(
+          WidgetbookFolder(
             name: 'Radio/Check',
-            widgets: [
+            children: [
               WidgetbookComponent(
                 name: 'Radio Label',
                 useCases: [
@@ -277,9 +277,9 @@ class HotreloadWidgetbook extends StatelessWidget {
             ],
           ),
           //card
-          // WidgetbookCategory(
+          // WidgetbookFolder(
           //   name: 'Card',
-          //   widgets: [
+          //   children: [
           //     WidgetbookComponent(
           //       name: 'Card/Basic',
           //       useCases: [
@@ -311,7 +311,7 @@ class HotreloadWidgetbook extends StatelessWidget {
           //   ],
           // ),
           //Bottom sheet
-          WidgetbookCategory(name: 'Bottom Sheet', widgets: [
+          WidgetbookFolder(name: 'Bottom Sheet', children: [
             WidgetbookComponent(
               name: 'BottomSheet/Basic',
               useCases: [
@@ -335,7 +335,7 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ]),
           //Images
-          WidgetbookCategory(name: 'Images', widgets: [
+          WidgetbookFolder(name: 'Images', children: [
             WidgetbookComponent(
               name: 'Basic Image',
               useCases: [
@@ -359,7 +359,7 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ]),
           //Rating
-          // WidgetbookCategory(name: 'Rating', widgets: [
+          // WidgetbookFolder(name: 'Rating', children: [
           //   WidgetbookComponent(
           //     name: 'Basic Rating',
           //     useCases: [
@@ -383,7 +383,7 @@ class HotreloadWidgetbook extends StatelessWidget {
           //   ),
           // ]),
           //loaders
-          WidgetbookCategory(name: 'Loader', widgets: [
+          WidgetbookFolder(name: 'Loader', children: [
             WidgetbookComponent(
               name: 'Basic Loader',
               useCases: [
@@ -414,7 +414,7 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ]),
           //toggle
-          WidgetbookCategory(name: 'Toggle', widgets: [
+          WidgetbookFolder(name: 'Toggle', children: [
             WidgetbookComponent(
               name: 'Basic Toggle',
               useCases: [
@@ -424,7 +424,7 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ]),
           //input text
-          WidgetbookCategory(name: 'Input Text', widgets: [
+          WidgetbookFolder(name: 'Input Text', children: [
             WidgetbookComponent(
               name: 'Basic Input Text',
               useCases: [
@@ -434,7 +434,7 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ]),
           //payment card
-          WidgetbookCategory(name: 'Payment Card', widgets: [
+          WidgetbookFolder(name: 'Payment Card', children: [
             WidgetbookComponent(
               name: 'PaymentCard',
               useCases: [
@@ -445,7 +445,7 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ]),
           //payment card
-          WidgetbookCategory(name: 'Alerts', widgets: [
+          WidgetbookFolder(name: 'Alerts', children: [
             WidgetbookComponent(
               name: 'Alerts IOS Native',
               useCases: [
@@ -455,7 +455,7 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ]),
           //progress bar
-          WidgetbookCategory(name: 'Progress Bar', widgets: [
+          WidgetbookFolder(name: 'Progress Bar', children: [
             WidgetbookComponent(
               name: 'Progress Bar',
               useCases: [
@@ -465,21 +465,21 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ]),
           //country state city
-          WidgetbookCategory(name: 'Country State City Picker', widgets: [
-            WidgetbookComponent(
-              name: 'CountryStateCity',
-              useCases: [
-                //-------------Country picker----------------------//
-                countryPicker(context),
-                //-------------Country State picker----------------------//
-                countryStatePicker(context),
-                //-------------Country State City picker----------------------//
-                countryStateCityPicker(context),
-              ],
-            ),
-          ]),
+          // WidgetbookFolder(name: 'Country State City Picker', children: [
+          //   WidgetbookComponent(
+          //     name: 'CountryStateCity',
+          //     useCases: [
+          //       //-------------Country picker----------------------//
+          //       countryPicker(context),
+          //       //-------------Country State picker----------------------//
+          //       countryStatePicker(context),
+          //       //-------------Country State City picker----------------------//
+          //       countryStateCityPicker(context),
+          //     ],
+          //   ),
+          // ]),
           //charts
-          WidgetbookCategory(name: 'Charts', widgets: [
+          WidgetbookFolder(name: 'Charts', children: [
             WidgetbookComponent(
               name: 'Pie Chart',
               useCases: [
@@ -506,23 +506,17 @@ class HotreloadWidgetbook extends StatelessWidget {
             ),
           ])
         ],
-        themes: [
-          WidgetbookTheme(
-            name: 'Light',
-            data: ThemeData.light(),
-          ),
-          WidgetbookTheme(
-            name: 'Dark',
-            data: ThemeData.dark(),
-          ),
-        ],
-        appInfo: AppInfo(name: 'Deposits UI Kit'),
-        devices: [
-          Apple.iPhone11,
-          Apple.iPhone12,
-          Apple.iPhone13,
-          Samsung.s21ultra,
-          Samsung.s10,
-        ]);
+        addons: <WidgetbookAddon>[
+        DeviceFrameAddon(
+          devices: <DeviceInfo>[
+            Devices.ios.iPhone13ProMax,
+            Devices.ios.iPhone12ProMax,
+            Devices.android.samsungGalaxyS20,
+            Devices.android.samsungGalaxyNote20Ultra,
+          ],
+        ),
+        TimeDilationAddon(),
+      ],
+    );
   }
 }

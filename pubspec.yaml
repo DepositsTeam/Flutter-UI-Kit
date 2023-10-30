@@ -1,10 +1,10 @@
 name: deposits_ui_kit
 description: Deposits UI Kit is open source library that come with pre-build UI components. It makes development faster & more enjoyable. You can customize the component as per your need.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/DepositsTeam/Flutter-UI-Kit
 
 environment:
-  sdk: '>=2.19.1 <3.0.0'
+  sdk: '>=2.19.1 <4.0.0'
   flutter: ">=2.5.0"
 
 dependencies:
@@ -12,17 +12,17 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
   another_flushbar: ^1.12.29
-  form_builder_validators: ^8.6.1
-  flutter_form_builder: ^7.7.0
+  form_builder_validators: ^9.1.0
+  flutter_form_builder: ^9.1.1
   linear_progress_bar: "^1.1.0"
-  fl_chart: ^0.62.0
+  fl_chart: ^0.64.0
   dropdown_search2: ^1.0.2
   currency_text_input_formatter: ^2.1.7
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -1,4 +1,5 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
+import 'package:deposits_ui_kit_example/widgetbook/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
@@ -45,41 +46,18 @@ WidgetbookUseCase paymentCard(BuildContext context) {
                             cardNumber: cardNumberController.text,
                             cardCVV: cvvController.text,
                             cardExpiry: expiryDateController.text,
-                            cardType: context.knobs.options<Image>(
+                            cardType: context.knobs.list(
                                 label: 'Select Card',
                                 description: 'Card Types',
-                                options: const [
-                                  Option(
-                                    label: 'Master Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/masterCard.png")),
-                                  ),
-                                  Option(
-                                    label: 'Visa Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/visaCard.png")),
-                                  ),
-                                  Option(
-                                    label: 'American Express Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/expressCard.png")),
-                                  ),
-                                  Option(
-                                    label: 'JCB Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/jcbCard.png")),
-                                  ),
-                                  Option(
-                                    label: 'Verve Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/verveCard.png")),
-                                  ),
-                                ])),
+                                initialOption: const Image(
+                                  image: AssetImage(
+                                      "assets/images/masterCard.png"),
+                                ),
+                                labelBuilder: (value) {
+                                  var val = value as Image;
+                                  return getcardImagesLabel(val);
+                                },
+                                options: cardImages)),
                         verticalSpaceMedium,
                         //card name entry
                         CustomtextField(
@@ -260,88 +238,35 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                                 description:
                                     'When toggled hides and shows card info',
                                 initialValue: false),
-                            cardColor: context.knobs.options(
-                              label: 'Card Color',
-                              description: 'Background color of the Card.',
-                              options: const [
-                                Option(
-                                  label: 'Dark',
-                                  value: gray700,
-                                ),
-                                Option(
-                                  label: 'White',
-                                  value: white,
-                                ),
-                                Option(
-                                  label: 'Freeze',
-                                  value: gray200,
-                                ),
-                              ],
-                            ),
-                            brand: context.knobs.options<Image>(
+                            cardColor: context.knobs.list(
+                                label: 'Card Color',
+                                description: 'Background color of the Card.',
+                                initialOption: gray700,
+                                options: cardColorOptions,
+                                labelBuilder: ((value) {
+                                  return getCardColorLabel(value);
+                                })),
+                            brand: context.knobs.list<Image>(
                                 label: 'Select brand',
                                 description: 'List of brands',
-                                options: const [
-                                  Option(
-                                    label: 'Default',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/brandlogo.png")),
-                                  ),
-                                  Option(
-                                    label: 'NFINIT',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/nfinit.png")),
-                                  ),
-                                  Option(
-                                    label: 'MYFRSH',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/myfrsh.png")),
-                                  ),
-                                ]),
-                            cardType: context.knobs.options<Image>(
+                                initialOption: const Image(
+                                    image: AssetImage(
+                                        "assets/images/brandlogo.png")),
+                                labelBuilder: (value) {
+                                  return getBrandLabel(value);
+                                },
+                                options: brandImages),
+                            cardType: context.knobs.list<Image>(
                                 label: 'Select Card',
                                 description: 'Card Types',
-                                options: const [
-                                  Option(
-                                    label: 'Master Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/masterCard.png")),
-                                  ),
-                                  Option(
-                                    label: 'Visa Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/visaCard.png")),
-                                  ),
-                                  Option(
-                                    label: 'American Express Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/expressCard.png")),
-                                  ),
-                                  Option(
-                                    label: 'JCB Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/jcbCard.png")),
-                                  ),
-                                  Option(
-                                    label: 'Discover Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/discover.png")),
-                                  ),
-                                  Option(
-                                    label: 'Verve Card',
-                                    value: Image(
-                                        image: AssetImage(
-                                            "assets/images/verveCard.png")),
-                                  ),
-                                ])),
+                                initialOption: const Image(
+                                  image: AssetImage(
+                                      "assets/images/masterCard.png"),
+                                ),
+                                labelBuilder: (value) {
+                                  return getcardImagesLabel(value);
+                                },
+                                options: cardImages)),
                         verticalSpaceMedium,
                         //card amount entry
                         CustomtextField(
@@ -396,8 +321,7 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                                   cardNumberController.text.isNotEmpty &&
                                   cvvController.text.isNotEmpty &&
                                   expiryDateController.text.isNotEmpty) {
-                              } else {
-                              }
+                              } else {}
                             });
                           },
                         ),
@@ -426,8 +350,7 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                                   cardNumberController.text.isNotEmpty &&
                                   cvvController.text.isNotEmpty &&
                                   expiryDateController.text.isNotEmpty) {
-                              } else {
-                              }
+                              } else {}
                             });
                           },
                         ),
@@ -465,8 +388,7 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                                           cvvController.text.isNotEmpty &&
                                           expiryDateController
                                               .text.isNotEmpty) {
-                                      } else {
-                                      }
+                                      } else {}
                                     });
                                   },
                                 ),
@@ -496,8 +418,7 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                                           cvvController.text.isNotEmpty &&
                                           expiryDateController
                                               .text.isNotEmpty) {
-                                      } else {
-                                      }
+                                      } else {}
                                     });
                                   },
                                 ),

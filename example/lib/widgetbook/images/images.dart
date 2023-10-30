@@ -1,4 +1,5 @@
 import 'package:deposits_ui_kit/deposits_ui_kit.dart';
+import 'package:deposits_ui_kit_example/widgetbook/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
@@ -36,12 +37,13 @@ WidgetbookUseCase basicImage(BuildContext context) {
                       image: bgImage,
                       color: primaryColor,
                       border: Border.all(color: red500),
-                      borderRadius: BorderRadius.circular(context.knobs.slider(
-                          label: 'Border Radius',
-                          description: 'Select border radius',
-                          initialValue: 10,
-                          max: 20,
-                          min: 5)),
+                      borderRadius: BorderRadius.circular(context.knobs.double
+                          .slider(
+                              label: 'Border Radius',
+                              description: 'Select border radius',
+                              initialValue: 10,
+                              max: 20,
+                              min: 5)),
                       padding: padding,
                       margin: margin,
                     )
@@ -75,23 +77,14 @@ WidgetbookUseCase overlayImage(BuildContext context) {
                       width: 100,
                       image: bgImage,
                       colorFilter: ColorFilter.mode(
-                          context.knobs.options(
+                          context.knobs.list(
                             label: 'Overlay Color',
                             description: 'Overlay color for image.',
-                            options: const [
-                              Option(
-                                label: 'Red500',
-                                value: red500,
-                              ),
-                              Option(
-                                label: 'Blue500',
-                                value: blue500,
-                              ),
-                              Option(
-                                label: 'Green500',
-                                value: green500,
-                              )
-                            ],
+                            initialOption: red500,
+                            labelBuilder: (value) {
+                              return getoverlayImageColorLabel(value);
+                            },
+                            options: overlayImageColorOptions,
                           ),
                           BlendMode.colorBurn),
                     )
@@ -126,55 +119,23 @@ WidgetbookUseCase childImage(BuildContext context) {
                       image: bgImage,
                       color: primaryColor,
                       border: Border.all(color: red500),
-                      borderRadius: BorderRadius.circular(context.knobs.slider(
-                          label: 'Border Radius',
-                          description: 'Select border radius',
-                          initialValue: 10,
-                          max: 20,
-                          min: 5)),
+                      borderRadius: BorderRadius.circular(context.knobs.double
+                          .slider(
+                              label: 'Border Radius',
+                              description: 'Select border radius',
+                              initialValue: 10,
+                              max: 20,
+                              min: 5)),
                       padding: padding,
                       margin: margin,
-                      alignment: context.knobs.options(
+                      alignment: context.knobs.list(
                         label: 'Alignment',
                         description: 'Select Alignment',
-                        options: const [
-                          Option(
-                            label: 'Top-center',
-                            value: Alignment.topCenter,
-                          ),
-                          Option(
-                            label: 'Top-left',
-                            value: Alignment.topLeft,
-                          ),
-                          Option(
-                            label: 'Top-right',
-                            value: Alignment.topRight,
-                          ),
-                          Option(
-                            label: 'Center',
-                            value: Alignment.center,
-                          ),
-                          Option(
-                            label: 'Center-left',
-                            value: Alignment.centerLeft,
-                          ),
-                          Option(
-                            label: 'Center-right',
-                            value: Alignment.centerRight,
-                          ),
-                          Option(
-                            label: 'Bottom-center',
-                            value: Alignment.bottomCenter,
-                          ),
-                          Option(
-                            label: 'Bottom-left',
-                            value: Alignment.bottomLeft,
-                          ),
-                          Option(
-                            label: 'Bottom-right',
-                            value: Alignment.bottomRight,
-                          ),
-                        ],
+                        initialOption: Alignment.topCenter,
+                        options: alignmentList,
+                        labelBuilder: (value) {
+                          return getAlignmentListLabel(value);
+                        },
                       ),
                       child: const Icon(
                         Icons.car_rental,

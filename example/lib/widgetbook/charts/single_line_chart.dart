@@ -25,10 +25,10 @@ WidgetbookUseCase lineChart(BuildContext context) {
               ),
               points: pricePoints,
               primaryText: context.knobs
-                  .text(label: 'Primary Text', initialValue: 'PRIMARY TEXT'),
+                  .string(label: 'Primary Text', initialValue: 'PRIMARY TEXT'),
               amount:
-                  context.knobs.text(label: 'Amount', initialValue: '5.987,34'),
-              secondaryText: context.knobs.text(
+                  context.knobs.string(label: 'Amount', initialValue: '5.987,34'),
+              secondaryText: context.knobs.string(
                   label: 'Secondary text', initialValue: 'Secondary text'),
             );
           })));
