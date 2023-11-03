@@ -131,6 +131,7 @@ class DepPaymentCard extends StatelessWidget {
                     color: cardColor == gray700 ? Colors.white : Colors.black,
                     fontSize: 26,
                     fontWeight: FontWeight.w500,
+                    fontFamily: preferedFont(DepFontName.sfproDisplay),
                   ),
                 ),
                 const Text(
