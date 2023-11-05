@@ -22,7 +22,7 @@ class DepTextFieldWidget extends StatelessWidget {
   final TextInputAction? textInputAction;
 
   const DepTextFieldWidget(
-      {Key? key,
+      {super.key,
       this.labelText,
       this.hintText,
       this.controller,
@@ -49,8 +49,7 @@ class DepTextFieldWidget extends StatelessWidget {
       this.isDense,
       this.prefixIconPadding,
       this.fillColor,
-      this.textInputAction})
-      : super(key: key);
+      this.textInputAction});
 
   @override
   Widget build(BuildContext context) {

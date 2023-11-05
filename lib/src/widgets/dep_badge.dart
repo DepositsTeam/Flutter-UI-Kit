@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class DepBadge extends StatefulWidget {
   /// Create badges of all types, check out [GFButtonBadge] for button badges and [GFIconBadge] for icon type badges
   const DepBadge({
-    Key? key,
+    super.key,
     this.textStyle,
     this.borderShape,
     this.shape = BadgeShape.standard,
@@ -14,7 +14,7 @@ class DepBadge extends StatefulWidget {
     this.border,
     this.text,
     this.child,
-  }) : super(key: key);
+  });
 
   /// The border side for the badge's [Material].
   final BorderSide? border;

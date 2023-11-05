@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class DepBottomSheet extends StatefulWidget {
   /// Opens sheet from bottom as a popup on current sheets it has different customization options.
   DepBottomSheet({
-    Key? key,
+    super.key,
     required this.contentBody,
     this.stickyHeader,
     this.stickyFooter,
@@ -17,8 +17,7 @@ class DepBottomSheet extends StatefulWidget {
     this.animationDuration = 1200,
     this.enableExpandableContent = false,
   })  : assert(elevation >= 0.0),
-        assert(minContentHeight >= 0.0),
-        super(key: key) {
+        assert(minContentHeight >= 0.0) {
     controller.height = minContentHeight;
     controller.animationDuration = animationDuration;
   }

@@ -7,12 +7,11 @@ class DepBackButton extends StatelessWidget {
   final EdgeInsetsGeometry? padding;
 
   const DepBackButton(
-      {Key? key,
+      {super.key,
       this.leading,
       this.onBackTap,
       this.backbuttonColor,
-      this.padding})
-      : super(key: key);
+      this.padding});
 
   @override
   Widget build(BuildContext context) {

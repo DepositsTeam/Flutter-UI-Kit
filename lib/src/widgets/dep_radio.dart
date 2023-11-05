@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class DepRadio<T> extends StatefulWidget {
   /// [DepRadio] is one type of selection indicator in a list of options.
   const DepRadio(
-      {Key? key,
+      {super.key,
       required this.value,
       required this.groupValue,
       required this.onChanged,
@@ -24,8 +24,7 @@ class DepRadio<T> extends StatefulWidget {
       this.customBgColor = primaryColor,
       this.autofocus = false,
       this.focusNode,
-      this.toggleable = false})
-      : super(key: key);
+      this.toggleable = false});
 
   final DepRadioType type;
   final double size;

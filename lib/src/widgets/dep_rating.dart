@@ -6,7 +6,7 @@ typedef RatingChangeCallback = void Function(double rating);
 class DepRating extends StatefulWidget {
   /// [DepRating] to show ratings with many custimazation options.
   const DepRating({
-    Key? key,
+    super.key,
     required this.onChanged,
     required this.value,
     this.itemCount = 5,
@@ -24,7 +24,7 @@ class DepRating extends StatefulWidget {
     this.inputDecorations,
     this.margin = const EdgeInsets.symmetric(vertical: 16),
     this.padding = const EdgeInsets.symmetric(horizontal: 16),
-  }) : super(key: key);
+  });
 
   /// defines total number of rating items
   final int itemCount;

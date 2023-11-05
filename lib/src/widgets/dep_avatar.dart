@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class DepAvatar extends StatelessWidget {
   const DepAvatar(
-      {Key? key,
+      {super.key,
       this.child,
       this.backgroundColor,
       this.backgroundImage,
@@ -14,8 +14,7 @@ class DepAvatar extends StatelessWidget {
       this.borderRadius,
       this.shape = AvatarShape.circle,
       this.size = DepSize.medium})
-      : assert(radius == null || (minRadius == null && maxRadius == null)),
-        super(key: key);
+      : assert(radius == null || (minRadius == null && maxRadius == null));
 
   final Widget? child;
 

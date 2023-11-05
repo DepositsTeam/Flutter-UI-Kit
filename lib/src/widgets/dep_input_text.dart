@@ -15,6 +15,7 @@ class CustomtextField extends StatefulWidget {
   final TextInputAction? textInputAction;
   final InputDecoration? decoration;
   final TextStyle? hintStyle, style;
+  final Function(String?)? valueTransformer;
   final List<TextInputFormatter>? inputFormatters;
   final FocusNode? focusNode;
   final TextAlign? textAlign;
@@ -24,7 +25,7 @@ class CustomtextField extends StatefulWidget {
   final bool? hasError;
 
   const CustomtextField(
-      {Key? key,
+      {super.key,
       required this.hint,
       required this.controller,
       // required this.hasError,
@@ -36,6 +37,7 @@ class CustomtextField extends StatefulWidget {
       this.filled = false,
       this.enabled,
       this.focusNode,
+      this.valueTransformer,
       this.prefixIcon,
       this.suffixIcon,
       this.hintStyle,
@@ -52,8 +54,7 @@ class CustomtextField extends StatefulWidget {
       this.inputFormatters,
       this.maxLines = 1,
       this.textInputAction = TextInputAction.next,
-      this.capitalization = TextCapitalization.none})
-      : super(key: key);
+      this.capitalization = TextCapitalization.none});
 
   @override
   State<CustomtextField> createState() => _CustomtextFieldState();
@@ -79,6 +80,7 @@ class _CustomtextFieldState extends State<CustomtextField> {
             readOnly: widget.readOnly ?? false,
             onChanged: widget.onChanged,
             onSaved: widget.onSaved,
+            valueTransformer: widget.valueTransformer,
             textAlign: widget.textAlign ?? TextAlign.start,
             showCursor: widget.showCursor,
             cursorColor: widget.cursorColor ?? Colors.black,

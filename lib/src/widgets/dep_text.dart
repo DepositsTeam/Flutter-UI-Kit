@@ -18,7 +18,7 @@ class DepText extends StatelessWidget {
   final String? fontFamily;
 
   const DepText(
-      {Key? key,
+      {super.key,
       required this.text,
       this.txtColor,
       this.txtAlign,
@@ -28,12 +28,11 @@ class DepText extends StatelessWidget {
       this.fntstyle,
       this.letterSpace,
       this.textStyle,
-      this.fontFamily,
       this.textDecoration,
       this.softWrap,
+      this.fontFamily,
       this.ellipsis,
-      this.nav})
-      : super(key: key);
+      this.nav});
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +49,7 @@ class DepText extends StatelessWidget {
                 decoration: textDecoration ?? TextDecoration.none,
                 color: txtColor ?? black,
                 fontSize: font ?? fontSize14,
-                fontFamily: 'ProximaNova',
+                fontFamily: fontFamily,
                 letterSpacing: letterSpace,
                 fontStyle: fntstyle ?? FontStyle.normal,
                 fontWeight: fntweight),

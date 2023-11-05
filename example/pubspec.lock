@@ -162,7 +162,7 @@ packages:
     source: hosted
     version: "4.7.0"
   collection:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: collection
       sha256: f092b211a4319e98e5ff58223576de6c2803db36221657b46c82574721240687
@@ -215,7 +215,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.2"
+    version: "0.0.3"
   device_frame:
     dependency: transitive
     description:
@@ -392,7 +392,7 @@ packages:
     source: hosted
     version: "4.8.1"
   linear_progress_bar:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: linear_progress_bar
       sha256: "7db25e6c84b1d9e598127b9f8cedb3072978532d648f820288720122c5f566a8"

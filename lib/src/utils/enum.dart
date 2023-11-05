@@ -96,3 +96,5 @@ enum DepToggleType {
 }
 
 enum DepFontName { heroNew, sfproDisplay, sfproRounded, sfproText, circularStd }
+
+

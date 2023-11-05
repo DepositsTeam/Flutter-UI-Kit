@@ -4,7 +4,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepSocialButton extends StatelessWidget {
   /// Create buttons of all types. check out [GFIconButton] for icon buttons, and [GFBadge] for badges
   const DepSocialButton({
-    Key? key,
+    super.key,
     required this.onPressed,
     required this.type,
     required this.buttonType,
@@ -14,7 +14,7 @@ class DepSocialButton extends StatelessWidget {
     this.blockButton,
     this.fullWidthButton,
     this.onLongPress,
-  }) : super(key: key);
+  });
 
   /// Called when the button is tapped or otherwise activated.
   final VoidCallback? onPressed;

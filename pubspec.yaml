@@ -1,5 +1,5 @@
 name: deposits_ui_kit
-description: Deposits UI Kit is open source library that come with pre-build UI components. It makes development faster & more enjoyable. You can customize the component as per your need.
+description: Deposits UI Kit is a library with pre-built components, speeding up financial application development and making customization easy..
 version: 0.0.3
 homepage: https://github.com/DepositsTeam/Flutter-UI-Kit
 
@@ -55,7 +55,6 @@ flutter:
 
   # To add assets to your plugin package, add an assets section, like this:
   assets:
-    - assets/images/
     - assets/fonts/
     - assets/custom_json/
   #

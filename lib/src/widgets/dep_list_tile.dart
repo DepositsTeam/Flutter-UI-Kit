@@ -4,7 +4,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepListTile extends StatelessWidget {
   /// Creates ListTile with leading, title, trailing, image widget for almost every type of ListTile design.
   const DepListTile({
-    Key? key,
+    super.key,
     this.titleText,
     this.subTitleText,
     this.color,
@@ -24,7 +24,7 @@ class DepListTile extends StatelessWidget {
     this.hoverColor,
     this.focusNode,
     this.autofocus = false,
-  }) : super(key: key);
+  });
 
   /// type of [String] used to pass text, alternative to title property and gets higher priority than title
   final String? titleText;

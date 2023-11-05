@@ -1,7 +1,8 @@
-import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:widgetbook/widgetbook.dart';
 import 'package:linear_progress_bar/linear_progress_bar.dart';
+import 'package:widgetbook/widgetbook.dart';
+
+import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 
 WidgetbookUseCase progressBar(BuildContext context) {
   return WidgetbookUseCase(

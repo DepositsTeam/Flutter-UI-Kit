@@ -16,7 +16,7 @@ class DepAppbarWidget extends PreferredSize {
   final EdgeInsetsGeometry? backButtonPadding, closeButtonPadding;
 
   DepAppbarWidget(
-      {Key? key,
+      {super.key,
       this.title,
       this.titleWidget,
       this.backPressleading,
@@ -45,7 +45,6 @@ class DepAppbarWidget extends PreferredSize {
           'To provide both, use "textStyle: TextStyle(color: color)".',
         ),
         super(
-          key: key,
           child: const SizedBox.shrink(),
           preferredSize: Size.fromHeight(bottom == null ? kToolbarHeight : 98),
         );

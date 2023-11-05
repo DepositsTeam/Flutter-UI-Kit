@@ -5,7 +5,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepIconButton extends StatefulWidget {
   /// Create icon buttons of all types. check out [DepButton] for buttons
   const DepIconButton({
-    Key? key,
+    super.key,
     this.iconSize = 0.0,
     this.padding = const EdgeInsets.all(8),
     this.alignment = Alignment.center,
@@ -27,7 +27,7 @@ class DepIconButton extends StatefulWidget {
     this.size = DepSize.medium,
     this.buttonBoxShadow,
     this.borderSide,
-  }) : super(key: key);
+  });
 
   /// The size of the icon inside the button.
   final double iconSize;

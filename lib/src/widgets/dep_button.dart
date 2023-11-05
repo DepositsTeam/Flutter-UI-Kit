@@ -19,7 +19,7 @@ class DepButton extends StatelessWidget {
       isResponsive;
 
   const DepButton(
-      {Key? key,
+      {super.key,
       required this.title,
       required this.onPressed,
       this.textStyle,
@@ -42,8 +42,7 @@ class DepButton extends StatelessWidget {
           titleWidget == null,
           'Cannot provide both a title and a child\n'
           'To provide both, use "titleWidget: Text(title)".',
-        ),
-        super(key: key);
+        );
 
   @override
   Widget build(BuildContext context) {

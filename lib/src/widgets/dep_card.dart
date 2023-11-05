@@ -11,7 +11,7 @@ class DepCard extends StatelessWidget {
   /// The [elevation] must be null or non-negative. The [borderOnForeground]
   /// must not be null.
   const DepCard(
-      {Key? key,
+      {super.key,
       this.color,
       this.elevation,
       this.shape,
@@ -38,8 +38,7 @@ class DepCard extends StatelessWidget {
         assert(
             color == null || gradient == null,
             'Cannot provide both a color and a decoration\n'
-            'The color argument is just a shorthand for "decoration: new BoxDecoration(color: color)".'),
-        super(key: key);
+            'The color argument is just a shorthand for "decoration: new BoxDecoration(color: color)".');
 
   /// defines the card's height
   final double? height;

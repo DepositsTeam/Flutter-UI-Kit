@@ -7,12 +7,12 @@ class DepCloseButton extends StatelessWidget {
   final EdgeInsetsGeometry? padding;
 
   const DepCloseButton({
-    Key? key,
+    super.key,
     this.leading,
     this.onCloseTap,
     this.closeButtonColor,
     this.padding,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

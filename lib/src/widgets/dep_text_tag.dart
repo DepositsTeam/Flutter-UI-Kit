@@ -8,12 +8,11 @@ class DepTextTagTag extends StatelessWidget {
   final bool isSolid;
 
   const DepTextTagTag(
-      {Key? key,
+      {super.key,
       required this.text,
       this.tagFontSize,
       this.isSolid = false,
-      required this.backgroundColor})
-      : super(key: key);
+      required this.backgroundColor});
 
   @override
   Widget build(BuildContext context) {

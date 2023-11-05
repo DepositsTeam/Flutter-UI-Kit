@@ -14,7 +14,7 @@ class DepRichTextWidget extends StatelessWidget {
   final Color tenantColor;
 
   const DepRichTextWidget({
-    Key? key,
+    super.key,
     this.title,
     this.title2,
     this.subtitle,
@@ -30,7 +30,7 @@ class DepRichTextWidget extends StatelessWidget {
     this.subtitleStyle3,
     required this.tenantColor,
     this.textAlign = TextAlign.center,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

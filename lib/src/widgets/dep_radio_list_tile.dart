@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class DepRadioListTile<T> extends StatelessWidget {
   /// [DepRadioListTile] is a list title of with [GFRadio] in it.
   const DepRadioListTile({
-    Key? key,
+    super.key,
     required this.value,
     required this.groupValue,
     required this.onChanged,
@@ -42,7 +42,7 @@ class DepRadioListTile<T> extends StatelessWidget {
     this.selected = false,
     this.focusColor,
     this.hoverColor,
-  }) : super(key: key);
+  });
 
   final String? titleText;
   final String? subTitleText;

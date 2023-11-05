@@ -6,7 +6,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepNormalButton extends StatefulWidget {
   /// Create buttons of all types. check out [GFIconButton] for icon buttons, and [GFBadge] for badges
   const DepNormalButton({
-    Key? key,
+    super.key,
     required this.onPressed,
     this.onHighlightChanged,
     this.textStyle,
@@ -52,8 +52,7 @@ class DepNormalButton extends StatefulWidget {
         assert(focusElevation >= 0.0),
         assert(hoverElevation >= 0.0),
         assert(highlightElevation >= 0.0),
-        assert(disabledElevation >= 0.0),
-        super(key: key);
+        assert(disabledElevation >= 0.0);
 
   /// Called when the button is tapped or otherwise activated.
   final VoidCallback? onPressed;
@@ -645,13 +644,9 @@ class DepNormalButtonState extends State<DepNormalButton> {
 /// "tap target", but not its material or its ink splashes.
 class _InputPadding extends SingleChildRenderObjectWidget {
   const _InputPadding({
-    Key? key,
-    Widget? child,
+    super.child,
     this.minSize,
-  }) : super(
-          key: key,
-          child: child,
-        );
+  });
 
   final Size? minSize;
 

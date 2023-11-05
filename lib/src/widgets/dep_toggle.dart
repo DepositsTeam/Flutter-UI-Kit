@@ -14,7 +14,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepToggle extends StatefulWidget {
   /// Creates toggle button to switch between states onChanged.
   const DepToggle(
-      {Key? key,
+      {super.key,
       required this.onChanged,
       required this.value,
       this.enabledText,
@@ -28,8 +28,7 @@ class DepToggle extends StatefulWidget {
       this.type,
       this.boxShape,
       this.borderRadius,
-      this.duration = const Duration(milliseconds: 400)})
-      : super(key: key);
+      this.duration = const Duration(milliseconds: 400)});
 
   ///type [String] used to add custom text i.e, ON,ENABLE
   final String? enabledText;

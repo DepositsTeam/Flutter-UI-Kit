@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class DepImageOverlay extends StatelessWidget {
   /// Creates a image widget with shaded overlay.
   const DepImageOverlay({
-    Key? key,
+    super.key,
     this.height,
     this.width,
     this.color,
@@ -19,7 +19,7 @@ class DepImageOverlay extends StatelessWidget {
     this.boxFit = BoxFit.fill,
     this.border,
     this.shape = BoxShape.rectangle,
-  }) : super(key: key);
+  });
 
   /// define image's [double] height
   final double? height;

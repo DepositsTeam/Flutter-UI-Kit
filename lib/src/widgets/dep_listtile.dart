@@ -13,15 +13,14 @@ class DepListTileWidget extends StatelessWidget {
   final EdgeInsetsGeometry? contentpadding;
 
   const DepListTileWidget(
-      {Key? key,
+      {super.key,
       this.title,
       this.subTitle,
       this.onTap,
       this.trailing,
       this.subTitleWidget,
       this.leading,
-      this.contentpadding})
-      : super(key: key);
+      this.contentpadding});
 
   @override
   Widget build(BuildContext context) {

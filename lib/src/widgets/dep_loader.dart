@@ -5,7 +5,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepLoader extends StatefulWidget {
   /// [DepLoader] shows differnt type of loaders with different customization options.
   const DepLoader(
-      {Key? key,
+      {super.key,
       this.loaderColorOne = Colors.redAccent,
       this.loaderColorTwo = Colors.green,
       this.loaderColorThree = Colors.blueAccent,
@@ -17,8 +17,7 @@ class DepLoader extends StatefulWidget {
       this.androidLoaderColor,
       this.loaderstrokeWidth = 4.0,
       this.size = DepSize.medium,
-      this.child})
-      : super(key: key);
+      this.child});
 
   /// Type of [Widget] used only in custom type and it is prominent over the loaderIconOne, loaderIconTwo, loaderIconThree in custom type
   final Widget? child;
@@ -180,14 +179,13 @@ class DepLoaderState extends State<DepLoader>
 
 class Loader extends StatelessWidget {
   const Loader(
-      {Key? key,
+      {super.key,
       this.radius,
       this.color,
       this.type,
       this.icon,
       this.size,
-      this.child})
-      : super(key: key);
+      this.child});
   final double? radius;
   final Color? color;
   final DepLoaderType? type;

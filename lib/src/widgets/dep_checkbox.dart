@@ -4,7 +4,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepCheckbox extends StatefulWidget {
   /// [DepCheckbox] is a small box (as in a checklist) in which to place a check mark to make a selection with various customization options.
   const DepCheckbox(
-      {Key? key,
+      {super.key,
       this.size = DepSize.medium,
       this.type = DepCheckboxType.basic,
       this.activeBgColor = primaryColor,
@@ -21,8 +21,7 @@ class DepCheckbox extends StatefulWidget {
       this.inactiveIcon,
       this.customBgColor = greenColor,
       this.autofocus = false,
-      this.focusNode})
-      : super(key: key);
+      this.focusNode});
 
   /// type of [DepCheckboxType] which is of four type is basic, square, circular and custom
   final DepCheckboxType type;

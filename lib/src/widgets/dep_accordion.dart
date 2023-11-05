@@ -4,7 +4,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepAccordion extends StatefulWidget {
   /// An accordion is used to show (and hide) content. Use [showAccordion] to hide & show the accordion content.
   const DepAccordion(
-      {Key? key,
+      {super.key,
       this.title,
       this.content,
       this.titleChild,
@@ -23,8 +23,7 @@ class DepAccordion extends StatefulWidget {
       this.showAccordion = false,
       this.onToggleCollapsed,
       this.titleBorderRadius = const BorderRadius.all(Radius.circular(0)),
-      this.contentBorderRadius = const BorderRadius.all(Radius.circular(0))})
-      : super(key: key);
+      this.contentBorderRadius = const BorderRadius.all(Radius.circular(0))});
 
   /// controls if the accordion should be collapsed or not making it possible to be controlled from outside
   final bool showAccordion;
