@@ -1,7 +1,7 @@
 name: deposits_ui_kit
 description: Deposits UI Kit is a library with pre-built components, speeding up financial application development and making customization easy..
-version: 0.0.3
-homepage: https://github.com/DepositsTeam/Flutter-UI-Kit
+version: 0.0.5
+homepage: https://github.com/DepositsTeam/Flutter-UI-Kit/tree/dev
 
 environment:
   sdk: '>=2.19.1 <4.0.0'
@@ -45,6 +45,7 @@ flutter:
         package: com.deposits_ui_kit.deposits_ui_kit
         pluginClass: DepositsUiKitPlugin
       ios:
+        package: com.deposits_ui_kit.deposits_ui_kit
         pluginClass: DepositsUiKitPlugin
       linux:
         pluginClass: DepositsUiKitPlugin

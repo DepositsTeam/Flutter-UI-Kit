@@ -63,6 +63,7 @@ WidgetbookUseCase paymentCard(BuildContext context) {
                         CustomtextField(
                           hint: "Card name",
                           focusNode: cardNameNode,
+                          focusedBorderColor: cyan500,
                           controller: cardNameController,
                           keyboardType: TextInputType.text,
                           textInputAction: TextInputAction.next,
@@ -93,6 +94,7 @@ WidgetbookUseCase paymentCard(BuildContext context) {
                           hint: "Card number",
                           focusNode: cardNumberNode,
                           controller: cardNumberController,
+                          focusedBorderColor: cyan500,
                           keyboardType: TextInputType.number,
                           textInputAction: TextInputAction.next,
                           validator: FormBuilderValidators.compose([
@@ -127,6 +129,7 @@ WidgetbookUseCase paymentCard(BuildContext context) {
                                 child: CustomtextField(
                                   hint: "Card expiry",
                                   focusNode: expiryNode,
+                                  focusedBorderColor: cyan500,
                                   controller: expiryDateController,
                                   keyboardType: TextInputType.number,
                                   textInputAction: TextInputAction.next,
@@ -161,6 +164,7 @@ WidgetbookUseCase paymentCard(BuildContext context) {
                                 child: CustomtextField(
                                   hint: "Card cvv",
                                   focusNode: cvvNode,
+                                  focusedBorderColor: cyan500,
                                   controller: cvvController,
                                   keyboardType: TextInputType.number,
                                   textInputAction: TextInputAction.next,
@@ -272,6 +276,7 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                         CustomtextField(
                           hint: "Card Ammount",
                           focusNode: cardAmountNode,
+                          focusedBorderColor: cyan500,
                           controller: cardAmountController,
                           keyboardType: const TextInputType.numberWithOptions(
                               decimal: true),
@@ -300,6 +305,7 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                         //card name entry
                         CustomtextField(
                           hint: "Card name",
+                          focusedBorderColor: cyan500,
                           focusNode: cardNameNode,
                           controller: cardNameController,
                           keyboardType: TextInputType.text,
@@ -329,6 +335,7 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                         //card name entry
                         CustomtextField(
                           hint: "Card number",
+                          focusedBorderColor: cyan500,
                           focusNode: cardNumberNode,
                           controller: cardNumberController,
                           keyboardType: TextInputType.number,
@@ -365,6 +372,7 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                                 child: CustomtextField(
                                   hint: "Card expiry",
                                   focusNode: expiryNode,
+                                  focusedBorderColor: cyan500,
                                   controller: expiryDateController,
                                   keyboardType: TextInputType.number,
                                   textInputAction: TextInputAction.next,
@@ -399,6 +407,7 @@ WidgetbookUseCase paymentMainCard(BuildContext context) {
                                 child: CustomtextField(
                                   hint: "Card cvv",
                                   focusNode: cvvNode,
+                                  focusedBorderColor: cyan500,
                                   controller: cvvController,
                                   keyboardType: TextInputType.number,
                                   textInputAction: TextInputAction.next,

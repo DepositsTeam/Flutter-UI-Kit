@@ -21,7 +21,7 @@ class CustomtextField extends StatefulWidget {
   final TextAlign? textAlign;
   final Function()? onTap;
   final bool? readOnly, enabled, obscureText, showCursor, filled;
-  final Color? fillColor, cursorColor;
+  final Color? fillColor, cursorColor, focusedBorderColor;
   final bool? hasError;
 
   const CustomtextField(
@@ -45,6 +45,7 @@ class CustomtextField extends StatefulWidget {
       this.textAlign,
       this.onSubmitted,
       this.style,
+      required this.focusedBorderColor,
       this.fillColor = Colors.white,
       this.showCursor = true,
       this.cursorColor,
@@ -108,9 +109,10 @@ class _CustomtextFieldState extends State<CustomtextField> {
                   //     vertical: Platform.isAndroid
                   //         ? ScreenUtil().setHeight(18)
                   //         : ScreenUtil().setHeight(15)),
-                  focusedBorder: const OutlineInputBorder(
-                      borderSide: BorderSide(color: cyan500),
-                      borderRadius: BorderRadius.all(Radius.circular(5))),
+                  focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                          color: widget.focusedBorderColor ?? cyan500),
+                      borderRadius: const BorderRadius.all(Radius.circular(5))),
                   disabledBorder: const OutlineInputBorder(
                       borderSide: BorderSide(color: gray300),
                       borderRadius: BorderRadius.all(Radius.circular(5))),

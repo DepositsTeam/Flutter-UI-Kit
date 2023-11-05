@@ -43,6 +43,7 @@ WidgetbookUseCase basicTextInput(BuildContext context) {
                         focusNode: emailNode,
                         hint: 'Email address',
                         hasError: emailHasError,
+                        focusedBorderColor: cyan500,
                         inputFormatters: [
                           AtDotTextInputFormatter(),
                         ],
@@ -72,6 +73,7 @@ WidgetbookUseCase basicTextInput(BuildContext context) {
                         focusNode: passwordNode,
                         hint: 'Password',
                         hasError: passwordHasError,
+                        focusedBorderColor: cyan500,
                         obscureText: passwordVisible,
                         maxLines: 1,
                         validator: FormBuilderValidators.required(),

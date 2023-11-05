@@ -11,6 +11,7 @@ Widget verticalSpaceSmall = const SizedBox(height: (10.0));
 Widget verticalSpaceSmallY = const SizedBox(height: (15.0));
 Widget verticalSpaceSmallX = const SizedBox(height: (20.0));
 Widget verticalSpaceMedium = const SizedBox(height: (25.0));
+Widget verticalSpaceMediumX = const SizedBox(height: 35.0);
 Widget verticalSpaceLarge = const SizedBox(height: (50.0));
 Widget verticalSpaceMassive = const SizedBox(height: (120.0));
 
