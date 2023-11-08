@@ -111,40 +111,69 @@ WidgetbookUseCase checkLabel(BuildContext context) {
           body: StatefulBuilder(builder: (context, setState) {
             return Container(
               alignment: Alignment.center,
-              padding: const EdgeInsets.symmetric(
-                horizontal: 16,
-              ),
-              child: DepCheckbox(
-                size: context.knobs.list(
-                    label: 'Checkbox Size',
-                    description: 'Select Checkbox Size',
-                    initialOption: DepSize.small,
-                    labelBuilder: (value) {
-                      return getDepSizeTypeLabel(value);
-                    },
-                    options: depSizeTypeOptions),
-                activeBgColor: context.knobs.list(
-                    label: 'Active Background Color',
-                    description: 'Select Active Background Color',
-                    initialOption: redColor,
-                    labelBuilder: (value) {
-                      return getcheckLabelColorLabel(value);
-                    },
-                    options: checkLabelColorOptions),
-                type: context.knobs.list(
-                    label: 'Check Type',
-                    description: 'Select Check Type',
-                    initialOption: DepCheckboxType.basic,
-                    labelBuilder: (value) {
-                      return getDepCheckboxTypeLabel(value);
-                    },
-                    options: depCheckboxTypeOptions),
-                onChanged: (value) {
-                  setState(() {
-                    isChecked = value;
-                  });
-                },
-                value: isChecked,
+              padding: EdgeInsets.symmetric(horizontal: 20),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Row(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      DepCheckbox(
+                        size: context.knobs.list(
+                            label: 'Checkbox Size',
+                            description: 'Select Checkbox Size',
+                            initialOption: DepSize.small,
+                            labelBuilder: (value) {
+                              return getDepSizeTypeLabel(value);
+                            },
+                            options: depSizeTypeOptions),
+                        activeBgColor: context.knobs.list(
+                            label: 'Active Background Color',
+                            description: 'Select Active Background Color',
+                            initialOption: redColor,
+                            labelBuilder: (value) {
+                              return getcheckLabelColorLabel(value);
+                            },
+                            options: checkLabelColorOptions),
+                        type: context.knobs.list(
+                            label: 'Check Type',
+                            description: 'Select Check Type',
+                            initialOption: DepCheckboxType.basic,
+                            labelBuilder: (value) {
+                              return getDepCheckboxTypeLabel(value);
+                            },
+                            options: depCheckboxTypeOptions),
+                        onChanged: (value) {
+                          setState(() {
+                            isChecked = value;
+                          });
+                        },
+                        value: isChecked,
+                      ),
+                      horizontalSpaceSmall,
+                      Expanded(
+                          child: DepText(
+                              txtColor: black,
+                              font: 16,
+                              fontFamily: preferedFont(DepFontName.sfproText),
+                              fntweight: FontWeight.w400,
+                              text:
+                                  'Get the latest promotion code here, You can save money every time for any kind of shopping!'))
+                    ],
+                  ),
+                  verticalSpaceMedium,
+                  DepButton(
+                    buttonColor: black,
+                    minWidth: double.infinity,
+                    // isBusy: ready,
+                    onPressed: () {},
+                    title: 'Continue',
+                    textColor: white,
+                  )
+                ],
               ),
             );
           })));
