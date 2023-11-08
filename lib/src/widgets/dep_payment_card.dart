@@ -164,11 +164,6 @@ class DepPaymentCard extends StatelessWidget {
               width: 85,
               height: 30,
               child: brand,
-              // child: Image(
-              //     color: (brand.contains('brandlogo') && cardColor != gray700)
-              //         ? gray700
-              //         : null,
-              //     image: AssetImage(brand))
             ),
           ),
         ],

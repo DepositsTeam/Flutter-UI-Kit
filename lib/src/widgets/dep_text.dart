@@ -4,7 +4,7 @@ import 'package:deposits_ui_kit/deposits_ui_kit.dart';
 class DepText extends StatelessWidget {
   final String text;
   final Color? txtColor;
-  final double? font;
+  final double? font, lineHeight;
   final int? maxLine;
   final FontWeight? fntweight;
   final FontStyle? fntstyle;
@@ -30,6 +30,7 @@ class DepText extends StatelessWidget {
       this.textStyle,
       this.textDecoration,
       this.softWrap,
+      this.lineHeight,
       this.fontFamily,
       this.ellipsis,
       this.nav});
@@ -50,6 +51,7 @@ class DepText extends StatelessWidget {
                 color: txtColor ?? black,
                 fontSize: font ?? fontSize14,
                 fontFamily: fontFamily,
+                height: lineHeight,
                 letterSpacing: letterSpace,
                 fontStyle: fntstyle ?? FontStyle.normal,
                 fontWeight: fntweight),

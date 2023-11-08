@@ -86,7 +86,7 @@ String formatCardNumber(String accountNumber) {
   accountNumber = accountNumber.replaceAll(RegExp(r'\s'), ''); // Remove spaces
   if (accountNumber.length != 16) {
     // Account number should have exactly 16 digits
-    return 'Invalid Account Number';
+    return '0000 0000 0000 0000';
   }
 
   // Mask the account number except the last four digits

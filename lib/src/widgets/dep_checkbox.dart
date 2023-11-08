@@ -94,9 +94,7 @@ class DepCheckboxState extends State<DepCheckbox> {
           child: Container(
             height: widget.size,
             width: widget.size,
-            margin: widget.type != DepCheckboxType.circle
-                ? const EdgeInsets.all(10)
-                : EdgeInsets.zero,
+            margin: EdgeInsets.zero,
             decoration: BoxDecoration(
                 color: enabled
                     ? widget.value
