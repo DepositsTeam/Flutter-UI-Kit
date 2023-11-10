@@ -2,7 +2,11 @@
 
 [![pub package](https://img.shields.io/pub/v/flutter_stripe.svg)](https://pub.dev/packages/deposits_oneclick_checkout)
 
- Deposits UI Kit is open source library that come with pre-build UI components. It makes development faster & more enjoyable. You can customize the component as per your need.
+ The Deposits UI Kit is a collection of reusable, fully themeable and customizable UI components. It includes a lot of the basics as well as amazing components tied to Fintech applications that can help drastically reduce development time. It can help improve development time and increase consistency in your fintech applications.
+
+## Storybook link
+
+[https://mobile-ui-kit.deposits.dev/](https://mobile-ui-kit.deposits.dev/)
 
 ## Installation
 
@@ -44,4 +48,4 @@ Compatible with apps targeting iOS 10 or above.
 
 #### Web
 
-We do not support the web via this plugin for now you can use our [JS SDK](https://api.deposits.dev/sdk/checkout.js) instead, you can check an example of how to use the JS SDK [here](https://api.deposits.dev/example/checkout)
+We do not support the web via this plugin for now you can use our [Vue UI kit](https://www.npmjs.com/package/@deposits/ui-kit-vue) instead, you can check an example of how to use the JS SDK [here](https://ui-kit.deposits.dev/storybook/vue)

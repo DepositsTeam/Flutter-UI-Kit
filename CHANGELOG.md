@@ -27,3 +27,7 @@
 
 - Modified checkbox design
 - Modified invalid card number entry and set default card to master card
+
+## 0.0.7 - 2023-11-09
+
+- Modified readme.md to that of vue library
