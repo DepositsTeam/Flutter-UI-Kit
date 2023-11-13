@@ -48,4 +48,4 @@ Compatible with apps targeting iOS 10 or above.
 
 #### Web
 
-We do not support the web via this plugin for now you can use our [Vue UI kit](https://www.npmjs.com/package/@deposits/ui-kit-vue) instead, you can check an example of how to use the JS SDK [here](https://ui-kit.deposits.dev/storybook/vue)
+We do not support the web via this plugin for now you can use our [Vue UI kit](https://www.npmjs.com/package/@deposits/ui-kit-vue) instead, you can check out examples on our [Storybook](https://ui-kit.deposits.dev/storybook/vue) here.
