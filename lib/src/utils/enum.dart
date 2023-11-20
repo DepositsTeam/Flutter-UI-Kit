@@ -14,9 +14,9 @@ enum DepRadioType {
 }
 
 class DepSize {
-  static const double small = 30;
-  static const double medium = 35;
-  static const double large = 40;
+  static const double small = 16;
+  static const double medium = 20;
+  static const double large = 25;
 }
 
 enum BadgeShape {
@@ -96,5 +96,3 @@ enum DepToggleType {
 }
 
 enum DepFontName { heroNew, sfproDisplay, sfproRounded, sfproText, circularStd }
-
-

@@ -15,7 +15,7 @@ class DepCheckbox extends StatefulWidget {
       required this.value,
       this.activeIcon = const Icon(
         Icons.check,
-        size: 20,
+        size: 12,
         color: white,
       ),
       this.inactiveIcon,
