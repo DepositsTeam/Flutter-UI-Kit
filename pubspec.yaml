@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
   another_flushbar: ^1.12.29
-  form_builder_validators: ^9.1.0
+  form_builder_validators: ^10.0.0
   flutter_form_builder: ^9.1.1
   linear_progress_bar: "^1.1.0"
   fl_chart: ^0.64.0
